@@ -1,0 +1,426 @@
+L 05/16/2020 - 16:11:34: Log file started (file "logs\L0516001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7794")
+L 05/16/2020 - 16:11:34: server_cvar: "sv_alltalk" "3"
+L 05/16/2020 - 16:11:35: Connection to Steam servers successful.
+L 05/16/2020 - 16:11:35:    Public IP is 31.130.42.26.
+L 05/16/2020 - 16:11:35: Assigned anonymous gameserver Steam ID [A-1:3867233284(14745)].
+L 05/16/2020 - 16:11:36: VAC secure mode is activated.
+L 05/16/2020 - 16:11:37: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/16/2020 - 16:11:38: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/16/2020 - 16:11:48: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 05/16/2020 - 16:11:53: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:17: attempt to index global 'rp' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:17
+   2. func - gamemodes/flood/gamemode/utils/sh_nw.lua:257
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 05/16/2020 - 16:13:30: "Nightmare Dilophosaurus<3><STEAM_0:0:183611389><>" connected, address "5.193.2.81:27005"
+L 05/16/2020 - 16:13:30: "Nightmare Dilophosaurus<3><STEAM_0:0:183611389><>" STEAM USERID validated
+L 05/16/2020 - 16:14:03: "Nightmare Dilophosaurus<3><STEAM_0:0:183611389><>" entered the game
+L 05/16/2020 - 16:14:07: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:86: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:86
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:114
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:14:07: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:86: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:86
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:114
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:14:15: "Nightmare Dilophosaurus<3><STEAM_0:0:183611389><Team>" say "hi"
+L 05/16/2020 - 16:14:23: [ULX] Nightmare Dilophosaurus<STEAM_0:0:183611389> spawned model models/props_c17/column02a.mdl
+L 05/16/2020 - 16:14:26: [ULX] Nightmare Dilophosaurus<STEAM_0:0:183611389> spawned NPC npc_monk
+L 05/16/2020 - 16:14:47: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:86: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:86
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:114
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:15:05: "Nightmare Dilophosaurus<3><STEAM_0:0:183611389><>" disconnected (reason "Disconnect by user.")
+L 05/16/2020 - 16:15:09: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:85: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:85
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:113
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:15:51: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:116: 'end' expected (to close 'function' at line 81) near '<eof>'
+  1. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:15:51: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:116: 'end' expected (to close 'function' at line 81) near '<eof>'
+  1. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:16:36: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:77: unexpected symbol near 'local'
+  1. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:18:32: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:85: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:85
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:115
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:18:32: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:85: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:85
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:115
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:18:33: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/shared.lua:85: attempt to call global 'printCol' (a nil value)
+  1. printDebug - gamemodes/flood/gamemode/shared.lua:85
+   2. IncludeCore - gamemodes/flood/gamemode/shared.lua:73
+    3. unknown - gamemodes/flood/gamemode/shared.lua:114
+     4. include - [C]:-1
+      5. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:20:39: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/16/2020 - 16:20:39: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/16/2020 - 16:20:39: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/16/2020 - 16:20:47: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 05/16/2020 - 16:22:03: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:25:34: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:28:03: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:28:05: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:28:39: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:29:02: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:29:12: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:29:28: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:29:54: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:30:04: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:30:17: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:30:34: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:39: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:39
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:30:34: Lua Error: 
+[ERROR] Warning! A net message (Flood.Notify) is already started! Discarding in favor of the new message! (nw_CurrentPhase)
+
+  1. _Send - gamemodes/flood/gamemode/utils/sh_nw.lua:157
+   2. SetGlobal - gamemodes/flood/gamemode/utils/sh_nw.lua:295
+    3. SetPhase - gamemodes/flood/gamemode/core/flood/sv_phases.lua:15
+     4. PhaseContoller - gamemodes/flood/gamemode/core/flood/sv_phases.lua:36
+      5. unknown - gamemodes/flood/gamemode/core/flood/sv_floodcore.lua:12
+
+
+L 05/16/2020 - 16:30:37: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:39: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:39
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:30:37: Lua Error: 
+[ERROR] Warning! A net message (Flood.Notify) is already started! Discarding in favor of the new message! (nw_CurrentPhase)
+
+  1. _Send - gamemodes/flood/gamemode/utils/sh_nw.lua:157
+   2. SetGlobal - gamemodes/flood/gamemode/utils/sh_nw.lua:295
+    3. SetPhase - gamemodes/flood/gamemode/core/flood/sv_phases.lua:15
+     4. PhaseContoller - gamemodes/flood/gamemode/core/flood/sv_phases.lua:36
+      5. unknown - gamemodes/flood/gamemode/core/flood/sv_floodcore.lua:12
+
+
+L 05/16/2020 - 16:30:54: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:39: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:39
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:30:55: Lua Error: 
+[ERROR] Warning! A net message (Flood.Notify) is already started! Discarding in favor of the new message! (nw_CurrentPhase)
+
+  1. _Send - gamemodes/flood/gamemode/utils/sh_nw.lua:157
+   2. SetGlobal - gamemodes/flood/gamemode/utils/sh_nw.lua:295
+    3. SetPhase - gamemodes/flood/gamemode/core/flood/sv_phases.lua:15
+     4. PhaseContoller - gamemodes/flood/gamemode/core/flood/sv_phases.lua:36
+      5. unknown - gamemodes/flood/gamemode/core/flood/sv_floodcore.lua:12
+
+
+L 05/16/2020 - 16:31:05: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:05: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:05: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:05: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:06: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:08: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:08: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:10: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:10: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:11: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:11: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:11: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:11: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:11: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:11: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:12: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:12: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:12: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:12: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:12: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:13: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:13: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:13: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:18: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:18: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:18: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:20: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:20: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:20: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:20: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:23: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:31:23: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:32:02: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:32:05: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:34: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:34
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:32:05: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:34: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:34
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:32:10: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:34: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:34
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:32:15: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:34: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:34
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:32:20: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_player.lua:35: attempt to index global 'self' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/player/sv_player.lua:35
+   2. IncludeServerSide - [C]:-1
+    3. Include - gamemodes/flood/gamemode/shared.lua:36
+     4. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+      5. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+       6. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+        7. unknown - gamemodes/flood/gamemode/shared.lua:116
+         8. include - [C]:-1
+          9. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:32:52: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:33:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:33:27: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:34:02: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:34:17: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:34:27: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:34:38: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:34:44: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:35:56: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:36:00: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:36:04: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:36:08: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:36:13: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:37:14: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:37:35: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:37:47: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:37:54: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:38:16: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:38:26: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:39:30: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:39:45: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:40:34: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:40:46: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:40:59: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:41:00: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:41:14: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:41:17: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:41:27: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+L 05/16/2020 - 16:41:44: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_notifications.lua:13: '=' expected near 'function'
+  1. Include - gamemodes/flood/gamemode/shared.lua:36
+   2. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+    3. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+     4. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+      5. unknown - gamemodes/flood/gamemode/shared.lua:116
+       6. include - [C]:-1
+        7. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:41:45: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_notifications.lua:13: '=' expected near 'function'
+  1. Include - gamemodes/flood/gamemode/shared.lua:36
+   2. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+    3. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+     4. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+      5. unknown - gamemodes/flood/gamemode/shared.lua:116
+       6. include - [C]:-1
+        7. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:41:47: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got function)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - gamemodes/flood/gamemode/core/player/sv_notifications.lua:12
+      5. IncludeServerSide - [C]:-1
+       6. Include - gamemodes/flood/gamemode/shared.lua:36
+        7. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+         8. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+          9. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+           10. unknown - gamemodes/flood/gamemode/shared.lua:116
+            11. include - [C]:-1
+             12. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:41:50: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_notifications.lua:12: function arguments expected near ')'
+  1. Include - gamemodes/flood/gamemode/shared.lua:36
+   2. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+    3. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+     4. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+      5. unknown - gamemodes/flood/gamemode/shared.lua:116
+       6. include - [C]:-1
+        7. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:41:50: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_notifications.lua:12: function arguments expected near ')'
+  1. Include - gamemodes/flood/gamemode/shared.lua:36
+   2. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+    3. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+     4. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+      5. unknown - gamemodes/flood/gamemode/shared.lua:116
+       6. include - [C]:-1
+        7. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:41:55: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/player/sv_notifications.lua:16: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. Notify - gamemodes/flood/gamemode/core/player/sv_notifications.lua:16
+    3. unknown - gamemodes/flood/gamemode/core/player/sv_notifications.lua:12
+     4. IncludeServerSide - [C]:-1
+      5. Include - gamemodes/flood/gamemode/shared.lua:36
+       6. IncludeFolder - gamemodes/flood/gamemode/shared.lua:50
+        7. IncludeFolder - gamemodes/flood/gamemode/shared.lua:55
+         8. IncludeCore - gamemodes/flood/gamemode/shared.lua:70
+          9. unknown - gamemodes/flood/gamemode/shared.lua:116
+           10. include - [C]:-1
+            11. unknown - gamemodes/flood/gamemode/init.lua:14
+
+
+L 05/16/2020 - 16:41:55: Lua Error: 
+[ERROR] Warning! A net message (Flood.Notify) is already started! Discarding in favor of the new message! (nw_CurrentPhase)
+
+  1. _Send - gamemodes/flood/gamemode/utils/sh_nw.lua:157
+   2. SetGlobal - gamemodes/flood/gamemode/utils/sh_nw.lua:295
+    3. SetPhase - gamemodes/flood/gamemode/core/flood/sv_phases.lua:15
+     4. PhaseContoller - gamemodes/flood/gamemode/core/flood/sv_phases.lua:36
+      5. unknown - gamemodes/flood/gamemode/core/flood/sv_floodcore.lua:12
+
+
+L 05/16/2020 - 16:42:07: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 05/16/2020 - 16:42:07: server_message: "quit"
+L 05/16/2020 - 16:42:07: Log file closed.

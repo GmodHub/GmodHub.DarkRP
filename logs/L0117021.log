@@ -1,0 +1,98 @@
+L 01/17/2019 - 05:05:54: Log file started (file "logs\L0117021.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/17/2019 - 05:05:54: server_cvar: "sv_alltalk" "3"
+L 01/17/2019 - 05:05:54: server_cvar: "sv_allowcslua" "1"
+L 01/17/2019 - 05:05:54: server_cvar: "sv_airaccelerate" "1000"
+L 01/17/2019 - 05:05:54: server_cvar: "sv_alltalk" "0"
+L 01/17/2019 - 05:05:55: Connection to Steam servers successful.
+L 01/17/2019 - 05:05:55:    Public IP is 31.130.42.81.
+L 01/17/2019 - 05:05:55: Assigned anonymous gameserver Steam ID [A-1:1752832007(11799)].
+L 01/17/2019 - 05:05:55: VAC secure mode is activated.
+L 01/17/2019 - 05:34:18: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27005"
+L 01/17/2019 - 05:34:19: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/17/2019 - 05:34:48: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/17/2019 - 05:34:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/17/2019 - 05:36:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/17/2019 - 05:36:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/17/2019 - 05:36:07: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "/conquest"
+
+L 01/17/2019 - 05:36:20: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "/conquestfef"
+
+L 01/17/2019 - 05:36:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/17/2019 - 05:36:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/17/2019 - 05:36:34: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:170: attempt to index local 'v' (a nil value)
+  1. HoldTick - addons/[server]_conquest/lua/conquest/server/sv_main.lua:170
+   2. unknown - addons/[server]_conquest/lua/entities/flag_entity/shared.lua:31
+
+
+L 01/17/2019 - 05:36:35: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:170: attempt to index local 'v' (a nil value)
+  1. HoldTick - addons/[server]_conquest/lua/conquest/server/sv_main.lua:170
+   2. unknown - addons/[server]_conquest/lua/entities/flag_entity/shared.lua:31
+
+
+L 01/17/2019 - 05:37:41: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:170: attempt to index local 'v' (a nil value)
+  1. HoldTick - addons/[server]_conquest/lua/conquest/server/sv_main.lua:170
+   2. unknown - addons/[server]_conquest/lua/entities/flag_entity/shared.lua:31
+
+
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/17/2019 - 05:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/17/2019 - 05:37:46: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:170: attempt to index local 'v' (a nil value)
+  1. HoldTick - addons/[server]_conquest/lua/conquest/server/sv_main.lua:170
+   2. unknown - addons/[server]_conquest/lua/entities/flag_entity/shared.lua:31
+
+
+L 01/17/2019 - 05:37:47: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:170: attempt to index local 'v' (a nil value)
+  1. HoldTick - addons/[server]_conquest/lua/conquest/server/sv_main.lua:170
+   2. unknown - addons/[server]_conquest/lua/entities/flag_entity/shared.lua:31
+
+
+L 01/17/2019 - 05:39:03: [FAdmin] Server succesfully shut down.
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 05:39:03: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 05:39:03: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/17/2019 - 05:39:03: server_message: "quit"
+L 01/17/2019 - 05:39:03: Log file closed.

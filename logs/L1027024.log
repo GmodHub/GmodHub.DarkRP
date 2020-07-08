@@ -1,0 +1,318 @@
+L 10/27/2018 - 22:52:51: Log file started (file "logs\L1027024.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/27/2018 - 22:52:51: server_cvar: "sv_alltalk" "3"
+L 10/27/2018 - 22:52:51: server_cvar: "sv_allowcslua" "1"
+L 10/27/2018 - 22:52:51: server_cvar: "sv_airaccelerate" "1000"
+L 10/27/2018 - 22:52:51: server_cvar: "sv_alltalk" "0"
+L 10/27/2018 - 22:52:52: Connection to Steam servers successful.
+L 10/27/2018 - 22:52:52:    Public IP is 31.130.42.81.
+L 10/27/2018 - 22:52:52: Assigned anonymous gameserver Steam ID [A-1:2394458123(11293)].
+L 10/27/2018 - 22:52:53: VAC secure mode is activated.
+L 10/27/2018 - 22:52:55: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/27/2018 - 22:52:55: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/27/2018 - 22:53:04: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/27/2018 - 22:53:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/27/2018 - 22:53:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 10/27/2018 - 22:53:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent duel_npc
+L 10/27/2018 - 22:54:41: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:67: attempt to index field 'ply' (a nil value)
+  1. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:67
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 22:55:14: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:67: attempt to index field 'ply' (a nil value)
+  1. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:67
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 22:56:48: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:68: attempt to index field 'ply' (a nil value)
+  1. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:68
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 22:57:19: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:68: 'then' expected near '.1'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:57:25: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:2: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. sendMessageToPlayer - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:2
+    3. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:69
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 23:00:31: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:80: bad argument #1 to 'SetPos' (Vector expected, got number)
+  1. SetPos - [C]:-1
+   2. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:80
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 23:00:43: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: ')' expected (to close '(' at line 80) near 'end'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:01:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:01:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:01:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:04:38: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: bad argument #1 to 'SetPos' (Vector expected, got table)
+  1. SetPos - [C]:-1
+   2. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 23:07:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:07:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:09:27: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:20: '=' expected near 'end'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:0
+
+
+L 10/27/2018 - 23:09:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:09:59: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index a nil value
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:10:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:10:47: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index a nil value
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:11:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:11:03: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:8: attempt to index a nil value
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:8
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:11:10: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:14: attempt to index a nil value
+  1. RightClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:14
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:250
+
+
+L 10/27/2018 - 23:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:11:33: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index a nil value
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:11:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:11:59: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index a nil value
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:01: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:13: attempt to index a nil value
+  1. RightClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:13
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:250
+
+
+L 10/27/2018 - 23:12:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:04: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index field 'zalypa' (a nil value)
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:08: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index field 'zalypa' (a nil value)
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:09: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index field 'zalypa' (a nil value)
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:09: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index field 'zalypa' (a nil value)
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:23: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index field 'zalypa' (a nil value)
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:25: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7: attempt to index field 'zalypa' (a nil value)
+  1. LeftClick - addons/super-mega-ultra-duel-system2/lua/weapons/gmod_tool/stools/duelpoints.lua:7
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:227
+
+
+L 10/27/2018 - 23:12:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:12:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:13:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 10/27/2018 - 23:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:27:16: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:27:22: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:28:05: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:28:17: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:29:37: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:29:41: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:29:47: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:30:27: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:30:51: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82: attempt to index field 'zalypa' (a nil value)
+  1. func - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:82
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/27/2018 - 23:31:12: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:31:28: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:31:32: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:31:39: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:31:44: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:32:00: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:83: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:32:59: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:84: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:32:59: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:84: '<name>' expected near '['
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:35:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:35:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:35:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:35:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/27/2018 - 23:42:26: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:104: unexpected symbol near ')'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 23:42:59: [FAdmin] Server succesfully shut down.
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 23:42:59: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 23:42:59: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/27/2018 - 23:42:59: server_message: "quit"
+L 10/27/2018 - 23:42:59: Log file closed.

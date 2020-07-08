@@ -1,0 +1,117 @@
+L 01/18/2019 - 01:30:26: Log file started (file "logs\L0118004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/18/2019 - 01:30:26: server_cvar: "sv_alltalk" "3"
+L 01/18/2019 - 01:30:26: server_cvar: "sv_allowcslua" "1"
+L 01/18/2019 - 01:30:26: server_cvar: "sv_airaccelerate" "1000"
+L 01/18/2019 - 01:30:26: server_cvar: "sv_alltalk" "0"
+L 01/18/2019 - 01:30:27: Connection to Steam servers successful.
+L 01/18/2019 - 01:30:27:    Public IP is 31.130.42.81.
+L 01/18/2019 - 01:30:27: Assigned anonymous gameserver Steam ID [A-1:1587854339(11806)].
+L 01/18/2019 - 01:30:28: VAC secure mode is activated.
+L 01/18/2019 - 01:30:29: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/18/2019 - 01:30:29: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/18/2019 - 01:30:30: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_db.lua:42: attempt to call field 'FlagNetworkVars' (a nil value)
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_db.lua:42
+
+
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/18/2019 - 01:30:38: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/18/2019 - 01:30:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/18/2019 - 01:32:14: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:23: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:37: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:39: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:41: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:43: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:45: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:12: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:48: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:19: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:52: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:19: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:58: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:19: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:32:59: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:19: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:33:04: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:19: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:33:14: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:19: unexpected symbol near 'then'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_points.lua:0
+
+
+L 01/18/2019 - 01:33:17: [FAdmin] Server succesfully shut down.
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/18/2019 - 01:33:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/18/2019 - 01:33:17: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/18/2019 - 01:33:17: server_message: "quit"
+L 01/18/2019 - 01:33:17: Log file closed.

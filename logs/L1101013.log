@@ -1,0 +1,312 @@
+L 11/01/2018 - 20:45:43: Log file started (file "logs\L1101013.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 11/01/2018 - 20:45:43: server_cvar: "sv_alltalk" "3"
+L 11/01/2018 - 20:45:43: server_cvar: "sv_allowcslua" "1"
+L 11/01/2018 - 20:45:43: server_cvar: "sv_airaccelerate" "1000"
+L 11/01/2018 - 20:45:43: server_cvar: "sv_alltalk" "0"
+L 11/01/2018 - 20:45:43: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 11/01/2018 - 20:45:44: Connection to Steam servers successful.
+L 11/01/2018 - 20:45:44:    Public IP is 31.130.42.81.
+L 11/01/2018 - 20:45:44: Assigned anonymous gameserver Steam ID [A-1:1320365063(11319)].
+L 11/01/2018 - 20:45:44: VAC secure mode is activated.
+L 11/01/2018 - 20:45:44: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 20:45:52: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:45:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:47:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 20:47:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 20:53:49: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:20: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:54:11: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:24: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:54:43: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:24: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:54:54: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:24: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:55:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:55:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:55:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 20:55:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:55:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:55:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:24: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:55:43: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:24: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:55:58: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:56:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:56:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 20:56:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 20:56:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:56:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:56:57: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:57:09: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:57:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:57:20: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:57:45: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:57:49: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:57:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:58:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:58:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:58:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:58:44: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:58:49: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:58:53: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:58:54: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:23: '=' expected near 'self'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 20:58:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:58:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:59:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 20:59:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:59:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 20:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 20:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 20:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 21:00:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 21:00:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:00:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 11/01/2018 - 21:01:56: [FAdmin] Server succesfully shut down.
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 21:01:56: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 21:01:56: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/01/2018 - 21:01:56: server_message: "quit"
+L 11/01/2018 - 21:01:56: Log file closed.

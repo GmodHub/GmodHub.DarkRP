@@ -1,0 +1,30 @@
+L 02/15/2019 - 23:58:21: Log file started (file "logs\L0215016.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 02/15/2019 - 23:58:21: server_cvar: "sv_alltalk" "3"
+L 02/15/2019 - 23:58:21: server_cvar: "sv_allowcslua" "0"
+L 02/15/2019 - 23:58:21: server_cvar: "sv_allowcslua" "1"
+L 02/15/2019 - 23:58:21: server_cvar: "sv_alltalk" "0"
+L 02/15/2019 - 23:58:53: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 02/15/2019 - 23:58:53: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 02/15/2019 - 23:58:54: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 02/15/2019 - 23:59:47: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 02/15/2019 - 23:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 02/16/2019 - 00:00:42: [FAdmin] Server succesfully shut down.
+L 02/16/2019 - 00:00:42: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 02/16/2019 - 00:00:42: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 02/16/2019 - 00:00:42: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 02/16/2019 - 00:00:42: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 02/16/2019 - 00:00:42: Log file closed.

@@ -1,0 +1,238 @@
+L 01/22/2019 - 01:00:06: Log file started (file "logs\L0122011.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/22/2019 - 01:00:06: server_cvar: "sv_alltalk" "3"
+L 01/22/2019 - 01:00:06: server_cvar: "sv_allowcslua" "1"
+L 01/22/2019 - 01:00:06: server_cvar: "sv_airaccelerate" "1000"
+L 01/22/2019 - 01:00:06: server_cvar: "sv_alltalk" "0"
+L 01/22/2019 - 01:00:06: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/22/2019 - 01:00:06: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/22/2019 - 01:00:06: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/22/2019 - 01:00:06: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/22/2019 - 01:00:08: Connection to Steam servers successful.
+L 01/22/2019 - 01:00:08:    Public IP is 31.130.42.81.
+L 01/22/2019 - 01:00:08: Assigned anonymous gameserver Steam ID [A-1:271820807(11835)].
+L 01/22/2019 - 01:00:08: VAC secure mode is activated.
+L 01/22/2019 - 01:00:11: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/22/2019 - 01:00:11: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/22/2019 - 01:00:20: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/22/2019 - 01:00:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/22/2019 - 01:00:23: "Bot01<3><BOT><>" connected, address "none"
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Spawned for the first time
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Spawned
+L 01/22/2019 - 01:00:23: "Bot01<3><BOT><>" entered the game
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/22/2019 - 01:00:23: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 01:00:26: "Bot02<4><BOT><>" connected, address "none"
+L 01/22/2019 - 01:00:26: [FAdmin] Bot02 (BOT) Spawned for the first time
+L 01/22/2019 - 01:00:26: [FAdmin] Bot02 (BOT) Spawned
+L 01/22/2019 - 01:00:27: "Bot02<4><BOT><>" entered the game
+L 01/22/2019 - 01:00:27: [FAdmin] Bot02 (BOT) Attempted to pick up a keys
+L 01/22/2019 - 01:00:27: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 01:00:27: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_camera
+L 01/22/2019 - 01:00:27: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_tool
+L 01/22/2019 - 01:00:27: [FAdmin] Bot02 (BOT) Attempted to pick up a pocket
+L 01/22/2019 - 01:00:27: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 01:08:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/22/2019 - 01:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/22/2019 - 01:08:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 01/22/2019 - 01:08:29: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/gduels-system/lua/gduel/core/sv_functions.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetdataAll - addons/gduels-system/lua/gduel/core/sv_functions.lua:29
+     4. unknown - addons/gduels-system/lua/entities/duel_npc/init.lua:25
+
+
+L 01/22/2019 - 01:14:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/22/2019 - 01:14:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/22/2019 - 01:30:20: "Блит Фитчелл cs.mone<5><STEAM_0:0:425360000><>" connected, address "192.168.1.102:27005"
+L 01/22/2019 - 01:30:20: "Блит Фитчелл cs.mone<5><STEAM_0:0:425360000><>" STEAM USERID validated
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) is Authed
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Spawned for the first time
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Spawned
+L 01/22/2019 - 01:36:53: "Блит Фитчелл cs.mone<5><STEAM_0:0:425360000><>" entered the game
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a keys
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a gmod_camera
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a gmod_tool
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a pocket
+L 01/22/2019 - 01:36:53: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 01:42:20: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 01/22/2019 - 01:42:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 01/22/2019 - 01:42:21: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/22/2019 - 01:42:21: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/22/2019 - 01:42:30: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/22/2019 - 01:42:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/22/2019 - 01:47:33: Lua Error: 
+[ERROR] addons/gduels-system/lua/entities/duel_npc/init.lua:29: unexpected symbol near 'end'
+  1. unknown - addons/gduels-system/lua/entities/duel_npc/init.lua:0
+
+
+L 01/22/2019 - 01:47:33: Lua Error: 
+[ERROR] addons/gduels-system/lua/entities/duel_npc/init.lua:29: unexpected symbol near 'end'
+  1. unknown - addons/gduels-system/lua/entities/duel_npc/init.lua:0
+
+
+L 01/22/2019 - 01:47:34: Lua Error: 
+[ERROR] addons/gduels-system/lua/entities/duel_npc/init.lua:29: unexpected symbol near 'end'
+  1. unknown - addons/gduels-system/lua/entities/duel_npc/init.lua:0
+
+
+L 01/22/2019 - 01:47:34: Lua Error: 
+[ERROR] addons/gduels-system/lua/entities/duel_npc/init.lua:29: unexpected symbol near 'end'
+  1. unknown - addons/gduels-system/lua/entities/duel_npc/init.lua:0
+
+
+L 01/22/2019 - 01:55:31: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:55:31: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:57:41: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:57:41: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:57:44: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:57:44: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:58:26: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:58:26: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:58:46: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:58:46: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:58:50: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:58:50: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 01:59:12: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:09: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:09: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:13: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:13: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:15: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:21: "Kroki274<7><STEAM_0:1:208116873><>" connected, address "77.82.186.101:27005"
+L 01/22/2019 - 02:00:22: "Kroki274<7><STEAM_0:1:208116873><>" STEAM USERID validated
+L 01/22/2019 - 02:00:31: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:00:31: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: '(' expected near ':'
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:0
+
+
+L 01/22/2019 - 02:01:47: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a weapon_crowbar
+L 01/22/2019 - 02:01:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/22/2019 - 02:02:42: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:205: attempt to call global 'SaveWin' (a nil value)
+  1. fn - addons/gduels-system/lua/gduel/core/sv_functions.lua:205
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/22/2019 - 02:03:21: [FAdmin] Server succesfully shut down.
+L 01/22/2019 - 02:03:21: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 01/22/2019 - 02:03:21: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 01/22/2019 - 02:03:21: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 01/22/2019 - 02:03:21: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 01/22/2019 - 02:03:21: "Kroki274<7><STEAM_0:1:208116873><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:03:21: "Блит Фитчелл cs.mone<5><STEAM_0:0:425360000><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:03:21: "Bot02<4><BOT><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:03:21: "Bot01<3><BOT><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:03:21: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:03:21: server_message: "quit"
+L 01/22/2019 - 02:03:21: Log file closed.

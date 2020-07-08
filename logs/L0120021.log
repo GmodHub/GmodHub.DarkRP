@@ -1,0 +1,357 @@
+L 01/20/2019 - 06:04:37: Log file started (file "logs\L0120021.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/20/2019 - 06:04:37: server_cvar: "sv_alltalk" "3"
+L 01/20/2019 - 06:04:37: server_cvar: "sv_allowcslua" "1"
+L 01/20/2019 - 06:04:37: server_cvar: "sv_airaccelerate" "1000"
+L 01/20/2019 - 06:04:37: server_cvar: "sv_alltalk" "0"
+L 01/20/2019 - 06:04:37: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/20/2019 - 06:04:37: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/20/2019 - 06:04:37: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/20/2019 - 06:04:37: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/20/2019 - 06:04:38: Connection to Steam servers successful.
+L 01/20/2019 - 06:04:38:    Public IP is 31.130.42.81.
+L 01/20/2019 - 06:04:38: Assigned anonymous gameserver Steam ID [A-1:2242875395(11820)].
+L 01/20/2019 - 06:04:38: VAC secure mode is activated.
+L 01/20/2019 - 06:05:00: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/20/2019 - 06:05:01: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 06:05:10: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:05:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:05:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:05:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:11:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:11:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:11:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:11:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:13:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:13:53: "DidVaitel<2><STEAM_0:1:74202541><Gangster>" say "/ebobo"
+
+L 01/20/2019 - 06:14:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:14:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:18:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:18:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:18:47: "DidVaitel<2><STEAM_0:1:74202541><Gangster>" say "/ebobo"
+
+L 01/20/2019 - 06:18:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:18:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:19:59: "DidVaitel<2><STEAM_0:1:74202541><Gangster>" say "/ebobo"
+
+L 01/20/2019 - 06:20:04: "DidVaitel<2><STEAM_0:1:74202541><Gangster>" say "/ebobo"
+
+L 01/20/2019 - 06:20:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:20:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:20:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:20:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:20:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:20:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:20:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:20:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:21:01: "Bot01<3><BOT><>" connected, address "none"
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Spawned for the first time
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Spawned
+L 01/20/2019 - 06:21:01: "Bot01<3><BOT><>" entered the game
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:21:01: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:21:06: [FAdmin] FAdmin: DidVaitel (STEAM_0:1:74202541) teleported Bot01
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) changed from Citizen to Gangster
+L 01/20/2019 - 06:21:10: [FAdmin] DidVaitel set the team of Bot01 to 3
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:21:10: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:21:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) changed from Gangster to Citizen
+L 01/20/2019 - 06:21:48: [FAdmin] DidVaitel set the team of Bot01 to 1
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:21:48: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:22:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:22:15: [FAdmin] DidVaitel set the team of Bot01 to 1
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:22:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:22:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:23:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:23:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) changed from Citizen to Gangster
+L 01/20/2019 - 06:23:21: [FAdmin] DidVaitel set the team of Bot01 to 3
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:23:21: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:23:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) changed from Gangster to Citizen
+L 01/20/2019 - 06:23:56: [FAdmin] DidVaitel set the team of Bot01 to 1
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:23:56: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:24:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) changed from Citizen to Gun Dealer
+L 01/20/2019 - 06:24:18: [FAdmin] DidVaitel set the team of Bot01 to 5
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:24:18: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) changed from Gun Dealer to Gangster
+L 01/20/2019 - 06:24:20: [FAdmin] DidVaitel set the team of Bot01 to 3
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:24:20: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:24:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) changed from Gangster to Citizen
+L 01/20/2019 - 06:24:40: [FAdmin] DidVaitel set the team of Bot01 to 1
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:24:40: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:25:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) changed from Citizen to Gangster
+L 01/20/2019 - 06:25:07: [FAdmin] DidVaitel set the team of Bot01 to 3
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:25:07: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:26:06: "gemini29<4><STEAM_0:1:59598002><>" connected, address "207.161.150.157:27005"
+L 01/20/2019 - 06:26:07: "gemini29<4><STEAM_0:1:59598002><>" STEAM USERID validated
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) changed from Gangster to Citizen
+L 01/20/2019 - 06:26:36: [FAdmin] DidVaitel set the team of Bot01 to 1
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/20/2019 - 06:26:36: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Gangster to Citizen
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 06:27:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 06:27:27: [FAdmin] Bot01 (BOT) changed from Citizen to Gangster
+L 01/20/2019 - 06:27:27: [FAdmin] DidVaitel set the team of Bot01 to 3
+L 01/20/2019 - 06:27:27: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/20/2

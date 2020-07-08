@@ -1,0 +1,212 @@
+L 11/22/2019 - 01:27:53: Log file started (file "logs\L1122003.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/22/2019 - 01:27:53: server_cvar: "sv_alltalk" "3"
+L 11/22/2019 - 01:27:56: Connection to Steam servers successful.
+L 11/22/2019 - 01:27:56:    Public IP is 31.130.42.47.
+L 11/22/2019 - 01:27:56: Assigned anonymous gameserver Steam ID [A-1:570571777(13660)].
+L 11/22/2019 - 01:27:56: VAC secure mode is activated.
+L 11/22/2019 - 01:28:04: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/22/2019 - 01:28:04: server_cvar: "sv_allowcslua" "1"
+L 11/22/2019 - 01:28:04: server_cvar: "sv_airaccelerate" "1000"
+L 11/22/2019 - 01:28:04: server_cvar: "sv_alltalk" "0"
+L 11/22/2019 - 01:28:05: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/22/2019 - 01:28:12: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/22/2019 - 01:28:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/22/2019 - 01:28:38: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:28:45: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:29:45: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:29:45: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:29:45: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:29:45: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:29:45: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:67: bad argument #1 to 'SetModel' (string expected, got nil)
+  1. SetModel - [C]:-1
+   2. SpawnNPC - addons/complex_employer/lua/complex-employer/core/sv_core.lua:67
+    3. fn - addons/complex_employer/lua/complex-employer/core/sv_core.lua:23
+     4. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+      5. CleanUpMap - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/modules/fadmin/fadmin/cleanup/sv_init.lua:26
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/22/2019 - 01:29:45: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:30:17: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:30:17: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:30:17: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:30:17: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:30:17: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:68: bad argument #1 to 'SetModel' (string expected, got nil)
+  1. SetModel - [C]:-1
+   2. SpawnNPC - addons/complex_employer/lua/complex-employer/core/sv_core.lua:68
+    3. fn - addons/complex_employer/lua/complex-employer/core/sv_core.lua:23
+     4. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+      5. CleanUpMap - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/modules/fadmin/fadmin/cleanup/sv_init.lua:26
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/22/2019 - 01:30:17: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:30:29: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:30:29: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:30:29: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:30:29: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:30:29: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:68: bad argument #1 to 'SetModel' (string expected, got nil)
+  1. SetModel - [C]:-1
+   2. SpawnNPC - addons/complex_employer/lua/complex-employer/core/sv_core.lua:68
+    3. fn - addons/complex_employer/lua/complex-employer/core/sv_core.lua:23
+     4. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+      5. CleanUpMap - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/modules/fadmin/fadmin/cleanup/sv_init.lua:26
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/22/2019 - 01:30:29: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:30:48: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:30:48: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:30:48: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:30:48: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:30:48: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:30:49: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/complex_employer/lua/entities/complex_employer/init.lua:49
+
+
+L 11/22/2019 - 01:30:49: Lua Error: [ERROR] Warning! A net message (ComplexEmployer.EmployerMenu) is already started! Discarding in favor of the new message! (ComplexEmployer.EmployerMenu)
+  1. unknown - addons/complex_employer/lua/entities/complex_employer/init.lua:47
+
+L 11/22/2019 - 01:30:49: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/complex_employer/lua/entities/complex_employer/init.lua:49
+
+
+L 11/22/2019 - 01:30:50: Lua Error: [ERROR] Warning! A net message (ComplexEmployer.EmployerMenu) is already started! Discarding in favor of the new message! (ComplexEmployer.EmployerMenu)
+  1. unknown - addons/complex_employer/lua/entities/complex_employer/init.lua:47
+
+L 11/22/2019 - 01:30:50: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/complex_employer/lua/entities/complex_employer/init.lua:49
+
+
+L 11/22/2019 - 01:30:52: Lua Error: [ERROR] Warning! A net message (ComplexEmployer.EmployerMenu) is already started! Discarding in favor of the new message! (DarkRP_PlayerVar)
+  1. setDarkRPVar - gamemodes/darkrp/gamemode/modules/base/sv_entityvars.lua:44
+   2. addMoney - gamemodes/darkrp/gamemode/modules/money/sv_money.lua:10
+    3. callback - gamemodes/darkrp/gamemode/modules/money/sv_money.lua:33
+     4. retrieveSalary - gamemodes/darkrp/gamemode/modules/base/sv_data.lua:418
+      5. payDay - gamemodes/darkrp/gamemode/modules/money/sv_money.lua:25
+       6. unknown - gamemodes/darkrp/gamemode/modules/jobs/sv_jobs.lua:174
+
+L 11/22/2019 - 01:31:22: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:31:22: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:31:22: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:31:22: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:31:22: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:31:22: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/complex_employer/lua/entities/complex_employer/init.lua:49
+
+
+L 11/22/2019 - 01:31:42: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:31:42: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:31:42: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:31:42: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:31:42: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:31:42: Lua Error: [ERROR] Warning! A net message (ComplexEmployer.EmployerMenu) is already started! Discarding in favor of the new message! (FPP_TouchabilityData)
+  1. plySendTouchData - gamemodes/darkrp/gamemode/modules/fpp/pp/server/ownability.lua:274
+   2. onEntitiesCreated - gamemodes/darkrp/gamemode/modules/fpp/pp/server/ownability.lua:351
+    3. unknown - gamemodes/darkrp/gamemode/modules/fpp/pp/server/ownability.lua:360
+
+L 11/22/2019 - 01:32:22: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:32:22: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:32:22: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:32:22: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:32:22: [FAdmin] FAdmin Action: COMPLΞX (STEAM_0:0:105635721) Cleaned up the map
+L 11/22/2019 - 01:35:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:01: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:01: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:17: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to switch noclip
+L 11/22/2019 - 01:36:18: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to switch noclip
+L 11/22/2019 - 01:36:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:30: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:32: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:36:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:01: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:04: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:04: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:04: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:05: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:37:58: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:38:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:38:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:38:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:38:43: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:39:33: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:39:33: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:116: attempt to index field 'Positon' (a nil value)
+  1. RemoveNPC - addons/complex_employer/lua/complex-employer/core/sv_core.lua:116
+   2. Reload - addons/complex_employer/lua/weapons/gmod_tool/stools/complex_employer_tool.lua:61
+    3. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 11/22/2019 - 01:40:10: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:40:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:40:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:40:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:41:39: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:41:53: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:42:24: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:42:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:42:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 01:43:57: [FAdmin] Server succesfully shut down.
+L 11/22/2019 - 01:43:57: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 01:43:57: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 01:43:57: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 01:43:57: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 01:43:57: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 11/22/2019 - 01:43:57: server_message: "quit"
+L 11/22/2019 - 01:43:57: Log file closed.

@@ -1,0 +1,82 @@
+L 10/27/2018 - 21:47:36: Log file started (file "logs\L1027021.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/27/2018 - 21:47:36: server_cvar: "sv_alltalk" "3"
+L 10/27/2018 - 21:47:36: server_cvar: "sv_allowcslua" "1"
+L 10/27/2018 - 21:47:36: server_cvar: "sv_airaccelerate" "1000"
+L 10/27/2018 - 21:47:36: server_cvar: "sv_alltalk" "0"
+L 10/27/2018 - 21:47:38: Connection to Steam servers successful.
+L 10/27/2018 - 21:47:38:    Public IP is 31.130.42.81.
+L 10/27/2018 - 21:47:38: Assigned anonymous gameserver Steam ID [A-1:1430822915(11293)].
+L 10/27/2018 - 21:47:39: VAC secure mode is activated.
+L 10/27/2018 - 21:47:47: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/27/2018 - 21:47:48: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/27/2018 - 21:47:56: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/27/2018 - 21:47:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/27/2018 - 22:30:42: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:57: unexpected symbol near ')'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:30:45: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:57: attempt to call global 'DeclineRequst' (a nil value)
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:57
+
+
+L 10/27/2018 - 22:30:56: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:57: ')' expected near '<eof>'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:33:18: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:62: 'end' expected (to close 'function' at line 55) near '<eof>'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:33:26: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:62: 'end' expected (to close 'function' at line 55) near '<eof>'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:33:28: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:62: 'end' expected (to close 'function' at line 55) near '<eof>'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:33:48: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:59: unexpected symbol near 'end'
+  1. unknown - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:0
+
+
+L 10/27/2018 - 22:49:24: [FAdmin] Server succesfully shut down.
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:49:24: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:49:24: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/27/2018 - 22:49:24: server_message: "quit"
+L 10/27/2018 - 22:49:24: Log file closed.

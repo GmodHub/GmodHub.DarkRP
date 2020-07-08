@@ -1,0 +1,5 @@
+Wed May 13 17:35:53 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed May 13 17:35:53 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Wed May 13 17:43:24 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_duel_npc
+Wed May 13 17:52:31 2020	Bot01 (BOT) has joined the game
+Wed May 13 17:52:31 2020	Bot01 (BOT) spawned

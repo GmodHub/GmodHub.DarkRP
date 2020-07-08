@@ -1,0 +1,369 @@
+L 10/05/2019 - 15:35:14: Log file started (file "logs\L1005000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/05/2019 - 15:35:14: server_cvar: "sv_alltalk" "3"
+L 10/05/2019 - 15:35:15: Connection to Steam servers successful.
+L 10/05/2019 - 15:35:15:    Public IP is 31.130.42.47.
+L 10/05/2019 - 15:35:15: Assigned anonymous gameserver Steam ID [A-1:1188259849(13411)].
+L 10/05/2019 - 15:35:16: VAC secure mode is activated.
+L 10/05/2019 - 15:54:11: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/05/2019 - 15:54:11: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/05/2019 - 15:54:31: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/05/2019 - 16:14:27: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:12: attempt to index global 'v' (a nil value)
+  1. StartGame - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:12
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:114
+    3. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 10/05/2019 - 16:31:05: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:22: unexpected symbol near '='
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:35
+
+
+L 10/05/2019 - 16:31:13: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:24: unexpected symbol near '='
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:35
+
+
+L 10/05/2019 - 16:33:12: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:17: '}' expected (to close '{' at line 15) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:33:12: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:17: '}' expected (to close '{' at line 15) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:35:29: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:28: '}' expected (to close '{' at line 26) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:36:30: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:33: '}' expected (to close '{' at line 31) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:37:23: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:37:32: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:37:36: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:38:13: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:44:08: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:29: 'then' expected near 'end'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:44:08: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:44:08: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:29: 'then' expected near 'end'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:44:08: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:44:50: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:32: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:32: unexpected symbol near '<='
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:32: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:43: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'end'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:43: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:55: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:32: unexpected symbol near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:55: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:58: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'end'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:45:58: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:47:19: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:33: unexpected symbol near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:47:19: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:47:19: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:33: unexpected symbol near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:47:19: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:11: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:11: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:18: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:18: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:21: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:21: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:25: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:25: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:29: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:29: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:39: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:39: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:53: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:36: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:48:53: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:52:52: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:52:52: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:53:23: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:53:23: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:54:50: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:54:50: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:55:07: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:55:07: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:55:50: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:55:50: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:56:56: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:56:56: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near 'horrible'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:57:00: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:57:00: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:16: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:16: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:42: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:42: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:42: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:24: unexpected symbol near '='
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:35
+
+
+L 10/05/2019 - 16:58:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 16:58:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:24: unexpected symbol near '='
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:35
+
+
+L 10/05/2019 - 17:00:05: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 17:00:05: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 17:00:06: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 17:00:06: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_base.lua:39: '}' expected (to close '{' at line 14) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 17:01:11: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:37: 'then' expected near 'condition'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 17:01:51: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/05/2019 - 17:01:51: server_message: "quit"
+L 10/05/2019 - 17:01:51: Log file closed.

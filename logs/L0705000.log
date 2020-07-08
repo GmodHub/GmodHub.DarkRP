@@ -1,0 +1,16 @@
+L 07/05/2020 - 00:05:35: Log file started (file "logs\L0705000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/05/2020 - 00:05:35: server_cvar: "sv_alltalk" "3"
+L 07/05/2020 - 00:05:36: Connection to Steam servers successful.
+L 07/05/2020 - 00:05:36:    Public IP is 31.130.42.26.
+L 07/05/2020 - 00:05:36: Assigned anonymous gameserver Steam ID [A-1:633791488(15092)].
+L 07/05/2020 - 00:05:36: VAC secure mode is activated.
+L 07/05/2020 - 00:07:25: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 00:07:26: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 00:07:38: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 00:09:48: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:162: attempt to index global 'self' (a nil value)
+
+L 07/05/2020 - 00:10:29: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:162: attempt to index global 'self' (a nil value)
+
+L 07/05/2020 - 00:10:37: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/05/2020 - 00:10:37: server_message: "quit"
+L 07/05/2020 - 00:10:37: Log file closed.

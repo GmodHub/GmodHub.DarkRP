@@ -1,0 +1,33 @@
+[21:37:50] New map: gm_construct
+[21:37:56] Client "DidVaitel" connected.
+[21:38:04] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[21:38:31] (Console) добавил DidVaitel в группу superadmin
+
+
+
+[22:03:15] New map: gm_construct
+[22:03:52] Client "DidVaitel" connected.
+[22:04:00] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[22:05:19] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[22:05:22] Client "DidVaitel" connected.
+[22:05:30] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[22:06:18] Client "eLeCtrOssSnake" connected.
+[22:06:39] Client "eLeCtrOssSnake" spawned in server <STEAM_0:1:164666257> (took 21 seconds).
+[22:07:29] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[22:07:29] Client "DidVaitel" connected.
+[22:07:30] Dropped "eLeCtrOssSnake" from server<STEAM_0:1:164666257>
+
+
+
+[22:07:38] New map: gm_construct
+[22:07:39] Client "eLeCtrOssSnake" connected.
+[22:07:48] Client "eLeCtrOssSnake" spawned in server <STEAM_0:1:164666257> (took 9 seconds).
+[22:08:05] Dropped "eLeCtrOssSnake" from server<STEAM_0:1:164666257>
+[22:08:12] Client "DidVaitel" connected.
+[22:08:21] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[22:08:32] Client "eLeCtrOssSnake" connected.
+[22:08:47] Client "eLeCtrOssSnake" spawned in server <STEAM_0:1:164666257> (took 15 seconds).
+[22:09:02] Dropped "eLeCtrOssSnake" from server<STEAM_0:1:164666257>
+[22:09:14] Client "eLeCtrOssSnake" connected.
+[22:09:29] Client "eLeCtrOssSnake" spawned in server <STEAM_0:1:164666257> (took 15 seconds).
+[22:10:57] Dropped "eLeCtrOssSnake" from server<STEAM_0:1:164666257>

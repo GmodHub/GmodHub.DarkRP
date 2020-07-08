@@ -1,0 +1,16 @@
+L 07/05/2020 - 00:10:52: Log file started (file "logs\L0705001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/05/2020 - 00:10:52: server_cvar: "sv_alltalk" "3"
+L 07/05/2020 - 00:10:52: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 00:10:52: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Connection closing")
+L 07/05/2020 - 00:10:52: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 00:10:53: Connection to Steam servers successful.
+L 07/05/2020 - 00:10:53:    Public IP is 31.130.42.26.
+L 07/05/2020 - 00:10:53: Assigned anonymous gameserver Steam ID [A-1:676462600(15092)].
+L 07/05/2020 - 00:10:53: VAC secure mode is activated.
+L 07/05/2020 - 00:10:54: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 00:11:05: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 00:13:00: Lua Error: gamemodes/darkrp/gamemode/cfg/upgrades.lua:60: attempt to concatenate field 'Name' (a nil value)
+
+L 07/05/2020 - 00:16:18: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/05/2020 - 00:16:18: server_message: "quit"
+L 07/05/2020 - 00:16:18: Log file closed.

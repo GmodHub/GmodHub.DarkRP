@@ -1,0 +1,15 @@
+Thu Oct 17 21:28:12 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Thu Oct 17 21:28:12 2019	gosa (STEAM_0:1:74202541) spawned
+Thu Oct 17 21:45:07 2019	gosa (STEAM_0:1:74202541) disconnected
+Thu Oct 17 21:45:37 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Thu Oct 17 21:45:37 2019	gosa (STEAM_0:1:74202541) spawned
+Fri Oct 18 02:29:00 2019	Bot01 (BOT) has joined the game
+Fri Oct 18 02:29:00 2019	Bot01 (BOT) spawned
+Fri Oct 18 02:29:01 2019	Bot02 (BOT) has joined the game
+Fri Oct 18 02:29:01 2019	Bot02 (BOT) spawned
+Fri Oct 18 02:29:01 2019	Bot03 (BOT) has joined the game
+Fri Oct 18 02:29:01 2019	Bot03 (BOT) spawned
+Fri Oct 18 02:29:02 2019	Bot04 (BOT) has joined the game
+Fri Oct 18 02:29:02 2019	Bot04 (BOT) spawned
+Fri Oct 18 02:29:03 2019	Bot05 (BOT) has joined the game
+Fri Oct 18 02:29:03 2019	Bot05 (BOT) spawned

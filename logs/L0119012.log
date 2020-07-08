@@ -1,0 +1,111 @@
+L 01/19/2019 - 23:48:46: Log file started (file "logs\L0119012.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/19/2019 - 23:48:46: server_cvar: "sv_alltalk" "3"
+L 01/19/2019 - 23:48:46: server_cvar: "sv_allowcslua" "1"
+L 01/19/2019 - 23:48:46: server_cvar: "sv_airaccelerate" "1000"
+L 01/19/2019 - 23:48:46: server_cvar: "sv_alltalk" "0"
+L 01/19/2019 - 23:48:46: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:48:46: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:48:46: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:48:46: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:48:46: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/19/2019 - 23:48:46: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" disconnected (reason "Connection closing")
+L 01/19/2019 - 23:48:46: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/19/2019 - 23:48:47: Connection to Steam servers successful.
+L 01/19/2019 - 23:48:47:    Public IP is 31.130.42.81.
+L 01/19/2019 - 23:48:47: Assigned anonymous gameserver Steam ID [A-1:1832266763(11819)].
+L 01/19/2019 - 23:48:47: VAC secure mode is activated.
+L 01/19/2019 - 23:48:47: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 23:48:55: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 23:48:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:49:02: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/19/2019 - 23:49:03: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/19/2019 - 23:49:12: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/19/2019 - 23:49:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:49:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:27: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:27: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:35: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 23:49:51: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 23:49:52: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/19/2019 - 23:49:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_combine/combine_fence01b.mdl
+L 01/19/2019 - 23:49:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:57: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:49:58: [FAdmin] prop_physics(models/props_combine/combine_fence01b.mdl) Got removed
+L 01/19/2019 - 23:49:59: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:50:00: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:50:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:50:03: [FAdmin] Server succesfully shut down.
+L 01/19/2019 - 23:50:03: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/19/2019 - 23:50:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:03: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:50:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:50:04: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/19/2019 - 23:50:04: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 01/19/2019 - 23:50:04: server_message: "quit"
+L 01/19/2019 - 23:50:04: Log file closed.

@@ -1,0 +1,783 @@
+L 07/02/2020 - 22:42:20: Log file started (file "logs\L0702030.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/02/2020 - 22:42:20: server_cvar: "sv_alltalk" "3"
+L 07/02/2020 - 22:42:20: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 22:42:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:42:21: Connection to Steam servers successful.
+L 07/02/2020 - 22:42:21:    Public IP is 31.130.42.26.
+L 07/02/2020 - 22:42:21: Assigned anonymous gameserver Steam ID [A-1:1754047492(15079)].
+L 07/02/2020 - 22:42:22: VAC secure mode is activated.
+L 07/02/2020 - 22:42:22: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/02/2020 - 22:42:31: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/02/2020 - 22:43:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: '=' expected near 'timer'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:74
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:157
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:43:00: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:43:00: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:43:09: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:43:09: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:43:10: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:43:10: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:43:10: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:5: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:5
+
+
+L 07/02/2020 - 22:45:05: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:45:05: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:45:06: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:45:06: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:45:06: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:45:18: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:45:18: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:45:19: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:45:19: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:45:19: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:46:18: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:46:18: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:46:18: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:46:18: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:46:19: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:48:19: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:48:19: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:48:19: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:48:39: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:48:39: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:48:39: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:5: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:5
+
+
+L 07/02/2020 - 22:48:49: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:48:49: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:48:49: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:5: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:5
+
+
+L 07/02/2020 - 22:48:54: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:48:54: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:48:58: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:48:58: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:49:37: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/02/2020 - 22:52:41: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 22:52:41: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/02/2020 - 22:52:58: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/02/2020 - 22:54:22: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:54:22: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 22:56:03: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/jobs.lua:977: attempt to call a nil value
+  1. unknown - gamemodes/darkrp/gamemode/cfg/jobs.lua:977
+   2. IncludeSH - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:193
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 22:56:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/jobs.lua:977: attempt to call a nil value
+  1. unknown - gamemodes/darkrp/gamemode/cfg/jobs.lua:977
+   2. IncludeSH - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:193
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:56:04: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 22:56:20: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:56:21: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:05:34: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:05:35: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:05:45: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/02/2020 - 23:05:46: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 23:05:46: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/02/2020 - 23:05:55: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/02/2020 - 23:12:35: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/02/2020 - 23:12:36: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 23:12:37: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/02/2020 - 23:12:46: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Citizen": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Rapist": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Protester": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Staff on Duty": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Mayor": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Police Chief": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Police": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Mob Boss": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Gangster": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Gun Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Black Market Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Drug Dealer": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Bartender": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Cook": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Doctor": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "DJ": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Cinema Owner": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Casino Owner": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Free Runner": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Thug": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Thief": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Professional Thief": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Anarchist": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hacker": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Rent-A-Cop": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Mercenary": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hobo King": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hobo": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Meth Head": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hitman": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Prostitute": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Pimp": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Banned": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Sit Watcher": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Hotel Manager": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Birthday Squad": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Destruction Elite": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "ʙ o ɴ e s": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "ai": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt team "Spetsnaz": element description is incorrect.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:13:28: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:15:32: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:15:32: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:15:34: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:15:34: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:15:34: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:15:34: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:20:03: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:20:03: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:20:44: STEAMAUTH: Client DidVaitel received failure code 6
+L 07/02/2020 - 23:20:44: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 07/02/2020 - 23:21:18: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 23:21:19: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/02/2020 - 23:21:38: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 07/02/2020 - 23:22:54: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:22:54: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:24:54: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:24:54: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:24:55: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:24:55: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:26:01: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/02/2020 - 23:26:01: server_message: "quit"
+L 07/02/2020 - 23:26:02: Log file closed.

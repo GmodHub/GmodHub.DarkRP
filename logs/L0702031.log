@@ -1,0 +1,40 @@
+L 07/02/2020 - 23:26:17: Log file started (file "logs\L0702031.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/02/2020 - 23:26:17: server_cvar: "sv_alltalk" "3"
+L 07/02/2020 - 23:26:18: Connection to Steam servers successful.
+L 07/02/2020 - 23:26:18:    Public IP is 31.130.42.26.
+L 07/02/2020 - 23:26:18: Assigned anonymous gameserver Steam ID [A-1:3503917060(15079)].
+L 07/02/2020 - 23:26:18: VAC secure mode is activated.
+L 07/02/2020 - 23:26:26: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 23:26:26: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/02/2020 - 23:26:37: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/02/2020 - 23:27:43: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:27:43: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:28:08: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:28:08: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:28:21: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:28:21: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:28:58: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:28:58: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:28:58: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:28:58: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:30:17: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:30:17: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:30:18: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 23:30:18: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 23:31:00: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/02/2020 - 23:31:00: server_message: "quit"
+L 07/02/2020 - 23:31:00: Log file closed.

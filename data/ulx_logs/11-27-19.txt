@@ -1,0 +1,142 @@
+<Logging continued from "data/ulx_logs/11-26-19.txt">
+[00:30:02] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[02:35:39] Client "DidVaitel" connected.
+[02:35:48] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:40:46] Server is shutting down/changing levels.
+
+
+
+[02:40:55] New map: gm_construct
+[02:40:58] Client "DidVaitel" connected.
+[02:41:02] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 4 seconds).
+[02:45:00] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:45:00] Client "DidVaitel" connected.
+[02:45:04] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 4 seconds).
+[03:04:48] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:05:12] Client "DidVaitel" connected.
+[03:05:18] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[03:18:04] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:18:14] Client "DidVaitel" connected.
+[03:18:20] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[03:20:05] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:20:05] Client "DidVaitel" connected.
+[03:20:09] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 4 seconds).
+[03:21:36] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:21:44] Client "DidVaitel" connected.
+[03:21:50] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[03:22:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:23:04] Client "DidVaitel" connected.
+[03:23:10] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[03:28:59] Client "Bot01" connected.
+[03:28:59] Client "Bot01" spawned in server <BOT> (took 2885 seconds).
+[03:29:00] Client "Bot02" connected.
+[03:29:00] Client "Bot02" spawned in server <BOT> (took 2886 seconds).
+[03:29:00] Client "Bot03" connected.
+[03:29:00] Client "Bot03" spawned in server <BOT> (took 2886 seconds).
+[03:29:02] Client "Bot04" connected.
+[03:29:02] Client "Bot04" spawned in server <BOT> (took 2888 seconds).
+[03:30:50] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:30:50] Dropped "Bot01" from server<BOT>
+[03:30:50] Dropped "Bot02" from server<BOT>
+[03:30:50] Dropped "Bot03" from server<BOT>
+[03:30:50] Dropped "Bot04" from server<BOT>
+[03:30:50] Client "DidVaitel" connected.
+[03:30:54] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 4 seconds).
+[03:31:06] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:31:06] Client "DidVaitel" connected.
+[03:31:11] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 5 seconds).
+[03:32:05] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:32:05] Client "DidVaitel" connected.
+[03:32:09] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 4 seconds).
+[03:32:11] Client "Bot05" connected.
+[03:32:11] Client "Bot05" spawned in server <BOT> (took 3077 seconds).
+[03:32:12] Client "Bot06" connected.
+[03:32:12] Client "Bot06" spawned in server <BOT> (took 3078 seconds).
+[03:32:12] Client "Bot07" connected.
+[03:32:12] Client "Bot07" spawned in server <BOT> (took 3078 seconds).
+[03:47:35] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:47:35] Dropped "Bot05" from server<BOT>
+[03:47:35] Dropped "Bot06" from server<BOT>
+[03:47:35] Dropped "Bot07" from server<BOT>
+
+
+
+[04:54:57] New map: rp_desertfury
+[04:56:48] Client "DidVaitel" connected.
+[04:56:58] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[04:58:52] Server is shutting down/changing levels.
+
+
+
+[04:59:00] New map: rp_desertfury
+[04:59:02] Client "DidVaitel" connected.
+[04:59:11] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+
+
+
+[05:06:37] New map: rp_desertfury
+[05:07:01] Client "DidVaitel" connected.
+[05:07:12] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 11 seconds).
+[05:11:52] Server is shutting down/changing levels.
+
+
+
+[05:12:05] New map: rp_desertfury
+[05:12:05] Client "DidVaitel" connected.
+[05:12:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[05:19:48] Server is shutting down/changing levels.
+
+
+
+[05:20:01] New map: rp_desertfury
+[05:20:05] Client "DidVaitel" connected.
+[05:20:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+
+
+
+[18:25:36] New map: rp_desertfury
+[19:58:32] Server is shutting down/changing levels.
+
+
+
+[19:58:43] New map: rp_desertfury
+
+
+
+[22:02:38] New map: rp_desertfury
+[22:05:32] Client "COMPLΞX" connected.
+[22:05:46] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 14 seconds).
+[22:06:32] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:06:33] Client "COMPLΞX" connected.
+[22:06:43] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[22:08:49] COMPLΞX<STEAM_0:0:105635721> spawned model models/props_c17/furniturestove001a.mdl
+[22:29:23] Server is shutting down/changing levels.
+
+
+
+[22:29:38] New map: rp_desertfury
+[22:29:41] Client "COMPLΞX" connected.
+[22:29:52] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 11 seconds).
+[22:30:10] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:30:11] Client "COMPLΞX" connected.
+[22:30:22] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 11 seconds).
+[22:30:49] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:30:49] Client "COMPLΞX" connected.
+[22:31:00] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 11 seconds).
+[22:34:43] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:34:44] Client "COMPLΞX" connected.
+[22:34:54] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[22:35:31] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:35:31] Client "COMPLΞX" connected.
+[22:35:42] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 11 seconds).
+[22:48:29] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:48:30] Client "COMPLΞX" connected.
+[22:48:41] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 11 seconds).
+[22:50:46] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:50:52] Client "COMPLΞX" connected.
+[22:51:03] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 11 seconds).
+[22:53:05] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:54:20] Client "COMPLΞX" connected.
+[22:54:35] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 15 seconds).
+[23:22:32] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+<Logging continued in "data/ulx_logs/11-28-19.txt">

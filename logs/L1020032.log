@@ -1,0 +1,78 @@
+L 10/20/2019 - 19:08:30: Log file started (file "logs\L1020032.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/20/2019 - 19:08:30: server_cvar: "sv_alltalk" "3"
+L 10/20/2019 - 19:08:53: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/20/2019 - 19:08:59: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 10/20/2019 - 19:09:32: Round proper has begun...
+L 10/20/2019 - 19:09:38: 00:05.92 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 48 dmg
+L 10/20/2019 - 19:09:38: 00:06.33 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 48 dmg
+L 10/20/2019 - 19:09:38: 00:06.47 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 24 dmg
+L 10/20/2019 - 19:09:38: 00:06.47 - KILL:	 eLeCtrOssSnake [innocent] killed DidVaitel [traitor]
+L 10/20/2019 - 19:09:39: Round ended.
+L 10/20/2019 - 19:09:39: Result: innocent win.
+L 10/20/2019 - 19:10:01: Round proper has begun...
+L 10/20/2019 - 19:10:16: 00:14.44 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 165 dmg
+L 10/20/2019 - 19:10:16: 00:14.44 - KILL:	 eLeCtrOssSnake [traitor] killed DidVaitel [innocent]
+L 10/20/2019 - 19:10:16: Round ended.
+L 10/20/2019 - 19:10:16: Result: traitors win.
+L 10/20/2019 - 19:10:39: Round proper has begun...
+L 10/20/2019 - 19:10:50: Lua Error: 
+[ERROR] addons/unnamed_guns/lua/weapons/weapon_ttt_rollermine.lua:78: attempt to index a nil value
+  1. DeployRollermine - addons/unnamed_guns/lua/weapons/weapon_ttt_rollermine.lua:78
+   2. oldprimary - addons/unnamed_guns/lua/weapons/weapon_ttt_rollermine.lua:58
+    3. unknown - addons/tttdamagelogs/lua/damagelogs/server/damageinfos.lua:55
+
+
+L 10/20/2019 - 19:10:51: 00:11.64 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 23 dmg
+L 10/20/2019 - 19:10:51: 00:11.79 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 23 dmg
+L 10/20/2019 - 19:10:51: 00:11.85 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 23 dmg
+L 10/20/2019 - 19:10:51: 00:12.11 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 23 dmg
+L 10/20/2019 - 19:10:54: 00:15.31 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 23 dmg
+L 10/20/2019 - 19:10:54: 00:15.31 - KILL:	 eLeCtrOssSnake [innocent] killed DidVaitel [traitor]
+L 10/20/2019 - 19:10:55: Round ended.
+L 10/20/2019 - 19:10:55: Result: innocent win.
+L 10/20/2019 - 19:11:17: Round proper has begun...
+L 10/20/2019 - 19:11:35: 00:17.26 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 30 dmg
+L 10/20/2019 - 19:11:35: 00:17.52 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 8 dmg
+L 10/20/2019 - 19:11:35: 00:17.61 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 8 dmg
+L 10/20/2019 - 19:11:35: 00:17.68 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 8 dmg
+L 10/20/2019 - 19:11:37: 00:19.23 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 20 dmg
+L 10/20/2019 - 19:11:41: 00:23.79 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 20 dmg
+L 10/20/2019 - 19:12:13: 00:55.23 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 61 dmg
+L 10/20/2019 - 19:12:13: 00:55.23 - KILL:	 eLeCtrOssSnake [traitor] killed DidVaitel [innocent]
+L 10/20/2019 - 19:12:13: Round ended.
+L 10/20/2019 - 19:12:13: Result: traitors win.
+L 10/20/2019 - 19:12:36: Round proper has begun...
+L 10/20/2019 - 19:13:13: 00:36.78 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:13:13: 00:37.17 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:13:14: 00:37.99 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 22 dmg
+L 10/20/2019 - 19:13:14: 00:38.45 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 11 dmg
+L 10/20/2019 - 19:13:15: 00:38.57 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 11 dmg
+L 10/20/2019 - 19:13:15: 00:38.77 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:13:15: 00:39.03 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:13:15: 00:39.08 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 14 dmg
+L 10/20/2019 - 19:13:15: 00:39.08 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 14 dmg
+L 10/20/2019 - 19:13:15: 00:39.30 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:13:15: 00:39.40 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 11 dmg
+L 10/20/2019 - 19:13:16: 00:39.49 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 11 dmg
+L 10/20/2019 - 19:13:16: 00:40.04 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 25 dmg
+L 10/20/2019 - 19:13:16: 00:40.46 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 25 dmg
+L 10/20/2019 - 19:13:17: 00:40.58 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 25 dmg
+L 10/20/2019 - 19:13:17: 00:40.58 - KILL:	 DidVaitel [traitor] killed eLeCtrOssSnake [innocent]
+L 10/20/2019 - 19:13:17: Round ended.
+L 10/20/2019 - 19:13:17: Result: traitors win.
+L 10/20/2019 - 19:13:40: Round proper has begun...
+L 10/20/2019 - 19:13:40: 00:00.26 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 12 dmg
+L 10/20/2019 - 19:13:40: 00:00.27 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 11 dmg
+L 10/20/2019 - 19:13:40: 00:00.38 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 12 dmg
+L 10/20/2019 - 19:13:40: 00:00.39 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 11 dmg
+L 10/20/2019 - 19:13:40: 00:00.48 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 11 dmg
+L 10/20/2019 - 19:13:40: 00:00.48 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 11 dmg
+L 10/20/2019 - 19:13:40: 00:00.51 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 21 dmg
+L 10/20/2019 - 19:13:40: 00:00.63 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 21 dmg
+L 10/20/2019 - 19:13:40: 00:00.89 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 12 dmg
+L 10/20/2019 - 19:13:41: 00:01.50 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 21 dmg
+L 10/20/2019 - 19:13:41: 00:01.74 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 12 dmg
+L 10/20/2019 - 19:13:41: 00:01.74 - KILL:	 DidVaitel [innocent] killed eLeCtrOssSnake [traitor]
+L 10/20/2019 - 19:13:42: Round ended.
+L 10/20/2019 - 19:13:42: Result: innocent win.
+L 10/20/2019 - 19:14:16: Log file closed.

@@ -1,0 +1,211 @@
+[01:22:48] New map: gm_flatgrass
+[01:22:51] Client "DidVaitel" connected.
+[01:23:09] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 18 seconds).
+[01:23:36] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_duel_npc
+[01:24:16] Client "Captain Crook [FunMania.Ru]" connected.
+[01:24:42] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:24:42] Client "DidVaitel" connected.
+[01:24:51] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[01:27:10] Client "Captain Crook [FunMania.Ru]" spawned in server <STEAM_0:0:68709943> (took 174 seconds).
+[01:28:41] Captain Crook [FunMania.Ru]: Вроде принял
+[01:28:51] DidVaitel: ща, я точки не поставил
+[01:28:56] DidVaitel killed Captain Crook [FunMania.Ru] using rpg_missile
+[01:29:22] DidVaitel: так, секунду
+[01:30:01] Captain Crook [FunMania.Ru]: Принял
+[01:30:20] DidVaitel: а точно, я забыл ид дуэли кое где ещё поменять
+[01:31:19] Captain Crook [FunMania.Ru]: Принял опять
+[01:31:31] DidVaitel: ага, у тебя почему-то неправильный id дуэли, хмм
+[01:32:46] Captain Crook [FunMania.Ru]: Опять ничего после приянтия
+[01:34:24] Captain Crook [FunMania.Ru]: Принял
+[01:35:38] Captain Crook [FunMania.Ru]: Принял
+[01:36:28] Captain Crook [FunMania.Ru]: Написало, что противник уже в дуэли
+[01:39:29] DidVaitel killed Captain Crook [FunMania.Ru] using player
+[01:39:45] DidVaitel killed Captain Crook [FunMania.Ru] using player
+[01:40:12] DidVaitel: вроде теперь должно работать
+[01:41:56] DidVaitel: ща, я боту отправлю дуэль, и ты попробуешь принять моё приглашение
+[01:42:00] Client "Bot01" connected.
+[01:42:00] Client "Bot01" spawned in server <BOT> (took 1162 seconds).
+[01:42:45] Captain Crook [FunMania.Ru]: !spectate
+[01:43:34] DidVaitel: ща, я думаю как заставить бота принять дуэль
+[01:44:50] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/roboticslarge/claw_hub_8l.mdl
+[01:46:02] DidVaitel: пробуй
+[01:46:08] DidVaitel: пробуй
+[01:46:16] Captain Crook [FunMania.Ru]: Тебе кинуть?
+[01:46:18] DidVaitel: да
+[01:46:37] Captain Crook [FunMania.Ru]: Противник уже в дуэли
+[01:46:56] DidVaitel: пробуй
+[01:47:16] Captain Crook [FunMania.Ru]: Если ты мне и боту пошлешь, будет работать?
+[01:47:25] DidVaitel: ща
+[01:47:46] DidVaitel: так, мне пишет что ты в дуэли
+[01:47:56] Captain Crook [FunMania.Ru]: Мда
+[01:47:58] DidVaitel: а не
+[01:48:02] DidVaitel: это я в дуэли
+[01:48:09] DidVaitel: не удалилась таблица после смерти
+[01:48:32] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/claw.mdl
+[01:48:50] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/roboticslarge/claw_hub_8l.mdl
+[01:50:10] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/l2.mdl
+[01:50:32] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/claw.mdl
+[01:50:35] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/claw2.mdl
+[01:50:43] DidVaitel suicided!
+[01:51:25] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/roboticslarge/claw_hub_8.mdl
+[01:51:31] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/claw.mdl
+[01:52:14] DidVaitel killed Bot01 using player
+[01:52:50] DidVaitel: а, точно, он еррорит из-за бота и поэтому таблица не опустошается
+[01:53:00] DidVaitel: у бота нет статы в базе данных
+[01:53:37] DidVaitel suicided!
+[01:53:40] Captain Crook [FunMania.Ru]: //Может еще одного тестера призовешь?
+[01:54:14] DidVaitel: заработало
+[01:54:23] DidVaitel: я временно удалил сохранение
+[01:54:27] DidVaitel: так что всё окей
+[01:54:52] DidVaitel: Так, сейчас я отправлю тебе приглос и в дуэль с ботом
+[01:55:07] Captain Crook [FunMania.Ru]: Противник в дуэли
+[01:55:08] DidVaitel: упс, забыл убрать авто принятие
+[01:55:12] DidVaitel: это для бота
+[01:55:18] Captain Crook [FunMania.Ru]: Противник в дуэли
+[01:55:31] Captain Crook [FunMania.Ru]: Меня в дуэль без согласия закинуло
+[01:55:43] DidVaitel: да, это из-за бота, я это для него сделал
+[01:55:49] DidVaitel killed Captain Crook [FunMania.Ru] using player
+[01:56:29] Captain Crook [FunMania.Ru]: Противник в дуэли
+[01:56:36] DidVaitel: Ну вот, отлично
+[01:56:54] DidVaitel: У тебя ведь тоже два фонаря?
+[01:57:16] Captain Crook [FunMania.Ru]: Фонарь светит в то место, куда я смотрю, это норм?
+[01:57:21] Captain Crook [FunMania.Ru]: Да, 2 фонаря
+[01:57:34] DidVaitel: Это клиентский фонарь, он не создаёт нагрузки на сервер, и видишь его 
+[01:57:40] DidVaitel: только ты
+[01:58:11] DidVaitel: так, надо было ещё лидербоард поменять
+[02:01:22] DidVaitel: что это
+[02:01:34] Captain Crook [FunMania.Ru]: Я пытаюсь ногу заствить дергаться
+[02:01:39] DidVaitel suicided!
+[02:02:21] DidVaitel: зацени
+[02:02:29] Captain Crook [FunMania.Ru]: Класс
+[02:02:44] Captain Crook [FunMania.Ru] was killed by prop_physics
+[02:03:05] Captain Crook [FunMania.Ru]: Так и живем)
+[02:03:15] DidVaitel: можно ещё и озвучку добавить
+[02:03:21] Captain Crook [FunMania.Ru]: Ух ты
+[02:03:41] DidVaitel: чекай
+[02:04:09] Captain Crook [FunMania.Ru]: По английски зашпарил
+[02:04:17] Captain Crook [FunMania.Ru]: Но не то, что написано
+[02:04:26] DidVaitel: я знаю, гуглбабу не вставлял
+[02:04:59] DidVaitel suicided!
+[02:05:06] Captain Crook [FunMania.Ru] suicided!
+[02:05:10] Captain Crook [FunMania.Ru]: Кек)
+[02:05:15] DidVaitel suicided!
+[02:05:47] DidVaitel was killed by entityflame
+[02:05:53] Captain Crook [FunMania.Ru] was killed by entityflame
+[02:06:04] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[02:06:24] Captain Crook [FunMania.Ru]: Паек из сити17?
+[02:06:26] DidVaitel: да
+[02:06:43] DidVaitel: он хилит
+[02:06:46] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[02:07:02] DidVaitel: это всё - мои аддоны
+[02:07:27] DidVaitel: а это тестовая вещь
+[02:07:36] Captain Crook [FunMania.Ru]: Для баррикад?
+[02:07:42] DidVaitel: А ты откуда знаешь
+[02:07:47] Captain Crook [FunMania.Ru]: Там написано)
+[02:07:56] DidVaitel: где? В оружии?
+[02:08:02] Captain Crook [FunMania.Ru]: Да
+[02:08:19] DidVaitel: ProMT заснул
+[02:08:29] DidVaitel: Как там FunMania кстати поживает?
+[02:08:38] DidVaitel: Последний раз в 2015 заходил
+[02:08:43] Captain Crook [FunMania.Ru]: Вполне, пока держится
+[02:09:24] Captain Crook [FunMania.Ru]: А кто ты, если не Промт?
+[02:09:30] DidVaitel: Я промт
+[02:09:44] Captain Crook [FunMania.Ru]: ладно
+[02:09:55] DidVaitel: /rpname ProMT
+[02:09:55] DidVaitel<STEAM_0:1:74202541> changed their name to ProMT
+[02:10:01] ProMT: Видишь? 
+[02:10:09] Captain Crook [FunMania.Ru]: Один в Один
+[02:10:58] ProMT: !menu
+[02:11:38] Copied IP Address of Captain Crook [FunMania.Ru]
+[02:11:39] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/xfoot.mdl
+[02:11:46] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/a1.mdl
+[02:12:37] ProMT<STEAM_0:1:74202541> spawned sent item_suitcharger
+[02:12:47] ProMT<STEAM_0:1:74202541> spawned sent item_suit
+[02:14:08] ProMT<STEAM_0:1:74202541> spawned sent edit_fog
+[02:14:10] ProMT<STEAM_0:1:74202541> spawned sent edit_sky
+[02:14:12] ProMT<STEAM_0:1:74202541> spawned sent edit_sun
+[02:15:04] ProMT killed Captain Crook [FunMania.Ru] using gmod_dynamite
+[02:15:04] ProMT suicided!
+[02:15:11] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/xfoot.mdl
+[02:15:14] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/mechanics/robotics/a1.mdl
+[02:15:38] Captain Crook [FunMania.Ru] was killed by prop_physics
+[02:15:48] ProMT<STEAM_0:1:74202541> spawned ragdoll models/props_c17/furnituremattress001a.mdl
+[02:16:14] ProMT: !menu
+[02:17:17] ProMT: ждём скрин
+[02:17:24] ProMT: сказал, что сейчас скинет
+[02:20:27] ProMT: Ну у тебя и лицо
+[02:21:29] ProMT<STEAM_0:1:74202541> spawned ragdoll models/alyx.mdl
+[02:22:40] ProMT<STEAM_0:1:74202541> spawned ragdoll models/dog.mdl
+[02:24:35] ProMT: зацени
+[02:25:37] ProMT killed Captain Crook [FunMania.Ru] using player
+[02:27:01] ProMT<STEAM_0:1:74202541> spawned sent ddv_duel_npc
+[02:27:34] Captain Crook [FunMania.Ru]: Почему трастеры не работают?
+[02:27:43] ProMT: не знаю, это дрп
+[02:29:07] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_c17/statue_horse.mdl
+[02:32:05] Captain Crook [FunMania.Ru] killed ProMT using npc_grenade_frag
+[02:32:35] Captain Crook [FunMania.Ru] killed ProMT using player
+[02:32:50] Captain Crook [FunMania.Ru] killed ProMT using player
+[02:34:39] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_c17/streetsign001c.mdl
+[02:35:53] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_phx/construct/metal_plate_curve360.mdl
+[02:36:58] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_phx/construct/metal_plate_curve360.mdl
+[02:37:37] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_phx/construct/metal_dome360.mdl
+[02:38:17] Captain Crook [FunMania.Ru] suicided!
+[02:39:12] Dropped "ProMT" from server<STEAM_0:1:74202541>
+[02:39:13] Client "DidVaitel" connected.
+[02:39:24] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 11 seconds).
+[02:39:33] ProMT<STEAM_0:1:74202541> spawned model models/props_c17/fence02a.mdl
+[02:39:59] Captain Crook [FunMania.Ru] was killed by prop_physics
+[02:40:42] Captain Crook [FunMania.Ru] killed ProMT using gmod_dynamite
+[02:41:16] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_junk/propanecanister001a.mdl
+[02:41:37] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_phx/construct/metal_plate_curve180x2.mdl
+[02:41:44] ProMT: что за пиздец
+[02:41:53] Captain Crook [FunMania.Ru]: А что не так?
+[02:42:26] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/props_phx/construct/metal_wire1x2b.mdl
+[02:42:37] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/tubes/tube1x1x2.mdl
+[02:42:53] ProMT: я щас вернусь
+[02:42:58] Dropped "ProMT" from server<STEAM_0:1:74202541>
+[02:42:59] Client "DidVaitel" connected.
+[02:43:07] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/blocks/cube8x8x8.mdl
+[02:43:09] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[02:43:14] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/blocks/cube8x8x8.mdl
+[02:43:18] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/blocks/cube6x6x6.mdl
+[02:43:22] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/blocks/cube4x4x4.mdl
+[02:43:26] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/blocks/cube2x2x2.mdl
+[02:43:38] Dropped "ProMT" from server<STEAM_0:1:74202541>
+[02:44:29] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/tubes/tubebendoutsidesquare2.mdl
+[02:46:35] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/plates/plate075.mdl
+[02:47:27] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/plates/plate125.mdl
+[02:48:02] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/plates/plate125.mdl
+[02:48:24] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/plates/plate125.mdl
+[02:49:55] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/tubes/tubebendoutsidesquare2.mdl
+[02:52:58] Captain Crook [FunMania.Ru]<STEAM_0:0:68709943> spawned model models/hunter/triangles/2x1x1.mdl
+[02:55:27] Client "DidVaitel" connected.
+[02:55:50] Client "DidVaitel" connected.
+[02:55:57] Client "DidVaitel" connected.
+[02:57:38] Client "DidVaitel" connected.
+[03:00:06] Client "DidVaitel" connected.
+[03:00:23] Client "DidVaitel" connected.
+[03:11:43] Captain Crook [FunMania.Ru] suicided!
+[03:11:51] Dropped "Captain Crook [FunMania.Ru]" from server<STEAM_0:0:68709943>
+[03:11:52] Dropped "Bot01" from server<BOT>
+[03:18:32] Client "DidVaitel" connected.
+[03:18:51] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 19 seconds).
+[03:20:05] Dropped "ProMT" from server<STEAM_0:1:74202541>
+[03:20:06] Client "DidVaitel" connected.
+[03:20:13] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[03:21:04] Dropped "ProMT" from server<STEAM_0:1:74202541>
+
+
+
+[22:01:53] New map: gm_flatgrass
+[22:02:35] Server is shutting down/changing levels.
+
+
+
+[22:07:40] New map: gm_flatgrass
+
+
+
+[22:08:03] New map: gm_flatgrass
+[22:50:30] Client "DidVaitel" connected.
+[22:50:47] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 17 seconds).

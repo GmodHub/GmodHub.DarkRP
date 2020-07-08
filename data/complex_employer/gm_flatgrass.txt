@@ -1,0 +1,1 @@
+[{"Sequence":1.0,"Angles":"{0 0 0}","Position":"[-666.215 172.2278 -12287.9688]","Categories":["Civil Protection"],"Index":"240-12782","Name":"Employer Npc","Model":"models/player/t_guerilla.mdl"}]

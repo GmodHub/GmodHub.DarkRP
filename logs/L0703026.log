@@ -1,0 +1,106 @@
+L 07/03/2020 - 04:04:20: Log file started (file "logs\L0703026.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 04:04:20: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 04:04:20: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 04:04:20: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Connection closing")
+L 07/03/2020 - 04:04:20: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 04:04:21: Connection to Steam servers successful.
+L 07/03/2020 - 04:04:21:    Public IP is 31.130.42.26.
+L 07/03/2020 - 04:04:21: Assigned anonymous gameserver Steam ID [A-1:2133553156(15080)].
+L 07/03/2020 - 04:04:21: VAC secure mode is activated.
+L 07/03/2020 - 04:04:21: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 04:04:30: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 04:04:30: Lua Error: addons/badmin_2/lua/ba/plugins/reserved_slots.lua:5: attempt to compare nil with number
+
+L 07/03/2020 - 04:04:37: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 04:05:37: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 04:05:37: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 04:05:37: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 04:05:58: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 04:05:58: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 04:06:07: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 04:06:07: Lua Error: addons/badmin_2/lua/ba/plugins/reserved_slots.lua:5: attempt to compare nil with number
+
+L 07/03/2020 - 04:06:13: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 04:07:23: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 04:07:23: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 04:07:23: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 04:07:23: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 04:07:24: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 04:07:33: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 04:07:33: Lua Error: addons/badmin_2/lua/ba/plugins/reserved_slots.lua:5: attempt to compare nil with number
+
+L 07/03/2020 - 04:07:39: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 04:07:42: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 04:07:42: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 04:07:42: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 04:08:24: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 04:08:24: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 04:08:24: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 04:11:53: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 04:11:53: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 04:11:53: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 04:16:38: server_message: "quit"
+L 07/03/2020 - 04:16:39: Log file closed.

@@ -1,0 +1,35 @@
+L 01/19/2019 - 23:51:09: Log file started (file "logs\L0119014.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/19/2019 - 23:51:09: server_cvar: "sv_alltalk" "3"
+L 01/19/2019 - 23:51:09: server_cvar: "sv_allowcslua" "1"
+L 01/19/2019 - 23:51:09: server_cvar: "sv_airaccelerate" "1000"
+L 01/19/2019 - 23:51:09: server_cvar: "sv_alltalk" "0"
+L 01/19/2019 - 23:51:09: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:51:09: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:51:09: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:51:09: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:51:11: Connection to Steam servers successful.
+L 01/19/2019 - 23:51:11:    Public IP is 31.130.42.81.
+L 01/19/2019 - 23:51:11: Assigned anonymous gameserver Steam ID [A-1:1957377035(11819)].
+L 01/19/2019 - 23:51:11: VAC secure mode is activated.
+L 01/19/2019 - 23:51:15: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/19/2019 - 23:51:15: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/19/2019 - 23:51:21: [FAdmin] Server succesfully shut down.
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:51:21: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:51:21: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 01/19/2019 - 23:51:21: server_message: "quit"
+L 01/19/2019 - 23:51:21: Log file closed.

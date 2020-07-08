@@ -1,0 +1,49 @@
+<Logging continued from "data/ulx_logs/12-27-19.txt">
+[02:51:54] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:52:49] Client "DidVaitel" connected.
+[02:53:05] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 16 seconds).
+[02:55:37] Server is shutting down/changing levels.
+
+
+
+[02:56:05] New map: gm_construct
+[02:56:52] Client "DidVaitel" connected.
+[02:57:00] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[02:58:05] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:58:06] Client "DidVaitel" connected.
+[02:58:13] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+
+
+
+[22:21:32] New map: gm_construct
+[22:30:32] Client "DidVaitel" connected.
+[22:30:49] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 17 seconds).
+[22:56:15] Server is shutting down/changing levels.
+
+
+
+[22:56:24] New map: gm_construct
+[22:56:45] Server is shutting down/changing levels.
+
+
+
+[22:56:52] New map: gm_construct
+[22:57:41] Server is shutting down/changing levels.
+
+
+
+[22:57:48] New map: gm_construct
+[22:58:24] Server is shutting down/changing levels.
+
+
+
+[22:59:32] New map: gm_construct
+[22:59:32] Client "DidVaitel" connected.
+[22:59:40] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[23:02:39] Server is shutting down/changing levels.
+
+
+
+[23:02:47] New map: gm_construct
+[23:03:05] Client "DidVaitel" connected.
+[23:03:13] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).

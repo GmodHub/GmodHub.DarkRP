@@ -1,0 +1,107 @@
+[05:11:05] New map: gm_construct
+[05:11:06] Client "DidVaitel" connected.
+[05:11:22] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 16 seconds).
+[05:13:13] Client "Bot01" connected.
+[05:13:13] Client "Bot01" spawned in server <BOT> (took 141 seconds).
+[05:13:14] Client "Bot02" connected.
+[05:13:14] Client "Bot02" spawned in server <BOT> (took 142 seconds).
+[05:13:14] Client "Bot03" connected.
+[05:13:14] Client "Bot03" spawned in server <BOT> (took 142 seconds).
+[05:13:15] Client "Bot04" connected.
+[05:13:15] Client "Bot04" spawned in server <BOT> (took 143 seconds).
+[05:13:15] Client "Bot05" connected.
+[05:13:15] Client "Bot05" spawned in server <BOT> (took 143 seconds).
+[05:13:15] Client "Bot06" connected.
+[05:13:15] Client "Bot06" spawned in server <BOT> (took 143 seconds).
+[05:13:16] Client "Bot07" connected.
+[05:13:16] Client "Bot07" spawned in server <BOT> (took 144 seconds).
+[05:13:17] Client "Bot08" connected.
+[05:13:17] Client "Bot08" spawned in server <BOT> (took 145 seconds).
+[05:13:19] Client "Bot09" connected.
+[05:13:19] Client "Bot09" spawned in server <BOT> (took 147 seconds).
+[05:13:19] Client "Bot10" connected.
+[05:13:19] Client "Bot10" spawned in server <BOT> (took 147 seconds).
+[05:13:20] Client "Bot11" connected.
+[05:13:20] Client "Bot11" spawned in server <BOT> (took 148 seconds).
+[05:13:20] Client "Bot12" connected.
+[05:13:20] Client "Bot12" spawned in server <BOT> (took 148 seconds).
+[05:13:20] Client "Bot13" connected.
+[05:13:20] Client "Bot13" spawned in server <BOT> (took 148 seconds).
+[05:13:21] Client "Bot14" connected.
+[05:13:21] Client "Bot14" spawned in server <BOT> (took 149 seconds).
+[05:13:21] Client "Bot15" connected.
+[05:13:21] Client "Bot15" spawned in server <BOT> (took 149 seconds).
+[05:13:21] Client "Bot16" connected.
+[05:13:21] Client "Bot16" spawned in server <BOT> (took 149 seconds).
+[05:13:21] Client "Bot17" connected.
+[05:13:21] Client "Bot17" spawned in server <BOT> (took 149 seconds).
+[05:13:22] Client "Bot18" connected.
+[05:13:22] Client "Bot18" spawned in server <BOT> (took 150 seconds).
+[05:13:22] Client "Bot19" connected.
+[05:13:22] Client "Bot19" spawned in server <BOT> (took 150 seconds).
+[05:13:22] Client "Bot20" connected.
+[05:13:22] Client "Bot20" spawned in server <BOT> (took 150 seconds).
+[05:13:22] Client "Bot21" connected.
+[05:13:22] Client "Bot21" spawned in server <BOT> (took 150 seconds).
+[05:13:23] Client "Bot22" connected.
+[05:13:23] Client "Bot22" spawned in server <BOT> (took 151 seconds).
+[05:13:24] Client "Bot23" connected.
+[05:13:24] Client "Bot23" spawned in server <BOT> (took 152 seconds).
+[05:41:49] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[05:41:49] Dropped "Bot01" from server<BOT>
+[05:41:49] Dropped "Bot02" from server<BOT>
+[05:41:49] Dropped "Bot03" from server<BOT>
+[05:41:49] Dropped "Bot04" from server<BOT>
+[05:41:49] Dropped "Bot05" from server<BOT>
+[05:41:49] Dropped "Bot06" from server<BOT>
+[05:41:49] Dropped "Bot07" from server<BOT>
+[05:41:49] Dropped "Bot08" from server<BOT>
+[05:41:49] Dropped "Bot09" from server<BOT>
+[05:41:49] Dropped "Bot10" from server<BOT>
+[05:41:49] Dropped "Bot11" from server<BOT>
+[05:41:49] Dropped "Bot12" from server<BOT>
+[05:41:49] Dropped "Bot13" from server<BOT>
+[05:41:49] Dropped "Bot14" from server<BOT>
+[05:41:49] Dropped "Bot15" from server<BOT>
+[05:41:49] Dropped "Bot16" from server<BOT>
+[05:41:49] Dropped "Bot17" from server<BOT>
+[05:41:49] Dropped "Bot18" from server<BOT>
+[05:41:49] Dropped "Bot19" from server<BOT>
+[05:41:49] Dropped "Bot20" from server<BOT>
+[05:41:49] Dropped "Bot21" from server<BOT>
+[05:41:49] Dropped "Bot22" from server<BOT>
+[05:41:49] Dropped "Bot23" from server<BOT>
+[05:41:49] Client "DidVaitel" connected.
+[05:41:57] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[05:45:03] Client "Bot24" connected.
+[05:45:03] Client "Bot24" spawned in server <BOT> (took 2051 seconds).
+[05:45:04] Client "Bot25" connected.
+[05:45:04] Client "Bot25" spawned in server <BOT> (took 2052 seconds).
+[05:45:04] Client "Bot26" connected.
+[05:45:04] Client "Bot26" spawned in server <BOT> (took 2052 seconds).
+[05:45:05] Client "Bot27" connected.
+[05:45:05] Client "Bot27" spawned in server <BOT> (took 2053 seconds).
+[05:45:05] Client "Bot28" connected.
+[05:45:05] Client "Bot28" spawned in server <BOT> (took 2053 seconds).
+[05:45:06] Client "Bot29" connected.
+[05:45:06] Client "Bot29" spawned in server <BOT> (took 2054 seconds).
+[05:45:06] Client "Bot30" connected.
+[05:45:06] Client "Bot30" spawned in server <BOT> (took 2054 seconds).
+[05:45:07] Client "Bot31" connected.
+[05:45:07] Client "Bot31" spawned in server <BOT> (took 2055 seconds).
+[05:45:07] Client "Bot32" connected.
+[05:45:07] Client "Bot32" spawned in server <BOT> (took 2055 seconds).
+[05:45:07] Client "Bot33" connected.
+[05:45:07] Client "Bot33" spawned in server <BOT> (took 2055 seconds).
+[05:45:08] Client "Bot34" connected.
+[05:45:08] Client "Bot34" spawned in server <BOT> (took 2056 seconds).
+[05:45:08] Client "Bot35" connected.
+[05:45:08] Client "Bot35" spawned in server <BOT> (took 2056 seconds).
+[05:45:08] Client "Bot36" connected.
+[05:45:08] Client "Bot36" spawned in server <BOT> (took 2056 seconds).
+[05:45:09] Client "Bot37" connected.
+[05:45:09] Client "Bot37" spawned in server <BOT> (took 2057 seconds).
+[05:45:09] Client "Bot38" connected.
+[05:45:09] Client "Bot38" spawned in server <BOT> (took 2057 seconds).
+[05:45:09] Client "Bot39" connected.
+[05:45:09] Client "Bot39" spawned in server <BOT> (took 2057 seconds).

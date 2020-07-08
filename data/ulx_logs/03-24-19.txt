@@ -1,0 +1,3 @@
+[02:45:58] New map: gm_construct
+[02:47:20] Client "DidVaitel" connected.
+[02:47:34] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).

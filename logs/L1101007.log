@@ -1,0 +1,145 @@
+L 11/01/2018 - 18:34:35: Log file started (file "logs\L1101007.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 11/01/2018 - 18:34:35: server_cvar: "sv_alltalk" "3"
+L 11/01/2018 - 18:34:35: server_cvar: "sv_allowcslua" "1"
+L 11/01/2018 - 18:34:35: server_cvar: "sv_airaccelerate" "1000"
+L 11/01/2018 - 18:34:35: server_cvar: "sv_alltalk" "0"
+L 11/01/2018 - 18:34:37: Connection to Steam servers successful.
+L 11/01/2018 - 18:34:37:    Public IP is 31.130.42.81.
+L 11/01/2018 - 18:34:37: Assigned anonymous gameserver Steam ID [A-1:3565865987(11318)].
+L 11/01/2018 - 18:34:37: VAC secure mode is activated.
+L 11/01/2018 - 18:35:04: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 11/01/2018 - 18:35:04: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 18:35:12: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 18:35:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 18:35:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 18:35:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 18:35:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 11/01/2018 - 18:35:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 18:35:43: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:25: attempt to call method 'ChatPrint' (a nil value)
+  1. BeHulk - addons/superherosweps/lua/weapons/hulk/init.lua:25
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:11
+
+
+L 11/01/2018 - 18:35:50: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/ironman/shared.lua:54: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/ironman/shared.lua:54
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:35:50: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/superman/init.lua:335: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/superman/init.lua:335
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:36:11: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/ironman/shared.lua:54: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/ironman/shared.lua:54
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:36:11: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/superman/init.lua:335: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/superman/init.lua:335
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:36:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/ironman/shared.lua:54: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/ironman/shared.lua:54
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:36:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/superman/init.lua:335: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/superman/init.lua:335
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:39:45: Lua Error: [AddCSLuaFile] Couldn't find 'weapons/ironman/cl_init.lua' (<nowhere>)
+
+L 11/01/2018 - 18:39:45: Lua Error: [AddCSLuaFile] Couldn't find 'cl_init.lua' (@addons/superherosweps/lua/weapons/ironman/init.lua (line 1))
+
+L 11/01/2018 - 18:39:45: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/ironman/shared.lua:69: 'end' expected (to close 'function' at line 47) near 'if'
+  1. unknown - addons/superherosweps/lua/weapons/ironman/shared.lua:0
+
+
+L 11/01/2018 - 18:39:53: Lua Error: [AddCSLuaFile] Couldn't find 'weapons/ironman/cl_init.lua' (<nowhere>)
+
+L 11/01/2018 - 18:39:53: Lua Error: [AddCSLuaFile] Couldn't find 'cl_init.lua' (@addons/superherosweps/lua/weapons/ironman/init.lua (line 1))
+
+L 11/01/2018 - 18:40:01: Lua Error: [AddCSLuaFile] Couldn't find 'weapons/ironman/cl_init.lua' (<nowhere>)
+
+L 11/01/2018 - 18:40:01: Lua Error: [AddCSLuaFile] Couldn't find 'cl_init.lua' (@addons/superherosweps/lua/weapons/ironman/init.lua (line 1))
+
+L 11/01/2018 - 18:40:15: Lua Error: [AddCSLuaFile] Couldn't find 'weapons/ironman/cl_init.lua' (<nowhere>)
+
+L 11/01/2018 - 18:40:15: Lua Error: [AddCSLuaFile] Couldn't find 'cl_init.lua' (@addons/superherosweps/lua/weapons/ironman/init.lua (line 1))
+
+L 11/01/2018 - 18:40:34: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/cptamerica/init.lua:160: ')' expected (to close '(' at line 156) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/cptamerica/init.lua:0
+
+
+L 11/01/2018 - 18:40:47: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/cptamerica/init.lua:160: ')' expected (to close '(' at line 156) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/cptamerica/init.lua:0
+
+
+L 11/01/2018 - 18:41:04: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/cptamerica/init.lua:160: ')' expected (to close '(' at line 156) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/cptamerica/init.lua:0
+
+
+L 11/01/2018 - 18:41:53: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/blackpanther/init.lua:167: ')' expected (to close '(' at line 163) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/blackpanther/init.lua:0
+
+
+L 11/01/2018 - 18:42:03: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/blackpanther/init.lua:167: ')' expected (to close '(' at line 163) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/blackpanther/init.lua:0
+
+
+L 11/01/2018 - 18:42:53: [FAdmin] Server succesfully shut down.
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:42:53: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:42:53: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/01/2018 - 18:42:54: server_message: "quit"
+L 11/01/2018 - 18:42:54: Log file closed.

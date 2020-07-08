@@ -1,0 +1,209 @@
+L 07/03/2020 - 07:33:50: Log file started (file "logs\L0703031.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 07:33:50: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 07:33:51: Connection to Steam servers successful.
+L 07/03/2020 - 07:33:51:    Public IP is 31.130.42.26.
+L 07/03/2020 - 07:33:51: Assigned anonymous gameserver Steam ID [A-1:2063865856(15081)].
+L 07/03/2020 - 07:33:51: VAC secure mode is activated.
+L 07/03/2020 - 07:34:00: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 07:34:00: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 07:34:10: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 07:34:16: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 07:38:02: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+L 07/03/2020 - 07:39:12: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "ff"
+L 07/03/2020 - 07:39:52: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "ааааааааааааааааааааааааааааааааааааааааааааа"
+L 07/03/2020 - 07:40:01: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "авав аваывавы ыва ыва ываы ваыв"
+L 07/03/2020 - 07:40:23: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "�а�"
+L 07/03/2020 - 07:40:33: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "Penis РП"
+L 07/03/2020 - 07:41:52: "DidVaitel<2><STEAM_0:1:74202541><Team>" say_team "tdfdfdf"
+L 07/03/2020 - 07:43:22: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 07:43:22: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 07:43:22: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 07:43:23: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 07:43:23: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 07:43:33: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 07:43:40: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 07:45:15: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "fdfd"
+L 07/03/2020 - 07:45:42: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "fd"
+L 07/03/2020 - 08:14:35: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/logging/logs_sv.lua:37: attempt to call field 'GetStaff' (a nil value)
+  1. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:37
+   2. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:21
+    3. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+      5. Kill - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/core/commands/sv_init.lua:16
+
+
+L 07/03/2020 - 08:14:40: Lua Error: 
+[ERROR] Warning! A net message (ba.LogPrint) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/03/2020 - 08:38:42: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 08:38:42: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 08:38:42: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 08:38:50: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 08:38:50: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 08:39:00: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 08:39:05: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 08:49:18: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "fdf"
+L 07/03/2020 - 08:58:40: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:96: attempt to index field 'fadingdoor' (a nil value)
+  1. LeftClick - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:96
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:250
+
+
+L 07/03/2020 - 09:00:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80
+   2. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:291
+    3. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:62
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/03/2020 - 09:00:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:182
+
+
+L 07/03/2020 - 09:00:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94
+   2. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:291
+    3. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:62
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/03/2020 - 09:00:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:182
+
+
+L 07/03/2020 - 09:00:11: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58
+   2. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:291
+    3. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:62
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/03/2020 - 09:00:11: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:182
+
+
+L 07/03/2020 - 09:03:06: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "f")
+L 07/03/2020 - 09:03:06: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 09:03:06: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 09:05:18: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 09:05:18: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 09:05:28: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 09:05:33: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 09:07:25: Lua Error: Couldn't include file 'darkrp\gamemode\util\questions\questions_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 43))
+
+L 07/03/2020 - 09:07:25: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 09:07:25: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 09:07:25: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 09:07:25: STEAMAUTH: Client DidVaitel received failure code 6
+L 07/03/2020 - 09:07:25: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 07/03/2020 - 09:07:25: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:422: attempt to call method 'DoorOwnedBy' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:422
+
+
+L 07/03/2020 - 09:07:25: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 09:07:26: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 09:07:35: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 09:07:56: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 09:07:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:422: attempt to call method 'DoorOwnedBy' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:422
+
+
+L 07/03/2020 - 09:07:57: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 09:07:57: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 09:08:06: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 09:15:43: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 09:15:43: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:422: attempt to call method 'DoorOwnedBy' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:422
+
+
+L 07/03/2020 - 09:15:44: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 09:15:44: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 09:15:54: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 09:17:08: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/03/2020 - 09:17:08: server_message: "quit"
+L 07/03/2020 - 09:17:08: Log file closed.

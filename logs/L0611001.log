@@ -1,0 +1,1387 @@
+L 06/11/2020 - 04:01:04: Log file started (file "logs\L0611001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 06/11/2020 - 04:01:04: server_cvar: "sv_alltalk" "3"
+L 06/11/2020 - 04:01:04: server_cvar: "sbox_noclip" "0"
+L 06/11/2020 - 04:01:04: server_cvar: "sv_allowcslua" "1"
+L 06/11/2020 - 04:01:04: server_cvar: "sv_airaccelerate" "1000"
+L 06/11/2020 - 04:01:04: server_cvar: "sv_alltalk" "0"
+L 06/11/2020 - 04:01:05: Connection to Steam servers successful.
+L 06/11/2020 - 04:01:05:    Public IP is 31.130.42.26.
+L 06/11/2020 - 04:01:05: Assigned anonymous gameserver Steam ID [A-1:1672512520(14920)].
+L 06/11/2020 - 04:01:06: VAC secure mode is activated.
+L 06/11/2020 - 04:04:13: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 06/11/2020 - 04:04:14: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 06/11/2020 - 04:04:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 04:04:34: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 04:04:34: [FAdmin] ProMT (STEAM_0:1:74202541) is Authed
+L 06/11/2020 - 04:33:32: [FAdmin] ProMT (STEAM_0:1:74202541) Spawned a models/props_junk/garbage_newspaper001a.mdl
+L 06/11/2020 - 04:40:48: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 06/11/2020 - 04:40:48: [FAdmin] ProMT (STEAM_0:1:74202541) Disconnected
+L 06/11/2020 - 04:42:48: [FAdmin] prop_physics(models/props_junk/garbage_newspaper001a.mdl) Got removed
+L 06/11/2020 - 04:57:16: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 06/11/2020 - 04:57:16: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 06/11/2020 - 04:57:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 04:57:27: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 04:57:27: [FAdmin] ProMT (STEAM_0:1:74202541) is Authed
+L 06/11/2020 - 04:58:44: [FAdmin] ProMT (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 04:58:44: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 05:04:27: [FAdmin] ProMT (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:04:38: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to use tool camera
+L 06/11/2020 - 05:05:23: [FAdmin] ProMT (STEAM_0:1:74202541) Got killed by ProMT with a player
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 05:05:24: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 05:05:26: [FAdmin] ProMT (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:05:26: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 05:05:28: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 05:05:29: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 05:05:49: [FAdmin] ProMT (STEAM_0:1:74202541) Got killed by ProMT with a player
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 05:05:50: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 05:05:52: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to use tool camera
+L 06/11/2020 - 05:05:55: [FAdmin] ProMT (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:05:55: [FAdmin] ProMT (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 05:09:46: "ProMT<3><STEAM_0:1:74202541><Citizen>" say "/rename DidVaitel"
+
+L 06/11/2020 - 05:09:51: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "/name DidVaitel"
+
+L 06/11/2020 - 05:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:16:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 06/11/2020 - 05:16:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 05:16:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 05:16:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:16:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 05:17:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 05:17:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 05:17:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:17:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 05:27:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 05:27:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 05:27:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:27:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 05:27:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 05:27:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 05:29:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 05:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 05:29:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 05:29:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:25:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:25:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:25:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:25:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:25:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:26:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:26:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:26:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:26:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:26:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:26:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:26:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:26:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:26:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:26:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:27:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:27:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:27:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:27:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:31:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:31:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/didvaitel/rust_hammer.mdl
+L 06/11/2020 - 07:31:30: [FAdmin] prop_physics(models/didvaitel/rust_hammer.mdl) Got removed
+L 06/11/2020 - 07:31:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:31:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:31:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:31:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:32:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:32:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:32:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:32:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:32:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:32:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:32:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:32:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:32:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:33:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:33:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:33:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:33:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:33:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:33:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:33:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:36:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:36:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:36:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:36:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:37:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:37:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:37:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:37:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/didvaitel/rust_hammer.mdl
+L 06/11/2020 - 07:37:24: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "fdf"
+
+L 06/11/2020 - 07:37:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:37:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:38:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:38:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:39:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:39:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:39:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:39:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:39:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:39:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:39:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:39:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:41:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:41:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:42:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:42:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:42:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:42:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:43:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:43:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:43:33: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:77: '=' expected near 'self'
+
+
+L 06/11/2020 - 07:43:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:43:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:43:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:43:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:44:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:44:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:44:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:44:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:44:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/consolebox01a.mdl
+L 06/11/2020 - 07:44:17: [FAdmin] prop_physics(models/props_c17/consolebox01a.mdl) Got removed
+L 06/11/2020 - 07:44:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:44:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:45:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:45:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:45:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:45:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:45:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:45:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:45:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:45:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:45:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:45:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:45:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:45:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:45:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:45:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:45:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:45:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:46:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:46:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:46:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:46:29: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:62: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:62
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:46:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:46:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:46:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:48:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:48:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/consolebox01a.mdl
+L 06/11/2020 - 07:48:26: [FAdmin] prop_physics(models/props_c17/consolebox01a.mdl) Got removed
+L 06/11/2020 - 07:48:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:48:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:48:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:48:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:48:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:48:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:48:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:48:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:48:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:48:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:48:55: server_cvar: "sv_cheats" "1"
+L 06/11/2020 - 07:48:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:49:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:49:03: [FAdmin] prop_physics(models/didvaitel/rust_hammer.mdl) Got removed
+L 06/11/2020 - 07:49:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:49:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:49:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:49:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:50:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:50:27: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:50:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:50:40: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:51:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:51:27: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:51:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:51:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:51:33: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:51:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:52:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:52:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:52:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:52:22: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:52:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:52:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:52:47: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78: Tried to use a NULL entity!
+  1. LookupAttachment - [C]:-1
+   2. SetupProp - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:78
+    3. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:56
+     4. Give - [C]:-1
+      5. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+       6. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 07:52:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:55:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:55:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:55:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:55:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:55:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:56:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:56:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:57:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:57:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 07:58:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:58:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 06/11/2020 - 07:58:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:58:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:58:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:58:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 07:59:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 07:59:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/didvaitel/rust_hammer.mdl
+L 06/11/2020 - 07:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 07:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:00:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:00:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:00:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:00:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:00:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:00:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:01:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:01:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:01:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:02:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:02:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:02:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:02:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:02:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:02:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:03:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:03:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:03:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:03:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:03:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:03:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:03:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:03:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:03:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:04:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:04:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:04:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:04:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:04:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:04:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:04:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:04:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:04:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 08:05:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 08:05:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:05:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:05:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:05:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:05:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:05:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:05:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:05:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:05:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:05:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:11:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:11:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:11:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:11:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:11:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:11:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:13:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:13:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:13:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:13:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:13:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:13:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:13:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:13:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:13:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:13:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:13:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:15:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_grenade.mdl
+L 06/11/2020 - 08:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/w_spade.mdl
+L 06/11/2020 - 08:15:12: [FAdmin] prop_physics(models/weapons/w_spade.mdl) Got removed
+L 06/11/2020 - 08:15:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:15:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:15:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:15:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:15:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:15:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_crowbar.mdl
+L 06/11/2020 - 08:15:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:15:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:16:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_stunstick.mdl
+L 06/11/2020 - 08:16:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:16:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_superphyscannon.mdl
+L 06/11/2020 - 08:16:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:16:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:16:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:16:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:16:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/w_eq_flashbang.mdl
+L 06/11/2020 - 08:17:33: [FAdmin] prop_physics(models/weapons/w_eq_flashbang.mdl) Got removed
+L 06/11/2020 - 08:18:18: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 06/11/2020 - 08:18:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 06/11/2020 - 08:20:18: [FAdmin] prop_physics(models/didvaitel/rust_hammer.mdl) Got removed
+L 06/11/2020 - 08:21:34: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 06/11/2020 - 08:21:34: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:21:44: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:21:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 06/11/2020 - 08:22:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:22:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:22:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:22:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:22:45: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:69
+      5. Give - [C]:-1
+       6. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 08:22:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:24:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:24:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:24:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:24:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:24:08: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:69
+      5. Give - [C]:-1
+       6. unknown - gamemodes/sandbox/gamemode/commands.lua:810
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 06/11/2020 - 08:24:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:24:55: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 06/11/2020 - 08:24:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 06/11/2020 - 08:28:03: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 06/11/2020 - 08:28:03: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 08:28:20: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 08:28:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 06/11/2020 - 08:29:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 08:29:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 08:42:03: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:54: unfinished string near '"ValveBiped.Bip01_R_Hand'
+
+
+L 06/11/2020 - 08:43:23: Lua Error: 
+[ERROR] addons/barricades/lua/weapons/ddv_barricade_builder/shared.lua:69: unfinished string near '"ValveBiped.Bip01_R_Hand)))'
+
+
+L 06/11/2020 - 10:15:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_superphyscannon.mdl
+L 06/11/2020 - 10:15:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_physcannon.mdl
+L 06/11/2020 - 10:15:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_toolgun.mdl
+L 06/11/2020 - 10:15:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_slam.mdl
+L 06/11/2020 - 10:16:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_superphyscannon.mdl
+L 06/11/2020 - 10:16:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_toolgun.mdl
+L 06/11/2020 - 10:16:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_physcannon.mdl
+L 06/11/2020 - 10:16:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_arms_dod.mdl
+L 06/11/2020 - 10:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_arms_cstrike.mdl
+L 06/11/2020 - 10:16:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_arms_chell.mdl
+L 06/11/2020 - 10:16:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_357.mdl
+L 06/11/2020 - 10:16:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_arms.mdl
+L 06/11/2020 - 10:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 10:17:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 10:17:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 06/11/2020 - 10:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 10:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 10:17:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 10:17:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 10:17:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_bugbait.mdl
+L 06/11/2020 - 10:17:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_crossbow.mdl
+L 06/11/2020 - 10:17:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/c_stunstick.mdl
+L 06/11/2020 - 10:18:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_stunstick.mdl
+L 06/11/2020 - 10:18:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_slam.mdl
+L 06/11/2020 - 10:18:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/weapons/v_stunstick.mdl
+L 06/11/2020 - 10:19:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 10:19:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 10:19:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 10:19:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 10:19:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 06/11/2020 - 10:19:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 06/11/2020 - 10:19:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a ddv_barricade_builder
+L 06/11/2020 - 10:19:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a ddv_barricade_builder
+L 06/11/2020 - 10:32:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 06/11/2020 - 10:32:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempte

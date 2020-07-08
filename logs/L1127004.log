@@ -1,0 +1,24 @@
+L 11/27/2019 - 05:12:05: Log file started (file "logs\L1127004.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/27/2019 - 05:12:05: server_cvar: "sv_alltalk" "3"
+L 11/27/2019 - 05:12:05: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 11/27/2019 - 05:12:06: Connection to Steam servers successful.
+L 11/27/2019 - 05:12:06:    Public IP is 31.130.42.47.
+L 11/27/2019 - 05:12:06: Assigned anonymous gameserver Steam ID [A-1:1769073673(13686)].
+L 11/27/2019 - 05:12:06: VAC secure mode is activated.
+L 11/27/2019 - 05:12:07: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/27/2019 - 05:12:14: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 11/27/2019 - 05:19:42: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 05:19:42: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 05:19:42: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 05:19:42: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 05:19:42: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 05:19:42: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 05:19:48: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/27/2019 - 05:19:49: server_message: "quit"
+L 11/27/2019 - 05:19:49: Log file closed.

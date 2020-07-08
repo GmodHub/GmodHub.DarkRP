@@ -1,0 +1,184 @@
+Fri May 15 01:23:09 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Fri May 15 01:23:09 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:23:36 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_duel_npc
+Fri May 15 01:24:42 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Fri May 15 01:24:51 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Fri May 15 01:24:51 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:27:10 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) has joined the game
+Fri May 15 01:27:10 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 01:28:18 2020	Console set Captain Crook [FunMania.Ru]'s money to $555,555
+Fri May 15 01:28:20 2020	Console set Captain Crook [FunMania.Ru]'s money to $555,555,555,555
+Fri May 15 01:28:41 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Вроде принял
+Fri May 15 01:28:51 2020	DidVaitel (STEAM_0:1:74202541): ща, я точки не поставил
+Fri May 15 01:28:56 2020	Captain Crook [FunMania.Ru] was killed by DidVaitel with a rpg_missile
+Fri May 15 01:28:58 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 01:29:22 2020	DidVaitel (STEAM_0:1:74202541): так, секунду
+Fri May 15 01:30:01 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Принял
+Fri May 15 01:30:20 2020	DidVaitel (STEAM_0:1:74202541): а точно, я забыл ид дуэли кое где ещё поменять
+Fri May 15 01:31:19 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Принял опять
+Fri May 15 01:31:31 2020	DidVaitel (STEAM_0:1:74202541): ага, у тебя почему-то неправильный id дуэли, хмм
+Fri May 15 01:32:46 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Опять ничего после приянтия
+Fri May 15 01:34:24 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Принял
+Fri May 15 01:35:38 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Принял
+Fri May 15 01:36:28 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Написало, что противник уже в дуэли
+Fri May 15 01:39:29 2020	Captain Crook [FunMania.Ru] was killed by DidVaitel with a weapon_physgun
+Fri May 15 01:39:29 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 01:39:45 2020	Captain Crook [FunMania.Ru] was killed by DidVaitel with a weapon_physgun
+Fri May 15 01:39:45 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 01:40:12 2020	DidVaitel (STEAM_0:1:74202541): вроде теперь должно работать
+Fri May 15 01:41:56 2020	DidVaitel (STEAM_0:1:74202541): ща, я боту отправлю дуэль, и ты попробуешь принять моё приглашение
+Fri May 15 01:42:00 2020	Bot01 (BOT) has joined the game
+Fri May 15 01:42:00 2020	Bot01 (BOT) spawned
+Fri May 15 01:42:45 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): 
+Fri May 15 01:43:34 2020	DidVaitel (STEAM_0:1:74202541): ща, я думаю как заставить бота принять дуэль
+Fri May 15 01:46:02 2020	DidVaitel (STEAM_0:1:74202541): пробуй
+Fri May 15 01:46:08 2020	DidVaitel (STEAM_0:1:74202541): пробуй
+Fri May 15 01:46:16 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Тебе кинуть?
+Fri May 15 01:46:18 2020	DidVaitel (STEAM_0:1:74202541): да
+Fri May 15 01:46:37 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Противник уже в дуэли
+Fri May 15 01:46:52 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:46:56 2020	DidVaitel (STEAM_0:1:74202541): пробуй
+Fri May 15 01:47:16 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Если ты мне и боту пошлешь, будет работать?
+Fri May 15 01:47:25 2020	DidVaitel (STEAM_0:1:74202541): ща
+Fri May 15 01:47:46 2020	DidVaitel (STEAM_0:1:74202541): так, мне пишет что ты в дуэли
+Fri May 15 01:47:56 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Мда
+Fri May 15 01:47:58 2020	DidVaitel (STEAM_0:1:74202541): а не
+Fri May 15 01:48:02 2020	DidVaitel (STEAM_0:1:74202541): это я в дуэли
+Fri May 15 01:48:09 2020	DidVaitel (STEAM_0:1:74202541): не удалилась таблица после смерти
+Fri May 15 01:49:36 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:50:44 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:52:14 2020	Bot01 (BOT) spawned
+Fri May 15 01:52:50 2020	DidVaitel (STEAM_0:1:74202541): а, точно, он еррорит из-за бота и поэтому таблица не опустошается
+Fri May 15 01:53:00 2020	DidVaitel (STEAM_0:1:74202541): у бота нет статы в базе данных
+Fri May 15 01:53:37 2020	DidVaitel was killed by Himself with a suicide trick
+Fri May 15 01:53:37 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:53:37 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:53:38 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:53:38 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:53:38 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:53:40 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): //Может еще одного тестера призовешь?
+Fri May 15 01:54:14 2020	DidVaitel (STEAM_0:1:74202541): заработало
+Fri May 15 01:54:23 2020	DidVaitel (STEAM_0:1:74202541): я временно удалил сохранение
+Fri May 15 01:54:27 2020	DidVaitel (STEAM_0:1:74202541): так что всё окей
+Fri May 15 01:54:52 2020	DidVaitel (STEAM_0:1:74202541): Так, сейчас я отправлю тебе приглос и в дуэль с ботом
+Fri May 15 01:55:07 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Противник в дуэли
+Fri May 15 01:55:08 2020	DidVaitel (STEAM_0:1:74202541): упс, забыл убрать авто принятие
+Fri May 15 01:55:12 2020	DidVaitel (STEAM_0:1:74202541): это для бота
+Fri May 15 01:55:18 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Противник в дуэли
+Fri May 15 01:55:31 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Меня в дуэль без согласия закинуло
+Fri May 15 01:55:43 2020	DidVaitel (STEAM_0:1:74202541): да, это из-за бота, я это для него сделал
+Fri May 15 01:55:49 2020	Captain Crook [FunMania.Ru] was killed by DidVaitel with a weapon_physgun
+Fri May 15 01:55:49 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 01:55:52 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 01:56:29 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Противник в дуэли
+Fri May 15 01:56:36 2020	DidVaitel (STEAM_0:1:74202541): Ну вот, отлично
+Fri May 15 01:56:54 2020	DidVaitel (STEAM_0:1:74202541): У тебя ведь тоже два фонаря?
+Fri May 15 01:57:16 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Фонарь светит в то место, куда я смотрю, это норм?
+Fri May 15 01:57:21 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Да, 2 фонаря
+Fri May 15 01:57:34 2020	DidVaitel (STEAM_0:1:74202541): Это клиентский фонарь, он не создаёт нагрузки на сервер, и видишь его 
+Fri May 15 01:57:40 2020	DidVaitel (STEAM_0:1:74202541): только ты
+Fri May 15 01:58:11 2020	DidVaitel (STEAM_0:1:74202541): так, надо было ещё лидербоард поменять
+Fri May 15 02:01:22 2020	DidVaitel (STEAM_0:1:74202541): что это
+Fri May 15 02:01:34 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Я пытаюсь ногу заствить дергаться
+Fri May 15 02:01:39 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 02:02:21 2020	DidVaitel (STEAM_0:1:74202541): зацени
+Fri May 15 02:02:29 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Класс
+Fri May 15 02:02:44 2020	Captain Crook [FunMania.Ru] was killed by Entity [212][prop_physics] with a prop_physics
+Fri May 15 02:02:46 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:03:05 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Так и живем)
+Fri May 15 02:03:15 2020	DidVaitel (STEAM_0:1:74202541): можно ещё и озвучку добавить
+Fri May 15 02:03:21 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Ух ты
+Fri May 15 02:03:41 2020	DidVaitel (STEAM_0:1:74202541): чекай
+Fri May 15 02:04:09 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): По английски зашпарил
+Fri May 15 02:04:17 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Но не то, что написано
+Fri May 15 02:04:26 2020	DidVaitel (STEAM_0:1:74202541): я знаю, гуглбабу не вставлял
+Fri May 15 02:05:00 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 02:05:06 2020	Captain Crook [FunMania.Ru] was killed by Himself with a suicide trick
+Fri May 15 02:05:10 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Кек)
+Fri May 15 02:05:11 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:05:16 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 02:05:50 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Fri May 15 02:05:53 2020	Captain Crook [FunMania.Ru] was killed by Entity [220][entityflame] with a entityflame
+Fri May 15 02:05:55 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:06:04 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_ration_dispenser
+Fri May 15 02:06:24 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Паек из сити17?
+Fri May 15 02:06:26 2020	DidVaitel (STEAM_0:1:74202541): да
+Fri May 15 02:06:43 2020	DidVaitel (STEAM_0:1:74202541): он хилит
+Fri May 15 02:06:46 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Fri May 15 02:07:02 2020	DidVaitel (STEAM_0:1:74202541): это всё - мои аддоны
+Fri May 15 02:07:27 2020	DidVaitel (STEAM_0:1:74202541): а это тестовая вещь
+Fri May 15 02:07:36 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Для баррикад?
+Fri May 15 02:07:42 2020	DidVaitel (STEAM_0:1:74202541): А ты откуда знаешь
+Fri May 15 02:07:47 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Там написано)
+Fri May 15 02:07:56 2020	DidVaitel (STEAM_0:1:74202541): где? В оружии?
+Fri May 15 02:08:02 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Да
+Fri May 15 02:08:19 2020	DidVaitel (STEAM_0:1:74202541): ProMT заснул
+Fri May 15 02:08:29 2020	DidVaitel (STEAM_0:1:74202541): Как там FunMania кстати поживает?
+Fri May 15 02:08:38 2020	DidVaitel (STEAM_0:1:74202541): Последний раз в 2015 заходил
+Fri May 15 02:08:43 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Вполне, пока держится
+Fri May 15 02:09:24 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): А кто ты, если не Промт?
+Fri May 15 02:09:30 2020	DidVaitel (STEAM_0:1:74202541): Я промт
+Fri May 15 02:09:44 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): ладно
+Fri May 15 02:09:55 2020	DidVaitel (STEAM_0:1:74202541): /rpname ProMT
+Fri May 15 02:10:01 2020	ProMT (STEAM_0:1:74202541): Видишь? 
+Fri May 15 02:10:09 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Один в Один
+Fri May 15 02:10:58 2020	ProMT (STEAM_0:1:74202541): !menu
+Fri May 15 02:12:37 2020	ProMT (STEAM_0:1:74202541) spawned SENT item_suitcharger
+Fri May 15 02:12:47 2020	ProMT (STEAM_0:1:74202541) spawned SENT item_suit
+Fri May 15 02:14:08 2020	ProMT (STEAM_0:1:74202541) spawned SENT edit_fog
+Fri May 15 02:14:10 2020	ProMT (STEAM_0:1:74202541) spawned SENT edit_sky
+Fri May 15 02:14:12 2020	ProMT (STEAM_0:1:74202541) spawned SENT edit_sun
+Fri May 15 02:15:04 2020	Captain Crook [FunMania.Ru] was killed by ProMT with a gmod_dynamite
+Fri May 15 02:15:05 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:15:06 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:15:38 2020	Captain Crook [FunMania.Ru] was killed by Entity [206][prop_physics] with a prop_physics
+Fri May 15 02:15:40 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:16:14 2020	ProMT (STEAM_0:1:74202541): !menu
+Fri May 15 02:17:17 2020	ProMT (STEAM_0:1:74202541): ждём скрин
+Fri May 15 02:17:24 2020	ProMT (STEAM_0:1:74202541): сказал, что сейчас скинет
+Fri May 15 02:20:27 2020	ProMT (STEAM_0:1:74202541): Ну у тебя и лицо
+Fri May 15 02:23:20 2020	Captain Crook [FunMania.Ru] was killed by Entity [0][worldspawn] with a unknown
+Fri May 15 02:23:22 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:24:35 2020	ProMT (STEAM_0:1:74202541): зацени
+Fri May 15 02:25:37 2020	Captain Crook [FunMania.Ru] was killed by ProMT with a weapon_pumpshotgun2
+Fri May 15 02:25:39 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:27:01 2020	ProMT (STEAM_0:1:74202541) spawned SENT ddv_duel_npc
+Fri May 15 02:27:34 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): Почему трастеры не работают?
+Fri May 15 02:27:43 2020	ProMT (STEAM_0:1:74202541): не знаю, это дрп
+Fri May 15 02:32:05 2020	ProMT was killed by Captain Crook [FunMania.Ru] with a npc_grenade_frag
+Fri May 15 02:32:05 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:32:06 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:32:35 2020	ProMT was killed by Captain Crook [FunMania.Ru] with a weapon_physgun
+Fri May 15 02:32:36 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:32:36 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:32:50 2020	ProMT was killed by Captain Crook [FunMania.Ru] with a weapon_physgun
+Fri May 15 02:32:51 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:32:51 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:34:52 2020	Captain Crook [FunMania.Ru] was killed by Entity [0][worldspawn] with a unknown
+Fri May 15 02:34:54 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:38:17 2020	Captain Crook [FunMania.Ru] was killed by Himself with a suicide trick
+Fri May 15 02:38:19 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:39:12 2020	ProMT (STEAM_0:1:74202541) disconnected
+Fri May 15 02:39:24 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Fri May 15 02:39:24 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:39:59 2020	Captain Crook [FunMania.Ru] was killed by Entity [300][prop_physics] with a prop_physics
+Fri May 15 02:40:01 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 02:40:42 2020	ProMT was killed by Captain Crook [FunMania.Ru] with a gmod_dynamite
+Fri May 15 02:41:33 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:41:44 2020	ProMT (STEAM_0:1:74202541): что за пиздец
+Fri May 15 02:41:53 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943): А что не так?
+Fri May 15 02:42:53 2020	ProMT (STEAM_0:1:74202541): я щас вернусь
+Fri May 15 02:42:58 2020	ProMT (STEAM_0:1:74202541) disconnected
+Fri May 15 02:43:09 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Fri May 15 02:43:09 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 02:43:38 2020	ProMT (STEAM_0:1:74202541) disconnected
+Fri May 15 03:11:43 2020	Captain Crook [FunMania.Ru] was killed by Himself with a suicide trick
+Fri May 15 03:11:47 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) spawned
+Fri May 15 03:11:52 2020	Captain Crook [FunMania.Ru] (STEAM_0:0:68709943) disconnected
+Fri May 15 03:11:52 2020	Bot01 (BOT) disconnected
+Fri May 15 03:18:51 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Fri May 15 03:18:51 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 03:20:05 2020	ProMT (STEAM_0:1:74202541) disconnected
+Fri May 15 03:20:13 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Fri May 15 03:20:13 2020	ProMT (STEAM_0:1:74202541) spawned
+Fri May 15 03:21:04 2020	ProMT (STEAM_0:1:74202541) disconnected

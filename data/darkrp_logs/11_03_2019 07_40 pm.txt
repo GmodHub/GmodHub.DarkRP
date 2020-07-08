@@ -1,0 +1,6 @@
+Sun Nov  3 19:40:51 2019	DeadBear (STEAM_0:0:151607932) has joined the game
+Sun Nov  3 19:40:51 2019	DeadBear (STEAM_0:0:151607932) spawned
+Sun Nov  3 19:42:11 2019	DeadBear was killed by Entity [931][sent_informer_laptop] with a sent_informer_laptop
+Sun Nov  3 19:42:12 2019	DeadBear (STEAM_0:0:151607932) spawned
+Sun Nov  3 19:44:02 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
+Sun Nov  3 19:44:02 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned

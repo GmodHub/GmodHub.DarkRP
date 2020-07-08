@@ -1,0 +1,316 @@
+L 03/03/2019 - 18:08:44: Log file started (file "logs\L0303005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 03/03/2019 - 18:08:44: server_cvar: "sv_alltalk" "3"
+L 03/03/2019 - 18:08:44: server_cvar: "sv_allowcslua" "1"
+L 03/03/2019 - 18:08:44: server_cvar: "sv_airaccelerate" "1000"
+L 03/03/2019 - 18:08:44: server_cvar: "sv_alltalk" "0"
+L 03/03/2019 - 18:08:45: Connection to Steam servers successful.
+L 03/03/2019 - 18:08:45:    Public IP is 31.130.42.81.
+L 03/03/2019 - 18:08:45: Assigned anonymous gameserver Steam ID [A-1:1227490307(12109)].
+L 03/03/2019 - 18:08:45: VAC secure mode is activated.
+L 03/03/2019 - 18:08:49: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 03/03/2019 - 18:08:49: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 03/03/2019 - 18:09:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 03/03/2019 - 18:09:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:09:06: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:09:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 03/03/2019 - 18:09:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a enchanted_hand
+L 03/03/2019 - 18:09:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a enchanted_hand
+L 03/03/2019 - 18:09:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a env_explosion
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:09:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a enchanted_hand
+L 03/03/2019 - 18:09:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a enchanted_hand
+L 03/03/2019 - 18:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:09:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 03/03/2019 - 18:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:09:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:10:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 03/03/2019 - 18:10:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a enchanted_hand
+L 03/03/2019 - 18:10:48: "RUBEN_VAC<3><STEAM_0:1:75063043><>" connected, address "31.41.73.144:27005"
+L 03/03/2019 - 18:10:49: "RUBEN_VAC<3><STEAM_0:1:75063043><>" STEAM USERID validated
+L 03/03/2019 - 18:11:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 03/03/2019 - 18:11:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_robot
+L 03/03/2019 - 18:11:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_robot
+L 03/03/2019 - 18:11:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a rpg_missile
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:11:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:11:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_robot
+L 03/03/2019 - 18:11:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_robot
+L 03/03/2019 - 18:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:11:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 03/03/2019 - 18:11:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:13:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a rpg_missile
+L 03/03/2019 - 18:13:29: Lua Error: 
+[ERROR] addons/fellout/lua/weapons/weapon_robot/shared.lua:117: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. v - addons/fellout/lua/weapons/weapon_robot/shared.lua:117
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_robot
+L 03/03/2019 - 18:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_robot
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Spawned for the first time
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) is Authed
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Spawned
+L 03/03/2019 - 18:14:18: "RUBEN_VAC<3><STEAM_0:1:75063043><>" entered the game
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to pick up a keys
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to pick up a pocket
+L 03/03/2019 - 18:14:18: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:14:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:14:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:14:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:15:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 03/03/2019 - 18:15:50: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "за фрименом"
+
+L 03/03/2019 - 18:15:54: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Attempted to switch noclip
+L 03/03/2019 - 18:15:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/fence01a.mdl
+L 03/03/2019 - 18:16:03: "RUBEN_VAC<3><STEAM_0:1:75063043><>" disconnected (reason "Disconnect by user.")
+L 03/03/2019 - 18:16:03: [FAdmin] RUBEN_VAC (STEAM_0:1:75063043) Disconnected
+L 03/03/2019 - 18:16:32: [FAdmin] prop_physics(models/props_c17/fence01a.mdl) Got removed
+L 03/03/2019 - 18:16:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:17:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:17:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_robot
+L 03/03/2019 - 18:17:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_robot
+L 03/03/2019 - 18:17:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 03/03/2019 - 18:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 03/03/2019 - 18:23:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_robot
+L 03/03/2019 - 18:23:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_robot
+L 03/03/2019 - 18:30:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_robot
+L 03/03/2019 - 18:44:16: "▄▀ჯᎯℋŝ₮ę℟▀ �<4><STEAM_0:0:435330226><>" connected, address "212.66.48.62:27005"
+L 03/03/2019 - 18:44:17: "▄▀ჯᎯℋŝ₮ę℟▀ �<4><STEAM_0:0:435330226><>" STEAM USERID validated
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned for the first time
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) is Authed
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:44:38: "▄▀ჯᎯℋŝ₮ę℟▀ �<4><STEAM_0:0:435330226><>" entered the game
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:44:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:45:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:45:38: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:45:39: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:45:39: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:45:39: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:45:40: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a unarrest_stick
+L 03/03/2019 - 18:45:49: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_ar2
+L 03/03/2019 - 18:45:52: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_ar2
+L 03/03/2019 - 18:45:52: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_ar2
+L 03/03/2019 - 18:45:52: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_ar2
+L 03/03/2019 - 18:45:53: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_357
+L 03/03/2019 - 18:45:53: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_357
+L 03/03/2019 - 18:45:57: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to switch noclip
+L 03/03/2019 - 18:46:24: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to switch noclip
+L 03/03/2019 - 18:46:25: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to switch noclip
+L 03/03/2019 - 18:46:31: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:45: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:45: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:45: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:45: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:45: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:46: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:46: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:51: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to use tool balloon
+L 03/03/2019 - 18:46:52: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_smg1
+L 03/03/2019 - 18:46:57: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a gmod_camera
+L 03/03/2019 - 18:46:58: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Gave himself a weapon_physgun
+L 03/03/2019 - 18:47:12: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:47:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by N/A with a N/A
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:47:30: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:47:54: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by N/A with a N/A
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:47:56: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:47:59: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window2x4.mdl
+L 03/03/2019 - 18:48:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by N/A with a N/A
+L 03/03/2019 - 18:48:32: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:39: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:40: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:48:44: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:48:46: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:46: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:46: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:47: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:47: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:47: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:47: [FAdmin] prop_physics(models/props_phx/construct/windows/window4x4.mdl) Got removed
+L 03/03/2019 - 18:48:48: [FAdmin] prop_physics(models/props_phx/construct/windows/window2x4.mdl) Got removed
+L 03/03/2019 - 18:48:50: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:48:59: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by N/A with a N/A
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:49:02: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:49:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by prop_physics with a prop_physics
+L 03/03/2019 - 18:49:40: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned a models/props_phx/construct/windows/window4x4.mdl
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:49:41: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:50:25: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by prop_physics with a prop_physics
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:50:36: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:51:21: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by prop_physics with a prop_physics
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:51:26: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physgun
+L 03/03/2019 - 18:52:06: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Got killed by N/A with a N/A
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Spawned
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a keys
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a weapon_physcannon
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_camera
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a gmod_tool
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick up a pocket
+L 03/03/2019 - 18:52:07: [FAdmin] ▄▀ჯᎯℋŝ₮ę℟▀ � (STEAM_0:0:435330226) Attempted to pick

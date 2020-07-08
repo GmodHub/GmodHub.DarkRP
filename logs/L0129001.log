@@ -1,0 +1,27 @@
+L 01/29/2019 - 21:47:48: Log file started (file "logs\L0129001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/29/2019 - 21:47:48: server_cvar: "sv_alltalk" "3"
+L 01/29/2019 - 21:47:48: server_cvar: "sv_allowcslua" "1"
+L 01/29/2019 - 21:47:48: server_cvar: "sv_airaccelerate" "1000"
+L 01/29/2019 - 21:47:48: server_cvar: "sv_alltalk" "0"
+L 01/29/2019 - 21:47:48: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/29/2019 - 21:47:48: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/29/2019 - 21:47:48: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/29/2019 - 21:47:48: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/29/2019 - 21:47:50: Connection to Steam servers successful.
+L 01/29/2019 - 21:47:50:    Public IP is 31.130.42.81.
+L 01/29/2019 - 21:47:50: Assigned anonymous gameserver Steam ID [A-1:1899650051(11892)].
+L 01/29/2019 - 21:47:50: VAC secure mode is activated.
+L 01/29/2019 - 21:47:57: Lua Error: 
+[ERROR] lua/autorun/server/admin_functions.lua:24: ')' expected (to close '(' at line 12) near 'local'
+  1. unknown - lua/autorun/server/admin_functions.lua:0
+
+
+L 01/29/2019 - 21:48:30: [FAdmin] Server succesfully shut down.
+L 01/29/2019 - 21:48:30: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 01/29/2019 - 21:48:30: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 01/29/2019 - 21:48:30: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 01/29/2019 - 21:48:30: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 01/29/2019 - 21:48:30: [FAdmin] prop_physics(models/props_c17/furniturestove001a.mdl) Got removed
+L 01/29/2019 - 21:48:30: [FAdmin] prop_physics(models/props_c17/furniturestove001a.mdl) Got removed
+L 01/29/2019 - 21:48:30: server_message: "quit"
+L 01/29/2019 - 21:48:30: Log file closed.

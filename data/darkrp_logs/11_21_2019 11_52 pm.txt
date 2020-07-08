@@ -1,0 +1,3 @@
+Thu Nov 21 23:52:53 2019	COMPLΞX (STEAM_0:0:105635721) has joined the game
+Thu Nov 21 23:52:53 2019	COMPLΞX (STEAM_0:0:105635721) spawned
+Thu Nov 21 23:53:01 2019	COMPLΞX (STEAM_0:0:105635721) spawned SENT complex_employer

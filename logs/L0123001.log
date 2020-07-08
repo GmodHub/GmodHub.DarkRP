@@ -1,0 +1,277 @@
+L 01/23/2019 - 00:13:43: Log file started (file "logs\L0123001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/23/2019 - 00:13:43: server_cvar: "sv_alltalk" "3"
+L 01/23/2019 - 00:13:43: server_cvar: "sv_allowcslua" "1"
+L 01/23/2019 - 00:13:43: server_cvar: "sv_airaccelerate" "1000"
+L 01/23/2019 - 00:13:43: server_cvar: "sv_alltalk" "0"
+L 01/23/2019 - 00:13:44: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:13:44: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:13:44: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:13:44: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:13:45: Connection to Steam servers successful.
+L 01/23/2019 - 00:13:45:    Public IP is 31.130.42.81.
+L 01/23/2019 - 00:13:45: Assigned anonymous gameserver Steam ID [A-1:285328391(11841)].
+L 01/23/2019 - 00:13:45: VAC secure mode is activated.
+L 01/23/2019 - 00:13:51: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/23/2019 - 00:13:51: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/23/2019 - 00:14:00: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/23/2019 - 00:14:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/23/2019 - 00:17:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:07: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:07: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:08: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:08: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:08: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:08: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:08: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:08: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:09: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:09: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:09: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:10: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:10: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:10: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:10: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:11: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:11: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:11: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:11: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:12: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:12: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:12: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/23/2019 - 00:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:18: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:18: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:19: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:19: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74: attempt to call field 'HasPermission' (a nil value)
+  1. Reload - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:74
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 01/23/2019 - 00:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:17:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool permaprops
+L 01/23/2019 - 00:26:31: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:63: 'do' expected near 'ply'
+  1. unknown - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:0
+
+
+L 01/23/2019 - 00:26:55: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:40: '=' expected near 'table'
+  1. unknown - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:0
+
+
+L 01/23/2019 - 00:26:57: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:65: unexpected symbol near 'end'
+  1. unknown - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:0
+
+
+L 01/23/2019 - 00:27:27: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:64: 'then' expected near '='
+  1. unknown - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:0
+
+
+L 01/23/2019 - 00:27:37: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:64: 'then' expected near '='
+  1. unknown - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:0
+
+
+L 01/23/2019 - 00:28:21: Lua Error: 
+[ERROR] icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:98: 'end' expected (to close 'if' at line 96) near '<eof>'
+  1. unknown - addons/[server]_icefuse-permapropper/lua/weapons/gmod_tool/stools/permaprops.lua:0
+
+
+L 01/23/2019 - 00:33:30: [FAdmin] Server succesfully shut down.
+L 01/23/2019 - 00:33:30: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 01/23/2019 - 00:33:30: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 01/23/2019 - 00:33:30: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 01/23/2019 - 00:33:30: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 01/23/2019 - 00:33:30: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/23/2019 - 00:33:30: server_message: "quit"
+L 01/23/2019 - 00:33:30: Log file closed.

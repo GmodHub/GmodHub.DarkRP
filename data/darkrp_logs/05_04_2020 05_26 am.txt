@@ -1,0 +1,16 @@
+Mon May  4 05:26:46 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 05:26:46 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 05:37:11 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:37:37 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:38:27 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:38:34 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:38:48 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:39:10 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:39:16 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:39:29 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:41:18 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 05:41:27 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 05:41:27 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 05:42:06 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:42:27 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Mon May  4 05:43:29 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector

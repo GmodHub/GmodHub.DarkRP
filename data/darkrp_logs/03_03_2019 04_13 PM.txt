@@ -1,0 +1,26 @@
+Sun Mar  3 16:13:02 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sun Mar  3 16:13:02 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:15:50 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:15:51 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:19:50 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:19:51 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:22:38 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:22:39 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:36:47 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Sun Mar  3 16:37:04 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sun Mar  3 16:37:04 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:42:00 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:42:01 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:44:29 2019	DidVaitel was killed by Entity [0][worldspawn] with a unknown
+Sun Mar  3 16:44:34 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:45:35 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:45:36 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:46:14 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:46:15 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:46:22 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:46:23 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:48:38 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:48:39 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:48:55 2019	DidVaitel was killed by Himself with a suicide trick
+Sun Mar  3 16:48:56 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Mar  3 16:49:04 2019	DidVaitel (STEAM_0:1:74202541) disconnected

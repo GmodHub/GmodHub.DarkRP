@@ -1,0 +1,51 @@
+L 05/13/2020 - 17:21:23: Log file started (file "logs\L0513001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7794")
+L 05/13/2020 - 17:21:23: server_cvar: "sv_alltalk" "3"
+L 05/13/2020 - 17:21:23: server_cvar: "sbox_noclip" "0"
+L 05/13/2020 - 17:21:24: Connection to Steam servers successful.
+L 05/13/2020 - 17:21:24:    Public IP is 31.130.42.47.
+L 05/13/2020 - 17:21:24: Assigned anonymous gameserver Steam ID [A-1:1161109513(14727)].
+L 05/13/2020 - 17:21:24: VAC secure mode is activated.
+L 05/13/2020 - 17:22:14: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/13/2020 - 17:22:15: server_cvar: "sv_allowcslua" "1"
+L 05/13/2020 - 17:22:15: server_cvar: "sv_airaccelerate" "1000"
+L 05/13/2020 - 17:22:15: server_cvar: "sv_alltalk" "0"
+L 05/13/2020 - 17:22:15: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 05/13/2020 - 17:22:23: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 05/13/2020 - 17:22:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 05/13/2020 - 17:22:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 05/13/2020 - 17:22:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:22:31: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index a nil value
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:22:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:22:31: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64: attempt to index a nil value
+  1. RightClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:263
+
+
+L 05/13/2020 - 17:22:38: [FAdmin] Server succesfully shut down.
+L 05/13/2020 - 17:22:38: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 05/13/2020 - 17:22:38: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 05/13/2020 - 17:22:38: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 05/13/2020 - 17:22:38: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 05/13/2020 - 17:22:38: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 05/13/2020 - 17:22:38: server_message: "quit"
+L 05/13/2020 - 17:22:38: Log file closed.

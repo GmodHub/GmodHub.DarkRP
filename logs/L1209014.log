@@ -1,0 +1,268 @@
+L 12/09/2018 - 16:16:18: Log file started (file "logs\L1209014.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/09/2018 - 16:16:18: server_cvar: "sv_alltalk" "3"
+L 12/09/2018 - 16:16:18: server_cvar: "sv_allowcslua" "1"
+L 12/09/2018 - 16:16:18: server_cvar: "sv_airaccelerate" "1000"
+L 12/09/2018 - 16:16:18: server_cvar: "sv_alltalk" "0"
+L 12/09/2018 - 16:16:19: Connection to Steam servers successful.
+L 12/09/2018 - 16:16:19:    Public IP is 31.130.42.81.
+L 12/09/2018 - 16:16:19: Assigned anonymous gameserver Steam ID [A-1:3344263175(11534)].
+L 12/09/2018 - 16:16:19: VAC secure mode is activated.
+L 12/09/2018 - 16:16:23: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 12/09/2018 - 16:16:23: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/09/2018 - 16:16:32: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/09/2018 - 16:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/09/2018 - 16:16:42: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.21:27005"
+L 12/09/2018 - 16:16:42: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:16:53: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:16:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:17:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:17:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:17:13: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:17:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/09/2018 - 16:17:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/09/2018 - 16:17:25: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "razor pidar"
+
+L 12/09/2018 - 16:17:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:17:28: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:17:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:17:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:17:38: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:17:39: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:17:39: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:17:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_phx/construct/wood/wood_panel2x4.mdl
+L 12/09/2018 - 16:17:46: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 12/09/2018 - 16:17:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 12/09/2018 - 16:18:03: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "razor"
+
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 12/09/2018 - 16:18:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 12/09/2018 - 16:18:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:18:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:18:14: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:18:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:18:18: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:18:18: [FAdmin] prop_physics(models/props_phx/construct/wood/wood_panel2x4.mdl) Got removed
+L 12/09/2018 - 16:18:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:18:26: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say " !menu"
+
+L 12/09/2018 - 16:18:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:18:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:18:32: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:18:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureDrawer003a.mdl
+L 12/09/2018 - 16:18:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:18:41: [FAdmin] prop_physics(models/props_c17/furnituredrawer003a.mdl) Got removed
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:18:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:18:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:19:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:19:04: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:19:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/09/2018 - 16:20:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/09/2018 - 16:20:41: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "razor xyesos"
+
+L 12/09/2018 - 16:20:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:20:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:20:52: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:20:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:20:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:21:00: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:21:02: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "pidar"
+
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:21:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:21:03: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:21:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:21:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:21:20: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "PIDAR"
+
+L 12/09/2018 - 16:21:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:21:24: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:21:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:21:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/09/2018 - 16:21:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/09/2018 - 16:21:32: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "razor saset"
+
+L 12/09/2018 - 16:21:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:21:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:21:43: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "1"
+
+L 12/09/2018 - 16:21:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:21:59: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by prop_physics with a prop_physics
+L 12/09/2018 - 16:22:00: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:22:00: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:22:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:22:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/FurnitureWashingmachine001a.mdl
+L 12/09/2018 - 16:22:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 12/09/2018 - 16:22:14: [FAdmin] prop_physics(models/props_c17/furniturewashingmachine001a.mdl) Got removed
+L 12/09/2018 - 16:22:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 12/09/2018 - 16:22:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 12/09/2018 - 16:22:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 12/09/2018 - 16:22:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 12/09/2018 - 16:22:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 12/09/2018 - 16:22:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 12/09/2018 - 16:22:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 12/09/2018 - 16:22:37: "eLeCtrOssSnake<3><STEAM_0:1:164666257><Citizen>" say "razor sasaet"
+
+L 12/09/2018 - 16:22:44: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "fg"
+
+L 12/09/2018 - 16:22:55: [FAdmin] Server succesfully shut down.
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/09/2018 - 16:22:55: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/09/2018 - 16:22:56: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 12/09/2018 - 16:22:56: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 12/09/2018 - 16:22:56: server_message: "quit"
+L 12/09/2018 - 16:22:56: Log file closed.

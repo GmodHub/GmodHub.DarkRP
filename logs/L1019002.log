@@ -1,0 +1,410 @@
+L 10/19/2019 - 09:12:47: Log file started (file "logs\L1019002.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/19/2019 - 09:12:47: server_cvar: "sv_alltalk" "3"
+L 10/19/2019 - 09:12:47: server_cvar: "sv_allowcslua" "1"
+L 10/19/2019 - 09:12:47: server_cvar: "sv_airaccelerate" "1000"
+L 10/19/2019 - 09:12:47: server_cvar: "sv_alltalk" "0"
+L 10/19/2019 - 09:12:48: Connection to Steam servers successful.
+L 10/19/2019 - 09:12:48:    Public IP is 31.130.42.47.
+L 10/19/2019 - 09:12:48: Assigned anonymous gameserver Steam ID [A-1:2531552257(13477)].
+L 10/19/2019 - 09:12:49: VAC secure mode is activated.
+L 10/19/2019 - 09:12:50: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 09:12:51: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 09:13:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 09:13:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 09:13:02: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 09:13:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 09:13:12: [FAdmin] Losi (STEAM_0:1:74202541) Gave himself a weapon_informer_laptop
+L 10/19/2019 - 09:13:12: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/19/2019 - 09:34:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:117: unexpected symbol near ')'
+
+
+L 10/19/2019 - 09:34:55: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:117: unexpected symbol near ')'
+
+
+L 10/19/2019 - 09:35:10: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:117: unexpected symbol near ')'
+
+
+L 10/19/2019 - 09:35:13: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:117: unexpected symbol near ')'
+
+
+L 10/19/2019 - 09:35:16: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:118: 'then' expected near 'return'
+
+
+L 10/19/2019 - 09:35:37: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:130: 'end' expected (to close 'function' at line 113) near '<eof>'
+
+
+L 10/19/2019 - 09:35:59: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:143: 'end' expected (to close 'function' at line 113) near '<eof>'
+
+
+L 10/19/2019 - 09:39:31: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:143: 'end' expected (to close 'function' at line 113) near '<eof>'
+
+
+L 10/19/2019 - 09:39:49: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:143: 'end' expected (to close 'function' at line 113) near '<eof>'
+
+
+L 10/19/2019 - 09:39:53: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:143: 'end' expected (to close 'function' at line 113) near '<eof>'
+
+
+L 10/19/2019 - 09:40:04: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:143: 'end' expected (to close 'function' at line 113) near '<eof>'
+
+
+L 10/19/2019 - 09:40:11: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:121: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:121
+
+
+L 10/19/2019 - 09:40:13: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:121: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:121
+
+
+L 10/19/2019 - 09:40:33: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:124: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:124
+
+
+L 10/19/2019 - 09:43:14: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:124: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:124
+
+
+L 10/19/2019 - 09:43:20: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:124: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:124
+
+
+L 10/19/2019 - 09:43:29: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:125: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:125
+
+
+L 10/19/2019 - 09:43:51: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:125: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:125
+
+
+L 10/19/2019 - 09:44:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:127: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:127
+
+
+L 10/19/2019 - 09:44:11: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:127: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:127
+
+
+L 10/19/2019 - 09:44:12: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:127: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:127
+
+
+L 10/19/2019 - 09:44:17: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:127: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:127
+
+
+L 10/19/2019 - 09:44:31: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:129: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:129
+
+
+L 10/19/2019 - 09:44:33: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:129: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:129
+
+
+L 10/19/2019 - 09:44:38: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:129: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:129
+
+
+L 10/19/2019 - 09:44:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:129: attempt to index global 'customer' (a nil value)
+  1. unknown - addons/informer-system/lua/autorun/informer_shared.lua:129
+
+
+L 10/19/2019 - 09:58:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_config.lua:39: '}' expected (to close '{' at line 34) near '['
+
+
+L 10/19/2019 - 09:58:55: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_config.lua:38: '}' expected (to close '{' at line 34) near '['
+
+
+L 10/19/2019 - 09:59:04: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_config.lua:38: '}' expected (to close '{' at line 34) near '['
+
+
+L 10/19/2019 - 09:59:04: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_config.lua:38: '}' expected (to close '{' at line 34) near '['
+
+
+L 10/19/2019 - 09:59:14: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_config.lua:41: unexpected symbol near '}'
+
+
+L 10/19/2019 - 10:24:57: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:129: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 10:25:06: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:134: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 10:25:09: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:134: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 10:25:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:134: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 10:25:20: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:134: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 10:25:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:134: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 10:25:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:134: 'end' expected near '<eof>'
+
+
+L 10/19/2019 - 11:15:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:143: unexpected symbol near 'return'
+
+
+L 10/19/2019 - 11:39:04: "The Xarp<3><STEAM_0:0:45250198><>" connected, address "2.95.231.190:27005"
+L 10/19/2019 - 11:39:04: "The Xarp<3><STEAM_0:0:45250198><>" STEAM USERID validated
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Spawned for the first time
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) is Authed
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Spawned
+L 10/19/2019 - 11:39:20: "The Xarp<3><STEAM_0:0:45250198><>" entered the game
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Attempted to pick up a keys
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Attempted to pick up a gmod_camera
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Attempted to pick up a gmod_tool
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Attempted to pick up a pocket
+L 10/19/2019 - 11:39:20: [FAdmin] The Xarp (STEAM_0:0:45250198) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 11:40:08: "The Xarp<3><STEAM_0:0:45250198><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 11:40:08: [FAdmin] The Xarp (STEAM_0:0:45250198) Disconnected
+L 10/19/2019 - 12:06:15: "Turetskiy Voron<4><STEAM_0:0:448595855><>" connected, address "37.212.53.163:33145"
+L 10/19/2019 - 12:06:16: "Turetskiy Voron<4><STEAM_0:0:448595855><>" STEAM USERID validated
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) is Authed
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Spawned for the first time
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Spawned
+L 10/19/2019 - 12:06:29: "Turetskiy Voron<4><STEAM_0:0:448595855><>" entered the game
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Attempted to pick up a keys
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Attempted to pick up a gmod_camera
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Attempted to pick up a gmod_tool
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Attempted to pick up a pocket
+L 10/19/2019 - 12:06:29: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 12:06:49: "Turetskiy Voron<4><STEAM_0:0:448595855><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 12:06:49: [FAdmin] Turetskiy Voron (STEAM_0:0:448595855) Disconnected
+L 10/19/2019 - 12:06:58: server_cvar: "sv_password" "***PROTECTED***"
+L 10/19/2019 - 12:07:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 12:07:52: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 12:07:52: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 12:07:52: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 12:37:13: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:37:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:37:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:09: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:11: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:11: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:13: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:254: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:17: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:38:53: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:39:00: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:39:00: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:39:02: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:39:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:39:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:40:05: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:40:09: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:40:12: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:40:20: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:255: 'then' expected near 'customer'
+
+
+L 10/19/2019 - 12:40:51: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index local 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:291
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:00: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:62
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:288
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:00: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:62
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:288
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:01: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:62
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:288
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:21: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:247: attempt to perform arithmetic on global 'Price' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:247
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:293
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:37: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index local 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:286
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index local 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:286
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:44:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index local 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:286
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:45:19: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index global 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:286
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:45:29: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:246: attempt to perform arithmetic on field 'dealsAmount' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:246
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:286
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:47:57: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index local 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:286
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:48:15: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:245: attempt to index global 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:245
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:291
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:48:21: [FAdmin] Server succesfully shut down.
+L 10/19/2019 - 12:48:21: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 10/19/2019 - 12:48:21: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 10/19/2019 - 12:48:21: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 10/19/2019 - 12:48:21: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 10/19/2019 - 12:48:21: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/19/2019 - 12:48:21: server_message: "quit"
+L 10/19/2019 - 12:48:21: Log file closed.

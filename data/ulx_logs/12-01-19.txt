@@ -1,0 +1,32 @@
+[00:34:36] New map: rp_desertfury
+[00:34:41] Client "DidVaitel" connected.
+[00:34:59] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 18 seconds).
+[02:52:43] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[21:35:12] New map: rp_desertfury
+[21:35:15] Client "DidVaitel" connected.
+[21:35:48] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 33 seconds).
+[21:39:12] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[22:18:15] Client "DidVaitel" connected.
+[22:18:49] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 34 seconds).
+[22:29:44] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[22:29:44] Client "DidVaitel" connected.
+[22:29:54] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[22:46:47] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[22:48:57] Client "DidVaitel" connected.
+[22:49:35] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 38 seconds).
+[23:01:16] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[23:01:16] Client "DidVaitel" connected.
+[23:01:26] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[23:10:55] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[23:13:37] Client "DidVaitel" connected.
+[23:14:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 37 seconds).
+[23:16:18] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[23:20:47] Client "DidVaitel" connected.
+[23:21:22] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 35 seconds).
+[23:21:58] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[23:59:14] Client "DidVaitel" connected.
+[23:59:50] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 36 seconds).
+<Logging continued in "data/ulx_logs/12-02-19.txt">

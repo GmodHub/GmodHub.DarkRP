@@ -1,0 +1,16 @@
+L 02/15/2019 - 23:40:46: Log file started (file "logs\L0215013.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 02/15/2019 - 23:40:46: server_cvar: "sv_alltalk" "3"
+L 02/15/2019 - 23:40:46: server_cvar: "sv_allowcslua" "1"
+L 02/15/2019 - 23:40:46: server_cvar: "sv_airaccelerate" "1000"
+L 02/15/2019 - 23:40:46: server_cvar: "sv_alltalk" "0"
+L 02/15/2019 - 23:40:48: Connection to Steam servers successful.
+L 02/15/2019 - 23:40:48:    Public IP is 31.130.42.81.
+L 02/15/2019 - 23:40:48: Assigned anonymous gameserver Steam ID [A-1:3362024459(12006)].
+L 02/15/2019 - 23:40:48: VAC secure mode is activated.
+L 02/15/2019 - 23:48:00: [FAdmin] Server succesfully shut down.
+L 02/15/2019 - 23:48:00: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 02/15/2019 - 23:48:00: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 02/15/2019 - 23:48:00: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 02/15/2019 - 23:48:00: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 02/15/2019 - 23:48:00: server_message: "quit"
+L 02/15/2019 - 23:48:01: Log file closed.

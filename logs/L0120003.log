@@ -1,0 +1,124 @@
+L 01/20/2019 - 00:12:53: Log file started (file "logs\L0120003.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/20/2019 - 00:12:53: server_cvar: "sv_alltalk" "3"
+L 01/20/2019 - 00:12:53: server_cvar: "sv_allowcslua" "1"
+L 01/20/2019 - 00:12:53: server_cvar: "sv_airaccelerate" "1000"
+L 01/20/2019 - 00:12:53: server_cvar: "sv_alltalk" "0"
+L 01/20/2019 - 00:12:53: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/20/2019 - 00:12:53: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/20/2019 - 00:12:53: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/20/2019 - 00:12:53: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/20/2019 - 00:12:54: Connection to Steam servers successful.
+L 01/20/2019 - 00:12:54:    Public IP is 31.130.42.81.
+L 01/20/2019 - 00:12:54: Assigned anonymous gameserver Steam ID [A-1:2709524483(11819)].
+L 01/20/2019 - 00:12:55: VAC secure mode is activated.
+L 01/20/2019 - 00:12:55: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/20/2019 - 00:12:56: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/20/2019 - 00:12:57: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 00:12:58: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 00:13:05: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 00:13:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 00:13:07: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 00:13:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:13:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 01/20/2019 - 00:13:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:20: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:20: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:20: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:21: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:21: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:21: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:21: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:22: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:22: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:22: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:22: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:22: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:23: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:13:23: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 00:13:54: [FAdmin] Server succesfully shut down.
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:13:54: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 01/20/2019 - 00:13:54: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/20/2019 - 00:13:54: server_message: "quit"
+L 01/20/2019 - 00:13:54: Log file closed.

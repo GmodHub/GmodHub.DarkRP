@@ -1,0 +1,76 @@
+[15:29:04] New map: gm_construct
+[15:32:25] Client "COMPLΞX" connected.
+[15:32:42] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 17 seconds).
+[15:33:15] Server is shutting down/changing levels.
+
+
+
+[15:33:24] New map: gm_construct
+[15:33:25] Client "COMPLΞX" connected.
+[15:33:33] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[15:33:48] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[15:52:59] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[15:52:59] Client "COMPLΞX" connected.
+[15:53:07] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[16:00:50] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:00:50] Client "COMPLΞX" connected.
+[16:00:58] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[16:01:36] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:01:36] Client "COMPLΞX" connected.
+[16:01:44] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+
+
+
+[16:02:31] New map: gm_construct
+[16:02:32] Client "COMPLΞX" connected.
+[16:02:40] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[16:02:49] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[16:04:02] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:04:02] Client "COMPLΞX" connected.
+[16:04:09] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[16:04:39] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:04:40] Client "COMPLΞX" connected.
+
+
+
+[16:04:51] New map: gm_construct
+[16:04:54] Client "COMPLΞX" connected.
+[16:05:01] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[16:05:09] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[16:05:16] COMPLΞX<STEAM_0:0:105635721> spawned sent sent_ball
+[16:05:33] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:05:33] Client "COMPLΞX" connected.
+[16:05:40] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+
+
+
+[16:05:56] New map: gm_construct
+[16:06:02] Client "COMPLΞX" connected.
+[16:06:09] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[16:06:16] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[16:33:44] Client "Bot01" connected.
+[16:33:44] Client "Bot01" spawned in server <BOT> (took 1672 seconds).
+[16:33:45] Client "Bot02" connected.
+[16:33:45] Client "Bot02" spawned in server <BOT> (took 1673 seconds).
+[16:33:45] Client "Bot03" connected.
+[16:33:45] Client "Bot03" spawned in server <BOT> (took 1673 seconds).
+
+
+
+[18:04:48] New map: gm_construct
+[18:05:16] Client "COMPLΞX" connected.
+[18:05:23] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[18:05:42] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+
+
+
+[18:45:25] New map: gm_construct
+[18:45:25] Client "COMPLΞX" connected.
+[18:45:35] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[18:45:51] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[18:50:05] COMPLΞX suicided!
+[20:04:18] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[20:04:49] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[20:06:03] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[20:10:21] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+[22:00:17] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>

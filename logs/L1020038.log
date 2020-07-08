@@ -1,0 +1,89 @@
+L 10/20/2019 - 19:31:02: Log file started (file "logs\L1020038.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/20/2019 - 19:31:02: server_cvar: "sv_alltalk" "3"
+L 10/20/2019 - 19:31:12: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/20/2019 - 19:31:13: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 10/20/2019 - 19:31:22: "byLLirik<6><STEAM_0:1:461008164><>" entered the game
+L 10/20/2019 - 19:31:45: Round proper has begun...
+L 10/20/2019 - 19:32:17: "Artur.....<7><STEAM_0:1:515475062><>" connected, address "195.191.79.175:27005"
+L 10/20/2019 - 19:32:17: "Artur.....<7><STEAM_0:1:515475062><>" STEAM USERID validated
+L 10/20/2019 - 19:32:30: 00:44.40 - DMG: 	 byLLirik [innocent] damaged DidVaitel [traitor] for 35 dmg
+L 10/20/2019 - 19:32:46: 01:00.84 - DMG: 	 byLLirik [innocent] damaged DidVaitel [traitor] for 140 dmg
+L 10/20/2019 - 19:32:46: 01:00.84 - KILL:	 byLLirik [innocent] killed DidVaitel [traitor]
+L 10/20/2019 - 19:32:46: Round ended.
+L 10/20/2019 - 19:32:46: Result: innocent win.
+L 10/20/2019 - 19:32:50: byLLirik: Лол
+L 10/20/2019 - 19:33:09: Round proper has begun...
+L 10/20/2019 - 19:33:20: "Artur.....<7><STEAM_0:1:515475062><>" entered the game
+L 10/20/2019 - 19:33:59: 00:50.34 - KILL:	 <something/world> killed DidVaitel [innocent]
+L 10/20/2019 - 19:34:24: 01:15.18 - DMG: 	 eLeCtrOssSnake [traitor] damaged byLLirik [innocent] for 48 dmg
+L 10/20/2019 - 19:34:24: 01:15.42 - DMG: 	 eLeCtrOssSnake [traitor] damaged byLLirik [innocent] for 24 dmg
+L 10/20/2019 - 19:34:27: 01:18.57 - DMG: 	 eLeCtrOssSnake [traitor] damaged byLLirik [innocent] for 24 dmg
+L 10/20/2019 - 19:34:28: 01:18.84 - DMG: 	 eLeCtrOssSnake [traitor] damaged byLLirik [innocent] for 24 dmg
+L 10/20/2019 - 19:34:28: 01:18.84 - KILL:	 eLeCtrOssSnake [traitor] killed byLLirik [innocent]
+L 10/20/2019 - 19:34:28: Round ended.
+L 10/20/2019 - 19:34:28: Result: traitors win.
+L 10/20/2019 - 19:34:50: Round proper has begun...
+L 10/20/2019 - 19:34:54: 00:04.17 - DMG: 	 Artur..... [innocent] damaged DidVaitel [innocent] for 24 dmg
+L 10/20/2019 - 19:34:55: 00:05.10 - DMG: 	 Artur..... [innocent] damaged DidVaitel [innocent] for 13 dmg
+L 10/20/2019 - 19:35:01: 00:10.71 - DMG: 	 Artur..... [innocent] damaged eLeCtrOssSnake [innocent] for 13 dmg
+L 10/20/2019 - 19:35:03: 00:12.32 - DMG: 	 Artur..... [innocent] damaged eLeCtrOssSnake [innocent] for 24 dmg
+L 10/20/2019 - 19:35:03: 00:12.72 - DMG: 	 Artur..... [innocent] damaged eLeCtrOssSnake [innocent] for 13 dmg
+L 10/20/2019 - 19:35:03: 00:12.93 - DMG: 	 eLeCtrOssSnake [innocent] damaged Artur..... [innocent] for 60 dmg
+L 10/20/2019 - 19:35:04: 00:13.79 - DMG: 	 eLeCtrOssSnake [innocent] damaged Artur..... [innocent] for 40 dmg
+L 10/20/2019 - 19:35:04: 00:13.79 - KILL:	 eLeCtrOssSnake [innocent] killed Artur..... [innocent]
+L 10/20/2019 - 19:35:29: "Artur.....<7><STEAM_0:1:515475062><>" disconnected (reason "Disconnect by user.")
+L 10/20/2019 - 19:35:38: 00:48.16 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [innocent] for 50 dmg
+L 10/20/2019 - 19:35:38: 00:48.16 - KILL:	 DidVaitel [innocent] killed eLeCtrOssSnake [innocent]
+L 10/20/2019 - 19:35:54: 01:03.97 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 5 dmg
+L 10/20/2019 - 19:35:54: 01:04.17 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 6 dmg
+L 10/20/2019 - 19:35:54: 01:04.17 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 6 dmg
+L 10/20/2019 - 19:35:55: 01:04.37 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 4 dmg
+L 10/20/2019 - 19:35:55: 01:04.56 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 6 dmg
+L 10/20/2019 - 19:35:55: 01:05.15 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 5 dmg
+L 10/20/2019 - 19:35:56: 01:05.34 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 5 dmg
+L 10/20/2019 - 19:35:56: 01:05.34 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 5 dmg
+L 10/20/2019 - 19:35:56: 01:05.53 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 4 dmg
+L 10/20/2019 - 19:35:56: 01:05.53 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [traitor] for 5 dmg
+L 10/20/2019 - 19:35:56: 01:05.58 - DMG: 	 DidVaitel [innocent] damaged byLLirik [traitor] for 50 dmg
+L 10/20/2019 - 19:35:56: 01:05.58 - KILL:	 DidVaitel [innocent] killed byLLirik [traitor]
+L 10/20/2019 - 19:35:56: Round ended.
+L 10/20/2019 - 19:35:56: Result: innocent win.
+L 10/20/2019 - 19:36:19: Round proper has begun...
+L 10/20/2019 - 19:36:39: 00:20.24 - KILL:	 <something/world> killed byLLirik [innocent]
+L 10/20/2019 - 19:38:08: 01:49.58 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 61 dmg
+L 10/20/2019 - 19:38:09: 01:50.07 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 61 dmg
+L 10/20/2019 - 19:38:09: 01:50.07 - KILL:	 DidVaitel [traitor] killed eLeCtrOssSnake [innocent]
+L 10/20/2019 - 19:38:10: Round ended.
+L 10/20/2019 - 19:38:10: Result: traitors win.
+L 10/20/2019 - 19:38:32: Round proper has begun...
+L 10/20/2019 - 19:39:18: 00:45.21 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [innocent] for 13 dmg
+L 10/20/2019 - 19:39:18: 00:45.94 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [innocent] for 24 dmg
+L 10/20/2019 - 19:39:22: 00:49.30 - DMG: 	 byLLirik [traitor] damaged eLeCtrOssSnake [innocent] for 200 dmg
+L 10/20/2019 - 19:39:22: 00:49.30 - KILL:	 byLLirik [traitor] killed eLeCtrOssSnake [innocent]
+L 10/20/2019 - 19:39:34: 01:01.59 - DMG: 	 DidVaitel [innocent] damaged byLLirik [traitor] for 48 dmg
+L 10/20/2019 - 19:39:34: 01:01.80 - DMG: 	 DidVaitel [innocent] damaged byLLirik [traitor] for 13 dmg
+L 10/20/2019 - 19:39:34: 01:01.80 - KILL:	 DidVaitel [innocent] killed byLLirik [traitor]
+L 10/20/2019 - 19:39:34: Round ended.
+L 10/20/2019 - 19:39:34: Result: innocent win.
+L 10/20/2019 - 19:39:40: byLLirik: ((
+L 10/20/2019 - 19:39:57: Round proper has begun...
+L 10/20/2019 - 19:39:57: 00:00.27 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 5 dmg
+L 10/20/2019 - 19:39:57: 00:00.46 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:39:57: 00:00.46 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:39:57: 00:00.46 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 4 dmg
+L 10/20/2019 - 19:39:58: 00:00.66 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 5 dmg
+L 10/20/2019 - 19:39:58: 00:00.85 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 4 dmg
+L 10/20/2019 - 19:39:58: 00:01.05 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 19:40:02: 00:04.93 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 12 dmg
+L 10/20/2019 - 19:40:15: 00:18.42 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [innocent] for 6 dmg
+L 10/20/2019 - 19:40:16: 00:18.81 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [innocent] for 4 dmg
+L 10/20/2019 - 19:40:17: 00:19.59 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [innocent] for 4 dmg
+L 10/20/2019 - 19:40:17: 00:19.59 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [innocent] for 4 dmg
+L 10/20/2019 - 19:40:17: 00:19.59 - DMG: 	 eLeCtrOssSnake [innocent] damaged byLLirik [innocent] for 5 dmg
+L 10/20/2019 - 19:40:17: 00:19.83 - KILL:	 <something/world> killed byLLirik [innocent]
+L 10/20/2019 - 19:40:20: 00:22.74 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 18 dmg
+L 10/20/2019 - 19:40:20: 00:23.20 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 32 dmg
+L 10/20/2019 - 19:40:21: 00:24.42 - KILL:	 <something/world> killed DidVaitel [traitor]
+L 10/20/2019 - 19:40:22: Round ended.
+L 10/20/2019 - 19:40:22: Result: innocent win.
+L 10/20/2019 - 19:40:57: Log file closed.

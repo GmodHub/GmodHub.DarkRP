@@ -1,0 +1,98 @@
+L 10/28/2018 - 18:49:37: Log file started (file "logs\L1028005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/28/2018 - 18:49:37: server_cvar: "sv_alltalk" "3"
+L 10/28/2018 - 18:49:37: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "10.61.76.2:27006"
+L 10/28/2018 - 18:49:38: Connection to Steam servers successful.
+L 10/28/2018 - 18:49:38:    Public IP is 31.130.42.81.
+L 10/28/2018 - 18:49:38: Assigned anonymous gameserver Steam ID [A-1:1242622979(11298)].
+L 10/28/2018 - 18:49:39: VAC secure mode is activated.
+L 10/28/2018 - 18:49:39: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/28/2018 - 18:49:45: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/28/2018 - 18:49:54: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:383: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:383
+   2. Run - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. func - addons/gvuti/lua/autorun/server/sv_nets.lua:402
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/28/2018 - 19:05:43: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:05:59: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:06:35: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:07:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:07:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:07:34: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:07:38: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:16:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:16:42: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:17:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:18:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:19:01: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:49: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:49
+
+
+L 10/28/2018 - 19:19:01: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:54: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:54
+
+
+L 10/28/2018 - 19:19:58: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/28/2018 - 19:19:58: server_message: "quit"
+L 10/28/2018 - 19:19:58: Log file closed.

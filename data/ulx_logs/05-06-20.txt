@@ -1,0 +1,91 @@
+[05:31:17] New map: gm_construct
+
+
+
+[05:31:50] New map: gm_construct
+[05:36:15] Client "DidVaitel" connected.
+[05:36:33] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 18 seconds).
+[05:50:15] Server is shutting down/changing levels.
+
+
+
+[05:50:26] New map: gm_construct
+[05:50:59] Client "DidVaitel" connected.
+[05:51:07] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[06:01:12] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[06:01:12] Client "DidVaitel" connected.
+[06:01:21] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[06:02:00] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[06:02:01] Client "DidVaitel" connected.
+[06:02:10] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[06:06:07] DidVaitel suicided!
+[06:08:54] DidVaitel suicided!
+[06:36:55] DidVaitel suicided!
+[06:37:25] DidVaitel suicided!
+[06:37:42] DidVaitel suicided!
+[06:39:06] DidVaitel suicided!
+[07:54:04] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:11:23] Client "andreyka.ptitsyn" connected.
+[13:03:56] Client "Ебливый момент" connected.
+
+
+
+[16:33:38] New map: gm_construct
+[16:34:20] Client "DidVaitel" connected.
+[16:34:40] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 20 seconds).
+[16:38:44] Server is shutting down/changing levels.
+
+
+
+[16:38:53] New map: gm_construct
+[16:40:50] Client "DidVaitel" connected.
+[16:40:59] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[16:41:39] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:41:39] Client "DidVaitel" connected.
+[16:41:48] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[16:42:01] DidVaitel suicided!
+[16:43:02] DidVaitel suicided!
+[16:56:07] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:56:07] Client "DidVaitel" connected.
+[16:56:17] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[16:57:08] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:57:08] Client "DidVaitel" connected.
+[16:57:17] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[16:59:17] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:59:18] Client "DidVaitel" connected.
+[16:59:27] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[17:00:29] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:00:29] Client "DidVaitel" connected.
+[17:00:38] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[17:01:03] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:01:04] Client "DidVaitel" connected.
+[17:01:12] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[17:03:14] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:03:15] Client "DidVaitel" connected.
+[17:03:24] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[17:03:34] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:03:34] Client "DidVaitel" connected.
+[17:03:43] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[17:03:53] Server is shutting down/changing levels.
+
+
+
+[17:04:00] New map: gm_construct
+[17:04:04] Client "DidVaitel" connected.
+[17:04:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[17:05:03] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:05:04] Client "DidVaitel" connected.
+[17:05:12] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[17:05:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:05:56] Client "DidVaitel" connected.
+[17:06:06] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[17:06:45] DidVaitel suicided!
+[17:14:06] DidVaitel suicided!
+[17:15:12] Client "хХх I MAX BRO хХх" connected.
+[17:15:58] Client "хХх I MAX BRO хХх" spawned in server <STEAM_0:0:503827487> (took 46 seconds).
+[17:16:52] хХх I MAX BRO хХх<STEAM_0:0:503827487> spawned model models/props_c17/furniturecouch002a.mdl
+[17:17:34] хХх I MAX BRO хХх<STEAM_0:0:503827487> spawned model models/props_vehicles/car003b_physics.mdl
+[17:18:07] хХх I MAX BRO хХх<STEAM_0:0:503827487> spawned model models/props_wasteland/controlroom_filecabinet001a.mdl
+[17:18:13] хХх I MAX BRO хХх<STEAM_0:0:503827487> spawned model models/props_wasteland/prison_bedframe001b.mdl
+[17:19:14] Dropped "хХх I MAX BRO хХх" from server<STEAM_0:0:503827487>
+[17:53:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

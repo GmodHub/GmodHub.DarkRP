@@ -1,0 +1,19 @@
+L 04/08/2019 - 01:01:18: Log file started (file "logs\L0408004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 04/08/2019 - 01:01:18: server_cvar: "sv_alltalk" "3"
+L 04/08/2019 - 01:01:18: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/08/2019 - 01:01:18: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/08/2019 - 01:01:18: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/08/2019 - 01:01:18: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/08/2019 - 01:01:19: Connection to Steam servers successful.
+L 04/08/2019 - 01:01:19:    Public IP is 31.130.42.81.
+L 04/08/2019 - 01:01:19: Assigned anonymous gameserver Steam ID [A-1:1393853447(12313)].
+L 04/08/2019 - 01:01:19: VAC secure mode is activated.
+L 04/08/2019 - 01:01:26: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 04/08/2019 - 01:01:27: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/08/2019 - 01:01:32: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 04/08/2019 - 01:02:24: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 04/08/2019 - 01:02:24: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 04/08/2019 - 01:02:25: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/08/2019 - 01:02:26: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 04/08/2019 - 01:02:26: server_message: "quit"
+L 04/08/2019 - 01:02:26: Log file closed.

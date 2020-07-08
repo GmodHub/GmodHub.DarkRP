@@ -1,0 +1,3580 @@
+L 10/29/2018 - 17:56:56: Log file started (file "logs\L1029005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/29/2018 - 17:56:56: server_cvar: "sv_alltalk" "3"
+L 10/29/2018 - 17:56:56: server_cvar: "sv_allowcslua" "1"
+L 10/29/2018 - 17:56:56: server_cvar: "sv_airaccelerate" "1000"
+L 10/29/2018 - 17:56:56: server_cvar: "sv_alltalk" "0"
+L 10/29/2018 - 17:56:57: Connection to Steam servers successful.
+L 10/29/2018 - 17:56:57:    Public IP is 31.130.42.81.
+L 10/29/2018 - 17:56:57: Assigned anonymous gameserver Steam ID [A-1:2727718919(11302)].
+L 10/29/2018 - 17:56:58: VAC secure mode is activated.
+L 10/29/2018 - 17:57:08: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 10/29/2018 - 17:57:08: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/29/2018 - 17:57:17: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/29/2018 - 17:57:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/29/2018 - 17:57:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_iron_man
+L 10/29/2018 - 17:57:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_iron_man
+L 10/29/2018 - 17:57:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:05: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:05: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:14: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:16: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:28: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/29/2018 - 17:58:30: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704: attempt to perform arithmetic on field 'p' (a nil value)
+  1. SetAngles - gamemodes/darkrp/gamemode/modules/fpp/pp/server/core.lua:704
+   2. unknown - addons/sosop/lua/weapons/weapon_iron_man/shared.lua:205
+
+
+L 10/29/2018 - 17:58:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a superman
+L 10/29/2018 - 17:58:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a superman
+L 10/29/2018 - 17:58:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/29/2018 - 17:58:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/29/2018 - 17:58:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/29/2018 - 17:59:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a cptamerica
+L 10/29/2018 - 17:59:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:11: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:11: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:13: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:14: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:14: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:14: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:14: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a shieldthrow
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:15: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/29/2018 - 17:59:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/29/2018 - 17:59:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a cptamerica
+L 10/29/2018 - 17:59:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a cptamerica
+L 10/29/2018 - 17:59:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a cptamerica
+L 10/29/2018 - 17:59:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:21: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:21: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:21: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a shieldthrow
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:22: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/29/2018 - 17:59:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/29/2018 - 17:59:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a cptamerica
+L 10/29/2018 - 17:59:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:27: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:29: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:30: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:32: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a shieldthrow
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:33: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/29/2018 - 17:59:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/29/2018 - 17:59:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a cptamerica
+L 10/29/2018 - 17:59:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:38: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:38: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:38: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:38: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:38: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a emptycaptainhands
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:39: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:40: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:43
+
+
+L 10/29/2018 - 17:59:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a cptamerica
+L 10/29/2018 - 17:59:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:48: Tried to use a NULL entity!
+  1. SetHoldType - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/emptycaptainhands.lua:48
+
+
+L 10/29/2018 - 17:59:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/emptycaptainhands.lua:43: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/superheroswe

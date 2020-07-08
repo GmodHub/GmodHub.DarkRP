@@ -1,0 +1,194 @@
+L 07/03/2020 - 22:54:48: Log file started (file "logs\L0703039.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 22:54:48: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 22:54:49: Connection to Steam servers successful.
+L 07/03/2020 - 22:54:49:    Public IP is 31.130.42.26.
+L 07/03/2020 - 22:54:49: Assigned anonymous gameserver Steam ID [A-1:3784922116(15085)].
+L 07/03/2020 - 22:54:49: VAC secure mode is activated.
+L 07/03/2020 - 23:04:54: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 23:04:54: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/03/2020 - 23:05:09: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/03/2020 - 23:10:27: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 23:10:27: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/03/2020 - 23:10:27: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 23:10:28: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/03/2020 - 23:10:37: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/03/2020 - 23:12:32: Lua Error: gamemodes/darkrp/gamemode/core/credits/init_sv.lua:112: attempt to call field 'OpenMenu' (a nil value)
+
+L 07/03/2020 - 23:31:28: Lua Error: lua/includes/extensions/math.lua:40: bad argument #2 to 'max' (number expected, got nil)
+
+L 07/03/2020 - 23:43:19: Lua Error: gamemodes/darkrp/gamemode/core/credits/init_sv.lua:64: attempt to index local 'k' (a number value)
+
+L 07/03/2020 - 23:43:20: Lua Error: 
+[ERROR] Warning! A net message (rp.shop.Menu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/03/2020 - 23:43:34: Lua Error: gamemodes/darkrp/gamemode/core/credits/init_sv.lua:65: attempt to index local 'k' (a number value)
+
+L 07/03/2020 - 23:43:35: Lua Error: 
+[ERROR] Warning! A net message (rp.shop.Menu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/03/2020 - 23:49:50: Lua Error: gamemodes/darkrp/gamemode/core/credits/init_sv.lua:65: attempt to index global 'self' (a nil value)
+
+L 07/03/2020 - 23:49:55: Lua Error: 
+[ERROR] Warning! A net message (rp.shop.Menu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 00:07:45: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:180
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:16:05: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:184
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:16:11: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:184
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:16:15: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:184
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:16:15: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:184
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:16:16: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:184
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:18:34: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/extensions/util.lua:174: attempt to index a string value with bad key ('IsValid' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. IsValid - addons/dash_3/lua/dash/extensions/util.lua:174
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:171
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:18:36: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/extensions/util.lua:174: attempt to index a string value with bad key ('IsValid' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. IsValid - addons/dash_3/lua/dash/extensions/util.lua:174
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:171
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:22:34: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 00:22:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 00:22:35: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 00:22:35: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 00:22:45: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 00:22:45: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+
+L 07/04/2020 - 00:22:51: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:247: attempt to index a nil value
+  1. func - addons/dash_3/lua/dash/libraries/nw.lua:247
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:25:37: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:190
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:25:54: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:177
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:26:06: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:190
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:37:32: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" connected, address "212.66.63.98:27005"
+L 07/04/2020 - 00:38:38: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 00:38:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 00:38:38: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/04/2020 - 00:38:38: STEAMAUTH: Client eLeCtrOssSnake received failure code 6
+L 07/04/2020 - 00:38:38: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 07/04/2020 - 00:38:38: "COMPLΞX<6><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 00:38:38: "COMPLΞX<6><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 00:38:47: "COMPLΞX<6><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 00:38:47: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+
+L 07/04/2020 - 00:38:53: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:247: attempt to index a nil value
+  1. func - addons/dash_3/lua/dash/libraries/nw.lua:247
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:39:09: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:178: bad argument #1 to 'Left' (string expected, got nil)
+  1. Left - [C]:-1
+   2. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:178
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 00:42:14: "COMPLΞX<6><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/04/2020 - 00:42:14: server_message: "quit"
+L 07/04/2020 - 00:42:14: Log file closed.

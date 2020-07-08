@@ -1,0 +1,41 @@
+L 10/14/2018 - 20:50:17: Log file started (file "logs\L1014001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7220")
+L 10/14/2018 - 20:50:17: server_cvar: "sv_alltalk" "3"
+L 10/14/2018 - 20:50:17: server_cvar: "sv_allowcslua" "1"
+L 10/14/2018 - 20:50:17: server_cvar: "sv_airaccelerate" "1000"
+L 10/14/2018 - 20:50:17: server_cvar: "sv_alltalk" "0"
+L 10/14/2018 - 20:50:18: Connection to Steam servers successful.
+L 10/14/2018 - 20:50:18:    Public IP is 31.130.42.81.
+L 10/14/2018 - 20:50:18: Assigned anonymous gameserver Steam ID [A-1:605764619(11222)].
+L 10/14/2018 - 20:50:19: VAC secure mode is activated.
+L 10/14/2018 - 20:51:15: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 10/14/2018 - 20:51:15: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/14/2018 - 20:51:21: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/14/2018 - 20:51:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/14/2018 - 20:53:22: [FAdmin] Server succesfully shut down.
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/14/2018 - 20:53:22: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/14/2018 - 20:53:22: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/14/2018 - 20:53:23: server_message: "quit"
+L 10/14/2018 - 20:53:23: Log file closed.

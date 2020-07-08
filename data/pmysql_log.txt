@@ -1,0 +1,51 @@
+[16:37:56 - 29/06/2020] Connection to database mazvov7p_sup:3300 failed. ERROR: Can't connect to MySQL server on 'mazvov7p.beget.tech' (10060)
+[16:39:12 - 29/06/2020] Connection to database mazvov7p_sup:3300 failed. ERROR: Can't connect to MySQL server on 'mazvov7p.beget.tech' (10060)
+[16:40:29 - 29/06/2020] Connection to database mazvov7p_sup:3300 failed. ERROR: Can't connect to MySQL server on 'mazvov7p.beget.tech' (10060)
+[16:45:26 - 29/06/2020] Connection to database badmin:3306 failed. ERROR: Can't connect to MySQL server on 'localhost' (10061)
+[16:46:03 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:47:31 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:48:44 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:49:37 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:49:42 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[16:50:13 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:50:17 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[16:51:17 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:51:21 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[16:52:11 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:52:15 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[16:54:40 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[16:54:47 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[18:03:47 - 29/06/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[18:45:52 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[18:46:04 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[19:15:06 - 29/06/2020] Connected to database mazvov7p_sup:3306 successfully.
+[19:15:11 - 29/06/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[21:30:10 - 29/06/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[22:14:10 - 29/06/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[05:01:57 - 01/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[05:02:13 - 01/07/2020] Connection to database ipb:3306 failed. ERROR: Access denied for user 'ipb'@'31.130.42.26' (using password: YES)
+[05:06:14 - 01/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[06:56:33 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[07:07:33 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[08:23:33 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[10:13:33 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[12:46:34 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[14:14:33 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[18:20:20 - 01/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[20:36:59 - 01/07/2020] mazvov7p_sup:3306 - MySQL server has gone away
+[00:24:03 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[18:37:33 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[19:30:04 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[19:34:06 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[19:56:38 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[19:57:38 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[20:37:50 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[22:12:48 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[22:14:36 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[22:21:23 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[22:22:16 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[22:42:10 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[23:26:10 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[23:31:04 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[23:34:57 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.
+[23:46:17 - 02/07/2020] Connected to database mazvov7p_sup:3306 successfully.

@@ -1,0 +1,67 @@
+L 12/18/2018 - 17:48:41: Log file started (file "logs\L1218000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/18/2018 - 17:48:41: server_cvar: "sv_alltalk" "3"
+L 12/18/2018 - 17:48:41: server_cvar: "sv_allowcslua" "1"
+L 12/18/2018 - 17:48:41: server_cvar: "sv_airaccelerate" "1000"
+L 12/18/2018 - 17:48:41: server_cvar: "sv_alltalk" "0"
+L 12/18/2018 - 17:48:42: Connection to Steam servers successful.
+L 12/18/2018 - 17:48:42:    Public IP is 31.130.42.81.
+L 12/18/2018 - 17:48:42: Assigned anonymous gameserver Steam ID [A-1:475091975(11587)].
+L 12/18/2018 - 17:48:42: VAC secure mode is activated.
+L 12/18/2018 - 17:48:43: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/18/2018 - 17:48:44: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/18/2018 - 17:49:06: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/18/2018 - 17:49:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/18/2018 - 17:50:47: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/18/2018 - 17:50:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/18/2018 - 17:50:47: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/18/2018 - 17:50:47: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/18/2018 - 17:50:56: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/18/2018 - 17:50:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/18/2018 - 17:51:16: [FAdmin] Server succesfully shut down.
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/18/2018 - 17:51:16: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/18/2018 - 17:51:17: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/18/2018 - 17:51:17: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 12/18/2018 - 17:51:17: server_message: "quit"
+L 12/18/2018 - 17:51:17: Log file closed.

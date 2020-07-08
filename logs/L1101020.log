@@ -1,0 +1,302 @@
+L 11/01/2019 - 14:34:07: Log file started (file "logs\L1101020.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 11/01/2019 - 14:34:07: server_cvar: "sv_alltalk" "3"
+L 11/01/2019 - 14:34:07: server_cvar: "sv_allowcslua" "1"
+L 11/01/2019 - 14:34:07: server_cvar: "sv_airaccelerate" "1000"
+L 11/01/2019 - 14:34:07: server_cvar: "sv_alltalk" "0"
+L 11/01/2019 - 14:34:08: Connection to Steam servers successful.
+L 11/01/2019 - 14:34:08:    Public IP is 31.130.42.47.
+L 11/01/2019 - 14:34:08: Assigned anonymous gameserver Steam ID [A-1:3690766345(13545)].
+L 11/01/2019 - 14:34:09: VAC secure mode is activated.
+L 11/01/2019 - 14:34:24: "Overhashed<2><STEAM_0:0:516940971><>" connected, address "26.64.99.216:27006"
+L 11/01/2019 - 14:34:24: "Overhashed<2><STEAM_0:0:516940971><>" STEAM USERID validated
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) is Authed
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned for the first time
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned
+L 11/01/2019 - 14:34:41: "Overhashed<2><STEAM_0:0:516940971><>" entered the game
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a keys
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_camera
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_tool
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a pocket
+L 11/01/2019 - 14:34:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 14:35:35: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "185.112.82.231:27005"
+L 11/01/2019 - 14:35:36: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 11/01/2019 - 14:36:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 11/01/2019 - 14:36:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 14:36:10: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 14:36:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) changed from Citizen to Informer
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 14:36:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 14:36:30: "Money Printer Guy<3><STEAM_0:1:164666257><Informer>" say "/me Достал жгут"
+
+L 11/01/2019 - 14:41:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:50: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:52: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:52: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:55: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:41:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:42:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 14:42:09: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 11/01/2019 - 14:42:09: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Disconnected
+L 11/01/2019 - 14:42:39: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" connected, address "185.112.82.231:27005"
+L 11/01/2019 - 14:42:39: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" STEAM USERID validated
+L 11/01/2019 - 14:42:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 11/01/2019 - 14:42:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 14:42:53: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" entered the game
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 14:42:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) changed from Citizen to Informer
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 14:43:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 15:05:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:01: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:02: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:02: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:07: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:08: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:13: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:13: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:14: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:15: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:18: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:19: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:05:23: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:21:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:21:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:21:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 15:21:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 15:21:57: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 15:22:02: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 11/01/2019 - 15:22:02: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Disconnected
+L 11/01/2019 - 16:22:13: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to switch noclip
+L 11/01/2019 - 16:22:29: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" connected, address "185.112.82.231:27005"
+L 11/01/2019 - 16:22:29: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" STEAM USERID validated
+L 11/01/2019 - 16:22:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 11/01/2019 - 16:22:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 16:22:39: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" entered the game
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:22:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) changed from Citizen to Informer
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:22:51: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:22:58: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:22:59: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:00: "Overhashed<2><STEAM_0:0:516940971><>" disconnected (reason "Disconnect by user.")
+L 11/01/2019 - 16:23:00: [FAdmin] Overhashed (STEAM_0:0:516940971) Disconnected
+L 11/01/2019 - 16:23:01: "Overhashed<6><STEAM_0:0:516940971><>" connected, address "26.64.99.216:27006"
+L 11/01/2019 - 16:23:01: "Overhashed<6><STEAM_0:0:516940971><>" STEAM USERID validated
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) is Authed
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned for the first time
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned
+L 11/01/2019 - 16:23:10: "Overhashed<6><STEAM_0:0:516940971><>" entered the game
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a keys
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a pocket
+L 11/01/2019 - 16:23:10: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:23:10: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:11: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:14: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:14: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:17: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:19: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:23: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:23: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:25: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:23:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:23:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:50: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:58: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:23:58: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:02: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:02: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:04: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:04: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:09: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:09: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:15: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:15: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:18: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:18: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:19: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:23: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:23: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:28: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:28: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:30: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:30: "Overhashed<6><STEAM_0:0:516940971><>" disconnected (reason "Disconnect by user.")
+L 11/01/2019 - 16:24:30: [FAdmin] Overhashed (STEAM_0:0:516940971) Disconnected
+L 11/01/2019 - 16:24:30: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:37: "Overhashed<7><STEAM_0:0:516940971><>" connected, address "26.64.99.216:27006"
+L 11/01/2019 - 16:24:37: "Overhashed<7><STEAM_0:0:516940971><>" STEAM USERID validated
+L 11/01/2019 - 16:24:37: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:37: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:40: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) is Authed
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned for the first time
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned
+L 11/01/2019 - 16:24:45: "Overhashed<7><STEAM_0:0:516940971><>" entered the game
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a keys
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a pocket
+L 11/01/2019 - 16:24:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:24:47: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:52: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:52: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:53: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:54: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to switch noclip
+L 11/01/2019 - 16:24:54: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:54: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to switch noclip
+L 11/01/2019 - 16:24:55: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:24:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:25:02: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:25:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:25:12: [FAdmin] Overhashed (STEAM_0:0:516940971) Gave himself a weapon_informer_laptop
+L 11/01/2019 - 16:25:13: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:25:13: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:25:14: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:07: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:07: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:13: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:13: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:16: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:16: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:20: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:20: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:24: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:24: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:27: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:33: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:36: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:36: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:38: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:38: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:45: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:45: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:47: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:27:48: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:27:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:27:49: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:03: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:03: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:06: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:08: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:08: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:16: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:17: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:22: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:22: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:24: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:29:26: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:29:27: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:27: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:31: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:36: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:37: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:39: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:42: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:42: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/01/2019 - 16:29:44: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by N/A with a N/A
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/01/2019 - 16:29:46: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/01/2019 - 16:30:27: [FAdmin] Server succesfully shut down.
+L 11/01/2019 - 16:30:27: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/01/2019 - 16:30:27: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/01/2019 - 16:30:27: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/01/2019 - 16:30:27: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/01/2019 - 16:30:27: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 11/01/2019 - 16:30:27: "Overhashed<7><STEAM_0:0:516940971><>" disconnected (reason "Server shutting down")
+L 11/01/2019 - 16:30:27: server_message: "quit"
+L 11/01/2019 - 16:30:27: Log file closed.

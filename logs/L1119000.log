@@ -1,0 +1,95 @@
+L 11/19/2019 - 13:36:30: Log file started (file "logs\L1119000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/19/2019 - 13:36:30: server_cvar: "sv_alltalk" "3"
+L 11/19/2019 - 13:36:30: server_cvar: "sv_allowcslua" "1"
+L 11/19/2019 - 13:36:30: server_cvar: "sv_airaccelerate" "1000"
+L 11/19/2019 - 13:36:30: server_cvar: "sv_alltalk" "0"
+L 11/19/2019 - 13:36:31: Connection to Steam servers successful.
+L 11/19/2019 - 13:36:31:    Public IP is 31.130.42.47.
+L 11/19/2019 - 13:36:31: Assigned anonymous gameserver Steam ID [A-1:26288137(13647)].
+L 11/19/2019 - 13:36:31: VAC secure mode is activated.
+L 11/19/2019 - 13:52:11: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:22: 'end' expected (to close 'function' at line 13) near '<eof>'
+
+
+L 11/19/2019 - 14:22:49: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:16: '<eof>' expected near 'end'
+
+
+L 11/19/2019 - 14:23:53: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:24:09: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:24:29: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:24:31: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:24:35: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:24:35: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:25:05: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:18: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:25:37: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:17: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:25:37: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:17: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:27:07: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:17: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:27:36: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:17: '<name>' expected near 'end'
+
+
+L 11/19/2019 - 14:36:11: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/19/2019 - 14:36:11: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/19/2019 - 14:36:27: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:14: attempt to call global 'MultivesrionQuery' (a nil value)
+  1. v - addons/complex_employer/lua/complex-employer/core/sv_core.lua:14
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 11/19/2019 - 14:36:27: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/base/sv_gamemode_functions.lua:615: attempt to index local 'jobTable' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/modules/base/sv_gamemode_functions.lua:615
+
+
+L 11/19/2019 - 14:36:27: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/19/2019 - 14:36:27: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/modules/base/sv_gamemode_functions.lua:740: attempt to index local 'jobTable' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/modules/base/sv_gamemode_functions.lua:740
+
+
+L 11/19/2019 - 14:36:27: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/19/2019 - 14:36:27: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/19/2019 - 15:02:29: Connection to Steam servers lost.  (Result = 3)
+L 11/19/2019 - 15:02:31: Connection to Steam servers successful.
+L 11/19/2019 - 15:02:31:    Public IP is 31.130.42.47.
+L 11/19/2019 - 15:02:31: Assigned anonymous gameserver Steam ID [A-1:26288137(13647)].
+L 11/19/2019 - 15:02:32: VAC secure mode is activated.
+L 11/19/2019 - 15:09:21: [FAdmin] Server succesfully shut down.
+L 11/19/2019 - 15:09:21: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/19/2019 - 15:09:21: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/19/2019 - 15:09:21: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/19/2019 - 15:09:21: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/19/2019 - 15:09:21: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 11/19/2019 - 15:09:22: server_message: "quit"
+L 11/19/2019 - 15:09:22: Log file closed.

@@ -1,0 +1,435 @@
+L 11/27/2019 - 22:02:38: Log file started (file "logs\L1127008.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/27/2019 - 22:02:38: server_cvar: "sv_alltalk" "3"
+L 11/27/2019 - 22:02:39: Connection to Steam servers successful.
+L 11/27/2019 - 22:02:39:    Public IP is 31.130.42.47.
+L 11/27/2019 - 22:02:39: Assigned anonymous gameserver Steam ID [A-1:264925189(13691)].
+L 11/27/2019 - 22:02:39: VAC secure mode is activated.
+L 11/27/2019 - 22:03:28: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/sh_vars.lua:11: attempt to index global 'nw' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/sh_vars.lua:11
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:111
+       6. unknown - gamemodes/militaryrp/gamemode/shared.lua:130
+        7. include - [C]:-1
+         8. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:03:28: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 22:03:28: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 22:03:28: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 22:03:28: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 22:03:28: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 22:03:28: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 22:03:37: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/sh_vars.lua:11: attempt to index global 'nw' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/sh_vars.lua:11
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:110
+       6. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+        7. include - [C]:-1
+         8. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:03:38: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 22:03:38: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 22:03:38: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 22:03:38: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 22:03:38: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 22:03:38: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 22:04:47: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/sh_vars.lua:11: attempt to index global 'nw' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/sh_vars.lua:11
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:110
+       6. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+        7. include - [C]:-1
+         8. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:05:32: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27005"
+L 11/27/2019 - 22:05:32: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/27/2019 - 22:05:46: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:63: attempt to index global 'rself' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:63
+
+
+L 11/27/2019 - 22:05:46: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/27/2019 - 22:06:32: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/27/2019 - 22:06:33: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27005"
+L 11/27/2019 - 22:06:33: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/27/2019 - 22:06:43: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:70: attempt to index global 'ply' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:70
+
+
+L 11/27/2019 - 22:06:43: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 11/27/2019 - 22:07:10: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:24: bad argument #1 to 'gsub' (string expected, got nil)
+  1. gsub - [C]:-1
+   2. GetTerm - gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:24
+    3. unknown - gamemodes/militaryrp/gamemode/config/sh_terms.lua:13
+     4. IncludeServerSide - [C]:-1
+      5. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+       6. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+        7. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+         8. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+          9. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+           10. include - [C]:-1
+            11. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:07:10: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:24: bad argument #1 to 'gsub' (string expected, got nil)
+  1. gsub - [C]:-1
+   2. GetTerm - gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:24
+    3. unknown - gamemodes/militaryrp/gamemode/config/sh_terms.lua:13
+     4. IncludeServerSide - [C]:-1
+      5. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+       6. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+        7. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+         8. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+          9. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+           10. include - [C]:-1
+            11. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:07:14: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:24: bad argument #1 to 'gsub' (string expected, got nil)
+  1. gsub - [C]:-1
+   2. GetTerm - gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:24
+    3. unknown - gamemodes/militaryrp/gamemode/config/sh_terms.lua:13
+     4. IncludeServerSide - [C]:-1
+      5. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+       6. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+        7. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+         8. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+          9. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+           10. include - [C]:-1
+            11. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:08:31: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:22: attempt to index global 'ply' (a nil value)
+  1. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:22
+   2. GMODSpawnProp - gamemodes/militaryrp/gamemode/core/sandbox/sv_commands.lua:148
+    3. unknown - gamemodes/militaryrp/gamemode/core/sandbox/sv_commands.lua:15
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/27/2019 - 22:08:49: [ULX] COMPLΞX<STEAM_0:0:105635721> spawned model models/props_c17/furniturestove001a.mdl
+L 11/27/2019 - 22:08:56: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:15: attempt to index global 'GM' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:15
+
+
+L 11/27/2019 - 22:09:10: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:15: attempt to index global 'GM' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:15
+
+
+L 11/27/2019 - 22:09:19: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:21: attempt to index global 'GM' (a nil value)
+  1. GetTerm - gamemodes/militaryrp/gamemode/core/menus/notifications/sh_notifications.lua:21
+   2. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:15
+
+
+L 11/27/2019 - 22:21:57: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:22:17: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:22:17: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:22:36: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:22:36: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:22:47: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:22:47: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:23:07: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:23:16: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:23:16: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:23:38: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:23:53: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:23:59: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:120: ']' expected near '='
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:29: 'end' expected (to close 'function' at line 27) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:117
+     4. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+      5. include - [C]:-1
+       6. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:29: 'end' expected (to close 'function' at line 27) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:120
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:12: attempt to call method 'AddFaction' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/config/sh_factions.lua:12
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+       6. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+        7. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+         8. include - [C]:-1
+          9. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:53: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:29: 'end' expected (to close 'function' at line 27) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:117
+     4. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+      5. include - [C]:-1
+       6. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:53: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:29: 'end' expected (to close 'function' at line 27) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:120
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:53: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:12: attempt to call method 'AddFaction' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/config/sh_factions.lua:12
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+       6. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+        7. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+         8. include - [C]:-1
+          9. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:56: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:29: 'end' expected (to close 'function' at line 27) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:117
+     4. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+      5. include - [C]:-1
+       6. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:56: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:29: 'end' expected (to close 'function' at line 27) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:120
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:24:56: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:12: attempt to call method 'AddFaction' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/config/sh_factions.lua:12
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+       6. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+        7. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+         8. include - [C]:-1
+          9. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:25:00: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:21: 'end' expected (to close 'function' at line 19) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:117
+     4. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+      5. include - [C]:-1
+       6. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:25:00: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:21: 'end' expected (to close 'function' at line 19) near 'self'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:120
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:25:00: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:12: attempt to call method 'AddFaction' (a nil value)
+  1. unknown - gamemodes/militaryrp/gamemode/config/sh_factions.lua:12
+   2. IncludeServerSide - [C]:-1
+    3. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+     4. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+      5. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+       6. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:125
+        7. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+         8. include - [C]:-1
+          9. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 22:29:23: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 11/27/2019 - 22:29:24: server_message: "quit"
+L 11/27/2019 - 22:29:24: Log file closed.

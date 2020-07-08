@@ -1,0 +1,101 @@
+L 01/22/2019 - 00:57:10: Log file started (file "logs\L0122010.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/22/2019 - 00:57:10: server_cvar: "sv_alltalk" "3"
+L 01/22/2019 - 00:57:10: server_cvar: "sv_allowcslua" "1"
+L 01/22/2019 - 00:57:10: server_cvar: "sv_airaccelerate" "1000"
+L 01/22/2019 - 00:57:10: server_cvar: "sv_alltalk" "0"
+L 01/22/2019 - 00:57:10: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/22/2019 - 00:57:10: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/22/2019 - 00:57:10: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/22/2019 - 00:57:10: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/22/2019 - 00:57:11: Connection to Steam servers successful.
+L 01/22/2019 - 00:57:11:    Public IP is 31.130.42.81.
+L 01/22/2019 - 00:57:11: Assigned anonymous gameserver Steam ID [A-1:270000131(11835)].
+L 01/22/2019 - 00:57:11: VAC secure mode is activated.
+L 01/22/2019 - 00:57:14: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/22/2019 - 00:57:14: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/22/2019 - 00:57:23: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/22/2019 - 00:57:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/22/2019 - 00:58:31: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 01/22/2019 - 00:58:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 01/22/2019 - 00:58:32: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/22/2019 - 00:58:32: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/22/2019 - 00:58:41: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/22/2019 - 00:58:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/22/2019 - 00:58:47: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 01/22/2019 - 00:58:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 01/22/2019 - 00:58:47: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/22/2019 - 00:58:47: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/22/2019 - 00:58:56: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/22/2019 - 00:58:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/22/2019 - 00:59:50: "Bot01<5><BOT><>" connected, address "none"
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Spawned for the first time
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Spawned
+L 01/22/2019 - 00:59:50: "Bot01<5><BOT><>" entered the game
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 01/22/2019 - 00:59:50: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 00:59:57: "Bot02<6><BOT><>" connected, address "none"
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Spawned for the first time
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Spawned
+L 01/22/2019 - 00:59:57: "Bot02<6><BOT><>" entered the game
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Attempted to pick up a keys
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_camera
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_tool
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Attempted to pick up a pocket
+L 01/22/2019 - 00:59:57: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 00:59:58: [FAdmin] Server succesfully shut down.
+L 01/22/2019 - 00:59:58: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 01/22/2019 - 00:59:58: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 01/22/2019 - 00:59:58: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 01/22/2019 - 00:59:58: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 01/22/2019 - 00:59:58: "Bot02<6><BOT><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 00:59:58: "Bot01<5><BOT><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 00:59:58: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 00:59:58: server_message: "quit"
+L 01/22/2019 - 00:59:58: Log file closed.

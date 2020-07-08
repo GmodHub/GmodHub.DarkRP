@@ -1,0 +1,72 @@
+Mon May  4 15:17:42 2020	Bot01 (BOT) has joined the game
+Mon May  4 15:17:42 2020	Bot01 (BOT) spawned
+Mon May  4 15:17:42 2020	Bot02 (BOT) has joined the game
+Mon May  4 15:17:42 2020	Bot02 (BOT) spawned
+Mon May  4 15:17:42 2020	Bot03 (BOT) has joined the game
+Mon May  4 15:17:42 2020	Bot03 (BOT) spawned
+Mon May  4 15:17:43 2020	Bot04 (BOT) has joined the game
+Mon May  4 15:17:43 2020	Bot04 (BOT) spawned
+Mon May  4 15:17:43 2020	Bot05 (BOT) has joined the game
+Mon May  4 15:17:43 2020	Bot05 (BOT) spawned
+Mon May  4 15:17:43 2020	Bot06 (BOT) has joined the game
+Mon May  4 15:17:43 2020	Bot06 (BOT) spawned
+Mon May  4 15:17:43 2020	Bot07 (BOT) has joined the game
+Mon May  4 15:17:43 2020	Bot07 (BOT) spawned
+Mon May  4 15:17:43 2020	Bot08 (BOT) has joined the game
+Mon May  4 15:17:43 2020	Bot08 (BOT) spawned
+Mon May  4 15:17:43 2020	Bot09 (BOT) has joined the game
+Mon May  4 15:17:43 2020	Bot09 (BOT) spawned
+Mon May  4 15:18:16 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 15:18:16 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 15:18:34 2020	Bot10 (BOT) has joined the game
+Mon May  4 15:18:34 2020	Bot10 (BOT) spawned
+Mon May  4 15:18:34 2020	Bot11 (BOT) has joined the game
+Mon May  4 15:18:34 2020	Bot11 (BOT) spawned
+Mon May  4 15:18:34 2020	Bot12 (BOT) has joined the game
+Mon May  4 15:18:34 2020	Bot12 (BOT) spawned
+Mon May  4 15:19:42 2020	Bot13 (BOT) has joined the game
+Mon May  4 15:19:42 2020	Bot13 (BOT) spawned
+Mon May  4 15:19:42 2020	Bot14 (BOT) has joined the game
+Mon May  4 15:19:42 2020	Bot14 (BOT) spawned
+Mon May  4 15:19:42 2020	Bot15 (BOT) has joined the game
+Mon May  4 15:19:42 2020	Bot15 (BOT) spawned
+Mon May  4 15:21:24 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 15:21:24 2020	Bot01 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot02 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot03 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot04 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot05 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot06 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot07 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot08 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot09 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot10 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot11 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot12 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot13 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot14 (BOT) disconnected
+Mon May  4 15:21:24 2020	Bot15 (BOT) disconnected
+Mon May  4 15:21:33 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 15:21:33 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 15:24:43 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 15:30:18 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 15:30:18 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 15:31:01 2020	Bot16 (BOT) has joined the game
+Mon May  4 15:31:01 2020	Bot16 (BOT) spawned
+Mon May  4 15:31:01 2020	Bot17 (BOT) has joined the game
+Mon May  4 15:31:01 2020	Bot17 (BOT) spawned
+Mon May  4 15:31:01 2020	Bot18 (BOT) has joined the game
+Mon May  4 15:31:01 2020	Bot18 (BOT) spawned
+Mon May  4 15:31:10 2020	Bot19 (BOT) has joined the game
+Mon May  4 15:31:10 2020	Bot19 (BOT) spawned
+Mon May  4 15:31:10 2020	Bot20 (BOT) has joined the game
+Mon May  4 15:31:10 2020	Bot20 (BOT) spawned
+Mon May  4 15:31:10 2020	Bot21 (BOT) has joined the game
+Mon May  4 15:31:10 2020	Bot21 (BOT) spawned
+Mon May  4 15:31:16 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 15:31:16 2020	Bot16 (BOT) disconnected
+Mon May  4 15:31:16 2020	Bot17 (BOT) disconnected
+Mon May  4 15:31:16 2020	Bot18 (BOT) disconnected
+Mon May  4 15:31:16 2020	Bot19 (BOT) disconnected
+Mon May  4 15:31:16 2020	Bot20 (BOT) disconnected
+Mon May  4 15:31:16 2020	Bot21 (BOT) disconnected

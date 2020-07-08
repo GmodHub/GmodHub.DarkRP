@@ -1,0 +1,9 @@
+Sat Apr 13 16:11:31 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sat Apr 13 16:11:31 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sat Apr 13 16:11:46 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT npc_zonesecurity
+Sat Apr 13 16:25:21 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Sat Apr 13 16:25:29 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sat Apr 13 16:25:29 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Sat Apr 13 16:25:59 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Sat Apr 13 16:26:07 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sat Apr 13 16:26:07 2019	DidVaitel (STEAM_0:1:74202541) spawned

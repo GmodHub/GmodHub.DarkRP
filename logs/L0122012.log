@@ -1,0 +1,66 @@
+L 01/22/2019 - 02:03:30: Log file started (file "logs\L0122012.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/22/2019 - 02:03:30: server_cvar: "sv_alltalk" "3"
+L 01/22/2019 - 02:03:30: server_cvar: "sv_allowcslua" "1"
+L 01/22/2019 - 02:03:30: server_cvar: "sv_airaccelerate" "1000"
+L 01/22/2019 - 02:03:30: server_cvar: "sv_alltalk" "0"
+L 01/22/2019 - 02:03:30: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/22/2019 - 02:03:30: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/22/2019 - 02:03:30: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/22/2019 - 02:03:30: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/22/2019 - 02:03:30: "Блит Фитчелл cs.mone<2><STEAM_0:0:425360000><>" connected, address "192.168.1.102:27005"
+L 01/22/2019 - 02:03:31: Connection to Steam servers successful.
+L 01/22/2019 - 02:03:31:    Public IP is 31.130.42.81.
+L 01/22/2019 - 02:03:31: Assigned anonymous gameserver Steam ID [A-1:799758347(11835)].
+L 01/22/2019 - 02:03:32: VAC secure mode is activated.
+L 01/22/2019 - 02:03:32: "Блит Фитчелл cs.mone<2><STEAM_0:0:425360000><>" STEAM USERID validated
+L 01/22/2019 - 02:03:50: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/22/2019 - 02:03:51: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/22/2019 - 02:04:00: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/22/2019 - 02:04:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/22/2019 - 02:04:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) is Authed
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Spawned for the first time
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Spawned
+L 01/22/2019 - 02:10:05: "Блит Фитчелл cs.mone<2><STEAM_0:0:425360000><>" entered the game
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a keys
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a weapon_physcannon
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a gmod_camera
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a gmod_tool
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a pocket
+L 01/22/2019 - 02:10:05: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a weapon_physgun
+L 01/22/2019 - 02:10:29: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 01/22/2019 - 02:11:10: [FAdmin] Блит Фитчелл cs.mone (STEAM_0:0:425360000) Attempted to pick up a weapon_crowbar
+L 01/22/2019 - 02:11:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/22/2019 - 02:13:13: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:264: attempt to perform arithmetic on field 'Duels' (a nil value)
+  1. callback - addons/gduels-system/lua/gduel/core/sv_functions.lua:264
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. SaveWin - addons/gduels-system/lua/gduel/core/sv_functions.lua:263
+     4. fn - addons/gduels-system/lua/gduel/core/sv_functions.lua:205
+      5. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/22/2019 - 02:13:57: [FAdmin] Server succesfully shut down.
+L 01/22/2019 - 02:13:57: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 01/22/2019 - 02:13:57: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 01/22/2019 - 02:13:57: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 01/22/2019 - 02:13:57: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 01/22/2019 - 02:13:57: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:13:57: "Блит Фитчелл cs.mone<2><STEAM_0:0:425360000><>" disconnected (reason "Server shutting down")
+L 01/22/2019 - 02:13:58: server_message: "quit"
+L 01/22/2019 - 02:13:58: Log file closed.

@@ -1,0 +1,383 @@
+L 12/03/2019 - 10:53:13: Log file started (file "logs\L1203001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 12/03/2019 - 10:53:13: server_cvar: "sv_alltalk" "3"
+L 12/03/2019 - 10:53:13: server_cvar: "sv_allowcslua" "1"
+L 12/03/2019 - 10:53:13: server_cvar: "sv_airaccelerate" "1000"
+L 12/03/2019 - 10:53:13: server_cvar: "sv_alltalk" "0"
+L 12/03/2019 - 10:53:14: Connection to Steam servers successful.
+L 12/03/2019 - 10:53:14:    Public IP is 31.130.42.47.
+L 12/03/2019 - 10:53:14: Assigned anonymous gameserver Steam ID [A-1:1607027713(13721)].
+L 12/03/2019 - 10:53:15: VAC secure mode is activated.
+L 12/03/2019 - 10:53:24: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 10:53:25: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 10:53:32: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 10:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 10:56:11: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 10:56:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 10:56:11: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 10:56:12: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 10:56:19: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 10:56:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 10:59:31: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 10:59:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 10:59:42: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 10:59:42: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 10:59:53: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 10:59:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 11:00:55: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 11:00:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 11:00:56: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 11:00:56: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 11:01:03: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 11:01:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 11:07:54: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 11:07:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 11:07:54: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 11:07:54: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 11:08:01: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 11:08:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 11:08:19: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 11:08:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 11:08:20: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 11:08:20: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 11:08:27: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 11:08:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 12:39:31: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 12:39:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 12:39:31: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 12:39:31: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 12:39:39: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 12:39:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 12:39:58: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 12:39:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 12:39:59: "DidVaitel<9><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 12:39:59: "DidVaitel<9><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 12:40:06: "DidVaitel<9><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 12:40:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 12:40:14: "DidVaitel<9><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 12:40:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 12:40:14: "DidVaitel<10><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 12:40:15: "DidVaitel<10><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 12:40:22: "DidVaitel<10><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 12:40:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 12:43:06: "DidVaitel<10><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 12:43:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 12:43:06: "DidVaitel<11><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 12:43:07: "DidVaitel<11><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 12:43:13: "DidVaitel<11><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 12:43:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 12:43:35: "DidVaitel<11><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/03/2019 - 12:43:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/03/2019 - 12:43:35: "DidVaitel<12><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 12/03/2019 - 12:43:35: "DidVaitel<12><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/03/2019 - 12:43:42: "DidVaitel<12><STEAM_0:1:74202541><>" entered the game
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/03/2019 - 12:43:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/03/2019 - 14:22:52: "Bot01<13><BOT><>" connected, address "none"
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Spawned for the first time
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Spawned
+L 12/03/2019 - 14:22:52: "Bot01<13><BOT><>" entered the game
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:22:52: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:22:52: "Bot02<14><BOT><>" connected, address "none"
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Spawned for the first time
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Spawned
+L 12/03/2019 - 14:22:52: "Bot02<14><BOT><>" entered the game
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:22:52: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:22:53: "Bot03<15><BOT><>" connected, address "none"
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Spawned for the first time
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Spawned
+L 12/03/2019 - 14:22:53: "Bot03<15><BOT><>" entered the game
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:22:53: [FAdmin] Bot03 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:22:53: "Bot04<16><BOT><>" connected, address "none"
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Spawned for the first time
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Spawned
+L 12/03/2019 - 14:22:53: "Bot04<16><BOT><>" entered the game
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:22:53: [FAdmin] Bot04 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:47: "Bot05<17><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Spawned
+L 12/03/2019 - 14:56:47: "Bot05<17><BOT><>" entered the game
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:47: [FAdmin] Bot05 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:47: "Bot06<18><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Spawned
+L 12/03/2019 - 14:56:47: "Bot06<18><BOT><>" entered the game
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:47: [FAdmin] Bot06 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:47: "Bot07<19><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Spawned
+L 12/03/2019 - 14:56:47: "Bot07<19><BOT><>" entered the game
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:47: [FAdmin] Bot07 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:48: "Bot08<20><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Spawned
+L 12/03/2019 - 14:56:48: "Bot08<20><BOT><>" entered the game
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:48: [FAdmin] Bot08 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:48: "Bot09<21><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Spawned
+L 12/03/2019 - 14:56:48: "Bot09<21><BOT><>" entered the game
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:48: [FAdmin] Bot09 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:49: "Bot10<22><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Spawned
+L 12/03/2019 - 14:56:49: "Bot10<22><BOT><>" entered the game
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:49: [FAdmin] Bot10 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:49: "Bot11<23><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Spawned
+L 12/03/2019 - 14:56:49: "Bot11<23><BOT><>" entered the game
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:49: [FAdmin] Bot11 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:50: "Bot12<24><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Spawned
+L 12/03/2019 - 14:56:50: "Bot12<24><BOT><>" entered the game
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:50: [FAdmin] Bot12 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:50: "Bot13<25><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Spawned
+L 12/03/2019 - 14:56:50: "Bot13<25><BOT><>" entered the game
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:50: [FAdmin] Bot13 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:51: "Bot14<26><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Spawned
+L 12/03/2019 - 14:56:51: "Bot14<26><BOT><>" entered the game
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:51: [FAdmin] Bot14 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:51: "Bot15<27><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Spawned
+L 12/03/2019 - 14:56:51: "Bot15<27><BOT><>" entered the game
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Attempted to pick up a weapon_physcannon
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Attempted to pick up a gmod_camera
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Attempted to pick up a gmod_tool
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Attempted to pick up a pocket
+L 12/03/2019 - 14:56:51: [FAdmin] Bot15 (BOT) Attempted to pick up a weapon_physgun
+L 12/03/2019 - 14:56:52: "Bot16<28><BOT><>" connected, address "none"
+L 12/03/2019 - 14:56:52: [FAdmin] Bot16 (BOT) Spawned for the first time
+L 12/03/2019 - 14:56:52: [FAdmin] Bot16 (BOT) Spawned
+L 12/03/2019 - 14:56:52: "Bot16<28><BOT><>" entered the game
+L 12/03/2019 - 14:56:52: [FAdmin] Bot16 (BOT) Attempted to pick up a keys
+L 12/03/2019 - 14:56:52: [FAdmin] Bot16 (B

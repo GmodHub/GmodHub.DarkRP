@@ -1,0 +1,85 @@
+L 11/18/2019 - 16:09:08: Log file started (file "logs\L1118000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/18/2019 - 16:09:08: server_cvar: "sv_alltalk" "3"
+L 11/18/2019 - 16:09:08: server_cvar: "sv_allowcslua" "1"
+L 11/18/2019 - 16:09:08: server_cvar: "sv_airaccelerate" "1000"
+L 11/18/2019 - 16:09:08: server_cvar: "sv_alltalk" "0"
+L 11/18/2019 - 16:09:10: Connection to Steam servers successful.
+L 11/18/2019 - 16:09:10:    Public IP is 31.130.42.47.
+L 11/18/2019 - 16:09:10: Assigned anonymous gameserver Steam ID [A-1:1035469825(13643)].
+L 11/18/2019 - 16:09:10: VAC secure mode is activated.
+L 11/18/2019 - 16:36:53: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/18/2019 - 16:36:53: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/18/2019 - 16:37:10: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/18/2019 - 16:37:10: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/18/2019 - 16:37:11: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/18/2019 - 16:37:11: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/18/2019 - 16:40:26: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/18/2019 - 16:40:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Disconnected
+L 11/18/2019 - 16:40:26: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/18/2019 - 16:40:27: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/18/2019 - 16:40:34: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/18/2019 - 16:40:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/18/2019 - 16:47:14: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/18/2019 - 16:47:14: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Disconnected
+L 11/18/2019 - 16:47:15: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/18/2019 - 16:47:15: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/18/2019 - 16:47:22: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/18/2019 - 16:47:22: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/18/2019 - 16:51:04: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/18/2019 - 16:51:04: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Disconnected
+L 11/18/2019 - 16:51:04: "COMPLΞX<5><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/18/2019 - 16:51:04: "COMPLΞX<5><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/18/2019 - 16:51:12: "COMPLΞX<5><STEAM_0:0:105635721><>" entered the game
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/18/2019 - 16:51:12: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/18/2019 - 16:52:27: "COMPLΞX<5><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/18/2019 - 16:52:27: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Disconnected
+L 11/18/2019 - 16:52:27: "COMPLΞX<6><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/18/2019 - 16:52:28: "COMPLΞX<6><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/18/2019 - 16:52:34: "COMPLΞX<6><STEAM_0:0:105635721><>" entered the game
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/18/2019 - 16:52:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/18/2019 - 17:07:25: [FAdmin] Server succesfully shut down.
+L 11/18/2019 - 17:07:25: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/18/2019 - 17:07:25: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/18/2019 - 17:07:25: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/18/2019 - 17:07:25: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/18/2019 - 17:07:25: "COMPLΞX<6><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 11/18/2019 - 17:07:25: server_message: "quit"
+L 11/18/2019 - 17:07:25: Log file closed.

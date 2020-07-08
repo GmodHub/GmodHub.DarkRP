@@ -1,0 +1,18 @@
+Tue Apr 28 01:11:12 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Tue Apr 28 01:11:12 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Tue Apr 28 01:31:30 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 01:39:39 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Tue Apr 28 01:39:49 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Tue Apr 28 01:39:49 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Tue Apr 28 01:39:58 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Tue Apr 28 01:40:22 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Tue Apr 28 01:40:22 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Tue Apr 28 01:51:47 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 01:52:02 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 01:52:57 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 01:53:21 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 01:53:24 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 02:02:47 2020	DidVaitel was killed by Himself with a suicide trick
+Tue Apr 28 02:02:48 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Tue Apr 28 02:13:10 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Tue Apr 28 02:13:32 2020	DidVaitel (STEAM_0:1:74202541) disconnected

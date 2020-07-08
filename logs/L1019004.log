@@ -1,0 +1,599 @@
+L 10/19/2019 - 12:58:18: Log file started (file "logs\L1019004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/19/2019 - 12:58:18: server_cvar: "sv_alltalk" "3"
+L 10/19/2019 - 12:58:18: server_cvar: "sv_allowcslua" "1"
+L 10/19/2019 - 12:58:18: server_cvar: "sv_airaccelerate" "1000"
+L 10/19/2019 - 12:58:18: server_cvar: "sv_alltalk" "0"
+L 10/19/2019 - 12:58:19: Connection to Steam servers successful.
+L 10/19/2019 - 12:58:19:    Public IP is 31.130.42.47.
+L 10/19/2019 - 12:58:19: Assigned anonymous gameserver Steam ID [A-1:2396605441(13478)].
+L 10/19/2019 - 12:58:19: VAC secure mode is activated.
+L 10/19/2019 - 12:58:22: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 12:58:22: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 12:58:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 12:58:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 12:58:35: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 12:58:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 12:58:47: [FAdmin] Losi (STEAM_0:1:74202541) Gave himself a weapon_informer_laptop
+L 10/19/2019 - 12:58:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/19/2019 - 12:58:55: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:268
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:59:29: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:268
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 12:59:34: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 12:59:34: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 12:59:34: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 12:59:35: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 12:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 12:59:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 12:59:47: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 12:59:47: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 13:00:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 13:00:02: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 13:00:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:273
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 13:02:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:268
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 13:03:26: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:268
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 13:03:32: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:268
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 13:09:52: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:29: attempt to call upvalue 'callback' (a nil value)
+  1. callback - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+   2. query - gamemodes/darkrp/gamemode/libraries/mysqlite/mysqlite.lua:305
+    3. GetPlayerData - addons/informer-system/lua/autorun/server/informer_serverside.lua:29
+     4. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:225
+      5. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:273
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 13:30:34: "Воробушек<4><STEAM_0:0:466777376><>" connected, address "79.132.67.85:27005"
+L 10/19/2019 - 13:30:35: "Воробушек<4><STEAM_0:0:466777376><>" STEAM USERID validated
+L 10/19/2019 - 13:31:08: server_cvar: "sv_password" "***PROTECTED***"
+L 10/19/2019 - 13:36:02: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:227: attempt to index global 'data' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:227
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:268
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) is Authed
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Spawned for the first time
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Spawned
+L 10/19/2019 - 13:37:34: "Воробушек<4><STEAM_0:0:466777376><>" entered the game
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a keys
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a gmod_camera
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a gmod_tool
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a pocket
+L 10/19/2019 - 13:37:34: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 13:38:09: [FAdmin] Воробушек (STEAM_0:0:466777376) Gave himself a weapon_ak472
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) changed from Citizen to Hobo
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a weapon_bugbait
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a keys
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a gmod_camera
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a gmod_tool
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a pocket
+L 10/19/2019 - 13:38:25: [FAdmin] Воробушек (STEAM_0:0:466777376) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 13:38:39: "Воробушек<4><STEAM_0:0:466777376><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 13:38:39: [FAdmin] Воробушек (STEAM_0:0:466777376) Disconnected
+L 10/19/2019 - 13:50:08: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 13:50:08: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 13:52:03: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 13:52:03: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 13:52:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 13:52:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 13:52:14: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 13:52:14: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 14:04:17: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:220: unexpected symbol near ')'
+
+
+L 10/19/2019 - 14:04:30: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:220: unexpected symbol near ')'
+
+
+L 10/19/2019 - 14:06:45: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:224: unexpected symbol near ')'
+
+
+L 10/19/2019 - 14:07:31: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:234: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:10:02: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/informer-system/lua/entities/sent_informer_laptop/init.lua:37
+
+
+L 10/19/2019 - 14:10:11: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 14:10:11: Lua Error: Warning! A net message (InformerSystem_LaptopMenu) is already started! Discarding in favor of the new message! (DarkRP_DarkRPVarDisconnect)
+
+L 10/19/2019 - 14:10:11: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 14:10:12: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 14:10:12: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 14:10:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 14:10:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 14:10:22: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 14:10:22: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 14:10:54: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 14:10:54: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 14:12:27: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:234: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:15:59: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:236: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:16:48: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:238: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:17:01: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:239: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:17:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:240: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:17:11: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:240: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:17:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:241: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:17:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:241: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:17:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:241: '=' expected near 'data'
+
+
+L 10/19/2019 - 14:18:14: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 14:18:14: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 14:18:15: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 14:18:15: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 14:18:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 14:18:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 14:18:27: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 14:18:27: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 14:19:27: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/informer-system/lua/entities/sent_informer_laptop/init.lua:37
+
+
+L 10/19/2019 - 14:19:28: Lua Error: Warning! A net message (InformerSystem_LaptopMenu) is already started! Discarding in favor of the new message! (InformerSystem_LaptopMenu)
+
+L 10/19/2019 - 14:19:28: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/informer-system/lua/entities/sent_informer_laptop/init.lua:37
+
+
+L 10/19/2019 - 14:19:37: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 14:19:37: Lua Error: Warning! A net message (InformerSystem_LaptopMenu) is already started! Discarding in favor of the new message! (DarkRP_DarkRPVarDisconnect)
+
+L 10/19/2019 - 14:19:37: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 14:19:38: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 14:19:38: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 14:19:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 14:19:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 14:19:53: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 14:19:53: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 14:19:59: Lua Error: 
+[ERROR] lua/includes/extensions/net.lua:103: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. WriteTable - lua/includes/extensions/net.lua:103
+    3. unknown - addons/informer-system/lua/entities/sent_informer_laptop/init.lua:37
+
+
+L 10/19/2019 - 14:20:13: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 14:20:13: Lua Error: Warning! A net message (InformerSystem_LaptopMenu) is already started! Discarding in favor of the new message! (DarkRP_DarkRPVarDisconnect)
+
+L 10/19/2019 - 14:20:13: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 14:20:13: "DidVaitel<9><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 14:20:14: "DidVaitel<9><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 14:20:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 14:20:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 14:20:26: "DidVaitel<9><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 14:20:26: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 14:20:51: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 14:20:51: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 14:22:22: "DidVaitel<9><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 14:22:22: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 14:22:23: "DidVaitel<10><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 14:22:23: "DidVaitel<10><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 14:22:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 14:22:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 14:22:35: "DidVaitel<10><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 14:22:35: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 14:22:40: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 14:22:40: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 14:26:57: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:16: '=' expected near 'local'
+
+
+L 10/19/2019 - 14:28:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:250: attempt to call field 'SendToServer' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:250
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:280
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 14:28:10: Lua Error: Warning! A net message (InformerSystem.UpdatePlayerTable) is already started! Discarding in favor of the new message! (InformerSystem.UpdateTrackingData)
+
+L 10/19/2019 - 14:28:54: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:250: attempt to call field 'SendToServer' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:250
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:280
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 14:28:55: Lua Error: Warning! A net message (InformerSystem.UpdatePlayerTable) is already started! Discarding in favor of the new message! (InformerSystem.UpdateTrackingData)
+
+L 10/19/2019 - 14:39:26: "Bot01<11><BOT><>" connected, address "none"
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Spawned for the first time
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Spawned
+L 10/19/2019 - 14:39:26: "Bot01<11><BOT><>" entered the game
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 10/19/2019 - 14:39:26: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:39:26: "Bot02<12><BOT><>" connected, address "none"
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Spawned for the first time
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Spawned
+L 10/19/2019 - 14:39:26: "Bot02<12><BOT><>" entered the game
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Attempted to pick up a keys
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Attempted to pick up a pocket
+L 10/19/2019 - 14:39:26: [FAdmin] Bot02 (BOT) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:39:27: "Bot03<13><BOT><>" connected, address "none"
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Spawned for the first time
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Spawned
+L 10/19/2019 - 14:39:27: "Bot03<13><BOT><>" entered the game
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Attempted to pick up a keys
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Attempted to pick up a pocket
+L 10/19/2019 - 14:39:27: [FAdmin] Bot03 (BOT) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:39:27: "Bot04<14><BOT><>" connected, address "none"
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Spawned for the first time
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Spawned
+L 10/19/2019 - 14:39:27: "Bot04<14><BOT><>" entered the game
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Attempted to pick up a keys
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Attempted to pick up a pocket
+L 10/19/2019 - 14:39:27: [FAdmin] Bot04 (BOT) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:39:28: "Bot05<15><BOT><>" connected, address "none"
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Spawned for the first time
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Spawned
+L 10/19/2019 - 14:39:28: "Bot05<15><BOT><>" entered the game
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Attempted to pick up a keys
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Attempted to pick up a gmod_camera
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Attempted to pick up a gmod_tool
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Attempted to pick up a pocket
+L 10/19/2019 - 14:39:28: [FAdmin] Bot05 (BOT) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 14:52:10: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:250: 'then' expected near 'net'
+
+
+L 10/19/2019 - 14:52:53: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:249: attempt to perform arithmetic on field 'lvl' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:249
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:279
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 14:52:53: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:249: attempt to perform arithmetic on field 'lvl' (a nil value)
+  1. UpdateDealsStats - addons/informer-system/lua/autorun/server/informer_serverside.lua:249
+   2. func - addons/informer-system/lua/autorun/server/informer_serverside.lua:279
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/19/2019 - 15:09:16: "DidVaitel<10><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 15:09:16: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 15:09:16: "Bot01<11><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 10/19/2019 - 15:09:16: [FAdmin] Bot01 (BOT) Disconnected
+L 10/19/2019 - 15:09:16: "Bot02<12><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 10/19/2019 - 15:09:16: [FAdmin] Bot02 (BOT) Disconnected
+L 10/19/2019 - 15:09:16: "Bot03<13><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 10/19/2019 - 15:09:16: [FAdmin] Bot03 (BOT) Disconnected
+L 10/19/2019 - 15:09:16: "Bot04<14><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 10/19/2019 - 15:09:16: [FAdmin] Bot04 (BOT) Disconnected
+L 10/19/2019 - 15:09:16: "Bot05<15><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 10/19/2019 - 15:09:16: [FAdmin] Bot05 (BOT) Disconnected
+L 10/19/2019 - 15:21:18: "DidVaitel<16><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 15:21:18: "DidVaitel<16><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 15:21:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 15:21:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 15:21:33: "DidVaitel<16><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 15:21:33: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 15:28:25: "DidVaitel<16><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 15:28:25: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 15:28:25: "DidVaitel<17><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 15:28:26: "DidVaitel<17><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 15:28:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 15:28:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 15:28:37: "DidVaitel<17><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 15:28:37: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 15:32:06: "DidVaitel<17><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 15:32:06: [FAdmin] Losi (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 15:32:07: "DidVaitel<18><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 15:32:07: "DidVaitel<18><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 15:32:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 15:32:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 15:32:21: "DidVaitel<18><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 15:32:21: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 15:34:28: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 15:34:29: [FAdmin] Losi (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/19/2019 - 15:35:22: "ddddddd<18><STEAM_0:1:74202541><Citizen>" say "/rpname ddddddd"
+
+L 10/19/2019 - 15:35:30: "ffffffffffffffffffff<18><STEAM_0:1:74202541><Citizen>" say "/rpname ffffffffffffffffffff"
+
+L 10/19/2019 - 15:38:29: "fff<18><STEAM_0:1:74202541><Citizen>" say "/rpname fff"
+
+L 10/19/2019 - 15:39:00: "ffdfdfsddfds<18><STEAM_0:1:74202541><Citizen>" say "/rpname ffdfdfsddfds"
+
+L 10/19/2019 - 15:39:09: "fff<18><STEAM_0:1:74202541><Citizen>" say "/rpname fff"
+
+L 10/19/2019 - 15:39:13: "DidVaitel<18><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/19/2019 - 15:39:13: [FAdmin] fff (STEAM_0:1:74202541) Disconnected
+L 10/19/2019 - 15:39:14: "DidVaitel<19><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/19/2019 - 15:39:15: "DidVaitel<19><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/19/2019 - 15:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/19/2019 - 15:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Spawned
+L 10/19/2019 - 15:39:30: "DidVaitel<19><STEAM_0:1:74202541><>" entered the game
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/19/2019 - 15:39:30: [FAdmin] fff (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/19/2019 - 16:48:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:242: unexpected symbol near 'end'
+
+
+L 10/19/2019 - 16:48:51: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:242: 'then' expected near 'end'
+
+
+L 10/19/2019 - 16:49:04: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:242: 'then' expected near 'end'
+
+
+L 10/19/2019 - 16:49:21: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:242: 'then' expected near 'end'
+
+
+L 10/19/2019 - 17:14:13: server_cvar: "sv_password" "***PROTECTED***"
+L 10/19/2019 - 17:29:04: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:136: '=' expected near 'end'
+
+
+L 10/19/2019 - 17:31:00: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:137: '=' expected near 'end'
+
+
+L 10/19/2019 - 17:31:27: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:138: 'end' expected (to close 'function' at line 131) near '<eof>'
+
+
+L 10/19/2019 - 17:32:04: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/informer_shared.lua:137: unexpected symbol near 'if'
+
+
+L 10/19/2019 - 17:48:32: [FAdmin] Server succesfully shut down.
+L 10/19/2019 - 17:48:32: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 10/19/2019 - 17:48:32: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 10/19/2019 - 17:48:32: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 10/19/2019 - 17:48:32: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 10/19/2019 - 17:48:32: "DidVaitel<19><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/19/2019 - 17:48:32: server_message: "quit"
+L 10/19/2019 - 17:48:32: Log file closed.

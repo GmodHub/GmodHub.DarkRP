@@ -1,0 +1,451 @@
+L 04/07/2019 - 23:19:34: Log file started (file "logs\L0407002.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 04/07/2019 - 23:19:34: server_cvar: "sv_alltalk" "3"
+L 04/07/2019 - 23:19:34: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:19:34: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:19:34: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:19:34: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:19:35: Connection to Steam servers successful.
+L 04/07/2019 - 23:19:35:    Public IP is 31.130.42.81.
+L 04/07/2019 - 23:19:35: Assigned anonymous gameserver Steam ID [A-1:4136625155(12312)].
+L 04/07/2019 - 23:19:35: VAC secure mode is activated.
+L 04/07/2019 - 23:19:41: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 04/07/2019 - 23:19:42: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/07/2019 - 23:19:48: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 04/07/2019 - 23:20:13: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:127: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:127
+
+
+L 04/07/2019 - 23:20:13: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:127: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:127
+
+
+L 04/07/2019 - 23:20:13: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:127: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:127
+
+
+L 04/07/2019 - 23:20:13: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:127: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:127
+
+
+L 04/07/2019 - 23:20:13: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:127: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:127
+
+
+L 04/07/2019 - 23:21:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:169: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/dragon/lua/weapons/weapon_dragon/shared.lua:169
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:15: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/init.lua:20: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/init.lua:20
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:29:16: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:124: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:124
+
+
+L 04/07/2019 - 23:30:13: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:163: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/dragon/lua/weapons/weapon_dragon/shared.lua:163
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 04/07/2019 - 23:31:01: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:162: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/dragon/lua/weapons/weapon_dragon/shared.lua:162
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 04/07/2019 - 23:31:02: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:162: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/dragon/lua/weapons/weapon_dragon/shared.lua:162
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 04/07/2019 - 23:31:02: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:162: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/dragon/lua/weapons/weapon_dragon/shared.lua:162
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 04/07/2019 - 23:31:26: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/init.lua:20: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/init.lua:20
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:29: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:30: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:30: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:31:30: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:123: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:123
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:92: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:92
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:92: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:92
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:92: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:92
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:92: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:92
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:92: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:92
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/shared.lua:92: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/shared.lua:92
+
+
+L 04/07/2019 - 23:33:54: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/weapon_dragon/init.lua:20: attempt to index local 'muzzlepos' (a nil value)
+  1. unknown - addons/dragon/lua/weapons/weapon_dragon/init.lua:20
+
+
+L 04/07/2019 - 23:34:29: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 04/07/2019 - 23:34:29: server_message: "quit"
+L 04/07/2019 - 23:34:29: Log file closed.

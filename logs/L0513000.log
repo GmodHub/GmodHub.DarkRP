@@ -1,0 +1,283 @@
+L 05/13/2020 - 16:45:22: Log file started (file "logs\L0513000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7794")
+L 05/13/2020 - 16:45:22: server_cvar: "sv_alltalk" "3"
+L 05/13/2020 - 16:45:22: server_cvar: "sbox_noclip" "0"
+L 05/13/2020 - 16:45:22: server_cvar: "sv_allowcslua" "1"
+L 05/13/2020 - 16:45:22: server_cvar: "sv_airaccelerate" "1000"
+L 05/13/2020 - 16:45:22: server_cvar: "sv_alltalk" "0"
+L 05/13/2020 - 16:45:23: Connection to Steam servers successful.
+L 05/13/2020 - 16:45:23:    Public IP is 31.130.42.47.
+L 05/13/2020 - 16:45:23: Assigned anonymous gameserver Steam ID [A-1:405158917(14727)].
+L 05/13/2020 - 16:45:23: VAC secure mode is activated.
+L 05/13/2020 - 16:46:37: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/13/2020 - 16:46:37: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 05/13/2020 - 16:46:51: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 05/13/2020 - 16:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 05/13/2020 - 16:48:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 05/13/2020 - 16:48:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 05/13/2020 - 16:49:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:49:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:49:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:49:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 05/13/2020 - 16:49:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:49:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:49:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:49:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:50:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:50:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:50:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:50:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 05/13/2020 - 16:50:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 05/13/2020 - 16:51:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:12: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:28: attempt to index a nil value
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:28
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 16:51:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:12: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:28: attempt to index a nil value
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:28
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 16:51:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:14: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:28: attempt to index a nil value
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:28
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 16:51:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:51:50: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:30: attempt to index global 'trace' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:30
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 16:52:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:52:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:52:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:52:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:52:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:52:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:52:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:53:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:53:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:53:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 16:54:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:05: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:66: attempt to index global 'trace' (a nil value)
+  1. RightClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:66
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:263
+
+
+L 05/13/2020 - 17:14:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:14:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:16:33: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:32: 'then' expected near '='
+
+
+L 05/13/2020 - 17:16:51: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:32: 'then' expected near '='
+
+
+L 05/13/2020 - 17:17:02: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:28: attempt to index field 'Arenas' (a nil value)
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:28
+
+
+L 05/13/2020 - 17:17:12: "broordoni11<3><STEAM_0:0:545877203><>" connected, address "178.121.97.41:27005"
+L 05/13/2020 - 17:17:13: "broordoni11<3><STEAM_0:0:545877203><>" STEAM USERID validated
+L 05/13/2020 - 17:17:25: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:29: attempt to index field 'Arenas' (a nil value)
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:29
+
+
+L 05/13/2020 - 17:17:39: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:28
+
+
+L 05/13/2020 - 17:17:45: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:29: attempt to index field 'Arenas' (a nil value)
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:29
+
+
+L 05/13/2020 - 17:18:05: Lua Error: 
+[ERROR] addons/gduels-system/lua/gduel/core/sv_functions.lua:29: attempt to index field 'Arenas' (a nil value)
+  1. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:29
+
+
+L 05/13/2020 - 17:18:11: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:27
+
+
+L 05/13/2020 - 17:18:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:13: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:18:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:15: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:18:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:15: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64: attempt to index field 'Arenas' (a nil value)
+  1. RightClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:263
+
+
+L 05/13/2020 - 17:18:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:16: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:18:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:16: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:106: attempt to index field 'Arenas' (a nil value)
+  1. Reload - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:106
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 05/13/2020 - 17:18:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:17: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:18:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:17: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64: attempt to index field 'Arenas' (a nil value)
+  1. RightClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:263
+
+
+L 05/13/2020 - 17:18:26: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:27
+
+
+L 05/13/2020 - 17:18:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:27: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:18:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:28: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:18:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:28: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64: attempt to index field 'Arenas' (a nil value)
+  1. RightClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:64
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:263
+
+
+L 05/13/2020 - 17:18:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:28: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:106: attempt to index field 'Arenas' (a nil value)
+  1. Reload - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:106
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:130
+
+
+L 05/13/2020 - 17:18:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool ddv_gduels_tool
+L 05/13/2020 - 17:18:28: Lua Error: 
+[ERROR] addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26: attempt to index field 'Arenas' (a nil value)
+  1. LeftClick - addons/gduels-system/lua/weapons/gmod_tool/stools/ddv_gduels_tool.lua:26
+   2. unknown - gamemodes/sandbox/entities/weapons/gmod_tool/shared.lua:240
+
+
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) is Authed
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Spawned for the first time
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Spawned
+L 05/13/2020 - 17:19:18: "broordoni11<3><STEAM_0:0:545877203><>" entered the game
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Attempted to pick up a keys
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Attempted to pick up a weapon_physcannon
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Attempted to pick up a gmod_camera
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Attempted to pick up a gmod_tool
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Attempted to pick up a pocket
+L 05/13/2020 - 17:19:18: [FAdmin] broordoni11 (STEAM_0:0:545877203) Attempted to pick up a weapon_physgun
+L 05/13/2020 - 17:19:27: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:17
+
+
+L 05/13/2020 - 17:19:55: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:295
+
+
+L 05/13/2020 - 17:20:00: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:295
+
+
+L 05/13/2020 - 17:20:04: "broordoni11<3><STEAM_0:0:545877203><>" disconnected (reason "Disconnect by user.")
+L 05/13/2020 - 17:20:04: [FAdmin] broordoni11 (STEAM_0:0:545877203) Disconnected
+L 05/13/2020 - 17:21:14: [FAdmin] Server succesfully shut down.
+L 05/13/2020 - 17:21:14: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 05/13/2020 - 17:21:14: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 05/13/2020 - 17:21:14: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 05/13/2020 - 17:21:14: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 05/13/2020 - 17:21:14: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 05/13/2020 - 17:21:14: server_message: "quit"
+L 05/13/2020 - 17:21:14: Log file closed.

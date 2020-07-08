@@ -1,0 +1,81 @@
+L 10/20/2019 - 18:32:50: Log file started (file "logs\L1020024.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/20/2019 - 18:32:50: server_cvar: "sv_alltalk" "3"
+L 10/20/2019 - 18:32:50: server_cvar: "ttt_preptime_seconds" "= 15"
+L 10/20/2019 - 18:32:50: server_cvar: "ttt_firstpreptime" "= 30"
+L 10/20/2019 - 18:32:50: server_cvar: "ttt_posttime_seconds" "= 3"
+L 10/20/2019 - 18:32:50: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/20/2019 - 18:32:51: Connection to Steam servers successful.
+L 10/20/2019 - 18:32:51:    Public IP is 31.130.42.47.
+L 10/20/2019 - 18:32:51: Assigned anonymous gameserver Steam ID [A-1:3446671369(13485)].
+L 10/20/2019 - 18:32:51: VAC secure mode is activated.
+L 10/20/2019 - 18:32:51: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2019 - 18:33:01: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/20/2019 - 18:33:31: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "185.103.110.205:27005"
+L 10/20/2019 - 18:33:31: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/20/2019 - 18:34:18: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 10/20/2019 - 18:34:19: Round proper has begun...
+L 10/20/2019 - 18:34:55: 00:36.18 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 10 dmg
+L 10/20/2019 - 18:34:57: 00:37.77 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 7 dmg
+L 10/20/2019 - 18:34:57: 00:38.07 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 23 dmg
+L 10/20/2019 - 18:34:58: 00:39.43 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 7 dmg
+L 10/20/2019 - 18:34:58: 00:39.43 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 7 dmg
+L 10/20/2019 - 18:34:59: 00:39.72 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 51 dmg
+L 10/20/2019 - 18:34:59: 00:40.23 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 21 dmg
+L 10/20/2019 - 18:34:59: 00:40.23 - DMG: 	 DidVaitel [innocent] damaged eLeCtrOssSnake [traitor] for 7 dmg
+L 10/20/2019 - 18:35:00: 00:40.66 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 46 dmg
+L 10/20/2019 - 18:35:00: 00:40.66 - KILL:	 eLeCtrOssSnake [traitor] killed DidVaitel [innocent]
+L 10/20/2019 - 18:35:00: Round ended.
+L 10/20/2019 - 18:35:00: Result: traitors win.
+L 10/20/2019 - 18:35:06: "|Hydra’s Dawn|<4><STEAM_0:0:436632069><>" connected, address "178.155.5.108:44145"
+L 10/20/2019 - 18:35:06: "|Hydra’s Dawn|<4><STEAM_0:0:436632069><>" STEAM USERID validated
+L 10/20/2019 - 18:35:08: Round proper has begun...
+L 10/20/2019 - 18:35:47: 00:39.94 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 14 dmg
+L 10/20/2019 - 18:35:48: 00:40.26 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 10 dmg
+L 10/20/2019 - 18:35:50: 00:42.79 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 22 dmg
+L 10/20/2019 - 18:35:50: 00:42.91 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 18:35:50: 00:42.91 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 21 dmg
+L 10/20/2019 - 18:35:50: 00:42.91 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 18:35:50: 00:42.91 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 18:36:08: DidVaitel: !menu
+L 10/20/2019 - 18:36:19: 01:11.32 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 18:36:19: 01:11.50 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 6 dmg
+L 10/20/2019 - 18:38:04: 02:56.88 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 7 dmg
+L 10/20/2019 - 18:38:04: 02:56.88 - KILL:	 eLeCtrOssSnake [innocent] killed DidVaitel [traitor]
+L 10/20/2019 - 18:38:05: Round ended.
+L 10/20/2019 - 18:38:05: Result: innocent win.
+L 10/20/2019 - 18:38:12: Round proper has begun...
+L 10/20/2019 - 18:38:17: 00:05.07 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 9 dmg
+L 10/20/2019 - 18:38:18: 00:05.52 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 9 dmg
+L 10/20/2019 - 18:38:18: 00:05.52 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 9 dmg
+L 10/20/2019 - 18:38:18: 00:05.52 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 9 dmg
+L 10/20/2019 - 18:38:18: 00:05.61 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 5 dmg
+L 10/20/2019 - 18:38:18: 00:05.70 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 9 dmg
+L 10/20/2019 - 18:38:18: 00:05.91 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 9 dmg
+L 10/20/2019 - 18:38:20: 00:07.56 - DMG: 	 eLeCtrOssSnake [traitor] damaged DidVaitel [innocent] for 148 dmg
+L 10/20/2019 - 18:38:20: 00:07.56 - KILL:	 eLeCtrOssSnake [traitor] killed DidVaitel [innocent]
+L 10/20/2019 - 18:38:20: Round ended.
+L 10/20/2019 - 18:38:20: Result: traitors win.
+L 10/20/2019 - 18:38:28: Round proper has begun...
+L 10/20/2019 - 18:38:31: server_cvar: "ttt_preptime_seconds" "15"
+L 10/20/2019 - 18:38:35: 00:07.10 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 148 dmg
+L 10/20/2019 - 18:38:35: 00:07.10 - KILL:	 eLeCtrOssSnake [innocent] killed DidVaitel [traitor]
+L 10/20/2019 - 18:38:36: Round ended.
+L 10/20/2019 - 18:38:36: Result: innocent win.
+L 10/20/2019 - 18:38:58: Round proper has begun...
+L 10/20/2019 - 18:39:10: 00:12.06 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 37 dmg
+L 10/20/2019 - 18:39:12: "|Hydra’s Dawn|<4><STEAM_0:0:436632069><>" entered the game
+L 10/20/2019 - 18:39:15: 00:16.72 - DMG: 	 eLeCtrOssSnake [innocent] damaged DidVaitel [traitor] for 20 dmg
+L 10/20/2019 - 18:41:55: 02:56.89 - DMG: 	 DidVaitel [traitor] damaged eLeCtrOssSnake [innocent] for 300 dmg
+L 10/20/2019 - 18:41:55: 02:56.89 - KILL:	 DidVaitel [traitor] killed eLeCtrOssSnake [innocent]
+L 10/20/2019 - 18:41:55: Round ended.
+L 10/20/2019 - 18:41:55: Result: traitors win.
+L 10/20/2019 - 18:42:18: Round proper has begun...
+L 10/20/2019 - 18:42:36: |Hydra’s Dawn|: БЛЯ Ь
+L 10/20/2019 - 18:42:40: 00:22.72 - DMG: 	 DidVaitel [traitor] damaged |Hydra’s Dawn| [innocent] for 5000 dmg
+L 10/20/2019 - 18:42:40: 00:22.72 - KILL:	 DidVaitel [traitor] killed |Hydra’s Dawn| [innocent]
+L 10/20/2019 - 18:42:41: 00:23.22 - KILL:	 DidVaitel [traitor] killed DidVaitel [traitor]
+L 10/20/2019 - 18:42:42: Round ended.
+L 10/20/2019 - 18:42:42: Result: innocent win.
+L 10/20/2019 - 18:43:04: |Hydra’s Dawn|: Он дверь вырвал(((
+L 10/20/2019 - 18:43:09: |Hydra’s Dawn|: Мы оба улетели за борт
+L 10/20/2019 - 18:43:16: Log file closed.

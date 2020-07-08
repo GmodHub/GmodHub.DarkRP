@@ -1,0 +1,395 @@
+L 12/17/2018 - 01:22:40: Log file started (file "logs\L1217005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/17/2018 - 01:22:40: server_cvar: "sv_alltalk" "3"
+L 12/17/2018 - 01:22:40: server_cvar: "sv_allowcslua" "1"
+L 12/17/2018 - 01:22:40: server_cvar: "sv_airaccelerate" "1000"
+L 12/17/2018 - 01:22:40: server_cvar: "sv_alltalk" "0"
+L 12/17/2018 - 01:22:42: Connection to Steam servers successful.
+L 12/17/2018 - 01:22:42:    Public IP is 31.130.42.81.
+L 12/17/2018 - 01:22:42: Assigned anonymous gameserver Steam ID [A-1:4075121675(11578)].
+L 12/17/2018 - 01:22:43: VAC secure mode is activated.
+L 12/17/2018 - 01:22:55: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:22:55: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:23:05: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:4: bad argument #1 to 'Compress' (string expected, got table)
+  1. Compress - [C]:-1
+   2. fn - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:4
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+     4. UniqueID - [C]:-1
+      5. echoToAdmins - addons/ulxulib/lua/ulx/log.lua:164
+       6. fn - addons/ulxulib/lua/ulx/log.lua:202
+        7. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:23:05: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:23:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:23:38: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:23:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:23:39: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:23:39: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:23:48: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:6: bad argument #2 to 'WriteData' (number expected, got no value)
+  1. WriteData - [C]:-1
+   2. fn - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:6
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+     4. UniqueID - [C]:-1
+      5. echoToAdmins - addons/ulxulib/lua/ulx/log.lua:164
+       6. fn - addons/ulxulib/lua/ulx/log.lua:202
+        7. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 12/17/2018 - 01:23:48: Lua Error: Warning! A net message is already started! Discarding...
+
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:23:48: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:23:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:26:53: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:26:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:26:53: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:26:54: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:27:03: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:27:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:33:05: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:33:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:33:05: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:33:06: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:33:15: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:33:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:37:34: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:37:34: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:37:35: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:37:44: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:6: attempt to index a string value with bad key ('Length' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. fn - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:6
+     4. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+      5. UniqueID - [C]:-1
+       6. echoToAdmins - addons/ulxulib/lua/ulx/log.lua:164
+        7. fn - addons/ulxulib/lua/ulx/log.lua:202
+         8. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 12/17/2018 - 01:37:44: Lua Error: Warning! A net message is already started! Discarding...
+
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:37:44: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:37:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:38:05: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:7: unexpected symbol near ','
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:38:05: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:7: unexpected symbol near ','
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:38:09: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:8: unexpected symbol near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:38:14: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:9: unexpected symbol near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:38:18: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:9: unexpected symbol near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:38:18: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:9: unexpected symbol near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:38:26: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:38:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:38:26: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:38:27: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:38:36: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:38:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:39:20: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:39:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:39:20: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:39:21: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:39:30: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:39:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:41:55: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:41:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:41:55: "DidVaitel<9><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:41:56: "DidVaitel<9><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:42:05: "DidVaitel<9><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:42:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:43:57: "DidVaitel<9><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:43:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:43:57: "DidVaitel<10><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:43:57: "DidVaitel<10><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:44:07: "DidVaitel<10><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:44:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:45:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_phx/construct/metal_tube.mdl
+L 12/17/2018 - 01:45:43: "DidVaitel<10><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:45:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:45:43: "DidVaitel<11><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:45:43: "DidVaitel<11><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:45:53: "DidVaitel<11><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:45:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:48:04: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:217: ')' expected near 'modelName'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:48:22: "DidVaitel<11><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:48:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:48:22: "DidVaitel<12><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:48:23: "DidVaitel<12><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:48:32: "DidVaitel<12><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:48:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:49:52: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:143: 'then' expected near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:49:52: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:143: 'then' expected near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:50:07: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:141: 'then' expected near 'local'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:50:07: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:141: 'then' expected near 'local'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:50:11: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:140: 'then' expected near 'return'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:50:14: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:140: 'then' expected near 'return'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:50:19: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:140: 'then' expected near 'return'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/tabs_controller.lua:0
+
+
+L 12/17/2018 - 01:50:27: "DidVaitel<12><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:50:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:50:27: "DidVaitel<13><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:50:28: "DidVaitel<13><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:50:37: "DidVaitel<13><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:50:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:51:43: "DidVaitel<13><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:51:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:51:44: "DidVaitel<14><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 01:51:44: "DidVaitel<14><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 01:51:53: "DidVaitel<14><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 01:51:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 01:52:29: "DidVaitel<14><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 01:52:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 01:52:41: [FAdmin] Server succesfully shut down.
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:52:41: [FAdmin] prop_physics(models/props_phx/construct/metal_tube.mdl) Got removed
+L 12/17/2018 - 01:52:41: server_message: "quit"
+L 12/17/2018 - 01:52:42: Log file closed.

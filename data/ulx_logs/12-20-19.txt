@@ -1,0 +1,70 @@
+[00:45:00] New map: gm_construct
+[01:00:02] Client "COMPLΞX" connected.
+[01:00:18] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 16 seconds).
+[01:25:50] COMPLΞX: /rpname Koteyka
+[01:25:51] COMPLΞX<STEAM_0:0:105635721> changed their name to Koteyka
+[01:53:33] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[01:53:34] Client "COMPLΞX" connected.
+[01:53:41] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[01:57:20] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[01:57:20] Client "COMPLΞX" connected.
+[01:57:27] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[01:58:49] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[01:58:49] Client "COMPLΞX" connected.
+[01:58:57] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+
+
+
+[02:35:05] New map: gm_construct
+[02:38:29] Server is shutting down/changing levels.
+
+
+
+[02:38:38] New map: gm_construct
+[02:38:43] Client "COMPLΞX" connected.
+[02:38:51] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[03:04:28] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[03:04:52] Client "COMPLΞX" connected.
+[03:05:08] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 16 seconds).
+[03:08:16] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[03:08:16] Client "COMPLΞX" connected.
+[03:08:26] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[03:11:07] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[03:11:07] Client "COMPLΞX" connected.
+[03:11:17] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[03:36:41] Server is shutting down/changing levels.
+
+
+
+[03:37:04] New map: gm_construct
+[03:37:04] Client "COMPLΞX" connected.
+[03:37:04] Client "COMPLΞX" connected.
+[03:37:20] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 16 seconds).
+[04:28:26] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[04:28:27] Client "COMPLΞX" connected.
+[04:28:37] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+
+
+
+[04:31:33] New map: gm_construct
+[04:31:41] Client "COMPLΞX" connected.
+[04:31:50] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[04:47:22] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[04:47:22] Client "COMPLΞX" connected.
+[04:47:30] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[04:48:22] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[04:48:23] Client "COMPLΞX" connected.
+[04:48:31] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[05:07:51] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[05:07:51] Client "COMPLΞX" connected.
+[05:08:00] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[05:17:25] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[05:17:26] Client "COMPLΞX" connected.
+[05:17:34] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+
+
+
+[21:20:39] New map: gm_construct
+[21:20:52] Client "COMPLΞX" connected.
+[21:21:12] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 20 seconds).
+<Logging continued in "data/ulx_logs/12-21-19.txt">

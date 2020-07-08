@@ -1,0 +1,18 @@
+L 07/03/2020 - 02:22:35: Log file started (file "logs\L0703012.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 02:22:35: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 02:22:36: Connection to Steam servers successful.
+L 07/03/2020 - 02:22:36:    Public IP is 31.130.42.26.
+L 07/03/2020 - 02:22:36: Assigned anonymous gameserver Steam ID [A-1:848798728(15080)].
+L 07/03/2020 - 02:22:36: VAC secure mode is activated.
+L 07/03/2020 - 02:23:31: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 02:23:31: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 02:23:31: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:23:31: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 02:23:31: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 02:23:31: server_message: "quit"
+L 07/03/2020 - 02:23:31: Log file closed.

@@ -1,0 +1,20 @@
+L 10/28/2018 - 18:46:48: Log file started (file "logs\L1028004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/28/2018 - 18:46:48: server_cvar: "sv_alltalk" "3"
+L 10/28/2018 - 18:46:49: Connection to Steam servers successful.
+L 10/28/2018 - 18:46:49:    Public IP is 31.130.42.81.
+L 10/28/2018 - 18:46:49: Assigned anonymous gameserver Steam ID [A-1:1167604739(11298)].
+L 10/28/2018 - 18:46:49: VAC secure mode is activated.
+L 10/28/2018 - 18:46:52: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "10.61.76.2:27006"
+L 10/28/2018 - 18:46:53: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/28/2018 - 18:47:00: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/28/2018 - 18:47:09: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:383: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:383
+   2. Run - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. func - addons/gvuti/lua/autorun/server/sv_nets.lua:402
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/28/2018 - 18:49:31: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/28/2018 - 18:49:31: server_message: "quit"
+L 10/28/2018 - 18:49:31: Log file closed.

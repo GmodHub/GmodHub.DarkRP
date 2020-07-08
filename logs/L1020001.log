@@ -1,0 +1,121 @@
+L 10/20/2018 - 16:36:08: Log file started (file "logs\L1020001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/20/2018 - 16:36:08: server_cvar: "sv_alltalk" "3"
+L 10/20/2018 - 16:36:08: server_cvar: "sv_allowcslua" "1"
+L 10/20/2018 - 16:36:08: server_cvar: "sv_airaccelerate" "1000"
+L 10/20/2018 - 16:36:08: server_cvar: "sv_alltalk" "0"
+L 10/20/2018 - 16:36:09: Connection to Steam servers successful.
+L 10/20/2018 - 16:36:09:    Public IP is 31.130.42.81.
+L 10/20/2018 - 16:36:09: Assigned anonymous gameserver Steam ID [A-1:3923062787(11254)].
+L 10/20/2018 - 16:36:10: VAC secure mode is activated.
+L 10/20/2018 - 16:41:46: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/20/2018 - 16:41:46: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/20/2018 - 16:42:03: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/20/2018 - 16:42:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/20/2018 - 18:46:51: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/20/2018 - 18:46:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 10/20/2018 - 18:46:52: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/20/2018 - 18:46:52: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/20/2018 - 18:46:58: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/20/2018 - 18:46:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/20/2018 - 18:59:51: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/20/2018 - 18:59:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 10/20/2018 - 18:59:52: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/20/2018 - 18:59:52: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/20/2018 - 18:59:58: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/20/2018 - 18:59:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/20/2018 - 19:09:54: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/20/2018 - 19:09:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 10/20/2018 - 19:09:54: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/20/2018 - 19:09:55: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/20/2018 - 19:10:00: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/20/2018 - 19:10:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/20/2018 - 19:13:29: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:40: 'then' expected near 'end'
+  1. unknown - addons/gvuti/lua/autorun/server/sv_nets.lua:0
+
+
+L 10/20/2018 - 19:13:33: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:40: 'then' expected near 'end'
+  1. unknown - addons/gvuti/lua/autorun/server/sv_nets.lua:0
+
+
+L 10/20/2018 - 19:16:10: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/20/2018 - 19:16:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 10/20/2018 - 19:16:11: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/20/2018 - 19:16:11: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/20/2018 - 19:16:17: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/20/2018 - 19:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/20/2018 - 19:34:27: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/20/2018 - 19:34:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 10/20/2018 - 19:34:28: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/20/2018 - 19:34:28: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/20/2018 - 19:34:34: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/20/2018 - 19:34:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/20/2018 - 20:04:08: [FAdmin] Server succesfully shut down.
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/20/2018 - 20:04:08: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/20/2018 - 20:04:08: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/20/2018 - 20:04:08: server_message: "quit"
+L 10/20/2018 - 20:04:08: Log file closed.

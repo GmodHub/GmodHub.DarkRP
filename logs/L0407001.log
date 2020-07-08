@@ -1,0 +1,23 @@
+L 04/07/2019 - 23:10:13: Log file started (file "logs\L0407001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 04/07/2019 - 23:10:13: server_cvar: "sv_alltalk" "3"
+L 04/07/2019 - 23:10:13: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:10:13: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:10:13: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:10:13: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/07/2019 - 23:10:14: Connection to Steam servers successful.
+L 04/07/2019 - 23:10:14:    Public IP is 31.130.42.81.
+L 04/07/2019 - 23:10:14: Assigned anonymous gameserver Steam ID [A-1:4057907207(12312)].
+L 04/07/2019 - 23:10:15: VAC secure mode is activated.
+L 04/07/2019 - 23:13:14: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 04/07/2019 - 23:13:15: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/07/2019 - 23:13:21: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 04/07/2019 - 23:19:10: Lua Error: 
+[ERROR] addons/dragon/lua/weapons/pill_pigeon/pigeon.lua:93: Tried to use a NULL entity!
+  1. Spawn - [C]:-1
+   2. Attack - addons/dragon/lua/weapons/pill_pigeon/pigeon.lua:93
+    3. unknown - addons/dragon/lua/weapons/pill_pigeon/shared.lua:71
+
+
+L 04/07/2019 - 23:19:25: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 04/07/2019 - 23:19:25: server_message: "quit"
+L 04/07/2019 - 23:19:25: Log file closed.

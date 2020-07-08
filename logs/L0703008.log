@@ -1,0 +1,47 @@
+L 07/03/2020 - 02:08:17: Log file started (file "logs\L0703008.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 02:08:17: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 02:08:18: Connection to Steam servers successful.
+L 07/03/2020 - 02:08:18:    Public IP is 31.130.42.26.
+L 07/03/2020 - 02:08:18: Assigned anonymous gameserver Steam ID [A-1:745937920(15080)].
+L 07/03/2020 - 02:08:19: VAC secure mode is activated.
+L 07/03/2020 - 02:08:55: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 02:08:55: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 02:08:57: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:207: attempt to index upvalue 'Spawn_Positions' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:207
+
+
+L 07/03/2020 - 02:09:03: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 02:09:13: Lua Error: 
+[ERROR] addons/badmin/lua/ba/modules/darkrp/misc_sv.lua:11: attempt to call method 'HasUpgrade' (a nil value)
+  1. unknown - addons/badmin/lua/ba/modules/darkrp/misc_sv.lua:11
+
+
+L 07/03/2020 - 02:09:29: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 02:09:29: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 02:09:30: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 02:09:30: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 02:09:38: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 02:09:38: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 02:09:38: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 02:09:38: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 02:09:43: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 02:09:43: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/government/player_sh.lua:2: attempt to index a nil value
+  1. IsMayor - gamemodes/darkrp/gamemode/core/player/government/player_sh.lua:2
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:407
+
+
+L 07/03/2020 - 02:09:43: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 02:09:44: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 02:09:45: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 02:09:48: server_message: "quit"
+L 07/03/2020 - 02:09:48: Log file closed.

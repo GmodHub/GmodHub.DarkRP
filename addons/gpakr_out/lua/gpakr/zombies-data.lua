@@ -1,0 +1,1 @@
+return {File='sup/rp/zombies-1128410386.lmp',FileName='zombies',CRC='558161692',Len=878677,ShouldLoad=include'zombies-init.lua'}

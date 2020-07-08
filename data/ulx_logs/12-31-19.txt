@@ -1,0 +1,13 @@
+[00:36:53] New map: gm_construct
+[00:36:58] Client "DidVaitel" connected.
+[00:37:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 16 seconds).
+[01:29:13] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[02:52:09] New map: gm_construct
+[11:27:15] Client "COMPLΞX" connected.
+[11:27:28] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 13 seconds).
+[11:33:47] Dropped "Koteyka" from server<STEAM_0:0:105635721>
+[15:56:23] Client "COMPLΞX" connected.
+[15:56:33] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).

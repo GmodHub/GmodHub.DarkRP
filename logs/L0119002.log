@@ -1,0 +1,347 @@
+L 01/19/2019 - 20:19:59: Log file started (file "logs\L0119002.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/19/2019 - 20:19:59: server_cvar: "sv_alltalk" "3"
+L 01/19/2019 - 20:19:59: server_cvar: "sv_allowcslua" "1"
+L 01/19/2019 - 20:19:59: server_cvar: "sv_airaccelerate" "1000"
+L 01/19/2019 - 20:19:59: server_cvar: "sv_alltalk" "0"
+L 01/19/2019 - 20:19:59: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 20:19:59: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 20:19:59: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 20:19:59: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 20:20:01: Connection to Steam servers successful.
+L 01/19/2019 - 20:20:01:    Public IP is 31.130.42.81.
+L 01/19/2019 - 20:20:01: Assigned anonymous gameserver Steam ID [A-1:2933512199(11818)].
+L 01/19/2019 - 20:20:01: VAC secure mode is activated.
+L 01/19/2019 - 20:20:31: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/19/2019 - 20:20:32: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/19/2019 - 20:20:41: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/19/2019 - 20:20:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:20:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:26:27: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/19/2019 - 20:26:27: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 20:26:40: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 20:26:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:28:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:28:48: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "/conquestfef"
+
+L 01/19/2019 - 20:29:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:29:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) changed from Citizen to Gangster
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/19/2019 - 20:29:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:29:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/oildrum001.mdl
+L 01/19/2019 - 20:29:57: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/19/2019 - 20:29:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:29:58: [FAdmin] prop_physics(models/props_c17/oildrum001.mdl) Got removed
+L 01/19/2019 - 20:29:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:29:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:30:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/oildrum001.mdl
+L 01/19/2019 - 20:30:09: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/19/2019 - 20:30:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:30:11: [FAdmin] prop_physics(models/props_c17/oildrum001.mdl) Got removed
+L 01/19/2019 - 20:30:12: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/oildrum001.mdl
+L 01/19/2019 - 20:30:12: "DidVaitel<2><STEAM_0:1:74202541><Gangster>" say "!menu"
+
+L 01/19/2019 - 20:30:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:30:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:35:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:35:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:35:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:35:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/19/2019 - 20:36:51: "GANG<4><STEAM_0:0:422135232><>" connected, address "46.188.125.195:23674"
+L 01/19/2019 - 20:36:52: "GANG<4><STEAM_0:0:422135232><>" STEAM USERID validated
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) is Authed
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Spawned for the first time
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Spawned
+L 01/19/2019 - 20:37:21: "GANG<4><STEAM_0:0:422135232><>" entered the game
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a keys
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a pocket
+L 01/19/2019 - 20:37:21: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) changed from Citizen to Gun Dealer
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a keys
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a pocket
+L 01/19/2019 - 20:37:44: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:38:03: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_glock2
+L 01/19/2019 - 20:38:12: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by GANG with a player
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 20:38:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:38:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:38:16: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:38:16: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Spawned
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a keys
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a pocket
+L 01/19/2019 - 20:38:16: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:38:17: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/19/2019 - 20:38:18: [FAdmin] prop_physics(models/props_c17/oildrum001.mdl) Got removed
+L 01/19/2019 - 20:38:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:38:23: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:38:23: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:38:23: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Spawned
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a keys
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a pocket
+L 01/19/2019 - 20:38:24: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 20:38:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 20:38:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:38:35: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_c17/FurnitureTable002a.mdl
+L 01/19/2019 - 20:38:45: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a keys
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_camera
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a gmod_tool
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a pocket
+L 01/19/2019 - 20:38:46: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 20:38:46: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/19/2019 - 20:38:48: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:39:01: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 01/19/2019 - 20:39:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 01/19/2019 - 20:39:06: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:39:08: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:39:12: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:39:30: [FAdmin] GANG (STEAM_0:0:422135232) Attempted to pick up a weapon_glock2
+L 01/19/2019 - 20:39:59: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:00: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:00: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:00: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:00: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:00: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:00: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:01: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:01: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:01: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:01: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection001a.mdl
+L 01/19/2019 - 20:40:02: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/pole_448Connection002b.mdl
+L 01/19/2019 - 20:40:06: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:08: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:09: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:11: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:13: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:14: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:16: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:18: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:22: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:40:31: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a arrest_stick
+L 01/19/2019 - 20:40:35: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_ak472
+L 01/19/2019 - 20:40:35: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_ak472
+L 01/19/2019 - 20:40:35: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_ak472
+L 01/19/2019 - 20:40:35: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_ak472
+L 01/19/2019 - 20:40:36: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_ak472
+L 01/19/2019 - 20:40:36: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_ak472
+L 01/19/2019 - 20:40:53: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_deagle2
+L 01/19/2019 - 20:40:53: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_deagle2
+L 01/19/2019 - 20:40:54: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_pumpshotgun2
+L 01/19/2019 - 20:40:54: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_m42
+L 01/19/2019 - 20:41:36: [FAdmin] GANG (STEAM_0:0:422135232) Gave himself a weapon_mp52
+L 01/19/2019 - 20:41:42: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/bench_indoor001a.mdl
+L 01/19/2019 - 20:41:43: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_junk/wood_crate002a.mdl
+L 01/19/2019 - 20:41:43: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/clock01.mdl
+L 01/19/2019 - 20:41:44: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:44: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:44: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:44: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:44: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:45: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:45: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:45: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:45: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:45: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:46: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:46: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:47: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:47: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:47: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/Column_Arch001a.mdl
+L 01/19/2019 - 20:41:47: [FAdmin] prop_physics(models/props_trainstation/column_arch001a.mdl) Got removed
+L 01/19/2019 - 20:41:50: [FAdmin] prop_physics(models/props_junk/wood_crate002a.mdl) Got removed
+L 01/19/2019 - 20:41:50: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/mount_connection001a.mdl
+L 01/19/2019 - 20:41:54: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/mount_connection001a.mdl
+L 01/19/2019 - 20:41:56: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/TrackSign01.mdl
+L 01/19/2019 - 20:41:58: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/19/2019 - 20:41:58: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001a.mdl
+L 01/19/2019 - 20:41:58: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001b.mdl
+L 01/19/2019 - 20:41:59: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_lab/blastdoor001b.mdl
+L 01/19/2019 - 20:42:01: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/traincar_rack001.mdl
+L 01/19/2019 - 20:42:02: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/traincar_rack001.mdl
+L 01/19/2019 - 20:42:02: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_trainstation/traincar_rack001.mdl
+L 01/19/2019 - 20:42:21: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:21: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:22: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:22: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:23: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:23: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:23: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:23: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:24: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:24: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:24: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:24: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_tubex2.mdl
+L 01/19/2019 - 20:42:25: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_wire1x1.mdl
+L 01/19/2019 - 20:42:25: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_wire1x1.mdl
+L 01/19/2019 - 20:42:25: [FAdmin] GANG (STEAM_0:0:422135232) Spawned a models/props_phx/construct/metal_wire1x1.mdl
+L 01/19/2019 - 20:42:28: [FAdmin] prop_physics(models/props_phx/construct/metal_wire1x1.mdl) Got removed
+L 01/19/2019 - 20:42:28: [FAdmin] prop_physics(models/props_phx/construct/metal_wire1x1.mdl) Got removed
+L 01/19/2019 - 20:42:29: [FAdmin] prop_physics(models/props_phx/construct/metal_wire1x1.mdl) Got removed
+L 01/19/2019 - 20:42:29: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:29: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:29: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:30: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:30: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:30: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:30: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:30: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:31: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:31: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:31: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:31: [FAdmin] prop_physics(models/props_phx/construct/metal_tubex2.mdl) Got removed
+L 01/19/2019 - 20:42:31: [FAdmin] prop_physics(models/props_trainstation/traincar_rack001.mdl) Got removed
+L 01/19/2019 - 20:42:31: [FAdmin] prop_physics(models/props_trainstation/traincar_rack001.mdl) Got removed
+L 01/19/2019 - 20:42:32: [FAdmin] prop_physics(models/props_trainstation/traincar_rack001.mdl) Got removed
+L 01/19/2019 - 20:42:32: [FAdmin] prop_physics(models/props_lab/blastdoor001b.mdl) Got removed
+L 01/19/2019 - 20:42:32: [FAdmin] prop_physics(models/props_lab/blastdoor001b.mdl) Got removed
+L 01/19/2019 - 20:42:33: [FAdmin] prop_physics(models/props_lab/blastdoor001a.mdl) Got removed
+L 01/19/2019 - 20:42:33: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/19/2019 - 20:42:33: [FAdmin] prop_physics(models/props_trainstation/tracksign01.mdl) Got removed
+L 01/19/2019 - 20:42:33: [FAdmin] prop_physics(models/props_trainstation/mount_connection001a.mdl) Got removed
+L 01/19/2019 - 20:42:33: [FAdmin] prop_physics(models/p

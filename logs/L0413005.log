@@ -1,0 +1,112 @@
+L 04/13/2019 - 16:11:19: Log file started (file "logs\L0413005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 04/13/2019 - 16:11:19: server_cvar: "sv_alltalk" "3"
+L 04/13/2019 - 16:11:19: server_cvar: "sv_allowcslua" "1"
+L 04/13/2019 - 16:11:19: server_cvar: "sv_airaccelerate" "1000"
+L 04/13/2019 - 16:11:19: server_cvar: "sv_alltalk" "0"
+L 04/13/2019 - 16:11:19: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/13/2019 - 16:11:19: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/13/2019 - 16:11:19: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/13/2019 - 16:11:19: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/13/2019 - 16:11:21: Connection to Steam servers successful.
+L 04/13/2019 - 16:11:21:    Public IP is 31.130.42.81.
+L 04/13/2019 - 16:11:21: Assigned anonymous gameserver Steam ID [A-1:221761547(12344)].
+L 04/13/2019 - 16:11:21: VAC secure mode is activated.
+L 04/13/2019 - 16:11:24: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 04/13/2019 - 16:11:24: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 04/13/2019 - 16:11:31: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 04/13/2019 - 16:11:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 04/13/2019 - 16:11:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a npc_zonesecurity
+L 04/13/2019 - 16:11:46: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent npc_zonesecurity
+L 04/13/2019 - 16:11:49: Lua Error: 
+[ERROR] addons/sv_mesasecurtiry/lua/entities/npc_zonesecurity/init.lua:21: attempt to index a string value with bad key ('CurrSector' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. unknown - addons/sv_mesasecurtiry/lua/entities/npc_zonesecurity/init.lua:21
+
+
+L 04/13/2019 - 16:11:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:12:14: Lua Error: 
+[ERROR] addons/sv_mesasecurtiry/lua/entities/npc_zonesecurity/init.lua:21: attempt to index a string value with bad key ('CurrSector' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. unknown - addons/sv_mesasecurtiry/lua/entities/npc_zonesecurity/init.lua:21
+
+
+L 04/13/2019 - 16:12:15: Lua Error: 
+[ERROR] addons/sv_mesasecurtiry/lua/entities/npc_zonesecurity/init.lua:21: attempt to index a string value with bad key ('CurrSector' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. unknown - addons/sv_mesasecurtiry/lua/entities/npc_zonesecurity/init.lua:21
+
+
+L 04/13/2019 - 16:25:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:25:21: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 04/13/2019 - 16:25:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 04/13/2019 - 16:25:22: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 04/13/2019 - 16:25:22: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 04/13/2019 - 16:25:29: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 04/13/2019 - 16:25:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 04/13/2019 - 16:25:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:25:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:25:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:25:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:25:59: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 04/13/2019 - 16:25:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 04/13/2019 - 16:25:59: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 04/13/2019 - 16:26:00: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 04/13/2019 - 16:26:07: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 04/13/2019 - 16:26:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 04/13/2019 - 16:26:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:26:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:26:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 04/13/2019 - 16:26:59: [FAdmin] Server succesfully shut down.
+L 04/13/2019 - 16:26:59: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 04/13/2019 - 16:26:59: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 04/13/2019 - 16:26:59: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 04/13/2019 - 16:26:59: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 04/13/2019 - 16:26:59: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 04/13/2019 - 16:26:59: server_message: "quit"
+L 04/13/2019 - 16:26:59: Log file closed.

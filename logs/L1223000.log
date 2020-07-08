@@ -1,0 +1,72 @@
+L 12/23/2018 - 13:33:45: Log file started (file "logs\L1223000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/23/2018 - 13:33:45: server_cvar: "sv_alltalk" "3"
+L 12/23/2018 - 13:33:45: server_cvar: "sv_allowcslua" "1"
+L 12/23/2018 - 13:33:45: server_cvar: "sv_airaccelerate" "1000"
+L 12/23/2018 - 13:33:45: server_cvar: "sv_alltalk" "0"
+L 12/23/2018 - 13:33:46: Connection to Steam servers successful.
+L 12/23/2018 - 13:33:46:    Public IP is 31.130.42.81.
+L 12/23/2018 - 13:33:46: Assigned anonymous gameserver Steam ID [A-1:4019841035(11619)].
+L 12/23/2018 - 13:33:47: VAC secure mode is activated.
+L 12/23/2018 - 13:42:28: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 12/23/2018 - 13:42:28: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/23/2018 - 13:42:53: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/23/2018 - 13:42:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/23/2018 - 14:29:17: Connection to Steam servers lost.  (Result = 3)
+L 12/23/2018 - 14:29:29: Connection to Steam servers successful.
+L 12/23/2018 - 14:29:29:    Public IP is 89.249.65.26.
+L 12/23/2018 - 14:29:29: Assigned anonymous gameserver Steam ID [A-1:4019841035(11619)].
+L 12/23/2018 - 14:29:29: VAC secure mode is activated.
+L 12/23/2018 - 14:33:03: Connection to Steam servers lost.  (Result = 3)
+L 12/23/2018 - 14:33:05: Connection to Steam servers successful.
+L 12/23/2018 - 14:33:05:    Public IP is 31.130.42.81.
+L 12/23/2018 - 14:33:05: Assigned anonymous gameserver Steam ID [A-1:4019841035(11619)].
+L 12/23/2018 - 14:33:05: VAC secure mode is activated.
+L 12/23/2018 - 14:58:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:58:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:58:38: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_points.lua:72: bad argument #1 to 'EmitSound' (string expected, got nil)
+  1. EmitSound - [C]:-1
+   2. PointCapturedMessage - addons/[server]_conquest/lua/conquest/server/sv_points.lua:72
+    3. Tick - addons/[server]_conquest/lua/conquest/server/sv_main.lua:151
+     4. unknown - addons/[server]_conquest/lua/conquest/server/sv_main.lua:275
+
+
+L 12/23/2018 - 14:58:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:58:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:58:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:58:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:58:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 12/23/2018 - 14:59:25: [FAdmin] Server succesfully shut down.
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/23/2018 - 14:59:25: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/23/2018 - 14:59:25: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 12/23/2018 - 14:59:25: server_message: "quit"
+L 12/23/2018 - 14:59:25: Log file closed.

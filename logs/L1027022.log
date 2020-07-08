@@ -1,0 +1,28 @@
+L 10/27/2018 - 22:49:29: Log file started (file "logs\L1027022.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/27/2018 - 22:49:29: server_cvar: "sv_alltalk" "3"
+L 10/27/2018 - 22:49:29: server_cvar: "sv_allowcslua" "1"
+L 10/27/2018 - 22:49:29: server_cvar: "sv_airaccelerate" "1000"
+L 10/27/2018 - 22:49:29: server_cvar: "sv_alltalk" "0"
+L 10/27/2018 - 22:49:30: Connection to Steam servers successful.
+L 10/27/2018 - 22:49:30:    Public IP is 31.130.42.81.
+L 10/27/2018 - 22:49:30: Assigned anonymous gameserver Steam ID [A-1:2319648779(11293)].
+L 10/27/2018 - 22:49:31: VAC secure mode is activated.
+L 10/27/2018 - 22:50:26: [FAdmin] Server succesfully shut down.
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:50:26: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/27/2018 - 22:50:26: server_message: "quit"
+L 10/27/2018 - 22:50:26: Log file closed.

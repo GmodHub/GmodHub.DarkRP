@@ -1,0 +1,1 @@
+return {File='sup/rp/drugs-3272633619.lmp',FileName='drugs',CRC='558161692',Len=2638468,ShouldLoad=true}

@@ -1,0 +1,182 @@
+[05:22:07] New map: gm_construct
+[05:26:27] Client "DidVaitel" connected.
+[05:26:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 19 seconds).
+[05:37:11] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:37:37] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:38:27] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:38:34] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:38:48] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:39:10] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:39:16] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:39:29] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:41:18] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[05:41:19] Client "DidVaitel" connected.
+[05:41:27] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[05:42:06] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:42:27] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[05:43:29] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[06:00:00] Server is shutting down/changing levels.
+
+
+
+[06:00:15] New map: gm_construct
+[06:01:39] Client "DidVaitel" connected.
+[06:01:48] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[06:30:40] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[06:37:56] Client "DidVaitel" connected.
+[06:38:05] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[07:53:34] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[07:53:51] Client "DidVaitel" connected.
+[07:54:04] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+
+
+
+[14:40:51] New map: gm_construct
+
+
+
+[15:17:33] New map: gm_construct
+[15:17:42] Client "Bot01" connected.
+[15:17:42] Client "Bot01" spawned in server <BOT> (took 16 seconds).
+[15:17:42] Client "Bot02" connected.
+[15:17:42] Client "Bot02" spawned in server <BOT> (took 16 seconds).
+[15:17:42] Client "Bot03" connected.
+[15:17:42] Client "Bot03" spawned in server <BOT> (took 16 seconds).
+[15:17:43] Client "Bot04" connected.
+[15:17:43] Client "Bot04" spawned in server <BOT> (took 17 seconds).
+[15:17:43] Client "Bot05" connected.
+[15:17:43] Client "Bot05" spawned in server <BOT> (took 17 seconds).
+[15:17:43] Client "Bot06" connected.
+[15:17:43] Client "Bot06" spawned in server <BOT> (took 17 seconds).
+[15:17:43] Client "Bot07" connected.
+[15:17:43] Client "Bot07" spawned in server <BOT> (took 17 seconds).
+[15:17:43] Client "Bot08" connected.
+[15:17:43] Client "Bot08" spawned in server <BOT> (took 17 seconds).
+[15:17:43] Client "Bot09" connected.
+[15:17:43] Client "Bot09" spawned in server <BOT> (took 17 seconds).
+[15:18:03] Client "DidVaitel" connected.
+[15:18:16] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[15:18:34] Client "Bot10" connected.
+[15:18:34] Client "Bot10" spawned in server <BOT> (took 68 seconds).
+[15:18:34] Client "Bot11" connected.
+[15:18:34] Client "Bot11" spawned in server <BOT> (took 68 seconds).
+[15:18:34] Client "Bot12" connected.
+[15:18:34] Client "Bot12" spawned in server <BOT> (took 68 seconds).
+[15:19:42] Client "Bot13" connected.
+[15:19:42] Client "Bot13" spawned in server <BOT> (took 136 seconds).
+[15:19:42] Client "Bot14" connected.
+[15:19:42] Client "Bot14" spawned in server <BOT> (took 136 seconds).
+[15:19:42] Client "Bot15" connected.
+[15:19:42] Client "Bot15" spawned in server <BOT> (took 136 seconds).
+[15:21:24] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[15:21:24] Dropped "Bot01" from server<BOT>
+[15:21:24] Dropped "Bot02" from server<BOT>
+[15:21:24] Dropped "Bot03" from server<BOT>
+[15:21:24] Dropped "Bot04" from server<BOT>
+[15:21:24] Dropped "Bot05" from server<BOT>
+[15:21:24] Dropped "Bot06" from server<BOT>
+[15:21:24] Dropped "Bot07" from server<BOT>
+[15:21:24] Dropped "Bot08" from server<BOT>
+[15:21:24] Dropped "Bot09" from server<BOT>
+[15:21:24] Dropped "Bot10" from server<BOT>
+[15:21:24] Dropped "Bot11" from server<BOT>
+[15:21:24] Dropped "Bot12" from server<BOT>
+[15:21:24] Dropped "Bot13" from server<BOT>
+[15:21:24] Dropped "Bot14" from server<BOT>
+[15:21:24] Dropped "Bot15" from server<BOT>
+[15:21:24] Client "DidVaitel" connected.
+[15:21:33] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[15:24:43] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[15:24:43] Client "DidVaitel" connected.
+[15:30:09] Client "DidVaitel" connected.
+[15:30:18] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[15:31:01] Client "Bot16" connected.
+[15:31:01] Client "Bot16" spawned in server <BOT> (took 815 seconds).
+[15:31:01] Client "Bot17" connected.
+[15:31:01] Client "Bot17" spawned in server <BOT> (took 815 seconds).
+[15:31:01] Client "Bot18" connected.
+[15:31:01] Client "Bot18" spawned in server <BOT> (took 815 seconds).
+[15:31:10] Client "Bot19" connected.
+[15:31:10] Client "Bot19" spawned in server <BOT> (took 824 seconds).
+[15:31:10] Client "Bot20" connected.
+[15:31:10] Client "Bot20" spawned in server <BOT> (took 824 seconds).
+[15:31:10] Client "Bot21" connected.
+[15:31:10] Client "Bot21" spawned in server <BOT> (took 824 seconds).
+[15:31:16] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[15:31:16] Dropped "Bot16" from server<BOT>
+[15:31:16] Dropped "Bot17" from server<BOT>
+[15:31:16] Dropped "Bot18" from server<BOT>
+[15:31:16] Dropped "Bot19" from server<BOT>
+[15:31:16] Dropped "Bot20" from server<BOT>
+[15:31:16] Dropped "Bot21" from server<BOT>
+
+
+
+[15:39:19] New map: gm_construct
+[16:07:22] Client "Bot01" connected.
+[16:07:22] Client "Bot01" spawned in server <BOT> (took 1690 seconds).
+[16:07:27] Client "DidVaitel" connected.
+[16:07:43] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 16 seconds).
+[16:08:39] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:08:39] Dropped "Bot01" from server<BOT>
+
+
+
+[16:12:07] New map: gm_construct
+[16:12:38] Client "DidVaitel" connected.
+[16:14:28] Client "DidVaitel" connected.
+[16:14:38] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[16:14:54] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:14:54] Client "DidVaitel" connected.
+[16:14:55] Client "DidVaitel" connected.
+[16:14:55] Client "DidVaitel" connected.
+[16:14:55] Client "DidVaitel" connected.
+[16:14:55] Client "DidVaitel" connected.
+[16:14:56] Client "DidVaitel" connected.
+[16:14:56] Client "DidVaitel" connected.
+[16:14:56] Client "DidVaitel" connected.
+
+
+
+[16:15:54] New map: gm_construct
+[16:15:55] Client "DidVaitel" connected.
+[16:17:31] Client "DidVaitel" connected.
+[16:17:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[16:17:51] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:17:54] Client "DidVaitel" connected.
+
+
+
+[16:20:14] New map: gm_construct
+[16:46:44] Client "DidVaitel" connected.
+[16:46:53] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[19:42:24] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[19:42:25] Client "DidVaitel" connected.
+[19:42:34] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[19:43:02] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[19:43:03] Client "DidVaitel" connected.
+[19:43:12] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[20:02:28] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[20:02:29] Client "DidVaitel" connected.
+[20:02:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[20:10:16] Client "he" connected.
+[20:24:30] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[20:24:30] Client "DidVaitel" connected.
+[20:24:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[21:05:29] Client "СССР" connected.
+[21:10:51] Client "СССР" spawned in server <STEAM_0:0:185039261> (took 322 seconds).
+[21:13:21] СССР: ты где
+[21:14:14] СССР: ну ты где
+[21:15:23] Dropped "СССР" from server<STEAM_0:0:185039261>
+[21:44:31] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[21:44:32] Client "DidVaitel" connected.
+[21:44:41] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[21:46:48] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[21:46:49] Client "DidVaitel" connected.
+[21:46:59] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[21:49:05] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[21:49:06] Client "DidVaitel" connected.
+[21:49:15] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[21:50:47] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[21:50:48] Client "DidVaitel" connected.
+[21:50:57] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).

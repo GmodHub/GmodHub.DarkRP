@@ -1,0 +1,223 @@
+L 10/26/2018 - 00:30:00: Log file started (file "logs\L1026000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/26/2018 - 00:30:00: server_cvar: "sv_alltalk" "3"
+L 10/26/2018 - 00:30:00: server_cvar: "sv_allowcslua" "1"
+L 10/26/2018 - 00:30:00: server_cvar: "sv_airaccelerate" "1000"
+L 10/26/2018 - 00:30:00: server_cvar: "sv_alltalk" "0"
+L 10/26/2018 - 00:30:01: Connection to Steam servers successful.
+L 10/26/2018 - 00:30:01:    Public IP is 31.130.42.81.
+L 10/26/2018 - 00:30:01: Assigned anonymous gameserver Steam ID [A-1:1654202375(11282)].
+L 10/26/2018 - 00:30:01: VAC secure mode is activated.
+L 10/26/2018 - 00:31:09: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/26/2018 - 00:31:09: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/26/2018 - 00:31:27: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/26/2018 - 00:31:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/26/2018 - 00:32:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_butyl
+L 10/26/2018 - 00:32:33: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_butyl
+L 10/26/2018 - 00:32:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_c4
+L 10/26/2018 - 00:32:35: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_c4
+L 10/26/2018 - 00:32:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_geksogen
+L 10/26/2018 - 00:32:36: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_geksogen
+L 10/26/2018 - 00:32:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_oil
+L 10/26/2018 - 00:32:40: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_oil
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:49: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:50: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:32:51: Lua Error: 
+[ERROR] addons/craftble_c4/lua/entities/e_c4.lua:67: attempt to call global 'GetRoundState' (a nil value)
+  1. unknown - addons/craftble_c4/lua/entities/e_c4.lua:67
+
+
+L 10/26/2018 - 00:33:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by env_explosion with a env_explosion
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/26/2018 - 00:33:59: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/26/2018 - 00:34:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by env_explosion with a env_explosion
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/26/2018 - 00:34:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/26/2018 - 00:35:57: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_c4
+L 10/26/2018 - 00:35:57: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_c4
+L 10/26/2018 - 00:40:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_butyl
+L 10/26/2018 - 00:40:28: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_butyl
+L 10/26/2018 - 00:40:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_c4
+L 10/26/2018 - 00:40:32: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_c4
+L 10/26/2018 - 00:40:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_geksogen
+L 10/26/2018 - 00:40:36: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_geksogen
+L 10/26/2018 - 00:40:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a e_oil
+L 10/26/2018 - 00:40:40: [ULX] DidVaitel<STEAM_0:1:74202541> spawned sent e_oil
+L 10/26/2018 - 00:44:23: [FAdmin] Server succesfully shut down.
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/26/2018 - 00:44:23: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/26/2018 - 00:44:23: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/26/2018 - 00:44:23: server_message: "quit"
+L 10/26/2018 - 00:44:23: Log file closed.

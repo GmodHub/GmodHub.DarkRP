@@ -1,0 +1,93 @@
+Wed Oct 30 22:54:12 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct 30 22:54:12 2019	OverHashed (STEAM_0:1:74202541) spawned
+Wed Oct 30 22:54:21 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
+Wed Oct 30 22:54:21 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
+Wed Oct 30 22:54:27 2019	Pomoika Gangstera (STEAM_0:1:106057291) has joined the game
+Wed Oct 30 22:54:27 2019	Pomoika Gangstera (STEAM_0:1:106057291) spawned
+Wed Oct 30 22:55:20 2019	Pomoika Gangstera (STEAM_0:1:106057291): атк
+Wed Oct 30 22:55:22 2019	Pomoika Gangstera (STEAM_0:1:106057291): 5 минут
+Wed Oct 30 22:55:24 2019	Pomoika Gangstera (STEAM_0:1:106057291): засекаю
+Wed Oct 30 22:55:32 2019	Pomoika Gangstera (STEAM_0:1:106057291): мне 5 минут осталсоь
+Wed Oct 30 22:55:33 2019	Pomoika Gangstera (STEAM_0:1:106057291): солнышко
+Wed Oct 30 22:57:10 2019	OverHashed (STEAM_0:1:74202541) disconnected
+Wed Oct 30 22:57:20 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct 30 22:57:20 2019	OverHashed (STEAM_0:1:74202541) spawned
+Wed Oct 30 22:57:47 2019	OverHashed (STEAM_0:1:74202541) disconnected
+Wed Oct 30 22:57:57 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct 30 22:57:57 2019	OverHashed (STEAM_0:1:74202541) spawned
+Wed Oct 30 22:58:00 2019	eLeCtrOssSnake was killed by Himself with a suicide trick
+Wed Oct 30 22:58:01 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
+Wed Oct 30 22:58:45 2019	Pomoika Gangstera (STEAM_0:1:106057291): русский
+Wed Oct 30 22:59:49 2019	eLeCtrOssSnake was killed by Pomoika Gangstera with a weapon_stunstick
+Wed Oct 30 22:59:57 2019	OverHashed was killed by Pomoika Gangstera with a weapon_stunstick
+Wed Oct 30 23:00:12 2019	OverHashed (STEAM_0:1:74202541) spawned
+Wed Oct 30 23:00:22 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:00:38 2019	OverHashed (STEAM_0:1:74202541) disconnected
+Wed Oct 30 23:00:47 2019	eLeCtrOssSnake was killed by Pomoika Gangstera with a weapon_stunstick
+Wed Oct 30 23:00:50 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct 30 23:00:50 2019	OverHashed (STEAM_0:1:74202541) spawned
+Wed Oct 30 23:01:06 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:01:13 2019	Pomoika Gangstera (STEAM_0:1:106057291) disconnected
+Wed Oct 30 23:02:48 2019	eLeCtrOssSnake (STEAM_0:1:164666257): !nick 1
+Wed Oct 30 23:02:51 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick
+Wed Oct 30 23:02:55 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick Down
+Wed Oct 30 23:03:12 2019	Down (STEAM_0:1:164666257): /nick eLeCtrOssSnake
+Wed Oct 30 23:04:45 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick Orange
+Wed Oct 30 23:07:33 2019	Orange (STEAM_0:1:164666257): /nick eLeCtrOssSnake
+Wed Oct 30 23:07:43 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick Watermelon
+Wed Oct 30 23:09:19 2019	Watermelon was killed by Entity [0][worldspawn] with a unknown
+Wed Oct 30 23:09:20 2019	Watermelon (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:10:44 2019	Watermelon (STEAM_0:1:164666257): /nick eLeCtrOssSnake
+Wed Oct 30 23:11:13 2019	OverHashed (STEAM_0:1:74202541): /nick Overhashed
+Wed Oct 30 23:11:18 2019	OverHashed (STEAM_0:1:74202541): /rpname fff
+Wed Oct 30 23:11:19 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick eLeCtrOssSnake
+Wed Oct 30 23:11:21 2019	OverHashed (STEAM_0:1:74202541): /rpname FFFF
+Wed Oct 30 23:11:27 2019	FFFF (STEAM_0:1:74202541): /RPNAME Overhashed
+Wed Oct 30 23:11:37 2019	FFFF (STEAM_0:1:74202541): /rpname Overhashed
+Wed Oct 30 23:12:05 2019	FFFF (STEAM_0:1:74202541): /rpname Overhashed
+Wed Oct 30 23:12:30 2019	FFFF (STEAM_0:1:74202541): /rpname Im Not Meow Meow
+Wed Oct 30 23:12:56 2019	Im Not Meow Meow (STEAM_0:1:74202541): /rpname Im Not Not Meow Meow
+Wed Oct 30 23:13:02 2019	eLeCtrOssSnake (STEAM_0:1:164666257): Sketchy guy
+Wed Oct 30 23:13:18 2019	Im Not Not Meow Meow (STEAM_0:1:74202541): /rpname Head-Crap
+Wed Oct 30 23:13:25 2019	Im Not Not Meow Meow (STEAM_0:1:74202541): /rpname HeadCrap
+Wed Oct 30 23:13:45 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick Money Printer Guy
+Wed Oct 30 23:13:45 2019	Money Printer Guy was killed by Entity [0][worldspawn] with a unknown
+Wed Oct 30 23:13:47 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:13:57 2019	HeadCrap (STEAM_0:1:74202541): /rpname PoliceMan
+Wed Oct 30 23:14:07 2019	PoliceMan (STEAM_0:1:74202541): /rpname Police Man
+Wed Oct 30 23:14:10 2019	Money Printer Guy (STEAM_0:1:164666257): /nick eLeCtrOssSnake
+Wed Oct 30 23:14:20 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick eLeCtrOssSnake
+Wed Oct 30 23:15:14 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /nick Money Printer Guy
+Wed Oct 30 23:17:02 2019	Money Printer Guy was killed by Entity [0][worldspawn] with a unknown
+Wed Oct 30 23:17:11 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:24:06 2019	Money Printer Guy was killed by Police Man with a weapon_m42
+Wed Oct 30 23:24:30 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:28:18 2019	Console set DidVaitel's money to $500,000
+Wed Oct 30 23:30:55 2019	Police Man (STEAM_0:1:74202541): /dropweapon
+Wed Oct 30 23:34:51 2019	Police Man was killed by Money Printer Guy with a weapon_mac102
+Wed Oct 30 23:35:07 2019	Police Man (STEAM_0:1:74202541) spawned
+Wed Oct 30 23:36:20 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:36:21 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:36:22 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:36:23 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:36:23 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:36:23 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:36:24 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:38:49 2019	Police Man (STEAM_0:1:74202541) disconnected
+Wed Oct 30 23:39:00 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct 30 23:39:00 2019	Police Man (STEAM_0:1:74202541) spawned
+Wed Oct 30 23:40:07 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:40:07 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:40:07 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:40:07 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:40:07 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:40:08 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:40:09 2019	Police Man (STEAM_0:1:74202541) spawned SENT item_battery
+Wed Oct 30 23:41:19 2019	Console set DidVaitel's money to $500,000
+Wed Oct 30 23:42:34 2019	Money Printer Guy was killed by Police Man with a weapon_mp52
+Wed Oct 30 23:42:52 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
+Wed Oct 30 23:50:37 2019	Police Man (STEAM_0:1:74202541) disconnected
+Wed Oct 30 23:50:49 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct 30 23:50:49 2019	Police Man (STEAM_0:1:74202541) spawned
+Wed Oct 30 23:51:38 2019	Console set DidVaitel's money to $500,000
+Wed Oct 30 23:52:30 2019	Police Man (STEAM_0:1:74202541) disconnected

@@ -1,0 +1,1 @@
+return (string.find(game.GetMap() , 'mojave') ~= nil)

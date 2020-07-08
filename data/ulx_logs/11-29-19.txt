@@ -1,0 +1,84 @@
+[15:31:16] New map: rp_desertfury
+[15:33:44] Client "COMPLΞX" connected.
+[15:34:04] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 20 seconds).
+[16:01:38] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:01:38] Client "COMPLΞX" connected.
+[16:01:47] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[16:02:22] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:02:22] Client "COMPLΞX" connected.
+[16:02:31] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[16:02:53] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[16:02:53] Client "COMPLΞX" connected.
+[16:03:02] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[17:10:38] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[17:10:39] Client "COMPLΞX" connected.
+[17:10:48] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[17:11:46] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[17:11:46] Client "COMPLΞX" connected.
+[17:11:55] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[17:25:47] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[17:38:05] Client "COMPLΞX" connected.
+[17:38:14] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[17:58:34] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+
+
+
+[18:11:28] New map: rp_desertfury
+[20:28:14] Client "COMPLΞX" connected.
+[20:28:23] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[20:42:58] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[20:42:59] Client "COMPLΞX" connected.
+[20:43:07] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[20:46:49] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[20:46:49] Client "COMPLΞX" connected.
+[20:46:58] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:11:57] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:11:57] Client "COMPLΞX" connected.
+[21:12:06] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+
+
+
+[21:14:43] New map: rp_desertfury
+[21:15:51] Client "COMPLΞX" connected.
+[21:16:00] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:23:04] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:23:04] Client "COMPLΞX" connected.
+[21:23:13] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:24:44] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:24:44] Client "COMPLΞX" connected.
+[21:24:53] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+
+
+
+[21:27:12] New map: rp_desertfury
+[21:27:12] Client "COMPLΞX" connected.
+[21:27:21] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:28:56] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:28:56] Client "COMPLΞX" connected.
+[21:29:05] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:29:32] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:29:32] Client "COMPLΞX" connected.
+[21:29:41] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:31:09] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:31:10] Client "COMPLΞX" connected.
+[21:31:18] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[21:56:46] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:56:47] Client "COMPLΞX" connected.
+[21:56:59] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 12 seconds).
+[21:57:57] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:57:58] Client "COMPLΞX" connected.
+[21:58:06] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 8 seconds).
+[21:58:29] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:58:29] Client "COMPLΞX" connected.
+[21:58:39] Client "COMPLΞX" connected.
+[21:58:48] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[21:59:10] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[21:59:10] Client "COMPLΞX" connected.
+[21:59:20] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[22:10:31] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:10:31] Client "COMPLΞX" connected.
+[22:10:40] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[22:13:17] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[22:13:18] Client "COMPLΞX" connected.
+[22:13:27] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 9 seconds).
+[22:32:44] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>

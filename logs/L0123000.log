@@ -1,0 +1,27 @@
+L 01/23/2019 - 00:12:57: Log file started (file "logs\L0123000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/23/2019 - 00:12:57: server_cvar: "sv_alltalk" "3"
+L 01/23/2019 - 00:12:57: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:12:57: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:12:57: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:12:57: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/23/2019 - 00:12:58: Connection to Steam servers successful.
+L 01/23/2019 - 00:12:58:    Public IP is 31.130.42.81.
+L 01/23/2019 - 00:12:58: Assigned anonymous gameserver Steam ID [A-1:284801027(11841)].
+L 01/23/2019 - 00:12:58: VAC secure mode is activated.
+L 01/23/2019 - 00:13:27: Lua Error: 
+[ERROR] icefuse-permapropper/lua/permaprops/sv_lib.lua:188: attempt to index global 'ent' (a nil value)
+  1. unknown - addons/[server]_icefuse-permapropper/lua/permaprops/sv_lib.lua:188
+
+
+L 01/23/2019 - 00:13:32: Lua Error: 
+[ERROR] icefuse-permapropper/lua/permaprops/sv_lib.lua:188: attempt to index global 'ent' (a nil value)
+  1. unknown - addons/[server]_icefuse-permapropper/lua/permaprops/sv_lib.lua:188
+
+
+L 01/23/2019 - 00:13:35: [FAdmin] Server succesfully shut down.
+L 01/23/2019 - 00:13:35: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 01/23/2019 - 00:13:35: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 01/23/2019 - 00:13:35: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 01/23/2019 - 00:13:35: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 01/23/2019 - 00:13:35: server_message: "quit"
+L 01/23/2019 - 00:13:35: Log file closed.

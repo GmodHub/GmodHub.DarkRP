@@ -1,0 +1,123 @@
+L 07/03/2020 - 07:18:06: Log file started (file "logs\L0703030.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 07:18:06: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 07:18:07: Connection to Steam servers successful.
+L 07/03/2020 - 07:18:07:    Public IP is 31.130.42.26.
+L 07/03/2020 - 07:18:07: Assigned anonymous gameserver Steam ID [A-1:1915093000(15081)].
+L 07/03/2020 - 07:18:07: VAC secure mode is activated.
+L 07/03/2020 - 07:18:18: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 07:18:18: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 07:18:34: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 07:18:34: Lua Error: addons/badmin_2/lua/ba/plugins/reserved_slots.lua:5: attempt to compare nil with number
+
+L 07/03/2020 - 07:18:41: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 07:19:39: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "fffffffff"
+L 07/03/2020 - 07:19:40: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 07:19:40: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 07:19:40: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 07:19:41: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 07:19:41: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 07:19:51: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 07:19:51: Lua Error: addons/badmin_2/lua/ba/plugins/reserved_slots.lua:5: attempt to compare nil with number
+
+L 07/03/2020 - 07:19:56: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 07:20:05: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+L 07/03/2020 - 07:20:08: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "ААААААААААААААААААААААААААААААААААААААААААААААААААА"
+L 07/03/2020 - 07:20:33: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "fffffffffffffffffffffffffffffffffffffffffff"
+L 07/03/2020 - 07:20:36: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "аааааааааааааааааааааааааааааааааааааааааааааааааааа"
+L 07/03/2020 - 07:23:32: Lua Error: Couldn't include file 'darkrp\gamemode\util\questions\questions_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 43))
+
+L 07/03/2020 - 07:23:32: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 07:23:32: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 07:23:32: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 07:23:38: Lua Error: Couldn't include file 'darkrp\gamemode\util\questions\questions_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 43))
+
+L 07/03/2020 - 07:23:38: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 07:23:38: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 07:23:39: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 07:23:39: Lua Error: Couldn't include file 'darkrp\gamemode\util\questions\questions_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 43))
+
+L 07/03/2020 - 07:23:39: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 07:23:39: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 07:23:39: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 07:24:29: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "tfdfddfs"
+L 07/03/2020 - 07:24:37: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "fdfddffddf"
+L 07/03/2020 - 07:24:48: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "аааааааааа"
+L 07/03/2020 - 07:24:53: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "аааааааааааааааааааааааааааааа"
+L 07/03/2020 - 07:26:17: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "fffffffffffffffffffff"
+L 07/03/2020 - 07:26:20: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "ааааааааааааааааааааааааааааааааааааааааааааааааааа"
+L 07/03/2020 - 07:26:27: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "ХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙХУЙ"
+L 07/03/2020 - 07:26:37: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+L 07/03/2020 - 07:26:42: "DidVaitel<3><STEAM_0:1:74202541><Team>" say "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+L 07/03/2020 - 07:27:12: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/03/2020 - 07:27:12: Lua Error: 
+[ERROR] addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56: attempt to call field 'GetStaff' (a nil value)
+  1. notify_staff - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:56
+   2. v - addons/badmin_2/lua/ba/core/ranks/groups_sv.lua:16
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 07:27:12: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (nw.PlayerRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:267
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/03/2020 - 07:27:13: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 07:27:13: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 07:27:23: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 07:27:28: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 07:27:35: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+L 07/03/2020 - 07:27:39: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "fffffffffffffffffffffffff"
+L 07/03/2020 - 07:27:45: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "ffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdfffdfdfsdf"
+L 07/03/2020 - 07:29:33: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "fffffffffffffffffffffffffffff"
+L 07/03/2020 - 07:29:39: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+L 07/03/2020 - 07:30:06: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "yffffffffffffff"
+L 07/03/2020 - 07:30:18: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "fffffffffffffffffff"
+L 07/03/2020 - 07:30:20: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "аааааааааааааааааааааааа"
+L 07/03/2020 - 07:30:25: "DidVaitel<4><STEAM_0:1:74202541><Team>" say "Пенисч"
+L 07/03/2020 - 07:33:40: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/03/2020 - 07:33:40: server_message: "quit"
+L 07/03/2020 - 07:33:40: Log file closed.

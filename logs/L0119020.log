@@ -1,0 +1,211 @@
+L 01/19/2019 - 23:59:09: Log file started (file "logs\L0119020.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/19/2019 - 23:59:09: server_cvar: "sv_alltalk" "3"
+L 01/19/2019 - 23:59:09: server_cvar: "sv_allowcslua" "1"
+L 01/19/2019 - 23:59:09: server_cvar: "sv_airaccelerate" "1000"
+L 01/19/2019 - 23:59:09: server_cvar: "sv_alltalk" "0"
+L 01/19/2019 - 23:59:09: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:59:09: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:59:09: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:59:09: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:59:10: Connection to Steam servers successful.
+L 01/19/2019 - 23:59:10:    Public IP is 31.130.42.81.
+L 01/19/2019 - 23:59:10: Assigned anonymous gameserver Steam ID [A-1:2103087107(11819)].
+L 01/19/2019 - 23:59:10: VAC secure mode is activated.
+L 01/19/2019 - 23:59:19: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/19/2019 - 23:59:19: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/19/2019 - 23:59:28: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/19/2019 - 23:59:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:59:56: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/19/2019 - 23:59:56: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 00:00:09: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 00:00:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:00:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:00:41: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 00:00:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:00:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 00:00:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 01/20/2019 - 00:00:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 00:00:58: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 00:01:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by eLeCtrOssSnake with a player
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 00:01:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:01:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 00:01:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:01:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:01:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:01:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:01:16: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 00:01:17: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:01:17: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:01:18: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:01:18: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 00:01:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:01:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 00:01:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 00:01:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool duelpoints
+L 01/20/2019 - 00:01:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 00:01:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 01/20/2019 - 00:01:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 00:02:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 00:02:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 00:02:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:02:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:02:45: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 00:02:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:02:47: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:02:48: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:02:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 00:02:53: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 00:02:53: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 00:02:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 00:02:54: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] Server succesfully shut down.
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:03:27: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 00:03:27: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 01/20/2019 - 00:03:27: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/20/2019 - 00:03:28: server_message: "quit"
+L 01/20/2019 - 00:03:28: Log file closed.

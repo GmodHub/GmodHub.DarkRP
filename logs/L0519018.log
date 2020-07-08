@@ -1,0 +1,75 @@
+L 05/19/2020 - 07:12:19: Log file started (file "logs\L0519018.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7794")
+L 05/19/2020 - 07:12:19: server_cvar: "sv_alltalk" "3"
+L 05/19/2020 - 07:12:21: Connection to Steam servers successful.
+L 05/19/2020 - 07:12:21:    Public IP is 31.130.42.26.
+L 05/19/2020 - 07:12:21: Assigned anonymous gameserver Steam ID [A-1:3607182340(14760)].
+L 05/19/2020 - 07:12:21: VAC secure mode is activated.
+L 05/19/2020 - 07:12:23: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:12:24: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:13:27: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:13:27: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:13:27: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:13:28: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:13:49: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:13:49: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:13:49: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:13:50: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:13:50: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:13:50: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:13:54: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:13:55: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:13:55: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:14:03: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:14:03: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:14:03: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:14:05: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:14:05: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:14:05: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:14:17: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:14:17: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:14:18: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:14:20: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:204: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:204
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:14:21: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:14:21: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:14:27: server_message: "quit"
+L 05/19/2020 - 07:14:27: Log file closed.

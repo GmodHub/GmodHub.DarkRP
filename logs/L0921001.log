@@ -1,0 +1,633 @@
+L 09/21/2019 - 20:50:59: Log file started (file "logs\L0921001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 09/21/2019 - 20:50:59: server_cvar: "sv_alltalk" "3"
+L 09/21/2019 - 20:51:00: Connection to Steam servers successful.
+L 09/21/2019 - 20:51:00:    Public IP is 31.130.42.81.
+L 09/21/2019 - 20:51:00: Assigned anonymous gameserver Steam ID [A-1:209823755(13322)].
+L 09/21/2019 - 20:51:01: VAC secure mode is activated.
+L 09/21/2019 - 20:51:45: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 20:51:45: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 20:51:50: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 20:55:34: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 20:55:35: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 20:55:35: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 20:55:38: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 20:56:59: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 20:57:00: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 20:57:00: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 20:57:03: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 20:57:12: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 20:57:12: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 20:57:13: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 20:57:15: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:05:06: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:24: 'then' expected near 'end'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:34
+
+
+L 09/21/2019 - 21:05:09: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:122: 'end' expected (to close 'function' at line 6) near '<eof>'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:34
+
+
+L 09/21/2019 - 21:46:24: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:46:25: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:46:25: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:46:27: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:46:27: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:22: attempt to compare nil with number
+  1. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:22
+
+
+L 09/21/2019 - 21:46:56: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:46:56: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:46:57: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:47:00: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:48:48: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:48:48: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:48:49: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:48:51: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:48:56: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:48:57: "DidVaitel<9><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:48:57: "DidVaitel<9><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:49:00: "DidVaitel<9><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:49:33: "DidVaitel<9><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:49:33: "DidVaitel<10><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:49:34: "DidVaitel<10><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:49:36: "DidVaitel<10><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:49:45: "Bot01<11><BOT><>" connected, address "none"
+L 09/21/2019 - 21:49:45: "Bot01<11><BOT><>" entered the game
+L 09/21/2019 - 21:49:46: "Bot02<12><BOT><>" connected, address "none"
+L 09/21/2019 - 21:49:46: "Bot02<12><BOT><>" entered the game
+L 09/21/2019 - 21:49:46: "Bot03<13><BOT><>" connected, address "none"
+L 09/21/2019 - 21:49:46: "Bot03<13><BOT><>" entered the game
+L 09/21/2019 - 21:50:08: "DidVaitel<10><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:50:08: "Bot01<11><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:50:08: "Bot02<12><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:50:08: "Bot03<13><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:50:09: "DidVaitel<14><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:50:09: "DidVaitel<14><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:50:11: "Bot04<15><BOT><>" connected, address "none"
+L 09/21/2019 - 21:50:11: "Bot04<15><BOT><>" entered the game
+L 09/21/2019 - 21:50:11: "Bot05<16><BOT><>" connected, address "none"
+L 09/21/2019 - 21:50:11: "Bot05<16><BOT><>" entered the game
+L 09/21/2019 - 21:50:12: "Bot06<17><BOT><>" connected, address "none"
+L 09/21/2019 - 21:50:12: "Bot06<17><BOT><>" entered the game
+L 09/21/2019 - 21:50:12: "Bot07<18><BOT><>" connected, address "none"
+L 09/21/2019 - 21:50:12: "Bot07<18><BOT><>" entered the game
+L 09/21/2019 - 21:50:12: "DidVaitel<14><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:50:12: "Bot08<19><BOT><>" connected, address "none"
+L 09/21/2019 - 21:50:12: "Bot08<19><BOT><>" entered the game
+L 09/21/2019 - 21:51:08: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:103
+
+
+L 09/21/2019 - 21:52:01: "DidVaitel<14><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:52:01: "Bot04<15><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:01: "Bot05<16><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:01: "Bot06<17><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:01: "Bot07<18><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:01: "Bot08<19><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:01: "DidVaitel<20><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:52:02: "DidVaitel<20><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:52:04: "DidVaitel<20><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:52:12: "Bot09<21><BOT><>" connected, address "none"
+L 09/21/2019 - 21:52:12: "Bot09<21><BOT><>" entered the game
+L 09/21/2019 - 21:52:13: "Bot10<22><BOT><>" connected, address "none"
+L 09/21/2019 - 21:52:13: "Bot10<22><BOT><>" entered the game
+L 09/21/2019 - 21:52:57: "DidVaitel<20><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:52:57: "Bot09<21><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:57: "Bot10<22><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:52:57: "DidVaitel<23><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:52:58: "DidVaitel<23><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:53:00: "Bot11<24><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:00: "Bot11<24><BOT><>" entered the game
+L 09/21/2019 - 21:53:01: "DidVaitel<23><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:53:01: "Bot12<25><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:01: "Bot12<25><BOT><>" entered the game
+L 09/21/2019 - 21:53:01: "Bot13<26><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:01: "Bot13<26><BOT><>" entered the game
+L 09/21/2019 - 21:53:27: "DidVaitel<23><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/21/2019 - 21:53:27: "Bot11<24><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:53:27: "Bot12<25><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:53:27: "Bot13<26><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 09/21/2019 - 21:53:28: "DidVaitel<27><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 09/21/2019 - 21:53:28: "DidVaitel<27><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/21/2019 - 21:53:31: "DidVaitel<27><STEAM_0:1:74202541><>" entered the game
+L 09/21/2019 - 21:53:31: "Bot14<28><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:31: "Bot14<28><BOT><>" entered the game
+L 09/21/2019 - 21:53:32: "Bot15<29><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:32: "Bot15<29><BOT><>" entered the game
+L 09/21/2019 - 21:53:32: "Bot16<30><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:32: "Bot16<30><BOT><>" entered the game
+L 09/21/2019 - 21:53:32: "Bot17<31><BOT><>" connected, address "none"
+L 09/21/2019 - 21:53:32: "Bot17<31><BOT><>" entered the game
+L 09/21/2019 - 21:54:11: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 21:54:11: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:103
+
+
+L 09/21/2019 - 21:54:14: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 21:54:14: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:103
+
+
+L 09/21/2019 - 21:54:34: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 21:54:34: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:104
+
+
+L 09/21/2019 - 21:54:54: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 21:54:54: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:104
+
+
+L 09/21/2019 - 21:54:58: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 21:54:58: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:104
+
+
+L 09/21/2019 - 21:55:17: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:7: '}' expected (to close '{' at line 5) near '['
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:34
+
+
+L 09/21/2019 - 22:05:36: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:05:36: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:05:36: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:05:36: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:05:36: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:05:36: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:05:36: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:05:36: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:06:27: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:06:27: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:06:31: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:06:31: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:07:32: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:07:32: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:07:52: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:07:52: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:08:48: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:08:48: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:10:48: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:10:48: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:11:01: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:11:01: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:11:25: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:11:25: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:11:30: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:11:30: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:11:51: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:11:51: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:12:00: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:12:00: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:12:34: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:12:34: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:13:39: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:13:39: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:15:13: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:15:13: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:15:24: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:15:24: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:16:11: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:16:11: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:17:12: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:17:12: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:17:20: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:17:20: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:17:33: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:17:33: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:18:07: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:18:07: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:18:51: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:18:51: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:19:40: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:19:40: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:20:21: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:20:21: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:20:34: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:20:34: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:21:43: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:21:43: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:22:13: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:22:14: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:22:29: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:22:29: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:24:21: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:24:21: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:24:32: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:24:32: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:25:56: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:25:56: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:26:12: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:26:12: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:28:21: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:28:21: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:28:23: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:28:23: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:28:44: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:28:44: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:29:22: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:29:22: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:29:23: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:29:23: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:31:23: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:31:23: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:33:06: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:33:06: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:34:04: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:34:04: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:35:07: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:35:07: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:36:04: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new message! (PlayerKilled)
+
+L 09/21/2019 - 22:36:04: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:117
+
+
+L 09/21/2019 - 22:36:31: Lua Error: Warning! A net message (PlayerKilled) is already started! Discarding in favor of the new mess

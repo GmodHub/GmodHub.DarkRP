@@ -1,0 +1,5 @@
+ENT.Type 			= 'anim'
+ENT.Base 			= 'base_rp'
+ENT.PrintName		= 'Poop'
+ENT.Author			= 'aStonedPenguin'
+ENT.PressKeyText 	= 'To eat'

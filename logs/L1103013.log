@@ -1,0 +1,182 @@
+L 11/03/2019 - 19:37:20: Log file started (file "logs\L1103013.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 11/03/2019 - 19:37:20: server_cvar: "sv_alltalk" "3"
+L 11/03/2019 - 19:37:20: server_cvar: "sv_allowcslua" "1"
+L 11/03/2019 - 19:37:20: server_cvar: "sv_airaccelerate" "1000"
+L 11/03/2019 - 19:37:20: server_cvar: "sv_alltalk" "0"
+L 11/03/2019 - 19:37:22: Connection to Steam servers successful.
+L 11/03/2019 - 19:37:22:    Public IP is 31.130.42.47.
+L 11/03/2019 - 19:37:22: Assigned anonymous gameserver Steam ID [A-1:2517277705(13562)].
+L 11/03/2019 - 19:37:23: VAC secure mode is activated.
+L 11/03/2019 - 19:40:13: "DeadBear<2><STEAM_0:0:151607932><>" connected, address "26.64.99.216:27006"
+L 11/03/2019 - 19:40:14: "DeadBear<2><STEAM_0:0:151607932><>" STEAM USERID validated
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) is Authed
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned for the first time
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned
+L 11/03/2019 - 19:40:51: "DeadBear<2><STEAM_0:0:151607932><>" entered the game
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a keys
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 11/03/2019 - 19:40:51: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 11/03/2019 - 19:41:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to switch noclip
+L 11/03/2019 - 19:41:09: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to switch noclip
+L 11/03/2019 - 19:41:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Gave himself a weapon_informer_laptop
+L 11/03/2019 - 19:41:13: [FAdmin] DeadBear (STEAM_0:0:151607932) Gave himself a weapon_informer_laptop
+L 11/03/2019 - 19:41:27: FAdmin: User access set!
+L 11/03/2019 - 19:41:27: [FAdmin] unknown set the usergroup of DeadBear to superadmin
+L 11/03/2019 - 19:41:35: [FAdmin] DeadBear (STEAM_0:0:151607932) Gave himself a weapon_informer_laptop
+L 11/03/2019 - 19:41:35: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_informer_laptop
+L 11/03/2019 - 19:41:37: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_informer_laptop
+L 11/03/2019 - 19:42:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Got killed by sent_informer_laptop with a sent_informer_laptop
+L 11/03/2019 - 19:42:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_informer_laptop
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a keys
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 11/03/2019 - 19:42:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 11/03/2019 - 19:42:42: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to switch noclip
+L 11/03/2019 - 19:43:50: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.70:27005"
+L 11/03/2019 - 19:43:50: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 11/03/2019 - 19:43:52: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to switch noclip
+L 11/03/2019 - 19:43:53: [FAdmin] DeadBear (STEAM_0:0:151607932) Gave himself a weapon_informer_laptop
+L 11/03/2019 - 19:43:53: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to pick up a weapon_informer_laptop
+L 11/03/2019 - 19:43:54: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:54: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:55: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:55: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:55: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:55: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:55: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:55: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:56: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:56: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:56: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:56: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:56: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:56: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:57: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:57: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:58: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:58: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:43:59: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:43:59: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:00: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:00: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:00: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:00: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:01: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:01: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:02: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:02: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:02: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:02: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 11/03/2019 - 19:44:02: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 11/03/2019 - 19:44:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 11/03/2019 - 19:44:03: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:03: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:03: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:03: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:04: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:04: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:04: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:04: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:05: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:05: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:06: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:06: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:06: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:06: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:07: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:07: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:07: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:07: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:08: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:09: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:09: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:09: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:09: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:10: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:10: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:11: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:12: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:13: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:13: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:13: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:13: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:14: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:14: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:14: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:14: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:15: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:15: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/03/2019 - 19:44:16: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:16: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:16: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:16: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:17: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:17: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:17: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:17: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:17: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:17: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:18: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:18: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:18: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:18: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:19: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:19: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:19: [FAdmin] DeadBear (STEAM_0:0:151607932) Attempted to use tool creator
+L 11/03/2019 - 19:44:19: [FAdmin] DeadBear (STEAM_0:0:151607932) Spawned a weapon_informer_laptop
+L 11/03/2019 - 19:44:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 11/03/2019 - 19:44:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:35: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 11/03/2019 - 19:44:49: [FAdmin] Server succesfully shut down.
+L 11/03/2019 - 19:44:49: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 11/03/2019 - 19:44:49: "DeadBear<2><STEAM_0:0:151607932><>" disconnected (reason "Server shutting down")
+L 11/03/2019 - 19:44:49: server_message: "quit"
+L 11/03/2019 - 19:44:49: Log file closed.

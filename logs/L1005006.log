@@ -1,0 +1,44 @@
+L 10/05/2019 - 19:10:08: Log file started (file "logs\L1005006.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/05/2019 - 19:10:08: server_cvar: "sv_alltalk" "3"
+L 10/05/2019 - 19:10:09: Connection to Steam servers successful.
+L 10/05/2019 - 19:10:09:    Public IP is 31.130.42.47.
+L 10/05/2019 - 19:10:09: Assigned anonymous gameserver Steam ID [A-1:941279233(13412)].
+L 10/05/2019 - 19:10:10: VAC secure mode is activated.
+L 10/05/2019 - 19:10:12: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/05/2019 - 19:10:12: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/05/2019 - 19:10:16: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/05/2019 - 19:10:43: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.69:27005"
+L 10/05/2019 - 19:10:43: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/05/2019 - 19:10:47: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 10/05/2019 - 19:11:41: Lua Error: 
+[ERROR] gamemodes/base/gamemode/player.lua:205: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. unknown - gamemodes/base/gamemode/player.lua:205
+    3. TakeDamageInfo - [C]:-1
+     4. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:107
+
+
+L 10/05/2019 - 19:13:43: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:34: 'then' expected near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 19:13:43: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:34: 'then' expected near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 19:13:51: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:34: 'then' expected near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 19:13:53: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/base/sh_player.lua:34: 'then' expected near ')'
+  1. unknown - gamemodes/whosyourgarry/gamemode/init.lua:31
+
+
+L 10/05/2019 - 19:14:32: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 10/05/2019 - 19:14:32: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/05/2019 - 19:14:32: server_message: "quit"
+L 10/05/2019 - 19:14:32: Log file closed.

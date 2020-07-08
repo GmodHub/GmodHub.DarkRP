@@ -1,0 +1,12 @@
+[14:50:34] New map: gm_construct
+[14:53:51] Client "DidVaitel" connected.
+[14:54:07] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 16 seconds).
+[16:53:41] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[19:23:18] New map: gm_construct
+[19:37:10] Client "DidVaitel" connected.
+[19:37:12] Client "DidVaitel" connected.
+[19:37:27] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 15 seconds).
+<Logging continued in "data/ulx_logs/12-28-19.txt">

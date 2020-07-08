@@ -1,0 +1,66 @@
+[20:31:06] New map: gm_construct
+
+
+
+[20:36:09] New map: gm_construct
+[20:44:33] Client "DidVaitel" connected.
+[20:44:47] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+[20:45:00] DidVaitel<STEAM_0:1:74202541> spawned sent item_ammo_357
+[20:45:02] DidVaitel<STEAM_0:1:74202541> spawned sent duel_npc
+[20:45:19] DidVaitel<STEAM_0:1:74202541> spawned sent duel_npc
+
+
+
+[20:47:08] New map: gm_construct
+[20:47:12] Client "DidVaitel" connected.
+[20:47:20] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[20:47:36] DidVaitel<STEAM_0:1:74202541> spawned sent duel_npc
+[20:53:53] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[20:53:54] Client "DidVaitel" connected.
+[20:54:01] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[20:54:42] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[22:48:05] New map: gm_construct
+[22:48:31] Client "DidVaitel" connected.
+[22:48:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 15 seconds).
+[22:49:09] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[22:57:18] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[22:58:36] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+
+
+
+[22:59:18] New map: gm_construct
+[22:59:22] Client "DidVaitel" connected.
+[22:59:30] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[22:59:43] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:00:17] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:00:42] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:02:43] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:03:10] Server is shutting down/changing levels.
+
+
+
+[23:03:16] New map: gm_construct
+[23:03:16] Client "DidVaitel" connected.
+[23:03:24] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[23:03:55] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:04:14] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:05:05] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:05:54] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:24] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:29] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:29] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:31] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:34] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:37] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:41] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:46] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:08:51] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:09:01] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:10:30] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:10:54] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:10:56] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:11:13] DidVaitel<STEAM_0:1:74202541> spawned sent metal_detector
+[23:23:36] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

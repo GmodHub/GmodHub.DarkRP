@@ -1,0 +1,19 @@
+[22:12:33] New map: gm_construct
+[22:12:37] Client "DidVaitel" connected.
+[22:12:52] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 15 seconds).
+[22:17:56] DidVaitel suicided!
+[22:18:06] DidVaitel suicided!
+[22:18:31] DidVaitel suicided!
+[22:23:35] DidVaitel suicided!
+[23:10:00] DidVaitel suicided!
+[23:10:17] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/controlroom_desk001b.mdl
+[23:10:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/controlroom_desk001b.mdl
+[23:10:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/controlroom_desk001b.mdl
+[23:10:37] DidVaitel<STEAM_0:1:74202541> spawned model models/weapons/w_shot_xm1014.mdl
+[23:11:01] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/kitchen_counter001a.mdl
+[23:11:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/kitchen_counter001c.mdl
+[23:11:09] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/kitchen_counter001b.mdl
+[23:11:13] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/kitchen_counter001b.mdl
+[23:11:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/plasticcrate01a.mdl
+[23:11:25] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/plasticcrate01a.mdl
+[23:14:59] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

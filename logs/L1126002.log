@@ -1,0 +1,453 @@
+L 11/26/2019 - 23:46:21: Log file started (file "logs\L1126002.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/26/2019 - 23:46:21: server_cvar: "sv_alltalk" "3"
+L 11/26/2019 - 23:46:22: Connection to Steam servers successful.
+L 11/26/2019 - 23:46:22:    Public IP is 31.130.42.47.
+L 11/26/2019 - 23:46:22: Assigned anonymous gameserver Steam ID [A-1:902940673(13685)].
+L 11/26/2019 - 23:46:23: VAC secure mode is activated.
+L 11/26/2019 - 23:46:23: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27006"
+L 11/26/2019 - 23:46:24: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/26/2019 - 23:46:28: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:53: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/complex_employer/lua/complex-employer/core/sv_core.lua:53
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. UniqueID - [C]:-1
+     4. echoToAdmins - addons/ulxulib/lua/ulx/log.lua:164
+      5. fn - addons/ulxulib/lua/ulx/log.lua:202
+       6. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/26/2019 - 23:46:28: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/27/2019 - 00:12:46: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/shared.lua:34: bad argument #1 to 'find' (string expected, got nil)
+  1. find - [C]:-1
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:34
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:151
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:160
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:13:15: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/shared.lua:34: bad argument #1 to 'find' (string expected, got nil)
+  1. find - [C]:-1
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:34
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:151
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:160
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:13:19: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/shared.lua:35: bad argument #1 to 'find' (string expected, got nil)
+  1. find - [C]:-1
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:35
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:51
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:152
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:161
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:13:25: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:13:25: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:13:25: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:13:25: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:13:25: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:13:25: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:13:25: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:156
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:160
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:13:52: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:13:52: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:13:52: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:13:52: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:13:52: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:13:52: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:13:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:15:20: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:20: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:20: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:20: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:20: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:20: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:20: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:15:29: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:29: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:29: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:29: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:29: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:29: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:29: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:15:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:54: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:15:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:15:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:15:54: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:16:04: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:04: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:04: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:04: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:04: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:04: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:04: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:16:51: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:51: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:51: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:51: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:51: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:51: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:54: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:16:54: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:16:54: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/config/sh_factions.lua:175: '}' expected (to close '{' at line 119) near 'RU_Colonel'
+  1. IncludeSharedSide - gamemodes/militaryrp/gamemode/shared.lua:27
+   2. Include - gamemodes/militaryrp/gamemode/shared.lua:39
+    3. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:50
+     4. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:146
+      5. unknown - gamemodes/militaryrp/gamemode/shared.lua:150
+       6. include - [C]:-1
+        7. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/27/2019 - 00:17:09: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:17:09: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:17:09: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:17:09: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:17:09: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 00:17:09: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 00:30:02: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/27/2019 - 01:38:17: Connection to Steam servers lost.  (Result = 3)
+L 11/27/2019 - 01:38:19: Connection to Steam servers successful.
+L 11/27/2019 - 01:38:19:    Public IP is 196.196.216.148.
+L 11/27/2019 - 01:38:19: Assigned anonymous gameserver Steam ID [A-1:902940673(13685)].
+L 11/27/2019 - 01:38:19: VAC secure mode is activated.
+L 11/27/2019 - 01:38:37: Connection to Steam servers lost.  (Result = 3)
+L 11/27/2019 - 01:38:57: Connection to Steam servers successful.
+L 11/27/2019 - 01:38:57:    Public IP is 31.130.42.47.
+L 11/27/2019 - 01:38:57: Assigned anonymous gameserver Steam ID [A-1:902940673(13685)].
+L 11/27/2019 - 01:38:58: VAC secure mode is activated.
+L 11/27/2019 - 01:43:37: Connection to Steam servers lost.  (Result = 3)
+L 11/27/2019 - 01:43:51: Connection to Steam servers successful.
+L 11/27/2019 - 01:43:51:    Public IP is 80.79.116.138.
+L 11/27/2019 - 01:43:51: Assigned anonymous gameserver Steam ID [A-1:902940673(13685)].
+L 11/27/2019 - 01:43:52: VAC secure mode is activated.
+L 11/27/2019 - 01:47:16: Connection to Steam servers lost.  (Result = 3)
+L 11/27/2019 - 01:47:17: Connection to Steam servers successful.
+L 11/27/2019 - 01:47:17:    Public IP is 31.130.42.47.
+L 11/27/2019 - 01:47:17: Assigned anonymous gameserver Steam ID [A-1:902940673(13685)].
+L 11/27/2019 - 01:47:18: VAC secure mode is activated.
+L 11/27/2019 - 02:30:32: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:32: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:32: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:32: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:32: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:32: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:32: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:32: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:32: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:32: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:32: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:32: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:43: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:43: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:43: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:43: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:30:43: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:30:43: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:31:58: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:31:58: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:31:58: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:31:58: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:31:58: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:31:58: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:32:50: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:32:50: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:32:50: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:32:50: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:32:50: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:32:50: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:32:50: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:32:50: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:32:50: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:32:50: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:32:50: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:32:50: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:05: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:05: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:05: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:05: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:05: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:05: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:33: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:33: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:33: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:33: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:33: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:33: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:44: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:44: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:44: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:44: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:44: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:44: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:51: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:51: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:51: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:51: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:51: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:51: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:52: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:52: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:52: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:52: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:33:52: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:33:52: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:34:02: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:34:02: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:34:02: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:34:02: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:34:02: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:34:02: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:34:08: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_classes.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:34:08: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_classes.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:34:08: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_donation.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:34:08: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_donation.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:34:08: Lua Error: Couldn't include file 'militaryrp\gamemode\config\sh_entities.lua' (File not found) (@gamemodes/militaryrp/gamemode/shared.lua (line 27))
+
+L 11/27/2019 - 02:34:08: Lua Error: [AddCSLuaFile] Couldn't find 'militaryrp/gamemode/config/sh_entities.lua' (@gamemodes/militaryrp/gamemode/shared.lua (line 28))
+
+L 11/27/2019 - 02:35:39: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "31.130.42.47:27006"
+L 11/27/2019 - 02:35:39: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/27/2019 - 02:35:48: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:53: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/complex_employer/lua/complex-employer/core/sv_core.lua:53
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. UniqueID - [C]:-1
+     4. echoToAdmins - addons/ulxulib/lua/ulx/log.lua:164
+      5. fn - addons/ulxulib/lua/ulx/log.lua:202
+       6. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/27/2019 - 02:35:48: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 11/27/2019 - 02:40:46: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/27/2019 - 02:40:47: server_message: "quit"
+L 11/27/2019 - 02:40:47: Log file closed.

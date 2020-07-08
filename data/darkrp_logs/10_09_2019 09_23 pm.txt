@@ -1,0 +1,10 @@
+Wed Oct  9 21:23:12 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct  9 21:23:12 2019	DidVaitel".. lox .." (STEAM_0:1:74202541) spawned
+Wed Oct  9 21:25:51 2019	Nawer (STEAM_0:0:185516412) has joined the game
+Wed Oct  9 21:25:51 2019	Nawer (STEAM_0:0:185516412) spawned
+Wed Oct  9 21:26:15 2019	DidVaitel".. lox .." was killed by Entity [211][prop_physics] with a prop_physics
+Wed Oct  9 21:26:23 2019	Nawer (STEAM_0:0:185516412) disconnected
+Wed Oct  9 21:27:35 2019	DidVaitel".. lox .." (STEAM_0:1:74202541) spawned
+Wed Oct  9 21:30:55 2019	DidVaitel".. lox .." (STEAM_0:1:74202541) disconnected
+Wed Oct  9 21:31:06 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Oct  9 21:31:06 2019	DidVaitel".. lox .." (STEAM_0:1:74202541) spawned

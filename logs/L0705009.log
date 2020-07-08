@@ -1,0 +1,143 @@
+L 07/05/2020 - 20:44:02: Log file started (file "logs\L0705009.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/05/2020 - 20:44:02: server_cvar: "sv_alltalk" "3"
+L 07/05/2020 - 20:44:03: Connection to Steam servers successful.
+L 07/05/2020 - 20:44:03:    Public IP is 31.130.42.26.
+L 07/05/2020 - 20:44:03: Assigned anonymous gameserver Steam ID [A-1:2362074112(15097)].
+L 07/05/2020 - 20:44:03: VAC secure mode is activated.
+L 07/05/2020 - 20:44:25: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 20:44:26: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 20:44:44: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 20:46:58: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/government/mayor/mayor_sv.lua:11: 'then' expected near 'nw'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+    3. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+     4. Init - gamemodes/darkrp/gamemode/sh_init.lua:98
+      5. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+       6. include - [C]:-1
+        7. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/05/2020 - 20:46:58: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/government/mayor/mayor_sv.lua:11: 'then' expected near 'nw'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+    3. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+     4. Init - gamemodes/darkrp/gamemode/sh_init.lua:98
+      5. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+       6. include - [C]:-1
+        7. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/05/2020 - 20:47:54: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:109: bad argument #1 to 'func' (number expected, got boolean)
+  1. func - [C]:-1
+   2. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+    3. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+     4. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+      5. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+       6. Lockdown - gamemodes/darkrp/gamemode/core/player/government/mayor/mayor_sv.lua:151
+        7. Run - gamemodes/darkrp/gamemode/core/player/government/mayor/mayor_sv.lua:163
+         8. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+          9. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+           10. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/05/2020 - 20:47:54: "COMPLΞX<2><STEAM_0:0:105635721><Team>" say "/lockdown"
+L 07/05/2020 - 20:47:57: Lua Error: 
+[ERROR] Warning! A net message (nw_lockdown) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/05/2020 - 20:51:02: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.98:27005"
+L 07/05/2020 - 20:51:03: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/05/2020 - 20:52:44: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 07/05/2020 - 21:08:58: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/05/2020 - 21:08:58: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 21:08:59: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 21:09:08: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 21:10:58: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/05/2020 - 21:10:59: "COMPLΞX<5><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 21:10:59: "COMPLΞX<5><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 21:11:08: "COMPLΞX<5><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 21:17:39: STEAMAUTH: Client COMPLΞX received failure code 6
+L 07/05/2020 - 21:17:39: "COMPLΞX<5><STEAM_0:0:105635721><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 07/05/2020 - 21:17:42: "COMPLΞX<6><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 21:17:42: "COMPLΞX<6><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 21:17:54: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/05/2020 - 21:18:03: "COMPLΞX<6><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 21:18:05: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" connected, address "212.66.63.98:27005"
+L 07/05/2020 - 21:18:05: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/05/2020 - 21:18:45: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" entered the game
+L 07/05/2020 - 21:38:40: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:35: attempt to index global 'ply' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:35
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:227
+
+
+L 07/05/2020 - 21:38:54: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:35: attempt to index global 'ply' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:35
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:227
+
+
+L 07/05/2020 - 21:45:17: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" disconnected (reason "Printer Guy penis")
+L 07/05/2020 - 21:45:17: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:28: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:28
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:53
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/05/2020 - 21:45:24: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" connected, address "212.66.63.98:27005"
+L 07/05/2020 - 21:45:25: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/05/2020 - 21:45:58: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" entered the game
+L 07/05/2020 - 21:48:55: "COMPLΞX<6><STEAM_0:0:105635721><>" disconnected (reason "Bahamonde")
+L 07/05/2020 - 21:48:58: "COMPLΞX<9><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 21:48:59: "COMPLΞX<9><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 21:49:08: "COMPLΞX<9><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 22:00:52: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/money_printer/init.lua:76
+      5. unknown - gamemodes/darkrp/entities/entities/money_printer/init.lua:60
+
+
+L 07/05/2020 - 22:00:53: Lua Error: 
+[ERROR] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/05/2020 - 22:05:38: "COMPLΞX<9><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/05/2020 - 22:05:38: "COMPLΞX<10><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/05/2020 - 22:05:38: "COMPLΞX<10><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/05/2020 - 22:05:39: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/05/2020 - 22:05:39: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:39: Tried to use a NULL entity!
+  1. __newindex - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:39
+
+
+L 07/05/2020 - 22:05:41: "eLeCtrOssSnake<11><STEAM_0:1:164666257><>" connected, address "212.66.63.98:27005"
+L 07/05/2020 - 22:05:42: "eLeCtrOssSnake<11><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/05/2020 - 22:05:48: "COMPLΞX<10><STEAM_0:0:105635721><>" entered the game
+L 07/05/2020 - 22:06:12: "eLeCtrOssSnake<11><STEAM_0:1:164666257><>" entered the game
+L 07/05/2020 - 22:07:58: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:33: attempt to index field 'DisallowDrop' (a nil value)
+  1. CanDropWeapon - gamemodes/darkrp/gamemode/core/core_sv.lua:33
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_shield.lua:211
+
+
+L 07/05/2020 - 22:34:01: "COMPLΞX<10><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/05/2020 - 22:43:15: "eLeCtrOssSnake<11><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 07/05/2020 - 22:43:15: server_message: "quit"
+L 07/05/2020 - 22:43:15: Log file closed.

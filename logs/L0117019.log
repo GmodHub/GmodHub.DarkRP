@@ -1,0 +1,135 @@
+L 01/17/2019 - 03:47:32: Log file started (file "logs\L0117019.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/17/2019 - 03:47:32: server_cvar: "sv_alltalk" "3"
+L 01/17/2019 - 03:47:32: server_cvar: "sv_allowcslua" "1"
+L 01/17/2019 - 03:47:32: server_cvar: "sv_airaccelerate" "1000"
+L 01/17/2019 - 03:47:32: server_cvar: "sv_alltalk" "0"
+L 01/17/2019 - 03:47:33: Connection to Steam servers successful.
+L 01/17/2019 - 03:47:33:    Public IP is 31.130.42.81.
+L 01/17/2019 - 03:47:33: Assigned anonymous gameserver Steam ID [A-1:1047450635(11799)].
+L 01/17/2019 - 03:47:33: VAC secure mode is activated.
+L 01/17/2019 - 03:47:44: "Bot-Crash<2><STEAM_0:0:151607932><>" connected, address "192.168.1.103:27005"
+L 01/17/2019 - 03:47:45: "Bot-Crash<2><STEAM_0:0:151607932><>" STEAM USERID validated
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) is Authed
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Spawned for the first time
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Spawned
+L 01/17/2019 - 03:47:55: "Bot-Crash<2><STEAM_0:0:151607932><>" entered the game
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a keys
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 01/17/2019 - 03:47:55: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 01/17/2019 - 03:48:04: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to switch noclip
+L 01/17/2019 - 03:48:06: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to switch noclip
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) changed from Citizen to Gangster
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a keys
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 01/17/2019 - 03:48:12: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 01/17/2019 - 03:51:33: "Bot-Crash<2><STEAM_0:0:151607932><>" disconnected (reason "Disconnect by user.")
+L 01/17/2019 - 03:51:33: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Disconnected
+L 01/17/2019 - 03:51:34: "Bot-Crash<3><STEAM_0:0:151607932><>" connected, address "192.168.1.103:27005"
+L 01/17/2019 - 03:51:34: "Bot-Crash<3><STEAM_0:0:151607932><>" STEAM USERID validated
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) is Authed
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Spawned for the first time
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Spawned
+L 01/17/2019 - 03:51:44: "Bot-Crash<3><STEAM_0:0:151607932><>" entered the game
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a keys
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 01/17/2019 - 03:51:44: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 01/17/2019 - 03:53:23: "Bot-Crash<3><STEAM_0:0:151607932><>" disconnected (reason "Disconnect by user.")
+L 01/17/2019 - 03:53:23: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Disconnected
+L 01/17/2019 - 03:54:17: "Bot-Crash<4><STEAM_0:0:151607932><>" connected, address "192.168.1.103:27005"
+L 01/17/2019 - 03:54:18: "Bot-Crash<4><STEAM_0:0:151607932><>" STEAM USERID validated
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) is Authed
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Spawned for the first time
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Spawned
+L 01/17/2019 - 03:54:35: "Bot-Crash<4><STEAM_0:0:151607932><>" entered the game
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a keys
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 01/17/2019 - 03:54:35: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) changed from Citizen to Gangster
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a keys
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 01/17/2019 - 03:54:59: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 01/17/2019 - 03:55:16: "Bot-Crash<4><STEAM_0:0:151607932><Gangster>" say "/conquestfef"
+
+L 01/17/2019 - 03:56:47: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to switch noclip
+L 01/17/2019 - 03:56:48: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to switch noclip
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) changed from Gangster to Citizen
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a keys
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physcannon
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_camera
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a gmod_tool
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a pocket
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_physgun
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weapon_keypadchecker
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a door_ram
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a arrest_stick
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a unarrest_stick
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a stunstick
+L 01/17/2019 - 03:57:56: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Attempted to pick up a weaponchecker
+L 01/17/2019 - 04:10:18: "Bot-Crash<4><STEAM_0:0:151607932><Citizen>" say "/conquestfef"
+
+L 01/17/2019 - 04:24:02: "Bot-Crash<4><STEAM_0:0:151607932><>" disconnected (reason "Disconnect by user.")
+L 01/17/2019 - 04:24:02: [FAdmin] Bot-Crash (STEAM_0:0:151607932) Disconnected
+L 01/17/2019 - 04:27:11: [FAdmin] Server succesfully shut down.
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 04:27:11: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/17/2019 - 04:27:11: server_message: "quit"
+L 01/17/2019 - 04:27:11: Log file closed.

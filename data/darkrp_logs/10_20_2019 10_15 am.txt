@@ -1,0 +1,8 @@
+Sun Oct 20 10:15:47 2019	Bot01 (BOT) has joined the game
+Sun Oct 20 10:15:47 2019	Bot01 (BOT) spawned
+Sun Oct 20 10:15:47 2019	Bot02 (BOT) has joined the game
+Sun Oct 20 10:15:47 2019	Bot02 (BOT) spawned
+Sun Oct 20 10:15:48 2019	Bot03 (BOT) has joined the game
+Sun Oct 20 10:15:48 2019	Bot03 (BOT) spawned
+Sun Oct 20 10:15:55 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sun Oct 20 10:15:55 2019	fff (STEAM_0:1:74202541) spawned

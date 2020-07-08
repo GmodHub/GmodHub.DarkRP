@@ -1,0 +1,88 @@
+L 12/11/2018 - 23:10:03: Log file started (file "logs\L1211001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/11/2018 - 23:10:03: server_cvar: "sv_alltalk" "3"
+L 12/11/2018 - 23:10:03: server_cvar: "sv_allowcslua" "1"
+L 12/11/2018 - 23:10:03: server_cvar: "sv_airaccelerate" "1000"
+L 12/11/2018 - 23:10:03: server_cvar: "sv_alltalk" "0"
+L 12/11/2018 - 23:10:04: Connection to Steam servers successful.
+L 12/11/2018 - 23:10:04:    Public IP is 31.130.42.81.
+L 12/11/2018 - 23:10:04: Assigned anonymous gameserver Steam ID [A-1:1325933579(11547)].
+L 12/11/2018 - 23:10:05: VAC secure mode is activated.
+L 12/11/2018 - 23:10:11: "Bot01<2><BOT><>" connected, address "none"
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Spawned for the first time
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Spawned
+L 12/11/2018 - 23:10:11: "Bot01<2><BOT><>" entered the game
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Attempted to pick up a keys
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physcannon
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_camera
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Attempted to pick up a gmod_tool
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Attempted to pick up a pocket
+L 12/11/2018 - 23:10:11: [FAdmin] Bot01 (BOT) Attempted to pick up a weapon_physgun
+L 12/11/2018 - 23:10:12: Lua Error: Couldn't include file 'sv_discord_api.lua' (File not found) (@addons/discord_relay/lua/autorun/server/sv_discord_relay.lua (line 1))
+
+L 12/11/2018 - 23:10:12: "Bot01<2><BOT><Citizen>" say "google "
+
+L 12/11/2018 - 23:10:18: Lua Error: [ERROR] Discord code 50006: Cannot send an empty message
+
+L 12/11/2018 - 23:10:39: Lua Error: Couldn't include file 'sv_discord_api.lua' (File not found) (@addons/discord_relay/lua/autorun/server/sv_discord_relay.lua (line 1))
+
+L 12/11/2018 - 23:10:39: "Bot01<2><BOT><Citizen>" say "google "
+
+L 12/11/2018 - 23:10:47: Lua Error: Couldn't include file 'sv_discord_api.lua' (File not found) (@addons/discord_relay/lua/autorun/server/sv_discord_relay.lua (line 1))
+
+L 12/11/2018 - 23:10:47: "Bot01<2><BOT><Citizen>" say "google "
+
+L 12/11/2018 - 23:11:02: "Bot01<2><BOT><Citizen>" say "google "
+
+L 12/11/2018 - 23:11:41: "Bot01<2><BOT><Citizen>" say "google "
+
+L 12/11/2018 - 23:14:52: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 12/11/2018 - 23:14:52: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/11/2018 - 23:15:10: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/11/2018 - 23:15:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/11/2018 - 23:24:07: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "fdf"
+
+L 12/11/2018 - 23:24:13: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "lolololo"
+
+L 12/11/2018 - 23:24:16: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "omg"
+
+L 12/11/2018 - 23:24:19: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "!ulx"
+
+L 12/11/2018 - 23:28:20: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "fdfdsf"
+
+L 12/11/2018 - 23:29:05: "DidVaitel<3><STEAM_0:1:74202541><Citizen>" say "dfd"
+
+L 12/11/2018 - 23:29:12: [FAdmin] Server succesfully shut down.
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/11/2018 - 23:29:12: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/11/2018 - 23:29:12: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 12/11/2018 - 23:29:12: "Bot01<2><BOT><>" disconnected (reason "Server shutting down")
+L 12/11/2018 - 23:29:13: server_message: "quit"
+L 12/11/2018 - 23:29:13: Log file closed.

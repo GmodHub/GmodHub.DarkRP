@@ -1,0 +1,389 @@
+L 11/19/2019 - 18:45:25: Log file started (file "logs\L1119011.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/19/2019 - 18:45:25: server_cvar: "sv_alltalk" "3"
+L 11/19/2019 - 18:45:25: server_cvar: "sv_allowcslua" "1"
+L 11/19/2019 - 18:45:25: server_cvar: "sv_airaccelerate" "1000"
+L 11/19/2019 - 18:45:25: server_cvar: "sv_alltalk" "0"
+L 11/19/2019 - 18:45:25: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/19/2019 - 18:45:26: Connection to Steam servers successful.
+L 11/19/2019 - 18:45:26:    Public IP is 31.130.42.47.
+L 11/19/2019 - 18:45:26: Assigned anonymous gameserver Steam ID [A-1:1728579589(13648)].
+L 11/19/2019 - 18:45:27: VAC secure mode is activated.
+L 11/19/2019 - 18:45:27: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/19/2019 - 18:45:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/19/2019 - 18:45:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/19/2019 - 18:45:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/19/2019 - 18:45:36: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:45:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:45:51: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned a complex_employer
+L 11/19/2019 - 18:45:51: [ULX] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+L 11/19/2019 - 18:48:14: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool camera
+L 11/19/2019 - 18:48:23: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:31: attempt to call global 'SetBodygroup' (a nil value)
+  1. func - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:31
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Hobo
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_bugbait
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:48:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:48:30: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:31: attempt to call global 'SetBodygroup' (a nil value)
+  1. func - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:31
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/19/2019 - 18:49:21: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:31: attempt to call global 'SetBodygroup' (a nil value)
+  1. func - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:31
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/19/2019 - 18:50:05: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Got killed by COMPLΞX with a player
+L 11/19/2019 - 18:50:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_bugbait
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:50:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Hobo to Citizen
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:51:06: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:51:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:51:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:51:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:51:07: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:54:55: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:91: attempt to concatenate a nil value
+  1. unknown - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:91
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Civil Protection
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_glock2
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_pumpshotgun2
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:54:56: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:55:17: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:27: bad argument #1 to 'SetModel' (string expected, got nil)
+  1. SetModel - [C]:-1
+   2. func - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:27
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Civil Protection to Citizen
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:55:48: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Civil Protection
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_glock2
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_pumpshotgun2
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:56:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Civil Protection to Citizen
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:56:37: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Civil Protection
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_glock2
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_pumpshotgun2
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:58:13: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Civil Protection to Citizen
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:58:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:58:48: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:91: attempt to concatenate a nil value
+  1. unknown - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:91
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Gangster
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:58:50: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Gangster to Citizen
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:59:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Hobo
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_bugbait
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 18:59:25: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 19:00:18: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:39: 'end' expected near '<eof>'
+
+
+L 11/19/2019 - 19:01:30: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:43: unexpected symbol near 'end'
+
+
+L 11/19/2019 - 19:01:38: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:42: ')' expected near 'then'
+
+
+L 11/19/2019 - 19:01:42: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:42: ')' expected near 'then'
+
+
+L 11/19/2019 - 19:02:24: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:44: 'then' expected near 'if'
+
+
+L 11/19/2019 - 19:03:49: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:42: ')' expected near 'then'
+
+
+L 11/19/2019 - 19:04:01: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:43: attempt to call field 'IsNearNPC' (a nil value)
+  1. unknown - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/19/2019 - 19:04:05: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:43: attempt to call field 'IsNearNPC' (a nil value)
+  1. unknown - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/19/2019 - 19:04:07: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_networking.lua:43: attempt to call field 'IsNearNPC' (a nil value)
+  1. unknown - addons/complex_employer/lua/complex-employer/core/sv_networking.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 11/19/2019 - 19:04:15: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:42: ')' expected near 'then'
+
+
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Hobo to Gangster
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 19:04:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Gangster to Citizen
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 19:04:40: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Gangster
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 19:04:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 20:04:18: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned a complex_employer
+L 11/19/2019 - 20:04:18: [ULX] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+L 11/19/2019 - 20:04:49: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned a complex_employer
+L 11/19/2019 - 20:04:49: [ULX] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+L 11/19/2019 - 20:05:13: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/config/jobrelated.lua:109: unexpected symbol near 'end'
+  1. unknown - gamemodes/darkrp/gamemode/init.lua:104
+
+
+L 11/19/2019 - 20:05:13: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/libraries/simplerr.lua:530: [ERROR] A runtime error has occurred in "lua/darkrp_customthings/jobs.lua" on line -1.
+The best help I can give you is this:
+
+GAMEMODE.DefaultTeam is not set to an existing job.
+
+Hints:
+	- This may happen when you disable the default citizen job. Make sure you update GAMEMODE.DefaultTeam to the new default team.
+	- GAMEMODE.DefaultTeam may be set to a job that does not exist anymore. Did you remove the job you had set to default?
+	- The error being in jobs.lua is a guess. This is usually right, but the problem might lie somewhere else.
+
+The responsibility for the error above lies with (the authors of) one (or more) of these files:
+	jobs.lua, settings.lua, disabled_defaults.lua or any of your other custom files.
+------- End of Simplerr error -------
+
+  1. error - [C]:-1
+   2. error - gamemodes/darkrp/gamemode/libraries/simplerr.lua:530
+    3. Call - gamemodes/darkrp/gamemode/modules/base/sv_gamemode_functions.lua:972
+     4. Call - gamemodes/darkrp/gamemode/libraries/modificationloader.L 11/19/2019 - 20:05:13: Lua Error: Couldn't Load Init Script: 'darkrp/gamemode/init.lua'
+
+L 11/19/2019 - 20:06:03: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned a complex_employer
+L 11/19/2019 - 20:06:03: [ULX] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+L 11/19/2019 - 20:10:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned a complex_employer
+L 11/19/2019 - 20:10:21: [ULX] COMPLΞX<STEAM_0:0:105635721> spawned sent complex_employer
+L 11/19/2019 - 20:10:55: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool camera
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Gangster to Citizen
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/19/2019 - 20:11:02: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/19/2019 - 20:11:10: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_ak472
+L 11/19/2019 - 20:11:10: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_ak472
+L 11/19/2019 - 20:11:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_glock2
+L 11/19/2019 - 20:11:23: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_glock2
+L 11/19/2019 - 20:11:33: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_ak472
+L 11/19/2019 - 20:12:09: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a ls_sniper
+L 11/19/2019 - 20:12:09: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a ls_sniper
+L 11/19/2019 - 20:12:16: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_pumpshotgun2
+L 11/19/2019 - 20:12:16: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_pumpshotgun2
+L 11/19/2019 - 20:12:17: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_ak472
+L 11/19/2019 - 20:12:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_m42
+L 11/19/2019 - 20:12:35: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_m42
+L 11/19/2019 - 20:12:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_mp52
+L 11/19/2019 - 20:12:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_mp52
+L 11/19/2019 - 20:12:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_mac102
+L 11/19/2019 - 20:12:36: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_mac102
+L 11/19/2019 - 20:12:42: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Gave himself a weapon_mp52
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) changed from Citizen to Mob boss
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a lockpick
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/19/2019 - 20:13:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721)

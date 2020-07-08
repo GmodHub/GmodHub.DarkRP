@@ -1,0 +1,933 @@
+L 01/20/2019 - 01:05:06: Log file started (file "logs\L0120014.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/20/2019 - 01:05:06: server_cvar: "sv_alltalk" "3"
+L 01/20/2019 - 01:05:06: server_cvar: "sv_allowcslua" "1"
+L 01/20/2019 - 01:05:06: server_cvar: "sv_airaccelerate" "1000"
+L 01/20/2019 - 01:05:06: server_cvar: "sv_alltalk" "0"
+L 01/20/2019 - 01:05:06: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/20/2019 - 01:05:06: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/20/2019 - 01:05:06: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/20/2019 - 01:05:06: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/20/2019 - 01:05:08: Connection to Steam servers successful.
+L 01/20/2019 - 01:05:08:    Public IP is 31.130.42.81.
+L 01/20/2019 - 01:05:08: Assigned anonymous gameserver Steam ID [A-1:3740327939(11819)].
+L 01/20/2019 - 01:05:08: VAC secure mode is activated.
+L 01/20/2019 - 01:05:08: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.103:27006"
+L 01/20/2019 - 01:05:09: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/20/2019 - 01:05:10: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 01:05:11: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:05:18: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:05:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:05:19: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:05:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:05:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a duel_npc
+L 01/20/2019 - 01:05:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:05:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:06:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:06:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:06:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:06:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:06:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a player
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:06:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:06:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:06:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:06:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:06:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_ar2
+L 01/20/2019 - 01:06:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_ar2
+L 01/20/2019 - 01:07:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:07:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:07:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_rpg
+L 01/20/2019 - 01:07:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:07:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:07:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:07:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a player
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:07:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_ar2
+L 01/20/2019 - 01:07:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:07:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:07:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:07:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:08:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:08:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:08:04: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_crossbow
+L 01/20/2019 - 01:08:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crossbow
+L 01/20/2019 - 01:08:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_rpg
+L 01/20/2019 - 01:08:06: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:08:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_rpg
+L 01/20/2019 - 01:08:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_357
+L 01/20/2019 - 01:08:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_357
+L 01/20/2019 - 01:08:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_shotgun
+L 01/20/2019 - 01:08:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:08:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_ar2
+L 01/20/2019 - 01:08:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_ar2
+L 01/20/2019 - 01:08:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:08:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:08:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:08:19: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:08:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:08:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a player
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:08:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crossbow
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_357
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:08:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_ar2
+L 01/20/2019 - 01:08:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:08:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:08:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:08:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:09:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:09:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:09:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_357
+L 01/20/2019 - 01:09:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_357
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:09:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:09:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:18: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:09:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:09:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_smg1
+L 01/20/2019 - 01:09:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_smg1
+L 01/20/2019 - 01:09:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_slam
+L 01/20/2019 - 01:09:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_slam
+L 01/20/2019 - 01:09:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_shotgun
+L 01/20/2019 - 01:09:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:09:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:09:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:09:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:09:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_rpg
+L 01/20/2019 - 01:09:29: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:09:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:09:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_357
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_smg1
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_slam
+L 01/20/2019 - 01:09:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:09:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:09:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_crossbow
+L 01/20/2019 - 01:09:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crossbow
+L 01/20/2019 - 01:09:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a crossbow_bolt
+L 01/20/2019 - 01:09:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:09:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_bugbait
+L 01/20/2019 - 01:09:59: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_bugbait
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:10:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:10:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_shotgun
+L 01/20/2019 - 01:10:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:10:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:10:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:10:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_smg1
+L 01/20/2019 - 01:10:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_smg1
+L 01/20/2019 - 01:10:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:10:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:10:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by DidVaitel with a player
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:10:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:10:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:10:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_rpg
+L 01/20/2019 - 01:10:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:10:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:10:44: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:10:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_rpg
+L 01/20/2019 - 01:10:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:10:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:10:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:10:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:10:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_rpg
+L 01/20/2019 - 01:10:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:11:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:11:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:11:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:27: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:11:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:11:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:11:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:11:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:11:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:11:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_shotgun
+L 01/20/2019 - 01:11:38: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:11:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:11:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:11:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:11:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:11:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool creator
+L 01/20/2019 - 01:11:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a weapon_rpg
+L 01/20/2019 - 01:11:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:11:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:11:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_rpg
+L 01/20/2019 - 01:11:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:11:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:11:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:11:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:11:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:11:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_ar2
+L 01/20/2019 - 01:12:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_ar2
+L 01/20/2019 - 01:12:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:14: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:12:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:12:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:12:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:12:27: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:33: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a player
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:12:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:12:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_shotgun
+L 01/20/2019 - 01:12:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:12:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:41: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 01:12:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:12:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Gave himself a weapon_rpg
+L 01/20/2019 - 01:12:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:12:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a rpg_missile
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:12:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:12:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_shotgun
+L 01/20/2019 - 01:12:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 01/20/2019 - 01:12:50: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 01/20/2019 - 01:12:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:57: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:12:59: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:00: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:13:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:13:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:13:08: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 01/20/2019 - 01:13:08: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:08: [FAdmin] prop_physics(models/props_c17/fence01b.mdl) Got removed
+L 01/20/2019 - 01:13:09: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 01:13:09: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 01:13:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:13:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:13:18: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:13:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:13:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:13:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:13:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:13:35: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by eLeCtrOssSnake with a player
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/20/2019 - 01:13:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:13:42: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 01/20/2019 - 01:13:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:13:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:13:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_ar2
+L 01/20/2019 - 01:13:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_ar2
+L 01/20/2019 - 01:13:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:13:55: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 01/20/2019 - 01:13:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 01/20/2019 - 01:14:04: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 01:14:05: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:14:14: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:14:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:14:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:14:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:14:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:14:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_c17/fountain_01.mdl
+L 01/20/2019 - 01:14:49: [FAdmin] prop_physics(models/props_c17/fountain_01.mdl) Got removed
+L 01/20/2019 - 01:14:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:15:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:15:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:15:10: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 01/20/2019 - 01:15:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 01/20/2019 - 01:15:14: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 01:15:14: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 01:15:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:15:23: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:15:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:15:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:28: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:15:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:15:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_rpg
+L 01/20/2019 - 01:15:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:15:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:15:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_lab/blastdoor001c.mdl
+L 01/20/2019 - 01:15:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:15:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:15:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:48: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:15:48: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 01/20/2019 - 01:15:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 01/20/2019 - 01:15:52: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 01:15:53: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 01:15:55: [FAdmin] prop_physics(models/props_lab/blastdoor001c.mdl) Got removed
+L 01/20/2019 - 01:16:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:16:02: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" entered the game
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:16:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:16:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by DidVaitel with a player
+L 01/20/2019 - 01:16:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/20/2019 - 01:16:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:16:11: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:12: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:20: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:22: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/20/2019 - 01:16:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/20/2019 - 01:16:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/20/2019 - 01:16:24: "eLeCtrOssSnake<7><STEAM_0:1:164666257><Citizen>" say "/me Резко достал пистолет из кармана"
+
+L 01/20/2019 - 01:16:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/20/2019 - 01:16:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_357
+L 01/20/2019 - 01:16:30: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_357
+L 01/20/2019 - 01:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_rpg
+L 01/20/2019 - 01:16:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_rpg
+L 01/20/2019 - 01:16:35: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:16:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crowbar
+L 01/20/2019 - 01:16:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a weapon_crossbow
+L 01/20/2019 - 01:16:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_crossbow
+L 01/20/2019 - 01:16:39: "eLeCtrOssSnake<7><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 01/20/2019 - 01:16:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 01/20/2019 - 01:16:40: Lua Error: 
+[ERROR] lua/includes/extensions/player.lua:260: Tried to use a NULL entity!
+  1. RemoveFlags - [C]:-1
+   2. Freeze - lua/includes/extensions/player.lua:260
+    3. unknown - addons/gduels-system/lua/gduel/core/sv_functions.lua:151
+
+
+L 01/20/2019 - 01:16:43: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/20/2019 - 01:16:44: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/20/2019 - 01:16:50: [FAdmin] Server succesfully shut down.
+L 01/20/2019 - 01:16:50: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/20/2019 - 01:16:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 01:16:51: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/20/2019 - 01:16:51: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 01/20/2019 - 01:16:51: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/20/2019 - 01:16:51: server_message: "quit"
+L 01/20/2019 - 01:16:51: Log file closed.

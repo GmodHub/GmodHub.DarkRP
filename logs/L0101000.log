@@ -1,0 +1,154 @@
+L 01/01/2019 - 18:59:03: Log file started (file "logs\L0101000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/01/2019 - 18:59:03: server_cvar: "sv_alltalk" "3"
+L 01/01/2019 - 18:59:03: server_cvar: "sv_allowcslua" "1"
+L 01/01/2019 - 18:59:03: server_cvar: "sv_airaccelerate" "1000"
+L 01/01/2019 - 18:59:03: server_cvar: "sv_alltalk" "0"
+L 01/01/2019 - 18:59:04: Connection to Steam servers successful.
+L 01/01/2019 - 18:59:04:    Public IP is 31.130.42.81.
+L 01/01/2019 - 18:59:04: Assigned anonymous gameserver Steam ID [A-1:430346243(11694)].
+L 01/01/2019 - 18:59:04: VAC secure mode is activated.
+L 01/01/2019 - 18:59:14: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 01/01/2019 - 18:59:15: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 01/01/2019 - 18:59:35: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 01/01/2019 - 18:59:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 01/01/2019 - 20:25:37: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:51: '}' expected (to close '{' at line 45) near 'Other'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:25:40: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:51: '}' expected (to close '{' at line 45) near 'Other'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:26:24: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:51: '}' expected (to close '{' at line 45) near 'Other'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:26:35: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:51: '}' expected (to close '{' at line 45) near 'Other'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:28:49: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:29:44: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:29:46: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:29:54: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:30:05: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:30:06: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:30:34: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:32:06: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:143: 'do' expected near 'end'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_main.lua:0
+
+
+L 01/01/2019 - 20:32:34: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:145: '=' expected near 'end'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_main.lua:0
+
+
+L 01/01/2019 - 20:32:37: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:145: '=' expected near 'end'
+  1. unknown - addons/[server]_conquest/lua/conquest/server/sv_main.lua:0
+
+
+L 01/01/2019 - 20:32:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:33:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:33:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:33:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:33:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:33:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:33:38: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:141: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. unknown - addons/[server]_conquest/lua/conquest/server/sv_main.lua:141
+
+
+L 01/01/2019 - 20:33:38: Lua Error: 
+[ERROR] conquest/lua/conquest/server/sv_main.lua:141: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. unknown - addons/[server]_conquest/lua/conquest/server/sv_main.lua:141
+
+
+L 01/01/2019 - 20:33:46: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:48: '}' expected (to close '{' at line 46) near 'subcategories'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:34:04: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:54: '}' expected (to close '{' at line 45) near 'Other'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:34:04: Lua Error: 
+[ERROR] conquest/lua/conquest/config.lua:54: '}' expected (to close '{' at line 45) near 'Other'
+  1. unknown - addons/[server]_conquest/lua/conquest/config.lua:0
+
+
+L 01/01/2019 - 20:35:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:35:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:36:17: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:36:21: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 01/01/2019 - 20:39:50: [FAdmin] Server succesfully shut down.
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/01/2019 - 20:39:50: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/01/2019 - 20:39:50: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 01/01/2019 - 20:39:50: server_message: "quit"
+L 01/01/2019 - 20:39:51: Log file closed.

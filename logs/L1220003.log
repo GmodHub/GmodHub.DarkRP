@@ -1,0 +1,134 @@
+L 12/20/2019 - 02:38:38: Log file started (file "logs\L1220003.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 12/20/2019 - 02:38:38: server_cvar: "sv_alltalk" "3"
+L 12/20/2019 - 02:38:38: server_cvar: "sv_allowcslua" "1"
+L 12/20/2019 - 02:38:38: server_cvar: "sv_airaccelerate" "1000"
+L 12/20/2019 - 02:38:38: server_cvar: "sv_alltalk" "0"
+L 12/20/2019 - 02:38:40: Connection to Steam servers successful.
+L 12/20/2019 - 02:38:40:    Public IP is 196.196.216.179.
+L 12/20/2019 - 02:38:40: Assigned anonymous gameserver Steam ID [A-1:1406152715(13808)].
+L 12/20/2019 - 02:38:40: VAC secure mode is activated.
+L 12/20/2019 - 02:38:43: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "10.154.224.184:27006"
+L 12/20/2019 - 02:38:43: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 12/20/2019 - 02:38:51: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 12/20/2019 - 02:38:51: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Spawned
+L 12/20/2019 - 02:38:51: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a keys
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 12/20/2019 - 02:38:51: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 12/20/2019 - 02:49:43: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:36: 'do' expected near 'if'
+
+
+L 12/20/2019 - 02:49:43: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:36: 'do' expected near 'if'
+
+
+L 12/20/2019 - 02:51:04: Lua Error: 
+[ERROR] addons/complex_employer/lua/complex-employer/core/sv_core.lua:43: ')' expected (to close '(' at line 42) near 'if'
+
+
+L 12/20/2019 - 03:03:53: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:03:54: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:04:28: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 12/20/2019 - 03:04:28: [FAdmin] Koteyka (STEAM_0:0:105635721) Disconnected
+L 12/20/2019 - 03:04:52: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "10.154.224.184:27006"
+L 12/20/2019 - 03:04:53: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 12/20/2019 - 03:05:08: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 12/20/2019 - 03:05:08: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Spawned
+L 12/20/2019 - 03:05:08: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a keys
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 12/20/2019 - 03:05:08: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 12/20/2019 - 03:06:14: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to switch noclip
+L 12/20/2019 - 03:06:15: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to switch noclip
+L 12/20/2019 - 03:08:16: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 12/20/2019 - 03:08:16: [FAdmin] Koteyka (STEAM_0:0:105635721) Disconnected
+L 12/20/2019 - 03:08:16: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "10.154.224.184:27006"
+L 12/20/2019 - 03:08:17: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 12/20/2019 - 03:08:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 12/20/2019 - 03:08:26: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Spawned
+L 12/20/2019 - 03:08:26: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a keys
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 12/20/2019 - 03:08:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 12/20/2019 - 03:09:28: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to switch noclip
+L 12/20/2019 - 03:11:07: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 12/20/2019 - 03:11:07: [FAdmin] Koteyka (STEAM_0:0:105635721) Disconnected
+L 12/20/2019 - 03:11:07: "COMPLΞX<5><STEAM_0:0:105635721><>" connected, address "10.154.224.184:27006"
+L 12/20/2019 - 03:11:08: "COMPLΞX<5><STEAM_0:0:105635721><>" STEAM USERID validated
+L 12/20/2019 - 03:11:17: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 12/20/2019 - 03:11:17: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Spawned
+L 12/20/2019 - 03:11:17: "COMPLΞX<5><STEAM_0:0:105635721><>" entered the game
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a keys
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 12/20/2019 - 03:11:17: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 12/20/2019 - 03:11:24: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to switch noclip
+L 12/20/2019 - 03:17:24: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to switch noclip
+L 12/20/2019 - 03:17:26: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:27: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:27: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:27: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:31: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:31: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:31: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:32: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:32: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:34: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:34: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:34: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:34: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:35: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:35: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:35: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:36: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:36: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:36: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:17:37: [FAdmin] Koteyka (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 12/20/2019 - 03:36:41: [FAdmin] Server succesfully shut down.
+L 12/20/2019 - 03:36:41: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 12/20/2019 - 03:36:41: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 12/20/2019 - 03:36:41: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 12/20/2019 - 03:36:41: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 12/20/2019 - 03:36:41: "COMPLΞX<5><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 12/20/2019 - 03:36:41: server_message: "quit"
+L 12/20/2019 - 03:36:41: Log file closed.

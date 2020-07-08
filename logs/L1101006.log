@@ -1,0 +1,106 @@
+L 11/01/2018 - 18:31:01: Log file started (file "logs\L1101006.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 11/01/2018 - 18:31:01: server_cvar: "sv_alltalk" "3"
+L 11/01/2018 - 18:31:01: server_cvar: "sv_allowcslua" "1"
+L 11/01/2018 - 18:31:01: server_cvar: "sv_airaccelerate" "1000"
+L 11/01/2018 - 18:31:01: server_cvar: "sv_alltalk" "0"
+L 11/01/2018 - 18:31:02: Connection to Steam servers successful.
+L 11/01/2018 - 18:31:02:    Public IP is 31.130.42.81.
+L 11/01/2018 - 18:31:02: Assigned anonymous gameserver Steam ID [A-1:3454208003(11318)].
+L 11/01/2018 - 18:31:02: VAC secure mode is activated.
+L 11/01/2018 - 18:31:41: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 11/01/2018 - 18:31:41: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/01/2018 - 18:31:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 11/01/2018 - 18:31:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 11/01/2018 - 18:31:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 11/01/2018 - 18:31:50: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 11/01/2018 - 18:31:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 11/01/2018 - 18:33:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 18:33:47: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a hulk
+L 11/01/2018 - 18:33:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 11/01/2018 - 18:33:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a hulk
+L 11/01/2018 - 18:34:03: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:25: attempt to call method 'ChatPrint' (a nil value)
+  1. BeHulk - addons/superherosweps/lua/weapons/hulk/init.lua:25
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:11
+
+
+L 11/01/2018 - 18:34:03: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1024: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1024
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:05: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1017: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1017
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:05: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1024: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1024
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1017: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1017
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1024: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1024
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1017: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1017
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/batman/shared.lua:1024: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/superherosweps/lua/weapons/batman/shared.lua:1024
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 18:34:29: [FAdmin] Server succesfully shut down.
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:34:29: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 11/01/2018 - 18:34:29: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/01/2018 - 18:34:29: server_message: "quit"
+L 11/01/2018 - 18:34:29: Log file closed.

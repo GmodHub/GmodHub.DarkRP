@@ -1,0 +1,68 @@
+L 10/31/2018 - 22:21:55: Log file started (file "logs\L1031005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/31/2018 - 22:21:55: server_cvar: "sv_alltalk" "3"
+L 10/31/2018 - 22:21:55: server_cvar: "sv_allowcslua" "1"
+L 10/31/2018 - 22:21:55: server_cvar: "sv_airaccelerate" "1000"
+L 10/31/2018 - 22:21:55: server_cvar: "sv_alltalk" "0"
+L 10/31/2018 - 22:21:56: Connection to Steam servers successful.
+L 10/31/2018 - 22:21:56:    Public IP is 31.130.42.81.
+L 10/31/2018 - 22:21:56: Assigned anonymous gameserver Steam ID [A-1:2424120323(11314)].
+L 10/31/2018 - 22:21:56: VAC secure mode is activated.
+L 10/31/2018 - 22:36:55: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/31/2018 - 22:36:56: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 22:37:05: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 22:37:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 22:43:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a blackpanther
+L 10/31/2018 - 22:43:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a blackpanther
+L 10/31/2018 - 22:50:10: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/cptamerica/init.lua:171: attempt to call method 'GetActiveWeapon' (a nil value)
+  1. fn - addons/superherosweps/lua/weapons/cptamerica/init.lua:171
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. FireBullets - [C]:-1
+     4. unknown - addons/superherosweps/lua/weapons/blackpanther/init.lua:176
+
+
+L 10/31/2018 - 23:02:09: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "/electrodaunusr"
+
+L 10/31/2018 - 23:03:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 23:03:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 23:03:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 23:03:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 23:03:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 23:03:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool lamp
+L 10/31/2018 - 23:03:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 23:03:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool light
+L 10/31/2018 - 23:04:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a blackpanther
+L 10/31/2018 - 23:10:10: [FAdmin] Server succesfully shut down.
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 23:10:10: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 23:10:10: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/31/2018 - 23:10:11: server_message: "quit"
+L 10/31/2018 - 23:10:11: Log file closed.

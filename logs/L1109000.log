@@ -1,0 +1,20 @@
+L 11/09/2019 - 14:29:05: Log file started (file "logs\L1109000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 11/09/2019 - 14:29:05: server_cvar: "sv_alltalk" "3"
+L 11/09/2019 - 14:29:06: Connection to Steam servers successful.
+L 11/09/2019 - 14:29:06:    Public IP is 31.130.42.47.
+L 11/09/2019 - 14:29:06: Assigned anonymous gameserver Steam ID [A-1:1560161281(13595)].
+L 11/09/2019 - 14:29:07: VAC secure mode is activated.
+L 11/09/2019 - 14:30:40: "DeadBear<2><STEAM_0:0:151607932><>" connected, address "26.64.99.216:27006"
+L 11/09/2019 - 14:30:40: "DeadBear<2><STEAM_0:0:151607932><>" STEAM USERID validated
+L 11/09/2019 - 14:30:49: Lua Error: 
+[ERROR] addons/informer-system/lua/informer/informer_serverside.lua:38: attempt to index global 'MySQLite' (a nil value)
+  1. GetPlayerData - addons/informer-system/lua/informer/informer_serverside.lua:38
+   2. SetPlayerData - addons/informer-system/lua/informer/informer_serverside.lua:72
+    3. v - addons/informer-system/lua/informer/informer_serverside.lua:99
+     4. unknown - lua/includes/modules/hook.lua:84
+
+
+L 11/09/2019 - 14:30:49: "DeadBear<2><STEAM_0:0:151607932><>" entered the game
+L 11/09/2019 - 14:31:38: "DeadBear<2><STEAM_0:0:151607932><>" disconnected (reason "Server shutting down")
+L 11/09/2019 - 14:31:38: server_message: "quit"
+L 11/09/2019 - 14:31:38: Log file closed.

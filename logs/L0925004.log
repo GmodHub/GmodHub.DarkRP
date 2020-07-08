@@ -1,0 +1,24 @@
+L 09/25/2018 - 17:12:40: Log file started (file "logs\L0925004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7220")
+L 09/25/2018 - 17:12:40: server_cvar: "sv_alltalk" "3"
+L 09/25/2018 - 17:12:40: server_cvar: "sv_alltalk" "0"
+L 09/25/2018 - 17:12:41: AWarn: Message Table Exists
+L 09/25/2018 - 17:12:41: AWarn: Player Data Table Exists
+L 09/25/2018 - 17:12:41: AWarn: Offline Player Data Table Exists
+L 09/25/2018 - 17:12:45: AWarn: Your server info has been updated to the online statistics tracking
+L 09/25/2018 - 17:12:58: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27005"
+L 09/25/2018 - 17:12:58: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 09/25/2018 - 17:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 09/25/2018 - 17:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 09/25/2018 - 17:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 09/25/2018 - 17:13:18: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 09/25/2018 - 17:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 09/25/2018 - 17:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 09/25/2018 - 17:13:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 09/25/2018 - 17:14:09: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 09/25/2018 - 17:14:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 09/25/2018 - 17:14:40: [FAdmin] Server succesfully shut down.
+L 09/25/2018 - 17:14:40: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 09/25/2018 - 17:14:40: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 09/25/2018 - 17:14:40: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 09/25/2018 - 17:14:40: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 09/25/2018 - 17:14:40: Log file closed.

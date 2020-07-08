@@ -1,0 +1,253 @@
+L 07/04/2020 - 19:51:01: Log file started (file "logs\L0704003.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/04/2020 - 19:51:01: server_cvar: "sv_alltalk" "3"
+L 07/04/2020 - 19:51:02: Connection to Steam servers successful.
+L 07/04/2020 - 19:51:02:    Public IP is 31.130.42.26.
+L 07/04/2020 - 19:51:02: Assigned anonymous gameserver Steam ID [A-1:1615242244(15091)].
+L 07/04/2020 - 19:51:02: VAC secure mode is activated.
+L 07/04/2020 - 19:51:07: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 19:51:07: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 19:51:36: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 19:51:36: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:201: attempt to call global 'SetHex' (a nil value)
+
+L 07/04/2020 - 19:55:33: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:136: table index is nil
+
+L 07/04/2020 - 19:59:24: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:136: table index is nil
+
+L 07/04/2020 - 19:59:28: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:98: attempt to index a string value with bad key ('Text' is not part of the string library)
+
+L 07/04/2020 - 19:59:33: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:13:29: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 20:13:29: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 20:13:30: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 20:13:30: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 20:13:40: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 20:13:40: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: attempt to index a string value with bad key ('r' is not part of the string library)
+
+L 07/04/2020 - 20:13:44: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:13:45: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: attempt to index a string value with bad key ('r' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86
+     4. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+      5. _Write - addons/dash_3/lua/dash/libraries/nw.lua:176
+       6. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+        7. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+         8. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:13:45: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:26:28: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 20:26:28: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 20:26:29: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 20:26:29: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 20:26:38: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 20:30:39: Lua Error: 
+[ERROR] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:30:49: Lua Error: 
+[ERROR] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:32:11: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:98: attempt to index a string value with bad key ('Text' is not part of the string library)
+
+L 07/04/2020 - 20:32:12: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:306
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:699
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:32:17: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:98: attempt to index a string value with bad key ('Text' is not part of the string library)
+
+L 07/04/2020 - 20:32:18: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:306
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:699
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:32:21: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 20:32:21: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 20:32:21: "COMPLΞX<5><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 20:32:21: "COMPLΞX<5><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 20:32:31: "COMPLΞX<5><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 20:32:31: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: attempt to index a string value with bad key ('r' is not part of the string library)
+
+L 07/04/2020 - 20:32:34: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:32:36: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: attempt to index a string value with bad key ('r' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86
+     4. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+      5. _Write - addons/dash_3/lua/dash/libraries/nw.lua:176
+       6. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+        7. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+         8. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:32:36: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:39:36: "COMPLΞX<5><STEAM_0:0:105635721><Team>" say "quitorg"
+L 07/04/2020 - 20:40:34: "COMPLΞX<5><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 20:40:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 20:40:35: "COMPLΞX<6><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 20:40:35: "COMPLΞX<6><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 20:40:44: "COMPLΞX<6><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 20:40:44: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: attempt to index a string value with bad key ('r' is not part of the string library)
+
+L 07/04/2020 - 20:40:44: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:40:49: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: attempt to index a string value with bad key ('r' is not part of the string library)
+  1. error - [C]:-1
+   2. __index - lua/includes/extensions/string.lua:297
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86
+     4. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+      5. _Write - addons/dash_3/lua/dash/libraries/nw.lua:176
+       6. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+        7. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+         8. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:40:49: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:42:23: "COMPLΞX<6><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 20:42:23: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 20:42:23: "COMPLΞX<7><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 20:42:24: "COMPLΞX<7><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 20:42:32: "COMPLΞX<7><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 20:42:32: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: bad argument #1 to 'WriteUInt' (number expected, got nil)
+
+L 07/04/2020 - 20:42:34: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/04/2020 - 20:42:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:86
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:176
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:42:38: Lua Error: 
+[ERROR] Warning! A net message (nw_OrgColor) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/04/2020 - 20:54:28: "COMPLΞX<7><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 20:54:28: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:436: attempt to index field 'vote' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:436
+
+
+L 07/04/2020 - 20:54:28: "COMPLΞX<8><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 20:54:29: "COMPLΞX<8><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 20:54:38: "COMPLΞX<8><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 21:02:46: "COMPLΞX<8><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 21:02:46: "COMPLΞX<9><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/04/2020 - 21:02:46: "COMPLΞX<9><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/04/2020 - 21:02:55: "COMPLΞX<9><STEAM_0:0:105635721><>" entered the game
+L 07/04/2020 - 21:37:21: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:436: ')' expected (to close '(' at line 365) near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:43
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:96
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:128
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/04/2020 - 21:37:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:436: ')' expected (to close '(' at line 365) near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:43
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:96
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:128
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/04/2020 - 21:43:41: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" connected, address "212.66.63.98:27006"
+L 07/04/2020 - 21:43:42: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/04/2020 - 21:45:17: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" entered the game
+L 07/04/2020 - 21:45:50: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/04/2020 - 21:52:20: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:495: attempt to index a nil value
+
+L 07/04/2020 - 21:52:29: "Bot01<11><BOT><>" connected, address "none"
+L 07/04/2020 - 21:52:29: "Bot01<11><BOT><>" entered the game
+L 07/04/2020 - 21:52:40: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:495: attempt to index a nil value
+
+L 07/04/2020 - 21:54:08: "Bot01<11><BOT><>" disconnected (reason "Server shutting down")
+L 07/04/2020 - 21:54:08: "COMPLΞX<9><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/04/2020 - 21:54:08: server_message: "quit"
+L 07/04/2020 - 21:54:08: Log file closed.

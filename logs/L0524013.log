@@ -1,0 +1,214 @@
+L 05/24/2019 - 18:13:17: Log file started (file "logs\L0524013.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 05/24/2019 - 18:13:17: server_cvar: "sv_alltalk" "3"
+L 05/24/2019 - 18:13:19: Connection to Steam servers successful.
+L 05/24/2019 - 18:13:19:    Public IP is 31.130.42.81.
+L 05/24/2019 - 18:13:19: Assigned anonymous gameserver Steam ID [A-1:3985437707(12582)].
+L 05/24/2019 - 18:13:19: VAC secure mode is activated.
+L 05/24/2019 - 18:13:28: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 05/24/2019 - 18:13:28: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/24/2019 - 18:13:33: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 05/24/2019 - 18:13:44: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:45: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:46: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:47: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:47: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:47: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:47: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:47: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:47: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:48: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:48: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:48: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:48: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:48: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:49: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:49: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:49: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:49: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:49: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:13:49: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15: attempt to index global 'TestingFunctions' (a nil value)
+  1. UpdateDoorVar - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:15
+   2. unknown - gamemodes/whosyourgarry/gamemode/modules/base/sv_base.lua:15
+
+
+L 05/24/2019 - 18:23:54: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:17: unexpected symbol near 'local'
+  1. unknown - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:0
+
+
+L 05/24/2019 - 18:23:56: Lua Error: 
+[ERROR] gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:17: unexpected symbol near 'local'
+  1. unknown - gamemodes/whosyourgarry/gamemode/modules/doors/sv_doors.lua:0
+
+
+L 05/24/2019 - 18:48:13: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 05/24/2019 - 18:48:13: server_message: "quit"
+L 05/24/2019 - 18:48:13: Log file closed.

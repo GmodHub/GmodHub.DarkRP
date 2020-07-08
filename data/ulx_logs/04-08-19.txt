@@ -1,0 +1,1373 @@
+<Logging continued from "data/ulx_logs/04-07-19.txt">
+[00:20:11] Client "Планктон" connected.
+[00:20:18] Client "Планктон" spawned in server <STEAM_0:0:193830835> (took 7 seconds).
+[00:21:36] Dropped "Планктон" from server<STEAM_0:0:193830835>
+[00:25:47] DidVaitel suicided!
+[00:26:26] DidVaitel suicided!
+[00:27:38] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[00:27:39] Client "DidVaitel" connected.
+[00:27:45] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[00:28:31] Server is shutting down/changing levels.
+
+
+
+[00:28:35] New map: gm_construct
+[00:28:47] Client "DidVaitel" connected.
+[00:28:53] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[00:31:20] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[00:31:20] Client "DidVaitel" connected.
+[00:31:26] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[00:47:17] DidVaitel suicided!
+[00:49:04] DidVaitel suicided!
+[00:49:18] Server is shutting down/changing levels.
+
+
+
+[00:49:21] New map: gm_construct
+[00:49:30] Client "DidVaitel" connected.
+[00:49:36] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[00:53:04] DidVaitel suicided!
+[00:55:09] DidVaitel suicided!
+[00:55:29] DidVaitel suicided!
+[00:56:30] DidVaitel suicided!
+[00:56:39] Server is shutting down/changing levels.
+
+
+
+[00:56:42] New map: gm_construct
+[00:56:47] Client "DidVaitel" connected.
+[00:56:53] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[00:58:28] Server is shutting down/changing levels.
+
+
+
+[00:58:31] New map: gm_construct
+[00:58:34] Client "DidVaitel" connected.
+[00:58:40] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[00:59:46] DidVaitel suicided!
+[01:00:15] DidVaitel suicided!
+[01:00:25] DidVaitel suicided!
+
+
+
+[01:01:18] New map: gm_construct
+[01:01:26] Client "DidVaitel" connected.
+[01:01:32] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:02:24] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:02:24] Client "DidVaitel" connected.
+[01:02:26] Server is shutting down/changing levels.
+
+
+
+[01:02:29] New map: gm_construct
+[01:02:48] Client "DidVaitel" connected.
+[01:02:55] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[01:04:04] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:04:04] Client "DidVaitel" connected.
+[01:04:11] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[01:04:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:04:56] Client "DidVaitel" connected.
+[01:05:02] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:06:31] Server is shutting down/changing levels.
+
+
+
+[01:06:35] New map: gm_construct
+[01:07:33] Client "DidVaitel" connected.
+[01:07:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:17:04] DidVaitel suicided!
+[01:20:02] DidVaitel suicided!
+[01:20:13] DidVaitel suicided!
+[01:20:24] DidVaitel suicided!
+[01:20:40] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:20:41] Client "DidVaitel" connected.
+[01:20:47] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:21:16] DidVaitel suicided!
+[01:21:20] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:21:20] Client "DidVaitel" connected.
+[01:21:26] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:21:46] DidVaitel suicided!
+[01:22:29] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:22:29] Client "DidVaitel" connected.
+[01:22:35] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:22:59] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:22:59] Client "DidVaitel" connected.
+[01:23:05] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:25:12] DidVaitel<STEAM_0:1:74202541> spawned sent sent_ball
+[01:26:26] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:29:47] Client "DidVaitel" connected.
+[01:29:53] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:33:26] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:33:26] Client "DidVaitel" connected.
+[01:33:32] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:34:06] DidVaitel suicided!
+[01:34:23] DidVaitel suicided!
+[01:34:37] DidVaitel suicided!
+[01:34:44] DidVaitel suicided!
+[01:34:50] DidVaitel suicided!
+[01:35:10] DidVaitel suicided!
+[01:35:32] DidVaitel suicided!
+[01:35:52] DidVaitel suicided!
+[01:36:09] DidVaitel suicided!
+[01:36:22] DidVaitel suicided!
+[01:36:38] DidVaitel suicided!
+[01:38:58] DidVaitel suicided!
+[01:39:16] DidVaitel suicided!
+[01:40:33] Server is shutting down/changing levels.
+
+
+
+[01:41:14] New map: gm_construct
+[01:41:24] Client "DidVaitel" connected.
+[01:41:30] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:42:44] DidVaitel suicided!
+[01:42:49] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:42:49] Client "DidVaitel" connected.
+[01:42:55] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:43:30] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:43:31] Client "DidVaitel" connected.
+[01:43:37] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[01:45:03] DidVaitel suicided!
+[01:45:09] DidVaitel suicided!
+[01:47:51] DidVaitel suicided!
+[01:48:50] DidVaitel suicided!
+[01:50:47] DidVaitel suicided!
+[01:50:56] DidVaitel suicided!
+[01:52:30] DidVaitel suicided!
+[01:53:34] DidVaitel suicided!
+[01:53:40] DidVaitel suicided!
+[01:55:55] DidVaitel suicided!
+[02:09:13] DidVaitel<STEAM_0:1:74202541> spawned model models/skyrim/weapons/draugrarrow.mdl
+[02:22:29] DidVaitel suicided!
+[02:24:53] DidVaitel suicided!
+[02:25:19] Server is shutting down/changing levels.
+
+
+
+[02:25:22] New map: gm_construct
+[02:25:29] Client "DidVaitel" connected.
+[02:25:36] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[02:49:40] DidVaitel suicided!
+[02:54:19] DidVaitel suicided!
+[02:57:42] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:57:42] Client "DidVaitel" connected.
+[02:57:44] Server is shutting down/changing levels.
+
+
+
+[02:57:47] New map: gm_construct
+[03:04:33] Client "DidVaitel" connected.
+[03:04:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[03:33:31] Client "Голубь Гриша" connected.
+[03:34:21] Client "Голубь Гриша" connected.
+[03:34:42] Client "Голубь Гриша" spawned in server <STEAM_0:1:437265817> (took 21 seconds).
+[03:36:15] Голубь Гриша killed DidVaitel using player
+[03:36:38] Dropped "Голубь Гриша" from server<STEAM_0:1:437265817>
+
+
+
+[16:38:10] New map: gm_construct
+[16:39:20] Client "DidVaitel" connected.
+[16:39:31] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 11 seconds).
+[16:40:16] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:46:58] Client "DidVaitel" connected.
+[16:47:04] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[16:47:44] DidVaitel suicided!
+[17:00:53] Client "♥" connected.
+[17:01:08] Client "♥" spawned in server <STEAM_0:1:116775653> (took 15 seconds).
+[17:02:26] ♥: HI
+[17:04:03] DidVaitel killed ♥ using rpg_missile
+[17:04:26] DidVaitel suicided!
+[17:04:32] Dropped "♥" from server<STEAM_0:1:116775653>
+[17:05:07] DidVaitel suicided!
+[17:05:26] DidVaitel suicided!
+[17:11:20] DidVaitel suicided!
+[17:14:50] Client "🖤eLeCtrOssSnake🖤" connected.
+[17:15:07] DidVaitel suicided!
+[17:15:18] Client "🖤eLeCtrOssSnake🖤" spawned in server <STEAM_0:1:164666257> (took 28 seconds).
+[17:15:49] Dropped "🖤eLeCtrOssSnake🖤" from server<STEAM_0:1:164666257>
+[17:15:49] Client "🖤eLeCtrOssSnake🖤" connected.
+[17:15:57] Client "🖤eLeCtrOssSnake🖤" spawned in server <STEAM_0:1:164666257> (took 8 seconds).
+[17:15:57] DidVaitel suicided!
+[17:16:11] Dropped "🖤eLeCtrOssSnake🖤" from server<STEAM_0:1:164666257>
+[17:16:12] Client "🖤eLeCtrOssSnake🖤" connected.
+[17:16:19] Client "🖤eLeCtrOssSnake🖤" spawned in server <STEAM_0:1:164666257> (took 7 seconds).
+[17:16:30] Dropped "🖤eLeCtrOssSnake🖤" from server<STEAM_0:1:164666257>
+[17:16:40] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:16:40] Client "DidVaitel" connected.
+[17:16:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[17:17:00] Client "🖤eLeCtrOssSnake🖤" connected.
+[17:17:13] Client "🖤eLeCtrOssSnake🖤" spawned in server <STEAM_0:1:164666257> (took 13 seconds).
+[17:19:04] Server is shutting down/changing levels.
+
+
+
+[17:19:14] New map: gm_construct
+[17:19:21] Client "DidVaitel" connected.
+[17:19:27] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[17:20:26] DidVaitel suicided!
+[17:21:27] DidVaitel suicided!
+[17:22:24] DidVaitel suicided!
+[17:22:53] DidVaitel suicided!
+[17:27:06] DidVaitel suicided!
+[17:35:27] DidVaitel suicided!
+[17:37:14] DidVaitel suicided!
+[17:40:57] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:40:58] Client "DidVaitel" connected.
+[17:41:04] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[18:20:47] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[18:20:55] Client "DidVaitel" connected.
+[18:21:04] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[18:29:24] Client "Bot01" connected.
+[18:29:24] Client "Bot01" spawned in server <BOT> (took 4212 seconds).
+[18:29:48] Bot01 was killed by entityflame
+[18:30:23] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[18:30:23] Dropped "Bot01" from server<BOT>
+[18:32:20] Client "DidVaitel" connected.
+[18:32:26] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[18:33:01] Client "20rawnaq" connected.
+[18:33:12] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[18:33:39] Client "DidVaitel" connected.
+[18:33:48] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[18:33:54] Client "20rawnaq" spawned in server <STEAM_0:1:240494809> (took 53 seconds).
+[18:35:47] 20rawnaq: hello
+[18:35:54] DidVaitel: hi
+[18:36:01] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable001a.mdl
+[18:36:05] 20rawnaq: you only here?
+[18:36:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturechair001a.mdl
+[18:36:11] DidVaitel: yes
+[18:36:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturechair001a.mdl
+[18:36:16] 20rawnaq: oh
+[18:36:38] DidVaitel: oops
+[18:36:43] 20rawnaq<STEAM_0:1:240494809> spawned vehicle models/nova/chair_wood01.mdl
+[18:36:50] 20rawnaq<STEAM_0:1:240494809> spawned vehicle models/nova/chair_wood01.mdl
+[18:36:54] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/chair_office02.mdl
+[18:37:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable003a.mdl
+[18:37:05] 20rawnaq<STEAM_0:1:240494809> spawned model models/props_c17/furnituretable001a.mdl
+[18:37:22] 20rawnaq<STEAM_0:1:240494809> spawned vehicle models/nova/chair_wood01.mdl
+[18:37:23] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/pot01a.mdl
+[18:37:31] DidVaitel: you want some tea?
+[18:37:41] DidVaitel: i am too
+[18:38:12] 20rawnaq was killed by entityflame
+[18:38:59] 20rawnaq: XD
+[18:39:10] DidVaitel: 1 sec
+[18:39:13] 20rawnaq<STEAM_0:1:240494809> spawned vehicle models/buggy.mdl
+[18:39:18] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:19] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:20] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:20] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_monk
+[18:39:39] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_poisonzombie
+[18:39:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_antlionguard
+[18:40:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_turret_floor
+[18:40:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_turret_floor
+[18:40:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_turret_floor
+[18:40:16] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_turret_floor
+[18:40:16] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_turret_floor
+[18:40:17] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_turret_floor
+[18:40:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_strider
+[18:40:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_strider
+[18:40:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_strider
+[18:40:49] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:51] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:51] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:51] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:40:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_rollermine
+[18:41:00] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_combine_s
+[18:41:00] DidVaitel was killed by npc_rollermine
+[18:41:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_barney
+[18:41:31] 20rawnaq: police car
+[18:41:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_barney
+[18:41:34] 20rawnaq<STEAM_0:1:240494809> spawned vehicle models/buggy.mdl
+[18:41:39] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:40] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_barney
+[18:41:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:47] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:48] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:49] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:49] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:49] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:41:56] Client "Палас" connected.
+[18:42:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_zombie
+[18:42:31] Client "Палас" spawned in server <STEAM_0:0:39266355> (took 35 seconds).
+[18:42:50] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:52] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:52] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:42:53] 20rawnaq killed DidVaitel using rpg_missile
+[18:43:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_fastzombie
+[18:43:35] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:35] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:37] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:37] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:37] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:43:49] 20rawnaq killed Палас using rpg_missile
+[18:44:07] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_helicopter
+[18:44:20] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:21] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:21] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:21] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:21] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:22] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:22] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:22] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:44:27] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:27] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:27] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:27] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:28] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:28] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:28] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:28] 20rawnaq killed DidVaitel using rpg_missile
+[18:44:29] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:44:35] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:44:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:44:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:44:36] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:44:48] 20rawnaq killed DidVaitel using rpg_missile
+[18:45:00] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_vortigaunt
+[18:45:01] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_vortigaunt
+[18:45:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:07] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:12] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:13] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_citizen
+[18:45:29] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:29] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:41] 20rawnaq killed Палас using rpg_missile
+[18:45:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:57] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:57] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:57] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:57] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:57] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:58] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:58] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:45:58] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:46:06] Палас<STEAM_0:0:39266355> spawned NPC npc_antlionguard
+[18:46:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/laundry_basket001.mdl
+[18:46:21] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/laundry_basket001.mdl
+[18:46:30] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/laundry_basket001.mdl
+[18:46:45] DidVaitel: !menu
+[18:47:03] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_gman
+[18:47:07] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:08] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:09] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:10] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:11] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:14] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:15] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:16] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:20] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:20] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:21] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:22] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:23] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:24] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:25] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:26] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:27] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:28] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:29] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:30] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:31] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:32] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:33] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:34] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:35] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:35] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:35] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_metropolice
+[18:47:35] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:36] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:36] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:36] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:40] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:40] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:41] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:41] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:41] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:41] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:42] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:42] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:42] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:42] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:42] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:42] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:43] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:47:44] Палас<STEAM_0:0:39266355> spawned sent item_ammo_smg1_grenade
+[18:48:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:08] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:10] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:10] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:11] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:11] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:11] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:11] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:11] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:11] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:15] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:16] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:16] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:16] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:16] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:17] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:48:19] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:19] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:19] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:20] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:34] DidVaitel killed Палас using rpg_missile
+[18:48:38] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:38] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:38] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:48:41] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:41] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:41] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:41] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:41] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:42] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:43] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:44] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:45] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:46] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:51] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:52] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:53] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:54] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:55] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:56] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:57] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:58] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:59] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:59] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:59] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:59] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:48:59] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:02] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:03] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:03] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:03] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:03] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:03] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:03] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:04] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:05] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:05] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:05] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:05] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:05] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:05] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:06] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:06] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:06] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:06] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:06] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:06] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:07] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:07] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:07] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:17] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:17] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:17] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:17] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:18] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:18] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:18] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:18] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:18] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:18] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:19] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:19] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:19] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:19] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:19] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:19] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:20] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:20] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:20] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:20] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:20] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:20] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:21] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:21] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:21] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:21] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:21] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:21] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:22] Палас<STEAM_0:0:39266355> spawned NPC npc_fastzombie
+[18:49:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:26] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:26] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:26] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:26] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:27] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:27] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:27] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:49:29] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:29] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[18:49:29] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:29] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:29] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:30] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:30] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:30] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:30] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:30] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:31] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:31] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:31] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:31] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:31] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:31] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:32] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:32] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:32] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:32] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:32] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:33] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:33] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:33] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:33] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:33] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:34] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:34] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:34] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:34] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:34] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:35] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:35] Палас<STEAM_0:0:39266355> spawned NPC npc_zombie
+[18:49:39] Client "DidVaitel" connected.
+[18:49:47] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:49:47] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:49:47] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:49:47] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:49:48] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:49:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:51] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:52] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[18:49:52] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:52] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:52] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:52] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:53] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:49:53] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:01] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:01] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:01] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:01] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:02] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:03] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:03] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:03] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:03] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:03] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:03] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:04] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:04] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:04] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:04] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:04] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:05] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:05] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:05] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:05] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:05] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:06] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:06] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:06] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:07] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:08] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:08] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:08] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:08] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:08] DidVaitel was killed by npc_poisonzombie
+[18:50:08] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:09] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:10] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:11] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:12] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:13] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:13] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:13] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:13] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:13] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:14] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:14] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:14] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:14] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:15] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:15] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:15] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:15] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:15] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:16] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:16] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:16] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:16] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:17] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:17] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:17] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:17] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:17] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:18] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:18] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:18] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:22] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:23] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:24] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:25] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:26] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:26] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:28] Палас<STEAM_0:0:39266355> spawned NPC npc_poisonzombie
+[18:50:28] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:29] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:29] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:50:30] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:12] Палас<STEAM_0:0:39266355> spawned vehicle models/buggy.mdl
+[18:51:54] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:55] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:55] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:55] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:56] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:51:59] 20rawnaq<STEAM_0:1:240494809> spawned sent item_box_buckshot
+[18:51:59] 20rawnaq<STEAM_0:1:240494809> spawned sent item_box_buckshot
+[18:52:01] Палас<STEAM_0:0:39266355> spawned model models/props_junk/trashdumpster02.mdl
+[18:52:02] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:52:02] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:52:03] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:52:03] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:52:43] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:52:44] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:52:45] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:52:47] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:53:08] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:08] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:09] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:09] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:09] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:09] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:09] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:10] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:10] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:12] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:13] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:13] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:13] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:13] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:13] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:13] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:14] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:15] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:15] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:15] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:15] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:53:22] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:53:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:53:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:53:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:53:58] DidVaitel was killed by npc_fastzombie
+[18:54:03] Палас was killed by npc_poisonzombie
+[18:54:04] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:54:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:05] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:06] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:07] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:54:08] DidVaitel was killed by npc_poisonzombie
+[18:54:30] Палас was killed by npc_fastzombie
+[18:54:30] Палас<STEAM_0:0:39266355> spawned model models/props_junk/gascan001a.mdl
+[18:54:34] 20rawnaq suicided!
+[18:54:50] Палас<STEAM_0:0:39266355> spawned model models/props_junk/propane_tank001a.mdl
+[18:54:51] 20rawnaq<STEAM_0:1:240494809> spawned model models/hunter/blocks/cube075x1x075.mdl
+[18:54:54] Палас<STEAM_0:0:39266355> spawned model models/props_junk/propane_tank001a.mdl
+[18:54:59] Палас<STEAM_0:0:39266355> spawned model models/props_junk/propane_tank001a.mdl
+[18:55:04] Палас<STEAM_0:0:39266355> spawned model models/props_junk/propane_tank001a.mdl
+[18:55:08] Палас<STEAM_0:0:39266355> spawned model models/props_junk/propane_tank001a.mdl
+[18:55:21] Палас<STEAM_0:0:39266355> spawned model models/props_junk/sawblade001a.mdl
+[18:55:22] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:23] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:24] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:24] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:24] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:25] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:25] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:25] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:25] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:25] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:26] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:26] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:26] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:26] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:26] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:26] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:27] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:55:50] Палас<STEAM_0:0:39266355> spawned model models/props_lab/blastdoor001c.mdl
+[18:56:25] 20rawnaq suicided!
+[18:56:36] 20rawnaq<STEAM_0:1:240494809> spawned model models/hunter/blocks/cube025x025x025.mdl
+[18:56:40] Палас<STEAM_0:0:39266355> spawned model models/props_lab/blastdoor001b.mdl
+[18:56:41] Палас<STEAM_0:0:39266355> spawned model models/props_lab/blastdoor001c.mdl
+[18:56:51] Палас<STEAM_0:0:39266355> spawned model models/props_lab/blastdoor001c.mdl
+[18:56:59] 20rawnaq<STEAM_0:1:240494809> spawned model models/hunter/blocks/cube075x075x075.mdl
+[18:57:07] Палас<STEAM_0:0:39266355> spawned model models/props_junk/sawblade001a.mdl
+[18:57:28] 20rawnaq<STEAM_0:1:240494809> spawned model models/hunter/blocks/cube075x075x075.mdl
+[18:57:28] Палас was killed by npc_fastzombie
+[18:57:30] 20rawnaq<STEAM_0:1:240494809> spawned model models/hunter/blocks/cube2x2x2.mdl
+[18:57:32] Палас<STEAM_0:0:39266355> spawned model models/props_combine/breendesk.mdl
+[18:57:40] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:57:41] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:57:41] 20rawnaq<STEAM_0:1:240494809> spawned sent item_healthkit
+[18:57:49] 20rawnaq<STEAM_0:1:240494809> spawned model models/hunter/blocks/cube2x2x1.mdl
+[18:57:59] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:00] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:00] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:00] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:00] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:01] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:01] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:01] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:01] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:01] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:01] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[18:58:30] Палас<STEAM_0:0:39266355> spawned model models/hunter/plates/plate2x3.mdl
+[18:58:57] Палас<STEAM_0:0:39266355> spawned model models/hunter/plates/plate2x3.mdl
+[18:59:17] Палас<STEAM_0:0:39266355> spawned sent sent_ball
+[18:59:17] Палас<STEAM_0:0:39266355> spawned sent sent_ball
+[18:59:17] Палас<STEAM_0:0:39266355> spawned sent sent_ball
+[18:59:17] Палас<STEAM_0:0:39266355> spawned sent sent_ball
+[18:59:26] DidVaitel suicided!
+[18:59:41] 20rawnaq<STEAM_0:1:240494809> spawned vehicle models/airboat.mdl
+[18:59:54] DidVaitel suicided!
+[19:00:03] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:03] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:03] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:04] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:04] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:04] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:04] 20rawnaq<STEAM_0:1:240494809> spawned sent item_rpg_round
+[19:00:32] Палас<STEAM_0:0:39266355> spawned vehicle models/airboat.mdl
+[19:01:21] Client "KILLA VIRGO | K1LLX V1RGX" connected.
+[19:01:27] Client "KILLA VIRGO | K1LLX V1RGX" connected.
+[19:01:29] Палас killed 20rawnaq using player
+[19:01:43] DidVaitel suicided!
+[19:01:51] DidVaitel was killed by npc_poisonzombie
+[19:02:13] Client "KILLA VIRGO | K1LLX V1RGX" spawned in server <STEAM_0:1:209521627> (took 46 seconds).
+[19:02:41] KILLA VIRGO | K1LLX V1RGX<STEAM_0:1:209521627> spawned model models/props_vehicles/car005b_physics.mdl
+[19:02:42] KILLA VIRGO | K1LLX V1RGX<STEAM_0:1:209521627> spawned model models/props_vehicles/car005b_physics.mdl
+[19:03:28] DidVaitel: !menu
+[19:04:06] DidVaitel выкинул с сервера 20rawnaq (sorry)
+[19:04:06] Dropped "20rawnaq" from server<STEAM_0:1:240494809>
+[19:04:07] DidVaitel выкинул с сервера Палас (reason)
+[19:04:07] Dropped "Палас" from server<STEAM_0:0:39266355>
+[19:04:11] DidVaitel выкинул с сервера KILLA VIRGO | K1LLX V1RGX (sorry)
+[19:04:11] Dropped "KILLA VIRGO | K1LLX V1RGX" from server<STEAM_0:1:209521627>
+[19:17:37] Client "KILLA VIRGO | K1LLX V1RGX" connected.
+[19:17:57] Client "KILLA VIRGO | K1LLX V1RGX" spawned in server <STEAM_0:1:209521627> (took 20 seconds).
+[19:18:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturecupboard001a.mdl
+[19:18:26] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituredrawer001a.mdl
+[19:18:51] KILLA VIRGO | K1LLX V1RGX killed DidVaitel using crossbow_bolt
+[19:20:04] Client "Bot02" connected.
+[19:20:04] Client "Bot02" spawned in server <BOT> (took 7252 seconds).
+[19:20:23] Client "Bot03" connected.
+[19:20:23] Client "Bot03" spawned in server <BOT> (took 7271 seconds).
+[19:20:36] KILLA VIRGO | K1LLX V1RGX killed Bot02 using crossbow_bolt
+[19:21:04] DidVaitel suicided!
+[19:21:13] KILLA VIRGO | K1LLX V1RGX killed Bot03 using player
+[19:21:31] Client "Bot04" connected.
+[19:21:31] Client "Bot04" spawned in server <BOT> (took 7339 seconds).
+[19:21:37] Server is shutting down/changing levels.
+
+
+
+[19:25:43] New map: gm_construct
+[19:26:22] Client "DidVaitel" connected.
+[19:26:29] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[19:28:42] Client "Bot01" connected.
+[19:28:42] Client "Bot01" spawned in server <BOT> (took 180 seconds).
+[19:30:00] Server is shutting down/changing levels.
+
+
+
+[19:30:05] New map: gm_construct
+[19:38:39] Client "skeleskull" connected.
+[19:39:06] Client "skeleskull" spawned in server <STEAM_0:0:101511166> (took 27 seconds).
+[19:40:21] Dropped "skeleskull" from server<STEAM_0:0:101511166>
+[19:47:17] Client "DidVaitel" connected.
+[19:47:24] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[19:48:27] DidVaitel suicided!
+[19:48:34] DidVaitel suicided!
+[19:49:11] DidVaitel suicided!
+[19:50:37] DidVaitel suicided!
+[19:50:45] Client "Bot01" connected.
+[19:50:45] Client "Bot01" spawned in server <BOT> (took 1241 seconds).
+[19:51:16] DidVaitel suicided!
+[19:51:21] DidVaitel suicided!
+[19:51:26] DidVaitel suicided!
+[19:55:16] DidVaitel suicided!
+[19:55:29] DidVaitel suicided!
+[19:55:55] DidVaitel suicided!
+[19:56:10] DidVaitel suicided!
+[19:56:17] DidVaitel suicided!
+[19:56:30] Server is shutting down/changing levels.
+
+
+
+[19:56:45] New map: gm_construct
+[19:57:23] Client "DidVaitel" connected.
+[19:57:29] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[19:58:17] DidVaitel suicided!
+[19:59:08] DidVaitel suicided!
+[19:59:35] DidVaitel suicided!
+[20:01:47] DidVaitel suicided!
+[20:04:02] DidVaitel suicided!
+[20:04:25] DidVaitel suicided!
+[20:07:16] DidVaitel suicided!
+[20:07:40] Client "FA9" connected.
+[20:08:50] DidVaitel suicided!
+[20:09:04] DidVaitel suicided!
+[20:09:14] Client "Bot01" connected.
+[20:09:14] Client "Bot01" spawned in server <BOT> (took 750 seconds).
+[20:09:49] DidVaitel suicided!
+[20:11:37] Client "Julian" connected.
+[20:11:57] Client "Julian" spawned in server <STEAM_0:1:158633351> (took 20 seconds).
+[20:12:08] Dropped "Julian" from server<STEAM_0:1:158633351>
+[20:12:08] DidVaitel suicided!
+[20:13:50] DidVaitel suicided!
+[20:14:28] DidVaitel suicided!
+[20:14:39] DidVaitel suicided!
+[20:14:45] DidVaitel suicided!
+[20:14:54] Client "Bot02" connected.
+[20:14:54] Client "Bot02" spawned in server <BOT> (took 1090 seconds).
+[20:15:44] DidVaitel suicided!
+[20:15:45] Bot02 was killed by env_fire
+[20:22:27] Client "Bot03" connected.
+[20:22:27] Client "Bot03" spawned in server <BOT> (took 1543 seconds).
+[20:22:48] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[20:22:48] Dropped "Bot01" from server<BOT>
+[20:22:48] Dropped "Bot02" from server<BOT>
+[20:22:48] Dropped "Bot03" from server<BOT>
+[20:36:18] Client "kuczkowiak" connected.
+[20:36:33] Client "kuczkowiak" spawned in server <STEAM_0:0:204139773> (took 15 seconds).
+[20:36:56] kuczkowiak<STEAM_0:0:204139773> spawned vehicle models/buggy.mdl
+[20:37:02] Dropped "kuczkowiak" from server<STEAM_0:0:204139773>

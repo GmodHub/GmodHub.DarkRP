@@ -1,0 +1,234 @@
+L 01/19/2019 - 23:42:39: Log file started (file "logs\L0119010.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 01/19/2019 - 23:42:39: server_cvar: "sv_alltalk" "3"
+L 01/19/2019 - 23:42:39: server_cvar: "sv_allowcslua" "1"
+L 01/19/2019 - 23:42:39: server_cvar: "sv_airaccelerate" "1000"
+L 01/19/2019 - 23:42:39: server_cvar: "sv_alltalk" "0"
+L 01/19/2019 - 23:42:39: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:42:39: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:42:39: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:42:39: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 01/19/2019 - 23:42:39: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 01/19/2019 - 23:42:40: Connection to Steam servers successful.
+L 01/19/2019 - 23:42:40:    Public IP is 31.130.42.81.
+L 01/19/2019 - 23:42:40: Assigned anonymous gameserver Steam ID [A-1:1770070019(11819)].
+L 01/19/2019 - 23:42:40: VAC secure mode is activated.
+L 01/19/2019 - 23:42:40: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" STEAM USERID validated
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 23:42:48: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" entered the game
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 23:42:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:43:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_combine/combine_fence01b.mdl
+L 01/19/2019 - 23:43:14: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 23:43:16: [FAdmin] prop_physics(models/props_combine/combine_fence01b.mdl) Got removed
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 23:43:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:43:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_combine/combine_fence01b.mdl
+L 01/19/2019 - 23:43:35: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 23:43:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:43:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:43:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:43:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_docks/dock03_pole01a.mdl
+L 01/19/2019 - 23:43:45: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 23:43:46: [FAdmin] prop_physics(models/props_docks/dock03_pole01a.mdl) Got removed
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 23:43:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:43:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned a models/props_combine/combine_fence01b.mdl
+L 01/19/2019 - 23:44:13: Lua Error: 
+[ERROR] addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150: attempt to call method 'Nick' (a nil value)
+  1. fn - addons/simple_discord_relay/lua/autorun/server/sv_discord_relay.lua:150
+   2. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_keypadchecker
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a door_ram
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a arrest_stick
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a unarrest_stick
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a stunstick
+L 01/19/2019 - 23:44:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weaponchecker
+L 01/19/2019 - 23:44:18: [FAdmin] prop_physics(models/props_combine/combine_fence01b.mdl) Got removed
+L 01/19/2019 - 23:44:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:23: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:27: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:27: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:44:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:44:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:44:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:38: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:41: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:44: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:47: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:44:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:01: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:02: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:03: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:06: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:07: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:09: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:10: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:11: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:12: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:12: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:22: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to use tool duelpoints
+L 01/19/2019 - 23:45:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 01/19/2019 - 23:45:33: [FAdmin] Server succesfully shut down.
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 01/19/2019 - 23:45:33: [FAdmin] prop_physics(models/props_combine/combine_fence01b.mdl) Got removed
+L 01/19/2019 - 23:45:33: "eLeCtrOssSnake<2><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 01/19/2019 - 23:45:33: server_message: "quit"
+L 01/19/2019 - 23:45:33: Log file closed.

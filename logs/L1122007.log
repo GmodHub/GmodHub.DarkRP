@@ -1,0 +1,48 @@
+L 11/22/2019 - 19:08:13: Log file started (file "logs\L1122007.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/22/2019 - 19:08:13: server_cvar: "sv_alltalk" "3"
+L 11/22/2019 - 19:08:13: server_cvar: "sv_allowcslua" "1"
+L 11/22/2019 - 19:08:13: server_cvar: "sv_airaccelerate" "1000"
+L 11/22/2019 - 19:08:13: server_cvar: "sv_alltalk" "0"
+L 11/22/2019 - 19:08:13: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.64.99.216:27006"
+L 11/22/2019 - 19:08:14: Connection to Steam servers successful.
+L 11/22/2019 - 19:08:14:    Public IP is 31.130.42.47.
+L 11/22/2019 - 19:08:14: Assigned anonymous gameserver Steam ID [A-1:3425683465(13663)].
+L 11/22/2019 - 19:08:14: VAC secure mode is activated.
+L 11/22/2019 - 19:08:14: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) is Authed
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned for the first time
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Spawned
+L 11/22/2019 - 19:08:21: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a keys
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physcannon
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_camera
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a gmod_tool
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a pocket
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_physgun
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weapon_keypadchecker
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a door_ram
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a arrest_stick
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a unarrest_stick
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a stunstick
+L 11/22/2019 - 19:08:21: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to pick up a weaponchecker
+L 11/22/2019 - 19:10:18: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to switch noclip
+L 11/22/2019 - 19:10:20: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to switch noclip
+L 11/22/2019 - 19:10:28: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 19:10:29: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 19:10:31: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 19:10:34: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 19:10:42: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 19:10:43: [FAdmin] COMPLΞX (STEAM_0:0:105635721) Attempted to use tool complex_employer_tool
+L 11/22/2019 - 19:26:02: Connection to Steam servers lost.  (Result = 3)
+L 11/22/2019 - 19:26:03: Connection to Steam servers successful.
+L 11/22/2019 - 19:26:03:    Public IP is 80.79.116.135.
+L 11/22/2019 - 19:26:03: Assigned anonymous gameserver Steam ID [A-1:3425683465(13663)].
+L 11/22/2019 - 19:26:04: VAC secure mode is activated.
+L 11/22/2019 - 19:35:52: [FAdmin] Server succesfully shut down.
+L 11/22/2019 - 19:35:52: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 11/22/2019 - 19:35:52: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 11/22/2019 - 19:35:52: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 11/22/2019 - 19:35:52: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 11/22/2019 - 19:35:52: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 11/22/2019 - 19:35:52: server_message: "quit"
+L 11/22/2019 - 19:35:52: Log file closed.

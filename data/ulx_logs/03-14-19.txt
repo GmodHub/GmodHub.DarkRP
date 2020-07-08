@@ -1,0 +1,14 @@
+[17:16:37] New map: gm_construct
+[17:17:03] Client "DidVaitel" connected.
+[17:17:17] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+[17:25:15] DidVaitel suicided!
+[17:32:32] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[17:32:32] Client "DidVaitel" connected.
+[17:32:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[17:34:50] DidVaitel suicided!
+[17:51:54] DidVaitel suicided!
+[17:52:17] DidVaitel suicided!
+[17:54:03] DidVaitel suicided!
+[17:55:41] DidVaitel suicided!
+[17:56:02] DidVaitel suicided!
+[18:21:58] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

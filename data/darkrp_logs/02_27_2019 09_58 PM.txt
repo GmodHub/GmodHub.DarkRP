@@ -1,0 +1,18 @@
+Wed Feb 27 21:58:53 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Feb 27 21:58:53 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 27 22:07:46 2019	[TWITCH]OPTORU (STEAM_0:0:465391596) has joined the game
+Wed Feb 27 22:07:46 2019	[TWITCH]OPTORU (STEAM_0:0:465391596) spawned
+Wed Feb 27 22:08:36 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Wed Feb 27 22:08:45 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Feb 27 22:08:45 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 27 22:11:33 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Wed Feb 27 22:11:41 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Feb 27 22:11:41 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 27 22:12:24 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Wed Feb 27 22:12:31 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Feb 27 22:12:31 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 27 22:21:41 2019	DidVaitel was killed by Himself with a suicide trick
+Wed Feb 27 22:21:42 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 27 22:21:50 2019	DidVaitel was killed by Himself with a suicide trick
+Wed Feb 27 22:21:51 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 27 22:34:34 2019	[TWITCH]OPTORU (STEAM_0:0:465391596) disconnected

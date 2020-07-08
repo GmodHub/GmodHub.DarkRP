@@ -1,0 +1,7 @@
+Thu Apr 30 20:50:12 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Thu Apr 30 20:50:12 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Thu Apr 30 20:50:36 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Thu Apr 30 20:51:54 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT ddv_metal_detector
+Thu Apr 30 21:04:14 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Thu Apr 30 21:10:27 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Thu Apr 30 21:10:27 2020	DidVaitel (STEAM_0:1:74202541) spawned

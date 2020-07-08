@@ -1,0 +1,381 @@
+L 11/28/2019 - 01:35:42: Log file started (file "logs\L1128001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7671")
+L 11/28/2019 - 01:35:42: server_cvar: "sv_alltalk" "3"
+L 11/28/2019 - 01:35:43: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27005"
+L 11/28/2019 - 01:35:43: Connection to Steam servers successful.
+L 11/28/2019 - 01:35:43:    Public IP is 31.130.42.47.
+L 11/28/2019 - 01:35:43: Assigned anonymous gameserver Steam ID [A-1:3456505861(13691)].
+L 11/28/2019 - 01:35:44: VAC secure mode is activated.
+L 11/28/2019 - 01:35:44: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/28/2019 - 01:35:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:78
+
+
+L 11/28/2019 - 01:35:52: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 11/28/2019 - 01:36:30: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:36:37: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:78
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:37:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103: function arguments expected near '.'
+  1. Include - gamemodes/militaryrp/gamemode/shared.lua:35
+   2. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:117
+    3. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+     4. include - [C]:-1
+      5. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/28/2019 - 01:37:52: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103: function arguments expected near '.'
+  1. Include - gamemodes/militaryrp/gamemode/shared.lua:35
+   2. IncludeFolder - gamemodes/militaryrp/gamemode/shared.lua:49
+    3. IncludeCore - gamemodes/militaryrp/gamemode/shared.lua:120
+     4. unknown - gamemodes/militaryrp/gamemode/shared.lua:129
+      5. include - [C]:-1
+       6. unknown - gamemodes/militaryrp/gamemode/init.lua:13
+
+
+L 11/28/2019 - 01:37:57: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:37:59: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:78
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:38:17: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:38:44: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:78
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:38:56: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:38:58: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:78
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:39:27: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:39:29: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:103
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:78
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:40:02: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:40:37: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:102
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:81
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:40:39: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:40:41: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:102
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:81
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:40:45: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/28/2019 - 01:40:45: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27005"
+L 11/28/2019 - 01:40:45: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/28/2019 - 01:40:54: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/player/sv_player.lua:102: attempt to index a nil value
+  1. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:102
+   2. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:81
+
+
+L 11/28/2019 - 01:40:54: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 11/28/2019 - 01:42:17: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:42:19: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:101
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:81
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:43:00: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:43:02: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:102
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:81
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:45:23: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/28/2019 - 01:45:23: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27005"
+L 11/28/2019 - 01:45:23: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/28/2019 - 01:45:32: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:106
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:85
+
+
+L 11/28/2019 - 01:45:32: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 11/28/2019 - 01:45:52: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:45:57: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:106
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:85
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:46:16: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:46:18: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35: attempt to index a nil value
+  1. GetClassTable - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:35
+   2. Call - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:106
+    3. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:85
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:46:49: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 11/28/2019 - 01:46:49: "COMPLΞX<5><STEAM_0:0:105635721><>" connected, address "31.130.42.47:27005"
+L 11/28/2019 - 01:46:49: "COMPLΞX<5><STEAM_0:0:105635721><>" STEAM USERID validated
+L 11/28/2019 - 01:46:58: Lua Error: 
+[ERROR] gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15: attempt to index a nil value
+  1. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+   2. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+
+
+L 11/28/2019 - 01:46:58: "COMPLΞX<5><STEAM_0:0:105635721><>" entered the game
+L 11/28/2019 - 01:47:28: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. Random - lua/includes/extensions/table.lua:167
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:51:03: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:51:05: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. Random - lua/includes/extensions/table.lua:167
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:51:30: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. Random - lua/includes/extensions/table.lua:167
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:51:56: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:51:58: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. Random - lua/includes/extensions/table.lua:167
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:52:17: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:52:19: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. Random - lua/includes/extensions/table.lua:167
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:90
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:52:57: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:52:59: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:14
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:53:57: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:54:00: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. Random - lua/includes/extensions/table.lua:167
+     4. GetSpawn - gamemodes/militaryrp/gamemode/core/factions/sv_factions.lua:15
+      5. unknown - gamemodes/militaryrp/gamemode/core/player/sv_player.lua:89
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/base/gamemode/player.lua:115
+
+
+L 11/28/2019 - 01:54:19: Lua Error: 
+[M9K Specialties] gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34: attempt to index a nil value
+  1. GetClass - gamemodes/militaryrp/gamemode/core/factions/sh_factions.lua:34
+   2. unknown - gamemodes/base/gamemode/player.lua:158
+    3. BlastDamage - [C]:-1
+     4. unknown - lua/entities/m9k_gdcwa_rpg_heat/shared.lua:71
+
+
+L 11/28/2019 - 01:54:46: "COMPLΞX<5><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 11/28/2019 - 01:54:46: server_message: "quit"
+L 11/28/2019 - 01:54:46: Log file closed.

@@ -1,0 +1,38 @@
+L 12/17/2018 - 01:52:47: Log file started (file "logs\L1217006.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/17/2018 - 01:52:47: server_cvar: "sv_alltalk" "3"
+L 12/17/2018 - 01:52:47: server_cvar: "sv_allowcslua" "1"
+L 12/17/2018 - 01:52:47: server_cvar: "sv_airaccelerate" "1000"
+L 12/17/2018 - 01:52:47: server_cvar: "sv_alltalk" "0"
+L 12/17/2018 - 01:52:48: Connection to Steam servers successful.
+L 12/17/2018 - 01:52:48:    Public IP is 31.130.42.81.
+L 12/17/2018 - 01:52:48: Assigned anonymous gameserver Steam ID [A-1:11491331(11579)].
+L 12/17/2018 - 01:52:49: VAC secure mode is activated.
+L 12/17/2018 - 01:53:00: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:8: unexpected symbol near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:53:00: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:8: unexpected symbol near ')'
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 01:53:04: [FAdmin] Server succesfully shut down.
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:53:04: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 01:53:05: server_message: "quit"
+L 12/17/2018 - 01:53:05: Log file closed.

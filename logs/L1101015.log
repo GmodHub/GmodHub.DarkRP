@@ -1,0 +1,1150 @@
+L 11/01/2018 - 21:09:42: Log file started (file "logs\L1101015.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 11/01/2018 - 21:09:42: server_cvar: "sv_alltalk" "3"
+L 11/01/2018 - 21:09:43: Connection to Steam servers successful.
+L 11/01/2018 - 21:09:43:    Public IP is 31.130.42.81.
+L 11/01/2018 - 21:09:43: Assigned anonymous gameserver Steam ID [A-1:1691261963(11319)].
+L 11/01/2018 - 21:09:43: VAC secure mode is activated.
+L 11/01/2018 - 21:10:00: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 11/01/2018 - 21:10:01: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/01/2018 - 21:10:07: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 11/01/2018 - 21:10:16: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:383: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:383
+   2. Run - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. func - addons/gvuti/lua/autorun/server/sv_nets.lua:402
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/01/2018 - 21:11:11: server_cvar: "sbox_maxnpcs" "1000"
+L 11/01/2018 - 21:49:19: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 11/01/2018 - 21:49:19: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:374: attempt to index global 'MySQLite' (a nil value)
+  1. gVutiSync - addons/gvuti/lua/autorun/server/sv_nets.lua:374
+   2. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:398
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 11/01/2018 - 22:20:19: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 11/01/2018 - 22:20:20: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/01/2018 - 22:20:39: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 11/01/2018 - 22:20:47: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:383: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:383
+   2. Run - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. func - addons/gvuti/lua/autorun/server/sv_nets.lua:402
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/01/2018 - 22:39:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/shared.lua:47: unexpected symbol near ')'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/shared.lua:0
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:17: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:19: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:19: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:19: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:19: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:48:19: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:55: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:55
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:49:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:64: attempt to call global 'LocalPlayer' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:64
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:24: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:53:25: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:56: attempt to perform arithmetic on global 'mag' (a nil value)
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:56
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:07: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:55:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: bad argument #1 to 'SetPos' (Vector expected, got nil)
+  1. SetPos - [C]:-1
+   2. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:51
+
+
+L 11/01/2018 - 22:58:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:53: ')' expected (to close '(' at line 50) near 'beam'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 22:58:26: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:51: 'then' expected near 'timer'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 22:58:28: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:54: ')' expected (to close '(' at line 51) near 'beam'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 22:58:41: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:54: ')' expected (to close '(' at line 51) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 22:58:53: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:54: ')' expected (to close '(' at line 51) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 22:59:08: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:54: ')' expected (to close '(' at line 51) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 22:59:12: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:54: ')' expected (to close '(' at line 51) near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 23:00:18: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/hulk/init.lua:52: unfinished string near '"ambient/energy/zap1.wav'
+  1. unknown - addons/superherosweps/lua/weapons/hulk/init.lua:0
+
+
+L 11/01/2018 - 23:06:18: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/01/2018 - 23:06:18: server_message: "quit"
+L 11/01/2018 - 23:06:18: Log file closed.

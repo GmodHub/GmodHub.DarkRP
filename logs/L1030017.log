@@ -1,0 +1,194 @@
+L 10/30/2019 - 22:45:37: Log file started (file "logs\L1030017.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/30/2019 - 22:45:37: server_cvar: "sv_alltalk" "3"
+L 10/30/2019 - 22:45:37: server_cvar: "sv_allowcslua" "1"
+L 10/30/2019 - 22:45:37: server_cvar: "sv_airaccelerate" "1000"
+L 10/30/2019 - 22:45:37: server_cvar: "sv_alltalk" "0"
+L 10/30/2019 - 22:45:38: Connection to Steam servers successful.
+L 10/30/2019 - 22:45:38:    Public IP is 31.130.42.47.
+L 10/30/2019 - 22:45:38: Assigned anonymous gameserver Steam ID [A-1:1130683393(13536)].
+L 10/30/2019 - 22:45:38: VAC secure mode is activated.
+L 10/30/2019 - 22:45:39: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/30/2019 - 22:45:39: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/30/2019 - 22:45:56: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/30/2019 - 22:45:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:46:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/30/2019 - 22:47:31: "Pomoika Gangstera<3><STEAM_0:1:106057291><>" connected, address "46.188.121.100:7832"
+L 10/30/2019 - 22:47:31: "Pomoika Gangstera<3><STEAM_0:1:106057291><>" STEAM USERID validated
+L 10/30/2019 - 22:47:37: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" connected, address "212.66.63.70:27005"
+L 10/30/2019 - 22:47:37: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/30/2019 - 22:47:39: "OverHashed<2><STEAM_0:1:74202541><Citizen>" say "/rpname OverHashed"
+
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 22:48:25: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" entered the game
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 22:48:25: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:48:42: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:48:43: [FAdmin] OverHashed (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/30/2019 - 22:48:43: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:48:44: [FAdmin] OverHashed (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/30/2019 - 22:48:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:48:45: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:48:45: [FAdmin] OverHashed (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/30/2019 - 22:48:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:48:46: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:48:48: [FAdmin] OverHashed (STEAM_0:1:74202541) Gave himself a weapon_informer_laptop
+L 10/30/2019 - 22:48:48: [FAdmin] OverHashed (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:48:49: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 10/30/2019 - 22:48:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 10/30/2019 - 22:49:20: [FAdmin] OverHashed (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) is Authed
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Spawned for the first time
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Spawned
+L 10/30/2019 - 22:49:23: "Pomoika Gangstera<3><STEAM_0:1:106057291><>" entered the game
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a keys
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a pocket
+L 10/30/2019 - 22:49:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:49:44: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" connected, address "185.103.110.206:27005"
+L 10/30/2019 - 22:49:45: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/30/2019 - 22:49:48: "Pomoika Gangstera<3><STEAM_0:1:106057291><Citizen>" say "И чишо делать"
+
+L 10/30/2019 - 22:50:05: "Pomoika Gangstera<3><STEAM_0:1:106057291><Citizen>" say "И че"
+
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 22:50:05: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" entered the game
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 22:50:05: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:50:17: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:20: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:50:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) changed from Citizen to Informer Dealer
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 22:50:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) changed from Citizen to Informer Dealer
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a keys
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a pocket
+L 10/30/2019 - 22:50:33: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:50:33: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by eLeCtrOssSnake with a player
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 22:50:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:50:36: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:36: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:37: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) changed from Informer Dealer to Mob boss
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a lockpick
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a unarrest_stick
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a keys
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a pocket
+L 10/30/2019 - 22:50:45: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:50:55: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:55: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:50:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:50:59: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:00: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:00: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:04: "Pomoika Gangstera<3><STEAM_0:1:106057291><Mob boss>" say "Так"
+
+L 10/30/2019 - 22:51:08: "Pomoika Gangstera<3><STEAM_0:1:106057291><Mob boss>" say "советую быстрее начать"
+
+L 10/30/2019 - 22:51:11: "Pomoika Gangstera<3><STEAM_0:1:106057291><Mob boss>" say "я через 10 минут уйду"
+
+L 10/30/2019 - 22:51:13: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:14: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:15: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:16: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:16: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:18: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:18: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:18: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:19: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:19: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:19: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:19: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:20: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:20: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:20: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:20: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:21: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to switch noclip
+L 10/30/2019 - 22:51:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:23: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Spawned a models/props_junk/propane_tank001a.mdl
+L 10/30/2019 - 22:51:24: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:26: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:30: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:32: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:34: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:35: [FAdmin] prop_physics(models/props_junk/propane_tank001a.mdl) Got removed
+L 10/30/2019 - 22:51:36: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:39: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:40: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:44: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Gave himself a ls_sniper
+L 10/30/2019 - 22:51:48: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by eLeCtrOssSnake with a player
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 22:51:49: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:51:50: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:51: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:52: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:53: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Got killed by eLeCtrOssSnake with a player
+L 10/30/2019 - 22:51:55: [FAdmin] Pomoika Gangstera (STEAM_0:1:106057291) Attempted to pick up a weapon_deagle2
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 22:51:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 22:51:57: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:51:58: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/30/2019 - 22:52:05: [FAdmin] Server succesfully shut down.
+L 10/30/2019 - 22:52:05: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 10/30/2019 - 22:52:05: "Pomoika Gangstera<3><STEAM_0:1:106057291><>" disconnected (reason "Server shutting down")
+L 10/30/2019 - 22:52:05: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/30/2019 - 22:52:05: server_message: "quit"
+L 10/30/2019 - 22:52:05: Log file closed.

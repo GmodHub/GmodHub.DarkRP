@@ -1,0 +1,4 @@
+<Logging continued from "data/ulx_logs/04-03-19.txt">
+[00:07:29] DidVaitel<STEAM_0:1:74202541> spawned model models/skyrim/weapons/draugr/w_draugrbattleaxe.mdl
+[00:15:55] DidVaitel suicided!
+[00:58:10] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

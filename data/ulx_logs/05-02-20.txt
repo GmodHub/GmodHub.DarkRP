@@ -1,0 +1,102 @@
+[00:56:16] New map: gm_construct
+
+
+
+[00:56:51] New map: gm_construct
+[00:57:42] Client "DidVaitel" connected.
+[00:57:57] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 15 seconds).
+
+
+
+[01:03:06] New map: gm_construct
+[01:03:35] Client "DidVaitel" connected.
+[01:03:44] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[01:10:58] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:20:26] Server is shutting down/changing levels.
+
+
+
+[01:20:37] New map: gm_construct
+[01:20:38] Client "DidVaitel" connected.
+[01:20:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[01:38:12] Server is shutting down/changing levels.
+
+
+
+[01:38:19] New map: gm_construct
+[01:39:23] Client "DidVaitel" connected.
+[01:39:33] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[02:00:39] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:00:40] Client "DidVaitel" connected.
+[02:00:49] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:03:42] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:03:42] Client "DidVaitel" connected.
+[02:03:51] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:05:01] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:05:01] Client "DidVaitel" connected.
+[02:05:10] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:05:57] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:05:58] Client "DidVaitel" connected.
+[02:06:07] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:19:03] Server is shutting down/changing levels.
+
+
+
+[02:19:10] New map: gm_construct
+[02:20:10] Client "DidVaitel" connected.
+[02:20:19] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:23:17] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:23:17] Client "DidVaitel" connected.
+[02:23:26] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[03:57:19] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:57:20] Client "DidVaitel" connected.
+[03:57:29] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[03:59:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:59:57] Client "DidVaitel" connected.
+[04:00:06] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[06:12:25] Server is shutting down/changing levels.
+
+
+
+[06:12:32] New map: gm_construct
+[06:13:41] Client "DidVaitel" connected.
+[06:13:50] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[06:18:22] Server is shutting down/changing levels.
+
+
+
+[06:18:28] New map: gm_construct
+[06:18:31] Client "DidVaitel" connected.
+[06:18:39] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[08:39:49] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[13:08:31] New map: gm_construct
+[13:10:44] Server is shutting down/changing levels.
+
+
+
+[13:10:50] New map: gm_construct
+
+
+
+[13:12:38] New map: gm_construct
+[13:13:16] Server is shutting down/changing levels.
+
+
+
+[13:13:22] New map: gm_construct
+[13:14:20] Client "DidVaitel" connected.
+[13:14:37] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 17 seconds).
+[13:14:59] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:17:22] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:18:16] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:18:31] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:19:00] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:19:16] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:19:32] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:19:44] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:19:55] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:20:07] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[13:20:26] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser

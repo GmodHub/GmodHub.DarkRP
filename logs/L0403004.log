@@ -1,0 +1,42 @@
+L 04/03/2019 - 23:42:21: Log file started (file "logs\L0403004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 04/03/2019 - 23:42:21: server_cvar: "sv_alltalk" "3"
+L 04/03/2019 - 23:42:21: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/03/2019 - 23:42:21: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/03/2019 - 23:42:21: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 04/03/2019 - 23:42:21: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 04/03/2019 - 23:42:22: Connection to Steam servers successful.
+L 04/03/2019 - 23:42:22:    Public IP is 31.130.42.81.
+L 04/03/2019 - 23:42:22: Assigned anonymous gameserver Steam ID [A-1:186151943(12288)].
+L 04/03/2019 - 23:42:22: VAC secure mode is activated.
+L 04/03/2019 - 23:44:30: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 04/03/2019 - 23:44:30: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 04/03/2019 - 23:44:41: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 04/03/2019 - 23:45:12: server_cvar: "sbox_maxnpcs" "500"
+L 04/03/2019 - 23:45:14: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_alduin
+L 04/03/2019 - 23:45:43: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_mudcrab_legendary
+L 04/03/2019 - 23:45:48: Lua Error: 
+[ERROR] addons/fallout/lua/weapons/weapon_robot/shared.lua:131: Tried to use a NULL entity!
+  1. GetClass - [C]:-1
+   2. fn - addons/fallout/lua/weapons/weapon_robot/shared.lua:131
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 04/03/2019 - 23:45:51: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_draugr_wight
+L 04/03/2019 - 23:46:01: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_horse_arvak
+L 04/03/2019 - 23:46:04: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_horse_arvak
+L 04/03/2019 - 23:46:27: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_horse
+L 04/03/2019 - 23:46:34: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_elder
+L 04/03/2019 - 23:46:36: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_draugr_scourge
+L 04/03/2019 - 23:46:49: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_frostbitespider_med
+L 04/03/2019 - 23:46:51: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_falmer
+L 04/03/2019 - 23:46:56: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_alduin
+L 04/03/2019 - 23:46:58: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_ancient
+L 04/03/2019 - 23:49:04: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_ancient
+L 04/03/2019 - 23:49:07: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_alduin
+L 04/03/2019 - 23:49:21: [ULX] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_dragon_ancient
+L 04/03/2019 - 23:57:30: "MUDACHOK<3><STEAM_0:0:187288757><>" connected, address "176.100.75.10:22196"
+L 04/03/2019 - 23:57:31: "MUDACHOK<3><STEAM_0:0:187288757><>" STEAM USERID validated
+L 04/03/2019 - 23:57:32: "MUDACHOK<3><STEAM_0:0:187288757><>" disconnected (reason "Disconnect by user.")
+L 04/03/2019 - 23:57:34: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 04/03/2019 - 23:57:34: server_message: "quit"
+L 04/03/2019 - 23:57:34: Log file closed.

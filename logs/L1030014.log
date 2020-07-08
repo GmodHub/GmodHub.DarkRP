@@ -1,0 +1,131 @@
+L 10/30/2019 - 21:51:44: Log file started (file "logs\L1030014.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/30/2019 - 21:51:44: server_cvar: "sv_alltalk" "3"
+L 10/30/2019 - 21:51:44: server_cvar: "sv_allowcslua" "1"
+L 10/30/2019 - 21:51:44: server_cvar: "sv_airaccelerate" "1000"
+L 10/30/2019 - 21:51:44: server_cvar: "sv_alltalk" "0"
+L 10/30/2019 - 21:51:46: Connection to Steam servers successful.
+L 10/30/2019 - 21:51:46:    Public IP is 31.130.42.47.
+L 10/30/2019 - 21:51:46: Assigned anonymous gameserver Steam ID [A-1:652633093(13536)].
+L 10/30/2019 - 21:51:46: VAC secure mode is activated.
+L 10/30/2019 - 21:51:48: "Overhashed<2><STEAM_0:0:516940971><>" connected, address "26.64.99.216:27006"
+L 10/30/2019 - 21:51:49: "Overhashed<2><STEAM_0:0:516940971><>" STEAM USERID validated
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) is Authed
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned for the first time
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned
+L 10/30/2019 - 21:53:33: "Overhashed<2><STEAM_0:0:516940971><>" entered the game
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a keys
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_camera
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_tool
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a pocket
+L 10/30/2019 - 21:53:33: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 21:53:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Gave himself a weapon_informer_laptop
+L 10/30/2019 - 21:53:41: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 21:53:42: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 21:55:05: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.70:27005"
+L 10/30/2019 - 21:55:05: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 21:56:54: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 21:56:54: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:21: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:21: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:23: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:23: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:24: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:57:24: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:57:31: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 21:58:11: "Overhashed<2><STEAM_0:0:516940971><>" disconnected (reason "Disconnect by user.")
+L 10/30/2019 - 21:58:11: [FAdmin] Overhashed (STEAM_0:0:516940971) Disconnected
+L 10/30/2019 - 21:58:12: "Overhashed<4><STEAM_0:0:516940971><>" connected, address "26.64.99.216:27006"
+L 10/30/2019 - 21:58:12: "Overhashed<4><STEAM_0:0:516940971><>" STEAM USERID validated
+L 10/30/2019 - 21:58:18: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 10/30/2019 - 21:58:18: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Disconnected
+L 10/30/2019 - 21:58:19: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" connected, address "212.66.63.70:27005"
+L 10/30/2019 - 21:58:19: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) is Authed
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned for the first time
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned
+L 10/30/2019 - 21:58:20: "Overhashed<4><STEAM_0:0:516940971><>" entered the game
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a keys
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_camera
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a gmod_tool
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a pocket
+L 10/30/2019 - 21:58:20: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 21:58:28: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned
+L 10/30/2019 - 21:58:28: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" entered the game
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/30/2019 - 21:58:28: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/30/2019 - 21:58:35: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:35: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:35: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:36: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:37: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:37: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:37: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:37: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:37: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:37: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:38: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:38: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:38: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:38: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:38: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:38: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:39: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:39: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:39: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:39: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:39: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:39: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:40: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:40: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:40: [FAdmin] Overhashed (STEAM_0:0:516940971) Attempted to use tool creator
+L 10/30/2019 - 21:58:40: [FAdmin] Overhashed (STEAM_0:0:516940971) Spawned a weapon_informer_laptop
+L 10/30/2019 - 21:58:45: [FAdmin] Overhashed (STEAM_0:0:516940971) Gave himself a weapon_informer_laptop
+L 10/30/2019 - 21:58:51: [FAdmin] Server succesfully shut down.
+L 10/30/2019 - 21:58:51: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 10/30/2019 - 21:58:51: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 10/30/2019 - 21:58:51: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 10/30/2019 - 21:58:51: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 10/30/2019 - 21:58:51: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 10/30/2019 - 21:58:51: "Overhashed<4><STEAM_0:0:516940971><>" disconnected (reason "Server shutting down")
+L 10/30/2019 - 21:58:51: server_message: "quit"
+L 10/30/2019 - 21:58:51: Log file closed.

@@ -1,0 +1,159 @@
+L 10/09/2019 - 21:54:16: Log file started (file "logs\L1009005.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/09/2019 - 21:54:16: server_cvar: "sv_alltalk" "3"
+L 10/09/2019 - 21:54:16: server_cvar: "sv_allowcslua" "1"
+L 10/09/2019 - 21:54:16: server_cvar: "sv_airaccelerate" "1000"
+L 10/09/2019 - 21:54:16: server_cvar: "sv_alltalk" "0"
+L 10/09/2019 - 21:54:16: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/09/2019 - 21:54:18: Connection to Steam servers successful.
+L 10/09/2019 - 21:54:18:    Public IP is 31.130.42.47.
+L 10/09/2019 - 21:54:18: Assigned anonymous gameserver Steam ID [A-1:4243112965(13431)].
+L 10/09/2019 - 21:54:18: VAC secure mode is activated.
+L 10/09/2019 - 21:54:18: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Spawned
+L 10/09/2019 - 21:54:25: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/09/2019 - 21:54:25: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) is Authed
+L 10/09/2019 - 21:54:33: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Gave himself a weapon_informer_laptop
+L 10/09/2019 - 21:54:33: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/09/2019 - 21:56:07: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/09/2019 - 21:56:07: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Disconnected
+L 10/09/2019 - 21:56:07: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/09/2019 - 21:56:08: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Spawned
+L 10/09/2019 - 21:56:16: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/09/2019 - 21:56:16: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) is Authed
+L 10/09/2019 - 21:56:20: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 21:56:21: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 21:56:46: "Ewan7_8<4><STEAM_0:1:457687049><>" connected, address "78.113.125.123:27005"
+L 10/09/2019 - 21:56:46: "Ewan7_8<4><STEAM_0:1:457687049><>" STEAM USERID validated
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Spawned for the first time
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) is Authed
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Spawned
+L 10/09/2019 - 21:57:15: "Ewan7_8<4><STEAM_0:1:457687049><>" entered the game
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Attempted to pick up a keys
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Attempted to pick up a gmod_camera
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Attempted to pick up a gmod_tool
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Attempted to pick up a pocket
+L 10/09/2019 - 21:57:15: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 21:57:36: "Ewan7_8<4><STEAM_0:1:457687049><>" disconnected (reason "Disconnect by user.")
+L 10/09/2019 - 21:57:36: [FAdmin] Ewan7_8 (STEAM_0:1:457687049) Disconnected
+L 10/09/2019 - 22:27:19: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/09/2019 - 22:27:19: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Disconnected
+L 10/09/2019 - 22:27:20: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/09/2019 - 22:27:20: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Spawned
+L 10/09/2019 - 22:27:29: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/09/2019 - 22:27:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) is Authed
+L 10/09/2019 - 22:27:34: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 22:27:35: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 22:28:03: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/09/2019 - 22:28:03: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Disconnected
+L 10/09/2019 - 22:28:04: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/09/2019 - 22:28:04: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Spawned
+L 10/09/2019 - 22:28:18: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/09/2019 - 22:28:18: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) is Authed
+L 10/09/2019 - 22:28:28: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 22:28:29: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 22:41:59: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/09/2019 - 22:41:59: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Disconnected
+L 10/09/2019 - 22:42:00: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/09/2019 - 22:42:01: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Spawned
+L 10/09/2019 - 22:42:09: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/09/2019 - 22:42:09: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) is Authed
+L 10/09/2019 - 22:49:44: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 10/09/2019 - 22:49:44: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Disconnected
+L 10/09/2019 - 22:49:45: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/09/2019 - 22:49:46: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Spawned
+L 10/09/2019 - 22:49:55: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/09/2019 - 22:49:55: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) is Authed
+L 10/09/2019 - 22:49:59: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 22:50:00: [FAdmin] DidVaitel".. lox .." (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/09/2019 - 23:36:06: [FAdmin] Server succesfully shut down.
+L 10/09/2019 - 23:36:06: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 10/09/2019 - 23:36:06: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 10/09/2019 - 23:36:06: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 10/09/2019 - 23:36:06: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 10/09/2019 - 23:36:06: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/09/2019 - 23:36:06: server_message: "quit"
+L 10/09/2019 - 23:36:06: Log file closed.

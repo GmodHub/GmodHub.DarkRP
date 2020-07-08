@@ -1,0 +1,12 @@
+Wed Nov 13 22:03:30 2019	COMPLΞX (STEAM_0:0:105635721) has joined the game
+Wed Nov 13 22:03:30 2019	COMPLΞX (STEAM_0:0:105635721) spawned
+Wed Nov 13 22:03:44 2019	Bot01 (BOT) has joined the game
+Wed Nov 13 22:03:44 2019	Bot01 (BOT) spawned
+Wed Nov 13 22:10:45 2019	COMPLΞX (STEAM_0:0:105635721) disconnected
+Wed Nov 13 22:10:45 2019	Bot01 (BOT) disconnected
+Wed Nov 13 22:10:52 2019	COMPLΞX (STEAM_0:0:105635721) has joined the game
+Wed Nov 13 22:10:52 2019	COMPLΞX (STEAM_0:0:105635721) spawned
+Wed Nov 13 22:11:07 2019	Bot02 (BOT) has joined the game
+Wed Nov 13 22:11:07 2019	Bot02 (BOT) spawned
+Wed Nov 13 23:38:00 2019	COMPLΞX (STEAM_0:0:105635721) disconnected
+Wed Nov 13 23:38:00 2019	Bot02 (BOT) disconnected

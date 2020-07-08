@@ -1,0 +1,72 @@
+L 07/03/2020 - 02:21:59: Log file started (file "logs\L0703011.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 02:21:59: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 02:22:00: Connection to Steam servers successful.
+L 07/03/2020 - 02:22:00:    Public IP is 31.130.42.26.
+L 07/03/2020 - 02:22:00: Assigned anonymous gameserver Steam ID [A-1:848117764(15080)].
+L 07/03/2020 - 02:22:01: VAC secure mode is activated.
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\db.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 83))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/cfg.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\cfg.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 85))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/colors.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\colors.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 86))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/renderoffsets.lua' (@gamemodes/darkrp/gamemode/sh_init.lua (line 87))
+
+L 07/03/2020 - 02:22:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/jobs.lua:19: attempt to call field 'addTeam' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/cfg/jobs.lua:19
+   2. IncludeSH - [C]:-1
+    3. Init - gamemodes/darkrp/gamemode/sh_init.lua:108
+     4. unknown - gamemodes/darkrp/gamemode/sh_init.lua:128
+      5. include - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/doors/rp_bangclaw_pc.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\doors\rp_bangclaw_pc.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 109))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/entities.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\entities.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 110))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/drugs.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\drugs.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 114))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/cosmetics.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\cosmetics.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 115))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\events.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 116))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/upgrades.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\upgrades.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 118))
+
+L 07/03/2020 - 02:22:22: Lua Error: [AddCSLuaFile] Couldn't find 'rp_base/gamemode/cfg/terms.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\terms.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 119))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\limits.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 120))
+
+L 07/03/2020 - 02:22:22: Lua Error: Couldn't include file 'rp_base\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 02:22:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/sh_init.lua:124: attempt to index field 'col' (a nil value)
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:124
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:128
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/03/2020 - 02:22:28: server_message: "quit"
+L 07/03/2020 - 02:22:28: Log file closed.

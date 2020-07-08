@@ -1,0 +1,43 @@
+Mon May  4 16:46:53 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 16:46:53 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 19:42:24 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 19:42:34 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 19:42:34 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 19:43:02 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 19:43:12 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 19:43:12 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 20:02:28 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 20:02:39 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 20:02:39 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 20:24:30 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 20:24:39 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 20:24:39 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 21:10:51 2020	СССР (STEAM_0:0:185039261) has joined the game
+Mon May  4 21:10:51 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:12:16 2020	СССР was killed by Entity [0][worldspawn] with a unknown
+Mon May  4 21:12:25 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:12:43 2020	СССР was killed by Entity [0][worldspawn] with a unknown
+Mon May  4 21:12:45 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:12:51 2020	СССР was killed by Entity [0][worldspawn] with a unknown
+Mon May  4 21:12:53 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:13:14 2020	СССР was killed by Entity [0][worldspawn] with a unknown
+Mon May  4 21:13:21 2020	СССР (STEAM_0:0:185039261): ты где
+Mon May  4 21:13:22 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:13:55 2020	СССР was killed by Entity [0][worldspawn] with a unknown
+Mon May  4 21:13:57 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:14:14 2020	СССР (STEAM_0:0:185039261): ну ты где
+Mon May  4 21:14:25 2020	СССР was killed by Entity [0][worldspawn] with a unknown
+Mon May  4 21:14:28 2020	СССР (STEAM_0:0:185039261) spawned
+Mon May  4 21:15:23 2020	СССР (STEAM_0:0:185039261) disconnected
+Mon May  4 21:44:31 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 21:44:41 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 21:44:41 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 21:46:48 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 21:46:59 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 21:46:59 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 21:49:05 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 21:49:15 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 21:49:16 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 21:50:47 2020	DidVaitel (STEAM_0:1:74202541) disconnected
+Mon May  4 21:50:57 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 21:50:57 2020	DidVaitel (STEAM_0:1:74202541) spawned

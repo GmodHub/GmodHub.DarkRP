@@ -1,0 +1,3 @@
+Mon May  4 16:17:39 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Mon May  4 16:17:39 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Mon May  4 16:17:51 2020	DidVaitel (STEAM_0:1:74202541) disconnected

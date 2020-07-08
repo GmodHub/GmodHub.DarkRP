@@ -1,0 +1,74 @@
+L 10/20/2019 - 18:02:28: Log file started (file "logs\L1020021.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/20/2019 - 18:02:28: server_cvar: "sv_alltalk" "3"
+L 10/20/2019 - 18:02:28: server_cvar: "ttt_preptime_seconds" "= 15"
+L 10/20/2019 - 18:02:28: server_cvar: "ttt_firstpreptime" "= 30"
+L 10/20/2019 - 18:02:28: server_cvar: "ttt_posttime_seconds" "= 3"
+L 10/20/2019 - 18:02:29: Connection to Steam servers successful.
+L 10/20/2019 - 18:02:29:    Public IP is 31.130.42.47.
+L 10/20/2019 - 18:02:29: Assigned anonymous gameserver Steam ID [A-1:2380591105(13485)].
+L 10/20/2019 - 18:02:30: VAC secure mode is activated.
+L 10/20/2019 - 18:02:51: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/20/2019 - 18:02:52: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/20/2019 - 18:03:18: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/20/2019 - 18:03:43: "Bot01<3><BOT><>" connected, address "none"
+L 10/20/2019 - 18:03:43: "Bot01<3><BOT><>" entered the game
+L 10/20/2019 - 18:03:45: Round proper has begun...
+L 10/20/2019 - 18:07:25: 03:40.66 - KILL:	 <something/world> killed DidVaitel [traitor]
+L 10/20/2019 - 18:07:26: Round ended.
+L 10/20/2019 - 18:07:26: Result: innocent win.
+L 10/20/2019 - 18:07:33: Round proper has begun...
+L 10/20/2019 - 18:07:43: 00:09.89 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 81 dmg
+L 10/20/2019 - 18:07:58: 00:25.07 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 40 dmg
+L 10/20/2019 - 18:07:58: 00:25.07 - KILL:	 DidVaitel [traitor] killed Bot01 [innocent]
+L 10/20/2019 - 18:07:59: Round ended.
+L 10/20/2019 - 18:07:59: Result: traitors win.
+L 10/20/2019 - 18:08:07: Round proper has begun...
+L 10/20/2019 - 18:08:11: 00:04.18 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 23 dmg
+L 10/20/2019 - 18:08:11: 00:04.20 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 23 dmg
+L 10/20/2019 - 18:08:11: 00:04.34 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 23 dmg
+L 10/20/2019 - 18:08:11: 00:04.61 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 5 dmg
+L 10/20/2019 - 18:08:11: 00:04.70 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 9 dmg
+L 10/20/2019 - 18:08:11: 00:04.82 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 5 dmg
+L 10/20/2019 - 18:08:12: 00:04.95 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 9 dmg
+L 10/20/2019 - 18:08:12: 00:05.04 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 9 dmg
+L 10/20/2019 - 18:08:12: 00:05.04 - KILL:	 DidVaitel [traitor] killed Bot01 [innocent]
+L 10/20/2019 - 18:08:13: Round ended.
+L 10/20/2019 - 18:08:13: Result: traitors win.
+L 10/20/2019 - 18:08:20: Round proper has begun...
+L 10/20/2019 - 18:08:30: DidVaitel: !menu
+L 10/20/2019 - 18:09:59: Lua Error: 
+[ERROR] addons/unnamed_ttt/lua/weapons/weapon_ttt_gravitygun.lua:1154: Tried to use a NULL entity!
+  1. SetPos - [C]:-1
+   2. Visual - addons/unnamed_ttt/lua/weapons/weapon_ttt_gravitygun.lua:1154
+    3. oldprimary - addons/unnamed_ttt/lua/weapons/weapon_ttt_gravitygun.lua:790
+     4. unknown - addons/tttdamagelogs/lua/damagelogs/server/damageinfos.lua:55
+
+
+L 10/20/2019 - 18:10:13: 01:52.86 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 125 dmg
+L 10/20/2019 - 18:10:13: 01:52.86 - KILL:	 DidVaitel [traitor] killed Bot01 [innocent]
+L 10/20/2019 - 18:10:13: Round ended.
+L 10/20/2019 - 18:10:13: Result: traitors win.
+L 10/20/2019 - 18:10:21: Round proper has begun...
+L 10/20/2019 - 18:11:28: 01:07.20 - KILL:	 DidVaitel [traitor] killed DidVaitel [traitor]
+L 10/20/2019 - 18:11:29: Round ended.
+L 10/20/2019 - 18:11:29: Result: innocent win.
+L 10/20/2019 - 18:11:36: Round proper has begun...
+L 10/20/2019 - 18:12:21: "Sosy_za_Sotky<4><STEAM_0:1:51469980><>" connected, address "176.212.157.202:27005"
+L 10/20/2019 - 18:12:22: "Sosy_za_Sotky<4><STEAM_0:1:51469980><>" STEAM USERID validated
+L 10/20/2019 - 18:14:09: "Sosy_za_Sotky<4><STEAM_0:1:51469980><>" entered the game
+L 10/20/2019 - 18:15:47: "ransom❤<5><STEAM_0:1:455819604><>" connected, address "95.105.9.28:27273"
+L 10/20/2019 - 18:15:48: "ransom❤<5><STEAM_0:1:455819604><>" STEAM USERID validated
+L 10/20/2019 - 18:15:48: "ransom❤<5><STEAM_0:1:455819604><>" disconnected (reason "Disconnect by user.")
+L 10/20/2019 - 18:16:08: 04:31.84 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 24 dmg
+L 10/20/2019 - 18:16:09: 04:32.85 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 22 dmg
+L 10/20/2019 - 18:16:09: 04:32.95 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 10 dmg
+L 10/20/2019 - 18:16:10: 04:33.10 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 6 dmg
+L 10/20/2019 - 18:16:10: 04:33.26 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 6 dmg
+L 10/20/2019 - 18:16:10: 04:33.52 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 10 dmg
+L 10/20/2019 - 18:16:10: 04:33.72 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 10 dmg
+L 10/20/2019 - 18:16:10: 04:33.96 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 10 dmg
+L 10/20/2019 - 18:16:10: 04:34.02 - DMG: 	 DidVaitel [traitor] damaged Bot01 [innocent] for 10 dmg
+L 10/20/2019 - 18:16:10: 04:34.02 - KILL:	 DidVaitel [traitor] killed Bot01 [innocent]
+L 10/20/2019 - 18:16:11: Round ended.
+L 10/20/2019 - 18:16:11: Result: traitors win.
+L 10/20/2019 - 18:16:46: Log file closed.

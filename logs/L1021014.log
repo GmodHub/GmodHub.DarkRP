@@ -1,0 +1,86 @@
+L 10/21/2018 - 17:38:16: Log file started (file "logs\L1021014.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/21/2018 - 17:38:16: server_cvar: "sv_alltalk" "3"
+L 10/21/2018 - 17:38:16: server_cvar: "sv_allowcslua" "1"
+L 10/21/2018 - 17:38:16: server_cvar: "sv_airaccelerate" "1000"
+L 10/21/2018 - 17:38:16: server_cvar: "sv_alltalk" "0"
+L 10/21/2018 - 17:38:18: Connection to Steam servers successful.
+L 10/21/2018 - 17:38:18:    Public IP is 31.130.42.81.
+L 10/21/2018 - 17:38:18: Assigned anonymous gameserver Steam ID [A-1:2524748807(11262)].
+L 10/21/2018 - 17:38:18: VAC secure mode is activated.
+L 10/21/2018 - 17:38:19: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/21/2018 - 17:38:20: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/21/2018 - 17:38:45: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/21/2018 - 17:38:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/21/2018 - 17:50:05: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/FurnitureTable001a.mdl
+L 10/21/2018 - 17:50:05: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable001a.mdl
+L 10/21/2018 - 17:50:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/furnitureStove001a.mdl
+L 10/21/2018 - 17:50:10: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturestove001a.mdl
+L 10/21/2018 - 17:50:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/FurnitureSink001a.mdl
+L 10/21/2018 - 17:50:14: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituresink001a.mdl
+L 10/21/2018 - 17:50:22: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/FurnitureBoiler001a.mdl
+L 10/21/2018 - 17:50:22: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnitureboiler001a.mdl
+L 10/21/2018 - 17:50:23: [FAdmin] prop_physics(models/props_c17/furnitureboiler001a.mdl) Got removed
+L 10/21/2018 - 17:50:23: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/FurnitureCouch001a.mdl
+L 10/21/2018 - 17:50:23: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturecouch001a.mdl
+L 10/21/2018 - 17:50:29: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/FurnitureDrawer001a.mdl
+L 10/21/2018 - 17:50:29: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituredrawer001a.mdl
+L 10/21/2018 - 17:50:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_junk/TrashBin01a.mdl
+L 10/21/2018 - 17:50:40: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/trashbin01a.mdl
+L 10/21/2018 - 17:50:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_interiors/Furniture_shelf01a.mdl
+L 10/21/2018 - 17:50:43: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/furniture_shelf01a.mdl
+L 10/21/2018 - 17:50:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_wasteland/kitchen_stove001a.mdl
+L 10/21/2018 - 17:50:53: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/kitchen_stove001a.mdl
+L 10/21/2018 - 17:51:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_interiors/Furniture_Couch01a.mdl
+L 10/21/2018 - 17:51:01: [ULX] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/furniture_couch01a.mdl
+L 10/21/2018 - 17:55:33: [FAdmin] prop_physics(models/props_c17/furnituredrawer001a.mdl) Got removed
+L 10/21/2018 - 17:59:25: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/21/2018 - 17:59:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/21/2018 - 17:59:39: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 10/21/2018 - 17:59:46: [ULX] DidVaitel added 100 to gVuti balance of Themself 
+L 10/21/2018 - 17:59:53: [ULX] DidVaitel blocked gVuti account of Themself 
+L 10/21/2018 - 18:00:11: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 10/21/2018 - 18:00:15: [ULX] DidVaitel unblocked gVuti account of Themself 
+L 10/21/2018 - 18:56:56: [FAdmin] Server succesfully shut down.
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/furnituretable001a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/furniturestove001a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/furnituresink001a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_junk/trashbin01a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_interiors/furniture_shelf01a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_wasteland/kitchen_stove001a.mdl) Got removed
+L 10/21/2018 - 18:56:57: [FAdmin] prop_physics(models/props_interiors/furniture_couch01a.mdl) Got removed
+L 10/21/2018 - 18:56:57: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/21/2018 - 18:56:57: server_message: "quit"
+L 10/21/2018 - 18:56:57: Log file closed.

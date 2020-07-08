@@ -1,0 +1,246 @@
+L 10/31/2018 - 19:02:00: Log file started (file "logs\L1031004.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/31/2018 - 19:02:00: server_cvar: "sv_alltalk" "3"
+L 10/31/2018 - 19:02:00: server_cvar: "sv_allowcslua" "1"
+L 10/31/2018 - 19:02:00: server_cvar: "sv_airaccelerate" "1000"
+L 10/31/2018 - 19:02:00: server_cvar: "sv_alltalk" "0"
+L 10/31/2018 - 19:02:01: Connection to Steam servers successful.
+L 10/31/2018 - 19:02:01:    Public IP is 31.130.42.81.
+L 10/31/2018 - 19:02:01: Assigned anonymous gameserver Steam ID [A-1:3811692551(11313)].
+L 10/31/2018 - 19:02:02: VAC secure mode is activated.
+L 10/31/2018 - 19:04:18: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.102:27006"
+L 10/31/2018 - 19:04:18: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:04:27: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:04:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:05:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:05:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:06:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:06:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:06:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:06:15: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:06:26: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a N/A
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:06:27: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:06:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:06:28: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:06:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a N/A
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:06:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:06:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:06:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:07:13: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a N/A
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:07:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:10:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:10:32: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:10:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by N/A with a N/A
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:11:16: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:11:18: [FAdmin] DidVaitel (STEAM_0:1:74202541) Got killed by DidVaitel with a player
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 10/31/2018 - 19:11:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 10/31/2018 - 19:11:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Gave himself a batman
+L 10/31/2018 - 19:11:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a batman
+L 10/31/2018 - 19:12:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to use tool camera
+L 10/31/2018 - 19:12:38: "DidVaitel<2><STEAM_0:1:74202541><Citizen>" say "!menu"
+
+L 10/31/2018 - 19:14:50: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:14:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:15:35: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:15:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:15:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:15:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:16:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:16:51: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:17:08: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:17:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 19:17:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/fence02a.mdl
+L 10/31/2018 - 19:17:40: [FAdmin] prop_physics(models/props_c17/fence02a.mdl) Got removed
+L 10/31/2018 - 19:17:42: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned a models/props_c17/Lockers001a.mdl
+L 10/31/2018 - 19:17:43: [FAdmin] prop_physics(models/props_c17/lockers001a.mdl) Got removed
+L 10/31/2018 - 20:38:58: "НЕПОНЯЛ<3><STEAM_0:1:167794544><>" connected, address "46.159.138.136:27005"
+L 10/31/2018 - 20:38:58: "НЕПОНЯЛ<3><STEAM_0:1:167794544><>" STEAM USERID validated
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) is Authed
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Spawned for the first time
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Spawned
+L 10/31/2018 - 20:40:04: "НЕПОНЯЛ<3><STEAM_0:1:167794544><>" entered the game
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Attempted to pick up a keys
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Attempted to pick up a gmod_camera
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Attempted to pick up a gmod_tool
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Attempted to pick up a pocket
+L 10/31/2018 - 20:40:04: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 20:40:30: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:9: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. sendMessageToPlayer - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:9
+    3. v - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:133
+     4. unknown - gamemodes/darkrp/gamemode/modules/chat/sv_chat.lua:139
+
+
+L 10/31/2018 - 20:40:30: "НЕПОНЯЛ<3><STEAM_0:1:167794544><Team>" say "// все окончательно ебанулся сервер?"
+L 10/31/2018 - 20:40:46: Lua Error: Warning! A net message is already started! Discarding...
+
+L 10/31/2018 - 20:40:46: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:9: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. sendMessageToPlayer - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:9
+    3. v - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:133
+     4. unknown - gamemodes/darkrp/gamemode/modules/chat/sv_chat.lua:139
+
+
+L 10/31/2018 - 20:40:46: "НЕПОНЯЛ<3><STEAM_0:1:167794544><Team>" say "/ooc все окончательно ебанулся сервер?"
+L 10/31/2018 - 20:41:17: "НЕПОНЯЛ<3><STEAM_0:1:167794544><>" disconnected (reason "Disconnect by user.")
+L 10/31/2018 - 20:41:17: [FAdmin] НЕПОНЯЛ (STEAM_0:1:167794544) Disconnected
+L 10/31/2018 - 20:41:17: Lua Error: Warning! A net message is already started! Discarding...
+
+L 10/31/2018 - 21:07:17: "Алексей Рама<4><STEAM_0:1:106423090><>" connected, address "83.219.147.42:17927"
+L 10/31/2018 - 21:07:17: "Алексей Рама<4><STEAM_0:1:106423090><>" STEAM USERID validated
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) is Authed
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Spawned for the first time
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Spawned
+L 10/31/2018 - 21:08:50: "Алексей Рама<4><STEAM_0:1:106423090><>" entered the game
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Attempted to pick up a keys
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Attempted to pick up a weapon_physcannon
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Attempted to pick up a gmod_camera
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Attempted to pick up a gmod_tool
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Attempted to pick up a pocket
+L 10/31/2018 - 21:08:50: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Attempted to pick up a weapon_physgun
+L 10/31/2018 - 21:09:22: Lua Error: 
+[ERROR] addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:9: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. sendMessageToPlayer - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:9
+    3. v - addons/super-mega-ultra-duel-system2/lua/gduel/core/sv_functions.lua:133
+     4. unknown - gamemodes/darkrp/gamemode/modules/chat/sv_chat.lua:139
+
+
+L 10/31/2018 - 21:09:22: "Алексей Рама<4><STEAM_0:1:106423090><Team>" say "// Приет"
+L 10/31/2018 - 21:09:47: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Spawned a models/props_combine/combine_barricade_short02a.mdl
+L 10/31/2018 - 21:09:47: Lua Error: Warning! A net message is already started! Discarding...
+
+L 10/31/2018 - 21:09:48: [FAdmin] prop_physics(models/props_combine/combine_barricade_short02a.mdl) Got removed
+L 10/31/2018 - 21:09:57: "Алексей Рама<4><STEAM_0:1:106423090><>" disconnected (reason "Disconnect by user.")
+L 10/31/2018 - 21:09:57: [FAdmin] Алексей Рама (STEAM_0:1:106423090) Disconnected
+L 10/31/2018 - 21:54:36: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 21:54:37: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:16:53: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:00: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:01: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:03: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:07: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:39: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:17:40: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:43: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:49: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:54: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:18:56: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:19:10: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:19:55: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2018 - 22:21:44: [FAdmin] Server succesfully shut down.
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 22:21:44: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 10/31/2018 - 22:21:44: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 10/31/2018 - 22:21:44: server_message: "quit"
+L 10/31/2018 - 22:21:44: Log file closed.

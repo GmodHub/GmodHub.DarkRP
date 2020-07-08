@@ -1,0 +1,1993 @@
+L 10/31/2019 - 02:17:12: Log file started (file "logs\L1031009.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7517")
+L 10/31/2019 - 02:17:12: server_cvar: "sv_alltalk" "3"
+L 10/31/2019 - 02:17:12: server_cvar: "sv_allowcslua" "1"
+L 10/31/2019 - 02:17:12: server_cvar: "sv_airaccelerate" "1000"
+L 10/31/2019 - 02:17:12: server_cvar: "sv_alltalk" "0"
+L 10/31/2019 - 02:17:13: Connection to Steam servers successful.
+L 10/31/2019 - 02:17:13:    Public IP is 31.130.42.47.
+L 10/31/2019 - 02:17:13: Assigned anonymous gameserver Steam ID [A-1:3559158793(13536)].
+L 10/31/2019 - 02:17:13: VAC secure mode is activated.
+L 10/31/2019 - 02:17:17: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.64.99.216:27006"
+L 10/31/2019 - 02:17:17: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/31/2019 - 02:17:31: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "185.103.110.206:27005"
+L 10/31/2019 - 02:17:31: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 10/31/2019 - 02:17:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 10/31/2019 - 02:17:46: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Spawned
+L 10/31/2019 - 02:17:46: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a keys
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 10/31/2019 - 02:17:46: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 10/31/2019 - 02:17:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) is Authed
+L 10/31/2019 - 02:17:56: [FAdmin] eLeCtrOssSnake (STEAM_0:1:164666257) Spawned for the first time
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 10/31/2019 - 02:17:56: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/31/2019 - 02:17:56: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/31/2019 - 02:17:59: [FAdmin] Police Man (STEAM_0:1:74202541) Gave himself a weapon_informer_laptop
+L 10/31/2019 - 02:17:59: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:17:59: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:18:08: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:18:12: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to use tool creator
+L 10/31/2019 - 02:18:12: [FAdmin] Police Man (STEAM_0:1:74202541) Spawned a weapon_informer_laptop
+L 10/31/2019 - 02:18:12: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:18:13: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to use tool creator
+L 10/31/2019 - 02:18:13: [FAdmin] Police Man (STEAM_0:1:74202541) Spawned a weapon_informer_laptop
+L 10/31/2019 - 02:18:15: [FAdmin] Police Man (STEAM_0:1:74202541) Gave himself a weapon_informer_laptop
+L 10/31/2019 - 02:18:30: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to use tool creator
+L 10/31/2019 - 02:18:30: [FAdmin] Police Man (STEAM_0:1:74202541) Spawned a weapon_informer_laptop
+L 10/31/2019 - 02:18:31: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to use tool creator
+L 10/31/2019 - 02:18:31: [FAdmin] Police Man (STEAM_0:1:74202541) Spawned a weapon_informer_laptop
+L 10/31/2019 - 02:18:31: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) changed from Citizen to Informer
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/31/2019 - 02:18:32: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/31/2019 - 02:18:32: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to use tool creator
+L 10/31/2019 - 02:18:32: [FAdmin] Police Man (STEAM_0:1:74202541) Spawned a weapon_informer_laptop
+L 10/31/2019 - 02:18:58: [FAdmin] Police Man (STEAM_0:1:74202541) Gave himself a weapon_shotgun
+L 10/31/2019 - 02:18:58: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to pick up a weapon_shotgun
+L 10/31/2019 - 02:19:00: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by Police Man with a player
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/31/2019 - 02:19:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/31/2019 - 02:19:06: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/31/2019 - 02:19:06: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/31/2019 - 02:20:34: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Got killed by Police Man with a player
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Spawned
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_informer_laptop
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a keys
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physcannon
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_camera
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a gmod_tool
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a pocket
+L 10/31/2019 - 02:20:43: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to pick up a weapon_physgun
+L 10/31/2019 - 02:21:05: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/31/2019 - 02:21:11: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/31/2019 - 02:21:14: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2019 - 02:21:18: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:42: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:43: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:21:47: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2019 - 02:21:57: [FAdmin] Police Man (STEAM_0:1:74202541) Attempted to switch noclip
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:07: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:08: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:21: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/31/2019 - 02:22:22: [FAdmin] Money Printer Guy (STEAM_0:1:164666257) Attempted to switch noclip
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:22: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:23: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:165: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:165
+    3. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:46: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:22:47: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedItems' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:18: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:19: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:19: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:19: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 10/31/2019 - 02:23:19: Lua Error: 
+[ERROR] addons/informer-system/lua/autorun/server/informer_serverside.lua:166: attempt to index field 'ownedDoors' (a nil value)
+  1. v - addons/informer-system/lua/autorun/server/informer_serverside.lua:166
+   2. unknown - lua/includes/modules/hook.lu

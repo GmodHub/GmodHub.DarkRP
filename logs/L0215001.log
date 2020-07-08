@@ -1,0 +1,18 @@
+L 02/15/2019 - 21:34:56: Log file started (file "logs\L0215001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 02/15/2019 - 21:34:56: server_cvar: "sv_alltalk" "3"
+L 02/15/2019 - 21:34:57: Connection to Steam servers successful.
+L 02/15/2019 - 21:34:57:    Public IP is 31.130.42.81.
+L 02/15/2019 - 21:34:57: Assigned anonymous gameserver Steam ID [A-1:1779394571(12006)].
+L 02/15/2019 - 21:34:57: VAC secure mode is activated.
+L 02/15/2019 - 21:35:58: Lua Error: 
+[ERROR] lua/autorun/server/admin_functions.lua:68: unfinished string near '") end,function() end)'
+  1. unknown - lua/autorun/server/admin_functions.lua:0
+
+
+L 02/15/2019 - 21:35:59: Lua Error: 
+[ERROR] lua/autorun/server/admin_functions.lua:68: unexpected symbol near '\'
+  1. unknown - lua/autorun/server/admin_functions.lua:0
+
+
+L 02/15/2019 - 21:50:48: server_message: "quit"
+L 02/15/2019 - 21:50:48: Log file closed.

@@ -1,0 +1,570 @@
+L 11/14/2018 - 01:32:00: Log file started (file "logs\L1114000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 11/14/2018 - 01:32:00: server_cvar: "sv_alltalk" "3"
+L 11/14/2018 - 01:32:01: Connection to Steam servers successful.
+L 11/14/2018 - 01:32:01:    Public IP is 31.130.42.81.
+L 11/14/2018 - 01:32:01: Assigned anonymous gameserver Steam ID [A-1:3794640899(11388)].
+L 11/14/2018 - 01:32:02: VAC secure mode is activated.
+L 11/14/2018 - 01:46:11: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.100:27006"
+L 11/14/2018 - 01:46:12: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 11/14/2018 - 01:46:25: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 11/14/2018 - 01:46:30: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:383: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:383
+   2. Run - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. func - addons/gvuti/lua/autorun/server/sv_nets.lua:402
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:50: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:51: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:51: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:55:51: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:286
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 01:57:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:288
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:01: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:360
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:38:40: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:361
+
+
+L 11/14/2018 - 02:40:27: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:301: 'then' expected near 'self'
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:0
+
+
+L 11/14/2018 - 02:40:46: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:302: 'then' expected near 'self'
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:0
+
+
+L 11/14/2018 - 02:40:47: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:302: 'then' expected near 'self'
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:0
+
+
+L 11/14/2018 - 02:40:58: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:302: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:302
+
+
+L 11/14/2018 - 02:40:58: Lua Error: 
+[ERROR] addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:302: attempt to compare nil with number
+  1. unknown - addons/gravitu/lua/weapons/weapon_spidermod/shared.lua:302
+
+
+L 11/14/2018 - 02:44:14: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 11/14/2018 - 02:44:14: server_message: "quit"
+L 11/14/2018 - 02:44:14: Log file closed.

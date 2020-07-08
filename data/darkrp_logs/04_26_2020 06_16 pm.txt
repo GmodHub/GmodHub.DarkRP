@@ -1,0 +1,5 @@
+Sun Apr 26 18:16:49 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
+Sun Apr 26 18:16:49 2020	DidVaitel (STEAM_0:1:74202541) spawned
+Sun Apr 26 18:18:43 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT duel_npc
+Sun Apr 26 18:18:48 2020	Bot01 (BOT) has joined the game
+Sun Apr 26 18:18:48 2020	Bot01 (BOT) spawned

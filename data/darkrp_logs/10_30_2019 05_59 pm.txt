@@ -1,0 +1,4 @@
+Wed Oct 30 17:59:55 2019	Overhashed (STEAM_0:0:516940971) has joined the game
+Wed Oct 30 17:59:55 2019	Overhashed (STEAM_0:0:516940971) spawned
+Wed Oct 30 18:00:31 2019	Bot01 (BOT) has joined the game
+Wed Oct 30 18:00:31 2019	Bot01 (BOT) spawned

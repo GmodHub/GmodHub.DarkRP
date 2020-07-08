@@ -1,0 +1,10 @@
+Sat Nov  9 16:49:01 2019	DeadBear (STEAM_0:0:151607932) has joined the game
+Sat Nov  9 16:49:01 2019	DeadBear (STEAM_0:0:151607932) spawned
+Sat Nov  9 17:08:51 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
+Sat Nov  9 17:08:51 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
+Sat Nov  9 17:10:31 2019	eLeCtrOssSnake (STEAM_0:1:164666257): /name Money Printer Guy
+Sat Nov  9 17:10:33 2019	Money Printer Guy was killed by Himself with a suicide trick
+Sat Nov  9 17:10:34 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
+Sat Nov  9 17:10:37 2019	Money Printer Guy (STEAM_0:1:164666257): /me Достал антидот от чумы
+Sat Nov  9 17:11:37 2019	Console set DeadBear's money to $500,000
+Sat Nov  9 17:13:31 2019	DeadBear (STEAM_0:0:151607932) disconnected

@@ -1,0 +1,37 @@
+[01:01:07] New map: gm_construct
+[01:01:10] Client "DidVaitel" connected.
+[01:01:23] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[01:09:40] Server is shutting down/changing levels.
+
+
+
+[01:09:47] New map: gm_construct
+[01:09:51] Client "DidVaitel" connected.
+[01:09:59] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[01:10:41] Server is shutting down/changing levels.
+
+
+
+[01:10:48] New map: gm_construct
+[01:11:04] Client "DidVaitel" connected.
+[01:11:12] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[01:31:30] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[01:39:39] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:39:39] Client "DidVaitel" connected.
+[01:39:41] Client "DidVaitel" connected.
+[01:39:49] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[01:39:58] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:40:09] Client "DidVaitel" connected.
+[01:40:22] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[01:51:47] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[01:52:02] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[01:52:57] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[01:53:20] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[01:53:24] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[02:02:47] DidVaitel suicided!
+[02:03:49] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/fence01a.mdl
+[02:03:51] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/fence01b.mdl
+[02:03:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/fence02a.mdl
+[02:03:55] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/fence01b.mdl
+[02:13:10] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[02:13:32] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

@@ -1,0 +1,2558 @@
+L 08/18/2018 - 19:44:28: Log file started (file "logs\L0818016.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7136")
+L 08/18/2018 - 19:44:28: server_cvar: "sv_alltalk" "3"
+L 08/18/2018 - 19:44:29: Connection to Steam servers successful.
+L 08/18/2018 - 19:44:29:    Public IP is 31.130.42.81.
+L 08/18/2018 - 19:44:29: Assigned anonymous gameserver Steam ID [A-1:1451466755(10853)].
+L 08/18/2018 - 19:44:29: VAC secure mode is activated.
+L 08/18/2018 - 19:44:31: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "169.254.254.208:27006"
+L 08/18/2018 - 19:44:32: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 08/18/2018 - 19:44:36: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 08/18/2018 - 19:49:40: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:115: 'end' expected (to close 'function' at line 76) near 'self'
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:0
+
+
+L 08/18/2018 - 19:55:21: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:116: ')' expected (to close '(' at line 77) near 'end'
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:0
+
+
+L 08/18/2018 - 19:58:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: ')' expected near 'do'
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:0
+
+
+L 08/18/2018 - 19:58:22: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:22: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:23: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:23: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:23: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:23: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:23: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:24: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:24: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:24: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:24: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:24: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:25: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:25: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:25: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:25: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:25: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:26: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:26: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:26: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:26: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:26: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:27: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:27: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:27: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:27: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:27: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:28: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:28: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:28: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:28: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:28: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:28: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:29: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:29: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:29: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:29: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:29: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:30: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:30: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:30: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:30: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:30: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:31: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:31: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:31: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:31: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:31: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:32: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:32: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:32: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:32: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:32: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:33: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:33: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:33: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:33: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:33: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:34: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:34: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:34: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:34: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:34: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:35: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:35: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:35: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:35: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:35: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:36: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:36: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:36: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:36: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:36: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:36: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:37: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:37: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:37: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:37: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:37: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:38: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:38: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:38: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:38: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:38: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:39: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:39: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:39: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:39: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:39: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:40: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:40: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:40: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:40: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:40: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:58:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:120: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:120
+
+
+L 08/18/2018 - 19:59:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:10: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:10: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:10: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:10: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:10: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:11: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:11: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:11: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:11: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:11: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:12: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:12: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:12: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:12: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:12: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:13: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:13: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:13: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:13: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:13: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:14: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:14: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:14: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:14: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:14: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:15: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:15: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:15: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:15: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:15: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:17: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:17: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:17: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:17: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:17: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:121: Tried to use a NULL entity!
+  1. GetPos - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:121
+
+
+L 08/18/2018 - 19:59:58: "Bot01<3><BOT><>" connected, address "none"
+L 08/18/2018 - 19:59:58: "Bot01<3><BOT><>" entered the game
+L 08/18/2018 - 20:04:12: "Bot02<4><BOT><>" connected, address "none"
+L 08/18/2018 - 20:04:12: "Bot02<4><BOT><>" entered the game
+L 08/18/2018 - 20:06:12: "Bot03<5><BOT><>" connected, address "none"
+L 08/18/2018 - 20:06:12: "Bot03<5><BOT><>" entered the game
+L 08/18/2018 - 20:06:22: "Bot04<6><BOT><>" connected, address "none"
+L 08/18/2018 - 20:06:22: "Bot04<6><BOT><>" entered the game
+L 08/18/2018 - 20:07:48: Lua Error: 
+[ERROR] addons/synergywep/lua/weapons/weapon_katana/shared.lua:282: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/weapons/weapon_katana/shared.lua:282
+
+
+L 08/18/2018 - 20:10:22: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:129: function arguments expected near ':'
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:0
+
+
+L 08/18/2018 - 20:11:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:41: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:42: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:43: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:44: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:45: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:46: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:48: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:49: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:50: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:51: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:53: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:54: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: attempt to index global 'knife' (a nil value)
+  1. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:56: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:57: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:58: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:11:59: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. Remove - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:00: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:01: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:02: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:04: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:04: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:04: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:04: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:04: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:05: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:06: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:08: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:12:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:128: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:128
+
+
+L 08/18/2018 - 20:13:11: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:130: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:130
+
+
+L 08/18/2018 - 20:14:13: "Bot05<7><BOT><>" connected, address "none"
+L 08/18/2018 - 20:14:13: "Bot05<7><BOT><>" entered the game
+L 08/18/2018 - 20:14:55: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:130: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:130
+
+
+L 08/18/2018 - 20:15:03: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:130: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:130
+
+
+L 08/18/2018 - 20:15:09: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:130: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:130
+
+
+L 08/18/2018 - 20:15:37: "Bot06<8><BOT><>" connected, address "none"
+L 08/18/2018 - 20:15:37: "Bot06<8><BOT><>" entered the game
+L 08/18/2018 - 20:15:47: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:135: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:135
+
+
+L 08/18/2018 - 20:15:52: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:135: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:135
+
+
+L 08/18/2018 - 20:16:07: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:135: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:135
+
+
+L 08/18/2018 - 20:16:16: Lua Error: 
+[ERROR] addons/synergywep/lua/entities/katana_ent/init.lua:135: Tried to use a NULL entity!
+  1. __index - [C]:-1
+   2. unknown - addons/synergywep/lua/entities/katana_ent/init.lua:135
+
+
+L 08/18/2018 - 20:16:44: Lua Error: 
+[ERROR] addons/sy

@@ -1,0 +1,20 @@
+
+# User-specific files
+*.rsuser
+addons/css/
+backgrounds/
+bin/
+cache/
+download/
+downloadlists/
+downloads/
+fallbacks/
+html/
+particles/
+perenos/
+resource/
+scenes/
+settings/
+*.vpk
+*.rar
+*.zip

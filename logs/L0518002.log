@@ -1,0 +1,111 @@
+L 05/18/2020 - 18:47:02: Log file started (file "logs\L0518002.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7794")
+L 05/18/2020 - 18:47:02: server_cvar: "sv_alltalk" "3"
+L 05/18/2020 - 18:47:03: Connection to Steam servers successful.
+L 05/18/2020 - 18:47:03:    Public IP is 31.130.42.26.
+L 05/18/2020 - 18:47:03: Assigned anonymous gameserver Steam ID [A-1:570619912(14758)].
+L 05/18/2020 - 18:47:03: VAC secure mode is activated.
+L 05/18/2020 - 18:47:32: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 18:47:32: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 18:47:38: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 18:51:07: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 18:51:07: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 18:51:08: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 18:51:13: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 18:52:16: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 18:52:17: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 18:52:17: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 18:52:22: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 18:52:37: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 18:52:37: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 18:52:38: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 18:52:42: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 18:54:56: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 18:54:56: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 18:54:57: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 18:55:01: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 19:01:29: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 19:01:30: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 19:01:30: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 19:01:35: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 19:02:43: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 19:02:44: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 19:02:44: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 19:02:49: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 19:04:45: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 05/18/2020 - 19:04:45: "DidVaitel<9><STEAM_0:1:74202541><>" connected, address "192.168.31.1:27005"
+L 05/18/2020 - 19:04:46: "DidVaitel<9><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/18/2020 - 19:04:50: "DidVaitel<9><STEAM_0:1:74202541><>" entered the game
+L 05/18/2020 - 19:12:05: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/sandbox/sv_commands.lua:228: bad argument #1 to 'SetModel' (string expected, got nil)
+  1. SetModel - [C]:-1
+   2. DoPlayerEntitySpawn - gamemodes/flood/gamemode/core/sandbox/sv_commands.lua:228
+    3. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:29
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:12:42: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:29: attempt to index local 'Prop' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:29
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:12:54: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:26
+      5. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:13:10: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:29: attempt to index local 'Prop' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:29
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:13:57: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:29: attempt to index local 'Prop' (a number value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:29
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:14:02: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:39: attempt to call method 'AddCleanup' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:39
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:14:31: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:40: attempt to call method 'AddCleanup' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:40
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:14:51: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:40: attempt to call method 'AddCleanup' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:40
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:15:04: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:40: attempt to call method 'AddCleanup' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:40
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:15:05: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:40: attempt to call method 'AddCleanup' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:40
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:15:06: Lua Error: 
+[ERROR] gamemodes/flood/gamemode/core/flood/sv_props.lua:40: attempt to call method 'AddCleanup' (a nil value)
+  1. unknown - gamemodes/flood/gamemode/core/flood/sv_props.lua:40
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 05/18/2020 - 19:16:33: "DidVaitel<9><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 05/18/2020 - 19:16:33: server_message: "quit"
+L 05/18/2020 - 19:16:33: Log file closed.

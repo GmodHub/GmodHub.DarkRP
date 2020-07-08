@@ -1,0 +1,17 @@
+<Logging continued from "data/ulx_logs/12-17-19.txt">
+[00:02:06] Client "COMPLΞX" connected.
+[00:02:16] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 10 seconds).
+[00:03:16] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[01:02:21] Client "COMPLΞX" connected.
+[01:02:34] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 13 seconds).
+[01:53:52] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+[01:53:53] Client "COMPLΞX" connected.
+[01:54:00] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 7 seconds).
+[01:58:30] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>
+
+
+
+[19:15:25] New map: gm_construct
+[19:22:26] Client "COMPLΞX" connected.
+[19:22:43] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 17 seconds).
+[19:57:31] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>

@@ -1,0 +1,281 @@
+L 12/17/2018 - 02:23:37: Log file started (file "logs\L1217012.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7334")
+L 12/17/2018 - 02:23:37: server_cvar: "sv_alltalk" "3"
+L 12/17/2018 - 02:23:37: server_cvar: "sv_allowcslua" "1"
+L 12/17/2018 - 02:23:37: server_cvar: "sv_airaccelerate" "1000"
+L 12/17/2018 - 02:23:37: server_cvar: "sv_alltalk" "0"
+L 12/17/2018 - 02:23:37: Connection to Steam servers successful.
+L 12/17/2018 - 02:23:37:    Public IP is 31.130.42.81.
+L 12/17/2018 - 02:23:37: Assigned anonymous gameserver Steam ID [A-1:247534595(11579)].
+L 12/17/2018 - 02:23:38: VAC secure mode is activated.
+L 12/17/2018 - 02:24:35: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:19: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:19
+
+
+L 12/17/2018 - 02:24:39: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:20: bad argument #1 to 'PrecacheModel' (string expected, got table)
+  1. PrecacheModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:20
+
+
+L 12/17/2018 - 02:24:55: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21: bad argument #1 to 'PrecacheModel' (string expected, got table)
+  1. PrecacheModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21
+
+
+L 12/17/2018 - 02:25:30: Connection to Steam servers lost.  (Result = 3)
+L 12/17/2018 - 02:26:15: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21: attempt to index global 'Categorised' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21
+
+
+L 12/17/2018 - 02:27:08: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21: attempt to index global 'Categorised' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21
+
+
+L 12/17/2018 - 02:27:35: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21: attempt to index global 'Categorised' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21
+
+
+L 12/17/2018 - 02:27:45: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21: attempt to index global 'Categorised' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21
+
+
+L 12/17/2018 - 02:27:51: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21: attempt to index global 'Categorised' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:21
+
+
+L 12/17/2018 - 02:28:03: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:27: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:27
+
+
+L 12/17/2018 - 02:28:33: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:18: attempt to index field 'хуй' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:18
+
+
+L 12/17/2018 - 02:28:40: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:18: attempt to index field 'gg' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:18
+
+
+L 12/17/2018 - 02:28:55: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:503: attempt to compare string with number
+  1. unknown - lua/includes/extensions/table.lua:503
+   2. sort - [C]:-1
+    3. SortedPairs - lua/includes/extensions/table.lua:503
+     4. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:26
+
+
+L 12/17/2018 - 02:29:24: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:503: attempt to compare string with number
+  1. unknown - lua/includes/extensions/table.lua:503
+   2. sort - [C]:-1
+    3. SortedPairs - lua/includes/extensions/table.lua:503
+     4. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:26
+
+
+L 12/17/2018 - 02:30:00: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:503: attempt to compare string with number
+  1. unknown - lua/includes/extensions/table.lua:503
+   2. sort - [C]:-1
+    3. SortedPairs - lua/includes/extensions/table.lua:503
+     4. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:27
+
+
+L 12/17/2018 - 02:30:16: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:30: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:30
+
+
+L 12/17/2018 - 02:30:22: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:32: bad argument #1 to 'PrecacheModel' (string expected, got table)
+  1. PrecacheModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:32
+
+
+L 12/17/2018 - 02:30:37: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:33: attempt to perform arithmetic on global 'muber' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:33
+
+
+L 12/17/2018 - 02:31:18: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:35: attempt to perform arithmetic on global 'muber' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:35
+
+
+L 12/17/2018 - 02:31:22: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:35: attempt to perform arithmetic on global 'nuber' (a nil value)
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:35
+
+
+L 12/17/2018 - 02:31:35: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 02:31:45: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 02:31:45: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 02:32:11: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34: bad argument #1 to 'IsValidModel' (string expected, got table)
+  1. IsValidModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34
+
+
+L 12/17/2018 - 02:33:38: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:32: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:32
+
+
+L 12/17/2018 - 02:33:52: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34: bad argument #1 to 'PrecacheModel' (string expected, got table)
+  1. PrecacheModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34
+
+
+L 12/17/2018 - 02:34:00: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34: bad argument #1 to 'PrecacheModel' (string expected, got table)
+  1. PrecacheModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34
+
+
+L 12/17/2018 - 02:34:12: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:33: '<name>' expected near '['
+  1. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:0
+
+
+L 12/17/2018 - 02:34:15: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34: bad argument #1 to 'PrecacheModel' (string expected, got table)
+  1. PrecacheModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:34
+
+
+L 12/17/2018 - 02:34:30: Lua Error: 
+[ERROR] addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:35: bad argument #1 to 'IsValidModel' (string expected, got table)
+  1. IsValidModel - [C]:-1
+   2. unknown - addons/spawnmenutabs_controller/lua/autorun/server/networkspawnmenu.lua:35
+
+
+L 12/17/2018 - 02:37:24: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 02:37:24: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 02:37:25: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 02:37:34: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 02:37:34: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 02:38:04: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 02:38:04: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 02:38:04: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 02:38:14: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 02:38:14: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 02:38:49: Connection to Steam servers successful.
+L 12/17/2018 - 02:38:49:    Public IP is 31.130.42.81.
+L 12/17/2018 - 02:38:49: Assigned anonymous gameserver Steam ID [A-1:247534595(11579)].
+L 12/17/2018 - 02:38:49: VAC secure mode is activated.
+L 12/17/2018 - 02:38:49: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 02:40:52: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 02:40:52: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 02:40:53: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 02:40:53: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 02:41:02: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 02:41:02: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 02:41:31: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 12/17/2018 - 02:41:31: [FAdmin] DidVaitel (STEAM_0:1:74202541) Disconnected
+L 12/17/2018 - 02:41:31: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "192.168.1.101:27006"
+L 12/17/2018 - 02:41:31: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) is Authed
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned for the first time
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Spawned
+L 12/17/2018 - 02:41:41: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a keys
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physcannon
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_camera
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a gmod_tool
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a pocket
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_physgun
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weapon_keypadchecker
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a door_ram
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a arrest_stick
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a unarrest_stick
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a stunstick
+L 12/17/2018 - 02:41:41: [FAdmin] DidVaitel (STEAM_0:1:74202541) Attempted to pick up a weaponchecker
+L 12/17/2018 - 02:42:38: [FAdmin] Server succesfully shut down.
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_junk/pushcart01a.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props/de_nuke/handtruck.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_c17/door01_left.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 02:42:38: [FAdmin] prop_physics(models/props_junk/wood_crate001a_damaged.mdl) Got removed
+L 12/17/2018 - 02:42:38: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 12/17/2018 - 02:42:38: server_message: "quit"
+L 12/17/2018 - 02:42:38: Log file closed.

@@ -1,0 +1,50 @@
+L 10/28/2018 - 19:20:03: Log file started (file "logs\L1028006.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7270")
+L 10/28/2018 - 19:20:03: server_cvar: "sv_alltalk" "3"
+L 10/28/2018 - 19:20:04: Connection to Steam servers successful.
+L 10/28/2018 - 19:20:04:    Public IP is 31.130.42.81.
+L 10/28/2018 - 19:20:04: Assigned anonymous gameserver Steam ID [A-1:1742954507(11298)].
+L 10/28/2018 - 19:20:04: VAC secure mode is activated.
+L 10/28/2018 - 19:21:39: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "10.61.76.2:27006"
+L 10/28/2018 - 19:21:40: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 10/28/2018 - 19:21:48: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 10/28/2018 - 19:22:01: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:383: attempt to index global 'MySQLite' (a nil value)
+  1. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:383
+   2. Run - addons/ulxulib/lua/ulib/shared/hook.lua:109
+    3. func - addons/gvuti/lua/autorun/server/sv_nets.lua:402
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 10/28/2018 - 19:35:56: "ЛёхаМаняк<3><STEAM_0:0:82104817><>" connected, address "80.246.94.141:1589"
+L 10/28/2018 - 19:35:56: "ЛёхаМаняк<3><STEAM_0:0:82104817><>" STEAM USERID validated
+L 10/28/2018 - 19:36:01: "ЛёхаМаняк<3><STEAM_0:0:82104817><>" disconnected (reason "Client's map differs from the server's")
+L 10/28/2018 - 19:50:54: "D1xx<4><STEAM_0:1:419149901><>" connected, address "178.122.200.255:27005"
+L 10/28/2018 - 19:50:54: "D1xx<4><STEAM_0:1:419149901><>" STEAM USERID validated
+L 10/28/2018 - 19:50:58: "D1xx<4><STEAM_0:1:419149901><>" disconnected (reason "Disconnect by user.")
+L 10/28/2018 - 20:09:10: "Redneck<5><STEAM_0:0:150458691><>" connected, address "95.63.37.241:27005"
+L 10/28/2018 - 20:09:10: "Redneck<5><STEAM_0:0:150458691><>" STEAM USERID validated
+L 10/28/2018 - 20:09:14: "Redneck<5><STEAM_0:0:150458691><>" disconnected (reason "Map is missing")
+L 10/28/2018 - 20:26:21: "vovamagadan3<6><STEAM_0:1:162689221><>" connected, address "93.85.15.46:29753"
+L 10/28/2018 - 20:26:22: "vovamagadan3<6><STEAM_0:1:162689221><>" STEAM USERID validated
+L 10/28/2018 - 20:26:27: "vovamagadan3<6><STEAM_0:1:162689221><>" disconnected (reason "Map is missing")
+L 10/28/2018 - 20:33:31: "eliot MAGIE<7><STEAM_0:1:221462028><>" connected, address "92.152.54.131:27005"
+L 10/28/2018 - 20:33:31: "eliot MAGIE<7><STEAM_0:1:221462028><>" STEAM USERID validated
+L 10/28/2018 - 20:33:39: "eliot MAGIE<7><STEAM_0:1:221462028><>" disconnected (reason "Map is missing")
+L 10/28/2018 - 20:45:07: "bendy tarr<8><STEAM_0:1:10579961><>" connected, address "74.75.192.193:27005"
+L 10/28/2018 - 20:45:07: "bendy tarr<8><STEAM_0:1:10579961><>" STEAM USERID validated
+L 10/28/2018 - 20:45:14: "bendy tarr<8><STEAM_0:1:10579961><>" disconnected (reason "Map is missing")
+L 10/28/2018 - 20:50:26: Lua Error: 
+[ERROR] addons/superherosweps/lua/weapons/cptamerica/init.lua:112: '<eof>' expected near 'end'
+  1. unknown - addons/superherosweps/lua/weapons/cptamerica/init.lua:0
+
+
+L 10/28/2018 - 20:53:45: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "DidVaitel timed out")
+L 10/28/2018 - 20:53:45: Lua Error: 
+[ERROR] addons/gvuti/lua/autorun/server/sv_nets.lua:374: attempt to index global 'MySQLite' (a nil value)
+  1. gVutiSync - addons/gvuti/lua/autorun/server/sv_nets.lua:374
+   2. fn - addons/gvuti/lua/autorun/server/sv_nets.lua:398
+    3. unknown - addons/ulxulib/lua/ulib/shared/hook.lua:109
+
+
+L 10/28/2018 - 20:54:58: server_message: "quit"
+L 10/28/2018 - 20:54:58: Log file closed.

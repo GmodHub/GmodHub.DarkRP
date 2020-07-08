@@ -1,0 +1,20 @@
+L 03/21/2019 - 21:50:04: Log file started (file "logs\L0321000.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 03/21/2019 - 21:50:04: server_cvar: "sv_alltalk" "3"
+L 03/21/2019 - 21:50:04: server_cvar: "sv_allowcslua" "1"
+L 03/21/2019 - 21:50:04: server_cvar: "sv_airaccelerate" "1000"
+L 03/21/2019 - 21:50:04: server_cvar: "sv_alltalk" "0"
+L 03/21/2019 - 21:50:04: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 03/21/2019 - 21:50:04: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 03/21/2019 - 21:50:04: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 03/21/2019 - 21:50:04: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 03/21/2019 - 21:50:06: Connection to Steam servers successful.
+L 03/21/2019 - 21:50:06:    Public IP is 31.130.42.81.
+L 03/21/2019 - 21:50:06: Assigned anonymous gameserver Steam ID [A-1:1106808839(12214)].
+L 03/21/2019 - 21:50:06: VAC secure mode is activated.
+L 03/21/2019 - 21:50:56: [FAdmin] Server succesfully shut down.
+L 03/21/2019 - 21:50:56: [FAdmin] prop_physics(models/maxofs2d/companion_doll.mdl) Got removed
+L 03/21/2019 - 21:50:56: [FAdmin] prop_physics(models/props_c17/furnituretable003a.mdl) Got removed
+L 03/21/2019 - 21:50:56: [FAdmin] prop_physics(models/props_c17/furniturecouch002a.mdl) Got removed
+L 03/21/2019 - 21:50:56: [FAdmin] prop_physics(models/props_c17/furniturecouch001a.mdl) Got removed
+L 03/21/2019 - 21:50:56: server_message: "quit"
+L 03/21/2019 - 21:50:56: Log file closed.

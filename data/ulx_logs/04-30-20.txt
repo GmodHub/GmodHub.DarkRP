@@ -1,0 +1,230 @@
+[02:39:23] New map: gm_construct
+[02:40:16] Client "DidVaitel" connected.
+[02:40:28] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 12 seconds).
+[02:41:00] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:41:02] DidVaitel<STEAM_0:1:74202541> spawned sent combine_huge_dispenser
+[02:41:46] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:42:11] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:42:36] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:43:01] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:43:46] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:44:05] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[02:44:37] DidVaitel<STEAM_0:1:74202541> spawned sent combine_dispenser
+[03:14:23] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/gascan001a.mdl
+
+
+
+[03:20:08] New map: gm_construct
+[03:20:13] Client "DidVaitel" connected.
+[03:20:23] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[03:21:09] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:21:17] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:21:33] Client "DidVaitel" connected.
+[03:21:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[03:21:58] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:22:08] Client "DidVaitel" connected.
+[03:22:22] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+
+
+
+[03:22:38] New map: gm_construct
+[03:23:32] Client "DidVaitel" connected.
+[03:23:45] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[03:25:15] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:25:21] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[03:25:51] New map: gm_construct
+[03:25:57] Client "DidVaitel" connected.
+[03:26:15] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 18 seconds).
+[03:27:26] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:28:32] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:28:38] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:28:44] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:28:59] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:29:16] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:29:31] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:29:33] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:34:10] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:34:25] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[03:35:03] New map: gm_construct
+[03:35:09] Client "DidVaitel" connected.
+[03:35:23] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+[03:35:40] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:36:04] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:36:24] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:36:34] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:36:50] DidVaitel<STEAM_0:1:74202541> spawned effect models/props_combine/combine_dispenser.mdl
+[03:38:01] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:38:31] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:43:43] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:44:00] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturefireplace001a.mdl
+[03:44:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:44:31] DidVaitel<STEAM_0:1:74202541> spawned model models/props_combine/weaponstripper.mdl
+[03:44:44] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/gaspump001a.mdl
+[03:44:57] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/trappropeller_engine.mdl
+[03:45:13] DidVaitel<STEAM_0:1:74202541> spawned model models/props_combine/health_charger001.mdl
+[03:45:23] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:45:56] DidVaitel<STEAM_0:1:74202541> spawned model models/props_lab/hevplate.mdl
+[03:46:02] DidVaitel<STEAM_0:1:74202541> spawned effect models/props_lab/blastwindow.mdl
+[03:46:24] DidVaitel<STEAM_0:1:74202541> spawned model models/props_combine/combine_barricade_short02a.mdl
+[03:46:34] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:46:46] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:47:01] DidVaitel<STEAM_0:1:74202541> spawned model models/props_vehicles/tire001b_truck.mdl
+[03:47:29] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/gravestone002a.mdl
+[03:47:31] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:47:39] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[03:58:54] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[03:58:55] Client "DidVaitel" connected.
+[03:59:03] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[04:01:49] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:01:53] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:01:56] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+
+
+
+[04:15:18] New map: gm_construct
+[04:15:28] Client "DidVaitel" connected.
+[04:15:36] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[04:17:03] Server is shutting down/changing levels.
+
+
+
+[04:17:12] New map: gm_construct
+[04:18:16] Client "DidVaitel" connected.
+[04:18:25] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[04:18:36] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:18:49] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:18:55] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:20:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/pulleywheels_large01.mdl
+[04:20:07] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:21:13] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:21:39] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:06] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:08] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:11] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:16] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:18] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:29] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:33] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:35] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:39] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:47] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:22:50] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:24:16] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:24:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:25:21] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:25:22] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:25:35] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:26:11] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:26:15] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:29:15] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:29:15] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:29:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:29:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:31:04] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:32:03] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:35:11] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:37:31] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:37:37] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:37:41] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:37:47] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:38:14] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/lockers001a.mdl
+[04:38:37] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:38:57] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/controlroom_storagecloset001a.mdl
+[04:39:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/controlroom_filecabinet002a.mdl
+[04:39:17] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furniturewashingmachine001a.mdl
+[04:39:27] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:39:57] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:06] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:08] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:10] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:14] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:21] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:40:25] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:42:07] DidVaitel<STEAM_0:1:74202541> spawned effect models/props_combine/combine_dispenser.mdl
+[04:42:59] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:43:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:44:36] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:45:05] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:46:03] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:47:01] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[04:47:38] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:48:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:48:28] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[04:48:36] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[05:57:36] New map: gm_construct
+[05:57:48] Client "DidVaitel" connected.
+[05:58:08] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 20 seconds).
+[05:58:18] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[05:59:15] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[06:00:10] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable002a.mdl
+[06:02:17] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_package
+[06:04:22] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[09:28:34] New map: gm_construct
+[09:30:45] Client "DidVaitel" connected.
+[09:30:56] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 11 seconds).
+[09:31:35] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:31:48] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:32:01] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:32:33] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:33:00] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[09:33:01] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:33:28] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:35:02] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[09:35:43] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[10:21:47] DidVaitel<STEAM_0:1:74202541> spawned model models/player/items/humans/top_hat.mdl
+[10:22:01] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:39:57] Client "DidVaitel" connected.
+[10:40:11] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+
+
+
+[11:02:54] New map: gm_construct
+[11:03:55] Client "DidVaitel" connected.
+[11:04:09] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+
+
+
+[20:14:38] New map: gm_construct
+
+
+
+[20:32:06] New map: gm_construct
+[20:32:20] Client "DidVaitel" connected.
+[20:32:41] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 21 seconds).
+
+
+
+[20:38:44] New map: gm_construct
+[20:38:44] Client "DidVaitel" connected.
+[20:38:53] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+
+
+
+[20:39:41] New map: gm_construct
+[20:50:04] Client "DidVaitel" connected.
+[20:50:12] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[20:50:36] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[20:51:54] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[21:04:14] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[21:10:16] Client "DidVaitel" connected.
+[21:10:27] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 11 seconds).
+
+
+
+[22:01:15] New map: gm_construct
+[22:01:17] Client "DidVaitel" connected.
+[22:01:30] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 13 seconds).
+[22:03:34] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

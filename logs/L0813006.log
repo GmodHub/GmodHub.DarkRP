@@ -1,0 +1,15 @@
+L 08/13/2018 - 19:06:05: Log file started (file "logs\L0813006.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7136")
+L 08/13/2018 - 19:06:05: server_cvar: "sv_alltalk" "3"
+L 08/13/2018 - 19:06:05: server_cvar: "sv_allowcslua" "1"
+L 08/13/2018 - 19:06:05: server_cvar: "sv_airaccelerate" "1000"
+L 08/13/2018 - 19:06:05: server_cvar: "sv_alltalk" "0"
+L 08/13/2018 - 19:06:07: Connection to Steam servers successful.
+L 08/13/2018 - 19:06:07:    Public IP is 31.130.42.81.
+L 08/13/2018 - 19:06:07: Assigned anonymous gameserver Steam ID [A-1:1112819723(10499)].
+L 08/13/2018 - 19:06:08: VAC secure mode is activated.
+L 08/13/2018 - 19:06:19: "m.azvova39<2><STEAM_0:1:444665478><>" connected, address "169.254.254.208:27006"
+L 08/13/2018 - 19:06:19: "m.azvova39<2><STEAM_0:1:444665478><>" STEAM USERID validated
+L 08/13/2018 - 19:06:24: "m.azvova39<2><STEAM_0:1:444665478><>" entered the game
+L 08/13/2018 - 19:10:47: "m.azvova39<2><STEAM_0:1:444665478><>" disconnected (reason "Server shutting down")
+L 08/13/2018 - 19:10:47: server_message: "quit"
+L 08/13/2018 - 19:10:47: Log file closed.

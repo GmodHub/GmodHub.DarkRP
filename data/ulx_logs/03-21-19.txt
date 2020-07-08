@@ -1,0 +1,17 @@
+[21:50:04] New map: gm_construct
+[21:50:56] Server is shutting down/changing levels.
+
+
+
+[21:51:04] New map: gm_construct
+[21:51:09] Client "DidVaitel" connected.
+[21:51:27] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 18 seconds).
+
+
+
+[21:55:03] New map: gm_construct
+[21:55:03] Client "DidVaitel" connected.
+[21:56:28] Client "DidVaitel" connected.
+[21:56:35] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[21:57:28] DidVaitel: !taxi
+[21:57:45] DidVaitel: !taxi

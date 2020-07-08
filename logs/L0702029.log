@@ -1,0 +1,351 @@
+L 07/02/2020 - 22:22:26: Log file started (file "logs\L0702029.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/02/2020 - 22:22:26: server_cvar: "sv_alltalk" "3"
+L 07/02/2020 - 22:22:27: Connection to Steam servers successful.
+L 07/02/2020 - 22:22:27:    Public IP is 31.130.42.26.
+L 07/02/2020 - 22:22:27: Assigned anonymous gameserver Steam ID [A-1:1154780164(15079)].
+L 07/02/2020 - 22:22:28: VAC secure mode is activated.
+L 07/02/2020 - 22:22:32: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/02/2020 - 22:22:32: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/02/2020 - 22:22:32: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:24:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:308: attempt to index upvalue 'TeamSpawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:308
+
+
+L 07/02/2020 - 22:24:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:308: attempt to index upvalue 'TeamSpawns' (a nil value)
+  1. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:308
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:345
+
+
+L 07/02/2020 - 22:24:04: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/02/2020 - 22:24:22: Lua Error: 
+[ERROR] addons/badmin/lua/ba/plugins/core.lua:118: attempt to call field 'IsAuthed' (a nil value)
+  1. Run - addons/badmin/lua/ba/plugins/core.lua:118
+   2. Run - addons/dash/lua/dash/libraries/cmd.lua:322
+    3. unknown - addons/dash/lua/dash/libraries/cmd.lua:365
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/02/2020 - 22:24:38: Lua Error: 
+[ERROR] addons/badmin/lua/ba/plugins/core.lua:118: attempt to call field 'IsAuthed' (a nil value)
+  1. Run - addons/badmin/lua/ba/plugins/core.lua:118
+   2. Run - addons/dash/lua/dash/libraries/cmd.lua:322
+    3. unknown - addons/dash/lua/dash/libraries/cmd.lua:365
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/02/2020 - 22:27:43: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/player_old_sv.lua:158: attempt to index upvalue 'TeamSpawns' (a nil value)
+  1. getspawn - gamemodes/darkrp/gamemode/core/player/player_old_sv.lua:158
+   2. ChangeTeam - gamemodes/darkrp/gamemode/core/player/player_old_sv.lua:290
+    3. Run - gamemodes/darkrp/gamemode/core/makethings/commands_sh.lua:94
+     4. Run - addons/dash/lua/dash/libraries/cmd.lua:322
+      5. func - addons/dash/lua/dash/libraries/cmd.lua:504
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/02/2020 - 22:28:05: Lua Error: 
+[ERROR] addons/dash/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:44
+      5. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:28
+       6. FireBullets - [C]:-1
+        7. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+         8. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/02/2020 - 22:28:06: Lua Error: 
+[ERROR] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin/lua/ba/modules/anticrash/main_sh.lua:5
+
+
+L 07/02/2020 - 22:30:21: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:30:21: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:30:22: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:30:22: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:30:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:31:27: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:31:27: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:31:27: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:32:21: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:32:21: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:32:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:33:35: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/cfg.lua:181: unexpected symbol near ')'
+  1. unknown - gamemodes/darkrp/gamemode/sh_init.lua:145
+   2. include - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:33:35: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:33:35: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:33:35: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:36:01: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/cfg.lua:181: unexpected symbol near ')'
+  1. unknown - gamemodes/darkrp/gamemode/sh_init.lua:145
+   2. include - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:36:01: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:36:01: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:36:01: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:36:55: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/cfg.lua:181: unexpected symbol near ')'
+  1. unknown - gamemodes/darkrp/gamemode/sh_init.lua:145
+   2. include - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:36:56: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:36:56: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:36:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:37:23: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/cfg.lua:181: unexpected symbol near ')'
+  1. unknown - gamemodes/darkrp/gamemode/sh_init.lua:145
+   2. include - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/02/2020 - 22:37:23: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:37:23: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:37:24: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:3: attempt to index upvalue 'spawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:3
+
+
+L 07/02/2020 - 22:37:34: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:37:34: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:37:34: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:37:34: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:37:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:37:58: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:37:58: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:37:58: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:37:58: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:37:59: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:37:59: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:37:59: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:38:00: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:38:00: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:38:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:38:26: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:38:26: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:38:26: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:38:26: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:38:27: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:39:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:308: attempt to index upvalue 'TeamSpawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:308
+   2. Spawn - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:39:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:308: attempt to index upvalue 'TeamSpawns' (a nil value)
+  1. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:308
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:345
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:40:18: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:40:18: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:40:19: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:40:24: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:311: attempt to get length of upvalue 'NormalSpawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:311
+   2. Spawn - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:40:24: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:311: attempt to get length of upvalue 'NormalSpawns' (a nil value)
+  1. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:311
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:345
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:40:37: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:40:37: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:40:37: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:40:55: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:40:55: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:40:56: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:40:56: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:40:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:41:07: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:305
+      5. Spawn - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:41:07: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:305
+      5. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:346
+       6. Spawn - [C]:-1
+        7. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:41:15: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:41:15: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:41:15: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:41:15: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:41:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:41:17: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:312: attempt to get length of upvalue 'NormalSpawns' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:312
+   2. Spawn - [C]:-1
+    3. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:41:17: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/core_sv.lua:312: attempt to get length of upvalue 'NormalSpawns' (a nil value)
+  1. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:312
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:346
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:232
+
+
+L 07/02/2020 - 22:41:40: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:41:40: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:41:41: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/02/2020 - 22:41:41: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/02/2020 - 22:41:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/spawn_sv.lua:4: bad argument #1 to 'FindInBox' (Vector expected, got table)
+  1. FindInBox - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/spawn_sv.lua:4
+
+
+L 07/02/2020 - 22:42:04: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/02/2020 - 22:42:04: server_message: "quit"
+L 07/02/2020 - 22:42:04: Log file closed.

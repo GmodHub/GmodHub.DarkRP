@@ -1,0 +1,43 @@
+Wed Feb 20 00:29:18 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Feb 20 00:29:18 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:29:21 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
+Wed Feb 20 00:29:21 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
+Wed Feb 20 00:30:05 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:30:09 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:30:17 2019	eLeCtrOssSnake (STEAM_0:1:164666257): ага
+Wed Feb 20 00:30:24 2019	eLeCtrOssSnake (STEAM_0:1:164666257): я попадал
+Wed Feb 20 00:30:28 2019	eLeCtrOssSnake (STEAM_0:1:164666257): это урон не проходил
+Wed Feb 20 00:30:32 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:30:37 2019	eLeCtrOssSnake (STEAM_0:1:164666257): вот щас все прошло
+Wed Feb 20 00:33:57 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:34:07 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:34:23 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:34:38 2019	DidVaitel (STEAM_0:1:74202541) disconnected
+Wed Feb 20 00:34:45 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
+Wed Feb 20 00:34:45 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:35:05 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:35:15 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:35:27 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:35:28 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:35:55 2019	eLeCtrOssSnake (STEAM_0:1:164666257): да
+Wed Feb 20 00:35:59 2019	eLeCtrOssSnake (STEAM_0:1:164666257): да
+Wed Feb 20 00:36:01 2019	eLeCtrOssSnake (STEAM_0:1:164666257): ты в стене
+Wed Feb 20 00:36:05 2019	eLeCtrOssSnake (STEAM_0:1:164666257): чуть дальше
+Wed Feb 20 00:38:32 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:38:59 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:42:27 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:42:32 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:43:05 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:44:12 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:44:19 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:44:48 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:44:55 2019	DidVaitel was killed by eLeCtrOssSnake with a weapon_deagle2
+Wed Feb 20 00:46:19 2019	DidVaitel (STEAM_0:1:74202541) spawned
+Wed Feb 20 00:46:22 2019	eLeCtrOssSnake (STEAM_0:1:164666257): лол че
+Wed Feb 20 00:51:55 2019	eLeCtrOssSnake (STEAM_0:1:164666257): да
+Wed Feb 20 00:51:58 2019	eLeCtrOssSnake (STEAM_0:1:164666257): ситизенская да
+Wed Feb 20 00:52:02 2019	eLeCtrOssSnake (STEAM_0:1:164666257): уу
+Wed Feb 20 00:52:05 2019	eLeCtrOssSnake (STEAM_0:1:164666257): у тебя анимки нет
+Wed Feb 20 00:52:15 2019	eLeCtrOssSnake (STEAM_0:1:164666257): и хитбокса тоже
+Wed Feb 20 00:52:28 2019	eLeCtrOssSnake (STEAM_0:1:164666257): у меня чисто ситизен рисует модельку по позици
+Wed Feb 20 00:52:28 2019	eLeCtrOssSnake (STEAM_0:1:164666257): и

@@ -1,0 +1,92 @@
+L 07/03/2020 - 03:44:11: Log file started (file "logs\L0703024.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/03/2020 - 03:44:11: server_cvar: "sv_alltalk" "3"
+L 07/03/2020 - 03:44:12: Connection to Steam servers successful.
+L 07/03/2020 - 03:44:12:    Public IP is 31.130.42.26.
+L 07/03/2020 - 03:44:12: Assigned anonymous gameserver Steam ID [A-1:1952946184(15080)].
+L 07/03/2020 - 03:44:12: VAC secure mode is activated.
+L 07/03/2020 - 03:44:22: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/03/2020 - 03:44:22: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/03/2020 - 03:44:31: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/03/2020 - 03:44:31: Lua Error: addons/badmin_2/lua/ba/plugins/reserved_slots.lua:5: attempt to compare nil with number
+
+L 07/03/2020 - 03:44:37: Lua Error: 
+[ERROR] addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+  1. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+   2. unknown - gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:27
+    3. func - addons/dash_3/lua/dash/libraries/nw.lua:255
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/03/2020 - 03:55:42: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:55:42: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:55:42: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:55:42: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:55:42: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:55:51: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:55:51: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:55:51: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:55:51: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:55:51: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:55:52: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:55:52: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:55:52: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:55:52: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:55:52: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:57:50: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:57:50: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:57:50: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:57:50: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:57:50: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:58:40: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:58:40: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:58:41: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:58:41: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:58:41: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:58:55: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:58:55: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:58:55: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:58:55: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:58:55: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:58:56: Lua Error: Corrupt shipment "Riot Shield": element model is corrupt.
+
+L 07/03/2020 - 03:58:56: Lua Error: Corrupt shipment "Vape": element model is corrupt.
+
+L 07/03/2020 - 03:58:56: Lua Error: [AddCSLuaFile] Couldn't find 'darkrp/gamemode/cfg/skills.lua' (@addons/dash_3/lua/dash/init.lua (line 11))
+
+L 07/03/2020 - 03:58:56: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\skills.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 117))
+
+L 07/03/2020 - 03:58:56: Lua Error: Couldn't include file 'darkrp\gamemode\cfg\struggle.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 121))
+
+L 07/03/2020 - 03:59:12: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/03/2020 - 03:59:12: server_message: "quit"
+L 07/03/2020 - 03:59:12: Log file closed.

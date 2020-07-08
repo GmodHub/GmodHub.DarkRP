@@ -1,0 +1,9 @@
+L 05/24/2019 - 00:35:46: Log file started (file "logs\L0524001.log") (game "F:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7402")
+L 05/24/2019 - 00:35:46: server_cvar: "sv_alltalk" "3"
+L 05/24/2019 - 00:35:46: Could not establish connection to Steam servers.  (Result = 3)
+L 05/24/2019 - 00:35:46: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 05/24/2019 - 00:35:46: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 05/24/2019 - 00:35:46: Banid: "<><STEAM_0:0:432813650><>" was banned "permanently" by "Console"
+L 05/24/2019 - 00:35:46: Banid: "<><STEAM_0:0:207758038><>" was banned "permanently" by "Console"
+L 05/24/2019 - 00:36:37: server_message: "quit"
+L 05/24/2019 - 00:36:37: Log file closed.

@@ -1,0 +1,36 @@
+L 05/19/2020 - 07:15:04: Log file started (file "logs\L0519021.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7794")
+L 05/19/2020 - 07:15:04: server_cvar: "sv_alltalk" "3"
+L 05/19/2020 - 07:15:05: Connection to Steam servers successful.
+L 05/19/2020 - 07:15:05:    Public IP is 31.130.42.26.
+L 05/19/2020 - 07:15:05: Assigned anonymous gameserver Steam ID [A-1:3609942016(14760)].
+L 05/19/2020 - 07:15:05: VAC secure mode is activated.
+L 05/19/2020 - 07:15:06: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:15:07: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:15:23: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:198: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:198
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:15:23: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:15:23: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:15:25: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 05/19/2020 - 07:15:25: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:198: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:198
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:15:26: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 05/19/2020 - 07:15:27: Lua Error: 
+lua/autorun/server/sourcenet/incoming.lua:198: attempt to index global 'NET_MESSAGES' (a nil value)
+  1. v - lua/autorun/server/sourcenet/incoming.lua:198
+   2. unknown - lua/includes/modules/hook.lua:84
+
+
+L 05/19/2020 - 07:15:27: STEAMAUTH: Client DidVaitel received failure code 6
+L 05/19/2020 - 07:15:27: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Client left game (Steam auth ticket has been canceled)
+")
+L 05/19/2020 - 07:15:29: server_message: "quit"
+L 05/19/2020 - 07:15:30: Log file closed.

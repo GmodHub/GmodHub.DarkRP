@@ -1,0 +1,1086 @@
+[00:27:07] New map: gm_flatgrass
+[00:27:13] Client "DidVaitel" connected.
+[00:27:25] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 12 seconds).
+[01:34:20] Client "FARFUR" connected.
+[01:34:35] Client "DrtD" connected.
+[01:34:42] Client "жаба" connected.
+[01:35:12] Client "FARFUR" spawned in server <STEAM_0:1:34845126> (took 52 seconds).
+[01:35:14] Client "жаба" spawned in server <STEAM_0:1:197200461> (took 32 seconds).
+[01:35:35] Client "DrtD" spawned in server <STEAM_0:1:19949761> (took 60 seconds).
+[01:35:46] жаба<STEAM_0:1:197200461> spawned model models/props_c17/gravestone_coffinpiece001a.mdl
+[01:35:53] жаба<STEAM_0:1:197200461> spawned model models/props_c17/furnitureradiator001a.mdl
+[01:35:57] жаба<STEAM_0:1:197200461> spawned model models/props_junk/plasticcrate01a.mdl
+[01:36:09] жаба<STEAM_0:1:197200461> spawned model models/props_c17/furniturebathtub001a.mdl
+[01:36:10] жаба was killed by prop_physics
+[01:36:22] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/triangles/4x4.mdl
+[01:36:44] жаба<STEAM_0:1:197200461> spawned ragdoll models/humans/group03/female_04.mdl
+[01:36:45] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/plates/plate8x8.mdl
+[01:36:47] DrtD<STEAM_0:1:19949761> spawned model models/props_borealis/door_wheel001a.mdl
+[01:36:48] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/plates/plate5x5.mdl
+[01:36:49] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/plates/plate5x6.mdl
+[01:37:05] DrtD<STEAM_0:1:19949761> spawned model models/props_c17/furnituredrawer001a_chunk03.mdl
+[01:37:19] DrtD killed FARFUR using crossbow_bolt
+[01:37:20] жаба<STEAM_0:1:197200461> spawned model models/props_vehicles/truck001a.mdl
+[01:37:20] FARFUR killed DrtD using crossbow_bolt
+[01:37:37] DrtD killed жаба using crossbow_bolt
+[01:37:40] DrtD killed FARFUR using crossbow_bolt
+[01:37:56] FARFUR killed DrtD using rpg_missile
+[01:38:10] DrtD killed FARFUR using prop_combine_ball
+[01:38:24] DrtD killed FARFUR using crossbow_bolt
+[01:38:29] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[01:38:29] DrtD killed FARFUR using crossbow_bolt
+[01:38:38] DrtD killed FARFUR using crossbow_bolt
+[01:38:40] DrtD killed жаба using crossbow_bolt
+[01:38:43] DrtD killed FARFUR using crossbow_bolt
+[01:38:49] FARFUR<STEAM_0:1:34845126> spawned model models/props_phx/construct/wood/wood_panel2x2.mdl
+[01:39:08] FARFUR<STEAM_0:1:34845126> spawned vehicle models/props_phx/carseat2.mdl
+[01:39:16] DrtD killed FARFUR using crossbow_bolt
+[01:39:23] FARFUR<STEAM_0:1:34845126> spawned vehicle models/props_phx/carseat2.mdl
+[01:39:40] жаба<STEAM_0:1:197200461> spawned ragdoll models/lamarr.mdl
+[01:40:54] жаба<STEAM_0:1:197200461> spawned ragdoll models/alyx.mdl
+[01:41:12] DrtD<STEAM_0:1:19949761> spawned ragdoll models/vortigaunt.mdl
+[01:41:34] DrtD<STEAM_0:1:19949761> spawned ragdoll models/antlion.mdl
+[01:41:58] DrtD was killed by prop_ragdoll
+[01:42:07] жаба<STEAM_0:1:197200461> spawned model models/props_c17/doll01.mdl
+[01:42:14] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/blocks/cube4x6x025.mdl
+[01:42:24] FARFUR<STEAM_0:1:34845126> spawned model models/mechanics/wheels/wheel_rugged_24w.mdl
+[01:42:28] FARFUR<STEAM_0:1:34845126> spawned model models/mechanics/wheels/wheel_rugged_48w.mdl
+[01:43:02] жаба killed DrtD using prop_combine_ball
+[01:43:26] DrtD killed жаба using rpg_missile
+[01:43:33] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/blocks/cube4x4x025.mdl
+[01:43:44] жаба killed DrtD using crossbow_bolt
+[01:43:56] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:44:07] DrtD killed жаба using rpg_missile
+[01:44:09] DrtD suicided!
+[01:44:11] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:44:13] FARFUR<STEAM_0:1:34845126> spawned model models/mechanics/wheels/wheel_spike_24.mdl
+[01:44:15] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:44:15] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:46:12] жаба killed DrtD using player
+[01:46:15] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-70.mdl
+[01:46:17] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:46:21] DrtD killed жаба using rpg_missile
+[01:46:50] FARFUR was killed by prop_physics
+[01:46:53] жаба was killed by prop_physics
+[01:47:26] FARFUR<STEAM_0:1:34845126> spawned vehicle models/props_phx/carseat2.mdl
+[01:47:47] FARFUR was killed by prop_physics
+[01:48:04] DrtD killed жаба using crossbow_bolt
+[01:48:05] FARFUR<STEAM_0:1:34845126> spawned vehicle models/props_phx/carseat2.mdl
+[01:48:14] FARFUR was killed by prop_physics
+[01:48:40] DrtD<STEAM_0:1:19949761> spawned model models/xqm/jetbody3.mdl
+[01:48:46] DrtD<STEAM_0:1:19949761> spawned model models/xqm/jetbody3_s5.mdl
+[01:48:47] FARFUR was killed by prop_physics
+[01:48:47] жаба was killed by prop_physics
+[01:49:06] DrtD<STEAM_0:1:19949761> spawned model models/buggy.mdl
+[01:49:13] FARFUR<STEAM_0:1:34845126> spawned vehicle models/props_phx/carseat2.mdl
+[01:49:16] DrtD<STEAM_0:1:19949761> spawned model models/combine_helicopter.mdl
+[01:49:18] жаба<STEAM_0:1:197200461> spawned model models/props_canal/boat002b.mdl
+[01:49:56] DrtD<STEAM_0:1:19949761> spawned ragdoll models/combine_dropship.mdl
+[01:50:07] DrtD<STEAM_0:1:19949761> spawned model models/buggy.mdl
+[01:50:22] DrtD<STEAM_0:1:19949761> spawned model models/airboat.mdl
+[01:50:40] DrtD<STEAM_0:1:19949761> spawned model models/props_canal/boat002b.mdl
+[01:50:46] DrtD killed жаба using player
+[01:50:50] DrtD<STEAM_0:1:19949761> spawned model models/props_vehicles/apc001.mdl
+[01:50:54] DrtD<STEAM_0:1:19949761> spawned model models/props_vehicles/trailer002a.mdl
+[01:50:57] Dropped "жаба" from server<STEAM_0:1:197200461>
+[01:51:02] DrtD<STEAM_0:1:19949761> spawned model models/combine_apc.mdl
+[01:51:24] Dropped "DrtD" from server<STEAM_0:1:19949761>
+[01:52:11] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:52:12] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:52:12] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:52:14] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[01:53:17] FARFUR<STEAM_0:1:34845126> spawned vehicle models/props_phx/carseat2.mdl
+[01:53:48] Client "DidVaitel" connected.
+[01:54:00] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 12 seconds).
+[01:54:29] Dropped "FARFUR" from server<STEAM_0:1:34845126>
+[02:08:16] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:08:17] Client "DidVaitel" connected.
+[02:08:24] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[02:09:41] Client "DrtD" connected.
+[02:09:42] Client "FARFUR" connected.
+[02:10:09] Client "DrtD" spawned in server <STEAM_0:1:19949761> (took 28 seconds).
+[02:10:25] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[02:10:33] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_talking_npc
+[02:10:38] Client "FARFUR" spawned in server <STEAM_0:1:34845126> (took 56 seconds).
+[02:12:40] FARFUR: leave?
+[02:12:45] DidVaitel: no
+[02:12:47] DrtD suicided!
+[02:12:52] DidVaitel: you can have a fun here
+[02:12:54] DidVaitel: np
+[02:12:59] FARFUR: ok ty
+[02:13:07] DidVaitel: !menu
+[02:13:14] DrtD: !menu
+[02:13:20] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_metal_detector
+[02:13:52] FARFUR<STEAM_0:1:34845126> spawned model models/mechanics/solid_steel/type_f_6_6.mdl
+[02:13:55] DidVaitel<STEAM_0:1:74202541> spawned sent ddv_ration_dispenser
+[02:13:56] FARFUR<STEAM_0:1:34845126> spawned model models/mechanics/solid_steel/type_f_6_12.mdl
+[02:14:15] FARFUR<STEAM_0:1:34845126> spawned model models/xeon133/offroad/off-road-80.mdl
+[02:14:16] DrtD: how i can fly?
+[02:15:18] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/tube4x4x3.mdl
+[02:15:22] DrtD<STEAM_0:1:19949761> spawned NPC npc_monk
+[02:15:30] DidVaitel: !menu
+[02:15:32] DrtD<STEAM_0:1:19949761> spawned NPC npc_monk
+[02:15:54] DrtD<STEAM_0:1:19949761> spawned NPC npc_monk
+[02:15:59] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/tube4x4x5.mdl
+[02:16:01] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_pigeon
+[02:16:02] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_seagull
+[02:16:03] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_seagull
+[02:16:03] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_seagull
+[02:16:04] DidVaitel<STEAM_0:1:74202541> spawned NPC npc_seagull
+[02:16:15] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/circle4x4.mdl
+[02:16:20] DrtD<STEAM_0:1:19949761> spawned NPC npc_seagull
+[02:16:23] DrtD<STEAM_0:1:19949761> spawned NPC npc_seagull
+[02:16:38] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/circle2x2.mdl
+[02:16:41] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/circle4x4.mdl
+[02:16:42] DrtD<STEAM_0:1:19949761> spawned vehicle models/buggy.mdl
+[02:16:49] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[02:17:17] DrtD<STEAM_0:1:19949761> spawned vehicle models/airboat.mdl
+[02:17:24] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/circle4x4.mdl
+[02:17:26] DrtD<STEAM_0:1:19949761> spawned vehicle models/vehicles/prisoner_pod_inner.mdl
+[02:18:44] DrtD was killed by prop_vehicle_prisoner_pod
+[02:18:54] DrtD<STEAM_0:1:19949761> spawned vehicle models/buggy.mdl
+[02:18:56] DrtD<STEAM_0:1:19949761> spawned vehicle models/airboat.mdl
+[02:19:09] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/tube2x2x1.mdl
+[02:19:26] DrtD<STEAM_0:1:19949761> spawned NPC npc_zombie
+[02:19:35] DrtD<STEAM_0:1:19949761> spawned NPC npc_headcrab_black
+[02:20:03] DrtD<STEAM_0:1:19949761> spawned NPC npc_antlionguard
+[02:20:33] DrtD<STEAM_0:1:19949761> spawned NPC npc_barnacle
+[02:20:36] DrtD<STEAM_0:1:19949761> spawned NPC npc_barnacle
+[02:20:51] DrtD<STEAM_0:1:19949761> spawned NPC npc_fastzombie_torso
+[02:21:10] (Console) снял бан с STEAM_0:1:74202541
+[02:21:13] DrtD<STEAM_0:1:19949761> spawned NPC npc_tf2_ghost
+[02:21:14] Client "DidVaitel" connected.
+[02:21:23] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[02:21:25] DrtD<STEAM_0:1:19949761> spawned NPC npc_eli
+[02:21:30] DrtD<STEAM_0:1:19949761> spawned NPC npc_dog
+[02:21:41] DrtD<STEAM_0:1:19949761> spawned NPC npc_gman
+[02:22:02] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate05x075.mdl
+[02:22:02] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/offroad/off-road-20.mdl
+[02:22:02] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/offroad/off-road-20.mdl
+[02:22:02] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/chair_office02.mdl
+[02:22:02] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate025x075.mdl
+[02:22:02] DidVaitel<STEAM_0:1:74202541> spawned model models/mechanics/gears2/bevel_48t1.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate05x1.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/offroad/off-road-20.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/offroad/off-road-20.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x075x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x075x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube125x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube125x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube125x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate025x2.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate2x4.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate1x2.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate05x2.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube2x4x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x2x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube075x2x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x2x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x2x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x3x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x3x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube2x3x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x3x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x3x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube2x3x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x075x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x075x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/triangles/05x05x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/triangles/05x05x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/triangles/05x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/triangles/05x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate05x2.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate05x2.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate025x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube05x105x05.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/metalbucket02a.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/squad/sf_plates/sf_plate1x4.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/dav0r/buttons/button.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/dav0r/buttons/button.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/tubes/tube2x2x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube125x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate05x075.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/items/boxsrounds.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate025x075.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube075x1x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube075x1x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_lab/citizenradio.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/metalbucket01a.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_rooftop/gutter_pipe_256.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x1x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x1x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube125x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x125x025.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_pipes/pipecluster08d_extender64.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/maxofs2d/button_06.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate025x075.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_lab/powerbox02c.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_lab/powerbox02c.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/weapons/w_missile_closed.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/weapons/w_mach_m249para.mdl
+[02:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/wheels/drugster_front.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/wheels/magnetic_large_base.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/maxofs2d/button_05.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/maxofs2d/button_05.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_lab/monitor01b.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_lab/reciever01b.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/metalbucket02a.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/maxofs2d/button_06.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/dav0r/buttons/switch.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x025x025.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x025x025.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/dav0r/thruster.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/dav0r/thruster.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x075x025.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x075x025.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x075x025.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/blocks/cube025x075x025.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/hunter/plates/plate075x1.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_wasteland/laundry_washer003.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:04] DidVaitel<STEAM_0:1:74202541> spawned model models/xeon133/racewheel/race-wheel-30.mdl
+[02:22:18] DrtD<STEAM_0:1:19949761> spawned NPC npc_combinedropship
+[02:22:23] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/tubebend2x2x90.mdl
+[02:22:31] DrtD<STEAM_0:1:19949761> spawned NPC npc_helicopter
+[02:22:31] DidVaitel: /logs
+[02:22:35] FARFUR<STEAM_0:1:34845126> spawned model models/hunter/tubes/tube2x2x1.mdl
+[02:22:37] DidVaitel: /go
+[02:22:54] DidVaitel: /logs
+[02:22:56] DidVaitel: /menu
+[02:23:00] DrtD<STEAM_0:1:19949761> spawned vehicle models/nova/chair_office01.mdl
+[02:23:11] DrtD<STEAM_0:1:19949761> spawned vehicle models/nova/airboat_seat.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel4x4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel4x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel4x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel4x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_wire1x1x2b.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/glass/glass_plate2x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel4x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x2.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_wire1x1x2b.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x2.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_wire_angle360x2.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_panel2x4.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx1.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/chair_wood01.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/chair_wood01.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/chair_wood01.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/chair_wood01.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned vehicle models/nova/airboat_seat.mdl
+[02:23:19] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/wood_crate002a.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/cardboard_box002a.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/wood_crate001a_damaged.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/cardboard_box002b.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_phx/construct/wood/wood_boardx4.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/wood_pallet001a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable003a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/radiator01a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable003a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnitureshelf001a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/wood_pallet001a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituredrawer001a_chunk05.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituredrawer001a_chunk05.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_junk/pushcart01a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituretable002a.mdl
+[02:23:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnituredrawer001a_chunk05.mdl
+[02:23:55] DidVaitel<STEAM_0:1:74202541> spawned model models/props_combine/combine_fence01b.mdl
+[02:23:55] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001_explosive.mdl
+[02:23:55] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/furnitureshelf001a.mdl
+[02:24:43] FARFUR suicided!
+[02:24:53] FARFUR suicided!
+[02:25:07] FARFUR suicided!
+[02:25:11] DrtD<STEAM_0:1:19949761> spawned vehicle models/buggy.mdl
+[02:25:33] DidVaitel was killed by prop_vehicle_jeep
+[02:25:36] Dropped "FARFUR" from server<STEAM_0:1:34845126>
+[02:25:40] Dropped "DrtD" from server<STEAM_0:1:19949761>
+[02:26:52] Client "DrtD" connected.
+[02:27:03] Client "DrtD" spawned in server <STEAM_0:1:19949761> (took 11 seconds).
+[02:28:08] DrtD killed DidVaitel using crossbow_bolt
+[02:28:29] Dropped "DrtD" from server<STEAM_0:1:19949761>
+[02:28:48] Client "DrtD" connected.
+[02:28:59] Client "DrtD" spawned in server <STEAM_0:1:19949761> (took 11 seconds).
+[02:29:10] Dropped "DrtD" from server<STEAM_0:1:19949761>
+[02:40:23] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/fence01b.mdl
+[02:47:12] DidVaitel<STEAM_0:1:74202541> spawned ragdoll models/props_c17/furnituremattress001a.mdl
+[02:53:10] Client "古德里安" connected.
+[02:54:12] Client "古德里安" spawned in server <STEAM_0:1:540636550> (took 62 seconds).
+[02:55:08] 古德里安<STEAM_0:1:540636550> spawned vehicle models/airboat.mdl
+[02:55:14] 古德里安 killed DidVaitel using prop_combine_ball
+[02:55:30] Dropped "古德里安" from server<STEAM_0:1:540636550>
+[05:13:09] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[05:13:09] Client "DidVaitel" connected.
+[05:13:18] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[05:14:23] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[05:14:23] Client "DidVaitel" connected.
+[05:14:32] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[05:17:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[05:17:56] Client "DidVaitel" connected.
+[05:18:05] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[07:48:19] Client "xiaohanbao2010123" connected.
+[07:49:22] Client "xiaohanbao2010123" spawned in server <STEAM_0:0:548898896> (took 63 seconds).
+[07:49:52] DidVaitel was killed by prop_vehicle_jeep
+[07:51:23] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_c17/fence01a.mdl
+[07:51:29] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_c17/fence01a.mdl
+[07:52:42] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_phx/construct/metal_wire_angle180x2.mdl
+[07:52:42] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_phx/construct/metal_wire_angle180x2.mdl
+[07:52:42] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_phx/construct/metal_wire_angle180x2.mdl
+[07:52:42] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_phx/construct/metal_wire_angle180x2.mdl
+[07:52:42] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_phx/construct/metal_wire_angle180x2.mdl
+[07:53:24] xiaohanbao2010123<STEAM_0:0:548898896> spawned model models/props_building_details/storefront_template001a_bars.mdl
+[07:54:09] Dropped "xiaohanbao2010123" from server<STEAM_0:0:548898896>
+[08:08:03] Client "НУ ЧЁ АНИМЕ" connected.
+[08:08:44] Client "НУ ЧЁ АНИМЕ" spawned in server <STEAM_0:0:501075264> (took 41 seconds).
+[08:09:22] НУ ЧЁ АНИМЕ<STEAM_0:0:501075264> spawned model models/props_borealis/borealis_door001a.mdl
+[08:09:42] НУ ЧЁ АНИМЕ<STEAM_0:0:501075264> spawned NPC npc_barnacle
+[08:10:50] Dropped "НУ ЧЁ АНИМЕ" from server<STEAM_0:0:501075264>
+[08:15:46] Client "Zik" connected.
+[08:16:45] Client "Zik" spawned in server <STEAM_0:1:66837290> (took 59 seconds).
+[08:17:20] Zik<STEAM_0:1:66837290> spawned model models/props_lab/blastdoor001c.mdl
+[08:17:23] Zik<STEAM_0:1:66837290> spawned model models/props_lab/blastdoor001c.mdl
+[08:17:42] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a_door.mdl
+[08:17:56] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a_door.mdl
+[08:18:14] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a_door.mdl
+[08:18:26] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a_door.mdl
+[08:18:51] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[08:19:03] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[08:19:09] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/sinkkitchen01a.mdl
+[08:19:10] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[08:19:12] Zik<STEAM_0:1:66837290> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[08:19:52] Zik<STEAM_0:1:66837290> spawned sent ddv_metal_detector
+[08:19:54] Zik<STEAM_0:1:66837290> spawned sent ddv_ration_dispenser
+[08:20:06] Zik<STEAM_0:1:66837290> spawned sent ddv_ration_dispenser
+[08:20:07] Zik<STEAM_0:1:66837290> spawned sent ddv_ration_package
+[08:20:10] Zik<STEAM_0:1:66837290> spawned sent ddv_talking_npc
+[08:20:16] Zik<STEAM_0:1:66837290> spawned NPC npc_monk
+[08:20:17] Zik suicided!
+[08:20:25] Zik<STEAM_0:1:66837290> spawned NPC npc_monk
+[08:20:34] Zik<STEAM_0:1:66837290> spawned vehicle models/tru/yacht_b.mdl
+[08:20:54] Zik<STEAM_0:1:66837290> spawned ragdoll models/roblox/guest_ref.mdl
+[08:21:01] Zik<STEAM_0:1:66837290> spawned ragdoll models/roblox/guest_ref.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/phxtended/bar1x45a.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/phxtended/bar1x45a.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/phxtended/bar1x45a.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/dav0r/tnt/tnt.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/props_phx/misc/potato_launcher_cap.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/props_phx/misc/potato_launcher_cap.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/items/boxsrounds.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/props_phx/misc/potato_launcher_explosive.mdl
+[08:21:09] Zik<STEAM_0:1:66837290> spawned model models/props_phx/misc/potato_launcher_chamber.mdl
+[08:21:43] Dropped "Zik" from server<STEAM_0:1:66837290>
+[10:54:09] Client "TELZH" connected.
+[10:54:47] Client "TELZH" spawned in server <STEAM_0:1:427654288> (took 38 seconds).
+[10:55:40] TELZH was killed by prop_vehicle_prisoner_pod
+[10:57:00] Dropped "TELZH" from server<STEAM_0:1:427654288>
+[11:11:57] Client "WindGrin" connected.
+[11:14:19] Client "WindGrin" connected.
+[12:14:04] Client "kade_foster" connected.
+[12:14:34] Client "kade_foster" spawned in server <STEAM_0:1:79226039> (took 30 seconds).
+[12:16:53] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:54] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:55] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:57] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:57] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:58] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:58] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:58] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:16:58] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:17:03] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_pistol_large
+[12:17:03] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_pistol_large
+[12:17:04] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_pistol_large
+[12:17:04] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_pistol_large
+[12:17:04] kade_foster<STEAM_0:1:79226039> spawned sent item_rpg_round
+[12:17:04] kade_foster<STEAM_0:1:79226039> spawned sent item_rpg_round
+[12:17:04] kade_foster<STEAM_0:1:79226039> spawned sent item_rpg_round
+[12:17:05] kade_foster<STEAM_0:1:79226039> spawned sent item_box_buckshot
+[12:17:05] kade_foster<STEAM_0:1:79226039> spawned sent item_box_buckshot
+[12:17:05] kade_foster<STEAM_0:1:79226039> spawned sent item_box_buckshot
+[12:17:06] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_crossbow
+[12:17:06] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_crossbow
+[12:17:06] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_ar2_altfire
+[12:17:06] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_ar2_altfire
+[12:17:07] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_ar2_altfire
+[12:17:07] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_ar2_large
+[12:17:07] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_ar2_large
+[12:17:07] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_ar2_large
+[12:17:08] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_357_large
+[12:17:08] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_357_large
+[12:17:08] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_357_large
+[12:17:08] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_large
+[12:17:09] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_large
+[12:17:09] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_large
+[12:17:09] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_grenade
+[12:17:09] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_grenade
+[12:17:09] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_grenade
+[12:17:10] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_grenade
+[12:17:10] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_grenade
+[12:17:10] kade_foster<STEAM_0:1:79226039> spawned sent item_ammo_smg1_grenade
+[12:17:12] kade_foster<STEAM_0:1:79226039> spawned sent combine_mine
+[12:17:38] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:17:48] kade_foster<STEAM_0:1:79226039> spawned vehicle models/airboat.mdl
+[12:18:49] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:58] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:20:58] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:58] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:58] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:58] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:59] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:59] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:59] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:20:59] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:21:00] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:21:00] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:21:00] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:21:09] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:24:15] kade_foster<STEAM_0:1:79226039> spawned vehicle models/buggy.mdl
+[12:26:22] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:26:23] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:26:24] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:26:27] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:03] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:05] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:05] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:05] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:06] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:06] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:06] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:06] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:07] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:07] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:07] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:27:07] kade_foster<STEAM_0:1:79226039> spawned sent prop_thumper
+[12:28:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:28:47] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:29:01] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab
+[12:29:16] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie_torso
+[12:29:18] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:29:34] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:35] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:35] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:35] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:35] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:36] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:36] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:36] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:36] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:36] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:37] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:37] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:44] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:45] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:46] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:46] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:46] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:46] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:53] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:29:57] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:06] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:06] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:06] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:06] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:07] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:30:07] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie_torso
+[12:30:07] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie_torso
+[12:30:08] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_fast
+[12:30:08] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:30:08] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie_torso
+[12:30:09] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie_torso
+[12:30:09] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab
+[12:30:09] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:09] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:10] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:10] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:11] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie_torso
+[12:30:12] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:30:17] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:18] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:18] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:20] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:41] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:42] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:30:42] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab
+[12:30:42] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:43] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:43] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:43] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:43] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:44] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:44] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:44] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:44] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:30:54] kade_foster<STEAM_0:1:79226039> spawned vehicle models/airboat.mdl
+[12:31:57] kade_foster<STEAM_0:1:79226039> spawned vehicle models/buggy.mdl
+[12:37:35] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:41:08] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:41:09] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab
+[12:41:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie_torso
+[12:41:23] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:41:25] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:41:25] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:41:25] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:41:25] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:41:25] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:41:26] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:04] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:42:18] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:42:37] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:37] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:37] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:38] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:38] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:38] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:38] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:39] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:39] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:39] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:39] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:42:39] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:43:14] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:43:14] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:43:14] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:43:14] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:43:15] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:43:15] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:44:22] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:45:30] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:30] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:30] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:30] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:32] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:32] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:32] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:32] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:33] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:33] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:33] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:33] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:34] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:34] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:34] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:34] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:34] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:45:35] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:47:03] kade_foster<STEAM_0:1:79226039> spawned sent item_box_buckshot
+[12:47:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_poisonzombie
+[12:47:25] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:49:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:49:58] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:50:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:50:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:50:19] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:50:20] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:50:20] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:51:01] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:51:04] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:51:18] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:51:27] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:51:38] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:51:55] kade_foster was killed by npc_barnacle
+[12:52:12] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:12] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:12] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:13] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:14] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:14] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:14] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:15] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:15] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:52:46] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:52:48] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:53:07] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:53:11] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:53:14] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:53:40] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:53:59] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:03] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:54:17] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab
+[12:54:45] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:46] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:46] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:46] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:46] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:46] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:47] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:47] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:47] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:47] kade_foster<STEAM_0:1:79226039> spawned sent item_battery
+[12:54:53] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:53] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:53] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:53] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:54] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:54:56] kade_foster<STEAM_0:1:79226039> spawned NPC npc_barnacle
+[12:55:11] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:55:20] kade_foster<STEAM_0:1:79226039> spawned NPC npc_zombie
+[12:55:48] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:55:55] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlionguard
+[12:55:59] kade_foster<STEAM_0:1:79226039> spawned NPC npc_antlion
+[12:56:42] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_fast
+[12:56:45] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab
+[12:57:03] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:57:03] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:57:03] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:57:03] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:57:04] kade_foster<STEAM_0:1:79226039> spawned NPC npc_headcrab_black
+[12:57:28] kade_foster<STEAM_0:1:79226039> spawned NPC npc_fastzombie
+[12:58:02] kade_foster<STEAM_0:1:79226039> spawned vehicle models/buggy.mdl
+[12:58:38] Dropped "kade_foster" from server<STEAM_0:1:79226039>
+[13:04:59] Client "Your Favorite Ukrainian" connected.
+[13:05:05] Client "Sasake_hayaso" connected.
+[13:05:33] Client "Sasake_hayaso" spawned in server <STEAM_0:0:203069279> (took 28 seconds).
+[13:05:34] Client "Your Favorite Ukrainian" spawned in server <STEAM_0:1:159951208> (took 35 seconds).
+[13:05:46] Sasake_hayaso<STEAM_0:0:203069279> spawned model models/hunter/blocks/cube8x8x05.mdl
+[13:06:44] Sasake_hayaso<STEAM_0:0:203069279> spawned model models/hunter/blocks/cube6x8x05.mdl
+[13:06:49] Sasake_hayaso<STEAM_0:0:203069279> spawned model models/hunter/plates/plate16x16.mdl
+[13:06:54] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:54] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:54] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:54] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:55] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:55] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:55] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:55] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:55] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:06:55] Your Favorite Ukrainian<STEAM_0:1:159951208> spawned model models/props_lab/blastdoor001c.mdl
+[13:07:21] Dropped "Your Favorite Ukrainian" from server<STEAM_0:1:159951208>
+[13:07:32] Sasake_hayaso suicided!
+[13:09:09] Sasake_hayaso was killed by npc_barnacle
+[13:09:51] Sasake_hayaso<STEAM_0:0:203069279> spawned NPC npc_antlion
+[13:09:54] Sasake_hayaso<STEAM_0:0:203069279> spawned NPC npc_antlionguard
+[13:10:53] Dropped "Sasake_hayaso" from server<STEAM_0:0:203069279>
+[13:46:05] Client "Goga" connected.
+[13:46:34] Client "Goga" spawned in server <STEAM_0:0:145099335> (took 29 seconds).
+[13:50:17] Dropped "Goga" from server<STEAM_0:0:145099335>
+[14:22:51] Client "pustotasnaruzhi" connected.
+[14:23:46] Client "pustotasnaruzhi" spawned in server <STEAM_0:1:123612209> (took 55 seconds).
+[14:24:58] Dropped "pustotasnaruzhi" from server<STEAM_0:1:123612209>
+[15:56:26] DidVaitel<STEAM_0:1:74202541> spawned ragdoll models/props_junk/cardboard_box003a_gib01.mdl
+[15:56:35] DidVaitel<STEAM_0:1:74202541> spawned ragdoll models/props_junk/cardboard_box003a_gib01.mdl
+[15:56:47] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:14] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:15] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:15] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:15] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[15:59:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:11:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:11:17] Server is shutting down/changing levels.
+
+
+
+[16:11:34] New map: gm_flatgrass
+[16:11:37] Client "DidVaitel" connected.
+[16:11:48] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 11 seconds).
+[16:13:30] Client "Nightmare Dilophosaurus" connected.
+[16:14:03] Client "Nightmare Dilophosaurus" spawned in server <STEAM_0:0:183611389> (took 33 seconds).
+[16:14:15] Nightmare Dilophosaurus: hi
+[16:14:23] Nightmare Dilophosaurus<STEAM_0:0:183611389> spawned model models/props_c17/column02a.mdl
+[16:14:26] Nightmare Dilophosaurus<STEAM_0:0:183611389> spawned NPC npc_monk
+[16:14:44] Nightmare Dilophosaurus killed DidVaitel using rpg_missile
+[16:15:05] Dropped "Nightmare Dilophosaurus" from server<STEAM_0:0:183611389>
+[16:20:39] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[16:20:39] Client "DidVaitel" connected.
+[16:20:47] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[16:22:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:25:34] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:28:03] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:28:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:28:39] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:29:02] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:29:12] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:29:28] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:29:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:30:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:30:17] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:06] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:08] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:08] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:10] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:10] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:11] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:12] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:12] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:12] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:12] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:12] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:13] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:13] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:13] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:18] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:20] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:21] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:21] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:21] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:21] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:23] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:31:23] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:32:02] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:32:52] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:33:21] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:33:27] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:34:02] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:34:17] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:34:27] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:34:38] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:34:44] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:35:56] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:36:00] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:36:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:36:08] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:36:13] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:37:14] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:37:35] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:37:47] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:37:54] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:38:16] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:38:26] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:39:30] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:39:45] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:40:34] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:40:46] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:40:59] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:41:00] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:41:14] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:41:17] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:41:27] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[16:42:07] Server is shutting down/changing levels.
+
+
+
+[16:42:38] New map: gm_flatgrass
+[16:43:33] Client "DidVaitel" connected.
+[16:53:26] Client "DidVaitel" connected.
+[16:53:34] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 8 seconds).
+[16:54:00] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+
+
+
+[17:32:40] New map: fm_buildaboat_canal_b15
+[17:39:46] Client "DidVaitel" connected.
+
+
+
+[17:41:46] New map: fm_buildaboat_canal_b15
+[17:42:08] Client "DidVaitel" connected.
+[17:42:20] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 12 seconds).
+[17:46:56] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+
+
+
+[18:13:58] New map: fm_buildaboat_canal_modern_b1
+[18:14:03] Client "DidVaitel" connected.
+[18:14:10] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 7 seconds).
+[18:23:44] DidVaitel was killed by trigger_hurt
+[18:26:27] DidVaitel was killed by trigger_hurt
+[18:29:57] DidVaitel was killed by trigger_hurt
+[18:33:55] DidVaitel was killed by trigger_hurt
+[18:36:21] DidVaitel was killed by trigger_hurt
+[18:45:57] DidVaitel was killed by trigger_hurt
+[18:49:51] DidVaitel was killed by trigger_hurt
+[18:50:24] DidVaitel was killed by trigger_hurt
+[18:53:58] DidVaitel was killed by trigger_hurt
+[18:54:25] DidVaitel was killed by trigger_hurt
+[18:54:52] DidVaitel was killed by trigger_hurt
+[18:58:20] DidVaitel was killed by trigger_hurt
+[18:58:55] DidVaitel was killed by trigger_hurt
+[18:58:58] DidVaitel<STEAM_0:1:74202541> spawned model models/props_docks/dock03_pole01a_256.mdl
+[18:59:04] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[18:59:20] DidVaitel was killed by trigger_hurt
+[19:05:22] DidVaitel was killed by trigger_hurt
+[19:27:58] DidVaitel was killed by trigger_hurt
+[19:28:31] DidVaitel was killed by trigger_hurt
+[19:30:05] DidVaitel suicided!
+[19:30:39] DidVaitel was killed by trigger_hurt
+[19:30:45] DidVaitel suicided!
+[19:30:57] DidVaitel suicided!
+[19:31:24] DidVaitel was killed by trigger_hurt
+[19:33:00] Server is shutting down/changing levels.
+
+
+
+[19:33:14] New map: fm_buildaboat_canal_modern_b1
+[19:34:33] Server is shutting down/changing levels.
+
+
+
+[19:34:36] New map: fm_buildaboat_canal_modern_b1
+[19:35:08] Client "DidVaitel" connected.
+[19:35:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 6 seconds).
+[19:37:34] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/elevatorshaft_door01a.mdl
+[19:37:42] DidVaitel suicided!
+[19:38:56] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[19:38:57] DidVaitel<STEAM_0:1:74202541> spawned model models/props_foliage/tree_poplar_01.mdl
+[19:38:59] DidVaitel<STEAM_0:1:74202541> spawned model models/props_canal/canal_bridge01.mdl
+[19:38:59] DidVaitel<STEAM_0:1:74202541> spawned model models/props_canal/canal_bridge02.mdl
+[19:39:00] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/gravestone001a.mdl
+[19:39:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/gravestone001a.mdl
+[19:39:05] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/gravestone003a.mdl
+[19:44:19] DidVaitel was killed by trigger_hurt
+[19:44:49] DidVaitel suicided!
+[19:49:44] DidVaitel suicided!
+[19:51:23] DidVaitel suicided!
+[19:51:49] DidVaitel was killed by trigger_hurt
+[19:53:03] DidVaitel suicided!
+[19:53:44] DidVaitel suicided!
+[19:54:02] DidVaitel suicided!
+[19:54:29] DidVaitel was killed by trigger_hurt
+[19:54:49] DidVaitel suicided!
+[19:58:42] DidVaitel suicided!
+[20:00:37] DidVaitel suicided!
+[20:01:05] DidVaitel was killed by trigger_hurt
+[20:01:50] DidVaitel was killed by trigger_hurt
+[20:05:18] DidVaitel suicided!
+[20:05:37] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[20:05:38] Client "DidVaitel" connected.
+[20:05:43] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 5 seconds).
+[20:05:54] DidVaitel suicided!
+[20:06:20] DidVaitel was killed by trigger_hurt
+[20:06:53] DidVaitel<STEAM_0:1:74202541> spawned model models/props_docks/dock03_pole01a.mdl
+[20:06:55] DidVaitel<STEAM_0:1:74202541> spawned model models/props_doors/door03_slotted_left.mdl
+[20:06:55] DidVaitel<STEAM_0:1:74202541> spawned model models/props_doors/door03_slotted_left.mdl
+[20:06:58] DidVaitel<STEAM_0:1:74202541> spawned model models/props_interiors/vendingmachinesoda01a.mdl
+[20:07:00] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001.mdl
+[20:07:00] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001.mdl
+[20:07:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001.mdl
+[20:07:07] DidVaitel<STEAM_0:1:74202541> spawned model models/props_c17/oildrum001.mdl
+[20:07:19] DidVaitel suicided!
+[20:08:35] DidVaitel suicided!
+[20:09:09] DidVaitel suicided!
+[20:10:57] DidVaitel suicided!
+[20:11:05] DidVaitel suicided!
+[20:11:40] DidVaitel suicided!
+[20:11:48] DidVaitel suicided!
+[20:11:57] DidVaitel suicided!
+[20:12:03] DidVaitel suicided!
+[20:12:42] DidVaitel suicided!
+[20:13:55] DidVaitel suicided!
+[20:14:22] DidVaitel<STEAM_0:1:74202541> spawned model models/props_citizen_tech/firetrap_button01a.mdl

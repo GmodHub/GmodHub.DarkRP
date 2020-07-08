@@ -1,0 +1,81 @@
+[05:27:31] New map: gm_construct
+[05:29:56] Client "DidVaitel" connected.
+[05:30:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 18 seconds).
+[05:36:57] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[05:36:58] Client "DidVaitel" connected.
+[05:37:10] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 12 seconds).
+[05:49:50] Server is shutting down/changing levels.
+
+
+
+[05:50:02] New map: gm_construct
+[05:50:37] Client "DidVaitel" connected.
+[05:50:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[07:34:44] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[07:34:56] Client "gorb24" connected.
+[07:39:50] Client "DidVaitel" connected.
+[07:39:57] Client "gorb24" spawned in server <STEAM_0:1:181576043> (took 301 seconds).
+[07:40:05] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 15 seconds).
+[07:40:38] DidVaitel: ??
+[07:40:49] DidVaitel killed gorb24 using rpg_missile
+[07:41:08] DidVaitel: !menu
+[07:41:31] Copied IP Address of gorb24
+[07:42:11] gorb24 suicided!
+[07:42:41] gorb24 suicided!
+[07:42:55] gorb24 suicided!
+[07:43:05] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/fence01b.mdl
+[07:43:07] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer001a_chunk06.mdl
+[07:43:08] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer001a_chunk06.mdl
+[07:43:08] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer001a_chunk06.mdl
+[07:43:09] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer001a_chunk06.mdl
+[07:45:43] gorb24 suicided!
+[07:46:16] DidVaitel: use chat
+[07:46:32] DidVaitel: "y" button
+[07:46:44] gorb24: Я РУССКИЙ
+[07:46:47] DidVaitel: а
+[07:46:51] DidVaitel: Понятно
+[07:46:51] gorb24: Н
+[07:47:49] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer002a.mdl
+[07:47:49] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer002a.mdl
+[07:47:49] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer002a.mdl
+[07:47:49] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer002a.mdl
+[07:47:49] gorb24<STEAM_0:1:181576043> spawned model models/props_c17/furnituredrawer002a.mdl
+[07:48:10] Dropped "gorb24" from server<STEAM_0:1:181576043>
+[08:52:59] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[08:55:30] Client "DidVaitel" connected.
+[08:55:46] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 16 seconds).
+[08:55:56] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[08:55:59] Client "DidVaitel" connected.
+[08:59:53] Client "DidVaitel" connected.
+[09:00:03] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[09:16:24] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[09:29:05] Client "DidVaitel" connected.
+[09:29:20] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 15 seconds).
+[09:42:15] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[09:42:33] Client "DidVaitel" connected.
+[09:42:47] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 14 seconds).
+[09:50:07] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[09:50:08] Client "DidVaitel" connected.
+[09:50:17] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[09:56:25] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[09:56:26] Client "DidVaitel" connected.
+[09:56:35] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[10:03:05] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:03:05] Client "DidVaitel" connected.
+[10:03:14] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[10:13:48] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:13:50] Client "DidVaitel" connected.
+[10:13:59] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[10:16:27] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:16:27] Client "DidVaitel" connected.
+[10:16:37] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
+[10:19:16] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:19:17] Client "DidVaitel" connected.
+[10:19:26] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[10:23:00] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
+[10:23:01] Client "DidVaitel" connected.
+[10:23:10] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 9 seconds).
+[12:16:37] Client "Гусеничка" connected.
+[12:17:24] Client "Гусеничка" spawned in server <STEAM_0:0:541031010> (took 47 seconds).
+[12:18:05] Dropped "Гусеничка" from server<STEAM_0:0:541031010>
+[13:27:42] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
