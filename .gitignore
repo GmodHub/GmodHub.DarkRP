@@ -18,3 +18,6 @@ settings/
 *.vpk
 *.rar
 *.zip
+*.cache
+*.rad
+*.inf
