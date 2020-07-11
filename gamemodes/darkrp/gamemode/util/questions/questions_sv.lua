@@ -12,6 +12,10 @@ function rp.question.Create(question, time, uid, callback, hz, recipients)
     net.WriteString(uid)
   net.Send(recipients)
 
+  if isplayer(recipients) then
+    recipients = {recipients}
+  end
+
   rp.question.Queue[uid] = {
     Question = question,
     Expire = time + CurTime(),
