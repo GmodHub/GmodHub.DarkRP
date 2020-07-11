@@ -161,8 +161,7 @@ end)
 // Hooks
 
 hook.Add( "PlayerCanAccessProperty", "PropertyCanAccess", function(pl, ent)
-
-	if IsValid(ent) and ent:IsDoor() and (ent:GetPropertyOwner() == pl) and (ent:GetPos():DistToSqr(pl:GetPos()) < 13225) then return true end
+	if IsValid(ent) and ent:IsDoor() and ((ent:GetPropertyOwner() == pl) or ent:IsPropertyTeamOwned() and table.HasValue(ent:GetPropertyInfo().Teams, pl:Team())) and (ent:GetPos():DistToSqr(pl:GetPos()) < 13225) then return true end
 
 	return false
 end)

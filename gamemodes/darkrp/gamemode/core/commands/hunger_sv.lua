@@ -3,14 +3,14 @@ local math_abs		= math.abs
 local math_clamp	= math.Clamp
 local math_max 		= math.max
 
-timer.Create("HungerUpdate", 5, 0, function()
+timer.Create("HungerUpdate", 10, 0, function()
 	for k, v in ipairs(player.GetAll()) do
 		if IsValid(v) and v:Alive() and (v:GetHunger() <= 0) then
 			local shouldHunger = hook.Call("PlayerHasHunger", nil, v)
 			if (shouldHunger == nil) then shouldHunger = true end
 
 			if (shouldHunger) then
-				v:SetHealth(v:Health() - 7.5)
+				v:SetHealth(v:Health() - 15)
 				v:EmitSound(Sound("vo/npc/male01/moan0" .. math.random(1, 5) .. ".wav"), SNDLVL_45dB)
 				if (v:Health() <= 0) then
 					v:Kill()
@@ -47,9 +47,8 @@ function PLAYER:TakeHunger(amount)
 	self:AddHunger(-math_abs(amount))
 end
 
-rp.AddCommand("buyfood", function(pl, args)
-	if args == "" then return "" end
-	if not rp.Foods[args] then return "" end
+rp.AddCommand("buyfood", function(pl, food)
+	if not rp.Foods[food] then return end
 
 	if pl:GetCount('Food') >= 15 then
 		pl:Notify(NOTIFY_ERROR, term.Get('FoodLimitReached'))
@@ -64,30 +63,28 @@ rp.AddCommand("buyfood", function(pl, args)
 	local tr = util.TraceLine(trace)
 
 	if pl:Team() != TEAM_COOK and team.NumPlayers(TEAM_COOK) > 0 then
-		pl:Notify(NOTIFY_ERROR,  term.Get('ThereIsACook'))
-		return ""
+		pl:Notify(NOTIFY_ERROR, term.Get('ThereIsACook'))
+		return
 	end
-
-	if not rp.Foods[args] then return end
 
 	local cost = 50
 	if pl:CanAfford(cost) then
 		pl:AddMoney(-cost)
 	else
 		pl:Notify(NOTIFY_ERROR,  term.Get('CannotAfford'))
-		return ""
+		return
 	end
 
-	rp.Notify(pl, NOTIFY_GREEN,  term.Get('RPItemBought'), args, rp.FormatMoney(cost))
+	rp.Notify(pl, NOTIFY_GREEN,  term.Get('RPItemBought'), food, rp.FormatMoney(cost))
 
 	local SpawnedFood = ents.Create("spawned_food")
 	SpawnedFood:SetPos(tr.HitPos)
-	SpawnedFood:SetModel(rp.Foods[args].model)
-	SpawnedFood.FoodEnergy = rp.Foods[args].amount
+	SpawnedFood:SetModel(rp.Foods[food].model)
+	SpawnedFood.FoodEnergy = rp.Foods[food].amount
 	SpawnedFood.ItemOwner = pl
 	SpawnedFood:Spawn()
 
 	pl:_AddCount('Food', SpawnedFood)
-	return ""
+	return
 end)
 :AddParam(cmd.STRING)

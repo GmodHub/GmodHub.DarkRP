@@ -10,7 +10,6 @@ local function getFont(name)
 			antialias = true,
 			symbol = (name == 'Webdings')
 		}
-
 		surface.CreateFont('textscreen.' .. name, fd)
 
 		createdFonts[name] = true

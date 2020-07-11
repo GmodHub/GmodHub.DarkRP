@@ -1,4 +1,135 @@
 -- Printers
+
+rp.AddEntity("Power Cable", {
+			ent = "ch_bitminer_power_cable",
+			model = "models/craphead_scripts/bitminers/utility/plug.mdl",
+			price = 150,
+			max = 5,
+			catagory = "Money printing devices",
+			cmd = "/buypowercable",
+			Setowning_ent = true,
+	})
+
+	rp.AddEntity("Generator", {
+			ent = "ch_bitminer_power_generator",
+			model = "models/craphead_scripts/bitminers/power/generator.mdl",
+			price = 1500,
+			max = 4,
+			catagory = "Money printing devices",
+			cmd = "/buypowergenerator",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Solar Panel", {
+			ent = "ch_bitminer_power_solar",
+			model = "models/craphead_scripts/bitminers/power/solar_panel.mdl",
+			price = 3000,
+			max = 2,
+			catagory = "Money printing devices",
+			cmd = "/buysolarpanel",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Power Combiner", {
+			ent = "ch_bitminer_power_combiner",
+			model = "models/craphead_scripts/bitminers/power/power_combiner.mdl",
+			price = 1000,
+			max = 2,
+			catagory = "Money printing devices",
+			cmd = "/buypowercombiner",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Radioisotope Thermoelectric Generator", {
+			ent = "ch_bitminer_power_rtg",
+			model = "models/craphead_scripts/bitminers/power/rtg.mdl",
+			price = 4500,
+			max = 2,
+			catagory = "Money printing devices",
+			cmd = "/buynucleargenerator",
+			Setowning_ent = true,
+	})
+
+	rp.AddEntity("Bitmining Shelf", {
+			ent = "ch_bitminer_shelf",
+			model = "models/craphead_scripts/bitminers/rack/rack.mdl",
+			price = 5000,
+			max = 10,
+			catagory = "Money printing devices",
+			cmd = "/buyminingshelf",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Cooling Upgrade 1", {
+			ent = "ch_bitminer_upgrade_cooling1",
+			model = "models/craphead_scripts/bitminers/utility/cooling_upgrade_1.mdl",
+			price = 3000,
+			max = 10,
+			catagory = "Money printing devices",
+			cmd = "/buycooling1",
+			Setowning_ent = true,
+	})
+
+	rp.AddEntity("Cooling Upgrade 2", {
+			ent = "ch_bitminer_upgrade_cooling2",
+			model = "models/craphead_scripts/bitminers/utility/cooling_upgrade_2.mdl",
+			price = 4000,
+			max = 10,
+			catagory = "Money printing devices",
+			cmd = "/buycooling2",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Cooling Upgrade 3", {
+			ent = "ch_bitminer_upgrade_cooling3",
+			model = "models/craphead_scripts/bitminers/utility/cooling_upgrade_3.mdl",
+			price = 5000,
+			max = 10,
+			catagory = "Money printing devices",
+			cmd = "/buycooling3",
+			Setowning_ent = true,
+	})
+
+	rp.AddEntity("Single Miner", {
+			ent = "ch_bitminer_upgrade_miner",
+			model = "models/craphead_scripts/bitminers/utility/miner_solo.mdl",
+			price = 350,
+			max = 8,
+			catagory = "Money printing devices",
+			cmd = "/buysingleminer",
+			Setowning_ent = true,
+	})
+
+	rp.AddEntity("RGB Kit Upgrade", {
+			ent = "ch_bitminer_upgrade_rgb",
+			model = "models/craphead_scripts/bitminers/utility/rgb_kit.mdl",
+			price = 1000,
+			max = 8,
+			catagory = "Money printing devices",
+			cmd = "/buyrgbkit",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Power Supply Upgrade", {
+			ent = "ch_bitminer_upgrade_ups",
+			model = "models/craphead_scripts/bitminers/utility/ups_solo.mdl",
+			price = 500,
+			max = 8,
+			catagory = "Money printing devices",
+			cmd = "/buyupsupgrade",
+			Setowning_ent = true,
+	})
+
+rp.AddEntity("Fuel", {
+			ent = "ch_bitminer_power_generator_fuel",
+			model = "models/craphead_scripts/bitminers/utility/jerrycan.mdl",
+			price = 500,
+			max = 8,
+			catagory = "Money printing devices",
+			cmd = "/buygeneratorfuel",
+			Setowning_ent = true,
+	})
+// end
 rp.AddEntity('Денежный Принтер',{
 	catagory = 'Money printing devices',
 	ent = 'money_printer',

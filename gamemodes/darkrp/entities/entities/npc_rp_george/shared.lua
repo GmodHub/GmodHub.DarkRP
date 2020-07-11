@@ -5,3 +5,4 @@ ENT.AutomaticFrameAdvance 	= true
 ENT.Spawnable 			 	= true
 ENT.Category 				= 'RP NPCs'
 ENT.PressKeyText 			= 'Talk to Father George'
+ENT.NPCModel          = 'models/monk.mdl'

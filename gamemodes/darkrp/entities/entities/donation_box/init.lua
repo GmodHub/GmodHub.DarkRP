@@ -1,6 +1,5 @@
-AddCSLuaFile("cl_init.lua")
-AddCSLuaFile("shared.lua")
-include("shared.lua")
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 ENT.RemoveOnJobChange = true
 
@@ -10,7 +9,7 @@ function ENT:Initialize()
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
-	
+
 	self:PhysWake()
 
 	self:CPPISetOwner(self.ItemOwner)
@@ -31,7 +30,7 @@ function ENT:Touch(ent)
 	ent.hasMerged = true
 	ent:Remove()
 	self:Setmoney(self:Getmoney() + ent:Getamount())
-	if IsValid(self:Getowning_ent()) then 
+	if IsValid(self:Getowning_ent()) then
 		rp.Notify(self:Getowning_ent(), NOTIFY_GREEN, term.Get('PlayerReceivedDonationBox'), rp.FormatMoney(ent:Getamount()))
 	end
 end

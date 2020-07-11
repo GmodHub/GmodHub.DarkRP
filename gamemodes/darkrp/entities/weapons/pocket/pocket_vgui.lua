@@ -121,7 +121,7 @@ end
 function PANEL:Paint(w, h)
 	surface.SetDrawColor(0, 0, 0, 70)
 	surface.DrawRect(0, 0, w, h)
-
+	//PrintTable(LocalPlayer():GetUpgrades())
 	if (not self.Inspecting) then
 		draw.SimpleText(table.Count(self.Contents) .. '/' .. (LocalPlayer():GetUpgradeCount('pocket_space_2') * 2) + 8 .. ' Items', 'ui.22', ScrW()/2, (self.YPos or (ScrH() * 0.5 -37)) - 5, rp.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
 	end

@@ -1,35 +1,49 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
-include('shared.lua')
+ENT.NPCModel = 'models/Barney.mdl'
 
-util.AddNetworkString('rp.CopshopMenu')
-
-function ENT:Initialize()
-	self:SetModel('models/Barney.mdl')
-
-	self:SetHullType(HULL_HUMAN)
-	self:SetHullSizeNormal()
-	self:SetNPCState(NPC_STATE_SCRIPT)
-	self:SetSolid(SOLID_BBOX)
-	self:CapabilitiesAdd(CAP_ANIMATEDFACE)
-	self:SetUseType(SIMPLE_USE)
-	self:DropToFloor()
-	self:SetCollisionGroup(COLLISION_GROUP_DEBRIS_TRIGGER )
-	self:SetMaxYawSpeed(90)
+function ENT:CanUse(pl)
+	return pl:IsGov()
 end
 
-function ENT:AcceptInput(input, activator, caller)
-	if (input == 'Use') and activator:IsPlayer() and (activator:IsCP() or activator:IsMayor()) then
-		net.Start("rp.npc.PlayerUse")
-		net.WriteEntity(self)
-		net.Send(caller)
+rp.AddCommand('copbuy', function(pl, itemid)
+	if (not pl:IsGov()) then return end
+
+	local exploiter = true
+	for k, v in ipairs(ents.FindInSphere(pl:GetPos(), 200)) do
+		if IsValid(v) and (v:GetClass() == 'npc_rp_copshop') then
+			exploiter = false
+			break
+		end
 	end
-end
 
-hook.Add('InitPostEntity', function()
-	local npc = ents.Create('npc_copshop')
-	npc:SetPos(rp.cfg.CopShops[game.GetMap()].Pos)
-	npc:SetAngles(rp.cfg.CopShops[game.GetMap()].Ang)
-	npc:Spawn()
+	if exploiter then return end
+
+	local item = rp.CopItems[itemid]
+
+	if not pl:CanAfford(item.Price) then
+		pl:Notify(NOTIFY_ERROR, term.Get('CannotAfford'))
+	else
+		pl:Notify(NOTIFY_GENERIC, term.Get('RPItemBought'), item.Name, rp.FormatMoney(item.Price))
+		pl:TakeMoney(item.Price)
+		if item.Weapon then
+			pl:Give(item.Weapon)
+		else
+			item.Callback(pl)
+		end
+
+	end
+end)
+:AddParam(cmd.STRING)
+
+hook.Add("InitPostEntity", "rp.CopShops", function()
+	for k, v in ipairs(rp.cfg.CopShops[game.GetMap()]) do
+		local npc = ents.Create('npc_rp_copshop')
+		npc:SetPos(v.Pos)
+		npc:SetAngles(v.Ang)
+		npc:Spawn()
+		npc:Activate()
+		npc:SetModel(npc.NPCModel)
+	end
 end)

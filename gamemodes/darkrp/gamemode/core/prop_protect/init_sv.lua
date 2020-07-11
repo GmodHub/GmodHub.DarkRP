@@ -135,13 +135,8 @@ end)
 --
 -- Meta functions
 --
-function ENTITY:IsProp()
-	return (self:GetClass() == 'prop_physics')
-end
-
 function ENTITY:CPPISetOwner(pl)
 	self.pp_owner = pl
-//	self:SetNetVar('PropIsOwned', true)
 end
 
 function ENTITY:CPPIGetOwner()

@@ -11,10 +11,18 @@ function ENT:Use(activator, caller, usetype, value)
 
 function ENT:PlayerUse(pl)
 
-	net.Start("rp.EntityUse")
-		net.WriteEntity(self)
-	net.Send(pl)
+	if self.NetworkPlayerUse then
+		net.Start("rp.EntityUse")
+			net.WriteEntity(self)
+		net.Send(pl)
+	else
+		self:CustomUse(pl)
+	end
 
+end
+
+function ENT:CustomUse(pl)
+	return true
 end
 
 function ENT:CanUse(pl)
@@ -27,7 +35,7 @@ end
 
 function ENT:OnTakeDamage(dmg)
 	if self.MaxHealth then
-		self.MaxHealth = self.MaxHealth - (dmg:GetDamage() * 0.5)
+		self.MaxHealth = self.MaxHealth - (dmg:GetDamage() * self.DamageScale)
 		if (self.MaxHealth <= 0) then
 			if self.ExplodeOnRemove then
 				self:Explode()
@@ -50,3 +58,24 @@ function ENT:Explode()
 	effectdata:SetScale(1)
 	util.Effect('Explosion', effectdata)
 end
+
+rp.AddCommand("price", function(pl, amount)
+
+	local tr = util.TraceLine({
+		start = pl:EyePos(),
+		endpos = pl:EyePos() + pl:GetAimVector() * 85,
+		filter = pl
+	})
+
+	if not IsValid(tr.Entity) then rp.Notify(pl, NOTIFY_ERROR, term.Get('LookAtEntity')) return end
+
+	if IsValid(tr.Entity) and tr.Entity.MaxPrice and (tr.Entity.ItemOwner == pl) then
+		tr.Entity:Setprice(math.Clamp(amount, tr.Entity.MinPrice, tr.Entity.MaxPrice))
+	else
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('CannotSetPrice'))
+	end
+
+	return
+end)
+:AddParam(cmd.NUMBER)
+:AddAlias("setprice")

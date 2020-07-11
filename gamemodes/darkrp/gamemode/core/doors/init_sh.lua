@@ -75,9 +75,9 @@ local function setupDoors()
 
 			if (SERVER) then
 				local ent = ents.GetMapCreatedEntity(v)
-				print(ent)
-				rp.doors.EntMap[data.NetworkID][#rp.doors.EntMap[data.NetworkID] + 1] = ent
 
+				rp.doors.EntMap[data.NetworkID][#rp.doors.EntMap[data.NetworkID] + 1] = ent
+				print(v)
 				ent:DoorLock(data.Locked == true)
 
 				ent:SetNetVar('DoorID', v)
@@ -93,7 +93,7 @@ local function setupDoors()
 end
 hook.Add('InitPostEntity', 'rp.doors.Setup', setupDoors)
 if rp.doors.HasSetup then setupDoors() end
-
+setupDoors()
 -- individual
 local doorClasses = {
 	['func_door'] = true,

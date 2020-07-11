@@ -1,5 +1,5 @@
 local info = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		MaxSlots = 128,
 		ServerIP = 'rp.gmodhub.com',
 		AltServerIP = 'rp.gmodhub.com',

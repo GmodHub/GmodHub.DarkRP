@@ -1,0 +1,470 @@
+L 07/09/2020 - 18:02:04: Log file started (file "logs\L0709022.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/09/2020 - 18:02:04: server_cvar: "sv_alltalk" "3"
+L 07/09/2020 - 18:02:04: server_cvar: "sv_airaccelerate" "100"
+L 07/09/2020 - 18:02:05: Connection to Steam servers successful.
+L 07/09/2020 - 18:02:05:    Public IP is 31.130.42.26.
+L 07/09/2020 - 18:02:05: Assigned anonymous gameserver Steam ID [A-1:2737906696(15119)].
+L 07/09/2020 - 18:02:06: VAC secure mode is activated.
+L 07/09/2020 - 18:02:09: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/09/2020 - 18:02:10: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.39:27006"
+L 07/09/2020 - 18:02:10: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/09/2020 - 18:02:10: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/09/2020 - 18:02:24: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 07/09/2020 - 18:02:24: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot01<4><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot01<4><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot02<5><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot02<5><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot03<6><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot03<6><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot04<7><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot04<7><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot05<8><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot05<8><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot06<9><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot06<9><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot07<10><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot07<10><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot08<11><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot08<11><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot09<12><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot09<12><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot10<13><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot10<13><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot11<14><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot11<14><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot12<15><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot12<15><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot13<16><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot13<16><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot14<17><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot14<17><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot15<18><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot15<18><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot16<19><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot16<19><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot17<20><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot17<20><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot18<21><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot18<21><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot19<22><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot19<22><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot20<23><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot20<23><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot21<24><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot21<24><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot22<25><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot22<25><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot23<26><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot23<26><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot24<27><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot24<27><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot25<28><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot25<28><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot26<29><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot26<29><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot27<30><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot27<30><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot28<31><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot28<31><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot29<32><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot29<32><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot30<33><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot30<33><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot31<34><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot31<34><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot32<35><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot32<35><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot33<36><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot33<36><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot34<37><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot34<37><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot35<38><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot35<38><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot36<39><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot36<39><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot37<40><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot37<40><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot38<41><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot38<41><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot39<42><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot39<42><BOT><>" entered the game
+L 07/09/2020 - 18:03:21: "Bot40<43><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:21: "Bot40<43><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot41<44><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot41<44><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot42<45><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot42<45><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot43<46><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot43<46><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot44<47><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot44<47><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot45<48><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot45<48><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot46<49><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot46<49><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot47<50><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot47<50><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot48<51><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot48<51><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot49<52><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot49<52><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot50<53><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot50<53><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot51<54><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot51<54><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot52<55><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot52<55><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot53<56><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot53<56><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot54<57><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot54<57><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot55<58><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot55<58><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot56<59><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot56<59><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot57<60><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot57<60><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot58<61><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot58<61><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot59<62><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot59<62><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot60<63><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot60<63><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot61<64><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot61<64><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot62<65><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot62<65><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot63<66><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot63<66><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot64<67><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot64<67><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot65<68><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot65<68><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot66<69><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot66<69><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot67<70><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot67<70><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot68<71><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot68<71><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot69<72><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot69<72><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot70<73><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot70<73><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot71<74><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot71<74><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot72<75><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot72<75><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot73<76><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot73<76><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot74<77><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot74<77><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot75<78><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot75<78><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot76<79><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot76<79><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot77<80><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot77<80><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot78<81><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot78<81><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot79<82><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot79<82><BOT><>" entered the game
+L 07/09/2020 - 18:03:55: "Bot80<83><BOT><>" connected, address "none"
+L 07/09/2020 - 18:03:55: "Bot80<83><BOT><>" entered the game
+L 07/09/2020 - 18:10:09: "Bot01<4><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot02<5><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot03<6><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot04<7><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot05<8><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot06<9><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot07<10><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot08<11><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot09<12><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot10<13><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot11<14><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot12<15><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot13<16><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot14<17><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot15<18><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot16<19><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot17<20><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot18<21><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot19<22><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot20<23><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot21<24><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot22<25><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot23<26><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot24<27><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot25<28><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot26<29><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot27<30><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot28<31><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot29<32><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot30<33><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot31<34><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot32<35><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot33<36><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot34<37><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot35<38><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot36<39><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot37<40><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot38<41><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot39<42><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot40<43><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot41<44><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot42<45><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot43<46><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot44<47><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot45<48><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot46<49><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot47<50><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot48<51><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot49<52><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot50<53><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot51<54><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot52<55><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot53<56><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot54<57><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot55<58><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot56<59><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot57<60><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot58<61><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot59<62><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot60<63><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot61<64><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot62<65><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot63<66><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot64<67><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot65<68><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot66<69><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot67<70><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot68<71><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot69<72><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot70<73><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot71<74><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot72<75><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot73<76><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot74<77><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot75<78><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot76<79><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot77<80><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot78<81><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot79<82><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:10:09: "Bot80<83><BOT><>" disconnected (reason "No reason given")
+L 07/09/2020 - 18:12:20: "Bot81<84><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot81<84><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot82<85><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot82<85><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot83<86><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot83<86><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot84<87><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot84<87><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot85<88><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot85<88><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot86<89><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot86<89><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot87<90><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot87<90><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot88<91><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot88<91><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot89<92><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot89<92><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot90<93><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot90<93><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot91<94><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot91<94><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot92<95><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot92<95><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot93<96><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot93<96><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot94<97><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot94<97><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot95<98><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot95<98><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot96<99><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot96<99><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot97<100><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot97<100><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot98<101><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot98<101><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot99<102><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot99<102><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot100<103><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot100<103><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot101<104><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot101<104><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot102<105><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot102<105><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot103<106><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot103<106><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot104<107><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot104<107><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot105<108><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot105<108><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot106<109><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot106<109><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot107<110><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot107<110><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot108<111><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot108<111><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot109<112><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot109<112><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot110<113><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot110<113><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot111<114><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot111<114><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot112<115><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot112<115><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot113<116><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot113<116><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot114<117><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot114<117><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot115<118><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot115<118><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot116<119><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot116<119><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot117<120><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot117<120><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot118<121><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot118<121><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot119<122><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot119<122><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot120<123><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot120<123><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot121<124><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot121<124><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot122<125><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot122<125><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot123<126><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot123<126><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot124<127><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot124<127><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot125<128><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot125<128><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot126<129><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot126<129><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot127<130><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot127<130><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot128<131><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot128<131><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot129<132><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot129<132><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot130<133><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot130<133><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot131<134><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot131<134><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot132<135><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot132<135><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot133<136><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot133<136><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot134<137><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot134<137><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot135<138><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot135<138><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot136<139><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot136<139><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot137<140><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot137<140><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot138<141><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot138<141><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot139<142><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot139<142><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot140<143><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot140<143><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot141<144><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot141<144><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot142<145><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot142<145><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot143<146><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot143<146><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot144<147><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot144<147><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot145<148><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot145<148><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot146<149><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot146<149><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot147<150><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot147<150><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot148<151><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot148<151><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot149<152><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot149<152><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot150<153><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot150<153><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot151<154><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot151<154><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot152<155><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot152<155><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot153<156><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot153<156><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot154<157><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot154<157><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot155<158><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot155<158><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot156<159><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot156<159><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot157<160><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot157<160><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot158<161><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot158<161><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot159<162><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot159<162><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot160<163><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot160<163><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot161<164><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot161<164><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot162<165><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot162<165><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot163<166><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot163<166><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot164<167><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot164<167><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot165<168><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot165<168><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot166<169><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot166<169><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot167<170><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot167<170><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot168<171><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot168<171><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot169<172><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot169<172><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot170<173><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot170<173><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot171<174><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot171<174><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot172<175><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot172<175><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot173<176><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot173<176><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot174<177><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot174<177><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot175<178><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot175<178><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot176<179><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot176<179><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot177<180><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot177<180><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot178<181><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot178<181><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot179<182><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot179<182><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot180<183><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot180<183><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot181<184><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot181<184><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot182<185><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot182<185><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot183<186><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot183<186><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot184<187><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot184<187><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot185<188><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot185<188><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot186<189><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot186<189><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot187<190><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot187<190><BOT><>" entered the game
+L 07/09/2020 - 18:12:20: "Bot188<191><BOT><>" connected, address "none"
+L 07/09/2020 - 18:12:20: "Bot188<191><BOT><>" entered the game
+L

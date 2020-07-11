@@ -150,7 +150,7 @@ rp.cfg.JailHoleModels =  {
 }
 
 rp.cfg.MayorMachines = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
 			Pos = Vector(-1024, 5975, 144),
 			Ang = Angle(0, -180, 0),
@@ -160,17 +160,17 @@ rp.cfg.MayorMachines = {
 
 -- Bail Machine
 rp.cfg.BailMachines = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
-			Pos = Vector(2660, 2656, 72),
-			Ang = Angle(0, 180, 0),
+			Pos = Vector(-1572.730713, -109.968750, -95.968750),
+			Ang = Angle(0, 90, 0),
 		},
 	}
 }
 
 -- Genome Machine
 rp.cfg.GenomeMachines = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
 			Pos = Vector(-2734.943115, -644.524536, -116.911385),
 			Ang = Angle(0, 90, 0)
@@ -180,17 +180,17 @@ rp.cfg.GenomeMachines = {
 
 -- Cop shops
 rp.cfg.CopShops = {
-	rp_bangclaw_pc = {
-		Pos = Vector(3001, 2797, 72),
+	rp_bangclaw = {
+		Pos = Vector(-1974, 328, -95),
 		Ang = Angle(0, 0, 0),
 	}
 }
 
 -- Drug buyers
 rp.cfg.DrugBuyers = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
-			Pos = Vector(-3464.186035, -1154.857422, -188.242416),
+			Pos = Vector(3503, 6643, -196),
 			Ang = Angle(0, 180, 0),
 		},
 		{
@@ -209,23 +209,23 @@ rp.cfg.DrugBuyers = {
 }
 
 rp.cfg.GunBuyers = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
-			Pos = Vector(-1050, 3320, 848),
-			Ang = Angle(0, 0, 0),
+			Pos = Vector(-556, 195, -130),
+			Ang = Angle(0, 90, 0),
 		},
 		{
-			Pos = Vector(-2176, -717, 680),
-			Ang = Angle(0, 43, 0),
+			Pos = Vector(5860, 1006, -208),
+			Ang = Angle(0, 138, 0),
 		}
 	},
 }
 
 rp.cfg.KarmaSellers = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
-			Pos = Vector(3947.122070, 137.946671, 664.031250),
-			Ang = Angle(0.000, 180, 0.000),
+			Pos = Vector(2005, 910, -130),
+			Ang = Angle(0, -1, 0),
 		}
 	},
 }
@@ -245,11 +245,11 @@ rp.cfg.SpawnDisallow = {
 }
 
 rp.cfg.Spawns = {
-	rp_bangclaw_pc = {
-		InitSpawn = Vector(-2781, 2348, 64),
+	rp_bangclaw = {
+		InitSpawn = Vector(29, -2731, 143),
 		{ -- Main Area
-			Vector(-2544, 2207, 190),
-			Vector(-3004, 2511, -200)
+			Vector(-172, -3069, 39),
+			Vector(999, -2501, 397)
 		}
 	}
 }
@@ -259,8 +259,21 @@ rp.cfg.TeamSpawns = rp.cfg.TeamSpawns or {
 }
 
 rp.cfg.SpawnPos = rp.cfg.SpawnPos or {
-	rp_bangclaw_pc = {
-		Vector(-2855, 2404, 64)
+	rp_bangclaw = {
+		Vector(166, -2678, 72),
+		Vector(165, -2813, 72),
+		Vector(98, -2911, 72),
+		Vector(4, -2648, 72),
+		Vector(-5, -2505, 72),
+		Vector(169, -2506, 72),
+		Vector(252, -2702, 72),
+		Vector(-35, -2800, 72),
+		Vector(-96, -2612, 72),
+		Vector(-30, -2503, 72),
+		Vector(39, -2980, 72),
+		Vector(182, -2989, 72),
+		Vector(274, -2989, 72),
+		Vector(245, -2863, 72),
 	}
 }
 
@@ -271,22 +284,24 @@ rp.cfg.ArrestTime	 	= 300
 rp.cfg.BailCostPerMin 	= 1500
 
 rp.cfg.Jails = {
-	rp_bangclaw_pc = {
-		Vector(-3055, -215, -160),
-		Vector(-2184, 431, 120),
+	rp_bangclaw = {
+		Vector(-2505, 374, -162),
+		Vector(-1999, 1110, 253)
 	},
 }
 
 rp.cfg.JailPos = {
-	rp_bangclaw_pc = {
-		Vector(3253, 862, 368),
-		Vector(3427, 845, 368),
-		Vector(3041, 761, 368),
+	rp_bangclaw = {
+		Vector(-2370, 474, -160),
+		Vector(-2206, 498, -160),
+		Vector(-2078, 995, -160),
+		Vector(-2265, 985, -160),
+		Vector(-2415, 995, -160)
 	}
 }
 
 rp.cfg.ArmorLabs = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
 			Pos = Vector(-2466, -449, -93),
 			Ang = Angle(0, -90, 0),
@@ -299,7 +314,7 @@ rp.cfg.ArmorLabs = {
 }
 
 rp.cfg.PrinterPlates = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		{
 			Pos = Vector(-3246.630127, -53.906345, -5.523953),
 			Ang = Angle(0.000, 0.008, 0.039),
@@ -342,37 +357,37 @@ rp.cfg.PrinterPlates = {
 
 -- Theater
 rp.cfg.Theaters = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		Screen = {
-			Pos = Vector(-1570.176514, 2094.828857, 892.312744),
-			Ang = Angle(90.000, 90.000, 180.000),
+			Pos = Vector(-1777.357422, 2120.142334, -132.731308),
+			Ang = Angle(0, -90, 0),
 			Scale = 0.5
 		},
 		Projector = {
-			Pos = Vector(-1709.957886, 1965.251953, 584.927490),
-			Ang = Angle(-0.000, 0.000, -0.000),
+			Pos = Vector(-1832.160889, 1624.782959, 35.414860),
+			Ang = Angle(0, 90, 0),
 		},
 	}
 }
 
 -- Dumpsters
 rp.cfg.Dumpsters = {
-	rp_bangclaw_pc = {
-		{Vector(-389.778839, 221.162598, -176.362213), Angle(0, 90, 0)},
-		{Vector(-332.925293, -1845.017700, -167.059799), Angle(0, -90, 0)},
-		{Vector(100.398178, -537.862976, -328.837555), Angle(0, 90, 0)},
-		{Vector(1837.878784, -2176.435791, -137.308685), Angle(0, 180, 0)},
-		{Vector(3157.210205, -4088.391357, -168.251709), Angle(0, -90, 0)},
-		{Vector(2434.402344, 3252.316895, -169.308685), Angle(0, 0, 0)},
-		{Vector(2149.900146, 2078.684326, -169.308685), Angle(0, -180, 0)},
-		{Vector(-3899.934326, -1634.866089, -164.099747), Angle(0, 90, 0)},
-		{Vector(-216.953705, 2953.134033, -164.346542), Angle(0, 90, 0)},
+	rp_bangclaw = {
+		{Vector(-391.153748, 179.041397, -170), Angle(0, 90, 0)},
+		{Vector(2138.756348, 3734.005859, -170), Angle(0, 90, 0)},
+		{Vector(-1710.179688, -391.849091, -170), Angle(0, 90, 0)},
+		{Vector(-1745.191162, -2764.980957, -170), Angle(0, 90, 0)},
+		{Vector(-1360.241455, -7057.076172, -170), Angle(0, -90, 0)},
+		{Vector(2275.526367, -2356.740479, -170), Angle(0, -90, 0)},
+		{Vector(1243.700439, 6467.708008, -170), Angle(0, 90, 0)},
+		{Vector(3490.085938, 7523.479492, -170), Angle(0, 180, 0)},
+		{Vector(-4487.857910, 2833.513428, -180), Angle(0, 0, 0)},
 	}
 }
 
 -- Kombat
 rp.cfg.KombatRoom = {
-	rp_bangclaw_pc = {
+	rp_bangclaw = {
 		Vector(-5244, -2140, -1247),
 		Vector(-4294, -1187, -640),
 	},
@@ -448,7 +463,6 @@ rp.cfg.Screens = {
 		}
 	}
 }
-rp.cfg.Screens['rp_sundown_rc5a'] = rp.cfg.Screens['rp_danktown_rc5a']
 
 
 -- Chairs

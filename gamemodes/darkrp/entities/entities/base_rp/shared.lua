@@ -4,7 +4,7 @@ ENT.Category 			= 'RP'
 ENT.Spawnable			= false
 
 --[[
-ENT.RemoceOnDisconnect 	= false
+ENT.RemoveOnDisconnect 	= false
 ENT.RemoveDelay 		= 300
 
 ENT.RemoveOnJobChange 	= false

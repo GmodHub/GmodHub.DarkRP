@@ -87,6 +87,7 @@ end
 -- Commands
 rp.AddCommand('911', function(pl, text)
   chat.Send('911', pl, text)
+	pl:SetNetVar('911CallReason', text)
 end)
 :AddParam(cmd.STRING)
 :SetCooldown(1.5)

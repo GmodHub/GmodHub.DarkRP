@@ -46,23 +46,6 @@ local TargetVoices = {
 	"vo/npc/male01/moan05.wav"
 }
 
-function GiveSTD(player)
-	if !IsValid(player) then return end
-	player:Timer("PlayerHasSTD", 1.5, 0, function()
-		player:SetHealth(player:Health() - 5)
-		player:EmitSound(TargetVoices[math.random(1, #TargetVoices)], 500, 100)
-		if player:Health() <= 0 then
-			player:Kill()
-			player:DestroyTimer("PlayerHasSTD")
-		end
-	end)
-end
-
-function CureSTD(player)
-	if !IsValid(player) then return end
-	player:DestroyTimer("PlayerHasSTD")
-end
-
 local function RapePlayer(pl)
 	local Target = pl:GetEyeTrace().Entity
 

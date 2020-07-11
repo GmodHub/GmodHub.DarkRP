@@ -15,14 +15,15 @@ function ENT:Initialize()
 	self:PhysWake()
 end
 
-function ENT:Use(pl)
+function ENT:CustomUse(pl)
 	local tbl = {}
-	for k, v in ipairs(player.GetAll()) do 
-		if v:IsArrested() then
-			tbl[#tbl + 1] = v
+
+	for k, v in ipairs(rp.ArrestedPlayers) do
+		if v then
+			tbl[#tbl + 1] = player.GetBySteamID64(k)
 		end
 	end
-	
+
 	net.Start('rp.OpenBail')
 		net.WriteUInt(#tbl, 8)
 		for k, v in ipairs(tbl) do
@@ -32,7 +33,7 @@ function ENT:Use(pl)
 	net.Send(pl)
 end
 
-rp.AddCommand('bail', function(pl, text, args)
+rp.AddCommand('bail', function(pl, t)
 	local exploiter = true
 	for k, v in ipairs(ents.FindInSphere(pl:GetPos(), 200)) do
 		if IsValid(v) and (v:GetClass() == 'bail_machine') then
@@ -43,7 +44,6 @@ rp.AddCommand('bail', function(pl, text, args)
 
 	if exploiter then return end
 
-	local t = rp.FindPlayer(args[1])
 	if (not IsValid(t)) or (not t:IsArrested()) then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerNotInJail'), t)
 		return
@@ -66,9 +66,10 @@ rp.AddCommand('bail', function(pl, text, args)
 		hook.Call('PlayerBailPlayer', nil, pl, t, cost)
 	end
 end)
+:AddParam(cmd.PLAYER_ENTITY)
 
 hook.Add("InitPostEntity", "Bail", function()
-	for k, v in ipairs(rp.cfg.BailMachines[game.GetMap()]) do
+	for k, v in pairs(rp.cfg.BailMachines[game.GetMap()]) do
 		local ent = ents.Create("bail_machine")
 		ent:SetPos(v.Pos)
 		ent:SetAngles(v.Ang)

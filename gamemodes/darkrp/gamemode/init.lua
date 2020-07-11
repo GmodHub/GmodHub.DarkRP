@@ -4,7 +4,7 @@ include 'sh_init.lua'
 
 resource.AddFile 'sound/physics/flesh/flesh_break1.wav'
 
-/*
+
 hook("Initialize", "serversecure initialization", function()
 	require("serversecure")
 
@@ -27,25 +27,23 @@ hook("Initialize", "serversecure initialization", function()
 	--serversecure.SetMaxQueriesPerSecond(1) -- maximum queries per second from a single IP (default is 1 per second)
 	--serversecure.SetGlobalMaxQueriesPerSecond(50) -- maximum total queries per second (default is 60 per second)
 
-	--serversecure.RefreshInfoCache()
+	serversecure.RefreshInfoCache()
 end)
-
+/*
 local highestcount = 0
 timer.Create('PlayerStatCache', 10, 0, function()
-	if serversecure and (#player.GetAll() > highestcount) then
-		highestcount = #player.GetAll()
+	local plamount = player.GetCount()
+	if serversecure and (plamount > highestcount) then
+		highestcount = plamount
 		print('serversecure: buffing stats')
 		serversecure.RefreshInfoCache()
 	end
 end)
 
-concommand.Add('ref', function(p) if (not p:IsPlayer()) or p:IsRoot() then serversecure.RefreshInfoCache() highestcount = #player.GetAll() end end)
+concommand.Add('ref', function(p) if (not p:IsPlayer()) or p:IsRoot() then serversecure.RefreshInfoCache() highestcount = player.GetCount() end end)
 concommand.Add('cacheon', function(p) if (not p:IsPlayer()) or p:IsRoot() then serversecure.EnableThreadedSocket(true) serversecure.EnablePacketValidation(true) serversecure.EnableInfoCache(true) serversecure.SetInfoCacheTime(999999) serversecure.RefreshInfoCache() end end)
 concommand.Add('cacheoff', function(p) if (not p:IsPlayer()) or p:IsRoot() then serversecure.EnableThreadedSocket(false) serversecure.EnablePacketValidation(false) serversecure.EnableInfoCache(false) end end)
 */
-
-resource.AddDir 'materials/mk/os/'
-resource.AddDir 'materials/mk/hud/'
 
 local t = {
 		robot = 	ACT_GMOD_GESTURE_TAUNT_ZOMBIE,

@@ -1,7 +1,7 @@
 -- We don't use these so lets reduce the overhead of calling them instead of making them empty!
 timer.Simple(0.5, function()
 	local GM = GAMEMODE
-	/*GM.HUDDrawTargetID 					= nil
+	GM.HUDDrawTargetID 					= nil
 	GM.DrawDeathNotice 					= nil
 	GM.PreRender 						= nil
 	GM.RenderScene 						= nil
@@ -23,7 +23,7 @@ timer.Simple(0.5, function()
 	GM.HUDPaintBackground 				= nil
 	GM.HUDDrawScoreBoard 				= nil
 	GM.PostRenderVGUI 					= nil
-	GM.PostRender 						= nil*/
+	GM.PostRender 						= nil
 end)
 
 

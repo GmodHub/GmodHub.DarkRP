@@ -1,31 +1,7 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
-include('shared.lua')
-
-
-function ENT:Initialize()
-	self:SetModel('models/Humans/Group01/male_03.mdl')
-
-	self:SetHullType(HULL_HUMAN)
-	self:SetHullSizeNormal()
-	self:SetNPCState(NPC_STATE_SCRIPT)
-	self:SetSolid(SOLID_BBOX)
-	self:CapabilitiesAdd(CAP_ANIMATEDFACE)
-	self:DropToFloor()
-	self:SetCollisionGroup(COLLISION_GROUP_DEBRIS_TRIGGER)
-	self:SetMaxYawSpeed(90)
-
-	self:SetTrigger(true)
-end
-
-function ENT:AcceptInput(input, activator, caller)
-	if (input == 'Use') and activator:IsPlayer() and (activator:IsCP() or activator:IsMayor()) then
-		net.Start("rp.npc.PlayerUse")
-		net.WriteEntity(self)
-		net.Send(caller)
-	end
-end
+ENT.NPCModel = 'models/Humans/Group01/male_03.mdl'
 
 function ENT:StartTouch(ent)
 	local owner = ent.DrugOwner
@@ -53,9 +29,13 @@ hook.Add('GravGunOnDropped', 'rp.drugbuyer.GravGunOnDropped', function(pl, ent)
 	end
 end)
 
-hook.Add('InitPostEntity', 'rp.drugbuyer.InitPostEntity', function()
-	local npc = ents.Create('npc_jerome')
-	npc:SetPos(rp.cfg.DrugBuyers[game.GetMap()].Pos)
-	npc:SetAngles(rp.cfg.DrugBuyers[game.GetMap()].Ang)
-	npc:Spawn()
+hook.Add("InitPostEntity", "rp.DrugBuyers", function()
+	for k, v in ipairs(rp.cfg.DrugBuyers[game.GetMap()]) do
+		local npc = ents.Create('npc_rp_jerome')
+		npc:SetPos(v.Pos)
+		npc:SetAngles(v.Ang)
+		npc:Spawn()
+		npc:Activate()
+		npc:SetModel(npc.NPCModel)
+	end
 end)

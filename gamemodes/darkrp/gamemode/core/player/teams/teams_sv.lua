@@ -104,7 +104,7 @@ end)
 :AddParam(cmd.NUMBER)
 :AddParam(cmd.NUMBER)
 
-rp.AddCommand('undisguise', function(pl, text, args)
+rp.AddCommand('undisguise', function(pl)
 
 	if pl:IsDisguised() then
 		pl:UnDisguise()
@@ -177,3 +177,141 @@ rp.AddCommand('quitjob', function(pl, text, args)
 	pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
 	pl:SetNetVar('Employer', nil)
 end)
+
+rp.AddCommand('agenda', function(pl, text, args)
+	if rp.agendas[pl:Team()] and (rp.agendas[pl:Team()].manager == pl:Team()) then
+		nw.SetGlobal('Agenda;' .. pl:Team(), text)
+	else
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('IncorrectJob'))
+	end
+	return
+end)
+
+local function ChangeJob(ply, args)
+	if args == "" then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('InvalidArg'))
+		return ""
+	end
+
+	if ply:IsArrested() then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotJob'))
+		return ""
+	end
+
+	if ply.LastJob and 10 - (CurTime() - ply.LastJob) >= 0 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('NeedToWait'), math.ceil(10 - (CurTime() - ply.LastJob)))
+		return ""
+	end
+	ply.LastJob = CurTime()
+
+	if not ply:Alive() then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotJob'))
+		return ""
+	end
+
+	local len = string.len(args)
+
+	if len < 3 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLenShort'), 2)
+		return ""
+	end
+
+	if len > 25 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLenLong'), 26)
+		return ""
+	end
+
+	local canChangeJob, message, replace = hook.Call("canChangeJob", nil, ply, args)
+	if canChangeJob == false then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotJob'))
+		return ""
+	end
+
+	local job = replace or args
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), ply, (string.match(job, '^h?[AaEeIiOoUu]') and 'an' or 'a'), job)
+
+	ply:SetNetVar('job', job)
+	return ""
+end
+rp.AddCommand("job", ChangeJob)
+:AddParam(cmd.STRING)
+
+
+local function FinishDemote(vote, choice)
+	local target = vote.target
+
+	target.IsBeingDemoted = nil
+	if choice == 1 then
+		target:TeamBan()
+		if target:Alive() then
+			target:ChangeTeam(rp.DefaultTeam, true)
+		else
+			target.demotedWhileDead = true
+		end
+
+		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerDemoted'), target)
+	else
+		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerNotDemoted'), target)
+	end
+end
+
+local function Demote(ply, args)
+	local tableargs = string.Explode(" ", args)
+	if #tableargs == 1 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('DemotionReason'))
+		return ""
+	end
+	local reason = ""
+	for i = 2, #tableargs, 1 do
+		reason = reason .. " " .. tableargs[i]
+	end
+	reason = string.sub(reason, 2)
+	if string.len(reason) > 99 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('DemoteReasonLong'), 100)
+		return ""
+	end
+	local p = rp.FindPlayer(tableargs[1])
+	if p == ply then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('DemoteSelf'))
+		return ""
+	end
+
+	local canDemote, message = hook.Call("CanDemote", GAMEMODE, ply, p, reason)
+	if canDemote == false then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
+		return ""
+	end
+
+	if p then
+		if ply:GetTable().LastVoteCop and CurTime() - ply:GetTable().LastVoteCop < 80 then
+			rp.Notify(ply, NOTIFY_ERROR, term.Get('NeedToWait'),  math.ceil(80 - (CurTime() - ply:GetTable().LastVoteCop)))
+			return ""
+		end
+		if not rp.teams[p:Team()] or rp.teams[p:Team()].candemote == false then
+			rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
+		else
+			rp.Chat(CHAT_NONE, p, colors.Yellow, '[DEMOTE] ', ply, 'I want to demote you. Reason: ' .. reason)
+
+			rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)
+			p.IsBeingDemoted = true
+
+			hook.Call('playerDemotePlayer', GAMEMODE, ply, p, reason)
+
+			GAMEMODE.vote:create(p:Nick() .. ":\nDemotion nominee:\n"..reason, "demote", p, 20, FinishDemote,
+			{
+				[p] = true,
+				[ply] = true
+			}, function(vote)
+				if not IsValid(vote.target) then return end
+				vote.target.IsBeingDemoted = nil
+			end)
+			ply:GetTable().LastVoteCop = CurTime()
+		end
+		return ""
+	else
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CantFindPlayer'), tostring(args))
+		return ""
+	end
+end
+rp.AddCommand("demote", Demote)
+:AddParam(cmd.PLAYER)

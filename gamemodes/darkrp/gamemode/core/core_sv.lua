@@ -30,7 +30,7 @@ end
 function GM:CanDropWeapon(pl, weapon)
 	if not IsValid(weapon) then return false end
 	local class = string.lower(weapon:GetClass())
-	if rp.cfg.DisallowDrop[class] then return false end
+	if rp.cfg.DefaultWeapons[class] then return false end
 
 	if table.HasValue(pl.Weapons, weapon) then
     return false

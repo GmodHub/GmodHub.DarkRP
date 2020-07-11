@@ -5,3 +5,4 @@ ENT.AutomaticFrameAdvance 	= true
 ENT.Spawnable 			 	= true
 ENT.Category 				= 'RP NPCs'
 ENT.PressKeyText 			= 'Buy Gear'
+ENT.NPCModel          = 'models/Barney.mdl'

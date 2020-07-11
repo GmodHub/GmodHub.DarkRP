@@ -108478,3 +108478,895 @@ COMPLΞX|9|STEAM_0:0:105635721
 
 
 
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:14
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:37
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:94
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. RenderTexture - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:36
+    3. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:93
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:160: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. unknown - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:160
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13: attempt to concatenate local 'name' (a nil value)
+  1. getFont - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:13
+   2. unknown - gamemodes/darkrp/entities/entities/ent_textscreen/cl_init.lua:98
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124: attempt to call method 'GetUpgrades' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124: attempt to call method 'GetUpgrades' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124: attempt to call method 'GetUpgrades' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124: attempt to call method 'GetUpgrades' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124: attempt to call method 'GetUpgrades' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:124
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+eLeCtrOssSnake|3|STEAM_0:1:164666257
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+Couldn't include file 'darkrp\gamemode\cfg\doors\rp_bangclaw.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 113))
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_bangclaw.lua:146: unexpected symbol near '*'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_bangclaw.lua:146: unexpected symbol near '*'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+

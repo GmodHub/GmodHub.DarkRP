@@ -71,16 +71,15 @@ TEAM_ADMIN = rp.addTeam('Администрация', {
 -- Government
 --
 local police_spawns = {
-	rp_bangclaw_pc = {
-		Vector(2933, 2863, 8),
-		Vector(2371, -122, 1056),
-		Vector(2404, -123, 1056),
-		Vector(2472, -124, 1056),
-		Vector(2596, -124, 1056),
-		Vector(2665, -25, 1056),
-		Vector(2546, -22, 1056),
-		Vector(2422, -23, 1056),
-		Vector(2366, -24, 1056),
+	rp_bangclaw = {
+		Vector(4321, -713, 72),
+		Vector(4321, -550, 72),
+		Vector(4272, -980, 72),
+		Vector(4229, -1066, 72),
+		Vector(4022, -534, 200),
+		Vector(4027, -727, 200),
+		Vector(4028, -874, 200),
+		Vector(4364, -734, 72),
 	}
 }
 
@@ -113,25 +112,11 @@ TEAM_MAYOR = rp.addTeam('Мэр', {
 	GetRelationships = function() return {TEAM_MAYOR, TEAM_POLICE, TEAM_CHIEF} end,
 	weapons = {},
 	spawns = {
-		rp_c18_sup_b2 = {
-			Vector(1469, -1358, 1653),
-			Vector(1470, -1280, 1653),
-			Vector(1470, -1174, 1653),
-		},
-		rp_rockford_v2b = {
-			Vector(-4676, -5743, 720),
-			Vector(-4679, -5501, 720),
-		},
-		rp_danktown_rc5a = {
-			Vector(-954, -280, -12),
-			Vector(-661, -253, -12),
-			Vector(-954, -280, -12),
-		},
-		rp_sundown_rc5a = {
-			Vector(-954, -280, -12),
-			Vector(-661, -253, -12),
-			Vector(-954, -280, -12),
-		},
+		rp_bangclaw = {
+			Vector(667, 2431, 144),
+			Vector(643, 2612, 144),
+			Vector(528, 2307, 144),
+		}
 	},
 	command = 'mayor',
 	max = 1,
@@ -350,23 +335,10 @@ TEAM_CINEMAOWNER = rp.addTeam('Владелец Кинотеатра', {
 	model = 'models/player/magnusson.mdl',
 	weapons = {},
 	spawns = {
-		rp_c18_sup_b2 = {
-			Vector(-1898, 1275, 793),
-			Vector(-1870, 1276, 793),
-		},
-		rp_rockford_v2b = {
-			Vector(-1942, 2405, 544),
-			Vector(-1835, 2406, 544),
-		},
-		rp_danktown_rc5a = {
-			Vector(-1772, -3090, -132),
-			Vector(-1665, -3092, -132),
-			Vector(-1580, -3091, -132),
-		},
-		rp_sundown_rc5a = {
-			Vector(-1772, -3090, -132),
-			Vector(-1665, -3092, -132),
-			Vector(-1580, -3091, -132),
+		rp_bangclaw = {
+			Vector(2432, -1806, 72),
+			Vector(2551, -1759, 72),
+			Vector(2375, -1742, 72),
 		},
 	},
 	command = 'cinemaowner',
@@ -391,23 +363,17 @@ TEAM_CASINOOWNER = rp.addTeam('Владелец Казино', {
 -- Raiding Classes
 --
 local raider_spawns = {
-	rp_c18_sup_b2 = {
-		Vector(1579, 2000, 1136),
-		Vector(1511, 1993, 1136),
-		Vector(1449, 1992, 1144),
-		Vector(1462, 2060, 1136),
-		Vector(1508, 2064, 1136),
-		Vector(1570, 2066, 1136),
-	},
-	rp_danktown_rc5a = {
-		Vector(3071, -508, -195),
-		Vector(3062, -379, -193),
-		Vector(3057, -317, -193),
-		Vector(3052, -243, -194),
-		Vector(3033, -171, -194),
+	rp_bangclaw = {
+		Vector(9645, -3282, 64),
+		Vector(9513, -3144, 64),
+		Vector(9456, -3411, 64),
+		Vector(9733, -3710, 64),
+		Vector(9828, -3448, 64),
+		Vector(9845, -3157, 64),
+		Vector(9968, -2834, 68),
+		Vector(9318, -3867, 64),
 	}
 }
-raider_spawns['rp_sundown_rc5a'] = raider_spawns['rp_danktown_rc5a']
 
 TEAM_FREERUNNER = rp.addTeam("Паркурист", {
 	color= Color(71, 204, 71),
@@ -561,28 +527,16 @@ TEAM_MERC = rp.addTeam('Наемник', {
 -- Hobos
 --
 local hobo_spawns = {
-	rp_c18_sup_b2 = {
-		Vector(-2718, 5582, 848),
-		Vector(-2717, 5498, 848),
-		Vector(-2716, 5413, 848),
-		Vector(-2651, 5482, 848),
-		Vector(-2647, 5578, 848),
-	},
-	rp_danktown_rc5a = {
-		Vector(-2157, -1157, -592),
-		Vector(-2259, -1164, -589),
-		Vector(-2355, -1171, -591),
-		Vector(-2473, -1170, -588),
-		Vector(-2602, -1180, -598),
-	},
-	rp_sundown_rc5a = {
-		Vector(-3516, -1348, -192),
-		Vector(-3676, -1340, -196),
-		Vector(-3872, -1323, -197),
-		Vector(-3887, -856, -196),
-		Vector(-3711, -836, -199),
-		Vector(-3557, -847, -197),
-	},
+	rp_bangclaw = {
+		Vector(198, -747, -192),
+		Vector(794, -761, -192),
+		Vector(1377, 291, -192),
+		Vector(576, 352, -192),
+		Vector(2722, -3473, -232),
+		Vector(2942, -2664, -664),
+		Vector(3217, 216, -664),
+		Vector(3199, 928, -944)
+	}
 }
 
 local spawnHobo = function(pl)
@@ -625,24 +579,13 @@ TEAM_HOBO = rp.addTeam('Бомж', {
 })
 
 local meathHeadSpawns = {
-	rp_danktown_rc5a = {
+	rp_bangclaw = {
 		Vector(2395, 1297, -392),
 		Vector(-1889, 492, -880),
 		Vector(-2322, -400, -947),
 		Vector(-2799, -1881, -496),
-	},
-	rp_c18_sup_b2 = {
-		Vector(-3980, 3705, 573),
-		Vector(-3851, 3705, 573),
-		Vector(-449, 3693, 573),
-		Vector(-560, 3689, 573),
-		Vector(-452, 3947, 573),
-		Vector(-598, 3947, 573),
-		Vector(-3981, 3949, 573),
-		Vector(-3729, 3946, 573),
 	}
 }
-meathHeadSpawns['rp_sundown_rc5a'] = meathHeadSpawns['rp_danktown_rc5a']
 
 local zPos = (game.GetMap() == 'rp_danktown_rc5a' or game.GetMap() == 'rp_sundown_rc5a') and -244 or 696
 TEAM_METHHEAD = rp.addTeam('Бомж Наркоман', {

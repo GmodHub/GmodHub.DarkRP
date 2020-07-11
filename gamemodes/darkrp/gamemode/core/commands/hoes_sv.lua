@@ -6,7 +6,7 @@ local RapistVoices = {
 	"vo/npc/female01/moan05.wav"
 }
 
-local TargetVoices = {
+local targetVoices = {
 	"vo/npc/male01/moan01.wav",
 	"vo/npc/male01/moan02.wav",
 	"vo/npc/male01/moan03.wav",
@@ -27,8 +27,8 @@ end
 local function DoFuck(pl, target)
 	if rp.teams[target:Team()].Pimp then
 		if (!target:CanAfford(250)) then
-			rp.Notify(pl, NOTIFY_ERROR, rp.Term('CannotAffordHoe'), Target)
-			rp.Notify(Target, NOTIFY_ERROR, rp.Term('YouCannotAffordHoe'), pl)
+			rp.Notify(pl, NOTIFY_ERROR, rp.Term('CannotAffordHoe'), target)
+			rp.Notify(target, NOTIFY_ERROR, rp.Term('YouCannotAffordHoe'), pl)
 
 			return
 		end
@@ -38,18 +38,15 @@ local function DoFuck(pl, target)
 		PimpsCut()
 	end
 
-	for k,v in pairs(ents.FindInSphere(pl:GetPos(),200)) do
-		if v:IsPlayer() && v:IsCP() && !pl:IsWanted() then
-			pl:Wanted(v, "Prostitution")
-			break
-		end
+	if v:CloseToCPs() && !pl:IsWanted() then
+		pl:Wanted(nil, "Prostitution")
 	end
 
-	rp.Notify(pl, NOTIFY_ERROR, rp.Term('LostKarmaNR'), 2)
+	rp.Notify(pl, NOTIFY_ERROR, term.Get('LostKarmaNR'), 2)
 	pl:AddKarma(-2)
 
-	rp.Notify(Target, NOTIFY_ERROR, rp.Term('LostKarmaNR'), 2)
-	Target:AddKarma(-2)
+	rp.Notify(target, NOTIFY_ERROR, term.Get('LostKarmaNR'), 2)
+	target:AddKarma(-2)
 
 	local FuckTime = math.random(5,10)
 	local Chance = math.random(1, 8)
@@ -60,41 +57,41 @@ local function DoFuck(pl, target)
 		pl:ViewPunch(Angle(math.random(-1, 1), math.random(-1, 1), math.random(-10, 10)))
 	end)
 
-	Target:Freeze(true)
-	timer.Create("TargetSounds", 1.5, 0, function()
-		Target:EmitSound(table.Random(TargetVoices), 500, 100)
-		Target:ViewPunch(Angle(math.random(-1, 1), math.random(-1, 1), math.random(-10, 10)))
+	target:Freeze(true)
+	timer.Create("targetSounds", 1.5, 0, function()
+		target:EmitSound(table.Random(targetVoices), 500, 100)
+		target:ViewPunch(Angle(math.random(-1, 1), math.random(-1, 1), math.random(-10, 10)))
 	end)
 
 	timer.Create("FuckUnFreeze", FuckTime, 1, function()
 		pl:TakeHunger(10)
-		Target:EmitSound("bot/hang_on_im_coming.wav")
+		target:EmitSound("bot/hang_on_im_coming.wav")
 		pl:Freeze(false)
-		Target:TakeHunger(10)
-		Target:EmitSound("ambient/voices/m_scream1.wav")
-		Target:Freeze(false)
+		target:TakeHunger(10)
+		target:EmitSound("ambient/voices/m_scream1.wav")
+		target:Freeze(false)
 		if Chance == 3 then
-			rp.Notify(Target, NOTIFY_ERROR, rp.Term('YouGotAIDS'))
-			GiveSTD(Target)
+			rp.Notify(target, NOTIFY_ERROR, term.Get('YouGotAIDS'))
+			GiveSTD(target)
 		end
 		if Chance == 4 then
-			rp.Notify(pl, NOTIFY_ERROR, rp.Term('YouGotAIDS'))
+			rp.Notify(pl, NOTIFY_ERROR, term.Get('YouGotAIDS'))
 			GiveSTD(pl)
 		end
 		timer.Destroy("FuckSounds")
-		timer.Destroy("TargetSounds")
+		timer.Destroy("targetSounds")
 	end)
 end
 
-local function FuckPlayer(pl)
+rp.AddCommand("sex", function(pl)
 	local target = pl:GetEyeTrace().Entity
 
 	if !IsValid(pl) then return end
 	if !IsValid(target) then return end
 
-	if pl:EyePos():DistToSqr(Target:GetPos()) > 19600 or !isplayer(target) then
+	if pl:EyePos():DistToSqr(target:GetPos()) > 19600 or !isplayer(target) then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('GetCloser'))
-		return ""
+		return
 	end
 
 	if !pl:Alive() then
@@ -113,11 +110,11 @@ local function FuckPlayer(pl)
 	end
 
 	if target:IsFrozen() then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('TargetFrozen'))
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('targetFrozen'))
 		return
 	end
 
-	if (Target:IsGov()) && !pl:IsWanted() then
+	if (target:IsGov()) && !pl:IsWanted() then
 		pl:Wanted(nil, "Prostitution")
 	end
 
@@ -130,10 +127,10 @@ local function FuckPlayer(pl)
 
 	rp.question.Create("Would you like to have sex with " ..  pl:Name() .. " for $" .. FuckCost .. "?", 30, "fuckyfucky" .. pl:UserID(), function(pl, answer)
 		if tobool(answer) == false then
-			rp.Notify(pl, NOTIFY_ERROR, term.Get('TargetWontFuck'))
+			rp.Notify(pl, NOTIFY_ERROR, term.Get('targetWontFuck'))
 			return
 		elseif tobool(answer) && pl:EyePos():DistToSqr(target:GetPos()) > 19600 or !target:IsPlayer() then
-			rp.Notify(pl, NOTIFY_ERROR, term.Get('TargetTooFar'))
+			rp.Notify(pl, NOTIFY_ERROR, term.Get('targetTooFar'))
 			rp.Notify(target, NOTIFY_ERROR, term.Get('HoeTooFar'))
 			return
 		elseif tobool(answer) then
@@ -149,7 +146,6 @@ local function FuckPlayer(pl)
 			return
 		end
 	end, false, target)
-
-end
-rp.AddCommand("sex", FuckPlayer)
-rp.AddCommand("fuck", FuckPlayer)
+end)
+:SetCooldown(3)
+:AddAlias("fuck")

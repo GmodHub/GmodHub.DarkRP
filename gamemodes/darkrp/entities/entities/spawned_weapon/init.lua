@@ -1,7 +1,5 @@
-AddCSLuaFile("cl_init.lua")
-AddCSLuaFile("shared.lua")
-
-include("shared.lua")
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 function ENT:Initialize()
 	self:PhysicsInit(SOLID_VPHYSICS)

@@ -25,24 +25,22 @@ function PLAYER:RemoveHit(hitman)
 end
 
 
-rp.AddCommand('hit', function(pl, text, args)
-	local targ 	= rp.FindPlayer(args[1])
-	local price = tonumber(args[2] or rp.cfg.HitMinCost)
+rp.AddCommand('hit', function(pl, targ, price)
 
-	if (not IsValid(targ)) then
-		pl:Notify(NOTIFY_ERROR, term.Get('HitTargetInvalid'))
-	elseif (targ == pl) then
+	if (targ == pl) then
 		pl:Notify(NOTIFY_ERROR, term.Get('CantHitYourself'))
-	--elseif targ:IsHitman() then
---		pl:Notify(NOTIFY_ERROR, term.Get('CantHitHitman'))
-	--	elseif pl:IsHitman() then
-	--	pl:Notify(NOTIFY_ERROR, term.Get('CantPlaceHit'))
+	elseif targ:IsMayor() and nw.GetGlobal("mayorGrace") and (nw.GetGlobal("mayorGrace") > CurTime()) then
+		pl:Notify(NOTIFY_ERROR, term.Get('CantPlaceHitGrace'))
+	elseif pl:IsHitman() then
+		pl:Notify(NOTIFY_ERROR, term.Get('CantPlaceHit'))
 	elseif (not pl:CanAfford(price)) then
 		pl:Notify(NOTIFY_ERROR, term.Get('CannotAfford'))
 	elseif (price < rp.cfg.HitMinCost) or (price > rp.cfg.HitMaxCost) then
 		pl:Notify(NOTIFY_ERROR, term.Get('HitPriceLimit'), rp.cfg.HitminCost, rp.cfg.HitMaxCost)
 	elseif pl.LastHitTime and (pl.LastHitTime > CurTime()) and (not pl:IsRoot()) then
 		pl:Notify(NOTIFY_ERROR, term.Get('HitTimer'), math.ceil(pl.LastHitTime - CurTime()))
+	elseif pl.HitCoolDown and (pl.HitCoolDown > CurTime()) and (not pl:IsRoot()) then
+		pl:Notify(NOTIFY_ERROR, term.Get('HitCooldown'))
 	elseif pl.LastHit and (pl.LastHit == targ) and (not pl:IsRoot()) then
 		pl:Notify(NOTIFY_ERROR, term.Get('MultiHit'))
 	else
@@ -61,6 +59,10 @@ rp.AddCommand('hit', function(pl, text, args)
 		targ:AddHit(price)
 	end
 end)
+:AddParam(cmd.PLAYER_ENTITY)
+:AddParam(cmd.NUMBER)
+:AddAlias('hitman')
+:SetCooldown(3)
 
 timer.Create('RandomHits', 600, 0, function()
 	if (#player.GetAll() >= 10) then
@@ -81,6 +83,7 @@ end)
 hook('PlayerDeath', function(pl, wep, killer)
 	if pl:HasHit() and killer:IsPlayer() and killer:IsHitman() and (killer ~= pl) then
 		pl:RemoveHit(killer)
+		pl.HitCoolDown = CurTime() + rp.cfg.HitCoolDown
 		hook.Call('playerCompletedHit', GAMEMODE, killer, pl)
 	end
 

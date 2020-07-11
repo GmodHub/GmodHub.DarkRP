@@ -12,7 +12,7 @@ hook('PlayerSpawnProp', 'pp.PlayerSpawnProp', function(pl, mdl)
 			ba.notify_staff('# has been stopped from spawning more than 5 props in a second. Keep an eye on them!', pl)
 			pl.toldStaff = true
 		end
-		
+
 		pl.lastPropSpawn = CurTime()
 		pl.failedPropAttempts = (pl.failedPropAttempts or 0) + 1
 
@@ -30,7 +30,7 @@ hook('PlayerSpawnProp', 'pp.PlayerSpawnProp', function(pl, mdl)
 
 		if issuper then
 			local pc_count =table.Count(rp.pp.ModelCache)
-			
+
 			if (pc_count >= 100) then
 				pl:Notify(NOTIFY_ERROR, term.Get('CacheFull'), pc_count)
 				return false
@@ -38,7 +38,7 @@ hook('PlayerSpawnProp', 'pp.PlayerSpawnProp', function(pl, mdl)
 
 			rp.pp.ModelCache[mdl] = true
 		end
-		
+
 		return issuper
 	end
 end)
@@ -62,7 +62,7 @@ end
 hook('PhysgunPickup', 'pp.PhysgunPickup', function(pl, ent)
 	if IsValid(ent) then
 		local canphys = rp.pp.PlayerCanManipulate(pl, ent)
-
+			
 		if (not canphys) and ent.PhysgunPickup then
 			canphys = ent:PhysgunPickup(pl)
 		elseif ent.LazyFreeze then
@@ -107,7 +107,7 @@ end
 
 function GM:GravGunPunt(pl, ent)
 	if (pl:IsRoot()) then return true end
-	
+
 	DropEntityIfHeld(ent)
 	return false
 end

@@ -1,0 +1,695 @@
+L 07/09/2020 - 15:08:37: Log file started (file "logs\L0709018.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/09/2020 - 15:08:37: server_cvar: "sv_alltalk" "3"
+L 07/09/2020 - 15:08:37: server_cvar: "sv_airaccelerate" "100"
+L 07/09/2020 - 15:08:38: Connection to Steam servers successful.
+L 07/09/2020 - 15:08:38:    Public IP is 31.130.42.26.
+L 07/09/2020 - 15:08:38: Assigned anonymous gameserver Steam ID [A-1:3518425096(15118)].
+L 07/09/2020 - 15:08:39: VAC secure mode is activated.
+L 07/09/2020 - 15:08:40: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/09/2020 - 15:08:41: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/09/2020 - 15:08:54: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/09/2020 - 15:51:40: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:51:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:52:09: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:52:10: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:53:08: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:53:09: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:53:59: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:54:49: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:54:50: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/cfg/doors/rp_downtown_tits_v1.lua:248: unexpected symbol near '/'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:56:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:56:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:59:16: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 15:59:17: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:00:48: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:00:48: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:01:06: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:02:09: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:02:09: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:02:45: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:02:59: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:03:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:03:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:03:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:03:40: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:03:58: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:03:59: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:04:18: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:05:05: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:06:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:06:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:06:36: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:06:51: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:06:51: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:10:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:11:40: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:11:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:12:02: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:12:02: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:12:07: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:12:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:12:23: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:12:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:13:27: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81: attempt to index local 'ent' (a nil value)
+  1. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:81
+   2. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:95
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:17:37: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:37: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:37: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:37: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:17:38: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. LockDoor - gamemodes/darkrp/entities/weapons/keys.lua:62
+        7. unknown - gamemodes/darkrp/entities/weapons/keys.lua:93
+
+
+L 07/09/2020 - 16:18:18: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164: ')' expected near 'then'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:18:19: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/doors/init_sv.lua:164: ')' expected near 'then'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:116
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:40:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/main_sv.lua:275: ')' expected (to close '(' at line 232) near 'rp'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:40:04: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/main_sv.lua:275: ')' expected (to close '(' at line 232) near 'rp'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:41:49: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/main_sv.lua:258: 'end' expected (to close 'if' at line 254) near '='
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:41:50: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/main_sv.lua:258: 'end' expected (to close 'if' at line 254) near '='
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:41:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/main_sv.lua:258: 'end' expected (to close 'if' at line 254) near '='
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16:41:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/main_sv.lua:258: 'end' expected (to close 'if' at line 254) near '='
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/09/2020 - 16

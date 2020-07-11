@@ -12,10 +12,14 @@ net.Receive("ba.PasswordAuth", function(len, pl)
   local pass = net.ReadString()
 
   pl:SetBVar('Authed', true)
+
+  if pl.AuthCallback then
+    pl.AuthCallback()
+  end
 end)
 
 function ba.IsAuthed(pl)
-
+  
   if (!pl:GetBVar('Authed')) then
     return false
   end
@@ -27,4 +31,6 @@ function ba.RequestAuth(pl, callback)
   net.Start("ba.PasswordRequest")
     net.WriteBool(false)
   net.Send(pl)
+
+  pl.AuthCallback = callback
 end

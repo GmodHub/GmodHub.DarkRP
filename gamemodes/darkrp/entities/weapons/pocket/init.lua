@@ -6,6 +6,7 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 util.AddNetworkString("Pocket.Load")
+util.AddNetworkString("rp.inv.Drop")
 util.AddNetworkString("Pocket.RemoveItem")
 util.AddNetworkString("Pocket.AddItem")
 util.AddNetworkString("Pocket.AdminDelete")
@@ -42,36 +43,6 @@ Ents['sp_overclocker'] = "armor_piece_full"
 Ents['sp_storage'] = "armor_piece_full"
 Ents['sp_supply'] = "armor_piece_full"
 
-/*
-local model_translations = {
-	['models/weapons/3_snip_awp.mdl'] 			= 'models/weapons/w_snip_awp.mdl',
-	['models/weapons/3_rif_ak47.mdl']			= 'models/weapons/w_rif_ak47.mdl',
-	['models/weapons/3_pist_deagle.mdl']		= 'models/weapons/w_pist_deagle.mdl',
-	['models/weapons/3_rif_famas.mdl']			= 'models/weapons/w_rif_famas.mdl',
-	['models/weapons/3_pist_fiveseven.mdl']		= 'models/weapons/w_pist_fiveseven.mdl',
-	['models/weapons/3_smg_p90.mdl']			= 'models/weapons/w_smg_p90.mdl',
-	['models/weapons/3_pist_glock18.mdl']		= 'models/weapons/w_pist_glock18.mdl',
-	['models/weapons/3_snip_g3sg1.mdl']			= 'models/weapons/w_snip_g3sg1.mdl',
-	['models/weapons/3_smg_mp5.mdl']			= 'models/weapons/w_smg_mp5.mdl',
-	['models/weapons/3_smg_ump45.mdl']			= 'models/weapons/w_smg_ump45.mdl',
-	['models/weapons/3_rif_galil.mdl']			= 'models/weapons/w_rif_galil.mdl',
-	['models/weapons/3_smg_mac10.mdl']			= 'models/weapons/w_smg_mac10.mdl',
-	['models/weapons/3_mach_m249para.mdl']		= 'models/weapons/w_mach_m249para.mdl',
-	['models/weapons/3_shot_m3super90.mdl']		= 'models/weapons/w_shot_m3super90.mdl',
-	['models/weapons/3_pist_p228.mdl']			= 'models/weapons/w_pist_p228.mdl',
-	['models/weapons/3_snip_sg550.mdl']			= 'models/weapons/w_snip_sg550.mdl',
-	['models/weapons/3_rif_sg552.mdl']			= 'models/weapons/w_rif_sg552.mdl',
-	['models/weapons/3_rif_aug.mdl']			= 'models/weapons/w_rif_aug.mdl',
-	['models/weapons/3_snip_scout.mdl']			= 'models/weapons/w_snip_scout.mdl',
-	['models/weapons/3_smg_tmp.mdl']			= 'models/weapons/w_smg_tmp.mdl',
-	['models/weapons/3_shot_xm1014.mdl']		= 'models/weapons/w_shot_xm1014.mdl',
-	['models/weapons/3_rif_m4a1.mdl']			= 'models/weapons/w_rif_m4a1.mdl',
-	['models/weapons/3_pist_usp.mdl']			= 'models/weapons/w_pist_usp.mdl',
-	['models/weapons/3_357.mdl']				= 'models/weapons/w_357.mdl',
-	['models/weapons/2_c4_planted.mdl']			= 'models/weapons/w_c4_planted.mdl'
-}
-*/
-
 local model_translations = {
 	['models/weapons/w_snip_awp.mdl']			= 'models/weapons/3_snip_awp.mdl',
 	['models/weapons/w_rif_ak47.mdl']			= 'models/weapons/3_rif_ak47.mdl',
@@ -100,6 +71,7 @@ local model_translations = {
 	['models/weapons/3_357.mdl']				= 'models/weapons/w_357.mdl',
 }
 
+local pocketBits = 8
 
 function PLAYER:GetInv()
 	return rp.inv.Data[self:SteamID64()] or {}
@@ -185,35 +157,34 @@ local function Finalize(ent, tab, owner)
 	ent:Spawn()
 end
 
-rp.AddCommand('invdrop', function(p, s, a)
+net.Receive("rp.inv.Drop", function(len, pl)
 	if (not rp.data.IsLoaded(p)) then return end
-	local pock = p:GetInv()
+	local pock = pl:GetInv()
 
-	a[1] = tonumber(a[1])
+	a = net.ReadUInt(32)
 
-	if (pock[a[1]]) then
-		local item = pock[a[1]]
+	if (pock[a]) then
+		local item = pock[a]
 
 		local ent_class = Ents[item.Class] and Ents[item.Class] or item.Class
 
 		local ent = ents.Create(ent_class)
 		local trace = {}
-			trace.start = p:EyePos()
-			trace.endpos = trace.start + p:GetAimVector() * 85
-			trace.filter = p
+			trace.start = pl:EyePos()
+			trace.endpos = trace.start + pl:GetAimVector() * 85
+			trace.filter = pl
 		local tr = util.TraceLine(trace)
 		ent:SetPos(tr.HitPos + Vector(0, 0, 10))
 
-		Finalize(ent, item, p)
+		Finalize(ent, item, pl)
 	end
 
-	p:GetInv()[a[1]] = nil
-	p:SaveInv()
+	pl:GetInv()[a] = nil
+	pl:SaveInv()
 	net.Start("Pocket.RemoveItem")
-		net.WriteUInt(a[1], 32)
-	net.Send(p)
+		net.WriteUInt(a, pocketBits)
+	net.Send(pl)
 end)
-:AddParam(cmd.STRING)
 
 function SWEP:Reload()
 	if CLIENT then return end
@@ -254,7 +225,7 @@ function SWEP:PrimaryAttack()
 	local tab, title, subtitle = GetEntityInfo(ent)
 
 	net.Start("Pocket.AddItem")
-		net.WriteUInt(ID, 32)
+		net.WriteUInt(ID, pocketBits)
 		net.WriteString(title)
 		net.WriteString(subtitle)
 		net.WriteString(tab.Model)
@@ -284,7 +255,7 @@ net.Receive("Pocket.AdminDelete", function(len, pl)
 	targ:GetInv()[id] = nil
 	targ:SaveInv()
 	net.Start("Pocket.RemoveItem")
-		net.WriteUInt(id, 32)
+		net.WriteUInt(id, pocketBits)
 	net.Send(targ)
 
 	ba.notify(targ, '# было убрано # из кармана.', pl, itemName)

@@ -1,0 +1,25 @@
+L 07/08/2020 - 09:43:08: Log file started (file "logs\L0708003.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7836")
+L 07/08/2020 - 09:43:08: server_cvar: "sv_alltalk" "3"
+L 07/08/2020 - 09:43:10: Connection to Steam servers successful.
+L 07/08/2020 - 09:43:10:    Public IP is 31.130.42.26.
+L 07/08/2020 - 09:43:10: Assigned anonymous gameserver Steam ID [A-1:1421955076(15111)].
+L 07/08/2020 - 09:43:10: VAC secure mode is activated.
+L 07/08/2020 - 09:44:00: "Bot01<2><BOT><>" connected, address "none"
+L 07/08/2020 - 09:44:00: "Bot01<2><BOT><>" entered the game
+L 07/08/2020 - 09:44:01: "Bot02<3><BOT><>" connected, address "none"
+L 07/08/2020 - 09:44:01: "Bot02<3><BOT><>" entered the game
+L 07/08/2020 - 09:44:01: "Bot03<4><BOT><>" connected, address "none"
+L 07/08/2020 - 09:44:01: "Bot03<4><BOT><>" entered the game
+L 07/08/2020 - 09:45:05: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/init.lua:60: bad argument #1 to 'EnableInfoCache' (bool expected, got nil)
+  1. EnableInfoCache - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/init.lua:60
+
+
+L 07/08/2020 - 09:45:06: Lua Error: Couldn't Load Init Script: 'darkrp/gamemode/init.lua'
+
+L 07/08/2020 - 09:46:12: "Bot03<4><BOT><>" disconnected (reason "Server shutting down")
+L 07/08/2020 - 09:46:12: "Bot02<3><BOT><>" disconnected (reason "Server shutting down")
+L 07/08/2020 - 09:46:12: "Bot01<2><BOT><>" disconnected (reason "Server shutting down")
+L 07/08/2020 - 09:46:12: server_message: "quit"
+L 07/08/2020 - 09:46:12: Log file closed.

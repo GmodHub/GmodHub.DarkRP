@@ -28,7 +28,7 @@ local nocolide = {
 
 local nodamage = rp.nodamage
 hook('PlayerShouldTakeDamage', 'AntiPK_PlayerShouldTakeDamage', function(victim, attacker)
-	if nodamage[attacker:GetClass()] or victim:IsPlayer() and attacker:IsVehicle() then 
+	if nodamage[attacker:GetClass()] or victim:IsPlayer() and attacker:IsVehicle() then
 		return false
 	end
 end)

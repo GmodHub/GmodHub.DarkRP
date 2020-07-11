@@ -8,6 +8,11 @@ function PLAYER:CheckLimit(str)
 	return true
 end
 
+function PLAYER:GetLimit(name)
+	local c = rp.GetLimit(name) or 0
+	return c
+end
+
 function PLAYER:GetCount(str, minus)
 	if (self._Counts and self._Counts[str]) then
 		return self._Counts[str] - (minus or 0)
