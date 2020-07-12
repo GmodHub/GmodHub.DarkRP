@@ -1,11 +1,4 @@
 /*---------------------------------------------------------
- Variables
- ---------------------------------------------------------*/
-local previousname = "N/A"
-local newname= "N/A"
-
-
-/*---------------------------------------------------------
  RP names
  ---------------------------------------------------------*/
 rp.AddCommand("randomname", function(ply)
@@ -42,7 +35,6 @@ rp.AddCommand("rpname", function(ply, name)
 	local allowed = {'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ' ', '-', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', 'ё'}
 
 	for k in string.gmatch(name, "%a") do
-		print(k)
 		if not table.HasValue(allowed, string.lower(k)) then
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('RPNameUnallowed'), k)
 			return
@@ -53,7 +45,7 @@ rp.AddCommand("rpname", function(ply, name)
 
 end)
 :AddParam(cmd.STRING)
-:SetCooldown(1)
+:SetCooldown(20)
 :AddAlias("name")
 :AddAlias("nick")
 
@@ -69,11 +61,9 @@ local function DropWeapon(pl)
 		return
 	end
 
-	timer.Simple(1, function()
-		if IsValid(pl) and IsValid(ent) and ent:GetModel() then
-			pl:DropDRPWeapon(ent)
-		end
-	end)
+	if IsValid(pl) and IsValid(ent) and ent:GetModel() then
+		pl:DropDRPWeapon(ent)
+	end
 end
 rp.AddCommand("drop", DropWeapon)
 

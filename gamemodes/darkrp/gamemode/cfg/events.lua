@@ -45,7 +45,7 @@ rp.RegisterEvent('Parkour', {
 
 -- BURGATRON
 rp.RegisterEvent('BURGATRON', {
-	NiceName = 'BURGATRON',
+	NiceName = 'Бургератрон',
 	Hooks = {
 		['PlayerHasHunger'] = function(pl)
 			if (pl.HungerImmune) then return false end
@@ -59,14 +59,14 @@ rp.RegisterEvent('BURGATRON', {
 		['KeyPress'] = function(pl, key)
 			if (key == IN_USE) then
 				local tr = pl:GetEyeTrace()
-				
+
 				if (tr.Entity and tr.Entity:IsPlayer() and tr.Entity.IsBurger) then
 					tr.Entity:Kill();
-					
+
 					pl.HungerImmune = true;
-					
+
 					pl:EmitSound("vo/sandwicheat09.wav", 100, 100)
-					
+
 					pl:Notify(NOTIFY_GREEN, rp.Term('BURGHungerImmune'))
 					tr.Entity:Notify(NOTIFY_GREEN, rp.Term('BURGNotPeople'))
 				end
@@ -83,7 +83,7 @@ rp.RegisterEvent('BURGATRON', {
 			if (v:GetActiveWeapon():IsValid() and v:GetActiveWeapon():GetClass() == "weapon_burgatron") then
 				v:SelectWeapon("weapon_physgun")
 			end
-			
+
 			v.HungerImmune = nil
 			if (not v:IsRoot()) then
 				v:StripWeapon("weapon_burgatron")

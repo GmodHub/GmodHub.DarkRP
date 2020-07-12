@@ -5,7 +5,6 @@ end
 
 function GM:PlayerSpawnedProp( pl, model, ent )
 	pl:AddCount( "props", ent )
-	rp.Notify(pl, NOTIFY_GENERIC, term.Get("SboxSpawned"), pl:GetCount("props"), hook.Call("PlayerGetLimit",GAMEMODE, pl, "props"), "Props")
 end
 
 function GM:PlayerSpawnedEffect( pl, model, ent )

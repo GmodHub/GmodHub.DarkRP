@@ -1,0 +1,317 @@
+L 07/12/2020 - 13:39:04: Log file started (file "logs\L0712001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/12/2020 - 13:39:04: server_cvar: "sv_alltalk" "3"
+L 07/12/2020 - 13:39:04: server_cvar: "sv_airaccelerate" "100"
+L 07/12/2020 - 13:39:05: Connection to Steam servers successful.
+L 07/12/2020 - 13:39:05:    Public IP is 31.130.42.26.
+L 07/12/2020 - 13:39:05: Assigned anonymous gameserver Steam ID [A-1:3430370308(15137)].
+L 07/12/2020 - 13:39:05: VAC secure mode is activated.
+L 07/12/2020 - 13:43:07: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/12/2020 - 13:43:07: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/12/2020 - 13:43:17: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/12/2020 - 13:43:17: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:118: attempt to index global 'db' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:118
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 13:43:44: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/12/2020 - 13:43:44: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/12/2020 - 13:43:45: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/12/2020 - 13:43:54: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/12/2020 - 13:44:26: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:44:28: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:45:14: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:45:18: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:45:32: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:29: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:45:33: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:45:44: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:29: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:45:48: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:46:01: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:29: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:46:03: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:46:34: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:29: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:46:34: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:47:15: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:24: attempt to get length of local 'banner' (a nil value)
+
+L 07/12/2020 - 13:47:19: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:47:25: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:23: attempt to get length of local 'banner' (a nil value)
+
+L 07/12/2020 - 13:47:29: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:47:40: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:24: attempt to get length of local 'banner' (a nil value)
+
+L 07/12/2020 - 13:47:44: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:48:22: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:48:24: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:53:17: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:53:19: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:54:39: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGBA' (a nil value)
+
+L 07/12/2020 - 13:54:39: Lua Error: 
+[dash_3] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (nw_DoorID)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:82
+     4. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:94
+      5. include - [C]:-1
+       6. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+        7. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+         8. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+          9. include - [C]:-1
+           10. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 13:54:42: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGBA' (a nil value)
+
+L 07/12/2020 - 13:54:45: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:56:42: Lua Error: addons/dash_3/lua/dash/extensions/color.lua:45: bad argument #1 to 'bit_rshift' (number expected, got table)
+
+L 07/12/2020 - 13:56:46: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:56:53: Lua Error: addons/dash_3/lua/dash/extensions/color.lua:45: bad argument #1 to 'bit_rshift' (number expected, got table)
+
+L 07/12/2020 - 13:56:56: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:57:12: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to index global 'col' (a nil value)
+
+L 07/12/2020 - 13:57:16: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:57:24: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:28: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:57:26: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 13:59:02: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:29: attempt to call method 'ToEncodedRGB' (a nil value)
+
+L 07/12/2020 - 13:59:06: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 14:01:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:91: attempt to index field 'col' (a number value)
+  1. func - gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:91
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 14:01:21: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgBannerRaw) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 14:17:03: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:18: attempt to index a nil value
+
+L 07/12/2020 - 14:17:31: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:18: attempt to index a nil value
+
+L 07/12/2020 - 14:17:44: Lua Error: gamemodes/darkrp/gamemode/core/orgs/painter_sv.lua:18: attempt to index a nil value
+
+L 07/12/2020 - 15:02:54: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" connected, address "212.66.63.39:27006"
+L 07/12/2020 - 15:02:55: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/12/2020 - 15:03:11: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" entered the game
+L 07/12/2020 - 15:03:52: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/doors/init_sh.lua:8: attempt to index field 'Owner' (a nil value)
+  1. func - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:8
+   2. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+    3. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+     4. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+      5. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+       6. CoOwnProperty - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:32
+        7. Callback - gamemodes/darkrp/gamemode/core/doors/init_sv.lua:127
+         8. func - gamemodes/darkrp/gamemode/util/questions/questions_sv.lua:84
+          9. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 15:03:52: Lua Error: 
+[dash_3] Warning! A net message (nw_DoorData.5) is already started! Discarding in favor of the new message! (cmd.Run)
+
+  1. Run - addons/dash_3/lua/dash/libraries/cmd.lua:474
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/12/2020 - 15:06:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:198
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 15:06:17: Lua Error: 
+[ERROR] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:70
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:198
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 15:06:17: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:198
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 15:06:18: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 15:07:11: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73: 'then' expected near 'net'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 15:07:12: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:198
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 15:07:13: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 15:07:14: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:198
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/12/2020 - 15:07:18: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/12/2020 - 15:07:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:73: 'then' expected near 'net'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 15:08:54: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 15:08:54: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 15:08:54: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 15:08:54: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 15:08:54: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 15:08:54: server_message: "quit"
+L 07/12/2020 - 15:08:54: Log file closed.

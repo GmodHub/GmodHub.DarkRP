@@ -1,5 +1,5 @@
 -- We don't use these so lets reduce the overhead of calling them instead of making them empty!
-timer.Simple(0.5, function()
+/*timer.Simple(0.5, function()
 	local GM = GAMEMODE
 	GM.HUDDrawTargetID 					= nil
 	GM.DrawDeathNotice 					= nil
@@ -25,7 +25,7 @@ timer.Simple(0.5, function()
 	GM.PostRenderVGUI 					= nil
 	GM.PostRender 						= nil
 end)
-
+*/
 
 -- Voice
 hook('PlayerStartVoice', 'rp.voice.PlayerStartVoice', function(pl)

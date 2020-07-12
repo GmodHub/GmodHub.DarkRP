@@ -10,6 +10,7 @@ function ENT:Initialize()
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
 
+	self:SetCollisionGroup( COLLISION_GROUP_DEBRIS )
 	self:PhysWake()
 end
 
@@ -21,20 +22,20 @@ function ENT:Use(activator, caller)
 
 	if (IsValid(activator) and IsValid(recipient)) and activator == recipient then
 		local ownername = (IsValid(owner) and owner:Nick()) or "Disconnected player"
-		rp.Notify(activator, NOTIFY_GREEN, rp.Term('ChequeFound'), rp.FormatMoney(amount), (IsValid(owner) and owner or 'Disconnected player'))
+		rp.Notify(activator, NOTIFY_GREEN, term.Get('ChequeFound'), rp.FormatMoney(amount), (IsValid(owner) and owner or 'Disconnected player'))
 		activator:AddMoney(amount)
-		
+
 		hook.Call('PlayerPickupRPCheck', GAMEMODE, activator, (IsValid(owner) and owner or {NameID=function()return'Disconnected player'end,Name=function()return'N/A'end,SteamID=function()return'N/A'end}), amount, activator:GetMoney())
 		self:Remove()
 	elseif (IsValid(owner) and IsValid(recipient)) and owner ~= activator then
-		rp.Notify(activator, NOTIFY_GENERIC, rp.Term('ChequeMadeTo'), recipient)
+		rp.Notify(activator, NOTIFY_GENERIC, term.Get('ChequeMadeTo'), recipient)
 	elseif IsValid(owner) and owner == activator then
-		rp.Notify(activator, NOTIFY_GREEN, rp.Term('ChequeTorn'))
+		rp.Notify(activator, NOTIFY_GREEN, term.Get('ChequeTorn'))
 		owner:AddMoney(self:Getamount()) -- return the money on the cheque to the owner.
-		
+
 		hook.Call('PlayerVoidedRPCheck', GAMEMODE, activator, recipient, amount, activator:GetMoney())
 		self:Remove()
-	elseif not IsValid(recipient) then 
+	elseif not IsValid(recipient) then
 		self:Remove()
 	end
 end
@@ -45,7 +46,7 @@ function ENT:Touch(ent)
 	if ent:Getrecipient() ~= self:Getrecipient() then return end
 
 	ent.hasMerged = true
-	
+
 	self:Setamount(self:Getamount() + ent:Getamount())
 	ent:Remove()
 end

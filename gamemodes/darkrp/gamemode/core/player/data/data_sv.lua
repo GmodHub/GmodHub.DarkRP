@@ -7,12 +7,17 @@ function rp.data.LoadPlayer(pl, cback)
 
 		if IsValid(pl) then
 			if (#_data <= 0) then
-				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket) VALUES(?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}')
+				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills) VALUES(?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '{}')
 				pl:SetRPName(rp.names.Random(), true)
 			end
 
 			if data.Name and (data.Name ~= pl:SteamName()) then
 				pl:SetNetVar('Name', data.Name)
+			end
+
+			if data.Skills then
+				local skills = util.JSONToTable(data.Skills)
+				pl:SetNetVar('Skills', skills)
 			end
 
 			/*db:Query('SELECT * FROM player_hats WHERE SteamID=' .. pl:SteamID64() .. ';', function(data)

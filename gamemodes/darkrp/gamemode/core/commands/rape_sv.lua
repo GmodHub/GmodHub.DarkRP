@@ -46,7 +46,7 @@ local TargetVoices = {
 	"vo/npc/male01/moan05.wav"
 }
 
-local function RapePlayer(pl)
+rp.AddCommand("rape", function(pl)
 	local Target = pl:GetEyeTrace().Entity
 
 	if !IsValid(pl) then return "" end
@@ -55,38 +55,38 @@ local function RapePlayer(pl)
 
 	if pl:EyePos():DistToSqr(Target:GetPos()) > 19600 or !Target:IsPlayer() then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('GetCloser'))
-		return ""
+		return
 	end
 
 	if !pl:Alive() then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('YouAreDead'))
-		return ""
+		return
 	end
 
 	if !pl:IsSuperAdmin() && !pl:IsArrested() then
 		if pl:Team() != TEAM_RAPIST then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('NotARapist'))
-			return ""
+			return
 		end
 	end
 
 	if Target:IsNPC() then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('RapeNPC'))
-		return ""
+		return
 	end
 
 	if Target:IsFrozen() then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('TargetFrozen'))
-		return ""
+		return
 	end
 
-	if (Target:IsCP() or Target:Team() == TEAM_MAYOR) and not pl:IsWanted() then
+	if (Target:IsGov()) and not pl:IsWanted() then
 		pl:Wanted(Target, "Raping")
 	end
 
 	if pl.NextRape != nil && pl.NextRape >= CurTime() && !pl:IsArrested() then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('NeedToWait'), math.ceil(pl.NextRape - CurTime()))
-		return ""
+		return
 	end
 
 	rp.Notify(pl, NOTIFY_ERROR, term.Get('LostKarmaNR'), 2)
@@ -98,31 +98,28 @@ local function RapePlayer(pl)
 		pl.NextRape = 2 + CurTime()
 	end
 
-	for k,v in pairs(ents.FindInSphere(pl:GetPos(),200)) do
-		if v:IsPlayer() && v:IsCP() && !pl:IsWanted() then
-			pl:Wanted(nil, "Raping")
-			break
-		end
+	if pl:CloseToCPs() && !pl:IsWanted() then
+		pl:Wanted(nil, "Raping")
 	end
 
 	if math.random(1, 5) == 1 then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('RapeFailed'))
 		rp.Notify(Target, NOTIFY_ERROR, term.Get('RapeAttempted'))
-		return ""
+		return
 	end
 
 	local RapeTime = math.random(5,10)
 	local Chance = math.random(1, 8)
 
 	pl:Freeze(true)
-	rp.Notify(pl, NOTIFY_GREEN, rp.Term('Raped'), Target)
+	rp.Notify(pl, NOTIFY_GREEN, term.Get('Raped'), Target)
 	pl:Timer("RapistSounds", 1.5, 0, function()
 		pl:EmitSound(RapistVoices[math.random(1, #RapistVoices)], 500, 100)
 		pl:ViewPunch(Angle(math.random(-1, 1), math.random(-1, 1), math.random(-10, 10)))
 	end)
 
 	Target:Freeze(true)
-	rp.Notify(Target, NOTIFY_ERROR, rp.Term('YouAreRaped'))
+	rp.Notify(Target, NOTIFY_ERROR, term.Get('YouAreRaped'))
 	Target:Timer("TargetSounds", 1.5, 0, function()
 		Target:EmitSound(TargetVoices[math.random(1, #TargetVoices)], 500, 100)
 		Target:ViewPunch(Angle(math.random(-1, 1), math.random(-1, 1), math.random(-10, 10)))
@@ -145,7 +142,7 @@ local function RapePlayer(pl)
 
 		if Chance == 3 then
 			rp.Notify(Target, NOTIFY_ERROR, term.Get('YouGotAIDS'))
-			GiveSTD(Target)
+			pl:GiveSTD("СПИД")
 		end
 		if Chance == 4 then
 			rp.Notify(Target, NOTIFY_ERROR, term.Get('AnalProlapseShort'))
@@ -162,6 +159,4 @@ local function RapePlayer(pl)
 		Target:DestroyTimer("TargetSounds")
 	end)
 
-	return ""
-end
-rp.AddCommand("rape", RapePlayer)
+end)

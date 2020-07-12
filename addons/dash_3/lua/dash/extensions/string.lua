@@ -181,9 +181,9 @@ function string.Explode(separator, str, withpattern)
 end
 
 function string:MaxCharacters(num, withellipses)
-	if (#self <= num) then return self end
+	if (utf8.len(self) <= num) then return self end
 
-	local str = self:sub(1, num)
+	local str = utf8_sub(self, 1, num)
 
 	return withellipses and (str .. '...') or str
 end

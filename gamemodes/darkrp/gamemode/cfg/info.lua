@@ -3,9 +3,8 @@ local info = {
 		MaxSlots = 128,
 		ServerIP = 'rp.gmodhub.com',
 		AltServerIP = 'rp.gmodhub.com',
-		ChatPrefix = 'PIZDEC',
+		ChatPrefix = 'DarkRP',
 	}
 }
 
 _G.info = info[game.GetMap()]
-_G.info.TeamSpeakIP = 'ts.superiorservers.co'

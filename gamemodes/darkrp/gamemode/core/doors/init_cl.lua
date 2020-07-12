@@ -30,7 +30,7 @@ timer.Create('rp.RefreshDoorCache', 0.5, 0, function()
 		doorcache 	= {}
 		for k, ent in ipairs(ents_FindInSphere(LocalPlayer():GetPos(), 350)) do
 			if IsValid(ent) and ent:IsDoor() and (ent:IsPropertyOwnable() or ent:IsPropertyOwned() or ent:IsPropertyTeamOwned() or ent:IsPropertyHotelOwned()) then
-				ent.PressKeyText = 'To Open/Close'
+				ent.PressKeyText = 'Открыть/Закрыть'
 				count = count + 1
 				doorcache[count] = ent
 			end
@@ -95,7 +95,7 @@ hook('PostDrawTranslucentRenderables', 'rp.doors.PostDrawTranslucentRenderables'
 					if ent:IsPropertyOwnable() then
 						drawtext(rp.FormatMoney(ent:GetPropertyPrice(LocalPlayer())), color_green)
 
-						drawtext('Press F2 to own', color_white)
+						drawtext('F2 - Приобрести', color_white)
 					elseif ent:IsPropertyOwned() then
 						-- Org own
 						local owner = ent:GetPropertyOwner()
@@ -122,8 +122,8 @@ hook('PostDrawTranslucentRenderables', 'rp.doors.PostDrawTranslucentRenderables'
 						if (coOwnersCount > 0) then
 							for k, co in ipairs(coOwners) do
 								if (k >= 4) then
-									drawtext('and ' .. (coOwnersCount - 3) .. ' co-owners', color_white)
-									drawtext('Press F2 to view deed', color_white)
+									drawtext('и ' .. (coOwnersCount - 3) .. ' совладельца', color_white)
+									drawtext('F2 - Просмотр', color_white)
 									break
 								elseif IsValid(co) then
 									drawtext(co:Name(), co:GetJobColor())

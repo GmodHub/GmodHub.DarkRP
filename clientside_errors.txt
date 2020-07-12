@@ -109370,3 +109370,160 @@ DidVaitel|2|STEAM_0:1:74202541
 
 
 
+DidVaitel|12|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/motd.lua:30: bad argument #1 to 'OpenURL' (string expected, got nil)
+  1. OpenURL - [C]:-1
+   2. ClientCallback - addons/badmin_2/lua/ba/plugins/motd.lua:30
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:492
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|12|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/motd.lua:30: bad argument #1 to 'OpenURL' (string expected, got nil)
+  1. OpenURL - [C]:-1
+   2. ClientCallback - addons/badmin_2/lua/ba/plugins/motd.lua:30
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:492
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|12|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/motd.lua:30: bad argument #1 to 'OpenURL' (string expected, got nil)
+  1. OpenURL - [C]:-1
+   2. ClientCallback - addons/badmin_2/lua/ba/plugins/motd.lua:30
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:492
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|12|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/motd.lua:30: bad argument #1 to 'OpenURL' (string expected, got nil)
+  1. OpenURL - [C]:-1
+   2. ClientCallback - addons/badmin_2/lua/ba/plugins/motd.lua:30
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:492
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|12|STEAM_0:1:74202541
+
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. OpenMoTD - addons/badmin_2/lua/ba/plugins/motd.lua:276
+      5. ClientCallback - addons/badmin_2/lua/ba/plugins/motd.lua:6
+       6. func - addons/dash_3/lua/dash/libraries/cmd.lua:492
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[badmin_2] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1424: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. OnSelection - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1424
+    3. DoClick - addons/badmin_2/lua/ui/controls/playerrequest.lua:23
+     4. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|3|STEAM_0:1:74202541
+
+[dash_3] RunString:1: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. unknown - RunString:1
+    3. RunString - [C]:-1
+     4. func - addons/dash_3/lua/dash/libraries/usermessage.lua:118
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+
+eLeCtrOssSnake|4|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25: attempt to call method 'Name' (a nil value)
+  1. InitInspect - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25
+   2. EnableMenu - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:41
+    3. Inspect - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:70
+     4. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:98
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80: attempt to index field 'Steam' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80: attempt to index field 'Steam' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80: attempt to index field 'Steam' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80: attempt to index field 'Steam' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80: attempt to index field 'Steam' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/scoreboard/player_info_cl.lua:80
+
+
+
+eLeCtrOssSnake|5|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:148: attempt to index local 'orgdata' (a nil value)
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:148
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+eLeCtrOssSnake|6|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:148: attempt to index local 'orgdata' (a nil value)
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:148
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+eLeCtrOssSnake|6|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:148: attempt to index local 'orgdata' (a nil value)
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:148
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[dash_3] addons/dash_3/lua/dash/extensions/net.lua:132: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. Ping - addons/dash_3/lua/dash/extensions/net.lua:132
+    3. callback - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1684
+     4. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+      5. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+       6. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+        7. unknown - lua/vgui/dlabel.lua:237
+
+
+

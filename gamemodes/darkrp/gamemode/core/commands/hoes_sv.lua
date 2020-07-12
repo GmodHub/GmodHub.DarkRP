@@ -38,7 +38,7 @@ local function DoFuck(pl, target)
 		PimpsCut()
 	end
 
-	if v:CloseToCPs() && !pl:IsWanted() then
+	if pl:CloseToCPs() && !pl:IsWanted() then
 		pl:Wanted(nil, "Prostitution")
 	end
 
@@ -125,7 +125,7 @@ rp.AddCommand("sex", function(pl)
 		FuckCost = 0
 	end
 
-	rp.question.Create("Would you like to have sex with " ..  pl:Name() .. " for $" .. FuckCost .. "?", 30, "fuckyfucky" .. pl:UserID(), function(pl, answer)
+	rp.question.Create("Would you like to have sex with " ..  pl:Name() .. " for $" .. FuckCost .. "?", 30, "fuckyfucky" .. pl:UserID(), function(targ, answer)
 		if tobool(answer) == false then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('targetWontFuck'))
 			return
@@ -136,13 +136,13 @@ rp.AddCommand("sex", function(pl)
 		elseif tobool(answer) then
 			DoFuck(pl, target)
 			if rp.teams[target:Team()].Pimp then
-				rp.Notify(pl, NOTIFY_GREEN, rp.Term('+FuckCostPimp'), FuckCost)
+				rp.Notify(pl, NOTIFY_GREEN, term.Get('+FuckCostPimp'), FuckCost)
 			else
-				rp.Notify(pl, NOTIFY_GREEN, rp.Term('+Money'), FuckCost)
-				rp.Notify(target, NOTIFY_ERROR, rp.Term('-Money'), FuckCost)
+				rp.Notify(pl, NOTIFY_GREEN, term.Get('+Money'), FuckCost)
+				rp.Notify(target, NOTIFY_ERROR, term.Get('-Money'), FuckCost)
 				return
 			end
-			rp.Notify(target, NOTIFY_ERROR, rp.Term('-Money'), FuckCost)
+			rp.Notify(target, NOTIFY_ERROR, term.Get('-Money'), FuckCost)
 			return
 		end
 	end, false, target)

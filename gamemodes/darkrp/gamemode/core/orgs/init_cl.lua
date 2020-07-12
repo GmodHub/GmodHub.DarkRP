@@ -24,7 +24,7 @@ net('rp.OrgsMenu', function()
 		cont.InviteSection:SetPos(0, 0)
 		cont.InviteSection:SetSize(invScale * 516, cont:GetTall())
 		cont.InviteSection:AddItem(ui.Create('DButton', function(s)
-			s:SetText('Pending Invitations')
+			s:SetText('Приглашения в банду')
 			s:SetTall(30)
 			s:SetDisabled(true)
 		end))
@@ -59,7 +59,7 @@ net('rp.OrgsMenu', function()
 				local rej = ui.Create('DButton', function(btn)
 					btn.fontset = true
 					btn:SetFont(invFont)
-					btn:SetText("Reject")
+					btn:SetText("Отклонить")
 					btn:SetSize(btnWidth, s:GetTall() - 15 - nm:GetTall())
 					btn:SetPos(cont.InviteSection:GetWide() - btn:GetWide() - 5, s:GetTall() - btn:GetTall() - 5)
 					btn.DoClick = function()
@@ -74,7 +74,7 @@ net('rp.OrgsMenu', function()
 				local acc = ui.Create('DButton', function(btn)
 					btn.fontset = true
 					btn:SetFont(invFont)
-					btn:SetText("Accept")
+					btn:SetText("Принять")
 					btn:SetSize(rej:GetSize())
 					btn:SetPos(cont.InviteSection:GetWide() - btn:GetWide() - rej:GetWide() - 10, s:GetTall() - btn:GetTall() - 5)
 					btn.DoClick = function()
@@ -97,22 +97,22 @@ net('rp.OrgsMenu', function()
 		cont.CreateSection:SetSize(cont:GetWide() - cont.InviteSection:GetWide() + 1, cont:GetTall())
 
 		cont.CreateSection:AddItem(ui.Create('DButton', function(s)
-			s:SetText('Create a new Organization')
+			s:SetText('Создать новую банду')
 			s:SetTall(30)
 			s:SetDisabled(true)
 		end))
 		cont.CreateSection:AddItem(ui.Create('Panel', function(p) p:SetTall(3) end))
 
 
-		local lines = string.Wrap('ui.24', [[For ]] .. rp.FormatMoney(rp.cfg.OrgCost) .. [[, you can create an Organization that spans across all of our DarkRP servers.
+		local lines = string.Wrap('ui.24', [[За ]] .. rp.FormatMoney(rp.cfg.OrgCost) .. [[, вы можете создать свою банду, которая будер развиваться на нашем сервере.
 
-Being in an Org presents you with several perks. Grow with a roleplay family, show off your stripes with your group’s custom banner, help each other out using the shared bank, or take down the bases of other Orgs as a unit.
+Нахождение в банде даёт вам ряд преимуществ. Развивайтесь вместе со своей РП бандой, покажите другим, насколько вы круты, используя своё лого банды, помогайте друг другу используя общий банк, или же рейдите базы других банд.
 
-Use a rich MoTD and in-depth hierarchical structure to organize your members. Easily invite, promote, or remove players. Audit logs keep track of every action done within your Org.
+Используйте красочное MoTD и проработанную систему рангов чтобы обозначить значимость участников банды. С лёгкостью приглашайте, повышайте, или выгоняйте игроков. Логи действий помогут вам отслеживать каждое действие в банде.
 
-Once created, an Org can be upgraded via our Credit Shop to expand its capabilities.
+После создания, банда может быть улучшена за специальное улучшение, которое повысит её возможности.
 
-Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRenameCost) .. [[!]], cont.CreateSection:GetWide() * 0.85)
+Выбирайте имя с умом, переименование стоит ]] .. rp.FormatMoney(rp.cfg.OrgRenameCost) .. [[!]], cont.CreateSection:GetWide() * 0.85)
 
 		for k, v in ipairs(lines) do
 			cont.CreateSection:AddItem(ui.Create('DLabel', function(l)
@@ -128,7 +128,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			s:SetSize(cont.CreateSection:GetWide() - 10, 30)
 			s:SetPos(5, cont.CreateSection:GetTall() - 35)
 			s.DoClick = function()
-				ui.StringRequest('Create an Organization', 'You\'re not in an organization. Would you like to create one for ' .. rp.FormatMoney(rp.cfg.OrgCost) .. '?\n Enter your organization name to continue.', '', function(resp)
+				ui.StringRequest('Создать Банду', 'Вы не состоите в банде. Желаете создать свою за ' .. rp.FormatMoney(rp.cfg.OrgCost) .. '?\n Введите название банды для продолжения.', '', function(resp)
 					cmd.Run('createorg', resp)
 					head:Close()
 				end)
@@ -142,7 +142,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 	local orgdata   = LocalPlayer():GetOrgData()
 	if (!orgdata) then
-		rp.Notify(NOTIFY_ERROR, 'Unknown error.')
+		rp.Notify(NOTIFY_ERROR, 'Неизвестная ошибка.')
 	end
 
 	local rank      = orgdata.Rank
@@ -194,7 +194,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 		if (lastConnect == os.time()) then lastConnect = 0 end
 
 		if (!orgrankref[rank]) then
-			print("Glitched member: " .. steamid .. " rank " .. rank .. " doesnt exist! Assuming lowest")
+			print("Забаганный участник: " .. steamid .. " ранг " .. rank .. " не существует! Ранг был изменён на самый низкий")
 			rank = orgranks[#orgranks].Name
 		end
 
@@ -231,17 +231,17 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 		end
 
 		fr.btnQuit = ui.Create('DButton', function(self)
-			self:SetText(perms.Owner and 'Disband' or 'Quit')
+			self:SetText(perms.Owner and 'Распустить' or 'Покинуть')
 			self:SizeToContents()
 			self:SetSize(self:GetWide() + 10, head.btnClose:GetTall())
 			self:SetPos(head.btnClose.x - self:GetWide() + 1, 0)
 
 			self.DoClick = function(s)
-				local str = perms.Owner and 'Disband Organization?' or 'Quit Organization?'
-				local str2 = perms.Owner and 'Are you sure you want to disband ' .. LocalPlayer():GetOrg() .. '?\nType DISBAND in the box below.' or 'Are you sure you want to leave ' .. LocalPlayer():GetOrg() .. '?\nType QUIT in the box below.'
+				local str = perms.Owner and 'Распустить Банду?' or 'Выйти из Банды?'
+				local str2 = perms.Owner and 'Вы уверены, что хотите распустить ' .. LocalPlayer():GetOrg() .. '?\nВведите РАСПУСТИТЬ чтобы продолжить.' or 'Вы уверены, что хотите покинуть организацию ' .. LocalPlayer():GetOrg() .. '?\nВведите ВЫХОД для продолжения.'
 
 				ui.StringRequest(str, str2, '', function(resp)
-					local ismatch = (perms.Owner and resp:lower() == 'disband') or (!perms.Owner and resp:lower() == 'quit')
+					local ismatch = (perms.Owner and resp:lower() == 'распустить') or (!perms.Owner and resp:lower() == 'выход')
 
 					if (ismatch) then
 						head:Close()
@@ -253,14 +253,14 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 		fr.lblTitle = (not perms.Owner) and fr.btnQuit or ui.Create('DButton', function(self)
 			self:SetPos(0, 0)
-			self:SetText('Rename')
+			self:SetText('Переименовать')
 			self:SizeToContents()
 			self:SetSize(self:GetWide() + 10, head.btnClose:GetTall())
 			self:SetPos(fr.btnQuit.x - self:GetWide() + 1, 0)
 		end, head)
 
 		fr.btnLog = ui.Create("DButton", function(self)
-			self:SetText("Audit Logs")
+			self:SetText("Логи")
 			self:SizeToContents()
 			self:SetSize(self:GetWide() + 10, head.btnClose:GetTall())
 			self:SetPos(fr.lblTitle.x - self:GetWide() + 1, 0)
@@ -282,7 +282,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 		end, head)*/
 
 		fr.btnBank = ui.Create('DButton', function(self)
-			self:SetText("Bank: " .. rp.FormatMoney(funds))
+			self:SetText("Банк: " .. rp.FormatMoney(funds))
 			self:SizeToContents()
 			self:SetSize(self:GetWide() + 10, head.btnClose:GetTall())
 			self:SetPos(fr.btnLog.x - self:GetWide() + 1, 0)
@@ -295,7 +295,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 		end, head)
 
 		fr.btnUpgraded = ui.Create('DButton', function(self)
-			self:SetText(upgraded and "★ Premium" or "Basic Org")
+			self:SetText(upgraded and "★ Премиум" or "Стандартная Банда")
 			if (upgraded) then
 				self.TextColor = rp.col.Yellow
 			end
@@ -345,7 +345,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			end, self)
 
 			local warnLbl = ui.Create('DLabel', function(warnLbl)
-				warnLbl:SetText('Deposits are taxed ' .. rp.cfg.OrgBankTax * 100 .. '%' .. (upgraded and '' or (', basic Orgs have ' .. rp.FormatMoney(rp.cfg.OrgBasicBankMax) .. ' max')))
+				warnLbl:SetText('Налог на пополнений ' .. rp.cfg.OrgBankTax * 100 .. '%' .. (upgraded and '' or (', Ваш лимит ' .. rp.FormatMoney(rp.cfg.OrgBasicBankMax) .. '')))
 				warnLbl:SetFont('ui.17')
 				warnLbl:SizeToContents()
 				warnLbl:SetPos(5, 84)
@@ -354,7 +354,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 			local amt
 			local btnD = ui.Create('DButton', function(btnD)
-				btnD:SetText('Deposit')
+				btnD:SetText('Пополнить')
 				btnD:SetSize(143, 30)
 				btnD:SetPos(5, 104)
 				btnD.DoClick = function(btnD)
@@ -368,7 +368,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			end, self)
 
 			local btnW = ui.Create('DButton', function(btnW)
-				btnW:SetText('Withdraw')
+				btnW:SetText('Снять')
 				btnW:SetSize(143, 30)
 				btnW:SetPos(152, 104)
 				btnW.DoClick = function(btnW)
@@ -382,7 +382,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			end, self)
 
 			self.btnClose.DoClick = function()
-				fr.btnBank:SetText("Bank: " .. rp.FormatMoney(funds))
+				fr.btnBank:SetText("Банк: " .. rp.FormatMoney(funds))
 				overFrame:Remove()
 				fr:SetMouseInputEnabled(true)
 				self:Remove()
@@ -441,7 +441,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 	end, fr)
 
 	fr.lblMem = ui.Create('DButton', function(self)
-		self:SetText('Online Members: ' .. onlinecount .. '/' .. #orgmembers)
+		self:SetText('Участники Онлайн: ' .. onlinecount .. '/' .. #orgmembers)
 		self:SetTall(30)
 		self:SetDisabled(true)
 		self:DockMargin(0, 0, 0, -1)
@@ -462,7 +462,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 	end, fr)
 
 	fr.lblFlag = ui.Create('DButton', function(self)
-		self:SetText("Flag")
+		self:SetText("Лого")
 		self:SetTall(30)
 		self:SetDisabled(true)
 		self:Dock(TOP)
@@ -504,7 +504,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 	end, fr.colMid)
 
 	fr.lblRanks = ui.Create('DButton', function(self)
-		self:SetText("Ranks")
+		self:SetText("Ранги")
 		self:SetTall(30)
 		self:SetDisabled(true)
 		self:DockMargin(0, 5, 0, -1)
@@ -553,13 +553,13 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 	--------------------------------------------
 	local function timeAgo(time)
 		if (time == 0) then
-			return 'a long time ago'
+			return 'очень давно'
 		elseif (time < 3600) then
-			return 'less than an hour ago'
+			return 'меньше часа назад'
 		elseif (time < 172800) then
-			return math.floor(time / 3600) .. ' hours ago'
+			return math.floor(time / 3600) .. ' часов назад'
 		else
-			return math.floor(time / 86400) .. ' days ago'
+			return math.floor(time / 86400) .. ' дней назад'
 		end
 	end
 
@@ -596,7 +596,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 				else
 					btn.lblLastSeen1 = ui.Create("DLabel", function(self)
 						self:SetFont('ui.12')
-						self:SetText('Last seen:')
+						self:SetText('Последний Онлайн:')
 						self:SizeToContents()
 						self.Think = function(s)
 							s:SetPos(btn:GetWide() - s:GetWide() - 4, 2)
@@ -698,7 +698,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			askWindow = function(err)
 				err = err and err .. "\n\n" or ""
 
-				ui.StringRequest('Rename ' .. LocalPlayer():GetOrg(), err .. 'What would you like to name your Org?\nThis will cost ' .. rp.FormatMoney(rp.cfg.OrgRenameCost) .. ".", LocalPlayer():GetOrg(), function(resp)
+				ui.StringRequest('Переименовать ' .. LocalPlayer():GetOrg(), err .. 'Хотите сменить имя вашей банды?\nЭто будет стоить ' .. rp.FormatMoney(rp.cfg.OrgRenameCost) .. ".", LocalPlayer():GetOrg(), function(resp)
 					attemptRename(resp)
 				end)
 			end
@@ -708,7 +708,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 				lastRequestedName = name
 
 				if (name == LocalPlayer():GetOrg()) then
-					askWindow("This is already your Org's name.")
+					askWindow("Это текущее имя вашей банды.")
 					return
 				end
 
@@ -737,7 +737,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 
 		fr.btnCol = ui.Create('DButton', function(self)
-			self:SetText("Edit Color")
+			self:SetText("Изменить Цвет")
 			self:SetTall(25)
 			self:DockMargin(0, 5, 0, 0)
 			self:Dock(BOTTOM)
@@ -757,7 +757,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 					fr.colPicker:Remove()
 					fr.lblMoTD:SetText('MOTD')
-					s:SetText('Edit Color')
+					s:SetText('Изменить Цвет')
 				else
 					fr.colPicker = ui.Create('DColorMixer', function(col)
 						col:SetPos(fr.txtMoTD.x, fr.lblMoTD:GetTall())
@@ -774,14 +774,14 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 					end, fr.colRight)
 
-					fr.lblMoTD:SetText('Choose New Color')
-					s:SetText("Submit Color")
+					fr.lblMoTD:SetText('Выберите новый цвет')
+					s:SetText("Подтвердить Цвет")
 				end
 			end
 		end, fr.colRight)
 
 		fr.btnNewRank = ui.Create('DButton', function(self)
-			self:SetText("New Rank")
+			self:SetText("Новый Ранг")
 			self:SetTall(25)
 			self:DockMargin(0, 5, 0, 0)
 			self:Dock(BOTTOM)
@@ -793,7 +793,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			self.DoClick = function(s)
 				if (IsValid(fr.overRankNew)) then
 					fr.overRankNew:Remove()
-					s:SetText("New Rank")
+					s:SetText("Новый Ранг")
 				else
 					fr.overRankNew = ui.Create('ui_scrollpanel', function(scr)
 						scr:SetPos(fr.listRank.x, fr.lblFlag:GetTall() + fr.pnlFlag:GetTall() + fr.lblRanks:GetTall())
@@ -807,7 +807,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					local txtName = ui.Create('DButton', function(txt)
 						txt:SetTall(25)
 						txt:SetFont('ui.22')
-						txt:SetText('Enter Name')
+						txt:SetText('Введите Имя')
 						txt:Dock(TOP)
 
 						txt.DoClick = function(s, err)
@@ -827,7 +827,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					local chkInvite = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Invite Others")
+						chk:SetText("Может Приглашать")
 						chk:SetTextColor(rp.col.Black)
 						chk:Dock(TOP)
 
@@ -835,7 +835,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					local chkKick = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Kick Members")
+						chk:SetText("Может Кикать")
 						chk:SetTextColor(rp.col.Black)
 						chk:Dock(TOP)
 
@@ -843,7 +843,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					local chkRank = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Rank Members")
+						chk:SetText("Может Изменять Ранг")
 						chk:SetTextColor(rp.col.Black)
 						chk:Dock(TOP)
 
@@ -851,7 +851,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					local chkMOTD = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Set MOTD")
+						chk:SetText("Может Менять MOTD")
 						chk:SetTextColor(rp.col.Black)
 						chk:Dock(TOP)
 
@@ -861,7 +861,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					local chkBanner
 					if (upgraded) then
 						local chkBanner = ui.Create('DCheckBoxLabel', function(chk)
-							chk:SetText("Can Set Flag")
+							chk:SetText("Может Менять Лого")
 							chk:SetTextColor(rp.col.Black)
 							chk:Dock(TOP)
 
@@ -870,7 +870,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end
 
 					local chkWithdraw = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Withdraw Funds")
+						chk:SetText("Может Снимать Деньги")
 						chk:SetTextColor(rp.col.Black)
 						chk:Dock(TOP)
 
@@ -879,7 +879,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 					local btnSubmit = ui.Create('DButton', function(btn)
 						btn:SetTall(25)
-						btn:SetText("Submit")
+						btn:SetText("Подтвердить")
 						btn.TextColor = rp.col.Green
 						btn:Dock(TOP)
 
@@ -917,13 +917,13 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					txtName:DoClick()
-					s:SetText("Cancel")
+					s:SetText("Отмена")
 				end
 			end
 		end, fr.colMid)
 
 		fr.btnEditRank = ui.Create('DButton', function(self)
-			self:SetText("Edit Rank")
+			self:SetText("Изменить Ранг")
 			self:SetTall(25)
 			self:DockMargin(0, 5, 0, 0)
 			self:Dock(BOTTOM)
@@ -967,8 +967,8 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end
 
 					fr.overRankEdit:Remove()
-					s:SetText("Edit Rank")
-					fr.lblRanks:SetText('Ranks')
+					s:SetText("Изменить Ранг")
+					fr.lblRanks:SetText('Ранги')
 				else
 					local rank = fr.listRank:GetSelected().Rank
 
@@ -990,12 +990,12 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end, fr.colMid)
 
 					local btnName = ui.Create('DButton', function(btn)
-						btn:SetText('Rename')
+						btn:SetText('Переименовать')
 						btn:SetTall(25)
 						btn:Dock(TOP)
 
 						btn.DoClick = function(s)
-							ui.StringRequest('Rename Rank', 'What would you like to rename ' .. rank.Name .. ' to?', '', function(resp)
+							ui.StringRequest('Переименовать Ранг', 'Как вы хотите назвать ' .. rank.Name .. '?', '', function(resp)
 								if (!orgrankref[resp]) then
 									net.Start("rp.RenameOrgRank")
 										net.WriteString(rank.Name)
@@ -1003,7 +1003,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 									net.SendToServer()
 
 									fr.listRank:GetSelected():SetText(resp)
-									fr.lblRanks:SetText('Editing ' .. resp)
+									fr.lblRanks:SetText('Изменение ' .. resp)
 
 									for k, v in ipairs(orgmembers) do if (v.Rank == rank.Name) then v.Rank = resp end end
 									rank.Name = resp
@@ -1152,7 +1152,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					fr.overRankEdit.chkInvite = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Invite Others")
+						chk:SetText("Может Приглашать")
 						chk:SetTextColor(rp.col.Black)
 						chk:SetChecked(rank.Invite)
 
@@ -1161,7 +1161,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					fr.overRankEdit.chkKick = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Kick Members")
+						chk:SetText("Может Кикать")
 						chk:SetTextColor(rp.col.Black)
 						chk:SetChecked(rank.Kick)
 
@@ -1170,7 +1170,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					fr.overRankEdit.chkRank = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Rank Members")
+						chk:SetText("Может Менять Ранг")
 						chk:SetTextColor(rp.col.Black)
 						chk:SetChecked(rank.Rank)
 
@@ -1179,7 +1179,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					fr.overRankEdit.chkMOTD = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Set MOTD")
+						chk:SetText("Может Менять MOTD")
 						chk:SetTextColor(rp.col.Black)
 						chk:SetChecked(rank.MoTD)
 
@@ -1189,7 +1189,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 					if (upgraded) then
 						fr.overRankEdit.chkBanner = ui.Create('DCheckBoxLabel', function(chk)
-							chk:SetText("Can Set Flag")
+							chk:SetText("Может Менять Лого")
 							chk:SetTextColor(rp.col.Black)
 							chk:SetChecked(rank.Banner)
 
@@ -1199,7 +1199,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end
 
 					fr.overRankEdit.chkWithdraw = ui.Create('DCheckBoxLabel', function(chk)
-						chk:SetText("Can Withdraw Funds")
+						chk:SetText("Может Снимать Деньги")
 						chk:SetTextColor(rp.col.Black)
 						chk:SetChecked(rank.Withdraw)
 
@@ -1208,12 +1208,12 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 					end)
 
 					ui.Create('DButton', function(btn)
-						btn:SetText('Delete')
+						btn:SetText('Удалить')
 						btn:SetTall(25)
 
 						btn.Think = function(s)
 							if (s.CoolDown and SysTime() > s.CoolDown + 2) then
-								s:SetText("Delete")
+								s:SetText("Удалить")
 								s.CoolDown = nil;
 							end
 						end
@@ -1221,7 +1221,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 						btn.DoClick = function(s)
 							if (!s.CoolDown) then
 								s.CoolDown = SysTime()
-								s:SetText("Click Again")
+								s:SetText("Нажмите Ещё Раз")
 							else
 								net.Start('rp.RemoveOrgRank')
 									net.WriteString(rank.Name)
@@ -1259,7 +1259,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 					fr.lblRanks:SetText('Editing ' .. rank.Name)
 					fr.lblRanks:SizeToContents()
-					s:SetText("Save")
+					s:SetText("Сохранить")
 				end
 			end
 		end, fr.colMid)
@@ -1268,7 +1268,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 	if (perms.MoTD) then
 		fr.btnMoTD = ui.Create('DButton', function(self)
-			self:SetText("Edit MOTD")
+			self:SetText("Изменить MOTD")
 			self:SetTall(25)
 			self:DockMargin(0, 5, 0, 0)
 			self:Dock(BOTTOM)
@@ -1282,7 +1282,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 				if (upgraded) then
 					if (IsValid(fr.overMoTD)) then
 						fr.overMoTD:Remove()
-						s:SetText("Edit MOTD")
+						s:SetText("Изменить MOTD")
 
 						if (motd.Text == oldMoTD.Text and (!upgraded or (upgraded and motd.Dark == oldMoTD.Dark))) then
 							return
@@ -1304,7 +1304,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 							end
 
 							pnl.lblEditing = ui.Create('DButton', function(lbl)
-								lbl:SetText('Editing MoTD')
+								lbl:SetText('Изменение MoTD')
 								lbl:SetTall(30)
 								lbl:SetDisabled(true)
 								lbl:DockMargin(0, 0, 0, -1)
@@ -1336,7 +1336,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 									chk:DockMargin(5, 5, 5, 5)
 									chk:SetTall(35)
 									chk:Dock(LEFT)
-									chk:SetText("Dark Theme")
+									chk:SetText("Тёмная Тема")
 									chk:SetFont('ui.22')
 									chk:SetChecked(motd.Dark and true or false)
 									chk.OnChange = function(s)
@@ -1347,7 +1347,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 								pnl.helpBtn = ui.Create('DButton', function(lbl)
 									//lbl:SetTextColor(ui.col.White)
-									lbl:SetText("Markdown Help")
+									lbl:SetText("Помощь в Форматировании")
 									lbl:SetFont('ui.22')
 									lbl:SizeToContents()
 									lbl:SetTall(25)
@@ -1359,13 +1359,13 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 							end
 						end, fr)
 
-						s:SetText("Finish")
+						s:SetText("Готово")
 					end
 				else
 					if (IsValid(fr.overMoTD)) then
 						local newmotd = fr.overMoTD:GetValue()
 						fr.overMoTD:Remove()
-						s:SetText("Edit MOTD")
+						s:SetText("Изменить MOTD")
 
 						if (motd.Text == newmotd) then
 							return
@@ -1388,7 +1388,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 							txt:RequestFocus()
 						end, fr.colRight)
 
-						s:SetText("Finish")
+						s:SetText("Готово")
 					end
 				end
 			end
@@ -1397,7 +1397,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 	if (perms.Invite) then
 		fr.btnInv = ui.Create('DButton', function(self)
-			self:SetText("Invite Players ($" .. rp.cfg.OrgInviteCost .. " ea)")
+			self:SetText("Пригласить Игроков ($" .. rp.cfg.OrgInviteCost .. " каждый)")
 			self:SetTall(25)
 			self:DockMargin(0, 5, 0, 0)
 			self:Dock(BOTTOM)
@@ -1409,7 +1409,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 			self.DoClick = function(s)
 				if (IsValid(fr.overMemInv)) then
 					fr.overMemInv:Remove()
-					s:SetText("Invite Players")
+					s:SetText("Пригласить Игроков")
 				else
 					fr.overMemInv = ui.Create('ui_playerrequest', function(scr)
 						scr:SetPos(fr.listMem.x, fr.lblMem:GetTall())
@@ -1438,7 +1438,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 						end
 					end, fr.colLeft)
 
-					s:SetText("Go Back")
+					s:SetText("Назад")
 				end
 			end
 		end, fr.colLeft)
@@ -1446,7 +1446,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 		if (perms.Rank) then
 			fr.btnEdit = ui.Create('DButton', function(self)
-				self:SetText("Edit Player")
+				self:SetText("Изменить Игрока")
 				self:SetTall(25)
 				self:DockMargin(0, 5, 0, 0)
 				self:Dock(BOTTOM)
@@ -1464,7 +1464,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 				self.DoClick = function(s)
 					if (IsValid(fr.overMem)) then
 						fr.overMem:Remove()
-						s:SetText("Edit Player")
+						s:SetText("Изменить Игрока")
 					else
 						local sel = fr.listMem:GetSelected()
 
@@ -1484,7 +1484,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 							if (perms.Kick) then
 								scr.btnKick = ui.Create('DButton', function(btn)
-									btn:SetText("Kick Player")
+									btn:SetText("Кикнуть Игрока")
 									btn.TextColor = rp.col.Red
 									btn:SetTall(25)
 									scr:AddItem(btn)
@@ -1492,7 +1492,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 									btn.Think = function(s)
 										if (s.CoolDown) then
 											if (SysTime() > s.CoolDown + 2) then
-												s:SetText("Kick Player")
+												s:SetText("Кикнуть Игрока")
 												s.CoolDown = nil
 											end
 										end
@@ -1501,7 +1501,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 									btn.DoClick = function(s)
 										if (!s.CoolDown) then
 											s.CoolDown = SysTime()
-											s:SetText("Click again to confirm")
+											s:SetText("Нажмите ещё раз для подтверждения")
 										else
 											net.Start('rp.OrgKick')
 												net.WriteString(sel.Player.SteamID)
@@ -1516,7 +1516,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 							end
 
 							scr.btnRank = ui.Create('DButton', function(btn)
-								btn:SetText("Change Rank")
+								btn:SetText("Изменить Ранг")
 								btn:SetTall(25)
 								scr:AddItem(btn)
 
@@ -1551,13 +1551,13 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 							if (perms.Owner) then
 								scr.btnMakeOwner = ui.Create('DButton', function(btn)
-									btn:SetText('Make Owner')
+									btn:SetText('Сделать Владельцем')
 									btn:SetTall(25)
 									scr:AddItem(btn)
 
 									btn.DoClick = function(s)
-										ui.StringRequest('Transfer Org Ownership', 'Are you sure you want to promote ' .. sel.Player.Name .. ' to be ' .. LocalPlayer():GetOrg() .. '\'s new owner? Please type YES to confirm.', '', function(resp)
-											if (resp:lower() == 'yes') then
+										ui.StringRequest('Передать Владение Бандой', 'Вы уверены что хотите сделать ' .. sel.Player.Name .. ' новым владельцем ' .. LocalPlayer():GetOrg() .. '? Введите ДА для продолжения.', '', function(resp)
+											if (resp:lower() == 'да') then
 												head:Close()
 
 												net.Start('rp.PromoteOrgLeader')
@@ -1570,13 +1570,13 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 							end
 						end, fr.colLeft)
 
-						s:SetText("Go Back")
+						s:SetText("Назад")
 					end
 				end
 			end, fr.colLeft)
 		elseif (perms.Kick) then
 			fr.btnKick = ui.Create('DButton', function(self)
-				self:SetText("Kick Player")
+				self:SetText("Кикнуть Игрока")
 				self:SetTall(25)
 				self:DockMargin(0, 5, 0, 0)
 				self:Dock(BOTTOM)
@@ -1593,7 +1593,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 
 					if (s.CoolDown) then
 						if (SysTime() > s.CoolDown + 2) then
-							s:SetText("Kick Player")
+							s:SetText("Кикнуть Игрока")
 							s.CoolDown = nil
 						end
 					end
@@ -1602,7 +1602,7 @@ Choose a name carefully, because renames cost ]] .. rp.FormatMoney(rp.cfg.OrgRen
 				self.DoClick = function(s)
 					if (!s.CoolDown) then
 						s.CoolDown = SysTime()
-						s:SetText("Click again to confirm")
+						s:SetText("Нажмите ещё раз для подтверждения")
 					else
 						local sel = fr.listMem:GetSelected()
 						net.Start('rp.OrgKick')
@@ -1633,7 +1633,7 @@ net("rp.OrgLog", function()
 
 	local logFr = ui.Create("ui_frame", function(self)
 		self:SetSize(w, h)
-		self:SetTitle(LocalPlayer():GetOrg() .. ': Audit Logs')
+		self:SetTitle(LocalPlayer():GetOrg() .. ': Логи')
 	end, cont)
 
 	ui.Create('ui_listview', function(self, p)
@@ -1646,10 +1646,10 @@ net("rp.OrgLog", function()
 			b:SetTextInset(5, 0)
 			b.DoClick = function(s)
 				local m = ui.DermaMenu(s)
-				m:AddOption('Copy Log', function()
+				m:AddOption('Скопировать Лог', function()
 					SetClipboardText(b:GetText())
 				end)
-				m:AddOption('Copy Date', function()
+				m:AddOption('Скопировать Дату', function()
 					SetClipboardText()
 				end)
 				m:Open()

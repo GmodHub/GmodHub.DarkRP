@@ -95,7 +95,7 @@ end
 function upgrade_mt:SetWeapon(wep) -- We don't need 20 PlayerLoadout hooks
 	rp.shop.Weapons[self:GetUID()] = wep
 	self.Weapon = wep
-	self:SetDesc('You will always spawn with a ' .. self:GetName() .. '.')
+	self:SetDesc('Вы будете всегда спавниться с ' .. self:GetName() .. '.')
 	self:SetStackable(false)
 	self:SetOnBuy(function(self, pl)
 		local weps = pl:GetVar('PermaWeapons')
@@ -215,13 +215,13 @@ function upgrade_mt:CanBuy(pl)
 	end
 
 	if (not self:CanSee(pl)) then
-		return false, 'How can you even see this?'
+		return false, 'Как вы вообще это видите?'
 	elseif (not canBuy) then
 		return canBuy, reason
 	elseif (not self:IsStackable()) and pl:HasUpgrade(self:GetUID()) then
-		return false, 'You have already purchased this upgrade!'
+		return false, 'У вас уже куплено это улучшение!'
 	elseif (not pl:CanAffordCredits(self:GetPrice(pl))) then
-		return false, 'You cannot afford this upgrade (' .. string.Comma(self:GetPrice(pl)) .. ' Credits)'
+		return false, 'Вы не можете себе это позволить (' .. string.Comma(self:GetPrice(pl)) .. ' Кредитов)'
 	end
 
 	return true

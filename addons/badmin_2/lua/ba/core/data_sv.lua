@@ -32,19 +32,6 @@ end
 --
 local db = ba.data.GetDB()
 
-function ba.data.CreateKey(pl, cback)
-	local time = os.time()
-	local key = pl:HashID()
-	pl:SetBVar('LastKey', key)
-	db:Query('INSERT INTO ba_keys(`Date`, `Key`) VALUES(' .. time .. ', "' .. key .. '");')
-	return key
-end
-
-function ba.data.DestroyKey(key, cback)
-	db:Query('DELETE * FROM ba_keys WHERE `Key`="' .. key .. '";')
-end
-
-
 --
 -- Player data
 --

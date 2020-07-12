@@ -4,13 +4,13 @@ cvar.Register 'ChatboxSize'
 
 cvar.Register 'PMNotify'
 	:SetDefault(false)
-	:AddMetadata('Catagory', 'Chat')
-	:AddMetadata('Menu', 'Play PM sounds')
+	:AddMetadata('Catagory', 'Чат')
+	:AddMetadata('Menu', 'Включить уведомления о личных сообщениях')
 
 cvar.Register 'DisableEmotes'
 	:SetDefault(false)
-	:AddMetadata('Catagory', 'Chat')
-	:AddMetadata('Menu', 'Disable emotes')
+	:AddMetadata('Catagory', 'Чат')
+	:AddMetadata('Menu', 'Выключить эмоции')
 
 chat.OldAddText = chat.OldAddText or chat.AddText
 function chat.AddText(...)

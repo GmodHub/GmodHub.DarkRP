@@ -10,8 +10,8 @@ rp.nodamage = {
 	gmod_emitter 	= true,
 	gmod_light 		= true,
 	keypad          = true,
-    gmod_poly       = true,
-    ent_picture 	= true
+  gmod_poly       = true,
+  ent_picture 	= true
 }
 
 local nocolide = {

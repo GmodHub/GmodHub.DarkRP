@@ -10,6 +10,9 @@ end
 
 function PLAYER:GetLimit(name)
 	local c = rp.GetLimit(name) or 0
+	if (name == "props") then
+		c = hook.Call("PlayerGetLimit", GAMEMODE, self, str) or 0
+	end
 	return c
 end
 
@@ -21,23 +24,24 @@ function PLAYER:GetCount(str, minus)
 end
 
 function PLAYER:AddCount(str, ent)
-	if (SERVER) then
-		if not self._Counts then
-			self._Counts = {}
-		end
+	if not self._Counts then
+		self._Counts = {}
+	end
 
-		self._Counts[str] = (self._Counts[str] or 0) + 1
+	self._Counts[str] = (self._Counts[str] or 0) + 1
 
-		ent.OnRemoveCount = function() --CallOnRemove is broke
-			if IsValid(self) then
-				self._Counts[str] = self._Counts[str] - 1
-			end
+	ent.OnRemoveCount = function() --CallOnRemove is broke
+		if IsValid(self) then
+			self._Counts[str] = self._Counts[str] - 1
 		end
 	end
+
+	rp.Notify(self, NOTIFY_GENERIC, term.Get("SboxSpawned"), self:GetCount(str), rp.GetLimit(str), str)
+
 end
 
 function PLAYER:LimitHit(str)
-	rp.Notify(self, NOTIFY_ERROR, term.Get('SboxXLimit'), hook.Call("PlayerGetLimit",GAMEMODE, self, str), str)
+	rp.Notify(self, NOTIFY_ERROR, term.Get('SboxXLimit'), rp.GetLimit(str), str)
 end
 
 function PLAYER:AddCleanup(type, ent)

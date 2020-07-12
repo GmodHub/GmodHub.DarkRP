@@ -26,6 +26,14 @@ function rp.question.Create(question, time, uid, callback, hz, recipients)
   hook('Tick', 'rp.Question', rp.question.Tick)
 end
 
+function rp.question.Exists(uid)
+
+  local question = rp.question.Queue[uid]
+  if not question then return false end
+
+  return true
+end
+
 function rp.question.Destroy(uid)
 
   local question = rp.question.Queue[uid]
@@ -82,9 +90,3 @@ net('rp.question.Answer', function(len, pl)
   end
 
 end)
-/*
-rp.question.Create('Do you want to participate in an event?', 30, 'event', function(pl, answer)
-  if (answer) then
-    pl:SetPos(util.FindEmptyPos(Vector(-4065, 1555, -1024)))
-  end
-end, nil, table.Filter(player.GetAll(), function(v) return !v:IsArrested() and !v:IsJailed() and v != pl end))

@@ -1307,7 +1307,7 @@ function GM:PostDrawTranslucentRenderables()
 	local LP = LocalPlayer()
 	local simpleMath = cvar_Get('disable_niceinfomath') == true
 	disableBannerOverhead = cvar_Get('disable_playerinfoorgbanner') == true
-
+	
 	surface_SetFont('PlayerInfo')
 	for k, v in ipairs(players) do
 		if IsValid(v) then
