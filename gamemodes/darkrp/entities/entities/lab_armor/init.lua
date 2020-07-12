@@ -22,35 +22,6 @@ function ENT:Initialize()
 	self:PhysWake()
 
 	self:Setprice(self.MinPrice)
-
-	self.damage = 150
-end
-
-function ENT:PhysgunPickup(pl)
-	return ((pl == self.ItemOwner and self:InSpawn()) or false)
-end
-
-function ENT:PhysgunFreeze(pl)
-	return self:InSpawn()
-end
-
-function ENT:OnTakeDamage(dmg)
-	local phys = self:GetPhysicsObject()
-	if not phys:IsMoveable() then return end
-
-	self.damage = self.damage - dmg:GetDamage()
-	if (self.damage <= 0) then
-		self:Remove()
-	end
-end
-
-function ENT:Destruct()
-	local vPoint = self:GetPos()
-	local effectdata = EffectData()
-	effectdata:SetStart(vPoint)
-	effectdata:SetOrigin(vPoint)
-	effectdata:SetScale(1)
-	util.Effect('Explosion', effectdata)
 end
 
 function ENT:Use(pl)
@@ -76,9 +47,4 @@ function ENT:Use(pl)
 		pl:SetArmor(100)
 		self:EmitSound('items/suitchargeok1.wav')
 	end
-end
-
-function ENT:OnRemove()
-	self:Destruct()
-	rp.Notify(self.ItemOwner, NOTIFY_ERROR, term.Get('ArmorLabExploded'))
 end

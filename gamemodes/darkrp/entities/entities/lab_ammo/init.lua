@@ -29,14 +29,6 @@ function ENT:Initialize()
 	self.damage = 150
 end
 
-function ENT:PhysgunPickup(pl)
-	return ((pl == self.ItemOwner and self:InSpawn()) or false)
-end
-
-function ENT:PhysgunFreeze(pl)
-	return self:InSpawn()
-end
-
 function ENT:OnTakeDamage(dmg)
 	local phys = self:GetPhysicsObject()
 	if not phys:IsMoveable() then return end

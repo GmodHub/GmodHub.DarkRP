@@ -1,4 +1,4 @@
-if (SERVER) then
+--[[if (SERVER) then
 	local message 	= {}
 	local pooled 	= {}
 
@@ -196,4 +196,4 @@ else
 	function usermessage:Reset()
 		ErrorNoHalt('usermessage:Reset() is not supported!')
 	end
-end
+end]]
