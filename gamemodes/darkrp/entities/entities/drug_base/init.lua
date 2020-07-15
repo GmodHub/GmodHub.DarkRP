@@ -1,13 +1,14 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 util.AddNetworkString("rp.StartHigh")
 util.AddNetworkString("rp.EndHigh")
 
+CurrentHighs = CurrentHighs or {};
+
 function ENT:Initialize()
 	self:SetModel(self.Model);
-	
+
 	if (SERVER) then
 		self:PhysicsInit(SOLID_VPHYSICS);
 		self:SetMoveType(MOVETYPE_VPHYSICS);
@@ -15,156 +16,98 @@ function ENT:Initialize()
 		self:SetCollisionGroup(COLLISION_GROUP_DEBRIS_TRIGGER);
 
 		self:PhysWake();
-		
+
 		self:GetPhysicsObject():SetMass(2);
 	end
-		local ind = self.Index
 
-end
-
-function ENT:OnTakeDamage(dmginfo)
-	self:TakePhysicsDamage(dmginfo);
 end
 
 function ENT:Use(activator, caller)
-	rp.Drugs[self.Index]:StartHigh()
-	net.Start("rp.StartHigh")
-	net.WriteUInt(self.Index,6)
-	net.Send(caller)
-	timer.Create(caller:SteamID64().."Drug"..math.Rand(0,999), 60, 1, function(self)
-		net.Start("rp.EndHigh")
-		net.WriteUInt(self.Index,6)
-		net.Send(caller)		
-	end)
-    self:Remove();
-end
+	local ind = self.Index
+	local drug = rp.Drugs[ind]
+	CurrentHighs[caller] = CurrentHighs[caller] or {}
+	local highs = CurrentHighs[caller]
 
-AddCSLuaFile("autorun/client/cl_DrugLogic.lua");
-
-util.AddNetworkString("DrugStatus");
-util.AddNetworkString("ClearDrugs");
-
-DRUGS = DRUGS or {};
-
-function RegisterDrug(DRUG)
-	DRUG.TickServer = DRUG.TickServer or function(this, pl, stacks, startTime, endTime) end;
-	DRUG.StartHighServer = DRUG.StartHighServer or function(this, pl) end;
-	DRUG.EndHighServer = DRUG.EndHighServer or function(this, pl) end;
-
-	DRUGS[DRUG.Name] = DRUG;
-end
-
-CURRENTHIGHS = CURRENTHIGHS or {};
-
--- Structure:
--- CURRENTHIGHS["Cocaine"] = {
--- 	plEnt = {
---		stacks = <number>, -- Can be used as a multiplier, or overdosing
---		startTime = <number>,
---		endTime = <number>
---	}
--- }
-
-local pMeta = FindMetaTable("Player");
-
-function pMeta:AddHigh(ID, noKarmaLoss)
-	if (!ID or ID == "") then
-		return;
-	end
-	
-	local highs = CURRENTHIGHS;
-	
-	highs[ID] = highs[ID] or {};
-	
-	high = highs[ID];
-	
-	local drugRef = DRUGS[ID];
-	
-	if (!drugRef) then
-		return;
-	end
-	
-	if (self.AddKarma and !drugRef.NoKarmaLoss and !noKarmaLoss) then
-		self:AddKarma(drugRef.KarmaAmount or -2)
-		rp.Notify(self, NOTIFY_ERROR, term.Get('LostKarmaDrugs'), drugRef.KarmaAmount or 2)
-	end
-	
-	if (high[self]) then
-		high[self].endTime = CurTime() + drugRef.Duration;
-		high[self].stacks = high[self].stacks + 1;
+	if highs[ind] then
+		highs[ind].endTime = CurTime() + (drug.Time or 60)
+		highs[ind].stacks = highs[ind].stacks + 1
 	else
-		high[self] = {
+		highs[ind] = {
+			endTime = CurTime() + (drug.Time or 60),
 			stacks = 1,
-			startTime = CurTime(),
-			endTime = CurTime() + drugRef.Duration
-		};
-		
-		drugRef:StartHighServer(self);
+		}
 	end
-	
-	net.Start("DrugStatus");
-		net.WriteString(ID);
-		net.WriteBit(true);
-		net.WriteFloat(high[self].startTime);
-		net.WriteFloat(high[self].endTime);
-	net.Send(self);
-end
 
-function pMeta:RemoveHigh(ID)
-	local highs = CURRENTHIGHS;
-	
-	if (highs[ID] and highs[ID][self]) then
-		highs[ID][self].endTime = CurTime();
-	end
-end
+	// STD Chance
+	if drug.CanGiveSTD then
+		local std = 0
 
-function pMeta:RemoveAllHighs()
-	local highs = CURRENTHIGHS;
-	
-	for k, v in pairs(highs) do
-		for i, l in pairs(v) do
-			if (i == self) then
-				l.endTime = CurTime();
-				l.removingAll = true;
-			end
+		if istable(drug.STDChance) then
+			std = drug.STDChance[highs[ind].stacks] or drug.STDChance[#drug.STDChance]
+		else
+			std = drug.STDChance
+		end
+
+		if math.Rand(0, 1) <= std then
+			caller:GiveSTD("Гепатит")
 		end
 	end
-	
-	net.Start("ClearDrugs");
-	net.Send(self);
+
+	// Karma lost
+	if drug.Karma then
+		caller:TakeKarma(drug.Karma)
+		rp.Notify(caller, NOTIFY_ERROR, term.Get('LostKarmaDrugs'), drug.Karma)
+	end
+
+	// Overdose Chance
+	if drug.CanOverdose then
+		local overdose = 0
+
+		if istable(drug.OverdoseChance) then
+			overdose = drug.OverdoseChance[highs[ind].stacks] or drug.OverdoseChance[#drug.OverdoseChance]
+		else
+			overdose = drug.OverdoseChance
+		end
+
+		if math.Rand(0, 1) <= overdose then
+			caller:Kill()
+		end
+	end
+
+	rp.Drugs[ind].StartHigh(caller)
+	net.Start("rp.StartHigh")
+		net.WriteUInt(ind, 6)
+	net.Send(caller)
+	self:Remove()
+
 end
 
-function TickDrugs()
-	local highs = CURRENTHIGHS;
-	
+function PLAYER:RemoveAllHighs()
+	CurrentHighs[self] = CurrentHighs[self] or {}
+	local highs = CurrentHighs[self];
+
 	for k, v in pairs(highs) do
-		for i, l in pairs(v) do
-			if (!i:IsValid()) then
-				highs[k][i] = nil;
-				continue;
-			end
-			
-			if (CurTime() >= l.endTime) then
-				local drugRef = DRUGS[k];
-				
-				drugRef:EndHighServer(i);
-			
-				highs[k][i] = nil;
-				
-				if (!l.removingAll) then
-					net.Start("DrugStatus");
-						net.WriteString(k);
-						net.WriteBit(false);
-					net.Send(i);
+		v.endTime = CurTime()
+	end
+
+end
+
+hook("InitPostEntity", function()
+	timer.Create("DrugsThink", 1, 0, function()
+		for pl, drugs in pairs(CurrentHighs) do
+			for k,v in pairs(drugs) do
+				if v.endTime and CurTime() >= v.endTime then
+					rp.Drugs[k].EndHigh(pl, v.stacks)
+					net.Start("rp.EndHigh")
+						net.WriteUInt(k, 6)
+					net.Send(pl)
+					drugs[k] = nil
 				end
-			else
-				local drugRef = DRUGS[k];
-				
-				drugRef:TickServer(i, stacks, startTime, endTime);
 			end
 		end
-	end
-end
-hook.Add("Tick", "TickDrugs", TickDrugs);
+	end)
+end)
 
-hook.Add("PlayerDeath", "RemoveDrugHighs", function(pl) pl:RemoveAllHighs(); end);
+hook.Add("PlayerDeath", "RemoveDrugHighs", function(pl)
+	pl:RemoveAllHighs()
+end)

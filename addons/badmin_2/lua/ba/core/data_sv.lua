@@ -32,6 +32,18 @@ end
 --
 local db = ba.data.GetDB()
 
+function ba.data.CreateKey(pl, cback)
+	local time = os.time()
+	local key = pl:HashID()
+	pl:SetBVar('LastKey', key)
+	db:query('INSERT INTO ba_keys(`Date`, `Key`) VALUES(' .. time .. ', "' .. key .. '");', cback)
+	return key
+end
+
+function ba.data.DestroyKey(key, cback)
+	db:query('DELETE * FROM ba_keys WHERE `Key`="' .. key .. '";', cback)
+end
+
 --
 -- Player data
 --
@@ -75,7 +87,7 @@ function ba.data.LoadPlayer(pl, cback)
 			end
 
 			if (#data < 1) then
-				db:Query('INSERT INTO ba_ranks(steamid, sv_id, rank, expire_rank, expire_time) VALUES(?,?,?,?,?)', {steamid, ba.data.GetID(), 1, 1, 0})
+				db:Query('INSERT INTO ba_ranks(steamid, sv_id, rank, expire_rank, expire_time) VALUES(?,?,?,?,?)', steamid, ba.data.GetID(), 1, 1, 0)
 			end
 
 			if (_d.expire_time ~= 0) and (_d.expire_time < os.time()) then

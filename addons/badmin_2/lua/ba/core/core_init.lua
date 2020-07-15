@@ -1,5 +1,5 @@
 if SERVER then
-	resource.AddWorkshop '809871659' -- Gamemode Icons
+	resource.AddWorkshop '2167015028' -- Gamemode Icons
 end
 
 -- Notifications

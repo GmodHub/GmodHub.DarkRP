@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = 'weapon_rp_base'
 
 if CLIENT then
-	SWEP.PrintName		= 'Pimp Hand'
+	SWEP.PrintName		= 'Ладони'
 	SWEP.Instructions	= 'Left click to slap\nRight click to cough'
 	SWEP.Purpose 		= 'Keep your hoes in check'
 	SWEP.Slot			= 2
@@ -11,7 +11,7 @@ end
 
 SWEP.Spawnable		= true
 
-SWEP.ViewModel		= Model 'models/sup/weapons/pimphand.mdl'
+SWEP.ViewModel		= Model 'models/gmh/weapons/pimphand.mdl'
 SWEP.WorldModel		= ''
 SWEP.HoldType		= 'normal'
 SWEP.ViewModelFOV	= 90

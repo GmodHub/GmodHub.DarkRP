@@ -1,5 +1,5 @@
 if (SERVER) then
-	resource.AddDir 'materials/sup/ui/notifications/'
+	resource.AddDir 'materials/gmh/ui/'
 end
 
 NOTIFY_GENERIC	= 0

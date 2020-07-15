@@ -3,7 +3,7 @@ AddCSLuaFile()
 DEFINE_BASECLASS('baton_base')
 
 if CLIENT then
-	SWEP.PrintName = 'Unarrest Baton'
+	SWEP.PrintName = 'Освобождающая Дубинка'
 	SWEP.Slot = 3
 	SWEP.Instructions = 'Left click to unarrest\nRight click to switch to arrest'
 end

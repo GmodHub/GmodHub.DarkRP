@@ -1,1 +1,1 @@
-return {File='sup/rp/weapons-3842525556.lmp',FileName='weapons',CRC='558161692',Len=29011010,ShouldLoad=true}
+return {File='gmh/rp/weapons.lmp',FileName='weapons',CRC='558161692',Len=29011010,ShouldLoad=true}

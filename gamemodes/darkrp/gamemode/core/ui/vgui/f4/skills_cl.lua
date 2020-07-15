@@ -17,7 +17,7 @@ function PANEL:Paint(w, h)
 
 	local totalLevels = #self.Prices
 	local nextLevel = LocalPlayer():GetSkillLevel(self.ID) + 1
-	local nextDesc = (self.Descriptions[nextLevel] and ('Level ' .. nextLevel .. '/' .. totalLevels .. ' - ' .. self.Descriptions[nextLevel]) or ('Level ' .. totalLevels .. ' - ' .. self.Descriptions[nextLevel - 1]))
+	local nextDesc = (self.Descriptions[nextLevel] and ('Уровень ' .. nextLevel .. '/' .. totalLevels .. ' - ' .. self.Descriptions[nextLevel]) or ('Уровень ' .. totalLevels .. ' - ' .. self.Descriptions[nextLevel - 1]))
 	local nextPrice = self.Prices[nextLevel]
 
 	local tTH = 0
@@ -31,7 +31,7 @@ function PANEL:Paint(w, h)
 
 	draw.Box(0, 0, w, tTH + 10, barColor)
 
-	tW, tH = draw.SimpleText(nextPrice and (string.Comma(nextPrice) .. ' Karma') or 'Skill Mastered', 'ui.22', w * 0.5, h - 5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
+	tW, tH = draw.SimpleText(nextPrice and (string.Comma(nextPrice) .. ' Кармы') or 'Навык Освоен', 'ui.22', w * 0.5, h - 5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
 	tTH = tTH + tH
 
 	draw.Box(0, (h - tH) - 10, w, tH + 10, barColor)
@@ -49,7 +49,7 @@ function PANEL:PaintOver(w, h)
 	local nextPrice = self.Prices[LocalPlayer():GetSkillLevel(self.ID) + 1]
 	if self:IsHovered() and nextPrice then
 		draw.Box(1, 1, w - 2, h - 2, ui.col.Background)
-		draw.SimpleText(LocalPlayer():CanAffordKarma(nextPrice) and (self.Confirm and 'Click again to confirm' or 'Purchase') or 'Cannot afford!', 'ui.22', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText(LocalPlayer():CanAffordKarma(nextPrice) and (self.Confirm and 'Нажмите ещё раз для подтверждения' or 'Приобрести') or 'Недостаточно Кармы!', 'ui.22', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	end
 
 	if (not self:IsHovered()) and self.Confirm then

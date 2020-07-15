@@ -2,18 +2,18 @@ dash.IncludeSH 'shared.lua'
 
 cvar.Register 'media_enable'
 	:SetDefault(true, true)
-	:AddMetadata('Catagory', 'Media Players')
-	:AddMetadata('Menu', 'Enable media players')
+	:AddMetadata('Catagory', 'Медиа')
+	:AddMetadata('Menu', 'Включить медиа проигрыватели')
 
 cvar.Register 'media_mute_when_unfocused'
 	:SetDefault(true, true)
-	:AddMetadata('Catagory', 'Media Players')
-	:AddMetadata('Menu', 'Mute media players when alt-tabbed')
+	:AddMetadata('Catagory', 'Медиа')
+	:AddMetadata('Menu', 'Отключать звук проигрывателей при alt-tab')
 
 cvar.Register 'media_volume'
 	:SetDefault(0.75, true)
-	:AddMetadata('Catagory', 'Media Players')
-	:AddMetadata('Menu', 'Media player volume')
+	:AddMetadata('Catagory', 'Медиа')
+	:AddMetadata('Menu', 'Громкость медиа проигрывателей')
 	:AddMetadata('Type', 'number')
 
 cvar.Register 'media_quality'
@@ -22,7 +22,7 @@ cvar.Register 'media_quality'
 		return (v == 'low') or (v == 'medium') or (v == 'high') or (v == 'veryhigh')
 	end)
 
-local defaultPlaylist = 'Saved Videos'
+local defaultPlaylist = 'Сохранённые Видео'
 cvar.Register 'media_saved_videos'
 	:SetDefault({[defaultPlaylist] = {}}, true)
 	:SetEncrypted()
@@ -95,13 +95,13 @@ function ENT:DrawScreen(x, y, w, h)
 		self.Media:draw(x, y, w, h)
 	elseif (cvar.GetValue('media_enable') == false) then
 		draw.Box(x, y, w, h, color_bg)
-		draw.SimpleText('Media players disabled.', 'DermaLarge', x + (w * .5),  y + (h * .5), color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText('Медиа проигрыватели выключены.', 'DermaLarge', x + (w * .5),  y + (h * .5), color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	elseif (!self:IsFrozen()) then
 		draw.Box(x, y, w, h, color_bg)
-		draw.SimpleText('Media disabled because the player isn\'t frozen.', 'DermaLarge', x + (w * .5),  y + (h * .5), color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText('Медиа отключено так как проигрыватель не заморожен.', 'DermaLarge', x + (w * .5),  y + (h * .5), color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	elseif (self:IsPaused()) then
 		draw.Box(x, y, w, h, color_bg)
-		draw.SimpleText('Media paused.', 'DermaLarge', x + (w * .5),  y + (h * .5), color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText('Медиа на паузе.', 'DermaLarge', x + (w * .5),  y + (h * .5), color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	else
 		draw.Box(x, y, w, h, color_bg)
 		self:DrawRules(x, y, w, h)
@@ -110,9 +110,9 @@ end
 
 function ENT:DrawRules(x, y, w, h)
 	draw.Box(x, y, w, h, color_bg)
-	draw.SimpleText('No Media', 'DermaLarge', x + (w * .5),  y + (h * .45), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
-	draw.SimpleText('Follow the rules when playing media', 'DermaLarge', x + (w * .5),  y + (h * .55), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
-	draw.SimpleText('Rule breaking will lead to serious punishment', 'DermaLarge', x + (w * .5),  y + (h * .60), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+	draw.SimpleText('Медиа не выбрано', 'DermaLarge', x + (w * .5),  y + (h * .45), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+	draw.SimpleText('Соблюдайте правила при проигрывании медиа', 'DermaLarge', x + (w * .5),  y + (h * .55), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+	draw.SimpleText('Нарушение правил ведёт к серьёзному наказанию', 'DermaLarge', x + (w * .5),  y + (h * .60), color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 end
 
 -- UI
@@ -202,14 +202,14 @@ end
 
 function PANEL:DoClick()
 	local m = ui.DermaMenu(self)
-	m:AddOption('Play', function()
+	m:AddOption('Проиграть', function()
 		cmd.Run('playsong', self:GetLink())
 	end)
-	m:AddOption('Loop', function()
+	m:AddOption('Зациклить', function()
 		cmd.Run('loopsong', self:GetLink())
 	end)
-	m:AddOption('Rename', function()
-		ui.StringRequest('Set Title', 'What would you like to name this track?', self:GetTitle(), function(title)
+	m:AddOption('Переименовать', function()
+		ui.StringRequest('Установить Название', 'Как вы хотите назвать этот трек?', self:GetTitle(), function(title)
 			if IsValid(self) then
 				local favs = cvar.GetValue('media_saved_videos')
 				favs[currentVideoList][self:GetLink()].Title = title
@@ -219,10 +219,10 @@ function PANEL:DoClick()
 			end
 		end)
 	end)
-	m:AddOption('Copy URL', function()
+	m:AddOption('Скопировать Ссылку', function()
 		SetClipboardText(self:GetLink())
 	end)
-	m:AddOption('Remove', function()
+	m:AddOption('Удалить', function()
 		local favs = cvar.GetValue('media_saved_videos')
 		favs[currentVideoList][self:GetLink()] = nil
 		cvar.SetValue('media_saved_videos', favs)
@@ -266,7 +266,7 @@ function ENT:PlayerUse()
 	local w, h = ScrW() * .45, ScrH() * .6
 
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Media Player')
+		self:SetTitle('Медиа Проигрыватель')
 		self:SetSize(w, h)
 		self:MakePopup()
 		self:Center()
@@ -303,7 +303,7 @@ function ENT:PlayerUse()
 		end
 
 		if (count <= 0) then
-			videoList:AddSpacer('No results found!'):SetTall(30)
+			videoList:AddSpacer('Результатов не найдено!'):SetTall(30)
 		end
 	end
 
@@ -314,7 +314,7 @@ function ENT:PlayerUse()
 		self.OnChange = function(s)
 			listMedia(s:GetValue())
 		end
-		self:SetPlaceholderText('Search..')
+		self:SetPlaceholderText('Поиск..')
 	end, fr)
 
 	videoList = ui.Create('ui_listview', function(self, p)
@@ -337,7 +337,7 @@ function ENT:PlayerUse()
 
 		local playlists = {}
 
-		local sp = self:AddSpacer('Playlists')
+		local sp = self:AddSpacer('Плейлисты')
 		sp:SetTall(25)
 		local addBtn = ui.Create('DButton', function(self, p)
 			self:Dock(RIGHT)
@@ -350,7 +350,7 @@ function ENT:PlayerUse()
 				end
 
 			self.DoClick = function(self)
-				ui.StringRequest('New Playlist', 'What would you like to name this playlist?', 'New Playlist', function(name)
+				ui.StringRequest('Новый Плейлитс', 'Как вы хотите назвать этот плейлист?', 'Новый Плейлист', function(name)
 					local favs = cvar.GetValue('media_saved_videos')
 					if (favs[name]) then
 						for k, v in pairs(playlistButtons) do
@@ -360,7 +360,7 @@ function ENT:PlayerUse()
 							end
 						end
 					end
-					
+
 					favs[name] = {}
 					cvar.SetValue('media_saved_videos', favs)
 
@@ -383,7 +383,7 @@ function ENT:PlayerUse()
 	local delPlaylist = ui.Create('DButton', function(self, p)
 		self:SetSize(playlistList:GetWide(), 24)
 		self:SetPos(playlistList.x, playlistList.y + playlistList:GetTall() - 1)
-		self:SetText('Delete Playlist')
+		self:SetText('Удалить Плейлист')
 		self.Think = function(self)
 			self:SetDisabled(currentVideoList == defaultPlaylist)
 		end
@@ -403,15 +403,15 @@ function ENT:PlayerUse()
 				listMedia()
 
 				self.clicked = nil
-				self:SetText('Delete Playlist')
+				self:SetText('Удалить Плейлист')
 			else
 				self.clicked = true
-				self:SetText('Click again')
-				
+				self:SetText('Нажмите ещё раз')
+
 				timer.Simple(3, function()
 					if (IsValid(self) and self.clicked) then
 						self.clicked = nil
-						self:SetText('Delete Playlist')
+						self:SetText('Удалить Плейлист')
 					end
 				end)
 			end
@@ -428,7 +428,7 @@ function ENT:PlayerUse()
 	listMedia()
 
 	ui.Create('DButton', function(self, p)
-		self:SetText('Pause')
+		self:SetText('Пауза')
 		self:SetSize(75, 25)
 		self:SetPos(5, p:GetTall() - 30)
 		self.DoClick = function()
@@ -437,9 +437,9 @@ function ENT:PlayerUse()
 		self.Think = function(self)
 			self:SetDisabled(false)
 			if ent:IsPaused() then
-				self:SetText('Resume')
+				self:SetText('Играть')
 			else
-				self:SetText('Pause')
+				self:SetText('Пауза')
 			end
 		end
 	end, fr)

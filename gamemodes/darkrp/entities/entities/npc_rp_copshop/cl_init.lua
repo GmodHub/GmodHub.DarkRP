@@ -1,6 +1,6 @@
 dash.IncludeSH 'shared.lua'
 
-ENT.IconMaterial = Material 'sup/entities/npcs/copshop.png'
+ENT.IconMaterial = Material 'gmh/entities/npcs/copshop.png'
 
 local fr
 function ENT:PlayerUse()
@@ -9,7 +9,7 @@ function ENT:PlayerUse()
 	local isGov = LocalPlayer():IsCP() or LocalPlayer():IsMayor()
 
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Martinez')
+		self:SetTitle('Патрик')
 		if isGov then
 			self:SetSize(ScrW() * .3, ScrH() * .5)
 		else
@@ -36,7 +36,7 @@ function ENT:PlayerUse()
 	else
 		ui.Create('DLabel', function(self, p)
 			self:SetPos(5, 30)
-			self:SetText('You\'re not a government employee!')
+			self:SetText('Вы не страж порядка!')
 			self:SizeToContents()
 		end, fr)
 	end

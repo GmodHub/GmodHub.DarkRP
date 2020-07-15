@@ -1,6 +1,6 @@
 dash.IncludeSH 'shared.lua'
 
-ENT.BackgroundMaterial = Material 'sup/entities/fiftyfifty.png'
+ENT.BackgroundMaterial = Material 'gmh/entities/fiftyfifty.png'
 
 local color_white = ui.col.White
 function ENT:DrawScreen()

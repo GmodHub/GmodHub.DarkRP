@@ -32,7 +32,6 @@ function rp.NotifyAll(notify_type, msg, ...)
 			net.WriteUInt(notify_type, 2)
 		net.Broadcast()
 	else
-		print(msg, ...)
 		net.Start('rp.NotifyTerm')
 			net.WriteTerm(msg, ...)
 			net.WriteUInt(notify_type, 2)

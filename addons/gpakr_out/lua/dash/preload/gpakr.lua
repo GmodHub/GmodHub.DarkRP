@@ -2,8 +2,7 @@
 -- Saturday, May 2, 2020 10:48:46 AM
 
 AddCSLuaFile'gpakr/rpbase-data.lua'
-AddCSLuaFile'gpakr/zombies-data.lua'
-AddCSLuaFile'gpakr/zombies-init.lua'
+AddCSLuaFile'gpakr/tnttemp-data.lua'
 AddCSLuaFile'gpakr/textures-data.lua'
 AddCSLuaFile'gpakr/playermodels-data.lua'
 AddCSLuaFile'gpakr/drugs-data.lua'
@@ -11,10 +10,10 @@ AddCSLuaFile'gpakr/cosmetics-data.lua'
 AddCSLuaFile'gpakr/knives-data.lua'
 AddCSLuaFile'gpakr/weapons-data.lua'
 
-local files = {include'gpakr/rpbase-data.lua',include'gpakr/zombies-data.lua',include'gpakr/textures-data.lua',include'gpakr/playermodels-data.lua',include'gpakr/drugs-data.lua',include'gpakr/cosmetics-data.lua',include'gpakr/knives-data.lua',include'gpakr/weapons-data.lua',}
+local files = {include'gpakr/rpbase-data.lua',include'gpakr/tnttemp-data.lua',include'gpakr/textures-data.lua',include'gpakr/playermodels-data.lua',include'gpakr/drugs-data.lua',include'gpakr/cosmetics-data.lua',include'gpakr/knives-data.lua',include'gpakr/weapons-data.lua',}
 local parent = (SERVER) and 'addons/gpakr_out/data/' or 'download/data/'
 
-file.CreateDir('sup/rp')
+file.CreateDir('gmh/rp')
 
 local color_red = {r=255, g=0, b=0, a=255}
 local color_green = {r=0, g=255, b=0, a=255}

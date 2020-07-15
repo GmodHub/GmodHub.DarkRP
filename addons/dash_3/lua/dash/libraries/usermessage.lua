@@ -1,4 +1,4 @@
---[[if (SERVER) then
+if (SERVER) then
 	local message 	= {}
 	local pooled 	= {}
 
@@ -38,7 +38,7 @@
 		net.Start 'umsg.SendLua'
 			net.WriteString(lua)
 		net.Send(self)
-	end	
+	end
 
 	function umsg.PoolString(name)
 		if (not pooled[name]) then
@@ -196,4 +196,4 @@ else
 	function usermessage:Reset()
 		ErrorNoHalt('usermessage:Reset() is not supported!')
 	end
-end]]
+end

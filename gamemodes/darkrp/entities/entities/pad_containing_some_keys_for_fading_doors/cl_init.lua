@@ -31,7 +31,7 @@ local KeyPos =	{
 	{X+60, Y+67.5, 35, 25, 0.3, 1.65, -0.3, 1.6}
 }
 
-local mat_faceID = Material("sup/entities/keypad/faceid.png", "smooth")
+local mat_faceID = Material("gmh/entities/keypad/faceid.png", "smooth")
 
 local down = {}
 

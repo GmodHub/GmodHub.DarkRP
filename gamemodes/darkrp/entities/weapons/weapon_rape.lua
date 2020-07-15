@@ -15,7 +15,7 @@ SWEP.ViewModelFOV = 60
 SWEP.ViewModelFlip = false
 SWEP.UseHands = true
 SWEP.ViewModel = Model("models/weapons/c_lockpick.mdl")
-SWEP.WorldModel = Model('models/sup/weapons/lockpick/lockpick.mdl')
+SWEP.WorldModel = Model('models/gmh/weapons/lockpick/lockpick.mdl')
 
 SWEP.Spawnable = true
 SWEP.Category = "RP"

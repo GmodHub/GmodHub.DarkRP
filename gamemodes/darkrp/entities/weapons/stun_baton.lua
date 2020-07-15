@@ -5,7 +5,7 @@ DEFINE_BASECLASS('baton_base')
 if SERVER then
 	util.AddNetworkString('StunStickFlash')
 else
-	SWEP.PrintName = 'Stun Baton'
+	SWEP.PrintName = 'Оглушающая Дубинка'
 	SWEP.Instructions = 'Left click sets phaser to stun\nRight click sets phaser to kill'
 end
 

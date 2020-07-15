@@ -1,6 +1,6 @@
 dash.IncludeSH 'shared.lua'
 
-local mat_license = Material 'sup/hud/gunlicense.png'
+local mat_license = Material 'gmh/hud/gunlicense.png'
 
 local color_white = ui.col.White:Copy()
 

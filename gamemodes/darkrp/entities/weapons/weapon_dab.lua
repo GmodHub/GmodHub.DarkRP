@@ -35,7 +35,7 @@ function SWEP:SecondaryAttack()
 	if self.Owner:OnGround() then
 		self.Owner:DoAnimationEvent(ACT_HL2MP_RUN_CHARGING)
 		self:ApplyBHop()
-		self:EmitSound("sup/dab.ogg",50,math.random(98,102))
+		self:EmitSound("gmh/dab.ogg",50,math.random(98,102))
 	end
 end
 

@@ -1,1 +1,0 @@
-{"RTVPlayerCount":3.0,"AutoGamemode":false,"MapLimit":24.0,"TimeLimit":28.0,"AllowCurrentMap":false,"MapPrefixes":["ttt_"],"MapsBeforeRevote":3.0,"EnableCooldown":true}

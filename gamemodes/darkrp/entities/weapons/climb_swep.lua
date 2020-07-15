@@ -21,7 +21,7 @@ if (SERVER) then
 	util.AddNetworkString('ShouldSlide')
 
 else
-	SWEP.PrintName = 'Climb'
+	SWEP.PrintName = 'Паркур'
 	SWEP.Slot = 2
 	SWEP.SlotPos = 2
 	SWEP.DrawAmmo = false
@@ -54,7 +54,7 @@ SWEP.HoldType = 'normal'
 
 
 if (CLIENT) then
-	local mat = Material('materials/sup/hud/jump.png')
+	local mat = Material('materials/gmh/hud/jump.png')
 	local lasttime = os.time()
 	function SWEP:DrawHUD()
  		if (self.Owner != LocalPlayer()) then return end

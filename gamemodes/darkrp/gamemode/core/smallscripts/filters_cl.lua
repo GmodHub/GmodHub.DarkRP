@@ -84,7 +84,7 @@ end
 
 function PANEL:Init()
 	self.lblFilter = ui.Create('DLabel', function(lbl)
-		lbl:SetText('Color Filter: ')
+		lbl:SetText('Цветовая Палитра: ')
 	end, self)
 
 	self.filterPicker = ui.Create('DComboBox', function(cmb)

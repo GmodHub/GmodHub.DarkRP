@@ -1,8 +1,8 @@
 -------------------------------------------------
 -- Slay
 -------------------------------------------------
-term.Add('AbusePlayerNotAlive', '# is not alive!')
-term.Add('AbuseAdminSlainPlayer', '# has slain #.')
+term.Add('AbusePlayerNotAlive', '# не живой!')
+term.Add('AbuseAdminSlainPlayer', '# шлёпнул #.')
 
 ba.AddCommand('Slay', function(pl, targ)
 	if (not targ:Alive()) then

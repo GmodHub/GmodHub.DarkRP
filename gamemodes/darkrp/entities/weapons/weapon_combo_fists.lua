@@ -1,5 +1,5 @@
 SWEP.Base = "basecombatweapon"
-SWEP.PrintName				= "Combo Fists"
+SWEP.PrintName				= "Кулаки"
 SWEP.Author					= "code_gs"
 SWEP.Purpose				= "Well we sure as hell didn't use guns! We would just wrestle Hunters to the ground with our bare hands! I used to kill ten, twenty a day, just using my fists."
 

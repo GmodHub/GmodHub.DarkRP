@@ -1,6 +1,6 @@
 SWEP.Instructions = "LMB: Vape\n (Hold and release)"
 
-SWEP.PrintName = "Vape"
+SWEP.PrintName = "Вейп"
 
 SWEP.IconLetter	= "V"
 SWEP.Category = "RP"

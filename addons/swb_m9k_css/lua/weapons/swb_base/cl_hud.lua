@@ -7,8 +7,8 @@ SWEP.CrossAlpha = 255
 SWEP.FadeAlpha = 0
 SWEP.AimTime = 0
 
-local ClumpSpread = Material("sup/swb/clumpspread_ring")
-local Bullet = surface.GetTextureID("sup/swb/bullet")
+local ClumpSpread = Material("gmh/swb/clumpspread_ring")
+local Bullet = surface.GetTextureID("gmh/swb/bullet")
 local White, Black = Color(255, 255, 255, 255), Color(0, 0, 0, 255)
 local x, y, x2, y2, lp, size, FT, CT, tr, x3, x4, y3, y4, UCT, sc1, sc2
 local td = {}

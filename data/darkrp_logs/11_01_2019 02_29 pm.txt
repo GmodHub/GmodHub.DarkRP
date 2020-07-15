@@ -1,6 +1,0 @@
-Fri Nov  1 14:29:50 2019	Overhashed (STEAM_0:0:516940971) has joined the game
-Fri Nov  1 14:29:50 2019	Overhashed (STEAM_0:0:516940971) spawned
-Fri Nov  1 14:30:51 2019	Overhashed (STEAM_0:0:516940971) disconnected
-Fri Nov  1 14:31:01 2019	Overhashed (STEAM_0:0:516940971) has joined the game
-Fri Nov  1 14:31:01 2019	Overhashed (STEAM_0:0:516940971) spawned
-Fri Nov  1 14:33:45 2019	Overhashed (STEAM_0:0:516940971) disconnected

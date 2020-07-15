@@ -71,44 +71,43 @@ end
 
 -- Bar
 local material_grad		= mat 'gui/gradient_down'
-local material_job		= mat 'sup/hud/job.png'
-local material_health 	= mat 'sup/hud/health.png'
-local material_armor	= mat 'sup/hud/armor.png'
-local material_hunger 	= mat 'sup/hud/food.png'
-local material_karma	= mat 'sup/hud/karma.png'
-local material_money 	= mat 'sup/hud/money.png'
-local material_events	= mat 'sup/hud/event.png'
-local material_sup		= mat 'sup/hud/superior.png'
-local material_employee = mat 'sup/hud/employee.png'
-local material_employed = mat 'sup/hud/employer.png'
-local material_grace 	= mat 'sup/hud/mayorgrace.png'
-local material_licence_hud 	= mat 'sup/hud/gunlicense_hud.png'
-local material_lockdown	= mat 'sup/hud/lockdown'
+local material_job		= mat 'gmh/hud/job.png'
+local material_health 	= mat 'gmh/hud/health.png'
+local material_armor	= mat 'gmh/hud/armor.png'
+local material_hunger 	= mat 'gmh/hud/food.png'
+local material_karma	= mat 'gmh/hud/karma.png'
+local material_money 	= mat 'gmh/hud/money.png'
+local material_events	= mat 'gmh/hud/event.png'
+local material_employee = mat 'gmh/hud/employee.png'
+local material_employed = mat 'gmh/hud/employer.png'
+local material_grace 	= mat 'gmh/hud/mayorgrace.png'
+local material_licence_hud 	= mat 'gmh/hud/gunlicense_hud.png'
+local material_lockdown	= mat 'gmh/hud/lockdown'
 
 -- player
-local material_licence 	= mat 'sup/hud/gunlicense.png'
-local material_mic 		= mat 'sup/hud/istalking'
-local material_typing 	= mat 'sup/hud/istyping'
-local material_presse 	= mat 'sup/hud/button.png'
+local material_licence 	= mat 'gmh/hud/gunlicense.png'
+local material_mic 		= mat 'gmh/hud/istalking'
+local material_typing 	= mat 'gmh/hud/istyping'
+local material_presse 	= mat 'gmh/hud/button.png'
 
-local mat_bullet 		= mat 'sup/hud/bullet.png'
-local mat_911			= mat 'sup/hud/911.png'
-local mat_aids_right 	= mat 'sup/hud/aids_right.png'
-local mat_aids_left 	= mat 'sup/hud/aids_left.png'
-local mat_cuffs			= mat 'sup/hud/cuffs.png'
-local mat_bloodstacks	= mat 'sup/hud/bloodstacks.png'
+local mat_bullet 		= mat 'gmh/hud/bullet.png'
+local mat_911			= mat 'gmh/hud/911.png'
+local mat_aids_right 	= mat 'gmh/hud/aids_right.png'
+local mat_aids_left 	= mat 'gmh/hud/aids_left.png'
+local mat_cuffs			= mat 'gmh/hud/cuffs.png'
+local mat_bloodstacks	= mat 'gmh/hud/bloodstacks.png'
 
-local mat_agenda 		= mat 'sup/hud/agenda.png'
-local mat_laws 			= mat 'sup/hud/laws.png'
-local mat_warrents	 	= mat 'sup/hud/warrents.png'
-local mat_hits 			= mat 'sup/hud/hits.png'
+local mat_agenda 		= mat 'gmh/hud/agenda.png'
+local mat_laws 			= mat 'gmh/hud/laws.png'
+local mat_warrents	 	= mat 'gmh/hud/warrents.png'
+local mat_hits 			= mat 'gmh/hud/hits.png'
 
-local mat_death 		= mat 'sup/hud/death_screen.png'
+local mat_death 		= mat 'gmh/hud/death_screen.png'
 local mats_death = {
-	mat 'sup/hud/death_frame-1.png',
-	mat 'sup/hud/death_frame-2.png',
-	mat 'sup/hud/death_frame-3.png',
-	mat 'sup/hud/death_frame-4.png',
+	mat 'gmh/hud/death_frame-1.png',
+	mat 'gmh/hud/death_frame-2.png',
+	mat 'gmh/hud/death_frame-3.png',
+	mat 'gmh/hud/death_frame-4.png',
 }
 
 local sw, sh = ScrW(), ScrH()
@@ -140,14 +139,14 @@ cvar.Register 'disable_playerinfoorgbanner'
 	:AddMetadata('Menu', 'Выключить баннеры банд над головами игроков')
 
 surface.CreateFont('HudFont', {
-	font = 'Prototype',
+	font = 'Prototype [RUS by Daymarius]',
 	size = 20,
-	weight = 0,
+	weight = 500,
 	extended = true
 })
 
 surface.CreateFont('HudFontLaws', {
-	font = 'Prototype',
+	font = 'Prototype [RUS by Daymarius]',
 	extended = true,
 	size = 19,
 	weight = 350
@@ -185,13 +184,15 @@ surface.CreateFont('PlayerInfo', {
 
 
 surface.CreateFont('rp.hud.DeathScreenTitle', {
-	font = 'Prototype',
+	font = 'Prototype [RUS by Daymarius]',
+	extended = true,
 	size = 100,
 	weight = 550
 })
 
 surface.CreateFont('rp.hud.DeathScreenText', {
-	font = 'Prototype',
+	font = 'Prototype [RUS by Daymarius]',
+	extended = true,
 	size = 50,
 	weight = 550
 })
@@ -383,13 +384,13 @@ local function InfoBar()
 		end
 
 		if (c > 0) then
-			drawRightText(str .. ((c > 1) and ' Events' or ' Event'), color_event)
+			drawRightText(str .. ((c > 1) and ' Эвенты' or ' Эвент'), color_event)
 			drawRightIcon(material_events)
 		end
 	end
 
 	if nw_GetGlobal('mayorGrace') and (nw_GetGlobal('mayorGrace') > CurTime()) then
-		drawRightText('Mayor Grace: ' .. ba.str.FormatTime(math_ceil(nw_GetGlobal('mayorGrace') - CurTime())), color_grace)
+		drawRightText('Неприкосновенность мера: ' .. ba.str.FormatTime(math_ceil(nw_GetGlobal('mayorGrace') - CurTime())), color_grace)
 		drawRightIcon(material_grace)
 	end
 
@@ -419,7 +420,7 @@ function GM:DrawAgenda()
 	if (not agenda) then return end
 
 	local w 	= (ScrW() * .175)
-	local agendaText = nw_GetGlobal('Agenda;' .. agenda.manager) or 'No Agenda!'
+	local agendaText = nw_GetGlobal('Agenda;' .. agenda.manager) or 'Повестка дня отсутствует!'
 	local text 	= string.Wrap('HudFontLaws', agendaText, w - 6)
 	local h 	= (#text * 15) + 33
 
@@ -442,7 +443,7 @@ function GM:DrawAgenda()
 	surface.SetTextColor(color.r, color.g, color.b, color.a)
 
 	surface.SetTextPos(x + 34, y + 4)
-	surface.DrawText('Agenda')
+	surface.DrawText('Агенда')
 
 	y = y + 29
 	surface.SetFont('HudFontLaws')
@@ -504,7 +505,7 @@ function GM:DrawLaws()
 	surface.SetTextColor(color.r, color.g, color.b, color.a)
 
 	surface.SetTextPos(x + 34, y + 4)
-	surface.DrawText('The Laws')
+	surface.DrawText('Законы')
 
 	y = y + 29
 	surface.SetFont('HudFontLaws')
@@ -574,7 +575,7 @@ end
 -- Arrest warrants
 function GM:DrawWantedList(x, y, w, rightAlign)
 	if LocalPlayer():IsCP() then
-		local w = math.max((w * 0.5), 165)
+		local w = math.max(w * 0.5, 200)
 
 		local wants = table_Filter(player_GetAll(), function(pl)
 			return pl:IsWanted() and (pl ~= LocalPlayer()) and IsValid(pl)
@@ -603,7 +604,7 @@ function GM:DrawWantedList(x, y, w, rightAlign)
 		surface.SetTextColor(color_white.r, color_white.g, color_white.b, color_white.a)
 
 		surface.SetTextPos(x + 34, y + 4)
-		surface.DrawText('Arrest Warrants')
+		surface.DrawText('Ордеры на арест')
 
 		y = y + 29
 		surface.SetFont('HudFontLaws')
@@ -614,7 +615,7 @@ function GM:DrawWantedList(x, y, w, rightAlign)
 				if (k == 6) and (not vgui.CursorVisible()) then
 					surface.SetTextColor(255, 255, 255)
 					surface.SetTextPos(textX, y)
-					surface.DrawText('And ' ..  #wants - 6 .. ' more!')
+					surface.DrawText('И ещё ' ..  #wants - 6 .. '!')
 					break
 				end
 
@@ -626,7 +627,7 @@ function GM:DrawWantedList(x, y, w, rightAlign)
 			end
 		else
 			surface.SetTextPos(textX, y)
-			surface.DrawText('No Arrest Warrants!')
+			surface.DrawText('Нет ордеров на арест!')
 		end
 	end
 
@@ -665,7 +666,7 @@ function GM:DrawGambling()
 		surface.SetTextColor(color_white.r, color_white.g, color_white.b, color_white.a)
 
 		surface.SetTextPos(x + 34, y + 4)
-		surface.DrawText('Gambling Profit/Loss')
+		surface.DrawText('Игровой Доход/Убыток')
 
 		y = y + 29
 		surface.SetFont('HudFontLaws')
@@ -673,12 +674,12 @@ function GM:DrawGambling()
 
 		surface.SetTextPos(textX, y)
 		surface.SetTextColor(varcol('gambleprofit', gamblingProfit))
-		surface.DrawText('Income: ' .. rp.FormatMoney(gamblingProfit))
+		surface.DrawText('Доход: ' .. rp.FormatMoney(gamblingProfit))
 		y = y + 15
 
 		surface.SetTextPos(textX, y)
 		surface.SetTextColor(varcol('gambleloss', gamblingLoss))
-		surface.DrawText('Loss: ' .. rp.FormatMoney(gamblingLoss))
+		surface.DrawText('Убыток: ' .. rp.FormatMoney(gamblingLoss))
 		y = y + 15
 
 		local totalProfit = gamblingProfit - gamblingLoss
@@ -695,12 +696,12 @@ end
 
 
 -- Lockdown
-rp.LockdownText = 'Lockdown is in effect, return to your homes!'
+rp.LockdownText = 'Объявлен комендантский час, оставайтесь дома!'
 function GM:DrawLockdown()
 	local timeLeft = formatTime(math_max(math_ceil(nw_GetGlobal('lockdown') - CurTime()), 0))
 
 	surface_SetFont('HudFont')
-	local w = surface_GetTextSize('(99:99) Lockdown is in effect, return to your homes!') + 50
+	local w = (surface_GetTextSize('(99:99) Объявлен комендантский час, оставайтесь дома!') + 50)
 	local x, y = ScrW() * .5 - w * .5, (height - 1)
 
 	local height = height - 4
@@ -725,14 +726,14 @@ function GM:DrawArrested()
 		local info = LocalPlayer():GetArrestInfo()
 
 		surface.SetFont("HudFont3")
-		local tw1 = surface.GetTextSize("Arrested!")
+		local tw1 = surface.GetTextSize("Вы арестованы!")
 
 		surface.SetFont("HudFont2")
 		local _tw, th = surface.GetTextSize(info.Reason)
 		local tw = math.min(_tw + 10, ScrW() * 0.25)
 
 		local rem = math_ceil(info.ReleaseTime - CurTime())
-		rem = "Release in " .. (rem > 0 and ba.str.FormatTime(rem) or "")
+		rem = "Выход через " .. (rem > 0 and ba.str.FormatTime(rem) or "")
 		local tw3 = surface.GetTextSize(rem)
 
 		local tw2 = surface.GetTextSize(info.Reason)
@@ -755,7 +756,7 @@ function GM:DrawArrested()
 
 		surface.SetFont("HudFont3")
 		surface.SetTextPos(x + ((w - 96) - tw1) * 0.5 + 96, y + 5)
-		surface.DrawText("Arrested!")
+		surface.DrawText("Вы арестованы!")
 
 		surface.SetFont("HudFont2")
 		surface.SetTextPos(x + ((w - 96) - tw2) * 0.5 + 96, y + 10 + th)
@@ -770,8 +771,8 @@ end
 function GM:DrawWanted()
 	if LocalPlayer():IsWanted() then
 		local info = LocalPlayer():GetWantedInfo()
-		draw_SimpleTextOutlined('You\'re wanted for: ' .. info.Reason, 'HudFont2', ScrW()/2, sh - 50, color_white, 1, 1, 1, color_black)
-		draw_SimpleTextOutlined('Time left: ' .. math_ceil(info.Time - CurTime()) .. ' seconds.', 'HudFont2', ScrW()/2, sh - 20, color_white, 1, 1, 1, color_black)
+		draw_SimpleTextOutlined('Вы разыскиваетесь за: ' .. info.Reason, 'HudFont2', ScrW()/2, sh - 50, color_white, 1, 1, 1, color_black)
+		draw_SimpleTextOutlined('Осталось: ' .. math_ceil(info.Time - CurTime()) .. ' секунд.', 'HudFont2', ScrW()/2, sh - 20, color_white, 1, 1, 1, color_black)
 	end
 end
 
@@ -819,7 +820,7 @@ function GM:DrawEntityDisplay(sw, sh)
 		if (ent.Interactions and istable(ent.Interactions)) then
 			local y = ScrH() * 0.65 + 16
 			for k, v in pairs(ent.Interactions) do
-				local w, _ = draw_SimpleTextOutlined(v.Text or 'To use', 'ui.22', (ScrW() * 0.5) + 37, y, color_white, 1, 1, 1, color_black)
+				local w, _ = draw_SimpleTextOutlined(v.Text or 'Чтобы использовать', 'ui.22', (ScrW() * 0.5) + 37, y, color_white, 1, 1, 1, color_black)
 				surface.SetDrawColor(255,255,255)
 				surface.SetMaterial(material_presse)
 				surface.DrawTexturedRect((ScrW() * 0.5) - (w * 0.5), y - 16, 32, 32)
@@ -830,7 +831,7 @@ function GM:DrawEntityDisplay(sw, sh)
 			end
 		else
 			if ent.PressKey or ent.PressKeyText or ent.PressE then
-				local w, _ = draw_SimpleTextOutlined(ent.PressKeyText or 'To use', 'ui.22', (ScrW() * 0.5) + 37, ScrH() * 0.65 + 16, color_white, 1, 1, 1, color_black)
+				local w, _ = draw_SimpleTextOutlined(ent.PressKeyText or 'Чтобы использовать', 'ui.22', (ScrW() * 0.5) + 37, ScrH() * 0.65 + 16, color_white, 1, 1, 1, color_black)
 				surface.SetDrawColor(255,255,255)
 				surface.SetMaterial(material_presse)
 				surface.DrawTexturedRect((ScrW() * 0.5) - (w * 0.5), ScrH() * 0.65, 32, 32)
@@ -892,7 +893,7 @@ local function DeathScreen()
 			end
 
 			draw_SimpleText(rp.cfg.DeathTypeStrings[deathType or 1], 'rp.hud.DeathScreenTitle', ScrW() * 0.5, ScrH() * 0.25 - 128, color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
-			draw_SimpleText('Press any key to respawn ' .. ((fr.timeleft <= 0) and 'now' or ('in ' .. fr.timeleft .. ' seconds')), 'rp.hud.DeathScreenText', ScrW() * 0.5, ScrH() * 0.75 + 128, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
+			draw_SimpleText('Нажмите на любую кнопку для возрождения ' .. ((fr.timeleft <= 0) and 'сейчас' or ('через ' .. fr.timeleft .. ' секунд')), 'rp.hud.DeathScreenText', ScrW() * 0.5, ScrH() * 0.75 + 128, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
 			draw_SimpleText(fr.killertext, 'rp.hud.DeathScreenText', ScrW() * 0.5, ScrH() * 0.75 + 133, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 		end
 
@@ -900,9 +901,9 @@ local function DeathScreen()
 			fr:MoveToBack()
 
 			if (IsValid(deathKiller)) then
-				fr.killertext = "Killed by " .. deathKiller:Name()
+				fr.killertext = "Вы убиты " .. deathKiller:Name()
 			elseif (fr.AskKiller != nil and !IsValid(fr.AskKiller)) then
-				fr.killertext = "Your killer has disconnected"
+				fr.killertext = "Ваш убийца вышел"
 			end
 
 			if (fr.timeleft <= 0) then
@@ -919,6 +920,7 @@ local function DeathScreen()
 end
 net.Receive('rp.DeathInfo', function(len)
 	deathType = net.ReadUInt(5)
+	print(deathType)
 
 	local hasKiller = net.ReadBool()
 	if (hasKiller) then
@@ -931,7 +933,7 @@ end)
 local quickWantPlater
 local quickwantTarget
 local quickwantTargetTime
-local stunstick = Material('sup/hud/stunstick_silhouette.png', 'smooth')
+local stunstick = Material('gmh/hud/stunstick_silhouette.png', 'smooth')
 function GM:DrawQuickwantTarget()
 	local diff = math.max(math.Round(quickwantTargetTime - SysTime(), 2), 0)
 
@@ -1071,7 +1073,7 @@ function GM:Draw911Hud()
 			pos = pos:ToScreen()
 			pos.y = pos.y + 100
 			surface.DrawTexturedRect(pos.x- 15, pos.y - 40, 32, 32)
-			draw.SimpleTextOutlined('911 Call:', 'HudFont', pos.x, pos.y, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
+			draw.SimpleTextOutlined('Запрос 911:', 'HudFont', pos.x, pos.y, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
 			draw.SimpleTextOutlined(reason .. '..', 'HudFont', pos.x, pos.y + 20, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
 		end
 	end
@@ -1091,7 +1093,7 @@ function GM:DrawSTD()
 	surface.SetMaterial(mat_aids_right)
 	surface.DrawTexturedRect(ScrW() - w, 0, w, h)
 
-	draw_SimpleText('You have ' .. LocalPlayer():GetSTD() .. ' - Take STD meds', 'HudFont', ScrW() * 0.5, ScrH() - 100, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+	draw_SimpleText('У вас ' .. LocalPlayer():GetSTD() .. ' - Примите Биницилин', 'HudFont', ScrW() * 0.5, ScrH() - 100, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 end
 
 
@@ -1127,9 +1129,9 @@ function GM:HUDPaint()
 		self:DrawBannedHUD()
 	else
 		if (hook.Call('HUDShouldDraw', GAMEMODE, 'SUPHUD') != false) then
-		//	if LocalPlayer():HasSTD() then
-			//	self:DrawSTD()
-			//end
+			if LocalPlayer():HasSTD() then
+				self:DrawSTD()
+			end
 
 			self:DrawEntityDisplay(sw, sh)
 
@@ -1254,7 +1256,7 @@ function GM:DrawPlayerInfo(pl, simpleMath)
 			surface_DrawTexturedRect(x + w + 10, y2 + 118, 128, 128)
 			surface_DrawTexturedRect(x - 138, y2 + 118, 128, 128)
 		elseif pl:IsArrested() then
-			x, y, w, h, y2 = drawinfo('Prisoner', color_orange)
+			x, y, w, h, y2 = drawinfo('Заключённый', color_orange)
 
 			surface_SetMaterial(mat_cuffs)
 			surface_SetDrawColor(color_orange.r, color_orange.g, color_orange.b)
@@ -1266,11 +1268,11 @@ function GM:DrawPlayerInfo(pl, simpleMath)
 
 		local isadmin = (LocalPlayer():Team() == TEAM_ADMIN)
 		if (LocalPlayer():IsHitman() or isadmin) and pl:HasHit() and (pl ~= LocalPlayer()) then
-			x, y, w, h, y2 = drawinfo('HIT ' .. rp_FormatMoney(pl:GetHitPrice()), color_red)
+			x, y, w, h, y2 = drawinfo('Заказ ' .. rp_FormatMoney(pl:GetHitPrice()), color_red)
 		end
 
 		if pl:IsDisguised() and (isadmin or (LocalPlayer():IsGov() and pl:IsGov())) then
-			x, y, w, h, y2 = drawinfo('Disguised ' .. pl:GetTeamName(), pl:GetTeamColor())
+			x, y, w, h, y2 = drawinfo('Замаскирован ' .. pl:GetTeamName(), pl:GetTeamColor())
 		end
 
 		local teamtbl = LocalPlayer():GetTeamTable()
@@ -1279,7 +1281,7 @@ function GM:DrawPlayerInfo(pl, simpleMath)
 		end
 
 		if (teamtbl.bmidealer or isadmin) and (pl:Armor() > 0) then
-			x, y, w, h, y2 = drawinfo(pl:Armor() .. ' Armor', color_blue)
+			x, y, w, h, y2 = drawinfo(pl:Armor() .. ' Брони', color_blue)
 		end
 
 		if talkingplayers[pl] then
@@ -1307,7 +1309,7 @@ function GM:PostDrawTranslucentRenderables()
 	local LP = LocalPlayer()
 	local simpleMath = cvar_Get('disable_niceinfomath') == true
 	disableBannerOverhead = cvar_Get('disable_playerinfoorgbanner') == true
-	
+
 	surface_SetFont('PlayerInfo')
 	for k, v in ipairs(players) do
 		if IsValid(v) then

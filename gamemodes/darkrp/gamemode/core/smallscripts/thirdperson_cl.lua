@@ -1,6 +1,6 @@
 cvar.Register 'enable_thirdperson'
 	:SetDefault(false, true)
-	:AddMetadata('Menu', 'Enable thirdperson')
+	:AddMetadata('Menu', 'Включить режим от 3-его лица')
 	:ConCommand(function(self, pl, args)
 		if (!args[1]) then
 			self:SetValue(!self:GetValue())
@@ -11,7 +11,7 @@ cvar.Register 'enable_thirdperson'
 
 cvar.Register 'invert_thirdp_mouse'
 	:SetDefault(false, true)
-	:AddMetadata('Menu', 'Invert thirdperson mouse')
+	:AddMetadata('Menu', 'Инвертированная мышь в режиме от 3-его лица')
 
 rp.thirdPerson = {}
 
@@ -171,7 +171,7 @@ hook('OnContextMenuOpen', 'rp.ThirdPerson.OnContextMenuOpen', function()
 
 	chk = ui.Create('ui_checkbox', function(self, p)
 		self:SetPos(10, 40)
-		self:SetText('Enable Thirdperson')
+		self:SetText('Включить режим от 3-его лица')
 		self:SizeToContents()
 		self:SetConVar('enable_thirdperson')
 		self:SetMouseInputEnabled(true)
@@ -180,7 +180,7 @@ hook('OnContextMenuOpen', 'rp.ThirdPerson.OnContextMenuOpen', function()
 	if (isThirdPerson(pl) and pl.camera_ang) then
 		chk2 = ui.Create('ui_checkbox', function(self, p)
 			self:SetPos(10, 61)
-			self:SetText('Invert Thirdperson Mouse')
+			self:SetText('Инвертированное управление мышью')
 			self:SizeToContents()
 			self:SetConVar('invert_thirdp_mouse')
 			self:SetMouseInputEnabled(true)
@@ -189,7 +189,7 @@ hook('OnContextMenuOpen', 'rp.ThirdPerson.OnContextMenuOpen', function()
 		fr = ui.Create('ui_frame', function(self, p)
 			self:SetPos(10, 82)
 			self:SetSize(159, 168)
-			self:SetTitle("Camera Offset")
+			self:SetTitle("Расположение Камеры")
 			self:ShowCloseButton(false)
 			self:SetMouseInputEnabled(true)
 			self:SetDraggable(false)

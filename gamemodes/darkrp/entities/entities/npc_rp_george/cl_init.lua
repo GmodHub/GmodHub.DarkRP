@@ -1,13 +1,13 @@
 dash.IncludeSH 'shared.lua'
 
-ENT.IconMaterial = Material 'sup/entities/npcs/george.png'
+ENT.IconMaterial = Material 'gmh/entities/npcs/george.png'
 
 local fr
 function ENT:PlayerUse()
 	if IsValid(fr) then fr:Close() end
 
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Father George')
+		self:SetTitle('Отец Григорий')
 		self:SetSize(315, 170)
 
 		self:Center()
@@ -16,7 +16,7 @@ function ENT:PlayerUse()
 
 	local lbl = ui.Create('DLabel', function(self, p)
 		self:SetPos(5, 30)
-		self:SetText('Free yourself from the darkness.\nRepent monetarily you sinner.\nMake a donation to raise your karma.')
+		self:SetText('Освободи себя от тьмы.\nЗамоли грехи своими деньгами.\nПожертвование увеличит карму.')
 		self:SizeToContents()
 	end, fr)
 
@@ -29,21 +29,21 @@ function ENT:PlayerUse()
 	ui.Create('DButton', function(self, p)
 		self:SetPos(5, txt.y + txt:GetTall() + 5)
 		self:SetSize(p:GetWide() - 10, 30)
-		self:SetText('Buy Karma')
+		self:SetText('Приобрести Карму')
 		self.Think = function(s)
 			local value = tonumber(txt:GetValue())
 			if (value == nil) or (value < 0) then
 				self:SetDisabled(true)
-				self:SetText('Invalid amount!')
+				self:SetText('Недействительная сумма!')
 			elseif (value < rp.cfg.MoneyPerKarma) then
 				self:SetDisabled(true)
-				self:SetText('Amount too low!')
+				self:SetText('Сумма слишком мала!')
 			elseif (value > LocalPlayer():GetMoney()) then
 				self:SetDisabled(true)
-				self:SetText('Can\'t afford!')
+				self:SetText('Недостаточно средств!')
 			else
 				self:SetDisabled(false)
-				self:SetText('Buy ' .. string.Comma(math.floor(value/rp.cfg.MoneyPerKarma)) .. ' Karma')
+				self:SetText('Купить ' .. string.Comma(math.floor(value/rp.cfg.MoneyPerKarma)) .. ' Кармы')
 			end
 		end
 		self.DoClick = function()

@@ -5,7 +5,7 @@ function PANEL:Init()
 
 	self.SearchBar = ui.Create('DTextEntry', self)
 	self.SearchBar:RequestFocus()
-	self.SearchBar:SetPlaceholderText('Search...')
+	self.SearchBar:SetPlaceholderText('Поиск...')
 	self.SearchBar.OnChange = function(s)
 		self.PlayerList:AddPlayers(s:GetValue())
 	end

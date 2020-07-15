@@ -1,6 +1,6 @@
 dash.IncludeSH 'shared.lua'
 
-ENT.IconMaterial = Material 'sup/entities/npcs/copshop.png'
+ENT.IconMaterial = Material 'gmh/entities/npcs/copshop.png'
 
 local color_white = ui.col.White:Copy()
 local color_black = ui.col.Black:Copy()

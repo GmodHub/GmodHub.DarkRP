@@ -19,18 +19,18 @@ local outline = 512 / dim
 local cursorSize = 1
 local cursorShape = "Square"
 
-local delMat = Material("sup/gui/orgs/trash.png", "smooth")
-local renMat = Material("sup/gui/orgs/rename.png", "smooth")
+local delMat = Material("gmh/gui/orgs/trash.png", "smooth")
+local renMat = Material("gmh/gui/orgs/rename.png", "smooth")
 
 local fr
 
 function rp.orgs.SaveOrgBanner(name, data)
-	if (!file.IsDir("sup", "DATA")) then
-		file.CreateDir("sup")
+	if (!file.IsDir("gmh", "DATA")) then
+		file.CreateDir("gmh")
 	end
 
-	if (!file.IsDir("sup/banners", "DATA")) then
-		file.CreateDir("sup/banners")
+	if (!file.IsDir("gmh/banners", "DATA")) then
+		file.CreateDir("gmh/banners")
 	end
 
 	local data = table.Copy(data)
@@ -47,13 +47,13 @@ function rp.orgs.SaveOrgBanner(name, data)
 		end
 	end
 
-	file.Write("sup/banners/" .. name .. ".txt", util.TableToJSON(data, true))
+	file.Write("gmh/banners/" .. name .. ".txt", util.TableToJSON(data, true))
 end
 
 function rp.orgs.LoadOrgBanner(name)
 	if (fr and fr:IsValid()) then
-		local data = util.JSONToTable(file.Read('sup/banners/' .. name .. '.txt'))
-		local modTime = file.Time('sup/banners/' .. name .. '.txt', 'DATA')
+		local data = util.JSONToTable(file.Read('gmh/banners/' .. name .. '.txt'))
+		local modTime = file.Time('gmh/banners/' .. name .. '.txt', 'DATA')
 
 		local transVal = modTime > 1484503888 and -1 or 0
 
@@ -388,7 +388,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	parent.btnLoad:SetPos(parent.pnlPreview.x + parent.pnlPreview:GetWide() + 5, parent.pnlPreview.y)
 	parent.btnLoad:SetSize((halfrem * 2) - parent.pnlPreview:GetWide(), math.floor((parent.pnlPreview:GetTall() - 10) / 3))
 	parent.btnLoad.DoClick = function(self)
-		local designs, _ = file.Find("sup/banners/*.txt", "DATA")
+		local designs, _ = file.Find("gmh/banners/*.txt", "DATA")
 		if (#designs == 0) then
 			local menu = ui.DermaMenu()
 			menu:AddOption("No designs saved yet", function() end)
@@ -475,7 +475,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 				end
 				btnDel.DoClick = function(s)
 					if (s.Clicked) then
-						file.Delete("sup/banners/" .. v)
+						file.Delete("gmh/banners/" .. v)
 						item:Remove()
 						pnl.scroll:PerformLayout()
 					else
@@ -503,7 +503,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 								return
 							end
 						end
-						file.Rename("sup/banners/" .. v, "sup/banners/" .. val .. ".txt")
+						file.Rename("gmh/banners/" .. v, "gmh/banners/" .. val .. ".txt")
 						name = val
 						lblName:SetText(val)
 						lblName:SizeToContents()
@@ -555,14 +555,14 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	parent.btnSave:SetPos(parent.pnlPreview.x + parent.pnlPreview:GetWide() + 5, parent.btnLoad.y + parent.btnLoad:GetTall() + 5)
 	parent.btnSave:SetSize(parent.btnLoad:GetWide(), parent.btnLoad:GetTall())
 	parent.btnSave.DoClick = function(self)
-		local designs, dirs = file.Find("sup/banners/*.txt", "DATA")
+		local designs, dirs = file.Find("gmh/banners/*.txt", "DATA")
 
 		local menu = ui.DermaMenu()
 
 		menu:AddOption("New..", function()
 			local function askForName(taken)
 				ui.StringRequest("New Design", ((taken and "That save already exists.\n\n") or "") .. "Please enter a name for your design.", "Untitled 1", function(resp)
-					if (file.Exists("sup/banners/" .. resp .. ".txt", "DATA")) then
+					if (file.Exists("gmh/banners/" .. resp .. ".txt", "DATA")) then
 						askForName(true)
 						return
 					end

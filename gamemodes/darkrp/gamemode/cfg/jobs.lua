@@ -68,7 +68,7 @@ TEAM_ADMIN = rp.addTeam('Администрация', {
 })
 
 --
--- Government
+-- Государство
 --
 local police_spawns = {
 	rp_bangclaw = {
@@ -106,7 +106,7 @@ local function govPlayerDeath(pl, weapon, killer)
 end
 
 TEAM_MAYOR = rp.addTeam('Мэр', {
-	catagory = 'Government',
+	catagory = 'Государство',
 	color = Color(240, 0, 0, 255),
 	model = 'models/player/breen.mdl',
 	GetRelationships = function() return {TEAM_MAYOR, TEAM_POLICE, TEAM_CHIEF} end,
@@ -131,7 +131,7 @@ TEAM_MAYOR = rp.addTeam('Мэр', {
 })
 
 TEAM_CHIEF = rp.addTeam('Шеф полиции', {
-	catagory = 'Government',
+	catagory = 'Государство',
 	color = Color(60,80,255),
 	model = 'models/player/barney.mdl',
 	CanRaid = 'При наличии ордера',
@@ -155,7 +155,7 @@ TEAM_CHIEF = rp.addTeam('Шеф полиции', {
 })
 
 TEAM_POLICE = rp.addTeam('Полицейский', {
-	catagory = 'Government',
+	catagory = 'Государство',
 	color = Color(60,80,255),
 	model = {
 		'models/player/combine_soldier_prisonguard.mdl',
@@ -165,7 +165,7 @@ TEAM_POLICE = rp.addTeam('Полицейский', {
 	},
 	CanRaid = 'При наличии ордера',
 	GetRelationships = function() return {TEAM_MAYOR, TEAM_POLICE, TEAM_CHIEF} end,
-	weapons = {},
+	weapons = {"arrest_baton", "stun_baton", "door_ram", "weapon_taser", "swb_glock18", "swb_mp5"},
 	NoKombat = true,
 	spawns = police_spawns_proc,
 	command = 'police',
@@ -180,10 +180,10 @@ TEAM_POLICE = rp.addTeam('Полицейский', {
 })
 
 --
--- Mob
+-- Бандиты
 --
 TEAM_MOBBOSS = rp.addTeam('Глава мафии', {
-	catagory = 'Mob',
+	catagory = 'Бандиты',
 	color = Color(70, 70, 70),
 	model = 'models/player/gman_high.mdl',
 	CanRaid = true,
@@ -201,7 +201,7 @@ TEAM_MOBBOSS = rp.addTeam('Глава мафии', {
 
 
 TEAM_GANGSTER = rp.addTeam('Мафия', {
-	catagory = 'Mob',
+	catagory = 'Бандиты',
 	color = Color(70, 70, 70),
 	model = {
 		'models/player/Group03/Female_01.mdl',
@@ -233,7 +233,7 @@ TEAM_GANGSTER = rp.addTeam('Мафия', {
 -- Selling Classes
 --
 TEAM_GUN = rp.addTeam('Продавец оружия', {
-	catagory = 'Merchants',
+	catagory = 'Торговцы',
 	color = Color(255, 140, 0),
 	model = 'models/player/monk.mdl',
 	weapons = {},
@@ -245,8 +245,8 @@ TEAM_GUN = rp.addTeam('Продавец оружия', {
 	GunDealer = true,
 })
 
-TEAM_BMIDEALER = rp.addTeam('Контробандист', {
-	catagory = 'Merchants',
+TEAM_BMIDEALER = rp.addTeam('Контрабандист', {
+	catagory = 'Торговцы',
 	color = Color(0, 71, 71, 255),
 	model = 'models/player/leet.mdl',
 	weapons = {},
@@ -257,7 +257,7 @@ TEAM_BMIDEALER = rp.addTeam('Контробандист', {
 })
 
 TEAM_DRUGDEALER = rp.addTeam('Наркобарон', {
-	catagory = 'Merchants',
+	catagory = 'Торговцы',
 	color = Color(153, 51, 255, 255),
 	model = {'models/player/group01/Male_03.mdl', 'models/player/Group01/Male_04.mdl'},
 	weapons = {},
@@ -269,7 +269,7 @@ TEAM_DRUGDEALER = rp.addTeam('Наркобарон', {
 })
 
 TEAM_BARTENDER = rp.addTeam('Торговец', {
-	catagory = 'Merchants',
+	catagory = 'Торговцы',
 	color = Color(153, 102, 51, 255),
 	model = 'models/player/eli.mdl',
 	weapons = {},
@@ -280,7 +280,7 @@ TEAM_BARTENDER = rp.addTeam('Торговец', {
 })
 
 TEAM_COOK = rp.addTeam('Повар', {
-	catagory = 'Merchants',
+	catagory = 'Торговцы',
 	color = Color(238, 99, 99, 255),
 	model = 'models/player/mossman.mdl',
 	weapons = {},
@@ -291,7 +291,7 @@ TEAM_COOK = rp.addTeam('Повар', {
 })
 
 TEAM_DOCTOR = rp.addTeam('Медик', {
-	catagory = 'Merchants',
+	catagory = 'Торговцы',
 	color = Color(47, 79, 79, 255),
 	model = {
 	   'models/player/Group03m/male_01.mdl',
@@ -319,7 +319,7 @@ TEAM_DOCTOR = rp.addTeam('Медик', {
 })
 
 TEAM_DJ = rp.addTeam('DJ', {
-	catagory = 'Entertainment',
+	catagory = 'Развлечения',
 	color = Color(20, 150, 20),
 	model = 'models/player/alyx.mdl',
 	weapons = {},
@@ -330,7 +330,7 @@ TEAM_DJ = rp.addTeam('DJ', {
 })
 
 TEAM_CINEMAOWNER = rp.addTeam('Владелец Кинотеатра', {
-	catagory = 'Entertainment',
+	catagory = 'Развлечения',
 	color = Color(102, 0, 102, 255),
 	model = 'models/player/magnusson.mdl',
 	weapons = {},
@@ -348,7 +348,7 @@ TEAM_CINEMAOWNER = rp.addTeam('Владелец Кинотеатра', {
 })
 
 TEAM_CASINOOWNER = rp.addTeam('Владелец Казино', {
-	catagory = 'Entertainment',
+	catagory = 'Развлечения',
 	color = Color(244, 131, 66),
 	model = 'models/player/magnusson.mdl',
 	weapons = {},
@@ -395,7 +395,7 @@ TEAM_FREERUNNER = rp.addTeam("Паркурист", {
 player_manager.AddValidModel('gs_cage', 'models/code_gs/player/cage.mdl')
 player_manager.AddValidHands('gs_cage', 'models/weapons/c_arms_citizen.mdl', 1, '00000000')
 TEAM_THUG = rp.addTeam('Негр', {
-	catagory = 'Raiders',
+	catagory = 'Рейдеры',
 	color= Color(179,53,247),
 	model = 'models/code_gs/player/cage.mdl',
 	CanRaid = true,
@@ -411,7 +411,7 @@ TEAM_THUG = rp.addTeam('Негр', {
 })
 
 TEAM_THIEF = rp.addTeam('Вор', {
-	catagory = 'Raiders',
+	catagory = 'Рейдеры',
 	color = Color(204, 204, 0, 255),
 	model = 'models/player/guerilla.mdl',
 	CanRaid = true,
@@ -426,7 +426,7 @@ TEAM_THIEF = rp.addTeam('Вор', {
 player_manager.AddValidModel('gs_robber', 'models/code_gs/player/robber.mdl')
 player_manager.AddValidHands('gs_robber', 'models/weapons/c_arms_cstrike.mdl', 0, '00000000')
 TEAM_PROTHIEF = rp.addTeam('Профессиональный Вор', {
-	catagory = 'Raiders',
+	catagory = 'Рейдеры',
 	color = Color(155, 30, 30),
 	model = 'models/code_gs/player/robber.mdl',
 	CanRaid = true,
@@ -440,7 +440,7 @@ TEAM_PROTHIEF = rp.addTeam('Профессиональный Вор', {
 })
 
 TEAM_ANARCHIST = rp.addTeam('Анархист', {
-	catagory = 'Raiders',
+	catagory = 'Рейдеры',
 	color = Color(84, 13, 13),
 	model = {
 		'models/player/Group03/female_01.mdl',
@@ -471,10 +471,10 @@ TEAM_ANARCHIST = rp.addTeam('Анархист', {
 })
 
 --
--- Hirable classes
+-- Наёмники classes
 --
 TEAM_HACKER = rp.addTeam('Хакер', {
-	catagory = 'Hirable',
+	catagory = 'Наёмники',
 	color = Color(50,50,90),
 	model = {
 		'models/player/Hostage/Hostage_04.mdl',
@@ -494,7 +494,7 @@ TEAM_HACKER = rp.addTeam('Хакер', {
 })
 
 TEAM_SECURITY = rp.addTeam('Охранник', {
-	catagory = 'Hirable',
+	catagory = 'Наёмники',
 	color= Color(100, 175, 145, 255),
 	model = 'models/player/odessa.mdl',
 	GetRelationships = function() return 'Наниматель' end,
@@ -507,7 +507,7 @@ TEAM_SECURITY = rp.addTeam('Охранник', {
 })
 
 TEAM_MERC = rp.addTeam('Наемник', {
-	catagory = 'Hirable',
+	catagory = 'Наёмники',
 	color= Color(115, 145, 0),
 	model = 'models/player/Phoenix.mdl',
 	CanRaid = 'Если нанимателю разрешено',
@@ -524,7 +524,7 @@ TEAM_MERC = rp.addTeam('Наемник', {
 })
 
 --
--- Hobos
+-- Бомжи
 --
 local hobo_spawns = {
 	rp_bangclaw = {
@@ -544,7 +544,7 @@ local spawnHobo = function(pl)
 end
 
 TEAM_HOBOKING = rp.addTeam('Король Бомжей', {
-	catagory = 'Hobos',
+	catagory = 'Бомжи',
 	color = Color(80, 45, 0),
 	model = 'models/player/corpse1.mdl',
 	GetRelationships = function() return {TEAM_HOBOKING, TEAM_HOBO} end,
@@ -563,7 +563,7 @@ TEAM_HOBOKING = rp.addTeam('Король Бомжей', {
 })
 
 TEAM_HOBO = rp.addTeam('Бомж', {
-	catagory = 'Hobos',
+	catagory = 'Бомжи',
 	color = Color(80, 45, 0),
 	model = 'models/player/corpse1.mdl',
 	GetRelationships = function() return {TEAM_HOBOKING, TEAM_HOBO} end,
@@ -589,7 +589,7 @@ local meathHeadSpawns = {
 
 local zPos = (game.GetMap() == 'rp_danktown_rc5a' or game.GetMap() == 'rp_sundown_rc5a') and -244 or 696
 TEAM_METHHEAD = rp.addTeam('Бомж Наркоман', {
-	catagory = 'Hobos',
+	catagory = 'Бомжи',
 	color = Color(50, 35, 0),
 	model = 'models/player/charple.mdl',
 	CanMug = true,
@@ -793,14 +793,14 @@ TEAM_HOTEL = rp.addTeam('Менеджер Отеля', {
 })
 
 local function orgCheck(pl, orgName)
-	return true//pl:IsSA() or (pl:GetOrg() == orgName), ('You must be in ' .. orgName .. ' to use this class.')
+	return false//pl:IsSA() or (pl:GetOrg() == orgName), ('You must be in ' .. orgName .. ' to use this class.')
 end
 
 local gayid = 'STEAM_0:0:55992389'
 TEAM_GAY = rp.addTeam('Birthday Squad', {
-	catagory = ' Custom',
+	catagory = ' Донат',
 	color = Color(72, 135, 7),
-	model = 'models/sup/player/custom/happybirthday/merc1.mdl',
+	model = 'models/gmh/player/custom/happybirthday/merc1.mdl',
 	CanRaid = true,
 	CanMug = true,
 	weapons = {'swb_m4a1', 'lockpick', 'keypad_cracker'},
@@ -819,9 +819,9 @@ TEAM_GAY = rp.addTeam('Birthday Squad', {
 })
 
 TEAM_OILMONEY = rp.addTeam('Destruction Elite', {
-	catagory = ' Custom',
+	catagory = ' Донат',
 	color = Color(50, 50, 50),
-	model = 'models/sup/player/custom/destruction/r6s_kapkan.mdl',
+	model = 'models/gmh/player/custom/destruction/r6s_kapkan.mdl',
 	CanRaid = true,
 	weapons = {'swb_m4a1', 'lockpick', 'keypad_cracker'},
 	command = 'destructionelite',
@@ -834,9 +834,9 @@ TEAM_OILMONEY = rp.addTeam('Destruction Elite', {
 })
 
 TEAM_CASIA = rp.addTeam('ʙ o ɴ e s', {
-	catagory = ' Custom',
+	catagory = ' Донат',
 	color = Color(161, 70, 100),
-	model = 'models/sup/player/custom/bones/bones.mdl',
+	model = 'models/gmh/player/custom/bones/bones.mdl',
 	CanRaid = true,
 	CanMug = true,
 	weapons = {'lockpick', 'keypad_cracker'},
@@ -856,7 +856,7 @@ TEAM_CASIA = rp.addTeam('ʙ o ɴ e s', {
 })
 
 TEAM_LOVEBUG = rp.addTeam('ai', {
-	catagory = ' Custom',
+	catagory = ' Донат',
 	color = Color(255, 127, 127),
 	model = 'models/auditor/com/honoka/honoka.mdl',
 	CanRaid = true,
@@ -872,7 +872,7 @@ TEAM_LOVEBUG = rp.addTeam('ai', {
 
 
 TEAM_SPETS = rp.addTeam('Spetsnaz', {
-	catagory = ' Custom',
+	catagory = ' Донат',
 	color = Color(18, 69, 145),
 	model = 'models/cso2/player/ct_helga_player.mdl',
 	CanRaid = true,
@@ -890,15 +890,15 @@ TEAM_SPETS = rp.addTeam('Spetsnaz', {
 -- Configs
 --
 -- Agenda
-rp.AddAgenda('Mob Agenda', TEAM_MOBBOSS, {TEAM_GANGSTER})
+rp.AddAgenda('Бандиты Agenda', TEAM_MOBBOSS, {TEAM_GANGSTER})
 rp.AddAgenda('Police Agenda', TEAM_CHIEF, {TEAM_POLICE, TEAM_MAYOR})
 rp.AddAgenda('Hobo Agenda', TEAM_HOBOKING, {TEAM_HOBO})
 rp.AddAgenda('Hoe Agenda', TEAM_PIMP, {TEAM_WHORE})
 
 -- Group Chat
-rp.addGroupChat("Mob", TEAM_MOBBOSS, TEAM_GANGSTER)
-rp.addGroupChat("Government", TEAM_CHIEF, TEAM_POLICE, TEAM_MAYOR)
-rp.addGroupChat("Hobos", TEAM_HOBOKING, TEAM_HOBO)
+rp.addGroupChat("Бандиты", TEAM_MOBBOSS, TEAM_GANGSTER)
+rp.addGroupChat("Государство", TEAM_CHIEF, TEAM_POLICE, TEAM_MAYOR)
+rp.addGroupChat("Бомжи", TEAM_HOBOKING, TEAM_HOBO)
 rp.addGroupChat("Brothel", TEAM_PIMP, TEAM_WHORE)
 
 -- Group Bans (banned from one, banned from all)

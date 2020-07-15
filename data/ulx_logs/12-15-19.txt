@@ -1,4 +1,0 @@
-[12:02:11] New map: gm_construct
-[12:11:25] Client "COMPLΞX" connected.
-[12:11:43] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 18 seconds).
-[15:30:41] Dropped "COMPLΞX" from server<STEAM_0:0:105635721>

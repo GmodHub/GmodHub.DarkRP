@@ -1,6 +1,6 @@
 dash.IncludeSH 'shared.lua'
 
-ENT.IconMaterial = Material 'sup/entities/npcs/sasha.png'
+ENT.IconMaterial = Material 'gmh/entities/npcs/sasha.png'
 
 local fr
 function ENT:PlayerUse()
@@ -9,11 +9,11 @@ function ENT:PlayerUse()
 	local hasLicense = LocalPlayer():HasLicense()
 
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Sasha')
+		self:SetTitle('Саша')
 		if hasLicense then
 			self:SetSize(450, 500)
 		else
-			self:SetSize(300, 80)
+			self:SetSize(390, 80)
 		end
 
 		self:Center()
@@ -24,7 +24,7 @@ function ENT:PlayerUse()
 
 	ui.Create('DLabel', function(self, p)
 		self:SetPos(5, 30)
-		self:SetText(hasLicense and ('I buy gun. You got gun?\nI buy for ' .. buyPerc .. '% value right now\nJust gravity gun into me.') or 'You need gun license comrade.\nYou trying to get me sent to gulag?')
+		self:SetText(hasLicense and ('Я покупаю пушки. У тебя есть что-то для меня?\nЯ покупаю за ' .. buyPerc .. '% от цены прямо сейчас\nПросто поднеси товар ко мне.') or 'Тебе нужна лицензия на оружие, парнишка.\nТы пытаешься сослать меня в гулаг?')
 		self:SizeToContents()
 	end, fr)
 
@@ -32,14 +32,14 @@ function ENT:PlayerUse()
 
 	ui.Create('DLabel', function(self, p)
 		self:SetPos(5, 100)
-		self:SetText('Here are price:')
+		self:SetText('Вот мои расценки:')
 		self:SizeToContents()
 	end, fr)
 
 	ui.Create('ui_listview', function(self)
 		self:SetPos(5, 125)
 		self:SetSize(440, 370)
-		self:AddSpacer('Prices:')
+		self:AddSpacer('Цены:')
 		for k, v in ipairs(rp.Weapons) do
 
 			self:AddItem(ui.Create('DButton', function(self)

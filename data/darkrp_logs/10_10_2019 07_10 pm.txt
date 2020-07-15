@@ -1,8 +1,0 @@
-Thu Oct 10 19:10:13 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Oct 10 19:10:13 2019	Loshar (STEAM_0:1:74202541) spawned
-Thu Oct 10 19:35:18 2019	nabrosok (STEAM_0:1:516570728) has joined the game
-Thu Oct 10 19:35:18 2019	nabrosok (STEAM_0:1:516570728) spawned
-Thu Oct 10 19:36:47 2019	Loshar was killed by nabrosok with a weapon_fiveseven2
-Thu Oct 10 19:37:07 2019	nabrosok (STEAM_0:1:516570728) disconnected
-Thu Oct 10 19:39:19 2019	Loshar (STEAM_0:1:74202541) spawned
-Thu Oct 10 20:13:03 2019	Loshar (STEAM_0:1:74202541) disconnected

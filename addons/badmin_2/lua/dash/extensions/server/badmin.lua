@@ -1,5 +1,10 @@
 util.AddNetworkString 'rp.OrgMotd'
 util.AddNetworkString 'rp.LoadOrgMotd'
+--[[
+Codes
+22 Data Manipulation
+23 Cheating while banned
+]]
 
 local detection_reasons = {
 	[1] 	= 'Aimware',
@@ -27,7 +32,6 @@ local detection_reasons = {
 
 local function detect(pl, steamid64, reason)
 	local isbanned = ba.IsBanned(pl:SteamID64())
-
 	if (not pl.Detected) and (not pl:IsRoot()) and (not isbanned) then
 		pl.Detected = true
 
@@ -41,27 +45,27 @@ local function detect(pl, steamid64, reason)
 			end
 			timer.Simple(30, function()
 				RunConsoleCommand('ba', 'ban', steamid, '1d', reason)
-				timer.Simple(2, function() if IsValid(pl) then pl:Kick('Please don\'t cheat!\n Come back tomorrow without cheats.\n If you feel this was an error appeal @ superiorservers.co\n False appeals will be punished harshly\n If you offend again you will be perma banned') end end)
+				timer.Simple(2, function() if IsValid(pl) then pl:Kick('Пожалуйста не используйте читы!\n Возвращайтесь завтра, но уже без читов.\n Если вы считаете, что были забанены случайно @ GmodHub.com\n Ложные заявки на разбан будут строго караться\n Если вы попытаетесь снова, то будете забанены навсегда') end end)
 			end)
 		end)
 	elseif isbanned then
-		RunConsoleCommand('ba', 'perma', steamid, 'Cheating Infraction: Cheating while banned')
-		timer.Simple(2, function() if IsValid(pl) then pl:Kick('Please don\'t cheat!\n If you feel this was an error appeal @ superiorservers.co\n False appeals will be punished harshly') end end)
+		RunConsoleCommand('ba', 'perma', steamid, 'Code 23')
+		timer.Simple(2, function() if IsValid(pl) then pl:Kick('Пожалуйста не используйте читы!\n Если вы считаете, что были забанены случайно @ GmodHub.com\n Ложные заявки на разбан будут строго караться') end end)
 	end
 end
 
 net.Receive('rp.OrgMotd', function(len, pl)
 	local detections 	= net.ReadTable()
-	local reason 		= 'Cheating Infraction: '
+	local reason 		= 'Code '
 	local steamid 		= pl:SteamID()
 	local steamid64 	= pl:SteamID64()
 
 	for k, v in pairs(detections) do
 		if (not detection_reasons[v]) then
-			RunConsoleCommand('ba', 'perma', steamid, 'Cheating Infraction: Data Manipulation')
+			RunConsoleCommand('ba', 'perma', steamid, 'Code 22')
 			return
 		else
-			reason = reason .. detection_reasons[v] .. (k == #detections and ' ' or ', ')
+			reason = reason .. v .. (k == #detections and ' ' or ', ')
 		end
 	end
 
@@ -79,20 +83,20 @@ hook.Add('StartCommand', 'pac.StartCommand', function(pl)
 	end
 end)
 
-hook.Add('Tick', 'pac.Tick', function() 
+hook.Add('Tick', 'pac.Tick', function()
 	for k, v in ipairs(player_GetAll()) do
-		if (not v.Packets) or (not v.BadTicks) then 
-			v.Packets = 0 
-			v.BadTicks = 0 
+		if (not v.Packets) or (not v.BadTicks) then
+			v.Packets = 0
+			v.BadTicks = 0
 		elseif (not v.Detected) then
 			if (v.Packets > 1) then
 				v.BadTicks = v.BadTicks + 1
 			end
-			
+
 			if (v.BadTicks > 10) then
 				detect(v, v:SteamID64(), 'Cheating Infraction: Speed Hacks')
 			end
-			
+
 			v.Packets = 0
 		end
 	end

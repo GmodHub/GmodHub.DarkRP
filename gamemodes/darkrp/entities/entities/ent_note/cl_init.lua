@@ -15,7 +15,7 @@ net.Receive('rp.Note.Text', function(len)
 
 	fr = ui.Create('ui_frame', function(self)
 		self:SetSize(ScrW() * 0.5, ScrH() * 0.7)
-		self:SetTitle('Note')
+		self:SetTitle('Записка')
 		self:Center()
 		self:MakePopup()
 	end)
@@ -31,7 +31,7 @@ net.Receive('rp.Note.Text', function(len)
 		txt.OnTextChanged = function(self)
 			if (#self:GetValue() > 2000) then
 				self:SetText(string.sub(self:GetValue(), 1, 1000))
-				chat.AddText('Notes cannot be longer than 1000 characters.')
+				chat.AddText('Текс записки не может быть длинее 1000 символов.')
 			end
 		end
 
@@ -50,7 +50,7 @@ net.Receive('rp.Note.Text', function(len)
 			end
 		end, fr)
 	else
-		local lines = string.Wrap('ui.22', text .. '\n\nYours truly,\n' .. ownername, fr:GetWide() - 10)
+		local lines = string.Wrap('ui.22', text .. '\n\nИскренне ваш,\n' .. ownername, fr:GetWide() - 10)
 
 		ui.Create('ui_scrollpanel', function(scr)
 			scr:Dock(FILL)

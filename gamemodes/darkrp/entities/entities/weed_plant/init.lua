@@ -2,18 +2,6 @@ AddCSLuaFile('cl_init.lua')
 AddCSLuaFile('shared.lua')
 include('shared.lua')
 
--- Materials
-local n, _ = file.Find('materials/models/alakran/*', 'GAME')
-for k,v in ipairs(n) do
-	resource.AddFile('materials/models/alakran/' .. v)
-end
-
--- Models
-local n, _ = file.Find('models/alakran/marijuana/*', 'GAME')
-for k,v in ipairs(n) do
-	resource.AddFile('models/alakran/marijuana/' .. v)
-end
-
 ENT.RemoveOnJobChange = true
 ENT.LazyFreeze = true
 

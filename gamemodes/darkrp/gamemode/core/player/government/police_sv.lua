@@ -12,12 +12,12 @@ function PLAYER:Warrant(actor, reason)
 			rp.Notify(actor, NOTIFY_GENERIC, term.Get("WarrantExpired"))
 		end
 	end)
-	rp.FlashNotifyAll('Ордер на обыск', rp.Term('Warranted'), self, reason, (IsValid(actor) and actor or 'Auto Warrant'))
+	rp.FlashNotifyAll('Ордер на обыск', term.Get('Warranted'), self, reason, (IsValid(actor) and actor or 'Auto Warrant'))
 	hook.Call('PlayerWarranted', GAMEMODE, self, actor, reason)
 end
 
 function PLAYER:UnWarrant(actor)
-	rp.Notify(self, NOTIFY_GREEN, rp.Term('WarrantExpired'))
+	rp.Notify(self, NOTIFY_GREEN, term.Get('WarrantExpired'))
 	self.HasWarrant = nil
 	hook.Call('PlayerUnWarranted', GAMEMODE, self, actor)
 end
@@ -45,14 +45,15 @@ end
 
 local jails = rp.cfg.JailPos[game.GetMap()]
 function PLAYER:Arrest(actor, reason)
-	local time = rp.Karma(self, rp.cfg.ArrestTimeMax, rp.cfg.ArrestTimeMin)
+	local time = self:CallSkillHook(SKILL_JAIL)
 	timer.Create('Arrested' .. self:SteamID64(), time, 1, function()
 		if IsValid(self) then
 			self:UnArrest()
 		end
 	end)
 
-	self:SetNetVar('ArrestedInfo', {Reason = (reason or self:GetWantedReason()), Release = CurTime() + time})
+	self:SetNetVar("IsArrested", true)
+	self:SetNetVar('ArrestedInfo', {Reason = (reason or self:GetWantedInfo().Reason), ReleaseTime = CurTime() + time})
 	if self:IsWanted() then self:UnWanted() end
 
 	rp.ArrestedPlayers[self:SteamID64()] = true
@@ -62,7 +63,7 @@ function PLAYER:Arrest(actor, reason)
 	self:SetHealth(100)
 	self:SetArmor(0)
 
-	rp.FlashNotifyAll('Arrested', rp.Term('Arrested'), self)
+	rp.FlashNotifyAll('Arrested', term.Get('Arrested'), self)
 	hook.Call('PlayerArrested', GAMEMODE, self, actor)
 
 	self:SetPos(util.FindEmptyPos(jails[math.random(#jails)]))
@@ -70,15 +71,16 @@ function PLAYER:Arrest(actor, reason)
 end
 
 function PLAYER:UnArrest(actor)
+	self:SetNetVar('IsArrested', nil)
 	self:SetNetVar('ArrestedInfo', nil)
 	timer.Destroy('Arrested' .. self:SteamID64())
 	rp.ArrestedPlayers[self:SteamID64()] = nil
-	timer.Simple(0.3, function() -- fucks up otherwise
+	timer.Simple(0.3, function() // fucks up otherwise
 		local _, pos = GAMEMODE:PlayerSelectSpawn(self)
 		self:SetPos(pos)
 		self:SetHealth(100)
 		hook.Call('PlayerLoadout', GAMEMODE, self)
-		rp.FlashNotifyAll('UnArrested', rp.Term('UnArrested'), self)
+		rp.FlashNotifyAll('UnArrested', term.Get('UnArrested'), self)
 		hook.Call('PlayerUnArrested', GAMEMODE, self, actor)
 	end)
 end
@@ -140,7 +142,7 @@ rp.AddCommand('unwant', function(pl, target)
 	if not pl:IsGov() or (pl == target) then return end
 
 	if not target:IsWanted() then
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('PlayerNotWanted'), target)
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerNotWanted'), target)
 	else
 		target:UnWanted(pl)
 	end
@@ -157,7 +159,7 @@ rp.AddCommand('warrant', function(pl, target, reason)
 	end
 
 	if target:IsWarranted() then
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('PlayerAlreadyWarranted'), target)
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerAlreadyWarranted'), target)
 		return
 	end
 
@@ -170,15 +172,15 @@ rp.AddCommand('warrant', function(pl, target, reason)
 	if (#mayors > 1) and not pl:IsMayor() then
 		rp.question.Create(pl:Name() .. ' has requested a search warrant on ' .. target:Name() .. ' for ' ..  reason, 40, target:EntIndex() .. 'warrant', function(mayor, answer)
 			if IsValid(target) and tobool(answer) then
-				rp.Notify(pl, NOTIFY_GREEN, rp.Term('WarrantRequestAcc'))
+				rp.Notify(pl, NOTIFY_GREEN, term.Get('WarrantRequestAcc'))
 				target:Warrant(pl, reason)
 			else
-				rp.Notify(pl, NOTIFY_ERROR, rp.Term('WarrantRequestDen'))
+				rp.Notify(pl, NOTIFY_ERROR, term.Get('WarrantRequestDen'))
 			end
 		end, mayors[1])
 	else
 		targ:Warrant(pl, reason)
-		rp.Notify(pl, NOTIFY_GREEN, rp.Term('WarrantRequestAcc'))
+		rp.Notify(pl, NOTIFY_GREEN, term.Get('WarrantRequestAcc'))
 	end
 end)
 :AddParam(cmd.PLAYER_ENTITY)
@@ -189,7 +191,7 @@ rp.AddCommand('unwarrant', function(pl, target)
 	if not pl:IsGov() or (pl == target) then return end
 
 	if not targ:IsWarranted() then
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('PlayerNotWarranted'), target)
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerNotWarranted'), target)
 	else
 		target:UnWarrant(pl)
 	end
@@ -200,13 +202,14 @@ end)
 
 local bounds = rp.cfg.Jails[game.GetMap()]
 if bounds then
-	hook('PlayerThink', function(pl)
+hook('PlayerThink', function(pl)
 		if IsValid(pl) and pl:IsArrested() and pl.CanEscape and (not pl:InBox(bounds[1], bounds[2])) then
 			rp.ArrestedPlayers[pl:SteamID64()] = nil
+			pl:SetNetVar('IsArrested', nil)
 			pl:SetNetVar('ArrestedInfo', nil)
 			timer.Destroy('Arrested' .. pl:SteamID64())
 
-			pl:Wanted(nil, 'Jail Escapee')
+			pl:Wanted(nil, 'Побег из Тюрьмы')
 
 			hook.Call('PlayerLoadout', GAMEMODE, pl)
 		end

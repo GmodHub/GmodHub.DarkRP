@@ -6,7 +6,7 @@ if(SERVER) then
 end
 
 if(CLIENT) then
-	SWEP.PrintName = "Cracker"
+	SWEP.PrintName = "Взломщик Кейпадов"
 	SWEP.Slot = 3
 	SWEP.SlotPos = 1
 	SWEP.DrawAmmo = false
@@ -197,7 +197,7 @@ end
 
 if(CLIENT) then
 	local off = Vector(15.43, 1.28, -2.63)
-	local kaliLogo = Material("sup/entities/cracker-kali-logo.png", "smooth")
+	local kaliLogo = Material("gmh/entities/cracker-kali-logo.png", "smooth")
 	function SWEP:PostDrawViewModel(vm, wep, pl)
 		local pos = vm:GetPos()
 		local ang = vm:GetAngles()

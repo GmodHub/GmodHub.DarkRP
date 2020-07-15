@@ -1,7 +1,7 @@
 -- Modified notification.AddLegacy
 cvar.Register 'notification_sound'
 	:SetDefault(true, true)
-	:AddMetadata('Menu', 'Enable "drip" sound for notifications')
+	:AddMetadata('Menu', 'Включить звук "капли" для уведомлений')
 
 notification = {}
 
@@ -12,23 +12,23 @@ end
 local notifyTypes 	= {
 	[NOTIFY_GENERIC]	= {
 		Color = Color(51,128,255),
-		Icon = m 'sup/ui/notifications/info.png'
+		Icon = m 'gmh/ui/notifications/info.png'
 	},
 	[NOTIFY_ERROR]	= {
 		Color = Color(225,0,0),
-		Icon = m 'sup/ui/notifications/error.png'
+		Icon = m 'gmh/ui/notifications/error.png'
 	},
 	[NOTIFY_UNDO]	= {
 		Color = Color(255, 140, 0),
-		Icon = m 'sup/ui/notifications/undo.png',
+		Icon = m 'gmh/ui/notifications/undo.png',
 	},
 	[NOTIFY_SUCCESS]	= {
 		Color = Color(0,180,50),
-		Icon = m 'sup/ui/notifications/info.png'
+		Icon = m 'gmh/ui/notifications/info.png'
 	},
 	[NOTIFY_HINT]	= {
 		Color = Color(51,128,255),
-		Icon = m 'sup/ui/notifications/hint.png'
+		Icon = m 'gmh/ui/notifications/hint.png'
 	}
 }
 

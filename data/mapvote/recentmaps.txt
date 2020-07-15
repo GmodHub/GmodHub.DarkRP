@@ -1,1 +1,0 @@
-["ttt_skyscraper.bsp","ttt_clue_se.bsp","ttt_subway_b4.bsp"]

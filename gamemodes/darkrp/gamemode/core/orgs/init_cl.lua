@@ -1667,7 +1667,7 @@ hook('F4TabChanged', function(tab)
 end)
 
 hook('PopulateF4Tabs', function(frs, f4fr)
-	frs:AddTab('Банды', function(self)
+	/*frs:AddTab('Банды', function(self)
 		head = f4fr
 
 		cont = ui.Create 'DPanel'
@@ -1681,10 +1681,10 @@ hook('PopulateF4Tabs', function(frs, f4fr)
 			end
 		end
 
-		net.Ping("rp.OrgsMenu")
+		//net.Ping("rp.OrgsMenu")
 
 		return cont
-	end):SetIcon 'sup/gui/f4/f4_orgs.png'
+	end):SetIcon 'gmh/gui/f4/f4_orgs.png'*/
 end)
 
 function rp.orgs.GetBanner(orgName)

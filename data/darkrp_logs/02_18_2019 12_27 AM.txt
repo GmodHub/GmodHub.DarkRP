@@ -1,7 +1,0 @@
-Mon Feb 18 00:27:54 2019	BandiT (STEAM_0:0:218393284) has joined the game
-Mon Feb 18 00:27:54 2019	BandiT (STEAM_0:0:218393284) spawned
-Mon Feb 18 00:28:46 2019	BandiT (STEAM_0:0:218393284): /task
-Mon Feb 18 00:28:48 2019	BandiT (STEAM_0:0:218393284): 
-Mon Feb 18 00:29:50 2019	BandiT (STEAM_0:0:218393284) disconnected
-Mon Feb 18 02:42:29 2019	BandiT (STEAM_0:0:218393284) has joined the game
-Mon Feb 18 02:42:29 2019	BandiT (STEAM_0:0:218393284) spawned

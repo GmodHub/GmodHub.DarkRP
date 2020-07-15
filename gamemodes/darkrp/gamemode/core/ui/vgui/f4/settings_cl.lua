@@ -111,7 +111,7 @@ function PANEL:Init()
 	end
 
 	self.Custom = ui.Create('DTextEntry', self)
-	self.Custom:SetPlaceholderText('Command...')
+	self.Custom:SetPlaceholderText('Команда...')
 	self.Custom.OnChange = function(s)
 		self.Cmd = s:GetValue()
 		saveBind(self.Key, self.Cmd, self.Type)
@@ -188,7 +188,7 @@ function PANEL:Init()
 		s:SetDisabled(cvar.GetValue('custom_binds').Profile == 'Default')
 	end
 	self.RemoveProfile.DoClick = function(s)
-		ui.BoolRequest('Remove Profile', 'Are you sure you want to remove this keybind profile?', function(ans)
+		ui.BoolRequest('Удалить профиль', 'Вы уверены что хотите удалить профиль с биндами?', function(ans)
 			if ans then
 				local binds = cvar.GetValue 'custom_binds'
 				binds.Profile = 'Default'
@@ -211,7 +211,7 @@ function PANEL:Init()
 	self.AddProfile = ui.Create('DButton', self)
 	self.AddProfile:SetText('+')
 	self.AddProfile.DoClick = function(s)
-		ui.StringRequest('Add Profile', 'What would you like to name this keybind profile?', '', function(value)
+		ui.StringRequest('Добавить Профиль', 'Как вы хотите назвать этот профиль?', '', function(value)
 			local binds = cvar.GetValue 'custom_binds'
 			binds.Profile = value
 			binds[value] = defaultBinds
@@ -277,9 +277,9 @@ hook('Think', 'rp.KeyBinds.Think', function()
 			for k, v in ipairs(profile) do
 				if v.Key and v.Cmd and v.Type and input.IsKeyDown(v.Key) then
 					if (lastkey ~= v.Key) and (nextcall < CurTime()) then
-						if (v.Type == 'Chat') then
+						if (v.Type == 'Чат') then
 							LocalPlayer():ConCommand('say ' .. v.Cmd)
-						elseif (v.Type == 'Command') then
+						elseif (v.Type == 'Команда') then
 							LocalPlayer():ConCommand('rp ' .. v.Cmd)
 						elseif (v.Type == 'Другое') then
 							LocalPlayer():ConCommand(v.Cmd)

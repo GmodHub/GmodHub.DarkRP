@@ -34,6 +34,10 @@ function ENT:Use(activator, caller)
 
 	local CanPickup = hook.Call("PlayerCanPickupWeapon", GAMEMODE, activator, weapon)
 	if not CanPickup then return end
+	if weapon and activator:HasWeapon(weapon:GetClass()) then
+		rp.Notify(activator, NOTIFY_ERROR, term.Get('AlreadyHaveWeapon'))
+		return false
+	end
 	weapon:Remove()
 
 	activator:Give(class)

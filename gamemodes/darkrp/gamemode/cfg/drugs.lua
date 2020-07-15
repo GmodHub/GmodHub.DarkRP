@@ -22,7 +22,7 @@ rp.AddDrug {
 
 -- Drug Dealer
 rp.AddDrug {
-	Name  = 'Weed',
+	Name  = 'Трава',
 	Price = 300,
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/katharsmodels/contraband/zak_wiet/zak_wiet.mdl',
@@ -67,7 +67,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Cigarettes',
+	Name  = 'Сигареты',
 	Price = 200,
 	PlaySound = false,
 	Team  = {TEAM_DRUGDEALER},
@@ -96,7 +96,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Heroin',
+	Name  = 'Героин',
 	Price = 1500,
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/katharsmodels/syringe_out/syringe_out.mdl',
@@ -147,7 +147,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'LSD',
+	Name  = 'ЛСД',
 	Price = 350,
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/smile/smile.mdl',
@@ -175,7 +175,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Shrooms',
+	Name  = 'Грибы',
 	Price = 525,
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/ipha/mushroom_small.mdl',
@@ -210,7 +210,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Coke',
+	Name  = 'Кокаин',
 	Price = 700,
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/cocn.mdl',
@@ -271,7 +271,7 @@ rp.AddDrug {
 local vec4 = Vector(4, 4, 4)
 local vec1 = Vector(1, 1, 1)
 rp.AddDrug {
-	Name  = 'Meth',
+	Name  = 'Мет',
 	Price = 600,
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/cocn.mdl',
@@ -339,7 +339,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Bath Salts',
+	Name  = 'Соль Для Ванны',
 	Price = 1000,
 	CanOverdose = true,
 	OverdoseChance = {0, 0, 0.5, 0.10, 0.15, 0.20},
@@ -368,7 +368,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Bleach',
+	Name  = 'Отбеливатель',
 	Price = 300,
 	Team  = {TEAM_DRUGDEALER, TEAM_SJW},
 	Model = 'models/props_junk/garbage_plasticbottle001a.mdl',
@@ -439,15 +439,15 @@ local function addalcohol(name, model, price, armor, health, blur, lag, index)
 	}
 end
 
-addalcohol('Beer Can', 'models/drug_mod/alcohol_can.mdl', 200, 20, 2, 0.4, 0.05)
-addalcohol('40oz', 'models/props_junk/garbage_glassbottle002a.mdl', 300, 30, 3, 0.6, 0.06, 53)
-addalcohol('Wine', 'models/props_junk/garbage_glassbottle003a.mdl', 400, 40, 5, 0.8, 0.08, 54)
-addalcohol('Vodka', 'models/props_junk/GlassBottle01a.mdl', 500, 50, 8, 0.8, 0.08, 55)
-addalcohol('Moonshine', 'models/props_junk/glassjug01.mdl', 750, 100, 25, 1, 0.09, 56)
+addalcohol('Пиво', 'models/drug_mod/alcohol_can.mdl', 200, 20, 2, 0.4, 0.05)
+addalcohol('Балтика', 'models/props_junk/garbage_glassbottle002a.mdl', 300, 30, 3, 0.6, 0.06, 53)
+addalcohol('Вино', 'models/props_junk/garbage_glassbottle003a.mdl', 400, 40, 5, 0.8, 0.08, 54)
+addalcohol('Водка', 'models/props_junk/GlassBottle01a.mdl', 500, 50, 8, 0.8, 0.08, 55)
+addalcohol('Самогон', 'models/props_junk/glassjug01.mdl', 750, 100, 25, 1, 0.09, 56)
 
 rp.AddDrug {
 	Index = 57,
-	Name  = 'Soda',
+	Name  = 'Кола',
 	Price = 400,
 	PlaySound = false,
 	Team  = {TEAM_BARTENDER},
@@ -480,7 +480,7 @@ rp.AddDrug {
 
 rp.AddDrug {
 	Index = 58,
-	Name  = 'Coffee',
+	Name  = 'Кофе',
 	Price = 500,
 	PlaySound = false,
 	Team  = {TEAM_BARTENDER},
@@ -514,7 +514,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Water',
+	Name  = 'Вода',
 	Price = 350,
 	PlaySound = false,
 	Team  = {TEAM_BARTENDER},
@@ -533,7 +533,7 @@ rp.AddDrug {
 }
 
 rp.AddDrug {
-	Name  = 'Milk',
+	Name  = 'Молоко',
 	Price = 750,
 	PlaySound = false,
 	Team  = {TEAM_BARTENDER},

@@ -25,7 +25,7 @@ sound.Add({
 	volume = 1.0,
 	level = 80,
 	pitch = 100,
-	sound = "sup/ziptie.ogg"
+	sound = "gmh/ziptie.ogg"
 })
 
 function SWEP:Equip()

@@ -64,8 +64,8 @@ end
 
 local vec = Vector(6, 0, 19)
 local ang = Angle(0, 90, 90)
-local mat_server = Material 'sup/entities/security_tv/server.png'
-local mat_static = Material 'sup/entities/security_tv/static.png'
+local mat_server = Material 'gmh/entities/security_tv/server.png'
+local mat_static = Material 'gmh/entities/security_tv/static.png'
 function ENT:Draw()
 	self:DrawModel()
 

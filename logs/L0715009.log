@@ -1,0 +1,55 @@
+L 07/15/2020 - 16:40:52: Log file started (file "logs\L0715009.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/15/2020 - 16:40:52: server_cvar: "sv_airaccelerate" "100"
+L 07/15/2020 - 16:40:53: Connection to Steam servers successful.
+L 07/15/2020 - 16:40:53:    Public IP is 31.130.42.26.
+L 07/15/2020 - 16:40:53: Assigned anonymous gameserver Steam ID [A-1:1424092168(15162)].
+L 07/15/2020 - 16:40:54: VAC secure mode is activated.
+L 07/15/2020 - 16:41:40: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/15/2020 - 16:41:40: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/15/2020 - 16:42:15: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/15/2020 - 16:43:29: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:221: bad argument #1 to 'SetSkin' (number expected, got string)
+  1. SetSkin - [C]:-1
+   2. DoPlayerEntitySpawn - gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:221
+    3. GMODSpawnProp - gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:150
+     4. unknown - gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:15
+      5. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/15/2020 - 16:43:34: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:221: bad argument #1 to 'SetSkin' (number expected, got string)
+  1. SetSkin - [C]:-1
+   2. DoPlayerEntitySpawn - gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:221
+    3. GMODSpawnProp - gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:150
+     4. unknown - gamemodes/darkrp/gamemode/core/sandbox/commands_sv.lua:15
+      5. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/15/2020 - 16:45:28: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/15/2020 - 16:45:29: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/15/2020 - 16:45:29: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/15/2020 - 16:45:44: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/15/2020 - 16:46:16: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/15/2020 - 16:46:17: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/15/2020 - 16:46:17: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/15/2020 - 16:46:32: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 07/15/2020 - 16:47:34: Lua Error: Corrupt Entity "Пустая Коробка": element model is corrupt.
+
+L 07/15/2020 - 16:47:34: Lua Error: Corrupt shipment "Отмычки": element model is corrupt.
+
+L 07/15/2020 - 16:47:34: Lua Error: Corrupt Entity "Пустая Коробка": element model is corrupt.
+
+L 07/15/2020 - 16:47:34: Lua Error: Corrupt shipment "Отмычки": element model is corrupt.
+
+L 07/15/2020 - 16:47:42: Lua Error: Corrupt shipment "Отмычки": element model is corrupt.
+
+L 07/15/2020 - 17:03:28: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/15/2020 - 17:03:29: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/15/2020 - 17:03:29: server_message: "quit"
+L 07/15/2020 - 17:03:29: Log file closed.

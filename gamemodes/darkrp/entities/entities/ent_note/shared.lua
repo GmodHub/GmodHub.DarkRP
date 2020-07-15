@@ -4,4 +4,4 @@ ENT.PrintName 		= 'RP Note'
 ENT.Author 			= 'KingofBeast'
 ENT.Spawnable 		= true
 ENT.Category 		= 'RP'
-ENT.PressKeyText 	= 'To view'
+ENT.PressKeyText 	= 'Чтобы посмотреть'

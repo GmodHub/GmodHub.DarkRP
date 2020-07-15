@@ -1,6 +1,0 @@
-Thu Nov  7 22:42:03 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Nov  7 22:42:03 2019	Police Man (STEAM_0:1:74202541) spawned
-Thu Nov  7 22:43:00 2019	Bot01 (BOT) has joined the game
-Thu Nov  7 22:43:00 2019	Bot01 (BOT) spawned
-Thu Nov  7 22:43:01 2019	Bot02 (BOT) has joined the game
-Thu Nov  7 22:43:01 2019	Bot02 (BOT) spawned

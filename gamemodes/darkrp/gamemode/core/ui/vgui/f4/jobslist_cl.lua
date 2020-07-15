@@ -99,8 +99,8 @@ vgui.Register('rp_jobbutton', PANEL, 'Button')
 
 PANEL = {}
 
-local mat_checked = Material 'sup/ui/check.png'
-local mat_unchecked = Material 'sup/ui/x.png'
+local mat_checked = Material 'gmh/ui/check.png'
+local mat_unchecked = Material 'gmh/ui/x.png'
 function PANEL:Init()
 	self.job = rp.teams[1]
 	self.job.color = Color(self.job.color.r, self.job.color.g, self.job.color.b, 125)
@@ -207,7 +207,7 @@ function PANEL:Init()
 	local teams = {}
 	for k, v in ipairs(rp.teams) do
 		if ((not v.customCheck) or v.customCheck(LocalPlayer())) and (k ~= LocalPlayer():Team()) then
-			local cat = v.catagory or 'Citizen/Other'
+			local cat = v.catagory or ' Гражданские/Другое'
 			if (not teams[cat]) then teams[cat] = {} end
 			teams[cat][#teams[cat] + 1] = v
 		end

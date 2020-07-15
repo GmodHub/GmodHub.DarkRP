@@ -5,7 +5,7 @@ if SERVER then
 end
 
 if CLIENT then
-	SWEP.PrintName = "Lock Pick"
+	SWEP.PrintName = "Отмычка"
 	SWEP.Slot = 3
 	SWEP.SlotPos = 1
 	SWEP.DrawAmmo = false
@@ -20,7 +20,7 @@ SWEP.ViewModelFOV = 60
 SWEP.ViewModelFlip = false
 SWEP.UseHands = true
 SWEP.ViewModel = Model("models/weapons/c_lockpick.mdl")
-SWEP.WorldModel = Model('models/sup/weapons/lockpick/lockpick.mdl')
+SWEP.WorldModel = Model('models/gmh/weapons/lockpick/lockpick.mdl')
 
 SWEP.Spawnable = true
 SWEP.Category = "RP"

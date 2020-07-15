@@ -17,7 +17,7 @@ if CLIENT then
 	SWEP.ScopeFOV = 12
 	SWEP.ScopeFlipX = true
 	SWEP.OverrideAimMouseSens = 0.2
-	SWEP.ScopeTexture = Material "sup/swb/scopes/scope4.png"
+	SWEP.ScopeTexture = Material "gmh/swb/scopes/scope4.png"
 	SWEP.ScopeTextureX = 10
 	SWEP.ScopeTextureY = -14
 

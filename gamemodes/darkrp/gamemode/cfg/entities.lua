@@ -3,7 +3,7 @@
 rp.AddEntity('Денежный Принтер',{
 	catagory = 'Money printing devices',
 	ent = 'money_printer',
-	model = 'models/sup/printer/printer.mdl',
+	model = 'models/gmh/printer/printer.mdl',
 	price = 3000,
 	max = 2,
 	cmd = '/buyprinter',
@@ -59,7 +59,7 @@ rp.AddEntity('Металлоискатель', {
 
 rp.AddEntity('Пустая Коробка', {
 	ent = 'spawned_shipment',
-	model = 'models/sup/shipment/shimpmentcrate.mdl',
+	model = 'models/gmh/shipment/shimpmentcrate.mdl',
 	price = 500,
 	max = 5,
 	cmd = '/buyemptyship'
@@ -141,17 +141,17 @@ rp.AddEntity('Оружейная Лаборатория', 'item_lab_gun', 'model
 -- Black Market Dealer
 rp.AddBMI('C4','models/weapons/2_c4_planted.mdl', 'weapon_c4', 200000, 10, false, 35000, false, {TEAM_BMIDEALER})
 rp.AddBMI('Взломщики Кейпадов','models/weapons/w_c4.mdl', 'keypad_cracker', 16000, 10, false, 1050, false, {TEAM_BMIDEALER})
-rp.AddBMI('Отмычки','models/sup/weapons/lockpick/lockpick.mdl', 'lockpick', 14000, 10, false, 950, false, {TEAM_BMIDEALER})
+rp.AddBMI('Отмычки','models/gmh/weapons/lockpick/lockpick.mdl', 'lockpick', 14000, 10, false, 950, false, {TEAM_BMIDEALER})
 rp.AddBMI('Броня','models/props_junk/cardboard_box004a.mdl', 'armor_piece_full', 7500, 10, false, 900, false, {TEAM_BMIDEALER})
 rp.AddBMI('Лом','models/weapons/w_crowbar.mdl', 'weapon_crowbar', 5500, 10, false, 700, false, {TEAM_BMIDEALER})
 rp.AddBMI('Дубинка','models/weapons/w_stunbaton.mdl', 'weapon_stunstick', 5000, 10, false, 650, false, {TEAM_BMIDEALER})
-rp.AddBMI('Палка для освобождения','models/weapons/w_stunbaton.mdl', 'unarrest_baton', 6500, 10, false, 800, false, {TEAM_BMIDEALER})
+rp.AddBMI('Освобождающая Дубинка','models/weapons/w_stunbaton.mdl', 'unarrest_baton', 6500, 10, false, 800, false, {TEAM_BMIDEALER})
 rp.AddBMI('Нож','models/weapons/w_knife_t.mdl', 'swb_knife', 5000, 10, false, 675, false, {TEAM_BMIDEALER})
 rp.AddBMI('Полицейский Щит','models/drover/w_shield.mdl', 'weapon_shield', 8000, 5, false, 2000, false, {TEAM_BMIDEALER})
 rp.AddBMI('Фальшивая Лицензия','models/props_lab/clipboard.mdl', 'ent_licence', 9500, 10, false, 1250, false, {TEAM_BMIDEALER})
 rp.AddBMI('Маскировка','models/props_c17/SuitCase_Passenger_Physics.mdl', 'ent_disguise', 10000, 10, false, 1250, false, {TEAM_BMIDEALER})
 rp.AddBMI('Тазер','models/weapons/w_pistol.mdl', 'weapon_taser', 7500, 10, false, 1000, false, {TEAM_BMIDEALER})
-rp.AddBMI('Стяжки', 'models/props/cs_office/Snowman_arm.mdl', 'weapon_ziptie', 25000, 10, false, 950, false, {TEAM_BMIDEALER}, nil, nil, 60)
+//rp.AddBMI('Стяжки', 'models/props/cs_office/Snowman_arm.mdl', 'weapon_ziptie', 25000, 10, false, 950, false, {TEAM_BMIDEALER}, nil, nil, 60)
 rp.AddEntity('Раздатчик Брони', 'lab_armor', 'models/props_combine/suit_charger001.mdl', 3500, 4, '/buyarmorlab', TEAM_BMIDEALER, false)
 rp.AddEntity('BMI lab', 'item_lab_bmi', 'models/props/cs_italy/it_mkt_table3.mdl', 2500, 1, '/buybmicrafter', TEAM_BMIDEALER, false)
 rp.AddShipment('Граната', {

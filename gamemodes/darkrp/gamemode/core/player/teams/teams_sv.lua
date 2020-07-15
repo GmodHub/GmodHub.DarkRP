@@ -504,11 +504,11 @@ end
 rp.AddCommand("demote", Demote)
 :AddParam(cmd.PLAYER)
 
-/*timer.Create('PlayerThink', 5, 0, function()
+timer.Create('PlayerThink', 5, 0, function()
 	local pls = player.GetAll()
 	for i = 1, #pls do
 		if IsValid(pls[i]) then
 			hook.Call('PlayerThink', GAMEMODE, pls[i])
 		end
 	end
-end)*/
+end)

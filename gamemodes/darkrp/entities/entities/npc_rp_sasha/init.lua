@@ -4,28 +4,30 @@ dash.IncludeSH 'shared.lua'
 ENT.NPCModel = 'models/Humans/Group03/male_02.mdl'
 
 function ENT:StartTouch(ent)
-	local owner = ent.DrugOwner
+	local owner = ent.WeaponOwner
 	if IsValid(ent) and IsValid(owner) then
-		local info = ent.DrugInfo
+		local info = ent.WeaponInfo
+		local price = math.Round(info.BuyPrice * (nw.GetGlobal('SashaPrice') or 1))
+
 		ent:Remove()
-		owner:AddMoney(info.BuyPrice)
-		rp.Notify(owner, NOTIFY_GREEN, rp.Term('PlayerSoldDrugs'), info.Name, rp.FormatMoney(info.BuyPrice))
+		owner:AddMoney(price)
+		rp.Notify(owner, NOTIFY_GREEN, term.Get('PlayerSoldDrugs'), info.Name, rp.FormatMoney(price))
 	end
 end
 
-hook.Add('GravGunOnPickedUp', 'rp.drugbuyer.GravGunOnPickedUp', function(pl, ent)
-	local tab = rp.Drugs[ent:GetClass()]  or rp.Drugs[ent.weaponclass]
+hook.Add('GravGunOnPickedUp', 'rp.GunBuyer.GravGunOnPickedUp', function(pl, ent)
+	local tab = rp.WeaponsMap[ent:GetClass()] or rp.WeaponsMap[ent.weaponclass]
 	if tab then
-		ent.DrugOwner = pl
-		ent.DrugInfo = tab
+		ent.WeaponOwner = pl
+		ent.WeaponInfo = tab
 	end
 end)
 
-hook.Add('GravGunOnDropped', 'rp.drugbuyer.GravGunOnDropped', function(pl, ent)
-	local tab = rp.Drugs[ent:GetClass()]  or rp.Drugs[ent.weaponclass]
+hook.Add('GravGunOnDropped', 'rp.GunBuyer.GravGunOnDropped', function(pl, ent)
+	local tab = rp.WeaponsMap[ent:GetClass()] or rp.WeaponsMap[ent.weaponclass]
 	if tab then
-		ent.DrugOwner = nil
-		ent.DrugInfo = nil
+		ent.WeaponOwner = nil
+		ent.WeaponInfo = nil
 	end
 end)
 
@@ -38,4 +40,8 @@ hook.Add("InitPostEntity", "rp.GunBuyers", function()
 		npc:Activate()
 		npc:SetModel(npc.NPCModel)
 	end
+
+	timer.Create("SashaPrice", 900, 0, function()
+		nw.SetGlobal("SashaPrice", math.Rand(0.40, 2))
+	end)
 end)

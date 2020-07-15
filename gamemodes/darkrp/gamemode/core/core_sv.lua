@@ -3,6 +3,8 @@ local IsValid 	= IsValid
 local string 	= string
 local table 	= table
 
+util.AddNetworkString('rp.DeathInfo')
+
 function GM:CanChangeRPName(ply, RPname)
 	if string.find(RPname, "\160") or string.find(RPname, " ") == 1 then -- disallow system spaces
 		return false
@@ -165,7 +167,7 @@ function GM:CanPlayerSuicide(pl)
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideWanted"))
 	elseif pl:IsFrozen() then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideFrozen"))
-	elseif (pl:GetKarma() > 150) then
+	elseif (pl:GetKarma() > 5000) then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideLiveFor"))
 	elseif (not pl:IsBanned()) and (not pl:IsJailed()) then
 
@@ -212,15 +214,45 @@ function GM:PlayerCanHearPlayersVoice(listener, talker)
 	return true
 end
 
-function GM:DoPlayerDeath(pl, attacker, dmginfo)
+function GM:DoPlayerDeath(pl, killer, dmg)
 	pl:CreateRagdoll()
 
 	pl.LastRagdoll = (CurTime() + rp.cfg.RagdollDelete)
+
+	pl:SetNetVar("HasInitSpawn", true)
+	pl:SetNetVar("RespawnTime", CurTime() + ( pl:IsRoot() and 0 or rp.cfg.RespawnTime ) )
+
+	local deathType = rp.cfg.DeathTypes["Default"]
+	if pl == killer and (dmg:GetDamageType() ~= 32) and not pl:IsCP() then
+		deathType = rp.cfg.DeathTypes["Suicide"]
+	elseif dmg:GetDamageType() == 32 then
+		deathType = rp.cfg.DeathTypes["Falling"]
+	elseif pl:IsCP() and pl == killer and not pl:GetNetVar("STD") and (dmg:GetDamageType() ~= 32) and pl:GetHunger() > 0 then
+		deathType = rp.cfg.DeathTypes["CopSuicide"]
+	elseif pl ~= killer then
+		deathType = rp.cfg.DeathTypes["Murder"]
+	elseif pl:GetHunger() <= 0 then
+		deathType = rp.cfg.DeathTypes["Hunger"]
+	elseif pl:GetNetVar("STD") then
+		deathType = rp.cfg.DeathTypes["STD"]
+	end
+
+	net.Start("rp.DeathInfo")
+		net.WriteUInt(deathType, 5)
+		if (isplayer(killer) and (killer ~= pl)) then
+			net.WriteBool(true)
+			net.WritePlayer(killer)
+		else
+			net.WriteBool(false)
+		end
+	net.Send(pl)
+
 end
 
 function GM:PlayerDeathThink(pl)
-	if (not pl.NextReSpawn or pl.NextReSpawn < CurTime()) and (pl:KeyPressed(IN_ATTACK) or pl:KeyPressed(IN_ATTACK2) or pl:KeyPressed(IN_JUMP) or pl:KeyPressed(IN_FORWARD) or pl:KeyPressed(IN_BACK) or pl:KeyPressed(IN_MOVELEFT) or pl:KeyPressed(IN_MOVERIGHT) or pl:KeyPressed(IN_JUMP)) then
+	if (not pl:GetNetVar("RespawnTime") or pl:GetNetVar("RespawnTime") < CurTime()) and (pl:KeyPressed(IN_ATTACK) or pl:KeyPressed(IN_ATTACK2) or pl:KeyPressed(IN_JUMP) or pl:KeyPressed(IN_FORWARD) or pl:KeyPressed(IN_BACK) or pl:KeyPressed(IN_MOVELEFT) or pl:KeyPressed(IN_MOVERIGHT) or pl:KeyPressed(IN_JUMP)) then
 		pl:Spawn()
+		pl:SetNetVar("HasInitSpawn", false)
 	end
 end
 
@@ -232,10 +264,9 @@ function GM:PlayerDeath(ply, weapon, killer)
 	ply:Extinguish()
 
 	if ply:GetNetVar('HasGunlicense') then ply:SetNetVar('HasGunlicense', nil) end
+	if ply:GetNetVar("STD") then ply:SetNetVar("STD", nil) end
 
 	if ply:InVehicle() then ply:ExitVehicle() end
-
-	ply.NextReSpawn = CurTime() + 1
 end
 
 function GM:PlayerCanPickupWeapon(ply, weapon)
@@ -448,7 +479,8 @@ function GM:PlayerDisconnected(ply)
 end
 
 function GM:GetFallDamage(pl, speed)
-	local dmg = (speed / 15)
+	local dmg = pl:CallSkillHook(SKILL_FALL, (speed / 15))
+
 	local ground = pl:GetGroundEntity()
 	if ground:IsPlayer() and (not pl:IsBanned()) then
 		ground:TakeDamage(dmg * 1.3, pl, pl)

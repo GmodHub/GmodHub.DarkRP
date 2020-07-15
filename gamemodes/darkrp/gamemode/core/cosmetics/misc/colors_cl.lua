@@ -143,5 +143,5 @@ end
 hook('PopulateF4Tabs', 'rp.cosmetrics.Tabs', function(tabs)
 	tabs:AddTab('Косметика', function(self)
 		return makeTab(tabs)
-	end):SetIcon 'sup/gui/f4/f4_cosmetics.png'
+	end):SetIcon 'gmh/gui/f4/f4_cosmetics.png'
 end)

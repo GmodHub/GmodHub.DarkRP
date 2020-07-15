@@ -1,0 +1,229 @@
+L 07/12/2020 - 21:31:46: Log file started (file "logs\L0712005.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/12/2020 - 21:31:46: server_cvar: "sv_alltalk" "3"
+L 07/12/2020 - 21:31:46: server_cvar: "sv_airaccelerate" "100"
+L 07/12/2020 - 21:31:47: Connection to Steam servers successful.
+L 07/12/2020 - 21:31:47:    Public IP is 31.130.42.26.
+L 07/12/2020 - 21:31:47: Assigned anonymous gameserver Steam ID [A-1:724902916(15140)].
+L 07/12/2020 - 21:31:47: VAC secure mode is activated.
+L 07/12/2020 - 21:31:53: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27005"
+L 07/12/2020 - 21:31:54: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/12/2020 - 21:32:09: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot01<3><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot01<3><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot02<4><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot02<4><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot03<5><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot03<5><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot04<6><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot04<6><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot05<7><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot05<7><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot06<8><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot06<8><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot07<9><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot07<9><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot08<10><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot08<10><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot09<11><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot09<11><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot10<12><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot10<12><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot11<13><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot11<13><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot12<14><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot12<14><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot13<15><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot13<15><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot14<16><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot14<16><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot15<17><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot15<17><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot16<18><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot16<18><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot17<19><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot17<19><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot18<20><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot18<20><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot19<21><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot19<21><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot20<22><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot20<22><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot21<23><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot21<23><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot22<24><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot22<24><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot23<25><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot23<25><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot24<26><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot24<26><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot25<27><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot25<27><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot26<28><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot26<28><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot27<29><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot27<29><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot28<30><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot28<30><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot29<31><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot29<31><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot30<32><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot30<32><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot31<33><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot31<33><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot32<34><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot32<34><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot33<35><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot33<35><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot34<36><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot34<36><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot35<37><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot35<37><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot36<38><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot36<38><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot37<39><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot37<39><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot38<40><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot38<40><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot39<41><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot39<41><BOT><>" entered the game
+L 07/12/2020 - 21:35:26: "Bot40<42><BOT><>" connected, address "none"
+L 07/12/2020 - 21:35:26: "Bot40<42><BOT><>" entered the game
+L 07/12/2020 - 21:41:59: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80
+   2. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:291
+    3. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:62
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/12/2020 - 21:41:59: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_biometric.lua:80
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:182
+
+
+L 07/12/2020 - 21:42:00: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94
+   2. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:291
+    3. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:62
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/12/2020 - 21:42:00: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_button.lua:94
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:182
+
+
+L 07/12/2020 - 21:42:01: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58
+   2. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:291
+    3. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:62
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/12/2020 - 21:42:01: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58: attempt to index field 'fadingdoor' (a nil value)
+  1. Holster - gamemodes/darkrp/entities/weapons/gmod_tool/stools/pad_toll.lua:58
+   2. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:182
+
+
+L 07/12/2020 - 21:42:06: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:42: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. VapeUpdate - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:42
+    3. unknown - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:104
+
+
+L 07/12/2020 - 21:42:06: Lua Error: 
+[dash_3] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. ReleaseVape - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66
+    3. v - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:56
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 21:42:07: Lua Error: 
+[dash_3] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. ReleaseVape - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66
+    3. v - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:56
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 21:42:10: Lua Error: 
+[dash_3] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. ReleaseVape - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66
+    3. v - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:56
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 21:44:42: Lua Error: 
+[dash_3] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. ReleaseVape - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66
+    3. v - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:56
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 21:44:42: Lua Error: 
+[dash_3] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. ReleaseVape - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66
+    3. v - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:56
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 21:44:44: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. ReleaseVape - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:66
+    3. unknown - gamemodes/darkrp/entities/weapons/weapon_vape/shared.lua:119
+
+
+L 07/12/2020 - 21:44:45: "Bot40<42><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot39<41><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot38<40><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot37<39><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot36<38><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot35<37><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot34<36><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot33<35><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot32<34><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot31<33><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot30<32><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot29<31><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot28<30><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot27<29><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot26<28><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot25<27><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot24<26><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot23<25><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot22<24><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot21<23><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot20<22><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot19<21><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot18<20><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot17<19><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot16<18><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot15<17><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot14<16><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot13<15><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot12<14><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot11<13><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot10<12><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot09<11><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot08<10><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot07<9><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot06<8><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot05<7><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot04<6><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot03<5><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot02<4><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "Bot01<3><BOT><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 21:44:45: server_message: "quit"
+L 07/12/2020 - 21:44:45: Log file closed.

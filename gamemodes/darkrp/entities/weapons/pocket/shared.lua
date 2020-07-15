@@ -1,4 +1,4 @@
-SWEP.PrintName 					= 'Pocket'
+SWEP.PrintName 					= 'Карман'
 SWEP.Slot 						= 1
 SWEP.SlotPos 					= 1
 SWEP.DrawAmmo 					= false

@@ -109527,3 +109527,876 @@ DidVaitel|2|STEAM_0:1:74202541
 
 
 
+DidVaitel|2|STEAM_0:1:74202541
+
+[dash_3] addons/dash_3/lua/dash/extensions/net.lua:132: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. Ping - addons/dash_3/lua/dash/extensions/net.lua:132
+    3. callback - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1684
+     4. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+      5. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+       6. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+        7. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[dash_3] addons/dash_3/lua/dash/extensions/net.lua:132: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. Ping - addons/dash_3/lua/dash/extensions/net.lua:132
+    3. callback - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1684
+     4. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+      5. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+       6. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+        7. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ui/util.lua:60: attempt to index local 'v' (a nil value)
+  1. Create - addons/badmin_2/lua/ui/util.lua:60
+   2. f - addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:118
+    3. Create - addons/badmin_2/lua/ui/util.lua:64
+     4. DoClick - addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:113
+      5. DoClick - addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:20
+       6. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:14: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. DoClick - addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:14
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:14: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. DoClick - addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:14
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177: bad argument #1 to 'ipairs' (table expected, got nil)
+  1. ipairs - [C]:-1
+   2. OnSelect - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177
+    3. ChooseOption - lua/vgui/dcombobox.lua:95
+     4. cback - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:206
+      5. DoClick - addons/badmin_2/lua/ui/util.lua:118
+       6. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177: bad argument #1 to 'ipairs' (table expected, got nil)
+  1. ipairs - [C]:-1
+   2. OnSelect - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177
+    3. ChooseOption - lua/vgui/dcombobox.lua:95
+     4. Init - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:236
+      5. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+       6. callback - addons/badmin_2/lua/ui/util.lua:59
+        7. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+         8. SetActiveTab - addons/badmin_2/lua/ui/controls/tablist.lua:30
+          9. ToggleF4Menu - gamemodes/darkrp/gamemode/core/ui/vgui/f4/init_cl.lua:66
+           10. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/init_cl.lua:103
+            11. unknown - gamemodes/darkrp/gamemode/core/core_cl.lua:70
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[badmin_2] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177: bad argument #1 to 'ipairs' (table expected, got nil)
+  1. ipairs - [C]:-1
+   2. OnSelect - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177
+    3. ChooseOption - lua/vgui/dcombobox.lua:95
+     4. Init - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:236
+      5. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+       6. callback - addons/badmin_2/lua/ui/util.lua:59
+        7. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+         8. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+          9. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+           10. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|6|STEAM_0:0:105635721
+
+[badmin_2] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177: bad argument #1 to 'ipairs' (table expected, got nil)
+  1. ipairs - [C]:-1
+   2. OnSelect - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177
+    3. ChooseOption - lua/vgui/dcombobox.lua:95
+     4. Init - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:236
+      5. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+       6. callback - addons/badmin_2/lua/ui/util.lua:59
+        7. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+         8. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+          9. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+           10. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|6|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|6|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|6|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|6|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[badmin_2] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177: bad argument #1 to 'ipairs' (table expected, got nil)
+  1. ipairs - [C]:-1
+   2. OnSelect - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:177
+    3. ChooseOption - lua/vgui/dcombobox.lua:95
+     4. Init - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:236
+      5. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+       6. callback - addons/badmin_2/lua/ui/util.lua:59
+        7. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+         8. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+          9. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+           10. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262: attempt to index field 'AddBinding' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/ui/vgui/f4/settings_cl.lua:262
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:732
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1150
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731: attempt to index local 'info' (a nil value)
+  1. DrawArrested - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:731
+   2. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1149
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25: attempt to call method 'Name' (a nil value)
+  1. InitInspect - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25
+   2. EnableMenu - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:41
+    3. Inspect - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:70
+     4. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:98
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] enternal:266: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. DoClick - enternal:266
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] enternal:263: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. DoClick - enternal:263
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] RunString:1: unexpected symbol near '<'
+  1. unknown - lua/includes/modules/http.lua:29
+
+
+
+COMPLΞX|4|STEAM_0:0:105635721
+
+[ERROR] enternal:266: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. DoClick - enternal:266
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|4|STEAM_0:0:105635721
+
+[ERROR] enternal:263: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. DoClick - enternal:263
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|4|STEAM_0:0:105635721
+
+[ERROR] RunString:1: unexpected symbol near '<'
+  1. unknown - lua/includes/modules/http.lua:29
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] enternal:266: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. DoClick - enternal:266
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] enternal:263: bad argument #1 to 'RunString' (string expected, got no value)
+  1. RunString - [C]:-1
+   2. DoClick - enternal:263
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] RunString:1: unexpected symbol near '<'
+  1. unknown - lua/includes/modules/http.lua:29
+
+
+
+COMPLΞX|6|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25: attempt to call method 'Name' (a nil value)
+  1. InitInspect - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25
+   2. EnableMenu - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:41
+    3. Inspect - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:70
+     4. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:98
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25: attempt to call method 'Name' (a nil value)
+  1. InitInspect - gamemodes/darkrp/entities/weapons/pocket/pocket_vgui.lua:25
+   2. EnableMenu - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:41
+    3. Inspect - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:70
+     4. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:98
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] RunString:4: '=' expected near 'print'
+  1. DoClick - enternal:260
+   2. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cl_init.lua:339: 'end' expected (to close 'function' at line 37) near '<eof>'
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+Couldn't Load Init Script: 'darkrp/gamemode/cl_init.lua'
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ui/controls/avatarbutton.lua:2: attempt to concatenate a nil value
+  1. ShowProfile - addons/badmin_2/lua/ui/controls/avatarbutton.lua:2
+   2. DoClick - addons/badmin_2/lua/ui/controls/avatarbutton.lua:40
+    3. DoClick - addons/badmin_2/lua/ui/controls/avatarbutton.lua:13
+     4. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/entities/entities/media_base/cl_init.lua:11: unfinished string near ''Отключать звук проигрывателей при alt-tab)'
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+Refusing to load media_base because it is missing Type and Base keys!
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/entities/entities/media_base/cl_init.lua:11: unfinished string near ''Отключать звук проигрывателей при alt-tab)'
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+Refusing to load media_base because it is missing Type and Base keys!
+
+

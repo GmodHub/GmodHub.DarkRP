@@ -1,5 +1,0 @@
-Thu Jun  6 17:20:25 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Jun  6 17:20:25 2019	DidVaitel (STEAM_0:1:74202541) spawned
-Thu Jun  6 17:20:36 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT itemstore_shop
-Thu Jun  6 17:20:37 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT itemstore_npc_shop
-Thu Jun  6 17:21:48 2019	DidVaitel (STEAM_0:1:74202541) disconnected
