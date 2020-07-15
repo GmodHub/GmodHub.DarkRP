@@ -28,14 +28,22 @@ function ENT:PayOut(ply, amount)
 	self:SetIsPayingOut(true)
 	
 	if(amount > 0) then
+		net.Start('rp.gambling.Loss')
+			net.WriteUInt(amount, 32)
+		net.Send(self.ItemOwner)
 		self.ItemOwner:AddMoney(-amount)
 		timer.Simple(1.5, function()
+			if(not self.ItemOwner) then return end
 			ply:AddMoney(amount)
 			self:SetIsPayingOut(false)
 		end)
 	else
+		net.Start('rp.gambling.Profit')
+			net.WriteUInt(-amount, 32)
+		net.Send(self.ItemOwner)
 		ply:AddMoney(amount)
 		timer.Simple(1.5, function()
+			if(not self.ItemOwner) then return end
 			self.ItemOwner:AddMoney(-amount)
 			self:SetIsPayingOut(false)
 		end)
@@ -49,8 +57,4 @@ function ENT:OnTakeDamage(dmg)
 		self:Explode()
 		self:Remove()
 	end
-end
-
-for k, v in pairs(ents.FindByClass("gambling_machine_*")) do
-	v:Remove()
 end

@@ -6,7 +6,8 @@ ENT.AdminSpawnable	= false
 function ENT:SetupDataTables()
 	self.BaseClass.SetupDataTables(self)
 
-	self:NetworkVar('String', 0, 'Org')
+	self:NetworkVar("String", 0, "Org")
+	self:NetworkVar("Float", 0, "HoldLength")
 end
 
 function ENT:CanHack(hacker)

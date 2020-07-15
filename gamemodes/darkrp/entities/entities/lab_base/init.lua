@@ -47,9 +47,9 @@ end
 
 
 function ENT:Crafting(class, name)
-	local time = math.random(1, 2)
+	local time = math.random(15, 60)
 	self:SetCraftTime(CurTime() + time)
-	self:SetCraftNam(name)
+	--self:SetCraftName(name)
 
 	timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
 		if IsValid(self) then
@@ -68,7 +68,8 @@ end
 net.Receive('rp.ItemLabCraft', function(len, pl)
 	local ent = net.ReadEntity()
 	local class = net.ReadUInt(8)
-	PrintTable(ent:GetCraftables()[class])
+	print(class)
+	PrintTable(ent:GetCraftables())
 
 	if ent:GetMetal() <= 0 then return end
 	ent:SetMetal(ent:GetMetal()-1)

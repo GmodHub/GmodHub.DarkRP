@@ -1,14 +1,21 @@
+if (SERVER) then
+	CreateConVar('sbox_maxkeypads', 10)
+end
+
 TOOL.Category = "Adv Fading Doors"
 TOOL.Name = "Keypad"
 TOOL.Command = nil
 
-TOOL.ClientConVar['faceid'] = '1'
-TOOL.ClientConVar['password'] = ''
+TOOL.ClientConVar['weld'] = '1'
+TOOL.ClientConVar['freeze'] = '1'
+
+TOOL.ClientConVar['password'] = '1234'
+TOOL.ClientConVar['secure'] = '0'
 
 TOOL.ClientConVar['repeats_granted'] = '0'
 TOOL.ClientConVar['repeats_denied'] = '0'
 
-TOOL.ClientConVar['length_granted'] = '4'
+TOOL.ClientConVar['length_granted'] = '0.1'
 TOOL.ClientConVar['length_denied'] = '0.1'
 
 TOOL.ClientConVar['delay_granted'] = '0'
@@ -22,16 +29,11 @@ TOOL.ClientConVar['key_denied'] = '0'
 
 cleanup.Register("keypads")
 
-TOOL.Information = {
-	{ name = "left" },
-	{ name = "right" }
-}
-
-if(CLIENT) then
+if CLIENT then
 	language.Add("tool.keypad.name", "Keypad")
-	language.Add("tool.keypad.desc", "Creates a keypad to be used with fading door tool")
-	language.Add("tool.keypad.left", "Create a keypad")
-	language.Add("tool.keypad.right", "Update an existing keypad")
+	language.Add("tool.keypad.0", "Left Click: Create, Right Click: Update")
+	language.Add("tool.keypad.desc", "Creates Keypads for secure access")
+
 	language.Add("Undone_Keypad", "Undone Keypad")
 	language.Add("Cleanup_keypads", "Keypads")
 	language.Add("Cleaned_keypads", "Cleaned up all Keypads")
@@ -41,81 +43,95 @@ end
 
 function TOOL:SetupKeypad(ent, pass)
 	local data = {
-		Owner		= self:GetOwner(),
-		Password	= pass,
-		Granted		= {
-			Num				= self:GetClientNumber("key_granted"),
-			Hold			= math.Clamp(self:GetClientNumber("length_granted"), 4, 10),
-			Delay			= math.Clamp(self:GetClientNumber("init_delay_granted"), 0, 5),
-			Reps			= math.Clamp(self:GetClientNumber("repeats_granted"), 0, 4),
-			DelayBetween	= math.Clamp(self:GetClientNumber("delay_granted"), 4, 10),
-		},
-		Denied = {
-			Num				= self:GetClientNumber("key_denied"),
-			Hold			= math.Clamp(self:GetClientNumber("length_denied"), 4, 10),
-			Delay			= math.Clamp(self:GetClientNumber("init_delay_denied"), 0, 5),
-			Reps			= math.Clamp(self:GetClientNumber("repeats_denied"), 0, 4),
-			DelayBetween	= math.Clamp(self:GetClientNumber("delay_denied"), 4, 10),
-		}
+		Password = pass,
+
+		RepeatsGranted = self:GetClientNumber("repeats_granted"),
+		RepeatsDenied = self:GetClientNumber("repeats_denied"),
+
+		LengthGranted = self:GetClientNumber("length_granted"),
+		LengthDenied = self:GetClientNumber("length_denied"),
+
+		DelayGranted = self:GetClientNumber("delay_granted"),
+		DelayDenied = self:GetClientNumber("delay_denied"),
+
+		InitDelayGranted = self:GetClientNumber("init_delay_granted"),
+		InitDelayDenied = self:GetClientNumber("init_delay_denied"),
+
+		KeyGranted = self:GetClientNumber("key_granted"),
+		KeyDenied = self:GetClientNumber("key_denied"),
+
+		Secure = util.tobool(self:GetClientNumber("secure"))
 	}
 
-	ent:SetFaceIDEnabled(tobool(self:GetClientNumber("faceid")))
+	ent:SetKeypadOwner(self:GetOwner())
 	ent:SetData(data)
 end
 
 function TOOL:RightClick(tr)
-	if(IsValid(tr.Entity) and tr.Entity:GetClass() ~= "pad_containing_some_keys_for_fading_doors") then return false end
+	if not IsValid(tr.Entity) or tr.Entity:GetClass():lower() != "keypad" then return false end
 
-	if(CLIENT) then return true end
+	if CLIENT  then return true end
 
 	local ply = self:GetOwner()
-	local password = tostring(tonumber(ply:GetInfo("keypad_password")))
+	local password = tonumber(ply:GetInfo("keypad_password"))
 
 	local spawn_pos = tr.HitPos
 	local trace_ent = tr.Entity
 
-	if(password == nil or (#password > 4) or (string.find(password, "0"))) then
-		rp.Notify(ply, NOTIFY_ERROR, term.Get('InvalidPassword'))
+	if password == nil or (string.len(tostring(password)) > 4) or (string.find(tostring(password), "0")) then
+		ply:PrintMessage(3, "Invalid password!")
 		return false
 	end
-
-	if(trace_ent:GetClass() == "pad_containing_some_keys_for_fading_doors" and trace_ent.Data.Owner == ply) then
-		self:SetupKeypad(trace_ent, password) -- validated password
+	if trace_ent:GetKeypadOwner() == ply then
+		self:SetupKeypad(trace_ent, password)
 
 		return true
 	end
 end
 
 function TOOL:LeftClick(tr)
-	if(IsValid(tr.Entity) and tr.Entity:GetClass() == "player") then return false end
+	if IsValid(tr.Entity) and tr.Entity:GetClass():lower() == "player" then return false end
 
-	if(CLIENT) then return true end
+	if CLIENT then return true end
 
 	local ply = self:GetOwner()
-	local password = tostring(tonumber(ply:GetInfo("keypad_password")))
+	local password = self:GetClientNumber("password")
 
+	local spawn_pos = tr.HitPos + tr.HitNormal
 	local trace_ent = tr.Entity
 
-	if(password == nil or (#password > 4) or (string.find(password, "0"))) then
-		rp.Notify(ply, NOTIFY_ERROR, term.Get('InvalidPassword'))
+	if password == nil or (string.len(tostring(password)) > 4) or (string.find(tostring(password), "0")) then
+		ply:PrintMessage(3, "Invalid password!")
 		return false
 	end
 
-	if(not self:GetWeapon():CheckLimit("keypads")) then return false end
+	if not self:GetWeapon():CheckLimit("keypads") then return false end
 
-	local pl = self:GetOwner()
-	local ent = ents.Create("pad_containing_some_keys_for_fading_doors")
-	ent:SetPos(tr.HitPos)
+	local ent = ents.Create("keypad")
+	ent:SetPos(spawn_pos)
 	ent:SetAngles(tr.HitNormal:Angle())
 	ent:Spawn()
-	ent:SetAngles(tr.HitNormal:Angle())
-	ent:Activate()
-	ent:CPPISetOwner(pl)
 
-	self:SetupKeypad(ent, password) -- validated password
+	ent:SetPlayer(ply)
+
+	local freeze = util.tobool(self:GetClientNumber("freeze"))
+	local weld = util.tobool(self:GetClientNumber("weld"))
+
+	if freeze or weld then
+		local phys = ent:GetPhysicsObject() 
+
+		if IsValid(phys) then
+			phys:EnableMotion(false)
+		end
+	end
+
+	if weld then
+		local weld = constraint.Weld(ent, trace_ent, 0, 0, 0, true, false)
+	end
+
+	self:SetupKeypad(ent, password)
 
 	undo.Create("Keypad")
-		ent:Prepare(tr.Entity, tr.PhysicsBone)
 		undo.AddEntity(ent)
 		undo.SetPlayer(ply)
 	undo.Finish()
@@ -123,17 +139,15 @@ function TOOL:LeftClick(tr)
 	ply:AddCount("keypads", ent)
 	ply:AddCleanup("keypads", ent)
 
-	rp.Notify(ply, NOTIFY_HINT, term.Get('SboxSpawned'), ply:GetCount('keypads'), ply:GetLimit('keypads'), 'keypads')
-
 	return true
 end
 
 
-if(CLIENT) then
+if CLIENT then
 	local function ResetSettings(ply)
 		ply:ConCommand("keypad_repeats_granted 0")
 		ply:ConCommand("keypad_repeats_denied 0")
-		ply:ConCommand("keypad_length_granted 4")
+		ply:ConCommand("keypad_length_granted 0.1")
 		ply:ConCommand("keypad_length_denied 0.1")
 		ply:ConCommand("keypad_delay_granted 0")
 		ply:ConCommand("keypad_delay_denied 0")
@@ -144,37 +158,47 @@ if(CLIENT) then
 	concommand.Add("keypad_reset", ResetSettings)
 
 	function TOOL.BuildCPanel(CPanel)
-		local r, l = CPanel:TextEntry("4 Digit Password", "keypad_password")
+		local r, l = CPanel:TextEntry("Access Password", "keypad_password")
 		r:SetTall(22)
 
-		CPanel:ControlHelp("Allowed Digits: 1-9")
+		CPanel:ControlHelp("Max Length: 4\nAllowed Digits: 1-9")
 
-		CPanel:CheckBox("Enable FaceID", "keypad_faceid")
+		CPanel:CheckBox("Secure Mode", "keypad_secure")
+		CPanel:CheckBox("Weld", "keypad_weld")
+		CPanel:CheckBox("Freeze", "keypad_freeze")
 
 		local ctrl = vgui.Create("CtrlNumPad", CPanel)
 			ctrl:SetConVar1("keypad_key_granted")
-			ctrl:SetConVar2("keypad_key_denied")
-			ctrl:SetLabel1("Access Granted")
-			ctrl:SetLabel2("Access Denied")
+			ctrl:SetConVar2("Keypad_key_denied")
+			ctrl:SetLabel1("Access Granted Key")
+			ctrl:SetLabel2("Access Denied Key")
 		CPanel:AddPanel(ctrl)
 
-		CPanel:Button("Reset Settings", "keypad_reset")
+		local granted = vgui.Create("DForm")
+			granted:SetName("Access Granted Settings")
+
+			granted:NumSlider("Hold Length:", "keypad_length_granted", 0.1, 10, 2)
+			granted:NumSlider("Initial Delay:", "keypad_init_delay_granted", 0, 10, 2)
+			granted:NumSlider("Multiple Press Delay:", "keypad_delay_granted", 0, 10, 2)
+			granted:NumSlider("Additional Repeats:", "keypad_repeats_granted", 0, 5, 0)
+		CPanel:AddItem(granted)
+
+		local denied = vgui.Create("DForm")
+			denied:SetName("Access Denied Settings")
+
+				denied:NumSlider("Hold Length:", "keypad_length_denied", 0.1, 10, 2)
+				denied:NumSlider("Initial Delay:", "keypad_init_delay_denied", 0, 10, 2)
+				denied:NumSlider("Multiple Press Delay:", "keypad_delay_denied", 0, 10, 2)
+				denied:NumSlider("Additional Repeats:", "keypad_repeats_denied", 0, 5, 0)
+		CPanel:AddItem(denied)
+
+		CPanel:Button("Default Settings", "keypad_reset")
 
 		CPanel:Help("")
-		CPanel:Help("Settings when access granted")
 
-		CPanel:NumSlider("Hold Length", "keypad_length_granted", 4, 10)
-		CPanel:NumSlider("Initial Delay", "keypad_init_delay_granted", 0, 5)
-		CPanel:NumSlider("Multiple Press Delay", "keypad_delay_granted", 0, 4)
-		CPanel:NumSlider("Additional Repeats", "keypad_repeats_granted", 0, 4)
+		local faq = CPanel:Help("Information")
+			--faq:SetFont("GModWorldtip")
 
-
-		CPanel:Help("")
-		CPanel:Help("Settings when access denied")
-
-		CPanel:NumSlider("Hold Length", "keypad_length_denied", 4, 10)
-		CPanel:NumSlider("Initial Delay", "keypad_init_delay_denied", 0, 5)
-		CPanel:NumSlider("Multiple Press Delay", "keypad_delay_denied", 0, 4)
-		CPanel:NumSlider("Additional Repeats", "keypad_repeats_denied", 0, 4)
+		CPanel:Help("You can enter your password with your numpad when numlock is enabled!")
 	end
 end

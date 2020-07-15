@@ -4,6 +4,7 @@ ENT.Type			= 'anim'
 ENT.Base			= 'pad_base'
 ENT.Spawnable		= false
 ENT.AdminSpawnable	= false
+ENT.NetworkUse 		= true
 
 if SERVER then
 	function ENT:Initialize()
@@ -30,6 +31,7 @@ if SERVER then
 	end
 
 	function ENT:PlayerUse(pl)
+		print("Based")
 		if self:IsPropsFaded() then
 			self:UnFadeProps()
 		else

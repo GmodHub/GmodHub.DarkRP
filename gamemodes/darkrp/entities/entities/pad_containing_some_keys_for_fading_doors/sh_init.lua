@@ -2,10 +2,9 @@ ENT.Type			= "anim"
 ENT.Base			= "base_rp"
 
 ENT.PrintName		= "Keys On A Pad"
-ENT.Author			= "KingofBeast"
 
 ENT.Spawnable		= false
-ENT.AdminSpawnable	= false -- Spawned via STool
+ENT.AdminSpawnable	= false
 
 ENT.Status_None = 0
 ENT.Status_Granted = 1
