@@ -1,0 +1,314 @@
+L 07/11/2020 - 20:50:13: Log file started (file "logs\L0711008.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/11/2020 - 20:50:13: server_cvar: "sv_alltalk" "3"
+L 07/11/2020 - 20:50:13: server_cvar: "sv_airaccelerate" "100"
+L 07/11/2020 - 20:50:15: Connection to Steam servers successful.
+L 07/11/2020 - 20:50:15:    Public IP is 31.130.42.26.
+L 07/11/2020 - 20:50:15: Assigned anonymous gameserver Steam ID [A-1:1150631944(15133)].
+L 07/11/2020 - 20:50:15: VAC secure mode is activated.
+L 07/11/2020 - 21:08:32: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:08:33: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:08:43: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:17:21: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:17:21: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:17:21: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:17:31: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:17:31: Lua Error: lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got string)
+
+L 07/11/2020 - 21:17:31: Lua Error: 
+[dash_3] Warning! A net message (nw_Skills) is already started! Discarding in favor of the new message! (nw_UserGroup)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. cback - addons/badmin_2/lua/ba/core/data_sv.lua:87
+     4. handlequery - addons/dash_3/lua/dash/libraries/server/mysql.lua:136
+      5. unknown - addons/dash_3/lua/dash/libraries/server/mysql.lua:149
+       6. Poll - [C]:-1
+        7. v - addons/dash_3/lua/dash/libraries/server/mysql.lua:83
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/11/2020 - 21:17:36: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - gamemodes/darkrp/gamemode/core/vars_sh.lua:60
+     4. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+      5. _Write - addons/dash_3/lua/dash/libraries/nw.lua:183
+       6. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+        7. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+         8. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 21:17:36: Lua Error: 
+[dash_3] Warning! A net message (nw_Skills) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 21:19:10: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:19:10: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:19:11: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:19:20: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:19:50: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:19:50: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:19:51: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:20:00: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:27:57: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:27:58: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:27:58: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:28:08: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:28:47: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:28:47: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:28:48: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:28:58: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:29:38: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:29:38: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:29:39: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:29:48: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:31:43: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:31:43: "DidVaitel<9><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:31:44: "DidVaitel<9><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:31:53: "DidVaitel<9><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:32:56: "DidVaitel<9><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:32:57: "DidVaitel<10><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:32:57: "DidVaitel<10><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:33:06: "DidVaitel<10><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:34:25: "DidVaitel<10><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:34:25: "DidVaitel<11><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:34:26: "DidVaitel<11><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:34:35: "DidVaitel<11><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 21:40:16: "DidVaitel<11><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 21:59:39: "DidVaitel<12><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 21:59:40: "DidVaitel<12><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 21:59:49: "DidVaitel<12><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 22:02:55: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/modules/darkrp/commands_sh.lua:135: attempt to index field '_Cache' (a nil value)
+  1. Run - addons/badmin_2/lua/ba/modules/darkrp/commands_sh.lua:135
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:17:50: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/nw.lua:294: attempt to index a nil value
+  1. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+   2. saveSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:26
+    3. Set - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:52
+     4. Run - addons/badmin_2/lua/ba/plugins/motd.lua:18
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:18:05: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14: bad argument #1 to 'ipairs' (table expected, got string)
+  1. ipairs - [C]:-1
+   2. func - addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+        7. saveSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:26
+         8. Set - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:52
+          9. Run - addons/badmin_2/lua/ba/plugins/motd.lua:18
+           10. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+            11. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+             12. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:18:05: Lua Error: 
+[badmin_2] Warning! A net message (nw_ba.ServerVars) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/11/2020 - 22:19:32: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. saveSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:25
+      5. Set - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:52
+       6. Run - addons/badmin_2/lua/ba/plugins/motd.lua:18
+        7. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+         8. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+          9. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:19:46: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14: bad argument #1 to 'ipairs' (table expected, got string)
+  1. ipairs - [C]:-1
+   2. func - addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+        7. saveSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:26
+         8. Set - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:52
+          9. Run - addons/badmin_2/lua/ba/plugins/motd.lua:18
+           10. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+            11. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+             12. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:19:50: Lua Error: 
+[badmin_2] Warning! A net message (nw_ba.ServerVars) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/11/2020 - 22:23:50: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14: bad argument #1 to 'ipairs' (table expected, got string)
+  1. ipairs - [C]:-1
+   2. func - addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+        7. loadSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+         8. unknown - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:42
+
+
+L 07/11/2020 - 22:23:52: Lua Error: 
+[dash_3] Warning! A net message (nw_ba.ServerVars) is already started! Discarding in favor of the new message! (cmd.Run)
+
+  1. Run - addons/dash_3/lua/dash/libraries/cmd.lua:474
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:24:08: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14: bad argument #1 to 'ipairs' (table expected, got string)
+  1. ipairs - [C]:-1
+   2. func - addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+        7. loadSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+         8. unknown - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:42
+
+
+L 07/11/2020 - 22:24:08: Lua Error: 
+[badmin_2] Warning! A net message (nw_ba.ServerVars) is already started! Discarding in favor of the new message! (nw_ba.ServerVars)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+    3. loadSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+     4. unknown - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:42
+
+
+L 07/11/2020 - 22:24:08: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14: bad argument #1 to 'ipairs' (table expected, got string)
+  1. ipairs - [C]:-1
+   2. func - addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+        7. loadSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+         8. unknown - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:42
+
+
+L 07/11/2020 - 22:24:09: Lua Error: 
+[dash_3] Warning! A net message (nw_ba.ServerVars) is already started! Discarding in favor of the new message! (cmd.Run)
+
+  1. Run - addons/dash_3/lua/dash/libraries/cmd.lua:474
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+     4. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:24:29: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14: bad argument #1 to 'ipairs' (table expected, got string)
+  1. ipairs - [C]:-1
+   2. func - addons/badmin_2/lua/ba/core/util/svars/svars_sh.lua:14
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:193
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+        7. loadSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+         8. unknown - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:42
+
+
+L 07/11/2020 - 22:24:30: Lua Error: 
+[badmin_2] Warning! A net message (nw_ba.ServerVars) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/11/2020 - 22:24:55: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. saveSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:28
+      5. Set - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:57
+       6. Run - addons/badmin_2/lua/ba/plugins/motd.lua:18
+        7. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+         8. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+          9. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:25:47: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:10: attempt to call field 'Insert' (a nil value)
+  1. encodeSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:10
+   2. saveSvars - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:24
+    3. Set - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:54
+     4. Run - addons/badmin_2/lua/ba/plugins/motd.lua:18
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/11/2020 - 22:31:17: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" connected, address "212.66.63.39:27006"
+L 07/11/2020 - 22:31:17: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/11/2020 - 22:34:09: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" entered the game
+L 07/11/2020 - 22:35:19: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/nw.lua:294: attempt to index a nil value
+  1. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+   2. v - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+    3. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+     4. func - addons/dash_3/lua/dash/libraries/nw.lua:240
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 22:36:45: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 22:36:48: "eLeCtrOssSnake<14><STEAM_0:1:164666257><>" connected, address "212.66.63.39:27006"
+L 07/11/2020 - 22:36:48: "eLeCtrOssSnake<14><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/11/2020 - 22:37:05: "eLeCtrOssSnake<14><STEAM_0:1:164666257><>" entered the game
+L 07/11/2020 - 22:37:15: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/nw.lua:294: attempt to index a nil value
+  1. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+   2. v - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+    3. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+     4. func - addons/dash_3/lua/dash/libraries/nw.lua:240
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 22:38:05: "eLeCtrOssSnake<14><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 22:38:05: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/11/2020 - 22:38:07: "eLeCtrOssSnake<15><STEAM_0:1:164666257><>" connected, address "212.66.63.39:27006"
+L 07/11/2020 - 22:38:08: "eLeCtrOssSnake<15><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/11/2020 - 22:38:24: "eLeCtrOssSnake<15><STEAM_0:1:164666257><>" entered the game
+L 07/11/2020 - 22:38:34: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/nw.lua:294: attempt to index a nil value
+  1. SetGlobal - addons/dash_3/lua/dash/libraries/nw.lua:294
+   2. v - addons/badmin_2/lua/ba/core/util/svars/svars_sv.lua:40
+    3. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+     4. func - addons/dash_3/lua/dash/libraries/nw.lua:240
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 22:39:26: "eLeCtrOssSnake<15><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 07/11/2020 - 22:39:26: "DidVaitel<12><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/11/2020 - 22:39:26: server_message: "quit"
+L 07/11/2020 - 22:39:26: Log file closed.

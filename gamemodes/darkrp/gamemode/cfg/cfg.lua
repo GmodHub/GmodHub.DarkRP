@@ -80,12 +80,12 @@ rp.cfg.LockdownTime 	= 300
 rp.cfg.CampaignFee		= 2500
 
 rp.cfg.CreditSale 		= '' --' (25% OFF!)'
-rp.cfg.CreditsURL 		= 'https://superiorservers.co/darkrp/credits/'
+rp.cfg.CreditsURL 		= 'https://gmodhub.com/credits/'
 
 rp.cfg.DefaultLaws 		= [[
-Murder and assault is illegal.
-Breaking and entering is illegal.
-No money printing devices, black market items & unlicensed weapons.]]
+Убийства и грабёж запрещены.
+Взлом и проникновение запрещены.
+Денежные принтеры, нелегальные предметы и оружие без лицензии является нелегальным.]]
 
 rp.cfg.LockdownSounds = {
 --	'sound/ambient/alarms/alarm_citizen_loop1.wav',
@@ -135,12 +135,12 @@ rp.cfg.TextScreenPrettyFontNames = {
 if (CLIENT) then
 	rp.cfg.AnnouncementDelay = 300
 	rp.cfg.Announcements = {
-		{ui.col.Purple, 'Did you know we have other servers? Hold C to see/join them!'},
-		{ui.col.Gold, 'Please consider supporting SUP\'s continued development by purchasing some upgrades. Click Credit Shop in the F4 menu.'},
-		--{ui.col.Gold, 'Credits are currently 25% off for the holidays! Click Credit Shop in the F4 menu.'},
-		--{ui.col.Gold, 'Credits are currently 25% off for the first week of July! Click Credit Shop in the F4 menu.'},
-		{ui.col.Purple, 'Everyone is welcome on our TeamSpeak server! Connect to {TeamSpeakIP}!'},
-		--{ui.col.Purple, 'Join our Discord @ https://discord.gg/FdzJqUK'},
+		--{ui.col.Purple, 'Did you know we have other servers? Hold C to see/join them!'},
+		{ui.col.Gold, 'Пожалуйста поддержите разработку GmodHub\'a при помощи покупки доната. Для этого, кликните по вкладке Донат в F4 меню.'},
+		--{ui.col.Gold, 'Покупка кредитов сейчас со скидкой 25% в честь праздников! Кликните по вкладке Донат в F4 меню.'},
+		--{ui.col.Gold, 'Покупка кредитов сейчас со скидкой 25% в честь первой недели июля! Кликните по вкладке Донат в F4 меню.'},
+		{ui.col.Purple, 'Мы рады каждому новому игроку в нашей группе Вконтакте! https://vk.com/gmdhub'},
+		{ui.col.Purple, 'Вступайте в наш дискорд @ https://discord.gg/FdzJqUK'},
 		{ui.col.Gold, 'Communities our size are not cheap to run, support us by purchasing some upgrades. Click Credit Shop in the F4 menu.'},
 	}
 end
@@ -735,7 +735,6 @@ rp.cfg.Chairs = {
 		},*/
 	},
 }
-rp.cfg.Chairs['rp_sundown_rc5a'] = rp.cfg.Chairs['rp_danktown_rc5a']
 
 rp.cfg.Props = {
 	rp_c18_sup_b2 = {
@@ -768,7 +767,7 @@ rp.cfg.Props = {
 local hour = (60 * 60)
 
 rp.cfg.PlayTimeRanks = {
-	{'Newbie', 0},
+	{'Новичок', 0},
 	{'New Kid', (hour * 5)},
 	{'Getting There', (hour * 10)},
 	{'Learner', (hour * 15)},
@@ -846,28 +845,28 @@ rp.cfg.PlayTimeRanks = {
 	{'legal in the US', (hour * 18000)},
 	{'SUPreme', (hour * 19000)},
 	{'A P E X', (hour * 20000), ':eggplant:'},
-	{'Dumb', (hour * 25000), ':dumb:'},
+	{'Gmodder', (hour * 25000), ':dumb:'},
 }
 
 rp.cfg.DeathTypes = {}
 local function newType(name) local id = table.insert(rp.cfg.DeathTypes, name) rp.cfg.DeathTypes[name] = id return id end
 rp.cfg.DeathTypeStrings = {
-	[newType('Default')]		= 'You are dead',
-	[newType('Bounty')]			= 'You were killed for a bounty',
-	[newType('Falling')]		= 'You fell to your death',
-	[newType('Goomba')]			= 'You were freakin\' stomped!',
-	[newType('Murder')]			= 'You were murdered',
-	[newType('Hunger')]			= 'You starved to death',
-	[newType('Overdose')]		= 'You overdosed',
-	[newType('Prolapse')]		= 'You died from anal prolapse',
-	[newType('Dick')]			= 'Your dick fell off. Clumsy!',
-	[newType('STD')]			= 'You died from an STD',
-	[newType('Heroin')]			= 'Addiction is a disease',
-	[newType('Suicide')]		= 'You took the easy way out',
-	[newType('Burgatron')]		= 'You got eaten.. mmm, tasty!',
-	[newType('Bleach')]			= 'Tide pods are better',
-	[newType('Methhead')]		= 'Dirty meth heads got ya',
-	[newType('Zombie')]			= 'A victim to the undead..',
-	[newType('CopSuicide')]		= 'Suicide by cop.. Very Brave..',
-	[newType('AntlionGuard')]	= 'Crushed by the Antlion Guard. Ouch.'
+	[newType('Default')]		= 'Вы умерли',
+	[newType('Bounty')]			= 'Вы были убиты за деньги',
+	[newType('Falling')]		= 'В умерли от падения с большой высоты',
+	[newType('Goomba')]			= 'Вы были трусливо растоптаны!',
+	[newType('Murder')]			= 'Вы были убиты',
+	[newType('Hunger')]			= 'Вы умерли от голода',
+	[newType('Overdose')]		= 'Вы умерли от передозировки',
+	[newType('Prolapse')]		= 'Вы умерли от анального коллапса',
+	[newType('Dick')]			= 'Ваш дружок не выдержал нагрузки. Как неловко-то!',
+	[newType('STD')]			= 'Вы умерли от СПИД',
+	[newType('Heroin')]			= 'Зависимость это болезнь',
+	[newType('Suicide')]		= 'Вы выбрали самый лёгкий метод',
+	[newType('Burgatron')]		= 'Вас съели.. ммм, вкуснятина!',
+	[newType('Bleach')]			= 'Капсулы Tide подошли бы лучше для этого',
+	[newType('Methhead')]		= 'Грязный наркоман был пойман',
+	[newType('Zombie')]			= 'Вы пали жертвой нежити..',
+	[newType('CopSuicide')]		= 'Суицид за полицейского.. Очень храбро..',
+	[newType('AntlionGuard')]	= 'Растоптан муравьиным львом. Оу.'
 }

@@ -1,5 +1,3 @@
-util.AddNetworkString('ba.svars')
-
 ba.svar 		= ba.svar 			or {}
 ba.svar.stored 	= ba.svar.stored 	or {}
 ba.svar.encoded = ba.svar.encoded 	or '{}'
@@ -9,10 +7,10 @@ local function encodeSvars()
 	local tbl = {}
 	for k, v in pairs(ba.svar.stored) do
 		if v.network then
-			tbl[k] = v.value
+			table.insert(tbl, { Name = k, Value = v.value })
 		end
 	end
-	ba.svar.encoded = pon.encode(tbl)
+	ba.svar.encoded = tbl
 end
 hook.Add('bAdmin_Loaded', 'bAdmin_Loaded.svars', encodeSvars)
 
@@ -24,10 +22,7 @@ local function saveSvars()
 	end
 
 	encodeSvars()
-
-	net.Start('ba.svars')
-		net.WriteString(ba.svar.encoded)
-	net.Broadcast()
+	nw.SetGlobal('ba.ServerVars', ba.svar.encoded)
 end
 
 local function loadSvars()
@@ -37,14 +32,11 @@ local function loadSvars()
 		ba.svar.stored[v.var] 		= ba.svar.stored[v.var] or {}
 		ba.svar.stored[v.var].value = v.data
 	end
+
+	encodeSvars()
+	nw.SetGlobal('ba.ServerVars', ba.svar.encoded)
 end
 loadSvars()
-
-hook.Add('PlayerEntityCreated', 'svars.PlayerEntityCreated', function(pl)
-	net.Start('ba.svars')
-		net.WriteString(ba.svar.encoded)
-	net.Send(pl)
-end)
 
 function ba.svar.Create(name, default, network, callback)
 	ba.svar.stored[name]			= ba.svar.stored[name]		 	or {}

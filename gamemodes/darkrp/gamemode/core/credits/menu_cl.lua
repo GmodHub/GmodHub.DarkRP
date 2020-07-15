@@ -264,7 +264,7 @@ function PANEL:Init()
 
 	self.Name = ui.Create('DButton', self)
 	self.Name:SetDisabled(true)
-	self.Name:SetText('← Select an item')
+	self.Name:SetText('← Выберите предмет')
 
 	self.Price = ui.Create('DLabel', self)
 	self.Price:SetTextColor(ui.col.DarkGreen)
@@ -275,11 +275,11 @@ function PANEL:Init()
 
 	self.Info = ui.Create('DPanel', self)
 	self.Info.Paint = function(s, w, h)
-		draw.SimpleText('Welcome to the SUP DarkRP Credit Shop!', 'ui.22', w * 0.5, 10, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+		draw.SimpleText('Добро пожаловать в GmodHub Donate!', 'ui.22', w * 0.5, 10, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 
-		draw.SimpleText('Select an item to view more info.', 'ui.22', w * 0.5, 30, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+		draw.SimpleText('Выберите предмет для просмотра подробной информации о нём.', 'ui.22', w * 0.5, 30, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 
-		draw.SimpleText('All contributions are greatly appreciated!', 'ui.22', w * 0.5, 50, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+		draw.SimpleText('Ваши пожертвования очень значимы для нас!', 'ui.22', w * 0.5, 50, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 	end
 
 	-- TODO: Make earn rewards work
@@ -290,19 +290,19 @@ function PANEL:Init()
 	self.Container.Paint = function() end
 
 	self.Purchase = ui.Create('DButton', self)
-	self.Purchase:SetText('Purchase')
+	self.Purchase:SetText('Приобрести')
 	self.Purchase:Hide()
 	self.Purchase.BackgroundColor = ui.col.DarkGreen
 	self.Purchase.OutlineColor = ui.col.OffWhite
 	self.Purchase.Think = function(s)
 		if s.Confirmed and (s.ResetConfirm <= CurTime()) then
 			s.Confirmed = nil
-			s:SetText('Purchase')
+			s:SetText('Приобрести')
 		end
 	end
 	self.Purchase.DoClick = function(s)
 		if (not LocalPlayer():CanAffordCredits(self.Upgrade.Price)) then
-			ui.BoolRequest('Cannot afford', 'You need more credits to buy this. Would you like to buy credits?', function(ans)
+			ui.BoolRequest('Недостаточно Средств', 'Вам необходимо больше кредитов для приобретения этого. Желаете пополнить баланс?', function(ans)
 				if (ans == true) then
 					gui.OpenURL(rp.cfg.CreditsURL .. LocalPlayer():SteamID() .. '/' .. self.Upgrade.Price)
 				end
@@ -312,14 +312,14 @@ function PANEL:Init()
 
 		if (not s.Confirmed) then
 			s.ResetConfirm = CurTime() + 3
-			s:SetText('Click again to confirm')
+			s:SetText('Нажмите ещё раз для подтверждения')
 
 			s.Confirmed = true
 			return
 		end
 
 		s.Confirmed = nil
-		s:SetText('Processing...')
+		s:SetText('Обработка...')
 		s:SetDisabled(true)
 		rp.ToggleF4Menu()
 
@@ -378,7 +378,7 @@ function PANEL:AddControls(f4)
 		self.BuyCredits:Show()
 	elseif IsValid(f4) then
 		self.BuyCredits = ui.Create('DButton', f4)
-		self.BuyCredits:SetText('Purchase Credits' .. rp.cfg.CreditSale)
+		self.BuyCredits:SetText('Пополнить баланс' .. rp.cfg.CreditSale)
 		self.BuyCredits.BackgroundColor = ui.col.DarkGreen
 		self.BuyCredits:SizeToContents()
 		self.BuyCredits:SetSize(self.BuyCredits:GetWide() + 10, f4.btnClose:GetTall())
@@ -394,7 +394,7 @@ function PANEL:AddControls(f4)
 		self.CreditsBalance = ui.Create('DButton', f4)
 		self.CreditsBalance:SetDisabled(true)
 		self.CreditsBalance.TextColor = rp.col.Yellow
-		self.CreditsBalance:SetText(string.Comma(LocalPlayer():GetCredits()) .. ' Credits')
+		self.CreditsBalance:SetText(string.Comma(LocalPlayer():GetCredits()) .. ' Cr')
 		self.CreditsBalance:SizeToContents()
 		self.CreditsBalance:SetSize(self.CreditsBalance:GetWide() + 10, f4.btnClose:GetTall())
 		self.CreditsBalance:SetPos(self.BuyCredits.x - self.CreditsBalance:GetWide() + 1, 0)
@@ -491,7 +491,7 @@ function PANEL:DoClick(itemPnl, upgrade)
 		self.Error:SizeToContents()
 		self.Error:SetPos((self:GetWide() * 0.75) - (self.Error:GetWide() * 0.5), 60)
 
-		if (not itemPnl.CanBuyReason:StartWith('You cannot afford')) then
+		if (not itemPnl.CanBuyReason:StartWith('Вы не можете себе это позволить')) then
 			self.Purchase:SetDisabled(true)
 		end
 	else
@@ -500,7 +500,7 @@ function PANEL:DoClick(itemPnl, upgrade)
 
 	self.Name:SetText(upgrade:GetName())
 
-	self.Price:SetText(string.Comma(itemPnl.Price) .. ' Credits')
+	self.Price:SetText(string.Comma(itemPnl.Price) .. ' Cr')
 	self.Price:SizeToContents()
 	self.Price:SetPos((self:GetWide() * 0.75) - (self.Price:GetWide() * 0.5), 40)
 
@@ -571,10 +571,10 @@ function PANEL:Paint(w, h)
 	-- TODO: support already purchased/errors here
 
 	draw.Box(1, 1, w - 2, 20, color_bar)
-	draw.SimpleText(self.Upgrade:GetName():MaxCharacters(20, true), 'ui.17', w * 0.5, 11, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER) -- TODO: Better solution for long names
+	draw.SimpleText(self.Upgrade:GetName():MaxCharacters(19, true), 'ui.17', w * 0.5, 11, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER) -- TODO: Better solution for long names
 
 	draw.Box(1, h - 21, w - 2, 20, color_bar)
-	draw.SimpleText(string.Comma(self.Price) .. ' Credits', 'ui.17', w * 0.5, h - 11, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+	draw.SimpleText(string.Comma(self.Price) .. ' Cr', 'ui.17', w * 0.5, h - 11, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 
 	if (fr.Selected == self) then
 		draw.Outline(1, 1, w - 2, h - 2, ui.col.White)

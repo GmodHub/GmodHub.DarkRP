@@ -55,33 +55,34 @@ surface.CreateFont('ba.LoadIn', {
 	font = 'Michroma',
 	size = 30,
 	weight = 600,
-	antialias = true
+	antialias = true,
+	extended = true
 })
 
 cvar.Register('ba_has_read_motd')
 	:SetDefault(false, true)
 
 local messages = {
-	'Loading...',
-	'Loading User Data',
-	'Networking Initalized',
-	'Receiving Data Pack',
-	'Validating Data',
-	'Done'
+	'Загрузка...',
+	'Загрузка Информации Об Игроке',
+	'Инициализация Сети',
+	'Получение Информации',
+	'Проверка Пакетов',
+	'Готово'
 }
 
 local PANEL = {}
 function PANEL:Init()
 	texture.Create('SUP_Background')
 		:EnableProxy(false)
-		:Download('https://superiorservers.co/static/images/background.jpg', function(s, material)
+		:Download('https://gmodhub.com/static/images/bggmod.png', function(s, material)
 			if IsValid(self) then
 				self.BackgroundMaterial = material
 			end
 		end)
 	texture.Create('SUP_Background')
 		:EnableProxy(false)
-		:Download('https://superiorservers.co/static/images/textless_logo.png', function(s, material)
+		:Download('https://gmodhub.com/static/images/favicon.png', function(s, material)
 			if IsValid(self) then
 				self.LogoMaterial = material
 			end
@@ -108,8 +109,8 @@ function PANEL:Init()
 				self:AddButtons()
 
 				self.Text = {
-					'Welcome to Superior Servers!',
-					'Enjoy your stay.'
+					'Добро пожаловать на GmodHub!',
+					'Приятной игры.'
 				}
 
 				local alert = hook.Call('ba.GetLoadInAlerts')
@@ -135,7 +136,7 @@ function PANEL:AddButtons()
 	self:Center()
 
 	self.RulesButton = ui.Create('DButton', self)
-	self.RulesButton:SetText('Rules')
+	self.RulesButton:SetText('Правила')
 	self.RulesButton.fontset = true
 	self.RulesButton:SetFont('ui.24')
 	self.RulesButton.DoClick = function()
@@ -143,7 +144,7 @@ function PANEL:AddButtons()
 	end
 
 	self.CreditsButton = ui.Create('DButton', self)
-	self.CreditsButton:SetText('Credit Shop')
+	self.CreditsButton:SetText('Донат')
 	self.CreditsButton.fontset = true
 	self.CreditsButton:SetFont('ui.24')
 	self.CreditsButton.DoClick = function()
@@ -151,7 +152,7 @@ function PANEL:AddButtons()
 	end
 
 	self.CloseButton = ui.Create('DButton', self)
-	self.CloseButton:SetText('Close')
+	self.CloseButton:SetText('Закрыть')
 	self.CloseButton.fontset = true
 	self.CloseButton:SetFont('ui.24')
 	self.CloseButton.DoClick = function()
@@ -165,12 +166,12 @@ function PANEL:AddButtons()
 	end
 
 	self.UpdateHeader = ui.Create('DButton', self)
-	self.UpdateHeader:SetText('Recent Updates')
+	self.UpdateHeader:SetText('Последние Обновления')
 	self.UpdateHeader:SetDisabled(true)
 
 	self.UpdateButtons = {}
 
-	http.Fetch('https://gmod-api.superiorservers.co/api/changelogs', function(body)
+	http.Fetch('https://gmodhub.com/api/changelogs', function(body)
 		local dat = util.JSONToTable(body)
 		if dat then
 			for k, v in ipairs(dat) do
@@ -182,7 +183,7 @@ function PANEL:AddButtons()
 					end
 					if ((os.time() - v.Start) < 259200) then
 						s.TextColor = ui.col.Gold
-						s:SetText('[NEW] ' .. v.Title)
+						s:SetText('[НОВОЕ] ' .. v.Title)
 					end
 				end, self)
 			end
@@ -232,11 +233,11 @@ function PANEL:Paint(w, h)
 	end
 
 	local s = ((ScrH() < 850) and self.IsLoaded) and 128 or 256
-	local spiny = self.IsLoaded and 15 or h * 0.25
+	local spiny = self.IsLoaded and h * 0.25 or h * 0.26
 
-	surface.SetDrawColor(255, 255, 255)
-	surface.SetMaterial((self.IsLoaded and self.LogoMaterial) and self.LogoMaterial or mat_loading)
-	surface.DrawTexturedRect(w * 0.5 - (s * 0.5), spiny, s, s)
+	//surface.SetDrawColor(255, 255, 255)
+	//surface.SetMaterial((self.IsLoaded and self.LogoMaterial) and self.LogoMaterial or mat_loading)
+	//surface.DrawTexturedRect(w * 0.5 - (s * 0.5), spiny, s, s)
 
 	local x, y = w * 0.5, s + spiny
 	for k, v in ipairs(self.Text) do
@@ -275,12 +276,13 @@ function ba.OpenMoTD()
 
 	local motd_url = ba.svar.Get('motd')
 	local faq_url = ba.svar.Get('faq')
+
 	if (not motd_url) or (motd_url == '') then return end
 
 	local w, h = ScrW() * .9, ScrH() * .9
 
 	local fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Welcome!')
+		self:SetTitle('Добро Пожаловать!')
 		self:SetSize(w, h)
 		self:MakePopup()
 		self:Center()
@@ -306,7 +308,7 @@ function ba.OpenMoTD()
 		end
 	end
 
-	tabList:AddTab('Rules', function(self)
+	tabList:AddTab('Правила', function(self)
 		local tab = ui.Create('ui_panel')
 		tab.Think = tabthink
 		tab.URL = motd_url
@@ -321,24 +323,24 @@ function ba.OpenMoTD()
 		tabList:AddTab('FAQ', tab, true)
 	end*/
 
-	tabList:AddButton('Forums', function()
+	tabList:AddButton('Сайт', function()
 		fr:Close()
 		gui.OpenURL('https://steamcommunity.com/openid/login?openid.ns=http://specs.openid.net/auth/2.0&openid.mode=checkid_setup&openid.return_to=https://forum.superiorservers.co/applications/core/interface/steam/auth.php&openid.realm=https://forum.superiorservers.co&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.assoc_handle=front')
 	end)
 
 	tabList:AddButton('Steam', function()
 		fr:Close()
-		gui.OpenURL('https://steamcommunity.com/groups/SuperiorServers')
+		gui.OpenURL('https://steamcommunity.com/groups/gmodhub')
 	end)
 
 	if rp or swrp then
-		tabList:AddButton('Credit Shop', function()
+		tabList:AddButton('Донат', function()
 			fr:Close()
 			cmd.Run('upgrades')
 		end)
 	end
 
-	tabList:AddButton('Close', function()
+	tabList:AddButton('Закрыть', function()
 		fr:Close()
 	end)
 end

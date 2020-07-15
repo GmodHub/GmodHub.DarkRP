@@ -1,3 +1,4 @@
+
 if ( !engine.IsPlayingDemo() ) then return end
 
 local VideoSettings = engine.VideoSettings()
@@ -118,4 +119,3 @@ hook.Add( "RenderScene", "RenderForDemo", function ( ViewOrigin, ViewAngles, Vie
 	return true
 
 end )
-

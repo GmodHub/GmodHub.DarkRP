@@ -10,9 +10,9 @@
 	end)*/
 
 
-rp.shop.Add('+2 Pocket Space', 'pocket_space_2')
+rp.shop.Add('Большая Сумка', 'pocket_space_2')
 	:SetCat('General')
-	:SetDesc('Increases your total pocket space by 2.\n This upgrade is stackable.')
+	:SetDesc('Увеличивает ваше итоговое место в инвентаре на 2.\n Можно докупать.')
 	:SetImage('004-clothing.png')
 	:SetPrice(300)
 	:SetNetworked(true)
@@ -24,9 +24,9 @@ rp.shop.Add('+2 Pocket Space', 'pocket_space_2')
 		return self.Price + cost
 	end)
 
-rp.shop.Add('Perma Ammo', 'perma_ammo')
+rp.shop.Add('Сумка с патронами', 'perma_ammo')
 	:SetCat('General')
-	:SetDesc('You will forever spawn with 120 of each ammo type')
+	:SetDesc('При каждом возрождении вам выдаётся дополнительные 2 пачки патронов каждого вида.\nМожно докупать.')
 	:SetImage('bullets.png')
 	:SetPrice(500)
 	:SetStackable(false)
@@ -40,16 +40,16 @@ rp.shop.Add('Perma Ammo', 'perma_ammo')
 		pl:GiveAmmos(120, true)
 	end)
 
-rp.shop.Add('Premium Org', 'org_prem')
+rp.shop.Add('Премиум Банда', 'org_prem')
 	:SetCat('General')
 	:SetDesc([[
-		This will upgrade the Org that you're in
-		EVEN IF YOU ARE NOT THE OWNER!
+		Это улучшит банду в которой вы состоите
+		ДАЖЕ ЕСЛИ ВЫ НЕ ВЛАДЕЛЕЦ!
 
-		- Allows access to Org banners
-		- Raises max members from 50 to 100
-		- Raises max ranks from 5 to 20
-		- Allows unlimited bank size
+		- Доступ к лого банды
+		- Повышает максимум участников с 50 до 100
+		- Повышает максимум рангов с 5 до 20
+		- Неограниченный размер банка банды
 	]])
 	:SetImage('org_banner.png')
 	:SetPrice(750)
@@ -57,7 +57,7 @@ rp.shop.Add('Premium Org', 'org_prem')
 	:SetCanBuy(function(self, pl)
 		local org = pl:GetOrgInstance()
 		if (!org or org:IsUpgraded()) then
-			return false, (org and (org.Name .. " is already upgraded.") or "You're not in an org!")
+			return false, (org and (org.Name .. " уже улучшена.") or "Вы не состоите в банде!")
 		end
 		return true
 	end)
@@ -75,9 +75,9 @@ rp.shop.Add('Premium Org', 'org_prem')
 		return 'ERR'
 	end)
 
-rp.shop.Add('+15 Prop limit', 'prop_limit_15')
+rp.shop.Add('Лимит пропов', 'prop_limit_15')
 	:SetCat('General')
-	:SetDesc('Adds 15 extra props to your prop limit.\n This upgrade is stackable.')
+	:SetDesc('Добавлен к вашему лимиту + 15 пропов.\nМожно докупать.')
 	:SetIcon('models/weapons/w_toolgun.mdl')
 	:SetPrice(2000)
 	:SetGetPrice(function(self, pl)
@@ -113,7 +113,7 @@ local sayings = {
 	'# is as cool as a cucumber',
 	'# has spent $2.50 so I, the server, must inform you all that they are cool',
 }
-rp.shop.Add('Announcement', 'announcement')
+rp.shop.Add('Оповещение', 'announcement')
 	:SetCat('General')
 	:SetDesc('If you\'re bored and have $2.50 to blow, you may as well buy this and let the whole server know how cool you are.')
 	:SetImage('005-megaphone.png')
@@ -126,7 +126,7 @@ rp.shop.Add('Announcement', 'announcement')
 -- Cash Packs
 rp.shop.Add('$10,000', '10k_RP_Cash')
 	:SetCat('Cash Packs')
-	:SetDesc('Adds $10,000 to your account')
+	:SetDesc('Добавляет $10,000 на твой аккаунт')
 	:SetImage('money-1.png')
 	:SetPrice(150)
 	:SetOnBuy(function(self, pl)
@@ -135,7 +135,7 @@ rp.shop.Add('$10,000', '10k_RP_Cash')
 
 rp.shop.Add('$50,000', '50k_RP_Cash')
 	:SetCat('Cash Packs')
-	:SetDesc('Adds $50,000 to your account')
+	:SetDesc('Добавляет $50,000 на твой аккаунт.\nЭкономия 250 Cr')
 	:SetImage('money-2.png')
 	:SetPrice(500)
 	:SetOnBuy(function(self, pl)
@@ -144,7 +144,7 @@ rp.shop.Add('$50,000', '50k_RP_Cash')
 
 rp.shop.Add('$100,000', '100k_RP_Cash')
 	:SetCat('Cash Packs')
-	:SetDesc('Adds $100,000 to your account')
+	:SetDesc('Добавляет $100,000 на твой аккаунт.\nЭкономия 750 Cr')
 	:SetImage('money-3.png')
 	:SetPrice(750)
 	:SetOnBuy(function(self, pl)
@@ -153,7 +153,7 @@ rp.shop.Add('$100,000', '100k_RP_Cash')
 
 rp.shop.Add('$250,000', '250k_RP_Cash')
 	:SetCat('Cash Packs')
-	:SetDesc('Adds $250,000 to your account')
+	:SetDesc('Добавляет $250,000 на твой аккаунт.\nЭкономия 2750 Cr')
 	:SetImage('money-4.png')
 	:SetPrice(1000)
 	:SetOnBuy(function(self, pl)
@@ -162,7 +162,7 @@ rp.shop.Add('$250,000', '250k_RP_Cash')
 
 rp.shop.Add('$750,000', '750k_RP_Cash')
 	:SetCat('Cash Packs')
-	:SetDesc('Adds $750,000 to your account')
+	:SetDesc('Добавляет $750,000 на твой аккаунт.\nЭкономия 9250 Cr')
 	:SetImage('profits.png')
 	:SetPrice(2000)
 	:SetOnBuy(function(self, pl)
@@ -171,45 +171,45 @@ rp.shop.Add('$750,000', '750k_RP_Cash')
 
 
 -- Karma Packs
-rp.shop.Add('200 Karma', '200_karma')
+rp.shop.Add('200 Кармы', '200_karma')
 	:SetCat('Karma Packs')
-	:SetDesc('Adds 200 karma to your account')
+	:SetDesc('Добавляет 200 на твой аккаунт')
 	:SetImage('karma-1.png')
 	:SetPrice(150)
 	:SetOnBuy(function(self, pl)
 		pl:AddKarma(200)
 	end)
 
-rp.shop.Add('750 Karma', '750_karma')
+rp.shop.Add('750 Кармы', '750_karma')
 	:SetCat('Karma Packs')
-	:SetDesc('Adds 750 karma to your account')
+	:SetDesc('Добавляет 750 кармы на твой аккаунт.\nЭкономия 100 Cr')
 	:SetImage('karma-2.png')
 	:SetPrice(500)
 	:SetOnBuy(function(self, pl)
 		pl:AddKarma(750)
 	end)
 
-rp.shop.Add('1,500 Karma', '1500_karma')
+rp.shop.Add('1,500 Кармы', '1500_karma')
 	:SetCat('Karma Packs')
-	:SetDesc('Adds 1,500 karma to your account')
+	:SetDesc('Добавляет 1,500 кармы на твой аккаунт.\nЭкономия 450 Cr')
 	:SetImage('karma-3.png')
 	:SetPrice(750)
 	:SetOnBuy(function(self, pl)
 		pl:AddKarma(1500)
 	end)
 
-rp.shop.Add('3,000 Karma', '3000_karma')
+rp.shop.Add('3,000 Кармы', '3000_karma')
 	:SetCat('Karma Packs')
-	:SetDesc('Adds 3,000 karma to your account')
+	:SetDesc('Добавляет 3,000 кармы на твой аккаунт.\nЭкономия 1250 Cr')
 	:SetImage('karma-4.png')
 	:SetPrice(1000)
 	:SetOnBuy(function(self, pl)
 		pl:AddKarma(3000)
 	end)
 
-rp.shop.Add('7,500 Karma', '7500_karma')
+rp.shop.Add('7,500 Кармы', '7500_karma')
 	:SetCat('Karma Packs')
-	:SetDesc('Adds 7,500 karma to your account')
+	:SetDesc('Добавляет 7,500 кармы на твой аккаунт.\nЭкономия 3700 Cr')
 	:SetImage('karma-5.png')
 	:SetPrice(2000)
 	:SetOnBuy(function(self, pl)
@@ -220,28 +220,26 @@ rp.shop.Add('7,500 Karma', '7500_karma')
 
 -- Ranks
 local vipdesc = [[
-		VIP rank across all of our DarkRP servers
-		VIP forum rank
-		VIP jobs
-		VIP scoreboard icon
-		Chatbox emotes
-		Reserved slots
-		20 extra props
-		3 extra genome points for cops
-		Adv Dupe tool
-		Precision tool
+		Особые VIP Профессии
+		VIP статус в TAB'e
+		VIP статус в Discord
+		Доступ к эмоциям в чате
+		Резервные слоты
+		20 дополнительных пропов
+		Adv Dupe тул
+		Precision тул
 
-		And anything else that gets added for VIPs in the future!
+		И многое другое, что будет добавлено для VIP в будущем!
 	]]
 
-rp.shop.Add('30 Day VIP', 'trial_vip')
+rp.shop.Add('VIP (30 дней)', 'trial_vip')
 	:SetCat('Ranks')
 	:SetDesc(vipdesc)
 	:SetImage('vip-30d.png')
 	:SetPrice(1000)
 	:SetCanBuy(function(self, pl)
 		if (pl:GetRank() == 'vip') or pl:IsAdmin() then
-			return false, 'You\'re already VIP or higher!'
+			return false, 'Вы уже VIP или выше!'
 		end
 		return true
 	end)
@@ -250,14 +248,14 @@ rp.shop.Add('30 Day VIP', 'trial_vip')
 	end)
 
 
-rp.shop.Add('Permanent VIP', 'vip')
+rp.shop.Add('VIP (Навсегда)', 'vip')
 	:SetCat('Ranks')
 	:SetDesc(vipdesc)
 	:SetImage('vip-perma.png')
 	:SetPrice(1500)
 	:SetCanBuy(function(self, pl)
 		if (pl:GetRank() == 'vip') or pl:IsAdmin() then
-			return false, 'You\'re already VIP or higher!'
+			return false, 'Вы уже VIP или выше!'
 		end
 		return true
 	end)
@@ -266,7 +264,7 @@ rp.shop.Add('Permanent VIP', 'vip')
 	end)
 
 
-rp.shop.Add('30 Days Moderator', 'trial_mod')
+rp.shop.Add('Модератор (30 дней)', 'trial_mod')
 	:SetCat('Ranks')
 	:SetDesc([[
 		30 days of moderator across all of our DarkRP servers

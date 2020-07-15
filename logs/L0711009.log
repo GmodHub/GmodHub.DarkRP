@@ -1,0 +1,134 @@
+L 07/11/2020 - 22:39:52: Log file started (file "logs\L0711009.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/11/2020 - 22:39:52: server_cvar: "sv_alltalk" "3"
+L 07/11/2020 - 22:39:52: server_cvar: "sv_airaccelerate" "100"
+L 07/11/2020 - 22:39:53: Connection to Steam servers successful.
+L 07/11/2020 - 22:39:53:    Public IP is 31.130.42.26.
+L 07/11/2020 - 22:39:53: Assigned anonymous gameserver Steam ID [A-1:3015208960(15133)].
+L 07/11/2020 - 22:39:53: VAC secure mode is activated.
+L 07/11/2020 - 22:39:56: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/11/2020 - 22:39:57: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/11/2020 - 22:40:09: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/11/2020 - 22:40:27: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.39:27006"
+L 07/11/2020 - 22:40:27: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/11/2020 - 22:40:43: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 07/11/2020 - 22:58:53: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:576: attempt to index global 'targ' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:576
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:917
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 22:58:57: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/11/2020 - 22:59:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:578: bad argument #1 to 'WriteUInt' (number expected, got string)
+  1. WriteUInt - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:578
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:917
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 22:59:22: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/11/2020 - 23:00:34: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:573
+      5. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:918
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 23:00:35: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:573
+      5. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:918
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/11/2020 - 23:04:15: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/11/2020 - 23:04:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/12/2020 - 08:47:30: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:166: ')' expected (to close '(' at line 49) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 08:48:25: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:166: ')' expected (to close '(' at line 49) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 08:48:26: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:166: ')' expected (to close '(' at line 49) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 08:48:37: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:103: no loop to break
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 08:48:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:163: ')' expected (to close '(' at line 49) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 08:49:42: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:163: ')' expected (to close '(' at line 49) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 08:49:42: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/commands/rape_sv.lua:163: ')' expected (to close '(' at line 49) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:132
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/12/2020 - 09:44:48: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/12/2020 - 09:44:49: server_message: "quit"
+L 07/12/2020 - 09:44:49: Log file closed.

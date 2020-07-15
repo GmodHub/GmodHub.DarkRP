@@ -99,7 +99,7 @@ end)
 
 function GM:LockdownStarted(pl)
 	table.foreach(player.GetAll(), function(k, v)
-		v:ConCommand("play npc/overwatch/cityvoice/f_confirmcivilstatus_1_spkr.wav\n")
+		v:ConCommand("play ".. rp.cfg.LockdownSounds .."\n")
 	end)
 end
 

@@ -131,6 +131,30 @@ function GM:OnPhysgunFreeze(weapon, phys, ent, pl)
 	return true
 end
 
+function PLAYER:DropDRPWeapon(weapon)
+	local ammo = self:GetAmmoCount(weapon:GetPrimaryAmmoType())
+	self:DropWeapon(weapon) -- Drop it so the model isn't the viewmodel
+
+	local ent = ents.Create("spawned_weapon")
+	local model = (weapon:GetModel() == "models/weapons/v_physcannon.mdl" and "models/weapons/w_physics.mdl") or weapon:GetModel()
+
+	ent.ShareGravgun = true
+	ent:SetPos(self:GetShootPos() + self:GetAimVector() * 30)
+	ent:SetModel(model)
+	ent:SetSkin(weapon:GetSkin())
+	ent.weaponclass = weapon:GetClass()
+	ent.nodupe = true
+	ent.clip1 = weapon:Clip1()
+	ent.clip2 = weapon:Clip2()
+	ent.ammoadd = ammo
+
+	self:RemoveAmmo(ammo, weapon:GetPrimaryAmmoType())
+
+	ent:Spawn()
+
+	weapon:Remove()
+end
+
 function GM:PlayerShouldTaunt(pl, actid) return true end
 function GM:CanTool(pl, trace, mode) return (not pl:IsBanned()) and (not pl:IsJailed()) and (not pl:IsArrested()) end
 
@@ -178,42 +202,14 @@ function GM:ShowSpare2(ply)
 	end
 end
 
-function GM:OnNPCKilled(victim, ent, weapon)
-	-- If something killed the npc
-	if ent then
-		if ent:IsVehicle() and ent:GetDriver():IsPlayer() then ent = ent:GetDriver() end
-
-		-- If we know by now who killed the NPC, pay them.
-		if IsValid(ent) and ent:IsPlayer() then
-			local xp = rp.Karma(ent, 5, 75)
-			local money = rp.Karma(ent, 5, 100)
-			ent:AddMoney(money)
-			rp.Notify(ent, NOTIFY_GREEN, rp.Term('+Money'), money)
-		end
-	end
-end
-
-local player_GetAll 	= player.GetAll
-local GetShootPos 		= PLAYER.GetShootPos
-local DistToSqr 		= VECTOR.DistToSqr
-timer.Create('PlayerHearVoice', 0.5, 0, function()
-	local pls = player_GetAll()
-	for a = 1, #pls do
-		for b = 1, #pls do
-			if (not pls[a].CanHear) then
-				pls[a].CanHear = {}
-			end
-			if (DistToSqr(GetShootPos(pls[a]), GetShootPos(pls[b])) <= 302500) and (pls[a] ~= pls[b]) and (not pls[b]:IsBanned()) then
-				pls[a].CanHear[pls[b]] = true
-			else
-				pls[a].CanHear[pls[b]] = false
-			end
-		end
-	end
-end)
+function GM:OnNPCKilled(victim, ent, weapon)end
 
 function GM:PlayerCanHearPlayersVoice(listener, talker)
-	return (listener.CanHear and listener.CanHear[talker] or false), true
+	if not talker:Alive() then return false end
+	if talker:IsBanned() then return false end
+	if ( listener:GetShootPos():DistToSqr(talker:GetShootPos()) > 302500 ) then return false end
+
+	return true
 end
 
 function GM:DoPlayerDeath(pl, attacker, dmginfo)
@@ -357,6 +353,13 @@ function GM:PlayerSpawn(ply)
 		rp.teams[ply:Team()].PlayerSpawn(ply)
 	end
 
+	if rp.teams[ply:Team()] and rp.teams[ply:Team()].RunSpeed then
+		ply:SetRunSpeed(rp.teams[ply:Team()].RunSpeed)
+	end
+
+	ply:SetRunSpeed(ply:CallSkillHook(SKILL_RUN, ply:GetRunSpeed(), ply:GetRunSpeed() * 1.15))
+	ply:SetJumpPower(ply:CallSkillHook(SKILL_JUMP, ply:GetJumpPower()))
+
 	ply:AllowFlashlight(true)
 end
 
@@ -435,7 +438,7 @@ function GM:PlayerDisconnected(ply)
 
 	//GAMEMODE.vote.DestroyVotesWithEnt(ply)
 
-	if rp.teams[ply:Team()].mayor and nw.GetGlobal('lockdown') then -- Stop the lockdown
+	if ply:IsMayor() and nw.GetGlobal('lockdown') then -- Stop the lockdown
 		GAMEMODE:UnLockdown(ply)
 	end
 
@@ -501,9 +504,9 @@ function GM:InitPostEntity()
 		if remove[ent:GetClass()] then
 			ent:Remove()
 		end
-    end
+  end
 
-    for k, v in ipairs(ents.FindByClass('info_player_start')) do
+  for k, v in ipairs(ents.FindByClass('info_player_start')) do
 		if util.IsInWorld(v:GetPos()) and (not self.SpawnPoint) then
 			self.SpawnPoint = v
 		else

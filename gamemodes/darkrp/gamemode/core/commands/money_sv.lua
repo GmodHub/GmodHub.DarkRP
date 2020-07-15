@@ -72,6 +72,10 @@ rp.AddCommand('cheque', function(pl, pl2, amount)
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('CannotAfford'))
 	end
 
+  if !pl:CheckLimit("cheque") then
+    return
+  end
+
 	if IsValid(pl) and IsValid(pl2) then
 		pl:AddMoney(-amount)
 
@@ -88,6 +92,8 @@ rp.AddCommand('cheque', function(pl, pl2, amount)
 
 		Cheque:Setamount(math.Min(amount, 2147483647))
 		Cheque:Spawn()
+
+    pl:AddCount("cheque", Cheque)
 
 		hook.Call('PlayerDropRPCheck', GAMEMODE, pl, pl2, Cheque:Getamount(), pl:GetMoney())
 	end

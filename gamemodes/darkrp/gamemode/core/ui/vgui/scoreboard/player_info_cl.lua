@@ -25,17 +25,17 @@ function PANEL:Init()
 	self.Org:SetDisabled(true)
 
 	self.Nickname = ui.Create('DButton', self)
-	self.Nickname:SetText('Set nickname')
+	self.Nickname:SetText('Изменить Никнейм')
 	self.Nickname.DoClick = function()
-		ui.StringRequest('Nickname', 'What would you like to set ' .. self.Player:Name() .. '\'s nickname to?', '', function(a)
+		ui.StringRequest('Никнейм', 'Какой никнейм ' .. self.Player:Name() .. ' вы хотели бы видеть?', '', function(a)
 			self.Player:SetNickName(a)
 		end)
 	end
 
 	self.Steam = ui.Create('DButton', self)
-	self.Steam:SetText('View SUP Profile')
+	self.Steam:SetText('GMDHUB Профиль')
 	self.Steam.DoClick = function()
-		self.Player:ShowProfile()
+		//self.Player:ShowProfile()
 	end
 
 	self.SteamID = ui.Create('DButton', self)
@@ -43,7 +43,7 @@ function PANEL:Init()
 		SetClipboardText(self.Player:SteamID())
 
 		self.SteamID.Copied = true
-		self.SteamID:SetText('Copied to clipboard')
+		self.SteamID:SetText('Скопировано в буфер обмена')
 
 		timer.Simple(2.5, function()
 			if IsValid(self) and IsValid(self.SteamID) then
@@ -53,7 +53,7 @@ function PANEL:Init()
 	end
 
 	self.GiftCredits = ui.Create('DButton', self)
-	self.GiftCredits:SetText((self.Player == LocalPlayer()) and 'Buy Credits' or 'Gift Credits')
+	self.GiftCredits:SetText((self.Player == LocalPlayer()) and 'Приобрести Кредиты' or 'Подарить Кредиты')
 	self.GiftCredits.DoClick = function()
 		if IsValid(self.Player) then
 			gui.OpenURL(rp.cfg.CreditsURL .. self.Player:SteamID())
@@ -96,11 +96,11 @@ end
 function PANEL:Update()
 	if (not IsValid(self.Player)) or (self:GetParent():GetTall() <= 25) then return end
 
-	self.Rank:SetText('Rank: ' .. self.Player:GetUserGroup())
+	self.Rank:SetText('Ранг: ' .. self.Player:GetUserGroup())
 
-	self.PlayTime:SetText('Play Time: ' .. ba.str.FormatTime(self.Player:GetPlayTime()) .. ' (' .. self.Player:GetPlayTimeRank() .. ')')
+	self.PlayTime:SetText('Отыграно: ' .. ba.str.FormatTime(self.Player:GetPlayTime()) .. ' (' .. self.Player:GetPlayTimeRank() .. ')')
 
-	self.Org:SetText('Org: ' .. (self.Player:GetOrg() and self.Player:GetOrg() or 'None'))
+	self.Org:SetText('Банда: ' .. (self.Player:GetOrg() and self.Player:GetOrg() or 'Отсутствует'))
 end
 
 function PANEL:SetPlayer(pl)

@@ -56,12 +56,12 @@ timer.Create('rp.EventsThink', 1, 0, function()
 		c = c + 1
 		v.Think()
 		if (v.EndTime <= CurTime()) then
-			rp.NotifyAll(NOTIFY_ERROR, rp.Term('EventEnded'), v.NiceName)
+			rp.NotifyAll(NOTIFY_ERROR, term.Get('EventEnded'), v.NiceName)
 			v.OnEnd()
 			count = table.Count(rp.EventsRunning)
 		end
 		name = name .. ((c == 1) and ' | ' or ', ') ..  v.NiceName
 
 	end
-	RunConsoleCommand('hostname', name .. ((count >= 1) and ' Event' or ''))
+	RunConsoleCommand('hostname', name .. ((count >= 1) and '' or ''))
 end)

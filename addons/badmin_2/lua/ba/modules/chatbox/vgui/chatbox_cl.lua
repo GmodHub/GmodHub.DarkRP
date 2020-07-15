@@ -645,7 +645,7 @@ function PANEL:PerformLayout(w, h)
 
 	if (!self.activeMessageFrame) then
 		self.activeMessageFrame = self:GetSheet("All")
-		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Welcome to ', Color(51, 128, 255), 'SUP!'})
+		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Welcome to ', Color(51, 128, 255), 'GmodHub!'})
 	end
 
 	for k, v in pairs(self.Sheets) do

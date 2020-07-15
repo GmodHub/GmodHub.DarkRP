@@ -3,14 +3,14 @@ local fr
 local ent
 local doorOptions = {
 	{
-		Name 	= 'Sell',
+		Name 	= 'Продать',
 		DoClick = function()
 			cmd.Run('sellproperty')
 			fr:Close()
 		end,
 	},
 	{
-		Name 	= 'Add Co-Owner',
+		Name 	= 'Добавить Совладельца',
 		Check 	= function()
 			return (player.GetCount() > 1)
 		end,
@@ -21,7 +21,7 @@ local doorOptions = {
 		end,
 	},
 	{
-		Name 	= 'Remove Co-Owner',
+		Name 	= 'Удалить Совладельца',
 		Check 	= function()
 			return (#ent:GetPropertyCoOwners() > 0)
 		end,
@@ -32,7 +32,7 @@ local doorOptions = {
 		end,
 	},
 	{
-		Name 	= 'Toggle org ownership',
+		Name 	= 'Дать Доступ Банде',
 		Check 	= function()
 			return (LocalPlayer():GetOrg() ~= nil)
 		end,
@@ -41,9 +41,9 @@ local doorOptions = {
 		end,
 	},
 	{
-		Name 	= 'Set Title',
+		Name 	= 'Изменить Название',
 		DoClick = function()
-			ui.StringRequest('Title', 'What do you want the title to be?', '', function(a)
+			ui.StringRequest('Название', 'Как бы вы хотели назвать это имущество?', '', function(a)
 				cmd.Run('setpropertytitle', tostring(a))
 			end)
 		end,
@@ -87,7 +87,7 @@ local hotelOwnerOptions = {
 
 local function makeFrame(ent, opts)
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Property Options')
+		self:SetTitle('Управление')
 		self:Center()
 		self:MakePopup()
 		self.Think = function(self)

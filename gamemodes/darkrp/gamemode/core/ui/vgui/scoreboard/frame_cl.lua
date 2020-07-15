@@ -1,7 +1,7 @@
 surface.CreateFont('rp.Scoreboard.Label', {
 	font = 'Prototype [RUS by Daymarius]',
 	size = 14,
-	weight = 250, 
+	weight = 250,
 	extended = true
 })
 
@@ -92,7 +92,7 @@ function PANEL:Init()
 	self.LogoButton:SetText('')
 	self.LogoButton.Paint = function() end
 	self.LogoButton.DoClick = function()
-		gui.OpenURL('https://superiorservers.co')
+		gui.OpenURL('https://gmodhub.com')
 	end
 end
 
@@ -171,7 +171,7 @@ function PANEL:Update()
 	local seconds = math.floor(CurTime() - (hours * 3600) - (minutes * 60))
 	if (minutes < 10) then minutes = '0' .. minutes end
 	if (seconds < 10) then seconds = '0' .. seconds end
-	self.LabelUptime = 'Server Uptime: ' .. hours .. ':' .. minutes .. ':' .. seconds
+	self.LabelUptime = 'Время работы сервера: ' .. hours .. ':' .. minutes .. ':' .. seconds
 end
 
 function PANEL:Think()

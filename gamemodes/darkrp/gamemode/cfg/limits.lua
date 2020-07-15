@@ -20,7 +20,8 @@ rp.cfg.Limits = {
 	['security_cameras'] = 1,
 	['cameras'] = 1,
 	["biometrics"] = 100,
-	["tolls"] = 100
+	["tolls"] = 100,
+	['cheque'] = 10
 }
 
 function rp.GetLimit(name)
