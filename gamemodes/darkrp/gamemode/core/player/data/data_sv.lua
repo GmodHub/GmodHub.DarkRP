@@ -133,15 +133,11 @@ function PLAYER:SetRPName(name, firstRun)
 	name = string.Trim(name)
 	name = string.sub(name, 1, 20)
 
-	-- Make sure nobody on this server already has this RP name
 	local lowername = string.lower(tostring(name))
 	rp.data.GetNameCount(name, function(taken)
 		if string.len(lowername) < 2 and not firstrun then return end
-		-- If we found that this name exists for another player
 		if taken then
 			if firstRun then
-				-- If we just connected and another player happens to be using our steam name as their RP name
-				-- Put a 1 after our steam name
 				self:SetRPName(name .. "1", firstRun)
 				rp.Notify(self, NOTIFY_ERROR, term.Get('SteamRPNameTaken'))
 			else
@@ -187,14 +183,4 @@ end
 
 function PLAYER:TakeKarma(amount)
 	self:AddKarma(-math.abs(amount))
-end
-
-function PLAYER:AddHealth(amt)
-	self:SetHealth(self:Health() + amt)
-end
-
-function PLAYER:GiveAmmos(amount, show)
-	for k, v in ipairs(rp.ammoTypes) do
-		self:GiveAmmo(amount, v.ammoType, show)
-	end
 end

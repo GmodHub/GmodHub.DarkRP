@@ -15,8 +15,8 @@ function ENTITY:IsConstrained()
 	local c = self.Constraints
 	if c then
 		for k, v in ipairs(c) do
-			if v:IsValid() then 
-				return true 
+			if v:IsValid() then
+				return true
 			end
 			c[k] = nil
 		end
@@ -25,6 +25,6 @@ function ENTITY:IsConstrained()
 end
 
 _G.RunString 		= function() end -- We dont use these.
-_G.RunStringEx 		= function() end 
-_G.CompileString 	= function() end 
+_G.RunStringEx 		= function() end
+_G.CompileString 	= function() end
 _G.CompileFile 		= function() end 

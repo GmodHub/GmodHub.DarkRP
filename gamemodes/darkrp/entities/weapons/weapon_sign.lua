@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-SWEP.PrintName = 'Sign'
+SWEP.PrintName = 'Табличка'
 SWEP.Spawnable = true
 SWEP.Category = 'RP'
 SWEP.Slot = 2

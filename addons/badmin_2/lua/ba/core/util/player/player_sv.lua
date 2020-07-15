@@ -21,7 +21,7 @@ hook.Add('PlayerSay', 'ba.ChatMute.PlayerSay', function(pl)
 end)
 
 hook.Add('PlayerCanUseAdminChat', 'ba.Mute.PlayerCanUseAdminChat', function(pl)
-	if pl:IsChatMuted() then 
+	if pl:IsChatMuted() then
 		return false
 	end
 end)
@@ -53,7 +53,7 @@ end)
 -- HashID
 function PLAYER:HashID()
 	if (not self:GetBVar('HashID')) then
-		local hashid = sha2.hash256(self:SteamID64() .. 'SuperSecretKey')
+		local hashid = hash.SHA256(self:SteamID64() .. 'SuperSecretKey')
 		self:SetBVar('HashID', hashid)
 		return hashid
 	end
@@ -61,7 +61,7 @@ function PLAYER:HashID()
 end
 
 function PLAYER:NiceIP()
-	if (not self._NiceIP) then 
+	if (not self._NiceIP) then
 		self._NiceIP = string.StripPort(self:IPAddress())
 	end
 	return self._NiceIP

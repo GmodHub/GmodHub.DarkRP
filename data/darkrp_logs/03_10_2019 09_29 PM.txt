@@ -1,6 +1,0 @@
-Sun Mar 10 21:29:39 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
-Sun Mar 10 21:29:39 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
-Sun Mar 10 21:31:37 2019	eLeCtrOssSnake (STEAM_0:1:164666257) disconnected
-Sun Mar 10 21:31:49 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
-Sun Mar 10 21:31:49 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
-Sun Mar 10 21:37:32 2019	eLeCtrOssSnake (STEAM_0:1:164666257) disconnected

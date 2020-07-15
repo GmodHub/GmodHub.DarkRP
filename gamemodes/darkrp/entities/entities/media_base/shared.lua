@@ -22,7 +22,7 @@ function ENT:SetupDataTables()
 end
 
 function ENT:IsFrozen()
-	return (self:GetFrozen() == 1)
+	return (self:GetFrozen() == 0)
 end
 
 function ENT:IsPaused()

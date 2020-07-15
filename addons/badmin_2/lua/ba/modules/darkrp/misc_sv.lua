@@ -7,18 +7,12 @@ end
 hook.Add('playerRankLoaded', 'datamerger.playerRankLoaded', function(pl)
 	timer.Simple(10, function()
 		if (!IsValid(pl)) then return end
-		
+
 		if ((pl:HasUpgrade('vip') or pl:HasUpgrade('vip_package')) and !pl:IsVIP()) then
 			mergeVIP(pl)
 		end
 	end)
 end)
-
-hook.Add('PlayerJoinSteamGroup', function(pl)
-	pl:AddCredits(300, 'Steam group join')
-	ba.notify_all(ba.Term('PlayerJoinedSteamGroup'), pl)
-end)
-
 
 hook.Add('ShowHelp', 'motd.ShowHelp', function(pl)
 	pl:ConCommand('ba motd')

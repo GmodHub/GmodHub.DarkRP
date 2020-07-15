@@ -2,7 +2,7 @@ include("pocket_controls.lua")
 include("pocket_vgui.lua")
 include("shared.lua")
 
-SWEP.PrintName = "Pocket"
+SWEP.PrintName = "Карманы"
 SWEP.Slot = 2
 SWEP.SlotPos = 1
 SWEP.DrawAmmo = false

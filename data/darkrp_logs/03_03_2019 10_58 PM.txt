@@ -1,6 +1,0 @@
-Sun Mar  3 22:58:06 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Sun Mar  3 22:58:06 2019	DidVaitel (STEAM_0:1:74202541) spawned
-Sun Mar  3 23:01:06 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT eml_component1
-Sun Mar  3 23:01:07 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT eml_assembler
-Sun Mar  3 23:01:13 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT eml_assembler
-Sun Mar  3 23:01:17 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT eml_button

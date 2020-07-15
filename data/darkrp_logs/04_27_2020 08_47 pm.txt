@@ -1,7 +1,0 @@
-Mon Apr 27 20:47:20 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
-Mon Apr 27 20:47:20 2020	DidVaitel (STEAM_0:1:74202541) spawned
-Mon Apr 27 20:47:36 2020	DidVaitel (STEAM_0:1:74202541) spawned SENT duel_npc
-Mon Apr 27 20:53:53 2020	DidVaitel (STEAM_0:1:74202541) disconnected
-Mon Apr 27 20:54:01 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
-Mon Apr 27 20:54:01 2020	DidVaitel (STEAM_0:1:74202541) spawned
-Mon Apr 27 20:54:42 2020	DidVaitel (STEAM_0:1:74202541) disconnected

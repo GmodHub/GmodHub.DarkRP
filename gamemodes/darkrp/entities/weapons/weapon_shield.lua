@@ -12,7 +12,7 @@ SWEP.DrawAmmo = false
 SWEP.DrawCrosshair = false
 SWEP.Slot = 2
 
-SWEP.PrintName = 'Riot Shield'
+SWEP.PrintName = 'Щит'
 SWEP.ViewModelFOV = 62
 SWEP.ViewModelFlip = false
 SWEP.AnimPrefix = 'physgun'

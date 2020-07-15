@@ -1,7 +1,7 @@
 dash.IncludeSH 'shared.lua'
 
-local mat_locked = Material("sup/entities/biometric/locked.png", "smooth")
-local mat_unlocked = Material("sup/entities/biometric/unlocked.png", "smooth")
+local mat_locked = Material("gmh/entities/biometric/locked.png", "smooth")
+local mat_unlocked = Material("gmh/entities/biometric/unlocked.png", "smooth")
 
 function ENT:Draw()
 	self.BaseClass.Draw(self)

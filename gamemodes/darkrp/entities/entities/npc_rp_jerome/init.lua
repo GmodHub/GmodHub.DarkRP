@@ -9,12 +9,12 @@ function ENT:StartTouch(ent)
 		local info = ent.DrugInfo
 		ent:Remove()
 		owner:AddMoney(info.BuyPrice)
-		rp.Notify(owner, NOTIFY_GREEN, rp.Term('PlayerSoldDrugs'), info.Name, rp.FormatMoney(info.BuyPrice))
+		rp.Notify(owner, NOTIFY_GREEN, term.Get('PlayerSoldDrugs'), info.Name, rp.FormatMoney(info.BuyPrice))
 	end
 end
 
 hook.Add('GravGunOnPickedUp', 'rp.drugbuyer.GravGunOnPickedUp', function(pl, ent)
-	local tab = rp.Drugs[ent:GetClass()]  or rp.Drugs[ent.weaponclass]
+	local tab = rp.DrugsMap[ent:GetClass()]  or rp.DrugsMap[ent.weaponclass]
 	if tab then
 		ent.DrugOwner = pl
 		ent.DrugInfo = tab
@@ -22,7 +22,7 @@ hook.Add('GravGunOnPickedUp', 'rp.drugbuyer.GravGunOnPickedUp', function(pl, ent
 end)
 
 hook.Add('GravGunOnDropped', 'rp.drugbuyer.GravGunOnDropped', function(pl, ent)
-	local tab = rp.Drugs[ent:GetClass()]  or rp.Drugs[ent.weaponclass]
+	local tab = rp.DrugsMap[ent:GetClass()]  or rp.DrugsMap[ent.weaponclass]
 	if tab then
 		ent.DrugOwner = nil
 		ent.DrugInfo = nil
@@ -38,4 +38,8 @@ hook.Add("InitPostEntity", "rp.DrugBuyers", function()
 		npc:Activate()
 		npc:SetModel(npc.NPCModel)
 	end
+
+	timer.Create("JeromePrice", 600, 0, function()
+		nw.SetGlobal("JeromePrice", math.Rand(0.40, 2))
+	end)
 end)

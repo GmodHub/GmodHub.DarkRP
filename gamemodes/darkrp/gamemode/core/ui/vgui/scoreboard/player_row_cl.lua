@@ -1,7 +1,7 @@
 local PANEL = {}
 
-local micon = Material('sup/gui/scoreboard/micon.png', 'smooth')
-local micoff = Material('sup/gui/scoreboard/micoff.png', 'smooth')
+local micon = Material('gmh/gui/scoreboard/micon.png', 'smooth')
+local micoff = Material('gmh/gui/scoreboard/micoff.png', 'smooth')
 
 function PANEL:Init()
 	self:SetTall(25)
@@ -116,7 +116,7 @@ function PANEL:Update()
 	self.InfoCard:Update()
 end
 
-local ccmat = Material 'sup/flags/us.png'
+local ccmat = Material 'gmh/flags/us.png'
 function PANEL:SetPlayer(pl)
 	self.Player = pl
 	self.Avatar:SetPlayer(pl)
@@ -139,7 +139,7 @@ function PANEL:SetPlayer(pl)
 			end)
 	end
 
-	local osimg = (pl:GetOS() == 'linux' and 'icon16/tux.png') or 'sup/gui/os/' .. pl:GetOS() .. '.png'
+	local osimg = (pl:GetOS() == 'linux' and 'icon16/tux.png') or 'gmh/gui/os/' .. pl:GetOS() .. '.png'
 	self.OSMaterial = Material(osimg)
 
 	self:Update()

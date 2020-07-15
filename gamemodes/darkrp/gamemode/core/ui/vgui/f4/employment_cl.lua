@@ -24,11 +24,11 @@ function PANEL:Init()
 	end
 
 	self.HireablePlayers = ui.Create('ui_listview', self)
-	self.HireablePlayers:AddSpacer('Hire an Employee'):SetTall(30)
+	self.HireablePlayers:AddSpacer('Нанять Работника'):SetTall(30)
 	self.HireablePlayers.Count = 0
 	self.HireablePlayers.AddEmployee = function(s, v)
-		addEmployee(s, v, v.GetJobName, 'Hire', function(s)
-			ui.BoolRequest('Hire Employee', 'Are you sure you would like to hire ' .. v:Name() .. '?', function(ans)
+		addEmployee(s, v, v.GetJobName, 'Нанять', function(s)
+			ui.BoolRequest('Нанять Работника', 'Вы уверены, что хотите нанять ' .. v:Name() .. '?', function(ans)
 				if ans then
 					cmd.Run('hire', v:SteamID(), v:GetHirePrice())
 					s:SetDisabled(true)
@@ -39,16 +39,16 @@ function PANEL:Init()
 	self.HireablePlayers.PaintOver = function(s, w, h)
 		if (s.Count == 0) then
 			draw.OutlinedBox(0, 29, w, h - 29, ui.col.Background, ui.col.Outline)
-			draw.SimpleText('No one is available for hire!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Нет доступных работников!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 	end
 
 	self.Employees = ui.Create('ui_listview', self)
-	self.Employees:AddSpacer('Fire an Employee'):SetTall(30)
+	self.Employees:AddSpacer('Уволить Работника'):SetTall(30)
 	self.Employees.Count = 0
 	self.Employees.AddEmployee = function(s, v)
-		addEmployee(s, v, v.GetTeamName, 'Fire', function(s)
-			ui.BoolRequest('Fire Employee', 'Are you sure you would like to fire ' .. v:Name() .. '?', function(ans)
+		addEmployee(s, v, v.GetTeamName, 'Уволить', function(s)
+			ui.BoolRequest('Уволить Работника', 'Вы уверены, что хотите уволить ' .. v:Name() .. '?', function(ans)
 				if ans then
 					cmd.Run('fire', v:SteamID())
 					s:Remove()
@@ -61,7 +61,7 @@ function PANEL:Init()
 	self.Employees.PaintOver = function(s, w, h)
 		if (s.Count == 0) then
 			draw.OutlinedBox(0, 29, w, h - 29, ui.col.Background, ui.col.Outline)
-			draw.SimpleText('You have no employees!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('У вас нет работников!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 	end
 

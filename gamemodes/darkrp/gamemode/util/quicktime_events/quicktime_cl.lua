@@ -84,7 +84,7 @@ net.Receive("quicktime_cue", function(len)
 				successLevel = successLevel - (successStep * 0.8) * successLevelStep
 				curKey = curKey + 1
 
-				surface.PlaySound("sup/ui/beep.ogg")
+				surface.PlaySound("gmh/ui/beep.ogg")
 
 				return
 			end

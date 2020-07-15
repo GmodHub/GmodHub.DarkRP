@@ -156,7 +156,7 @@ local function keysMenu()
 	if IsValid(fr) then fr:Close() end
 
 	ent = LocalPlayer():GetEyeTrace().Entity
-	print(ent:GetPropertyOwner())
+
 	if IsValid(ent) and ent:IsDoor() and (ent:GetPos():DistToSqr(LocalPlayer():GetPos()) < 13225) then
 		if ent:IsPropertyOwned() and (ent:GetPropertyOwner() == LocalPlayer()) then
 			makeFrame(ent, doorOptions)

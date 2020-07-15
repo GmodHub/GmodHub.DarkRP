@@ -28,38 +28,38 @@ function rp.ToggleF4Menu(openCs)
 
 	fr.tabs:AddTab('Действия', function(self)
 		return ui.Create 'rp_commandlist'
-	end):SetIcon 'sup/gui/f4/f4_actions.png'
+	end):SetIcon 'gmh/gui/f4/f4_actions.png'
 
 	fr.tabs:AddTab('Профессии', function(self)
 		return ui.Create 'rp_jobslist'
-	end):SetIcon 'sup/hud/job.png'
+	end):SetIcon 'gmh/hud/job.png'
 
 	fr.tabs:AddTab('Магазин', function(self)
 		return ui.Create 'rp_shoplist'
-	end):SetIcon 'sup/hud/money.png'
+	end):SetIcon 'gmh/hud/money.png'
 
 	fr.tabs:AddTab('Навыки', function(self)
 		return ui.Create 'rp_skillslist'
-	end):SetIcon 'sup/hud/karma.png'
+	end):SetIcon 'gmh/hud/karma.png'
 
 //	local hatTab
 	//fr.tabs:AddTab('Apparel', function(self)
 	//	hatTab = ui.Create 'rp_hatspanel'
 	//	return hatTab
-	//end):SetIcon 'sup/gui/f4/f4_hats.png'
+	//end):SetIcon 'gmh/gui/f4/f4_hats.png'
 
 	hook.Call('PopulateF4Tabs', GAMEMODE, fr.tabs, fr) -- todo, remove
 
 	fr.tabs:AddTab('Настройки', function(self)
 		return ui.Create 'rp_settings'
-	end):SetIcon 'sup/gui/f4/f4_settings.png'
+	end):SetIcon 'gmh/gui/f4/f4_settings.png'
 
 	local csTab
 	local cs = fr.tabs:AddTab('Донат', function(self)
 		csTab = ui.Create 'rp_creditshop_panel'
 		return csTab
 	end)
-	cs:SetIcon 'sup/hud/superior.png'
+	cs:SetIcon 'gmh/hud/employer.png'
 	cs.TextColor = ui.col.Gold
 
 	if (not openCs) then -- hack

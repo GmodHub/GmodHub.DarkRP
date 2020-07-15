@@ -1,6 +1,6 @@
 "CVars"
 {
-	"gmod_physiterations"		"4"
+	"gmod_physiterations"		"2"
 	"AdvDupe2_SpawnRate"		"1"
 	"AdvDupe2_MaxFileSize"		"200"
 	"AdvDupe2_MaxEntities"		"0"

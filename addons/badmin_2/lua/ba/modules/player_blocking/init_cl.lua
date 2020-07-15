@@ -1,6 +1,6 @@
 local blockedPlayers
-if (file.Exists('sup/blockedplayers.dat', 'DATA')) then
-	blockedPlayers = pon.decode(file.Read('sup/blockedplayers.dat', 'DATA'))
+if (file.Exists('gmh/blockedplayers.dat', 'DATA')) then
+	blockedPlayers = pon.decode(file.Read('gmh/blockedplayers.dat', 'DATA'))
 else
 	blockedPlayers = {}
 end
@@ -16,7 +16,7 @@ function PLAYER:Block(block, dontRewrite)
 
 	if (!dontRewrite) then
 		blockedPlayers[self:SteamID()] = block or nil
-		file.Write('sup/blockedplayers.dat', pon.encode(blockedPlayers))
+		file.Write('gmh/blockedplayers.dat', pon.encode(blockedPlayers))
 	end
 end
 

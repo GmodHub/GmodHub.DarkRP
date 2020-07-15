@@ -8,7 +8,7 @@ ENT.AllLazyFreeze 	= true
 function ENT:Initialize()
 	self.Destructed = false
 
-	self:SetModel('models/sup/shipment/shimpmentcrate.mdl')
+	self:SetModel('models/gmh/shipment/shimpmentcrate.mdl')
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)

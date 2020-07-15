@@ -1,7 +1,7 @@
 SKILL_JAIL = rp.karma.AddSkill {
-	Name = 'Bribe The Judge',
-	Icon = 'sup/gui/skills/jail.png',
-	Description = 'Reduced jail time',
+	Name = 'Подкупить Судью',
+	Icon = 'gmh/gui/skills/jail.png',
+	Description = 'Уменьшает время ареста',
 	Hooks = {
 		[0] = function() return rp.cfg.ArrestTime end,
 		[1] = function() return rp.cfg.ArrestTime * 0.85 end,
@@ -9,9 +9,9 @@ SKILL_JAIL = rp.karma.AddSkill {
 		[3] = function() return rp.cfg.ArrestTime * 0.4 end,
 	},
 	Descriptions = {
-		'15% reduction',
-		'30% reduction',
-		'60% reduction',
+		'На 15% меньше',
+		'На 30% меньше',
+		'На 60% меньше',
 	},
 	Prices = {
 		1000,
@@ -22,9 +22,9 @@ SKILL_JAIL = rp.karma.AddSkill {
 
 local maxRun = rp.cfg.RunSpeed * 1.15
 SKILL_RUN = rp.karma.AddSkill {
-	Name = 'Professional Kenyan',
-	Icon = 'sup/gui/skills/run.png',
-	Description = 'Faster run speed',
+	Name = 'Усейн Болт',
+	Icon = 'gmh/gui/skills/run.png',
+	Description = 'Увеличивает скорость бега',
 	Hooks = {
 		[0] = function(speed) return speed end,
 		[1] = function(speed, max) return math.Clamp(speed * 1.02, 0, max or maxRun) end,
@@ -32,9 +32,9 @@ SKILL_RUN = rp.karma.AddSkill {
 		[3] = function(speed, max) return math.Clamp(speed * 1.1, 0, max or maxRun) end,
 	},
 	Descriptions = {
-		'2% faster',
-		'5% faster',
-		'10% faster',
+		'На 2% быстрее',
+		'На 5% быстрее',
+		'На 10% быстрее',
 	},
 	Prices = {
 		1000,
@@ -44,9 +44,9 @@ SKILL_RUN = rp.karma.AddSkill {
 }
 
 SKILL_JUMP = rp.karma.AddSkill {
-	Name = 'Hoodrat',
-	Icon = 'sup/gui/skills/jump.png',
-	Description = 'Jump higher',
+	Name = 'Кенгуру',
+	Icon = 'gmh/gui/skills/jump.png',
+	Description = 'Прыгай выше',
 	Hooks = {
 		[0] = function(power) return power end,
 		[1] = function(power) return power * 1.05 end,
@@ -54,9 +54,9 @@ SKILL_JUMP = rp.karma.AddSkill {
 		[3] = function(power) return power * 1.15 end,
 	},
 	Descriptions = {
-		'5% higher',
-		'10% higher',
-		'15% higher',
+		'На 5% выше',
+		'На 10% выше',
+		'На 15% выше',
 	},
 	Prices = {
 		500,
@@ -66,9 +66,9 @@ SKILL_JUMP = rp.karma.AddSkill {
 }
 
 SKILL_LOCKPICK = rp.karma.AddSkill {
-	Name = 'Locksmith',
-	Icon = 'sup/gui/skills/lockpick.png',
-	Description = 'Lockpick faster',
+	Name = 'Мастер Взлома',
+	Icon = 'gmh/gui/skills/lockpick.png',
+	Description = 'Взламывай быстрее',
 	Hooks = {
 		[0] = function(time) return time end,
 		[1] = function(time) return time * 0.95 end,
@@ -77,10 +77,10 @@ SKILL_LOCKPICK = rp.karma.AddSkill {
 		[4] = function(time) return time * 0.8 end,
 	},
 	Descriptions = {
-		'5% faster',
-		'10% faster',
-		'15% faster',
-		'20% faster'
+		'На 5% быстрее',
+		'На 10% быстрее',
+		'На 15% быстрее',
+		'На 20% быстрее'
 	},
 	Prices = {
 		1000,
@@ -92,8 +92,8 @@ SKILL_LOCKPICK = rp.karma.AddSkill {
 
 SKILL_HACK = rp.karma.AddSkill {
 	Name = '4N0NYM0U5',
-	Icon = 'sup/gui/skills/keypadcracking.png',
-	Description = 'Crack scanners/keypads faster',
+	Icon = 'gmh/gui/skills/keypadcracking.png',
+	Description = 'Взламывай кейпады быстрее',
 	Hooks = {
 		[0] = function(time) return time end,
 		[1] = function(time) return time * 0.95 end,
@@ -102,10 +102,10 @@ SKILL_HACK = rp.karma.AddSkill {
 		[4] = function(time) return time * 0.8 end,
 	},
 	Descriptions = {
-		'5% faster',
-		'10% faster',
-		'15% faster',
-		'20% faster'
+		'На 5% быстрее',
+		'На 10% быстрее',
+		'На 15% быстрее',
+		'На 20% быстрее'
 	},
 	Prices = {
 		1000,
@@ -116,9 +116,9 @@ SKILL_HACK = rp.karma.AddSkill {
 }
 
 SKILL_CRAFTING = rp.karma.AddSkill {
-	Name = 'Handyman',
-	Icon = 'sup/gui/skills/crafting.png',
-	Description = 'Craft items faster',
+	Name = 'Умелые Ручки',
+	Icon = 'gmh/gui/skills/crafting.png',
+	Description = 'Крафти быстрее',
 	Hooks = {
 		[0] = function(time) return time end,
 		[1] = function(time) return time * 0.98 end,
@@ -126,9 +126,9 @@ SKILL_CRAFTING = rp.karma.AddSkill {
 		[3] = function(time) return time * 0.9 end,
 	},
 	Descriptions = {
-		'2% faster',
-		'5% faster',
-		'10% faster',
+		'На 2% быстрее',
+		'На 5% быстрее',
+		'На 10% быстрее',
 	},
 	Prices = {
 		1000,
@@ -138,9 +138,9 @@ SKILL_CRAFTING = rp.karma.AddSkill {
 }
 
 SKILL_SCAVENGE = rp.karma.AddSkill {
-	Name = 'Scavenger',
-	Icon = 'sup/gui/skills/scavenger.png',
-	Description = 'Higher dumpster drop rate',
+	Name = 'Мусорщик',
+	Icon = 'gmh/gui/skills/scavenger.png',
+	Description = 'Увелечение шанса в мусорках',
 	Hooks = {
 		[0] = function() return math.random(1, 100) end,
 		[1] = function() return math.random(10, 100) end,
@@ -148,9 +148,9 @@ SKILL_SCAVENGE = rp.karma.AddSkill {
 		[3] = function() return math.random(35, 100) end,
 	},
 	Descriptions = {
-		'5% higher',
-		'10% higher',
-		'20% higher',
+		'На 5% больше',
+		'На 10% больше',
+		'На 20% больше',
 	},
 	Prices = {
 		500,
@@ -158,10 +158,10 @@ SKILL_SCAVENGE = rp.karma.AddSkill {
 		5000
 	}
 }
-
+/*
 SKILL_HUNGER = rp.karma.AddSkill {
 	Name = 'Big Belly',
-	Icon = 'sup/gui/skills/hunger.png',
+	Icon = 'gmh/gui/skills/hunger.png',
 	Description = 'Higher hunger capacity',
 	Hooks = {
 		[0] = function() return 100 end,
@@ -183,11 +183,11 @@ SKILL_HUNGER = rp.karma.AddSkill {
 		15000
 	}
 }
-
+*/
 SKILL_FALL = rp.karma.AddSkill {
-	Name = 'Light Feet',
-	Icon = 'sup/gui/skills/fall.png',
-	Description = 'Lower fall damage',
+	Name = 'Лёгкая Нога',
+	Icon = 'gmh/gui/skills/fall.png',
+	Description = 'Снижение урона от падения',
 	Hooks = {
 		[0] = function(damage) return damage end,
 		[1] = function(damage) return damage * 0.9 end,
@@ -195,9 +195,9 @@ SKILL_FALL = rp.karma.AddSkill {
 		[3] = function(damage) return damage * 0.8 end,
 	},
 	Descriptions = {
-		'10% lower',
-		'15% lower',
-		'20% lower',
+		'На 10% меньше',
+		'На 15% меньше',
+		'На 20% меньше',
 	},
 	Prices = {
 		500,
@@ -207,9 +207,9 @@ SKILL_FALL = rp.karma.AddSkill {
 }
 
 SKILL_THUG = rp.karma.AddSkill {
-	Name = 'Gainz',
-	Icon = 'sup/gui/skills/thug.png',
-	Description = 'Thug punch doors faster',
+	Name = 'Качок',
+	Icon = 'gmh/gui/skills/thug.png',
+	Description = 'Негр выбивает двери быстрее',
 	Hooks = {
 		[0] = function(hits) return hits end,
 		[1] = function(hits) return hits * 0.95 end,
@@ -218,10 +218,10 @@ SKILL_THUG = rp.karma.AddSkill {
 		[4] = function(hits) return hits * 0.8 end,
 	},
 	Descriptions = {
-		'5% faster',
-		'10% faster',
-		'15% faster',
-		'20% faster'
+		'На 5% быстрее',
+		'На 10% быстрее',
+		'На 15% быстрее',
+		'На 20% быстрее'
 	},
 	Prices = {
 		1000,
@@ -232,9 +232,9 @@ SKILL_THUG = rp.karma.AddSkill {
 }
 
 SKILL_MEDIC = rp.karma.AddSkill {
-	Name = 'Bedside Manner',
-	Icon = 'sup/gui/skills/medic.png',
-	Description = 'Faster doctor healing',
+	Name = 'Профессиональный Доктор',
+	Icon = 'gmh/gui/skills/medic.png',
+	Description = 'Лечите быстрее',
 	Hooks = {
 		[0] = function(time) return time end,
 		[1] = function(time) return time * 0.95 end,
@@ -243,10 +243,10 @@ SKILL_MEDIC = rp.karma.AddSkill {
 		[4] = function(time) return time * 0.8 end,
 	},
 	Descriptions = {
-		'5% faster',
-		'10% faster',
-		'15% faster',
-		'20% faster'
+		'На 5% быстрее',
+		'На 10% быстрее',
+		'На 15% быстрее',
+		'На 20% быстрее'
 	},
 	Prices = {
 		1000,
@@ -255,10 +255,10 @@ SKILL_MEDIC = rp.karma.AddSkill {
 		4000
 	}
 }
-
+/*
 SKILL_ZIPTIE_BREAK_FREE = rp.karma.AddSkill {
 	Name = 'Tiny Hands',
-	Icon = 'sup/gui/skills/ziptie.png',
+	Icon = 'gmh/gui/skills/ziptie.png',
 	Description = 'Break free from zipties sooner',
 	Hooks = {
 		[0] = function(time) return time end,

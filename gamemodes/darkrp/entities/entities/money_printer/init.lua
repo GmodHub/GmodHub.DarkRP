@@ -7,7 +7,7 @@ ENT.WantReason = 'Money Printers'
 ENT.LazyFreeze = true
 
 function ENT:Initialize()
-	self:SetModel('models/sup/printer/printer.mdl')
+	self:SetModel('models/gmh/printer/printer.mdl')
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)

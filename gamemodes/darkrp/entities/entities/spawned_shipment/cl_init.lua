@@ -1,7 +1,7 @@
 include 'shared.lua'
 
-if (not file.Exists('sup/shipments', 'DATA')) then
-	file.CreateDir('sup/shipments')
+if (not file.Exists('gmh/shipments', 'DATA')) then
+	file.CreateDir('gmh/shipments')
 end
 
 function ENT:Draw()
@@ -119,7 +119,7 @@ function ENT:RenderTexture()
 			draw.SimpleText(self:Getcount() .. '/10', 'rp.ShipmentCount', 994, y - 10, text_col, TEXT_ALIGN_RIGHT, TEXT_ALIGN_TOP)
 		cam.End2D()
 
-		local path = 'sup/shipments/' .. id .. '.png'
+		local path = 'gmh/shipments/' .. id .. '.png'
 		file.Write(path, render.Capture({
 			format = 'png',
 			quality = 100,
@@ -144,7 +144,7 @@ function ENT:DrawTexture(alpha)
 
 		if (not id) then return end
 
-		local path = 'sup/shipments/' .. id .. '.png'
+		local path = 'gmh/shipments/' .. id .. '.png'
 		if file.Exists(path, 'DATA') then
 			self.Texture = Material('../data/' .. path)
 			self.LastCount = self:Getcount()

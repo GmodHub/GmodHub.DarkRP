@@ -27,7 +27,7 @@ function PANEL:Populate(sortOrder)
 	local tbl = {}
 	for k, v in ipairs(cvar.GetOrderedTable()) do
 		if v:GetMetadata('Menu') or v:GetCustomElement() then
-			local cat = v:GetMetadata('Category') or v:GetMetadata('Catagory') or 'Other'
+			local cat = v:GetMetadata('Category') or v:GetMetadata('Catagory') or 'Другое'
 			if (not tbl[cat]) then
 				tbl[cat] = {}
 			end

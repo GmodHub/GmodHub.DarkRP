@@ -1,6 +1,6 @@
 local SKIN 	= {
 	PrintName 	= 'SUP',
-	Author 	 	= 'aStonedPenguin'
+	Author 	 	= 'GmodHub'
 }
 
 local color_sup 			= ui.col.SUP
@@ -23,8 +23,8 @@ local color_red 			= ui.col.Red
 local color_green 			= ui.col.Green
 
 local mat_grad = Material 'gui/gradient_down'
-local mat_cecked = Material 'sup/ui/check.png'
-local mat_uncecked = Material 'sup/ui/x.png'
+local mat_cecked = Material 'gmh/ui/check.png'
+local mat_uncecked = Material 'gmh/ui/x.png'
 
 -- Frames
 function SKIN:PaintFrame(self, w, h)
@@ -362,4 +362,4 @@ function SKIN:PaintTab(self, w, h)
 	end
 end
 
-derma.DefineSkin('SUP', 'SUP\'s derma skin', SKIN)
+derma.DefineSkin('SUP', 'GmodHub\'s derma skin', SKIN)

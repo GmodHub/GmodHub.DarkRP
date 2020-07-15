@@ -1,5 +1,5 @@
-local mat_checked = Material 'sup/ui/check.png'
-local mat_unchecked = Material 'sup/ui/x.png'
+local mat_checked = Material 'gmh/ui/check.png'
+local mat_unchecked = Material 'gmh/ui/x.png'
 
 local PANEL = {}
 
@@ -24,9 +24,9 @@ function PANEL:Init()
 		s:SetDisabled(self.IsChecked and self.IsClaimed)
 
 		if (not self.IsClaimed) and self.IsChecked then
-			s:SetText('Claim')
+			s:SetText('Бонус')
 		else
-			s:SetText(self.IsChecked and 'Done' or 'Do It')
+			s:SetText(self.IsChecked and '✗' or '✓')
 		end
 	end
 
@@ -81,30 +81,30 @@ local paneldata = {}
 local name = PLAYER.SteamName or PLAYER.Name
 function PANEL:Init()
 	self.SteamGroup = ui.Create('ui_reawrd_check', self)
-	self.SteamGroup:SetTitle('Steam - 150 Credits')
-	self.SteamGroup:SetValue('Join our steam group')
+	self.SteamGroup:SetTitle('Steam - 150 Кредитов')
+	self.SteamGroup:SetValue('Вступить в нашу группу в Steam')
 	self.SteamGroup.ClaimType = 'award_steam'
 	self.SteamGroup.IsChecked = paneldata.award_steam
 	self.SteamGroup.IsClaimed = paneldata.award_steam_claimed
 	self.SteamGroup.DoClick = function()
 		self.HasDoneOne = true
-		gui.OpenURL('https://steamcommunity.com/gid/103582791434605559/')
+		gui.OpenURL('https://steamcommunity.com/gid/103582791467798968/')
 	end
 
 	self.Forums = ui.Create('ui_reawrd_check', self)
-	self.Forums:SetTitle('Forums - 150 Credits')
-	self.Forums:SetValue('Sign up on our forums')
+	self.Forums:SetTitle('VK - 150 Кредитов')
+	self.Forums:SetValue('Вступить в нашу группу в VK')
 	self.Forums.ClaimType = 'award_forums'
 	self.Forums.IsChecked = paneldata.award_forums
 	self.Forums.IsClaimed = paneldata.award_forums_claimed
 	self.Forums.DoClick = function()
 		self.HasDoneOne = true
-		gui.OpenURL('https://steamcommunity.com/openid/login?openid.ns=http://specs.openid.net/auth/2.0&openid.mode=checkid_setup&openid.return_to=https://forum.superiorservers.co/applications/core/interface/steam/auth.php&openid.realm=https://forum.superiorservers.co&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.assoc_handle=front')
+		gui.OpenURL('https://vk.com/gmdhub')
 	end
 
 	self.SyncTS = ui.Create('ui_reawrd_check', self)
-	self.SyncTS:SetTitle('TeamSpeak - 150 Credits')
-	self.SyncTS:SetValue('Sync your rank on our teamspeak')
+	self.SyncTS:SetTitle('Discord - 150 Кредитов')
+	self.SyncTS:SetValue('Вступить в наш дискорд сервер')
 	self.SyncTS.ClaimType = 'award_teamspeak'
 	self.SyncTS.IsChecked = paneldata.award_teamspeak
 	self.SyncTS.IsClaimed = paneldata.award_teamspeak_claimed
@@ -126,12 +126,12 @@ function PANEL:Init()
 	end
 
 	self.SteamName = ui.Create('ui_reawrd_check', self)
-	self.SteamName:SetTitle('Steam Name - 5 Credits a day')
-	self.SteamName:SetValue('Add \'sups.gg\' to your steam name')
+	self.SteamName:SetTitle('Имя Steam - 5 Кредитов в день')
+	self.SteamName:SetValue('Добавьте \'gmodhub.com\' в имя Steam')
 	self.SteamName.ClaimType = 'award_name'
 	self.SteamName.IsClaimed = paneldata.award_name_claimed
 	self.SteamName.Think = function(s)
-		s.IsChecked = (string.find(name(LocalPlayer()):lower(), 'superiorservers.c') ~= nil) or (string.find(name(LocalPlayer()):lower(), 'sups.g') ~= nil)
+		s.IsChecked = (string.find(name(LocalPlayer()):lower(), 'gmodhub.com') ~= nil) or (string.find(name(LocalPlayer()):lower(), 'gmodhub') ~= nil)
 	end
 	self.SteamName.DoClick = function()
 		self.HasDoneOne = true
@@ -185,7 +185,7 @@ hook.Add('ba.GetLoadInElements', 'ba.rewards.LoadIn', function(self)
 			local w, h = panels:GetSize()
 
 			ui.Create('DButton', function(s, p)
-				s:SetText('Earn Free Credits')
+				s:SetText('Получить Бесплатные Кредиты')
 				s:SetDisabled(true)
 				s:SetSize(w, 30)
 				s:SetPos(x, y - 29)

@@ -1,5 +1,0 @@
-<Logging continued from "data/ulx_logs/12-20-19.txt">
-[12:32:02] Dropped "Koteyka" from server<STEAM_0:0:105635721>
-[16:22:19] Client "COMPLΞX" connected.
-[16:22:32] Client "COMPLΞX" spawned in server <STEAM_0:0:105635721> (took 13 seconds).
-[17:05:08] Dropped "Koteyka" from server<STEAM_0:0:105635721>

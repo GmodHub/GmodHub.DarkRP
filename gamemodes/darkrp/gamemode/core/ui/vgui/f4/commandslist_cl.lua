@@ -24,16 +24,16 @@ rp.AddMenuCommand(cat, 'Выбросить деньги', function()
 end)
 rp.AddMenuCommand(cat, 'Выписать чек', function()
 	ui.PlayerRequest(function(v)
-		ui.StringRequest('Cheque', 'Amount on the cheque?', '', function(a)
+		ui.StringRequest('Выписать чек', 'На какую суммы выписать чек?', '', function(a)
 			if IsValid(v) then
 				cmd.Run('cheque', v:SteamID(), a)
 			end
 		end)
 	end)
 end)
-rp.AddMenuCommand(cat, 'Переслать деньги (20% налог)', function()
+rp.AddMenuCommand(cat, 'Перевести деньги (20% налог)', function()
 	ui.PlayerRequest(function(v)
-		ui.StringRequest('Wire', 'Amount to wire?', '', function(a)
+		ui.StringRequest('Перевести', 'Колличество денег к переводу?', '', function(a)
 			if IsValid(v) then
 				cmd.Run('wiremoney', v:SteamID(), a)
 			end
@@ -116,7 +116,7 @@ rp.AddMenuCommand(cat, 'Объявить в розыск', function()
 		end)
 	end)
 end)
-rp.AddMenuCommand(cat, 'Unwant a player', function()
+rp.AddMenuCommand(cat, 'Убрать из розыска', function()
 	local wantedplayers = table.Filter(player.GetAll(), function(v)
 		return v:IsWanted()
 	end)
@@ -126,7 +126,7 @@ rp.AddMenuCommand(cat, 'Unwant a player', function()
 end, function() return LocalPlayer():IsChief() or LocalPlayer():IsMayor() end )
 rp.AddMenuCommand(cat, 'Ордер на обыск', function()
 	ui.PlayerRequest(function(v)
-		ui.StringRequest('Warrant', 'Why would you like a warrant on this player?', '', function(a)
+		ui.StringRequest('Ордер на обыск', 'Почему вы хотите запросить ордер на обыск?', '', function(a)
 			if IsValid(v) then
 				cmd.Run('warrant', v:SteamID(), a)
 			end
@@ -160,7 +160,7 @@ rp.AddMenuCommand(cat, 'Изменить Агенду', function() -- TODO MAKE 
 		self:SetPos(x, y)
 		self:SetSize(p:GetWide() - 10, p:GetTall() - y - 35)
 		self:SetMultiline(true)
-		self:SetPlaceholderText('Agenda...')
+		self:SetPlaceholderText('Агенда...')
 		self:SetValue(agenda)
 		self.OnTextChanged = function()
 			agenda = self:GetValue()
@@ -172,9 +172,9 @@ rp.AddMenuCommand(cat, 'Изменить Агенду', function() -- TODO MAKE 
 		y = y + e:GetTall() + 5
 		self:SetPos(x, y)
 		self:SetSize(p:GetWide() - 10, 25)
-		self:SetText('Submit agenda')
+		self:SetText('Подтвердить агенду')
 		self.DoClick = function()
-			if string.len(agenda) <= 5 then LocalPlayer():ChatPrint('Agenda under 5 Characters!') return end
+			if string.len(agenda) <= 5 then LocalPlayer():ChatPrint('Агенда меньше 5 символов!') return end
 			cmd.Run('agenda', agenda)
 		end
 	end, fr)

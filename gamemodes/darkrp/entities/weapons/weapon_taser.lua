@@ -1,7 +1,7 @@
 SWEP.Base = "weapon_rp_base"
 
 if CLIENT then
-	SWEP.PrintName		= "Taser"
+	SWEP.PrintName		= "Тазер"
 	SWEP.Purpose		= "Fires a stunning projectile"
 	SWEP.Instructions	= "Left click to launch the taser"
 	SWEP.Category 		= 'RP'

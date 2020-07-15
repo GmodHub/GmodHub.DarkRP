@@ -1,7 +1,7 @@
 ENT.Base 					= 'npc_rp_base'
 ENT.Type 					= 'ai'
-ENT.PrintName 				= 'Jerome'
+ENT.PrintName 				= 'Шушера'
 ENT.AutomaticFrameAdvance 	= true
 ENT.Spawnable 			 	= true
 ENT.Category 				= 'RP NPCs'
-ENT.PressKeyText 			= 'Talk to Jerome'
+ENT.PressKeyText 			= 'Поговорить с Шушерой'

@@ -47,7 +47,7 @@ if (SERVER) then
 	ba.svar.Create('smotd', nil, true)
 
 	resource.AddFile 'resource/fonts/Michroma.ttf'
-	resource.AddFile 'materials/sup/gui/loading.vmt'
+	resource.AddFile 'materials/gmh/gui/loading.vmt'
 	return
 end
 
@@ -224,7 +224,7 @@ function PANEL:PerformLayout(w, h)
 	end
 end
 
-local mat_loading = Material 'sup/gui/loading'
+local mat_loading = Material 'gmh/gui/loading'
 function PANEL:Paint(w, h)
 	if self.BackgroundMaterial then
 		surface.SetDrawColor(255, 255, 255)

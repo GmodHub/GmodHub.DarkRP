@@ -257,7 +257,7 @@ if (CLIENT) then
 	SWEP.UseHands           = true
 end
 
-SWEP.Category			= "SUP Knives"
+SWEP.Category			= "GmodHub Knives"
 
 SWEP.Spawnable				= false
 SWEP.AdminSpawnable			= false

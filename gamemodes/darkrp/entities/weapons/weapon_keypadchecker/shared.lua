@@ -7,7 +7,7 @@ end
 
 SWEP.Base = "weapon_base"
 
-SWEP.PrintName = "Admin keypad checker"
+SWEP.PrintName = "Чекер Кейпадов"
 SWEP.Instructions = "Left click on a keypad or fading door to check it, right click to clear"
 SWEP.Slot = 1
 SWEP.DrawAmmo = false

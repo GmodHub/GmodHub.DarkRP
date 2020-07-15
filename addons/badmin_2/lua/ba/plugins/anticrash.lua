@@ -9,7 +9,7 @@ elseif (CLIENT) then
 	surface.CreateFont ('AntiCrash.Font', {
 		font = 'coolvetica',
 		size = 50,
-		weight = 300, 
+		weight = 300,
 		extended = true
 	})
 
@@ -35,13 +35,13 @@ elseif (CLIENT) then
 		function Crash_Frame:Paint(w, h)
 			local delta = math.Clamp(ReconnectTime - CurTime(), 1, 40)
 			draw.OutlinedBox(0, 0,w, h , ui.col.Black, (delta % 1 < 0.2 and ui.col.Red or ui.col.Outline))
-			draw.SimpleText('Uh Oh, reconnecting in:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Упс, переподключение через:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
 			draw.SimpleText(math.ceil(delta), 'AntiCrash.Font', w*0.5, 75, delta % 1 < 0.2 and ui.col.Red or ui.col.White, TEXT_ALIGN_CENTER)
 		end
 	end
 
 	local function statuserror()
-		LocalPlayer():ChatPrint('RECONNECT ERROR: FAILED TO CHECK SERVER STATUS. YOU WILL BE RECONNECTED AS SOON AS WE CAN VERIFY THE SERVER IS ONLINE!')
+		LocalPlayer():ChatPrint('ОШИБКА ПЕРЕПОДКЛЮЧЕНИЯ: НЕ УДАЛОСЬ ПРОВЕРИТЬ СТАТУС СЕРВЕРА. ВЫ БУДЕТЕ ПЕРЕПОДКЛЮЧЕНЫ КАК ТОЛЬКО СЕРВЕР БУДЕТ ОНЛАЙН!')
 	end
 
 	local function connect(ip)
@@ -50,7 +50,7 @@ elseif (CLIENT) then
 
 	local function CheckStatus()
 		ReconnectTime = CurTime() + 15
-		http.Fetch('https://gmodhub.com/api/anticrash/?ip=' .. info.ServerIP .. '&altip=' .. info.AltServerIP, function(body)
+		http.Fetch('https://gmodhub.com/api/anticrash.php', function(body)
 			body = string.Trim(body):lower()
 
 			print(body)
@@ -66,7 +66,7 @@ elseif (CLIENT) then
 				function Crash_Frame:Paint(w, h)
 					local delta = math.Clamp(ReconnectTime - CurTime(), 1, 45)
 					draw.OutlinedBox(0, 0,w, h , ui.col.Black, (delta % 1 < 0.2 and ui.col.Red or ui.col.Outline))
-					draw.SimpleText('Connection attempt:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
+					draw.SimpleText('Попытка подключения:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
 					draw.SimpleText('#' .. ReconnectTrys, 'AntiCrash.Font', w*0.5, 75, delta % 1 < 0.2 and ui.col.Red or ui.col.White, TEXT_ALIGN_CENTER)
 				end
 			else

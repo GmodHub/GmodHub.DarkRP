@@ -1,5 +1,0 @@
-<Logging continued from "data/ulx_logs/12-01-19.txt">
-[00:02:05] Dropped "DidVaitel" from server<STEAM_0:1:74202541>
-[00:02:06] Client "DidVaitel" connected.
-[00:02:16] Client "DidVaitel" spawned in server <STEAM_0:1:74202541> (took 10 seconds).
-[00:06:14] Dropped "DidVaitel" from server<STEAM_0:1:74202541>

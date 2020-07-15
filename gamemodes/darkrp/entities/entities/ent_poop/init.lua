@@ -25,7 +25,7 @@ function ENT:Use(activator, caller)
 		rp.Notify(caller, NOTIFY_ERROR, term.Get('YouGotAIDS'))
 		activator:EmitSound("vo/sandwicheat09.wav", 100, 100)
 		self:Remove()
-		GiveSTD(caller)
+		caller:GiveSTD("Диарея")
 		return
 	end
 

@@ -1,6 +1,0 @@
-Sat May  9 21:50:12 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
-Sat May  9 21:50:12 2020	DidVaitel (STEAM_0:1:74202541) spawned
-Sat May  9 22:08:28 2020	DidVaitel (STEAM_0:1:74202541): /return
-Sat May  9 22:12:56 2020	DidVaitel (STEAM_0:1:74202541) disconnected
-Sat May  9 22:22:03 2020	DidVaitel (STEAM_0:1:74202541) has joined the game
-Sat May  9 22:22:03 2020	DidVaitel (STEAM_0:1:74202541) spawned

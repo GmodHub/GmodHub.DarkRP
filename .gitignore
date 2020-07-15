@@ -2,6 +2,7 @@
 # User-specific files
 *.rsuser
 addons/css/
+addons/content/
 backgrounds/
 bin/
 cache/

@@ -15,7 +15,7 @@ function ENT:Initialize()
 	self:PhysWake()
 
 	self.AutoRemove = CurTime() + math.random(900, 1800)
-	
+
 	self.Text = 'Sample Text'
 end
 
@@ -41,6 +41,6 @@ net.Receive('rp.Note.Text', function(len, pl)
 	if (!IsValid(ent) or ent:GetClass() != 'ent_note' or ent.ItemOwner != pl) then return end
 
 	ent.Text = net.ReadString()
-	
-	rp.Notify(pl, NOTIFY_GREEN, rp.Term('NoteUpdated'))
+
+	rp.Notify(pl, NOTIFY_GREEN, term.Get('NoteUpdated'))
 end)

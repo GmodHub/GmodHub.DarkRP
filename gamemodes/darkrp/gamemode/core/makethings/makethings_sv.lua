@@ -296,7 +296,7 @@ local function BuyShipment(ply, args)
 	crate:SetPos(Vector(tr.HitPos.x, tr.HitPos.y, tr.HitPos.z))
 	crate:Spawn()
 	if found.shipmodel then
-		crate:SetModel("models/sup/shipment/shimpmentcrate.mdl")
+		crate:SetModel("models/gmh/shipment/shimpmentcrate.mdl")
 	end
 	crate:SetContents(foundKey, found.amount)
 
@@ -328,7 +328,6 @@ local function BuyAmmo(ply, args)
 
 	local found
 	for k,v in pairs(rp.ammoTypes) do
-	print(args)
 		if v.ammoType == args then
 			found = v
 			break

@@ -1,13 +1,13 @@
 dash.IncludeSH 'shared.lua'
 
-ENT.IconMaterial = Material 'sup/entities/npcs/jerome.png'
+ENT.IconMaterial = Material 'gmh/entities/npcs/jerome.png'
 
 local fr
 function ENT:PlayerUse()
 	if IsValid(fr) then fr:Close() end
 
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Jerome')
+		self:SetTitle('Шушера')
 		self:SetSize(450, 500)
 		self:Center()
 		self:MakePopup()
@@ -18,20 +18,20 @@ function ENT:PlayerUse()
 
 	ui.Create('DLabel', function(self, p)
 		self:SetPos(5, 30)
-		self:SetText('Yo yo my man got some dat Sticky Icky?\nMaybe some dat white fluff?\nI\'m buying for ' .. buyPerc .. '% value right now' .. (isRich and ' muh nigga.' or ' young blood.') .. '\nJust gravity gun it into me my man ' .. LocalPlayer():Name() .. '.')
+		self:SetText('Слышь, у тебя есть шмаль?\nИли может белый порошочек?\nСейчас я покупаю за ' .. buyPerc .. '% от цены,' .. (isRich and ' роднуля.' or ' молокосос.') .. '\nПросто поднеси товар ко мне, ' .. LocalPlayer():Name() .. '.')
 		self:SizeToContents()
 	end, fr)
 
 	ui.Create('DLabel', function(self, p)
 		self:SetPos(5, 125)
-		self:SetText('Here are my prices:')
+		self:SetText('Вот мои расценки:')
 		self:SizeToContents()
 	end, fr)
 
 	ui.Create('ui_listview', function(self)
 		self:SetPos(5, 150)
 		self:SetSize(440, 345)
-		self:AddSpacer('Prices:')
+		self:AddSpacer('Цены:')
 		for k, v in ipairs(rp.Drugs) do
 
 			self:AddItem(ui.Create('DButton', function(self)

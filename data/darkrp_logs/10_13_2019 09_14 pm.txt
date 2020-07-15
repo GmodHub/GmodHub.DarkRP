@@ -1,7 +1,0 @@
-Sun Oct 13 21:14:43 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Sun Oct 13 21:14:43 2019	Xyesos (STEAM_0:1:74202541) spawned
-Sun Oct 13 21:19:21 2019	Murad (STEAM_0:1:442425654) has joined the game
-Sun Oct 13 21:19:21 2019	Murad (STEAM_0:1:442425654) spawned
-Sun Oct 13 21:24:31 2019	Murad was killed by Xyesos with a weapon_357
-Sun Oct 13 21:24:38 2019	Murad (STEAM_0:1:442425654) disconnected
-Sun Oct 13 21:46:41 2019	Xyesos (STEAM_0:1:74202541) disconnected

@@ -3,10 +3,6 @@ dash.IncludeSH 'shared.lua'
 
 ENT.NPCModel = 'models/Barney.mdl'
 
-function ENT:CanUse(pl)
-	return pl:IsGov()
-end
-
 rp.AddCommand('copbuy', function(pl, itemid)
 	if (not pl:IsGov()) then return end
 

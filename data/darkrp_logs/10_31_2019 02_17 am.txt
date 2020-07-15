@@ -1,9 +1,0 @@
-Thu Oct 31 02:17:46 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Oct 31 02:17:46 2019	Police Man (STEAM_0:1:74202541) spawned
-Thu Oct 31 02:17:56 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
-Thu Oct 31 02:17:56 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
-Thu Oct 31 02:19:00 2019	Money Printer Guy was killed by Police Man with a weapon_shotgun
-Thu Oct 31 02:19:05 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
-Thu Oct 31 02:20:34 2019	Money Printer Guy was killed by Police Man with a weapon_shotgun
-Thu Oct 31 02:20:43 2019	Money Printer Guy (STEAM_0:1:164666257) spawned
-Thu Oct 31 02:23:13 2019	Console set DidVaitel's money to $555,555,555

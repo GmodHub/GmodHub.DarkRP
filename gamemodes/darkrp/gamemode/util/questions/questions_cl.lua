@@ -64,7 +64,7 @@ end)
 
 local PANEL = {}
 
-local material_key = Material 'sup/hud/button.png'
+local material_key = Material 'gmh/hud/button.png'
 function PANEL:Init()
 	self.Label = ui.Label('QUESTION?', 'ui.18', 0, 0, self)
 

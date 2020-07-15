@@ -74,10 +74,10 @@ hook('InitPostEntity', function()
 		local copy = body
 		body = util.JSONToTable(body)
 		if (not body) then
-			if (file.Exists("sup/prop_whitelist.dat", "DATA")) then
-				body = util.JSONToTable(file.Read("sup/prop_whitelist.dat", "DATA"))
+			if (file.Exists("gmh/prop_whitelist.dat", "DATA")) then
+				body = util.JSONToTable(file.Read("gmh/prop_whitelist.dat", "DATA"))
 			else
-				spawnmenu.AddPropCategory(spawnlist.name .. ' Offline', 'SUP Whitelist Offline', spawnlist.contents, spawnlist.icon, spawnlist.id, 0)
+				spawnmenu.AddPropCategory(spawnlist.name .. ' Offline', 'GmodHub Whitelist Offline', spawnlist.contents, spawnlist.icon, spawnlist.id, 0)
 				return
 			end
 		else
@@ -89,7 +89,7 @@ hook('InitPostEntity', function()
 
 			spawnmenu.AddPropCategory(spawnlist.name, spawnlist.name, spawnlist.contents, spawnlist.icon, spawnlist.id, 0)
 
-			file.Write("sup/prop_whitelist.dat", copy)
+			file.Write("gmh/prop_whitelist.dat", copy)
 		end
 
 	end)

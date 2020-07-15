@@ -59,9 +59,9 @@ local function drawbar(x, y, w, h, perc, mat, text)
 end
 
 
-local material_ink 		= Material 'sup/printer/ink-cartridge-refill.png'
-local material_hp 		= Material 'sup/printer/health-care.png'
-local material_print 	= Material 'sup/printer/printer.png'
+local material_ink 		= Material 'gmh/printer/ink-cartridge-refill.png'
+local material_hp 		= Material 'gmh/printer/health-care.png'
+local material_print 	= Material 'gmh/printer/printer.png'
 
 function ENT:Draw()
 	self:DrawModel()

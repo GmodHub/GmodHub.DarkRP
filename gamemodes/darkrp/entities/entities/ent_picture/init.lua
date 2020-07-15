@@ -5,18 +5,16 @@ include('shared.lua')
 util.AddNetworkString('rp.OpenImageWindow')
 
 function ENT:Initialize()
-	self:SetModel('models/props/cs_office/offinspg.mdl')
-	self:SetMaterial('models/debug/debugwhite')
+	self:SetModel('models/props/cs_office/offcertificatea.mdl')
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
-	
+	self:SetModelScale(4)
 	self:PhysWake()
 
-	self:SetURL('http://portal.superiorservers.co/static/images/favicon.png')
+	self:SetURL('https://gmodhub.com/static/images/favicon.png')
 
-	timer.Simple(0, function() self:CPPISetOwner(self.ItemOwner) end)
 end
 
 function ENT:Use(pl)
@@ -55,28 +53,29 @@ local function EscapeURL(url)
 	return url
 end
 
-rp.AddCommand('setimage', function(pl, text, args)
+rp.AddCommand('setimage', function(pl, url)
 	local ent = pl:GetEyeTrace().Entity
 
-	if (not args[1]) or (not IsValidURL(args[1])) then
-		pl:Notify(NOTIFY_ERROR, rp.Term('InvalidURL'))
-	elseif IsValid(ent) and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) then
-		ent:SetURL(EscapeURL(args[1]))
+	if (not url) or (not IsValidURL(url)) then
+		pl:Notify(NOTIFY_ERROR, term.Get('InvalidURL'))
+	elseif IsValid(ent) and (ent:GetClass() == "ent_picture") and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) then
+		ent:SetURL(EscapeURL(url))
+	end
+end)
+:AddParam(cmd.STRING)
+
+rp.AddCommand('setimageavatar', function(pl)
+	local ent = pl:GetEyeTrace().Entity
+
+	if IsValid(ent) and (ent:GetClass() == "ent_picture") and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) then
+		ent:SetURL('https://gmod-api.superiorservers.co/api/avatar/' .. pl:SteamID64() )
 	end
 end)
 
-rp.AddCommand('setimageavatar', function(pl, text, args)
+rp.AddCommand('setimageorg', function(pl)
 	local ent = pl:GetEyeTrace().Entity
 
-	if IsValid(ent) and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) then
-		ent:SetURL('http://portal.superiorservers.co/cache/avatars/' .. pl:SteamID64() .. '.jpg')
-	end
-end)
-
-rp.AddCommand('setimageorg', function(pl, text, args)
-	local ent = pl:GetEyeTrace().Entity
-
-	if IsValid(ent) and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) and pl:GetOrg() then
+	if IsValid(ent) and (ent:GetClass() == "ent_picture") and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) and pl:GetOrg() then
 		ent:SetURL('ORG:' .. pl:GetOrg())
 	end
 end)

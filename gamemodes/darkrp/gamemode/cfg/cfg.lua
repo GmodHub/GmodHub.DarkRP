@@ -2,6 +2,7 @@ rp.cfg.StartMoney 			= 25000
 rp.cfg.WelfareAmount		= 200
 rp.cfg.WelfareCutoff		= 50000
 rp.cfg.StartKarma			= 50
+rp.cfg.RespawnTime 		= 45
 
 rp.cfg.MoneyPerKarma 		= 125
 rp.cfg.SecondMoneyPerKarma	= 150
@@ -162,7 +163,7 @@ rp.cfg.MayorMachines = {
 rp.cfg.BailMachines = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(-1572.730713, -109.968750, -95.968750),
+			Pos = Vector(4010, -880, 106),
 			Ang = Angle(0, 90, 0),
 		},
 	}
@@ -181,29 +182,27 @@ rp.cfg.GenomeMachines = {
 -- Cop shops
 rp.cfg.CopShops = {
 	rp_bangclaw = {
-		Pos = Vector(-1974, 328, -95),
-		Ang = Angle(0, 0, 0),
-	}
+		{
+			Pos = Vector(4381, -766, 72),
+			Ang = Angle(0, -180, 0),
+		}
+	},
 }
 
 -- Drug buyers
 rp.cfg.DrugBuyers = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(3503, 6643, -196),
-			Ang = Angle(0, 180, 0),
+			Pos = Vector(79, 1168, 130),
+			Ang = Angle(0, 90, 0),
 		},
 		{
-			Pos = Vector(3143.696045, 1865.705322, -195.968750),
-			Ang = Angle(0, 175, 0),
+			Pos = Vector(5075, -4316, 130),
+			Ang = Angle(0, 90, 0),
 		},
 		{
-			Pos = Vector(4081.072266, -4007.565186, -178.118484),
+			Pos = Vector(1269, -1009, -472),
 			Ang = Angle(0, 0, 0),
-		},
-		{
-			Pos = Vector(3272.068604, -5031.198730, -178.202591),
-			Ang = Angle(0, 314, 0),
 		}
 	}
 }
@@ -211,12 +210,12 @@ rp.cfg.DrugBuyers = {
 rp.cfg.GunBuyers = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(-556, 195, -130),
-			Ang = Angle(0, 90, 0),
+			Pos = Vector(5967, -1146, 130),
+			Ang = Angle(0, 180, 0),
 		},
 		{
-			Pos = Vector(5860, 1006, -208),
-			Ang = Angle(0, 138, 0),
+			Pos = Vector(2710, -4131, -232),
+			Ang = Angle(0, 90, 0),
 		}
 	},
 }
@@ -224,8 +223,8 @@ rp.cfg.GunBuyers = {
 rp.cfg.KarmaSellers = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(2005, 910, -130),
-			Ang = Angle(0, -1, 0),
+			Pos = Vector(1039, -734, 90),
+			Ang = Angle(0, 150, 0),
 		}
 	},
 }
@@ -285,18 +284,21 @@ rp.cfg.BailCostPerMin 	= 1500
 
 rp.cfg.Jails = {
 	rp_bangclaw = {
-		Vector(-2505, 374, -162),
-		Vector(-1999, 1110, 253)
+		Vector(3904.823486, -1153.005371, 178.720261),
+		Vector(4400.233398, -959.236084, 322.324036)
 	},
 }
 
 rp.cfg.JailPos = {
 	rp_bangclaw = {
-		Vector(-2370, 474, -160),
-		Vector(-2206, 498, -160),
-		Vector(-2078, 995, -160),
-		Vector(-2265, 985, -160),
-		Vector(-2415, 995, -160)
+		Vector(4336, -1057, 200),
+		Vector(4289, -1000, 200),
+		Vector(4200, -1027, 200),
+		Vector(4133, -1029, 200),
+		Vector(4155, -1087, 200),
+		Vector(4032, -1065, 200),
+		Vector(3987, -1045, 200),
+		Vector(3946, -1008, 200),
 	}
 }
 
@@ -853,14 +855,14 @@ local function newType(name) local id = table.insert(rp.cfg.DeathTypes, name) rp
 rp.cfg.DeathTypeStrings = {
 	[newType('Default')]		= 'Вы умерли',
 	[newType('Bounty')]			= 'Вы были убиты за деньги',
-	[newType('Falling')]		= 'В умерли от падения с большой высоты',
+	[newType('Falling')]		= 'Вы умерли от падения с большой высоты',
 	[newType('Goomba')]			= 'Вы были трусливо растоптаны!',
 	[newType('Murder')]			= 'Вы были убиты',
 	[newType('Hunger')]			= 'Вы умерли от голода',
 	[newType('Overdose')]		= 'Вы умерли от передозировки',
 	[newType('Prolapse')]		= 'Вы умерли от анального коллапса',
 	[newType('Dick')]			= 'Ваш дружок не выдержал нагрузки. Как неловко-то!',
-	[newType('STD')]			= 'Вы умерли от СПИД',
+	[newType('STD')]			= 'Вы умерли от болезни',
 	[newType('Heroin')]			= 'Зависимость это болезнь',
 	[newType('Suicide')]		= 'Вы выбрали самый лёгкий метод',
 	[newType('Burgatron')]		= 'Вас съели.. ммм, вкуснятина!',

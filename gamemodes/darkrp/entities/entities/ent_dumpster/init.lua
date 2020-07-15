@@ -67,7 +67,7 @@ function ENT:EmitItems(searcher)
 	self:EmitSound("physics/metal/metal_solid_strain5.wav", 300, 100)
 	local pos = self:GetPos() + ((self:GetAngles():Up() * 15) + (self:GetAngles():Forward() * 20))
 
-	if math.random(1, 100) <= 30 then
+	if searcher:CallSkillHook(SKILL_SCAVENGE) <= 50 then
 		local ent = ents.Create(table.Random(DumpsterItems["Weapons"]))
 		ent:SetPos(pos)
 		ent:Spawn()

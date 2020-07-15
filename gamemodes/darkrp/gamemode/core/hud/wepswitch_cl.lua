@@ -1,18 +1,18 @@
 -- TODO: Dont ever touch this messy pile again
 local categories = {
-	'Build',
+	'Строительство',
 	'Roleplay',
-	'BMI',
-	'Guns'
+	'Нелегальное',
+	'Оружие'
 }
 
 local weaponMap = {
 	weapon_physgun = {
-		Name = 'Physgun',
+		Name = 'Физган',
 		Slot = 1
 	},
 	weapon_physcannon = {
-		Name = 'Gravgun',
+		Name = 'Гравитиган',
 		Slot = 1
 	},
 	weapon_rpg = {
@@ -20,11 +20,11 @@ local weaponMap = {
 		Slot = 3
 	},
 	weapon_crossbow = {
-		Name = 'Crossbow',
+		Name = 'Арбалет',
 		Slot = 3
 	},
 	weapon_crowbar = {
-		Name = 'Crowbar',
+		Name = 'Ломик',
 		Slot = 3
 	},
 	weapon_slam = {
@@ -32,15 +32,15 @@ local weaponMap = {
 		Slot = 3
 	},
 	weapon_stunstick = {
-		Name = 'Stunstick',
+		Name = 'Палка',
 		Slot = 3
 	},
 	weapon_bugbait = {
-		Name = 'Bugbait',
+		Name = 'Говно',
 		Slot = 2
 	},
 	weapon_frag = {
-		Name = 'Grenade',
+		Name = 'Граната',
 		Slot = 3
 	}
 }

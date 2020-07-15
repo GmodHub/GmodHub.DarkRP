@@ -1,8 +1,0 @@
-Sat Oct 19 04:38:47 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Sat Oct 19 04:38:47 2019	gosa (STEAM_0:1:74202541) spawned
-Sat Oct 19 05:20:45 2019	gosa (STEAM_0:1:74202541): /rpname ffffffffffffffffffffffffffffffffffffffffff
-Sat Oct 19 05:20:55 2019	gosa (STEAM_0:1:74202541): /rpname ffffffffffffffffffffffffffffff
-Sat Oct 19 05:22:05 2019	ffffffffffffffffffffffffffffff (STEAM_0:1:74202541): /rpname fffffffffffffffffffffffffffffff
-Sat Oct 19 05:26:39 2019	ffffffffffffffffffffffffffffff (STEAM_0:1:74202541): /rpname Losi
-Sat Oct 19 08:18:57 2019	Bot01 (BOT) has joined the game
-Sat Oct 19 08:18:57 2019	Bot01 (BOT) spawned

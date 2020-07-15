@@ -1,5 +1,3 @@
-resource.AddSingleFile('sound/sup/shit.wav')
-
 local ChatSounds = {
 	["well now what?"] = {"vo/npc/male01/gordead_ans15.wav"},
 	["heads up"] = {"vo/npc/male01/headsup01.wav", "vo/npc/male01/headsup02.wav"},
@@ -711,7 +709,7 @@ local ChatSounds = {
 	["thank goodness"] = {"vo/k_lab/kl_relieved.wav"},
 	["oh my god!"]   = {"vo/NovaProspekt/al_ohmygod.wav"},
 	["you promised"] = {"vo/NovaProspekt/mo_promised.wav"},
-	['shit on shit'] = {'mk/shit.wav'}
+	['shit on shit'] = {'gmh/shit.ogg'}
 }
 
 hook("PlayerSay", "Chat Sounds", function(pl, text, teamOnly)

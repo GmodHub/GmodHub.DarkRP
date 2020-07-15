@@ -221,36 +221,36 @@ end
 --
 -- Commands
 --
-rp.AddCommand('whitelist', function(pl, text, args)
-	if pl:IsSuperAdmin() then
-		local model = args[1]
-		if (not model) then return end
 
-		model = string.lower(model or "")
-		model = string.Replace(model, "\\", "/")
-		model = string.gsub(model, "[\\/]+", "/")
+rp.AddCommand('whitelist', function(pl, model)
+	if (not model) then return end
 
-		if rp.pp.IsBlockedModel(model) then
-			local pc_count =table.Count(rp.pp.ModelCache)
-			if (pc_count >= 100) then
-				pl:Notify(NOTIFY_ERROR, term.Get('CacheFull'), pc_count)
-				return
-			end
+	model = string.lower(model or "")
+	model = string.Replace(model, "\\", "/")
+	model = string.gsub(model, "[\\/]+", "/")
 
-			local wl_count = table.Count(rp.pp.Whitelist)
-			if (wl_count >= 750) then
-				pl:Notify(NOTIFY_ERROR, term.Get('WhitelistFull'), wl_count)
-				return
-			end
-
-			rp.pp.WhitelistModel(model)
-			rp.NotifyAll(NOTIFY_GENERIC, term.Get('PropWhitelisted'), model, pl)
-		else
-			rp.pp.BlacklistModel(model)
-			rp.NotifyAll(NOTIFY_GENERIC, term.Get('PropBlacklisted'), model, pl)
+	if rp.pp.IsBlockedModel(model) then
+		local pc_count =table.Count(rp.pp.ModelCache)
+		if (pc_count >= 100) then
+			pl:Notify(NOTIFY_ERROR, term.Get('CacheFull'), pc_count)
+			return
 		end
+
+		local wl_count = table.Count(rp.pp.Whitelist)
+		if (wl_count >= 750) then
+			pl:Notify(NOTIFY_ERROR, term.Get('WhitelistFull'), wl_count)
+			return
+		end
+
+		rp.pp.WhitelistModel(model)
+		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PropWhitelisted'), model, pl)
+	else
+		rp.pp.BlacklistModel(model)
+		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PropBlacklisted'), model, pl)
 	end
 end)
+:AddParam(cmd.STRING)
+:SetFlag '*'
 
 rp.AddCommand('shareprops', function(pl, text, args)
 	local targ = rp.FindPlayer(args[1])
@@ -276,12 +276,11 @@ end)
 
 
 rp.AddCommand('tooleditor', function(pl, text, args)
-	if pl:IsRoot() then
-		net.Start('rp.toolEditor')
-			net.WriteTable(rp.pp.BlockedTools)
-		net.Send(pl)
-	end
+	net.Start('rp.toolEditor')
+		net.WriteTable(rp.pp.BlockedTools)
+	net.Send(pl)
 end)
+:SetFlag '*'
 
 local ranks = {
 	[0] = 'user',
@@ -290,14 +289,13 @@ local ranks = {
 	[3] = "SA",
 	[4] = 'CO'
 }
-rp.AddCommand('settoolgroup', function(pl, text, args)
-	if pl:IsRoot() then
-		if not args[1] or not args[2] then return end
-		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PPGroupSet'), args[1], ranks[tonumber(args[2])], pl)
-		rp.pp.AddBlockedTool(args[1], tonumber(args[2]))
-	end
+rp.AddCommand('settoolgroup', function(pl, tool, rank)
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('PPGroupSet'), tool, ranks[rank], pl)
+	rp.pp.AddBlockedTool(tool, rank)
 end)
-
+:AddParam(cmd.STRING)
+:AddParam(cmd.NUMBER)
+:SetFlag '*'
 
 -- Overwrite
 concommand.Add('gmod_admin_cleanup', function(pl, cmd, args)

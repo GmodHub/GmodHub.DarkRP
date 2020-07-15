@@ -1,6 +1,0 @@
-Thu Oct 17 03:50:40 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Oct 17 03:50:40 2019	gosa (STEAM_0:1:74202541) spawned
-Thu Oct 17 04:52:29 2019	gosa (STEAM_0:1:74202541) disconnected
-Thu Oct 17 06:17:35 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Oct 17 06:17:35 2019	gosa (STEAM_0:1:74202541) spawned
-Thu Oct 17 06:34:15 2019	gosa (STEAM_0:1:74202541) disconnected

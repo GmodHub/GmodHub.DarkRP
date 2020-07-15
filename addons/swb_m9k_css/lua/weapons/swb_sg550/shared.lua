@@ -16,7 +16,7 @@ if CLIENT then
 	SWEP.ScopeOverrideMaterialIndex = 9
 	SWEP.ScopeFlipX = true
 	SWEP.TranslateY = -0.06
-	SWEP.ScopeTexture = Material "sup/swb/scopes/scope1.png"
+	SWEP.ScopeTexture = Material "gmh/swb/scopes/scope1.png"
 
 	SWEP.DelayedZoom = true
 	SWEP.SimulateCenterMuzzle = true

@@ -1,1 +1,1 @@
-return {File='sup/rp/textures-597687171.lmp',FileName='textures',CRC='558161692',Len=5235233,ShouldLoad=true}
+return {File='gmh/rp/textures.lmp',FileName='textures',CRC='558161692',Len=5235233,ShouldLoad=true}

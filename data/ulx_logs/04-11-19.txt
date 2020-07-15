@@ -1,7 +1,0 @@
-[22:12:03] New map: gm_construct
-[22:12:55] Server is shutting down/changing levels.
-
-
-
-[22:12:59] New map: gm_construct
-[22:50:59] Client "🖤eLeCtrOssSnake🖤" connected.

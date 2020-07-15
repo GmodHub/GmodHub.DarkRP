@@ -17,7 +17,7 @@ function PANEL:Init()
 
 	self.btnClose = ui.Create('DButton', self)
 	self.btnClose:SetText('')
-	self.btnClose.DoClick = function (button) surface.PlaySound('sup/ui/beep.ogg') self:Close() end
+	self.btnClose.DoClick = function (button) surface.PlaySound('gmh/ui/beep.ogg') self:Close() end
 	self.btnClose.Paint = function(panel, w, h) derma.SkinHook('Paint', 'WindowCloseButton', panel, w, h) end
 
 	self.lblTitle = ui.Create('DLabel', self)
@@ -28,7 +28,7 @@ function PANEL:Init()
 	self:SetSizable(false)
 	self:SetScreenLock(false)
 	self:SetDeleteOnClose(true)
-	self:SetTitle('Window')
+	self:SetTitle('Окно')
 	self:SetSkin('SUP')
 
 	self:SetMinWidth(50)

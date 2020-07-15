@@ -1,4 +1,4 @@
-
+/*
 -- Localize
 local setmetatable 	= _G.setmetatable
 
@@ -226,7 +226,7 @@ end)
 scan(function()
 	for k, v in g.pairs(g_lookup) do
 		if (hashfunc(g.rawget(_G, k)) ~= v) then
-			detect(3)
+			//detect(3)
 			break
 		end
 	end

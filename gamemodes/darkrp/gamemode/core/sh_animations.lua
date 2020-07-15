@@ -275,7 +275,6 @@ function GM:GrabEarAnimation( ply )
 end
 
 function GM:CalcMainActivity( ply, velocity )
-
 	ply.CalcIdeal = ACT_MP_STAND_IDLE
 	ply.CalcSeqOverride = -1
 

@@ -15,6 +15,8 @@ function ENT:Initialize()
 	self:DropToFloor()
 	self:SetCollisionGroup(COLLISION_GROUP_DEBRIS_TRIGGER )
 	self:SetMaxYawSpeed(90)
+
+	self:SetTrigger(true)
 end
 
 function ENT:Use(activator, caller, usetype, value)

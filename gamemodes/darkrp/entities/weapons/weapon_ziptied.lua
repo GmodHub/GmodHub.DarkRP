@@ -31,7 +31,6 @@ function SWEP:DrawHUD()
 	if (self.Owner:GetNetVar('ZiptieCutting') != nil) then return end
 
 	self.struggleTime = self.struggleTime or self.Owner:CallSkillHook(SKILL_ZIPTIE_BREAK_FREE, rp.cfg.ZiptieStruggleTime)
-	print(self.struggleTime)
 	
 	if (CurTime() < self.CreatedTime + self.struggleTime) then
 		local tleft = math.max(self.CreatedTime +  self.struggleTime - CurTime(), 0)

@@ -193,13 +193,13 @@ net("rp.PermaWeaponSettings", function(len,pl)
 
 	// Vapes
 	if net.ReadBool() then
-		local weapon = rp.shop.Get(net.ReadUInt(8)):GetWeapon() or NULL
+		local weapon = rp.shop.Get(net.ReadUInt(8)) or NULL
 
-		//if (isstring(weapon)) then
-		//	weapons[weapon] = true
-		//end
+		if (isstring(weapon:GetWeapon())) then
+			weapons[weapon:GetWeapon()] = weapon.ID
+		end
 	end
-	PrintTable(weapons)
+
 	if !pl:GetVar('SelectedPermaWeapons') then
 		pl:SetVar('SelectedPermaWeapons', weapons)
 		hook.Call('PlayerLoadout', nil, pl)
@@ -217,6 +217,9 @@ hook('PlayerLoadout', 'rp.shop.PlayerLoadout', function(pl)
 	for k, v in ipairs(pl:GetPermaWeapons()) do
 		if (selected[v]) then
 			pl:Give(v)
+			if (v == "weapon_vape") then
+				pl:GetWeapon(v).Color = selected[v]
+			end
 		end
 	end
 end)

@@ -1,1 +1,1 @@
-return {File='sup/rp/knives-1987163312.lmp',FileName='knives',CRC='558161692',Len=12661659,ShouldLoad=true}
+return {File='gmh/rp/knives.lmp',FileName='knives',CRC='558161692',Len=12661659,ShouldLoad=true}

@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = 'weapon_rp_base'
 
 if CLIENT then
-	SWEP.PrintName 					= 'Keys'
+	SWEP.PrintName 					= 'Ключи'
 	SWEP.Slot 						= 2
 	SWEP.SlotPos 					= 0
 	SWEP.Instructions 				= 'Left or right click to toggle lock or knock\nReload to sell a door'

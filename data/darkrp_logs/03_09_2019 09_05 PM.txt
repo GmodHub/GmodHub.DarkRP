@@ -1,4 +1,0 @@
-Sat Mar  9 21:05:03 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Sat Mar  9 21:05:03 2019	DidVaitel (STEAM_0:1:74202541) spawned
-Sat Mar  9 21:05:23 2019	DidVaitel (STEAM_0:1:74202541) spawned SENT ghomes_seller
-Sat Mar  9 21:06:06 2019	DidVaitel (STEAM_0:1:74202541) disconnected

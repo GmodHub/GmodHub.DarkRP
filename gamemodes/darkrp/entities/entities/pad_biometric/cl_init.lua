@@ -1,9 +1,9 @@
 dash.IncludeSH 'shared.lua'
 
-local mat_faceID = Material('sup/entities/keypad/faceid.png', 'smooth')
-local mat_lense = Material('sup/entities/biometric/lens.png', 'smooth')
-local mat_locked = Material('sup/entities/biometric/locked.png', 'smooth')
-local mat_unlocked = Material('sup/entities/biometric/unlocked.png', 'smooth')
+local mat_faceID = Material('gmh/entities/keypad/faceid.png', 'smooth')
+local mat_lense = Material('gmh/entities/biometric/lens.png', 'smooth')
+local mat_locked = Material('gmh/entities/biometric/locked.png', 'smooth')
+local mat_unlocked = Material('gmh/entities/biometric/unlocked.png', 'smooth')
 
 local lookEnt, fr, ent
 function ENT:Draw()

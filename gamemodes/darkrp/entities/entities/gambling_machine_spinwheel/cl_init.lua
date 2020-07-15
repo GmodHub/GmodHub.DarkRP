@@ -1,8 +1,8 @@
 dash.IncludeSH 'shared.lua'
 
 
-local mat_bg = Material 'sup/entities/spinwheel_background.png'
-local mat_wheel = Material 'sup/entities/spinwheel_wheel.png'
+local mat_bg = Material 'gmh/entities/spinwheel_background.png'
+local mat_wheel = Material 'gmh/entities/spinwheel_wheel.png'
 local color_white = ui.col.White
 
 function ENT:DrawScreen()

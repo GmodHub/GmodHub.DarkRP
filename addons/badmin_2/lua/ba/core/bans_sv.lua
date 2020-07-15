@@ -34,24 +34,26 @@ function ba.bans.Sync(steamid64, cback)
 	end)
 end
 
-function ba.bans.IsBanned(steamid64)
+function ba.bans.IsBanned(steamid64, cback)
 	if (ba.bans.Cache[steamid64] ~= nil) and ((ba.bans.Cache[steamid64].unban_time > os.time()) or (ba.bans.Cache[steamid64].unban_time == 0)) then
+		if cback then cback(true, ba.bans.Cache[steamid64]) end
 		return true, ba.bans.Cache[steamid64]
 	end
-	return false
+	if cback then	cback(false, ba.bans.Cache[steamid64]) end
+	return false, ba.bans.Cache[steamid64]
 end
 ba.IsBanned = ba.bans.IsBanned
 
-function ba.bans.Ban(pl, reason, ban_len, admin, cback)
+function ba.bans.Add(pl, reason, ban_len, admin, cback)
 	local p_steamid 	= ba.InfoTo64(pl)
-	local p_ip 			= (ba.IsPlayer(pl) and pl:IPAddress() or '0')
-	local p_name 		= (ba.IsPlayer(pl) 	and pl:Name() or (ba.data.GetName(p_steamid) or 'Unknown'))
-	local a_steamid 	= (ba.IsPlayer(admin) and admin:SteamID64() or 0)
-	local a_name 		= (ba.IsPlayer(admin) and admin:Name() or 'Console')
+	local p_ip 			= (isplayer(pl) and pl:IPAddress() or '0')
+	local p_name 		= (isplayer(pl) 	and pl:Name() or (ba.data.GetName(p_steamid) or 'Unknown'))
+	local a_steamid 	= (isplayer(admin) and admin:SteamID64() or 0)
+	local a_name 		= (isplayer(admin) and admin:Name() or 'Console')
 	local ban_time 		= os.time()
 	local unban_time 	= ((ban_len == 0) and 0 or (ban_time + ban_len))
 
-	db:query_ex('INSERT INTO ba_bans(steamid, ip, name, reason, a_steamid, a_name, ban_time, ban_len, unban_time)VALUES("?","?","?","?","?","?","?","?","?");', {p_steamid, p_ip, p_name, reason, a_steamid, a_name, ban_time, ban_len, unban_time}, function(data)
+	db:Query('INSERT INTO ba_bans(steamid, ip, name, reason, a_steamid, a_name, ban_time, ban_len, unban_time)VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?);', p_steamid, p_ip, p_name, reason, a_steamid, a_name, ban_time, ban_len, unban_time, function(data)
 		ba.bans.Cache[p_steamid] = {
 			['a_steamid'] 	= a_steamid,
 			['a_name'] 		= a_name,
@@ -64,15 +66,15 @@ function ba.bans.Ban(pl, reason, ban_len, admin, cback)
 		}
 		hook.Call('OnPlayerBan', ba, pl)
 
-		if (hook.Call('KickOnPlayerBan', ba, pl, reason, ban_len, admin) ~= false) and ba.IsPlayer(pl) then pl:Kick(reason) end
+		if (hook.Call('KickOnPlayerBan', ba, pl, reason, ban_len, admin) ~= false) and isplayer(pl) then pl:Kick(reason) end
 
 		if cback then cback(data) end
 	end)
 end
 ba.Ban = ba.bans.Ban
 
-function ba.bans.Unban(steamid, reason, cback)
-	db:query_ex('UPDATE ba_bans SET unban_time="?", unban_reason="?" WHERE steamid="?" AND unban_time>? OR steamid="?" AND unban_time=0;', {os.time(), reason, steamid, os.time(), steamid}, function(data)
+function ba.bans.Remove(steamid, reason, cback)
+	db:Query('UPDATE ba_bans SET unban_time=?, unban_reason=? WHERE steamid=? AND unban_time>? OR steamid=? AND unban_time=0;', os.time(), reason, steamid, os.time(), steamid, function(data)
 		ba.bans.Cache[steamid] = nil
 		hook.Call('OnPlayerUnban', ba, steamid)
 		if cback then cback(data) end
@@ -80,14 +82,14 @@ function ba.bans.Unban(steamid, reason, cback)
 end
 ba.Unban = ba.bans.Unban
 
-function ba.bans.UpdateBan(steamid, reason, time, admin, cback)
-	local a_steamid = (ba.IsPlayer(admin) and admin:SteamID64() or 0)
-	local a_name = (ba.IsPlayer(admin) and admin:Name() or 'Console')
+function ba.bans.Update(steamid, reason, time, admin, cback)
+	local a_steamid = (isplayer(admin) and admin:SteamID64() or 0)
+	local a_name = (isplayer(admin) and admin:Name() or 'Console')
 	local ban_time = os.time()
 	local ban_len = time
 	local unban_time = ((ban_len == 0) and 0 or (ban_time + ban_len))
 
-	db:query_ex('UPDATE ba_bans SET reason="?", a_steamid="?", a_name="?", ban_time="?", ban_len="?", unban_time="?" WHERE steamid="?" AND unban_time>? OR steamid="?" AND unban_time=0;', {reason, a_steamid, a_name, ban_time, ban_len, unban_time, steamid, os.time(), steamid}, function(data)
+	db:Query('UPDATE ba_bans SET reason=?, a_steamid=?, a_name=?, ban_time=?, ban_len=?, unban_time=? WHERE steamid=? AND unban_time>? OR steamid=? AND unban_time=0;', reason, a_steamid, a_name, ban_time, ban_len, unban_time, steamid, os.time(), steamid, function(data)
 		ba.bans.Sync(steamid, function()
 			ba.bans.Cache[steamid]['a_steamid'] 	= a_steamid
 			ba.bans.Cache[steamid]['a_name'] 		= a_name
@@ -103,21 +105,32 @@ ba.UpdateBan = ba.bans.UpdateBan
 
 
 local msg = [[
-Ты забанен!
+Вы забанены!
 -------------------------------------
-Дата бана: %s
-Дата разбана: %s
+Дата Бана: %s
+Дата Разбана: %s
 Админ: %s
 Причина: %s
 -------------------------------------
-Аппеляция vk.com/mrkubu
+Аппеляция @ vk.com/gmdhub
 ]]
 
+local allowed = {
+	['76561198108670811'] = true, -- Me
+	['76561198171537170'] = true,
+	['76561198289598243'] = true,
+ }
+
 function ba.bans.CheckPassword(steamid, ip, pass, cl_pass, name)
-	local banned, data = ba.bans.IsBanned(steamid)
+	print(steamid .. " Password Check")
+	if not allowed[steamid] then
+		return false, 'Access Denied'
+	end
+
+	local banned, data = 	ba.bans.IsBanned(steamid)
 	if banned then
-		local banDate = os.date('%m/%d/%y - %H:%M', data.ban_time)
-		local unbanDate = ((data.unban_time == 0) and 'Never' or os.date('%m/%d/%y - %H:%M', data.unban_time))
+		local banDate = os.date('%d/%m/%y - %H:%M', data.ban_time)
+		local unbanDate = ((data.unban_time == 0) and '∞' or os.date('%d/%m/%y - %H:%M', data.unban_time))
 		local admin = data.a_name .. '(' .. util.SteamIDFrom64(data.a_steamid) .. ')'
 
 		return false, string.format(msg, banDate, unbanDate, admin, data.reason)

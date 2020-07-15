@@ -97,11 +97,11 @@ function PANEL:Init()
 end
 
 function PANEL:PerformLayout()
-	local w, h = math.ceil(self:GetWide() * 0.9703125), math.ceil(self:GetTall() * 0.7425)
+	local w, h = math.ceil(self:GetWide() * 0.9703125), math.ceil(self:GetTall() * 0.95)
 	self.PlayerList:SetSize(w, h)
 
 	local x, y = math.ceil(self:GetWide() - w)/2, math.ceil((self:GetTall() - h) - (self:GetTall() * 0.025))
-	self.PlayerList:SetPos(x, y)
+	self.PlayerList:SetPos(x, 20)
 	self.PlayerList:SetPadding(-1)
 
 	self.LogoButton:SetPos(self:GetWide()/2 - 75, 40)
@@ -195,10 +195,8 @@ function PANEL:Think()
 	end
 end
 
-local background = Material 'sup/gui/scoreboard/frame.png'
 function PANEL:Paint(w, h)
-	surface.SetDrawColor(255, 255, 255)
-	surface.SetMaterial(background)
+	surface.SetDrawColor(0, 0, 0, 120)
 	surface.DrawTexturedRect(0, 0, w, h)
 
 	surface.SetFont('rp.Scoreboard.Label')

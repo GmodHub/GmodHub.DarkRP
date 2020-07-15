@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = 'weapon_rp_base'
 
 if CLIENT then
-	SWEP.PrintName = "Medic Kit"
+	SWEP.PrintName = "Аптечка"
 	SWEP.Slot = 2
 	SWEP.Purpose = "Heal the wounded"
 	SWEP.Instructions = "Left click to heal other player\nRight click to heal yourself"

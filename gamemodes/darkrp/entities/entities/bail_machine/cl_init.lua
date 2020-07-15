@@ -20,14 +20,14 @@ function ENT:Draw()
 	ang:RotateAroundAxis(ang:Right(), -90)
 
 	cam.Start3D2D((self:GetPos() + self:GetUp() * self:OBBMaxs().z) + Vector(0, 0, 5), ang, 0.15)
-		draw.SimpleTextOutlined('Bail Machine', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined('Внести Залог', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
 	cam.End3D2D()
 end
 
 net.Receive('rp.OpenBail', function()
 	local fr = ui.Create('ui_frame', function(self)
 		self:SetSize(500, 400)
-		self:SetTitle('Bail')
+		self:SetTitle('Залог')
 		self:Center()
 		self:MakePopup()
 	end)
@@ -49,11 +49,11 @@ net.Receive('rp.OpenBail', function()
 	end
 
 	if (count == 0) then
-		list:AddSpacer('No prisoners!')
+		list:AddSpacer('Нет Заключённых!')
 	end
 
 	local btn = ui.Create('DButton', function(self, p)
-		self:SetText('Bail Machine')
+		self:SetText('Внести Залог')
 		self:SetPos(5, p:GetTall() - 30)
 		self:SetSize(p:GetWide() - 10, 25)
 
@@ -66,14 +66,14 @@ net.Receive('rp.OpenBail', function()
 				local price = LocalPlayer():IsMayor() and 0 or math.ceil((selected.Info.ReleaseTime - CurTime())/60) * rp.cfg.BailCostPerMin
 
 				if LocalPlayer():IsMayor() or (LocalPlayer():GetMoney() >= price) then
-					self:SetText('Post ' .. rp.FormatMoney(price) .. ' bail')
+					self:SetText('Внести залог ' .. rp.FormatMoney(price) .. '')
 					self:SetDisabled(false)
 				else
-					self:SetText('Insufficient funds!')
+					self:SetText('Недостаточно Средств!')
 					self:SetDisabled(true)
 				end
 			else
-				self:SetText('No Prisoner Selected')
+				self:SetText('Заключённый Не Выбран')
 				self:SetDisabled(true)
 			end
 		end

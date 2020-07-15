@@ -1,9 +1,0 @@
-Thu Mar  7 22:04:00 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Mar  7 22:04:00 2019	DidVaitel (STEAM_0:1:74202541) spawned
-Thu Mar  7 22:05:19 2019	DidVaitel (STEAM_0:1:74202541) disconnected
-Thu Mar  7 22:05:30 2019	DidVaitel (STEAM_0:1:74202541) has joined the game
-Thu Mar  7 22:05:30 2019	DidVaitel (STEAM_0:1:74202541) spawned
-Thu Mar  7 22:06:39 2019	eLeCtrOssSnake (STEAM_0:1:164666257) has joined the game
-Thu Mar  7 22:06:39 2019	eLeCtrOssSnake (STEAM_0:1:164666257) spawned
-Thu Mar  7 22:07:29 2019	DidVaitel (STEAM_0:1:74202541) disconnected
-Thu Mar  7 22:07:30 2019	eLeCtrOssSnake (STEAM_0:1:164666257) disconnected

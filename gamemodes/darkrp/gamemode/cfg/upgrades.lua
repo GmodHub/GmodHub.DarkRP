@@ -387,7 +387,7 @@ rp.shop.Add('VIP Event', 'event_vip')
 rp.shop.Add('Printer Event', 'event_printer')
 	:SetCat('Events')
 	:SetDesc('Everyone\'s printers will print 50% more.\nLasts 30 minutes.')
-	:SetIcon('models/sup/printer/printer.mdl')
+	:SetIcon('models/gmh/printer/printer.mdl')
 	:SetPrice(450)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Printer') then

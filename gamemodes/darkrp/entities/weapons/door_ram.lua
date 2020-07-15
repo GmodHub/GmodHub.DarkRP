@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = 'weapon_rp_base'
 
 if CLIENT then
-	SWEP.PrintName = 'Battering Ram'
+	SWEP.PrintName = 'Таран'
 	SWEP.Slot = 2
 	SWEP.Instructions = 'Left click to open doors and unfreeze props\nRight click to ready the ram'
 end
