@@ -12,3 +12,14 @@ function ENT:Initialize()
 
 	self:SetUseType(SIMPLE_USE)
 end
+
+hook.Add("InitPostEntity", "rp.MayorMachine", function()
+	for k, v in ipairs(rp.cfg.MayorMachines[game.GetMap()]) do
+		local machine = ents.Create('mayor_machine')
+		machine:SetPos(v.Pos)
+		machine:SetAngles(v.Ang)
+		machine:Spawn()
+		machine:Activate()
+		machine:GetPhysicsObject():EnableMotion(false)
+	end
+end)
