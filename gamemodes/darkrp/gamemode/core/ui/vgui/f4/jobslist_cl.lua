@@ -63,14 +63,14 @@ function PANEL:DoClick()
 
 	if self.job.vote then
 		local command = self.job.command
-		ui.BoolRequest('Campaign Fee', 'Would you like to start your campaign for ' ..  rp.FormatMoney(rp.cfg.CampaignFee) .. '?', function(ans)
+		ui.BoolRequest('Предвыборная Кампания', 'Начать предвыборную кампанию за ' ..  rp.FormatMoney(rp.cfg.CampaignFee) .. '?', function(ans)
 			if (ans == true) then
 				cmd.Run('vote' .. command)
 			end
 		end)
 	elseif self.job.CannotOwnDoors then
 		local command = self.job.command
-		ui.BoolRequest("Sell Doors", self.job.name .. ' cannot own doors! Changing to this job will sell all your doors. Continue?', function(ans)
+		ui.BoolRequest("Продать Собственность", self.job.name .. ' не может владеть собственностью! Смена работы приведёт к продаже всей вашей собственности. Продолжить?', function(ans)
 			if (ans == true) then
 				cmd.Run(command)
 			end

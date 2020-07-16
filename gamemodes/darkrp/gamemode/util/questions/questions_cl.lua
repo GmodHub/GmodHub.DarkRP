@@ -69,11 +69,11 @@ function PANEL:Init()
 	self.Label = ui.Label('QUESTION?', 'ui.18', 0, 0, self)
 
 	self.BtnYes = ui.Create('DButton', self)
-	self.BtnYes:SetText('Yes')
+	self.BtnYes:SetText('Да')
 	self.BtnYes.DoClick = function() self:Answer(true) end
 
 	self.BtnNo = ui.Create('DButton', self)
-	self.BtnNo:SetText('No')
+	self.BtnNo:SetText('Нет')
 	self.BtnNo.DoClick = function() self:Answer(false) end
 
 	self:SetTall(105)
@@ -132,7 +132,7 @@ function PANEL:Think()
 		return
 	end
 
-	self:SetTitle('Time: ' .. math.ceil(time))
+	self:SetTitle('Время: ' .. math.ceil(time))
 	self.lblTitle:SizeToContents()
 
 	local isFirst, lastEnd = false, math.huge
@@ -145,8 +145,8 @@ function PANEL:Think()
 
 	if isFirst then
 		if (not self.HasUpdatedText) then
-			self.BtnYes:SetText('Yes (F1)')
-			self.BtnNo:SetText('No (F2)')
+			self.BtnYes:SetText('Да (F1)')
+			self.BtnNo:SetText('Нет (F2)')
 			self.HasUpdatedText = true
 		end
 

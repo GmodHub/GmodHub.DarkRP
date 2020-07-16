@@ -49,6 +49,51 @@ end)
 :AddAlias("name")
 :AddAlias("nick")
 
+
+local function ChangeJob(ply, args)
+	if ply:IsArrested() then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotJob'))
+		return
+	end
+
+	if ply.LastJob and 10 - (CurTime() - ply.LastJob) >= 0 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('NeedToWait'), math.ceil(10 - (CurTime() - ply.LastJob)))
+		return
+	end
+	ply.LastJob = CurTime()
+
+	if not ply:Alive() then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotJob'))
+		return
+	end
+
+	local len = string.len(args)
+
+	if len < 3 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLenShort'), 2)
+		return
+	end
+
+	if len > 25 then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLenLong'), 26)
+		return
+	end
+
+	local canChangeJob, message, replace = hook.Call("canChangeJob", nil, ply, args)
+	if canChangeJob == false then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotJob'))
+		return ""
+	end
+
+	local job = replace or args
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), ply, (string.match(job, '^h?[AaEeIiOoUu]') and 'an' or 'a'), job)
+
+	ply:SetNetVar('job', job)
+	return
+end
+rp.AddCommand("job", ChangeJob)
+:AddParam(cmd.STRING)
+
 local function DropWeapon(pl)
 	local ent = pl:GetActiveWeapon()
 	if not IsValid(ent) then

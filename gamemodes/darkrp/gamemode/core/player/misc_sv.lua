@@ -1,3 +1,11 @@
+function PLAYER:NewData()
+	if not IsValid(self) then return end
+
+	self:SetTeam(1)
+
+	self:GetTable().LastVoteCop = CurTime() - 61
+end
+
 function PLAYER:Welfare()
 	if not IsValid(self) then return end
 
@@ -51,6 +59,11 @@ function PLAYER:GiveAmmos(amount, show)
 		self:GiveAmmo(amount, v.ammoType, show)
 	end
 end
+
+hook("PlayerDataLoaded", "RP:RestorePlayerData", function(pl, data)
+	pl:NewData()
+end)
+
 /*
 hook('InitPostEntity', function()
 	timer.Create("KarmaForPlaying", 1500, 0, function()

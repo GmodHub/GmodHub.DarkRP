@@ -1,3 +1,126 @@
+function PLAYER:ChangeTeam(t, force)
+	local prevTeam = self:Team()
+
+	if self:IsArrested() and not force then
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'arrested')
+		return false
+	end
+
+	if self:IsFrozen() and not force then
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'frozen')
+		return false
+	end
+
+	if (not self:Alive()) and not force then
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'dead')
+		return false
+	end
+
+	if self:IsWanted() and not force then
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'wanted')
+		return false
+	end
+
+	if rp.agendas[prevTeam] and (rp.agendas[prevTeam].manager == prevTeam) then
+		nw.SetGlobal('Agenda;' .. self:Team(), nil)
+	end
+
+	if t ~= rp.DefaultTeam and not self:ChangeAllowed(t) and not force then
+		rp.Notify(self, NOTIFY_ERROR, term.Get('BannedFromJob'))
+		return false
+	end
+
+	if self.LastJob and 1 - (CurTime() - self.LastJob) >= 0 and not force then
+		self:Notify(NOTIFY_ERROR, term.Get('NeedToWait'), math.ceil(1 - (CurTime() - self.LastJob)))
+		return false
+	end
+
+	if self.IsBeingDemoted then
+		self:TeamBan()
+		self.IsBeingDemoted = false
+		self:ChangeTeam(1, true)
+		GAMEMODE.vote.DestroyVotesWithEnt(self)
+		rp.Notify(self, NOTIFY_ERROR, term.Get('EscapeDemotion'))
+
+		return false
+	end
+
+	if prevTeam == t then
+		rp.Notify(self, NOTIFY_ERROR, term.Get('AlreadyThisJob'))
+		return false
+	end
+
+	local TEAM = rp.teams[t]
+	if not TEAM then return false end
+
+	if TEAM.vip and (not self:IsVIP()) then
+		rp.Notify(self, NOTIFY_ERROR, term.Get('NeedVIP'))
+		return
+	end
+
+	if TEAM.customCheck and not TEAM.customCheck(self) then
+		rp.Notify(self, NOTIFY_ERROR, term.Get(TEAM.CustomCheckFailMsg))
+		return false
+	end
+
+	if not self:GetVar("Priv"..TEAM.command) and not force then
+		local max = TEAM.max
+		if (max ~= 0 and ((max % 1 == 0 and team.NumPlayers(k) >= max) or (max % 1 ~= 0 and (team.NumPlayers(k) + 1) / player.GetCount() > max))) then
+			rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLimit'))
+			return
+		end
+	end
+
+	if TEAM.PlayerChangeTeam then
+		local val = TEAM.PlayerChangeTeam(self, prevTeam, t)
+		if val ~= nil then
+			return val
+		end
+	end
+
+	local hookValue = hook.Call("playerCanChangeTeam", nil, self, t, force)
+	if hookValue == false then return false end
+
+	local isMayor = rp.teams[prevTeam] and rp.teams[prevTeam].mayor
+	if isMayor then
+		if nw.GetGlobal('lockdown') then
+			GAMEMODE:UnLockdown(self)
+		end
+		rp.resetLaws()
+	end
+
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), self, (string.match(TEAM.name, '^h?[AaEeIiOoUu]') and 'an' or 'a'), TEAM.name)
+
+	if self:GetNetVar("HasGunlicense") then
+		self:SetNetVar("HasGunlicense", nil)
+	end
+
+	self:RemoveAllHighs()
+
+	self.PlayerModel = nil
+
+	self.LastJob = CurTime()
+
+	for k, v in ipairs(ents.GetAll()) do
+		if (v.ItemOwner == self) and v.RemoveOnJobChange then
+			v:Remove()
+		end
+	end
+
+	if (self:GetNetVar('job') ~= nil) then
+		self:SetNetVar('job', nil)
+	end
+
+	self:StripWeapons()
+
+	self:SetTeam(t)
+
+	hook.Call("OnPlayerChangedTeam", GAMEMODE, self, prevTeam, t)
+	if self:InVehicle() then self:ExitVehicle() end
+
+	return true
+end
+
 function GM:AddTeamCommands(CTeam, max)
 
 	local k = 0
@@ -125,7 +248,7 @@ function GM:AddEntityCommands(tblEnt)
 		local item = ents.Create(tblEnt.ent)
 		item:SetPos(tr.HitPos)
 		item.ItemOwner = ply
-    
+
     if item.Setowning_ent then
       item:Setowning_ent(ply)
     end

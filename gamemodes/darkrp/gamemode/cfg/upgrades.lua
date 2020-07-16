@@ -267,29 +267,27 @@ rp.shop.Add('VIP (Навсегда)', 'vip')
 rp.shop.Add('Модератор (30 дней)', 'trial_mod')
 	:SetCat('Ranks')
 	:SetDesc([[
-		30 days of moderator across all of our DarkRP servers
-		Moderator forum rank
-		All VIP perks forever:
-			VIP jobs
-			Chatbox emotes
-			Reserved slots
-			20 extra props
-			3 extra genome points for cops
-			Adv Dupe tool
-			Precision tool
+		Модератор на 30 дней
+		Все VIP возможности навсегда:
+			VIP работы
+			Эмоции в чате
+			Резервные слоты
+			20 экстра пропов
+			Adv Dupe
+			Precision
 
-			And anything else that gets added for VIPs in the future
+			И многое другое, что будет добавлено для VIP в будущем!
 
-		If you're already a moderator, this will extend your time.
-		WARNING: If you abuse this rank or go inactive you will be set to VIP without refund!
+		Если вы уже модератор, это увеличит ваше время.
+		ПРЕДУПРЕЖДЕНИЕ: Если вы будете абузить ранг или будете неактивны, мы понизим вас до VIP без возврата средств!
 	]])
 	:SetImage('mod-30d.png')
 	:SetPrice(2500)
 	:SetCanBuy(function(self, pl)
 		if pl:IsAdmin() and pl:GetRank() != 'moderator' then
-			return false, 'You\'re already higher than moderator!'
+			return false, 'Вы уже выше чем модератор!'
 		elseif (pl:GetPlayTime() < 36000) then
-			return false, 'You need 10 hours play time to purchase moderator!'
+			return false, 'Вам нужно отыгирать 10 часов для покупки модератора!'
 		end
 		return true
 	end)
@@ -300,32 +298,30 @@ rp.shop.Add('Модератор (30 дней)', 'trial_mod')
 		ba.data.SetRank(pl, 'moderator', 'vip', startTime + timeInSeconds)
 	end)
 
-rp.shop.Add('60 Days Moderator', 'trial_mod_60d')
+rp.shop.Add('Модератор (60 дней)', 'trial_mod_60d')
 	:SetCat('Ranks')
 	:SetDesc([[
-		60 days of moderator across all of our DarkRP servers
-		Moderator forum rank
-		All VIP perks forever:
-			VIP jobs
-			Chatbox emotes
-			Reserved slots
-			20 extra props
-			3 extra genome points for cops
-			Adv Dupe tool
-			Precision tool
+		Модератор на 60 дней
+		Все VIP возможности навсегда:
+			VIP работы
+			Эмоции в чате
+			Резервные слоты
+			20 экстра пропов
+			Adv Dupe
+			Precision
 
-			And anything else that gets added for VIPs in the future
+			И многое другое, что будет добавлено для VIP в будущем!
 
-		If you're already a moderator, this will extend your time.
-		WARNING: If you abuse this rank or go inactive you will be set to VIP without refund!
+		Если вы уже модератор, это увеличит ваше время.
+		ПРЕДУПРЕЖДЕНИЕ: Если вы будете абузить ранг или будете неактивны, мы понизим вас до VIP без возврата средств!
 	]])
 	:SetImage('mod-60d.png')
 	:SetPrice(3500)
 	:SetCanBuy(function(self, pl)
 		if pl:IsAdmin() and pl:GetRank() != 'moderator' then
-			return false, 'You\'re already higher than moderator!'
+			return false, 'Вы уже выше чем модератор!'
 		elseif (pl:GetPlayTime() < 36000) then
-			return false, 'You need 10 hours play time to purchase moderator!'
+			return false, 'Вам нужно отыгирать 10 часов для покупки модератора!'
 		end
 		return true
 	end)
@@ -338,14 +334,14 @@ rp.shop.Add('60 Days Moderator', 'trial_mod_60d')
 
 
 -- Events
-rp.shop.Add('Parkour Event', 'event_parkour')
+rp.shop.Add('Паркур Эвент', 'event_parkour')
 	:SetCat('Events')
-	:SetDesc('Everyone will be able to use the climb swep.\nLasts 30 minutes.')
+	:SetDesc('Все смогут использовать паркур свеп.\nДействует 30 минут.')
 	:SetImage('parkour.png')
 	:SetPrice(300)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Parkour') then
-			return false, 'This event is already running!'
+			return false, 'Этот эвент уже начался!'
 		end
 		return true
 	end)

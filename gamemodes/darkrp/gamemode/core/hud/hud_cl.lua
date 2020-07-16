@@ -647,7 +647,7 @@ end)
 function GM:DrawGambling()
 	if (LocalPlayer():Team() == TEAM_CASINOOWNER) then
 		local x, y	= 5, height + 5
-		local w = math.max((ScrW() * .1), 200)
+		local w = math.max((ScrW() * .1), 240)
 
 		local h = 45 + 33
 		draw_OutlinedBox(x, y, w, h, color_bg, color_outline)
@@ -685,7 +685,7 @@ function GM:DrawGambling()
 		local totalProfit = gamblingProfit - gamblingLoss
 		surface.SetTextPos(textX, y)
 		surface.SetTextColor(varcol('gambletotalprofit', totalProfit))
-		surface.DrawText('Profit: ' .. rp.FormatMoney(totalProfit))
+		surface.DrawText('Прибыль: ' .. rp.FormatMoney(totalProfit))
 		y = y + 15
 
 	else

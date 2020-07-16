@@ -267,7 +267,7 @@ nw.Register 'BodyGroups'
 	:Read(net.ReadUInt, 1)
 	:SetPlayer()
 	:SetHook('BodyGroupsChanged')
-
+/*
 nw.Register 'Ziptied'
 	:Write(net.WriteBool)
 	:Read(net.ReadBool)
