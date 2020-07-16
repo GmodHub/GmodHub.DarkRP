@@ -261,7 +261,6 @@ rp.AddCommand("demote", function(ply, p, reason)
 		if not rp.teams[p:Team()] or rp.teams[p:Team()].candemote == false then
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
 		else
-			rp.Chat(CHAT_NONE, p, colors.Yellow, '[DEMOTE] ', ply, 'I want to demote you. Reason: ' .. reason)
 
 			rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)
 			p.IsBeingDemoted = true
