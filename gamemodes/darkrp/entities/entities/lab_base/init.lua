@@ -46,7 +46,7 @@ function ENT:Explode()
 end
 
 
-function ENT:Crafting(class, namem, model)
+function ENT:Crafting(class, name, model)
 	local time = math.random(15, 60)
 	self:SetCraftTime(CurTime() + time)
 	--self:SetCraftName(name)
