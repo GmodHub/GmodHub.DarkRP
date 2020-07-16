@@ -22,7 +22,7 @@ end
 hook.Add('OnPlayerBan', 'rp.OnPlayerBan', function(pl)
 	if isplayer(pl) and IsValid(pl) then
 		pl:SetBVar('adminmode', false)
-		pl:UnOwnAllProperty()
+		pl:SellProperty()
 		for k, v in ipairs(ents.GetAll()) do
 			if IsValid(v) and (v:CPPIGetOwner() == pl) then
 				v:Remove()

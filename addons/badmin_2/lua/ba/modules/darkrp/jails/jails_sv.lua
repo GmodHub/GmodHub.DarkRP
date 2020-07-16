@@ -15,14 +15,14 @@ function ba.jailPlayer(pl, time, reason)
 		timer.Create('Jail' .. pl:SteamID(), time, 1, function()
 			if IsValid(pl) then
 				ba.unJailPlayer(pl)
-				ba.notify_staff(ba.Term('PlayerJailReleased'), pl)
-				ba.notify(pl, ba.Term('YouJailReleased'))
+				ba.notify_staff(term.Get('PlayerJailReleased'), pl)
+				ba.notify(pl, term.Get('YouJailReleased'))
 			end
 		end)
 	end
 
 	if (reason ~= nil) then
-		pl:SetNetVar('JailReason', reason)
+		pl:SetNetVar('JailedInfo', {Time = time + CurTime(), Reason = reason})
 	end
 
 	if not pl:Alive() then
@@ -41,13 +41,13 @@ function ba.jailPlayer(pl, time, reason)
 end
 
 function ba.unJailPlayer(pl)
-	ba.jailedPlayers[pl:SteamID()] = nil 
+	ba.jailedPlayers[pl:SteamID()] = nil
 	timer.Destroy('Jail' .. pl:SteamID())
 
-	pl:GodDisable() 
+	pl:GodDisable()
 	pl:Spawn()
 
-	pl:SetNetVar('JailReason', nil)
+	pl:SetNetVar('JailedInfo', nil)
 	pl:SetBVar('CanNoclip', nil)
 	pl:SetBVar('VoiceMuted', nil)
 	pl:SetBVar('ChatMuted', nil)
@@ -71,14 +71,14 @@ hook.Add('PlayerDeath', 'jails.PlayerDeath', function(pl)
 	end
 end)
 
-hook.Add('playerCanChangeTeam', 'jails.playerCanChangeTeam', function(pl)
+hook.Add('CanTool', 'jails.CanTool', function(pl)
 	if pl:IsJailed() then
 		return false
 	end
 end)
 
-hook.Add('playerCanRunCommand', 'ba.jail.playerCanRunCommand', function(pl, cmd)
-	if pl:IsJailed() and (cmd ~= 'motd') and not pl:HasAccess('*') then
-		return false, 'Ты зек, не имеешь прав!'
+hook.Add('playerCanChangeTeam', 'jails.playerCanChangeTeam', function(pl)
+	if pl:IsJailed() then
+		return false
 	end
 end)

@@ -714,7 +714,7 @@ local ChatSounds = {
 
 hook("PlayerSay", "Chat Sounds", function(pl, text, teamOnly)
 	if pl:IsBanned() then return end
-	if  not teamOnly and pl:Alive() then
+	if not teamOnly and pl:Alive() then
 		local sounds = ChatSounds[text:lower()]
 		if sounds then
 			if pl.LastChatSound then

@@ -1013,4 +1013,5 @@
 	"stacker_improved_force_nocollide_all"		"0"
 	"stacker_improved_force_stayinworld"		"1"
 	"stacker_improved_enable_admin_settings"		"1"
+	"keypad_willox_enter_strict"		"0"
 }

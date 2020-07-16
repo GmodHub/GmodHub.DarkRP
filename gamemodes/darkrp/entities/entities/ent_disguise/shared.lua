@@ -5,3 +5,4 @@ ENT.Author 		= 'aStonedPenguin'
 ENT.Spawnable 	= true
 ENT.Category 	= 'RP'
 ENT.PressE 		= true
+ENT.NetworkPlayerUse 	= true

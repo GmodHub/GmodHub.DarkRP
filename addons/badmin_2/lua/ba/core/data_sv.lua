@@ -115,39 +115,19 @@ function ba.data.SetRank(pl, rank, expire_rank, expire_time, cback)
 	local rank_id = rank_obj:GetID()
 	local rank_ex_id = rank_ex_obj:GetID()
 
-	if rank_obj:IsGlobal() then
-		sv_id = 'NO_ID'
-
-		db:Query('DELETE FROM ba_ranks WHERE steamid=?', {steamid, sv_id, rank_id, exr, ext}, function(data)
-			db:Query('INSERT INTO ba_ranks(steamid, sv_id, rank, expire_rank, expire_time) VALUES(?,?,?,?,?)', steamid, sv_id, rank_id, rank_ex_id, ext, function(data)
-				if isplayer(pl) then
-					pl:SetBVar('expire_rank', exr)
-					pl:SetBVar('expire_time', ext)
-					if (rank_id == 1) then
-						pl:SetNetVar('UserGroup', nil)
-					else
-						pl:SetNetVar('UserGroup', rank_id)
-					end
-				end
-				hook.Call('playerSetRank', ba, pl, r, exr, ext)
-				if cback then cback(data) end
-			end)
-		end)
-	else
-		db:Query('REPLACE INTO ba_ranks(steamid, sv_id, rank, expire_rank, expire_time) VALUES(?,?,?,?,?)', steamid, sv_id, rank_id, rank_ex_id, ext, function(data)
-			if isplayer(pl) then
-				pl:SetBVar('expire_rank', exr)
-				pl:SetBVar('expire_time', ext)
-				if (rank_id == 1) then
-					pl:SetNetVar('UserGroup', nil)
-				else
-					pl:SetNetVar('UserGroup', rank_id)
-				end
+	db:Query('REPLACE INTO ba_ranks(steamid, sv_id, rank, expire_rank, expire_time) VALUES(?,?,?,?,?)', steamid, sv_id, rank_id, rank_ex_id, ext, function(data)
+		if isplayer(pl) then
+			pl:SetBVar('expire_rank', exr)
+			pl:SetBVar('expire_time', ext)
+			if (rank_id == 1) then
+				pl:SetNetVar('UserGroup', nil)
+			else
+				pl:SetNetVar('UserGroup', rank_id)
 			end
-			hook.Call('playerSetRank', ba, pl, r, exr, ext)
-			if cback then cback(data) end
-		end)
-	end
+		end
+		hook.Call('playerSetRank', ba, pl, r, exr, ext)
+		if cback then cback(data) end
+	end)
 end
 
 function ba.data.UpdatePlayTime(pl)
@@ -157,11 +137,11 @@ end
 
 -- Sync queries
 function ba.data.GetRank(steamid64)
-	local data = db:query_sync('SELECT rank FROM ba_ranks WHERE steamid=? AND (sv_id=? OR sv_id="NO_ID");', {steamid64, ba.data.GetID()})
+	local data = db:QuerySync('SELECT rank FROM ba_ranks WHERE steamid=? AND (sv_id=? OR sv_id="NO_ID");', {steamid64, ba.data.GetID()})
 	return (data[1] and data[1].rank or 'user')
 end
 
 function ba.data.GetName(steamid64)
-	local data = db:query_sync('SELECT name FROM ba_users WHERE steamid=?;', {steamid64})
+	local data = db:QuerySync('SELECT name FROM ba_users WHERE steamid=?;', {steamid64})
 	return (data[1] and data[1].name)
 end

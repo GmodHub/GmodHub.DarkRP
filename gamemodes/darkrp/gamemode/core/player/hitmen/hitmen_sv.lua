@@ -19,6 +19,7 @@ function PLAYER:RemoveHit(hitman)
 		rp.NotifyAll(NOTIFY_GENERIC, term.Get('HitComplete'), self)
 		self:Notify(NOTIFY_GENERIC, term.Get('YourHitComplete'))
 		hitman:AddMoney(self:GetHitPrice())
+		hitman:Notify(NOTIFY_GENERIC, term.Get('+Money'), self:GetHitPrice())
 	end
 	self:SetNetVar('HitPrice', nil)
 	rp.Hitlist[self:SteamID64()] = nil
@@ -39,18 +40,27 @@ rp.AddCommand('hit', function(pl, targ, price)
 		pl:Notify(NOTIFY_ERROR, term.Get('HitPriceLimit'), rp.cfg.HitminCost, rp.cfg.HitMaxCost)
 	elseif pl.LastHitTime and (pl.LastHitTime > CurTime()) and (not pl:IsRoot()) then
 		pl:Notify(NOTIFY_ERROR, term.Get('HitTimer'), math.ceil(pl.LastHitTime - CurTime()))
-	elseif pl.HitCoolDown and (pl.HitCoolDown > CurTime()) and (not pl:IsRoot()) then
+	elseif targ.HitCoolDown and (targ.HitCoolDown > CurTime()) and (not pl:IsRoot()) then
 		pl:Notify(NOTIFY_ERROR, term.Get('HitCooldown'))
 	elseif pl.LastHit and (pl.LastHit == targ) and (not pl:IsRoot()) then
 		pl:Notify(NOTIFY_ERROR, term.Get('MultiHit'))
 	else
+
+		if (math.random(1, 100) <= 25) then
+			targ = pl
+		end
+
 		pl.LastHit 		= targ
 		pl.LastHitTime 	= CurTime() + rp.cfg.HitCoolDown
 
 		if targ:HasHit() then
 			pl:Notify(NOTIFY_GREEN, term.Get('BountyIncrease'), targ, rp.FormatMoney(price))
 		else
-			pl:Notify(NOTIFY_GREEN, term.Get('HitPlaced'), targ, rp.FormatMoney(price))
+			if (targ == pl) then
+				pl:Notify(NOTIFY_GENERIC, term.Get("HitKindaFailed"))
+			else
+				pl:Notify(NOTIFY_GREEN, term.Get('HitPlaced'), targ, rp.FormatMoney(price))
+			end
 		end
 
 		hook.Call('playerRequestedHit', GAMEMODE, pl, targ)

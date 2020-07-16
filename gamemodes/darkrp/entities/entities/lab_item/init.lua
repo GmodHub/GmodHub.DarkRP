@@ -14,10 +14,9 @@ function ENT:Initialize()
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:PhysWake()
-
-    self:SetAngles(Angle(-90, 0, 0)) -- Small model angle tweak
-
 	self:SetUseType(SIMPLE_USE)
+
+  self:SetAngles(Angle(-90, 0, 0)) -- Small model angle tweak
 
 	self.HP = 100
 end

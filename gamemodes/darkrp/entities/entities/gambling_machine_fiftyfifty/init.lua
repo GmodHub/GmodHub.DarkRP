@@ -13,7 +13,7 @@ function ENT:CanUse(pl)
 	else
 		if(pl:CanAfford(self:Getprice()) and self:GetInService()) then
 			if(self.AgreedPlayers[pl:SteamID64()] ~= true) then
-				rp.question.Create("Лотерея! Для учасния нужно " .. rp.FormatMoney(self:Getprice()) .. " вы готовы?", 15, tostring(self:GetClass() + pl:SteamID()), function(pl, answer)
+				rp.question.Create("Лотерея! Для учасния нужно " .. rp.FormatMoney(self:Getprice()) .. " вы готовы?", 15, tostring(self:GetClass() .. pl:SteamID()), function(pl, answer)
 			    if tobool(answer) then
 			    	self.AgreedPlayers[pl:SteamID64()] = true
 			    end

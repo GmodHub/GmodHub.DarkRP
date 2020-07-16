@@ -16,8 +16,10 @@ function ENT:Initialize()
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
+	self:SetUseType(SIMPLE_USE)
 	self:PhysWake()
 
+	self:SetMetal(3)
 	self.HP = 100
 end
 
@@ -37,7 +39,7 @@ function ENT:Explode()
 	effectdata:SetOrigin(vPoint)
 	effectdata:SetScale(1)
 	util.Effect('Explosion', effectdata)
-	
+
 	self:Remove()
 
 	if IsValid(self.ItemOwner) then
@@ -46,17 +48,16 @@ function ENT:Explode()
 end
 
 
-function ENT:Crafting(class, name, model)
-	local time = math.random(15, 60)
+function ENT:Crafting(class, crafter)
+	local time = crafter:CallSkillHook(SKILL_CRAFTING, math.random(15, 60))
 	self:SetCraftTime(CurTime() + time)
-	--self:SetCraftName(name)
 
-			timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
-				if IsValid(self) then
+	timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
+		if IsValid(self) then
 
 			local item = ents.Create('spawned_weapon')
-			item.weaponclass = class
-			item:SetModel(model)
+			item.weaponclass = class.Class
+			item:SetModel(class.Model)
 			item:SetPos(self:GetPos() + ((self:GetAngles():Up() * 40) + (self:GetAngles():Forward() * 0)))
 			item:Spawn()
 			item:Activate()
@@ -69,22 +70,23 @@ end
 net.Receive('rp.ItemLabCraft', function(len, pl)
 	local ent = net.ReadEntity()
 	local class = net.ReadUInt(8)
-	print(class)
 
-	if ent:GetMetal() <= 0 then return end
+	if ent:GetClass() == "lab_base" and ent:GetMetal() <= 0 or ent:IsCrafting() then return end
 	ent:SetMetal(ent:GetMetal()-1)
 	rp.Notify(pl, NOTIFY_SUCCESS, term.Get('ItemLabCrafting'), 1,ent:GetCraftables()[class].Class)
-	ent:Crafting(ent:GetCraftables()[class].Class, ent:GetCraftables()[class].Class, ent:GetCraftables()[class].Model)
+	ent:Crafting(ent:GetCraftables()[class], pl)
 end)
 
 net.Receive("rp.ItemLabRefill", function(len, ply)
-local ent = net.ReadEntity()
---if not ply == ent.ItemOwner then return end
-if not ply:CanAfford(rp.cfg.ItemLabMetalPrice * (rp.cfg.ItemLabMaxMetal - ent:GetMetal())) then
-	return 	rp.Notify(ent.ItemOwner, NOTIFY_ERROR, term.Get("CannotAfford"))
-end
-local cost = 300
-ply:AddMoney(-cost)
-ent:SetMetal(ent:GetMetal()+1)
-rp.Notify(ent.ItemOwner, NOTIFY_SUCCESS, term.Get('ItemLabRefilled'), cost, ent:GetMetal() )
+	local ent = net.ReadEntity()
+	--if not ply == ent.ItemOwner then return end
+	local cost = rp.cfg.ItemLabMetalPrice * (rp.cfg.ItemLabMaxMetal - ent:GetMetal())
+	if not ply:CanAfford(cost) then
+		rp.Notify(ent.ItemOwner, NOTIFY_ERROR, term.Get("CannotAfford"))
+		return
+	end
+
+	ply:AddMoney(-cost)
+	ent:SetMetal(rp.cfg.ItemLabMaxMetal - ent:GetMetal())
+	rp.Notify(ent.ItemOwner, NOTIFY_SUCCESS, term.Get('ItemLabRefilled'), cost, ent:GetMetal() )
 end)

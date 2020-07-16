@@ -52,7 +52,7 @@ function ENTITY:SetPropertyTitle(title)
 	nw.SetGlobal(self:GetPropertyNetworkID(), data)
 end
 
-function PLAYER:UnOwnAllProperty(sell)
+function PLAYER:SellProperty(all, sell)
 	for k, v in ipairs(ents.GetAll()) do
 		if IsValid(v) and v:IsDoor() then
 			if v:GetPropertyOwner() == self then
@@ -106,7 +106,7 @@ rp.AddCommand('sellproperty', function(pl)
 		rp.Notify(pl, NOTIFY_SUCCESS, term.Get('PropertySold'), ent:GetPropertyName(), rp.FormatMoney(ent:GetPropertySellPrice()))
 		ent:UnOwnProperty(pl)
 	else
-		pl:UnOwnAllProperty(true)
+		pl:SellProperty(false, true)
 	end
 
 end)
@@ -174,6 +174,6 @@ hook.Add( "PlayerCanAccessProperty", "PropertyCanAccess", function(pl, ent)
 	if (ent:IsPropertyTeamOwned() and table.HasValue(ent:GetPropertyInfo().Teams, pl:Team())) then return true end
 	if (ent:GetPropertyOwner() == pl) or ent:IsPropertyCoOwner(pl) then return true end
 	if ent:IsPropertyOrgOwned() and (pl:GetOrg() == ent:GetPropertyOwner():GetOrg()) then return true end
-	
+
 	return false
 end)

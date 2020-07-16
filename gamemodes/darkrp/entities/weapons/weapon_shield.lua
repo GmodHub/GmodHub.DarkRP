@@ -4,8 +4,8 @@ SWEP.shieldDamage = 10
 SWEP.bashReloadTime = 2
 SWEP.stunTime = 1
 
-SWEP.canBeDestroyedByDamage = false
-SWEP.onlyExplosionDamage = true
+SWEP.canBeDestroyedByDamage = 0
+SWEP.onlyExplosionDamage = 1
 SWEP.defaultHealth = 800
 
 SWEP.DrawAmmo = false
@@ -194,7 +194,6 @@ function SWEP:SecondaryAttack()
 	shieldEnt.canBeDestroyedByDamage = self.canBeDestroyedByDamage
 	shieldEnt.onlyExplosionDamage = self.onlyExplosionDamage
 	shieldEnt.currentHealth = self.defaultHealth
-
 	shieldEnt:Spawn()
 	shieldEnt.ItemOwner = self:GetOwner()
 	self:GetOwner():Freeze(true)

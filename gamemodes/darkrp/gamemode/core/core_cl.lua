@@ -21,10 +21,10 @@ timer.Simple(0.5, function()
 	GM.PreDrawHalos 					= nil
 	GM.CloseDermaMenus 					= nil
 	GM.PostDraw2DSkyBox 				= nil
-	GM.PreDrawOpaqueRenderables 		= nil
-	GM.PostDrawOpaqueRenderables 		= nil
-	GM.PreDrawTranslucentRenderables 	= nil
-	GM.PostDrawTranslucentRenderables 	= nil
+	//GM.PreDrawOpaqueRenderables 		= nil
+	//GM.PostDrawOpaqueRenderables 		= nil
+	//GM.PreDrawTranslucentRenderables 	= nil
+	//GM.PostDrawTranslucentRenderables 	= nil
 	GM.HUDPaintBackground 				= nil
 	GM.HUDDrawScoreBoard 				= nil
 	GM.PostRenderVGUI 					= nil

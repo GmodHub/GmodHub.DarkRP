@@ -8,6 +8,7 @@ ENT.MinPrice = 500
 ENT.MaxPrice = 100000000
 
 function ENT:SetupDataTables()
+	self:NetworkVar('Entity', 1, 'owning_ent')
 	self:NetworkVar('Int', 0, 'price')
 	self:NetworkVar('Bool', 0, 'InService')
 	self:NetworkVar('Bool', 1, 'IsPayingOut')

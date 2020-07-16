@@ -29,6 +29,7 @@ hook.Add('PlayerGetChatTag', 'rp.chat.PlayerGetChatTag', function(pl)
 			return lastTag
 		end
 	end
+
 	return lastTag
 end)
 
