@@ -13,6 +13,9 @@ rp.AddCommand('resetlaws', function(pl)
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeMayorResetLaws'))
 		return
 	end
+	if (rp.cfg.MayorMachine and rp.cfg.MayorMachine:GetPos():DistToSqr(pl:GetPos()) > 40000) then
+		return NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine')
+	end
 	rp.resetLaws()
 end)
 
