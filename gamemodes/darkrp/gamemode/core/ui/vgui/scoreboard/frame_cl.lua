@@ -155,9 +155,9 @@ function PANEL:Update()
 		end
 	end
 
-	local ponline = 'Players online: ' ..  total_players
+	local ponline = 'Игроков онлайн: ' ..  total_players
 	if (LocalPlayer():IsAdmin()) then
-		ponline = ponline .. ' (' .. active_players .. ' Active) | Staff Online:' .. total_staff .. ' (' .. active_staff .. ' Active)'
+		ponline = ponline .. ' (' .. active_players .. ' Активных) | Админов Онлайн:' .. total_staff .. ' (' .. active_staff .. ' Активны)'
 	end
 
 	self.LabelPlayers = ponline
@@ -196,8 +196,8 @@ function PANEL:Think()
 end
 
 function PANEL:Paint(w, h)
-	surface.SetDrawColor(0, 0, 0, 120)
-	surface.DrawTexturedRect(0, 0, w, h)
+	surface.SetDrawColor(0, 0, 0, 150)
+	surface.DrawRect(0, 0, w, h)
 
 	surface.SetFont('rp.Scoreboard.Label')
 	surface.SetTextColor(ui.col.OffWhite)

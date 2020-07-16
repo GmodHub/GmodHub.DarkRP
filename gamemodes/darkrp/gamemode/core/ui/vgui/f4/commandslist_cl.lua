@@ -33,7 +33,7 @@ rp.AddMenuCommand(cat, 'Выписать чек', function()
 end)
 rp.AddMenuCommand(cat, 'Перевести деньги (20% налог)', function()
 	ui.PlayerRequest(function(v)
-		ui.StringRequest('Перевести', 'Колличество денег к переводу?', '', function(a)
+		ui.StringRequest('Перевести', 'Сколько вы хотите перевести?', '', function(a)
 			if IsValid(v) then
 				cmd.Run('wiremoney', v:SteamID(), a)
 			end

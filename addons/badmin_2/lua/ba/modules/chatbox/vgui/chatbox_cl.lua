@@ -121,13 +121,14 @@ function LABEL:SizeToContents(w)
 	surface_SetFont(chatfont)
 
 	local w, h = 0, 0
-	for i=1, #self._Text do
+	for i=1, utf8.len(self._Text) do
 		if (self._Emotes[i]) then
 			if (h < 16) then h = 16 end
 			table.insert(self._Chars, {'', w, 16})
 			w = w + 16
 		else
-			local wid, th = surface_GetTextSize(self._Text[i])
+			local t = utf8_sub(self._Text, i, i)
+			local wid, th = surface_GetTextSize(t)
 
 			if (h < th) then h = th end
 
@@ -174,7 +175,7 @@ function LABEL:Think()
 		local endx
 		for k, v in ipairs(self._Chars) do
 			if (self._SelStart <= v[2] + v[3] and self._SelEnd >= v[2] + v[3]) then
-				self._SelText = self._SelText .. v[1] .. ((k == #self._Chars) and '\n' or '')
+				self._SelText = self._SelText .. v[1] .. ((k == self._Chars) and '\n' or '')
 				v.Sel = true
 
 				if (!x1) then x1 = v[2] end
@@ -199,7 +200,7 @@ function LABEL:Think()
 
 		for k, v in ipairs(self._Chars) do
 			if (self._Colors[k]) then
-				str = string.sub(self._Text, lastpos, k - 1)
+				str = utf8_sub(self._Text, lastpos, k - 1)
 
 				table.insert(self._Bits, {str, self._Chars[lastpos][2], lastcol})
 
@@ -209,7 +210,7 @@ function LABEL:Think()
 			end
 
 			if (self._Emotes[k]) then
-				str = string.sub(self._Text, lastpos, k - 1)
+				str = utf8_sub(self._Text, lastpos, k - 1)
 
 				table.insert(self._Bits, {str, self._Chars[lastpos][2], lastcol})
 
@@ -226,10 +227,11 @@ function LABEL:Think()
 		end
 
 		if (self._Text[lastpos] and self._Chars[lastpos]) then
-			str = string.sub(self._Text, lastpos)
+			str = utf8_sub(self._Text, lastpos)
 
 			table.insert(self._Bits, {str, self._Chars[lastpos][2], lastcol})
 		end
+
 	end
 end
 
@@ -581,7 +583,7 @@ function PANEL:Init()
 		s.AutoFillText = auto and auto.CompleteString or nil
 
 		if (s:AllowInput()) then
-			s:SetValue(string.sub(s:GetValue(), 1, 126))
+			s:SetValue(utf8_sub(s:GetValue(), 1, 126))
 			s:SetCaretPos(126)
 		end
 
@@ -589,7 +591,7 @@ function PANEL:Init()
 	end
 
 	self.txtEntry.AllowInput = function(s)
-		if (string.len(s:GetValue()) >= 126) then
+		if (utf8.len(s:GetValue()) >= 126) then
 			surface.PlaySound('Resource/warning.wav')
 			return true
 		end
@@ -645,7 +647,8 @@ function PANEL:PerformLayout(w, h)
 
 	if (!self.activeMessageFrame) then
 		self.activeMessageFrame = self:GetSheet("All")
-		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Welcome to ', Color(51, 128, 255), 'GmodHub!'})
+		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Добро пожаловать на ', Color(51, 128, 255), 'GmodHub!'})
+		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Лучшие сервера во всём', Color(51, 128, 255), 'Garry\'s mod!'})
 	end
 
 	for k, v in pairs(self.Sheets) do
@@ -786,18 +789,18 @@ function PANEL:AddMessage(...)
 			emotesww[emotes[table.insert(emotes, {Emote = v, Pos=#strings})].Pos] = true
 		elseif (isstring(v) or isnumber(v)) then
 			if (v[1] == '>') then
-				table.insert(colors, {Col=Color(140, 200, 100), Pos=string.len(strings)})
+				table.insert(colors, {Col=Color(140, 200, 100), Pos=utf8.len(strings)})
 			end
 			strings = strings .. v
 		elseif isplayer(v) then
-			if (string.len(strings) == 0) then table.remove(colors, 1) end
+			if (utf8.len(strings) == 0) then table.remove(colors, 1) end
 
-			table.insert(colors, {Col=team.GetColor(v:Team()), Pos=string.len(strings) + 1})
+			table.insert(colors, {Col=team.GetColor(v:Team()), Pos=utf8.len(strings) + 1})
 
 			strings = strings .. v:Name()
 		else
-			if (string.len(strings) == 0) then table.remove(colors, 1) end
-			table.insert(colors, {Col=v:Copy(), Pos=string.len(strings) + 1})
+			if (utf8.len(strings) == 0) then table.remove(colors, 1) end
+			table.insert(colors, {Col=v:Copy(), Pos=utf8.len(strings) + 1})
 		end
 	end
 
@@ -913,7 +916,7 @@ function PANEL:GetAutoFill(step)
 	local fillData = self.AutoNames[self.CurrentAutoName]
 
 	if (fillData) then
-		fillData.CompleteString = string.sub(fillData.Name, #match + 1)
+		fillData.CompleteString = utf8_sub(fillData.Name, #match + 1)
 	end
 
 	return fillData
@@ -927,10 +930,10 @@ function PANEL:DoAutoFill()
 	match = words[#words]
 	if (!match or match == '') then return end
 
-	local pref = string.sub(self.txtEntry:GetValue(), 1, 1)
+	local pref = utf8_sub(self.txtEntry:GetValue(), 1, 1)
 	local fillVal
 
-	local firstarg = string.sub(self.txtEntry:GetValue(), 1, (string.find(self.txtEntry:GetValue(), ' ')  or (#self.txtEntry:GetValue() + 1)) - 1)
+	local firstarg = utf8_sub(self.txtEntry:GetValue(), 1, (string.find(self.txtEntry:GetValue(), ' ')  or (#self.txtEntry:GetValue() + 1)) - 1)
 
 	if (pref == '/' or pref == '!') and (firstarg != '//' and firstarg != '/ooc' and firstarg != '/ad' and firstarg != '/advert') and (!ret) then
 		fillVal = pl.SteamID
@@ -938,7 +941,7 @@ function PANEL:DoAutoFill()
 		fillVal = pl.Name
 	end
 
-	self.txtEntry:SetText(string.sub(self.txtEntry:GetValue(), 1, -(#match + 1)) .. fillVal .. ' ')
+	self.txtEntry:SetText(utf8_sub(self.txtEntry:GetValue(), 1, -(#match + 1)) .. fillVal .. ' ')
 end
 
 /*function PANEL:DoAutoFill(ret, cont) -- TODO, replace with command autocomplete

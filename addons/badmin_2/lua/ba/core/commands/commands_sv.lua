@@ -1,45 +1,31 @@
-util.AddNetworkString('ba.RunCommand')
-/*
-function ba.RunCommand(pl, cmd, args)
-	cmd = cmd:lower()
+hook("cmd.OnCommandError", function(pl, cmdobj, reason, used)
+	if not pl then return end
 
-	local is_player = ba.IsPlayer(pl) and not pl:IsListenServerHost()
-	local cancmd, err = (is_player and ba.Call('playerCanRunCommand', pl, cmd) or true)
-
-	if not cancmd and err then
-		ba.notify_err(pl, err)
-	elseif not ba.cmd.Exists(cmd) then
-		ba.notify_err(pl, term.Get('InvalidCommand'), cmd)
-	else
-		cmd = ba.cmd.Get(cmd)
-		local name = cmd:GetName()
-		local flag = cmd:GetFlag()
-
-		if is_player and not pl:HasFlag(flag) then
-			ba.notify_err(pl, term.Get('NeedFlagToUseCommand'), flag:upper(), name)
-		else
-			if not ba.cmd.Parse(pl, name, args) then return end
-			ba.Call('playerRunCommand', pl, name, args)
-			cmd:Init(pl, args)
-		end
+	if (reason == cmd.ERROR_INVALID_COMMAND) then
+		ba.notify_err(pl, term.Get('InvalidCommand'), used[1])
+	elseif (reason == cmd.ERROR_MISSING_PARAM) then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('MissingArg'), used[2])
+	elseif (reason == cmd.ERROR_INVALID_TIME) then
+		ba.notify_err(pl, term.Get('InvalidTimeUnit'))
+	elseif (reason == cmd.ERROR_COMMAND_COOLDOWN) then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('WaitBeforCommand'), used[1], used[2])
 	end
-end
-*/
-function ba.ConCommand(pl, cmd, args)
-	if not args[1] then return end
-	local cmd = args[1]
-	table.remove(args, 1)
+end)
 
-	for k, v in ipairs(args) do
-		if (string.upper(tostring(v)) == 'STEAM_0') and (args[k + 4]) then
-			args[k] = table.concat(args, '', k, k + 4)
-			for i = 1, 4 do
-				table.remove(args, k + 1)
-			end
-			break
-		end
+hook("cmd.CanParamParse", function(pl, cmdobj, enum, value)
+	if !IsValid(pl) or not isplayer(pl) then return true end
+	if pl:IsBanned() then return false end
+	if pl:IsJailed() and (cmd ~= 'motd') and not pl:HasAccess('*') then return false end
+
+	if (cmdobj:GetFlag() and not pl:HasFlag(cmdobj:GetFlag())) then
+	//	rp.Notify(pl, NOTIFY_ERROR, term.Get('NeedFlagToUseCommand'), cmdobj:GetFlag(), cmdobj:GetName())
+		ba.notify_err(pl, term.Get('NeedFlagToUseCommand'), cmdobj:GetFlag(), cmdobj:GetName())
+		return false
+	elseif (cmdobj:GetAuthRequired() and not ba.IsAuthed(pl)) then
+		return false
+	elseif (not cmdobj:GetIgnoreImmunity() and cmdobj.ConCommand == "ba" and isplayer(value) and value != pl and not pl:GetRankTable():CanTarget(value:GetRankTable())) then
+		ba.notify_err(pl, term.Get('SameWeight'))
+		ba.notify_err(value, term.Get('TriedToRunCommand'), pl, cmdobj:GetName())
+		return false
 	end
-
-	ba.RunCommand(pl, cmd, args)
-end
-concommand.Add('_ba', ba.ConCommand)
+end)

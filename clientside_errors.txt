@@ -110400,3 +110400,118 @@ DidVaitel|6|STEAM_0:1:74202541
 Refusing to load media_base because it is missing Type and Base keys!
 
 
+COMPLΞX|5|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274: attempt to perform arithmetic on a table value
+  1. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274: attempt to perform arithmetic on a table value
+  1. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274: attempt to perform arithmetic on a table value
+  1. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274: attempt to perform arithmetic on a table value
+  1. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274: attempt to perform arithmetic on a table value
+  1. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:274
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:227
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:227
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:227
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:227
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:230
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:230
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:230
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:230
+
+
+

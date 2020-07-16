@@ -3,11 +3,15 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 ENT.AgreedPlayers = {}
+ENT.LazyFreeze = true
+
+util.AddNetworkString('rp.gambling.Loss')
+util.AddNetworkString('rp.gambling.Profit')
 
 local function SetMachineService(ply)
 	local trEnt = ply:GetEyeTrace().Entity
 	if(not IsValid(trEnt) or not string.StartWith(trEnt:GetClass(), "gambling_machine") or trEnt.ItemOwner ~= ply) then return end
-	
+
 	trEnt:SetInService(not trEnt:GetInService())
 end
 rp.AddCommand("setmachineservice", SetMachineService)
@@ -26,7 +30,7 @@ end
 
 function ENT:PayOut(ply, amount)
 	self:SetIsPayingOut(true)
-	
+
 	if(amount > 0) then
 		net.Start('rp.gambling.Loss')
 			net.WriteUInt(amount, 32)
@@ -42,7 +46,7 @@ function ENT:PayOut(ply, amount)
 			net.WriteUInt(-amount, 32)
 		net.Send(self.ItemOwner)
 		ply:AddMoney(amount)
-		timer.Simple(1.5, function()
+		timer.Simple(1, function()
 			if(not self.ItemOwner) then return end
 			self.ItemOwner:AddMoney(-amount)
 			self:SetIsPayingOut(false)

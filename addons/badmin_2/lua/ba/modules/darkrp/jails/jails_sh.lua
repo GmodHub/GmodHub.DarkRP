@@ -1,5 +1,5 @@
-term.Add('PlayerJailReleased', '# has been released from jail.')
-term.Add('YouJailReleased', 'You have been released from jail.')
+term.Add('PlayerJailReleased', '# был выпущен из jail.')
+term.Add('YouJailReleased', 'Вы были выпущены из jail.')
 
 nw.Register 'JailedInfo'
 	:Write(function(v)
@@ -22,10 +22,10 @@ end
 -- Jail
 -------------------------------------------------
 term.Add('JailNotSet', 'The jailroom is not set!')
-term.Add('JailTimeRestriction', 'You cannot jail for longer than 10 minutes!')
-term.Add('PlayerAlreadyJailed', '# is already jailed!')
-term.Add('AdminJailedPlayer', '# has jailed # for #. Reason: #.')
-term.Add('AdminJailedYou', '# has jailed you for #. Reason: #.')
+term.Add('JailTimeRestriction', 'Вы не можете дать jail больше чем на 10 минут!')
+term.Add('PlayerAlreadyJailed', '# уже в jail!')
+term.Add('AdminJailedPlayer', '# посадил в jail # на #. Причина: #.')
+term.Add('AdminJailedYou', '# посадил вас в jail на #. Причина: #.')
 
 ba.AddCommand('Jail', function(pl, target, time, reason)
 	if (not ba.svar.Get('jailroom')) then
@@ -56,9 +56,9 @@ end)
 -------------------------------------------------
 -- Unjail
 -------------------------------------------------
-term.Add('AdminUnjailedPlayer', '# has unjailed #.')
-term.Add('AdminUnjailedYou', '# has unjailed you.')
-term.Add('PlayerNotJailed', '# is not jailed!')
+term.Add('AdminUnjailedPlayer', '# освободил из jail #.')
+term.Add('AdminUnjailedYou', '# освободил вас из jail.')
+term.Add('PlayerNotJailed', '# не в jail!')
 
 ba.AddCommand('Unjail', function(pl, target, time, reason)
 	if (not ba.svar.Get('jailroom')) then
@@ -99,7 +99,7 @@ if (CLIENT) then
 	hook.Add('HUDPaint', 'jail.HUDPaint', function()
 		if LocalPlayer():IsJailed() then
 			local var = LocalPlayer():GetNetVar('JailedInfo')
-			draw.SimpleText('You are in admin jail for (' .. math.Round(var.Time - CurTime(), 0) .. 's): ' .. var.Reason, 'BannedInfo', ScrW() * 0.5, ScrH() * 0.2, ui.col.Red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Вы были помещны в jail за "' .. var.Reason ..'" (' .. math.Round(var.Time - CurTime(), 0) .. 's): ', 'BannedInfo', ScrW() * 0.5, ScrH() * 0.2, ui.col.Red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 	end)
 end

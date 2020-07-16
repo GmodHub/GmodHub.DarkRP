@@ -252,8 +252,7 @@ end)
 :AddParam(cmd.STRING)
 :SetFlag '*'
 
-rp.AddCommand('shareprops', function(pl, text, args)
-	local targ = rp.FindPlayer(args[1])
+rp.AddCommand('shareprops', function(pl, targ)
 	if not IsValid(targ) then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('PPTargNotFound'))
 		return
@@ -273,7 +272,7 @@ rp.AddCommand('shareprops', function(pl, text, args)
 
 	pl:SetNetVar('ShareProps', pl.propBuddies)
 end)
-
+:AddParam(cmd.PLAYER_ENTITY)
 
 rp.AddCommand('tooleditor', function(pl, text, args)
 	net.Start('rp.toolEditor')

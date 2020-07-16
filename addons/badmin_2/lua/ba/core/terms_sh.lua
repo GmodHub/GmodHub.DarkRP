@@ -4,6 +4,7 @@ term.Add('PlayerDisconnect', '# отключился от сервера.')
 
 term.Add('RankExpired', 'Ваш ранг истекает #.')
 
+term.Add('WaitBeforCommand', 'Подождите # секунд перед использованием "#" ещё раз!')
 term.Add('InvalidCommand', '# неверная команда!')
 term.Add('NeedFlagToUseCommand', 'Вам нужен флаг "#" чтобы использовать #')
 term.Add('MissingArg', 'Вы забыли указать: #')

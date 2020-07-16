@@ -109,10 +109,10 @@ function PANEL:Init()
 	self.Search.OnChange = function(s)
 		self.List:Search(s:GetValue())
 	end
-	self.Search:SetPlaceholderText('Search...')
+	self.Search:SetPlaceholderText('Поиск...')
 
 	self.List = ui.Create('ui_listview', self)
-	self.List:SetNoResultsMessage('No emotes found!')
+	self.List:SetNoResultsMessage('Эмоции не найдены!')
 	self.List.FilterSearchResult = function(s, row, value)
 		return row.EmoteString and (string.find(row.EmoteString:lower(), value:lower(), 1, true) ~= nil)
 	end
@@ -120,9 +120,9 @@ function PANEL:Init()
 		draw.OutlinedBox(0, 0, w, h, ui.col.FlatBlack, ui.col.Outline)
 	end
 
-	self.List:AddSpacer('Recent Emotes')
+	self.List:AddSpacer('Последние Эмоции')
 	self:AddRecents()
-	self.List:AddSpacer('All Emotes')
+	self.List:AddSpacer('Все Эмоции')
 
 	local cont
 	local i = 0
@@ -161,7 +161,7 @@ end
 function PANEL:PaintOver(w, h)
 	if (not LocalPlayer():IsVIP()) then
 		draw.Box(1, 1, w - 2, h - 2, ui.col.FlatBlack)
-		draw.SimpleText('Buy VIP to use emotes', 'ui.20', w * 0.5, h * 0.5, ui.col.Red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText('Вам необходим VIP для использования эмоций', 'ui.20', w * 0.5, h * 0.5, ui.col.Red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	end
 end
 

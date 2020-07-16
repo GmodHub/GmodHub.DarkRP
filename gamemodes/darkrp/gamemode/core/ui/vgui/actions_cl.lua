@@ -35,7 +35,7 @@ local actionsMenus = {
 
 local unilitiesMenus = {
 	{
-		Name = 'Доступ к пропам',
+		Name = 'Доступ Пропов',
 		DoClick = function(p)
 			rp.pp.SharePropMenu()
 		end
@@ -66,8 +66,8 @@ local function makeMenus(x, y, name, menus, cont)
 end
 
 hook('ContextMenuCreated', function(cont)
-	local actions = makeMenus(10, ScrH()/2 - (#actionsMenus * 30), 'Actions', actionsMenus, cont)
+	local actions = makeMenus(10, ScrH()/2 - (#actionsMenus * 30), 'Действия', actionsMenus, cont)
 
 	local x, y = actions:GetPos()
-	makeMenus(x, y + actions:GetTall() + 5, 'Utilities', unilitiesMenus, cont)
+	makeMenus(x, y + actions:GetTall() + 5, 'Утилиты', unilitiesMenus, cont)
 end)

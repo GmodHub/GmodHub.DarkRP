@@ -1,0 +1,276 @@
+L 07/16/2020 - 02:37:58: Log file started (file "logs\L0716001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/16/2020 - 02:37:58: server_cvar: "sv_airaccelerate" "100"
+L 07/16/2020 - 02:37:59: Connection to Steam servers successful.
+L 07/16/2020 - 02:37:59:    Public IP is 31.130.42.26.
+L 07/16/2020 - 02:37:59: Assigned anonymous gameserver Steam ID [A-1:796495876(15165)].
+L 07/16/2020 - 02:37:59: VAC secure mode is activated.
+L 07/16/2020 - 02:38:03: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/16/2020 - 02:38:04: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/16/2020 - 02:38:14: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/16/2020 - 02:42:12: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/16/2020 - 02:56:53: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/16/2020 - 02:56:53: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/16/2020 - 02:57:07: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/16/2020 - 03:08:16: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:08:16: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:08:47: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:08:47: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:09:19: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:09:19: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:10:16: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to call field 'Term' (a nil value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:10:16: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:10:36: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:10:36: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:11:12: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:11:12: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:11:36: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:11:36: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:12:10: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'term' (a number value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:12:10: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/ban"
+L 07/16/2020 - 03:16:50: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. notify_err - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:27
+     4. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. Run - addons/dash_3/lua/dash/libraries/cmd.lua:322
+        7. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:16:50: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/kall"
+L 07/16/2020 - 03:16:53: Lua Error: 
+[badmin_2] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/16/2020 - 03:18:00: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2: attempt to index local 'cmd' (a nil value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:2
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Run - addons/dash_3/lua/dash/libraries/cmd.lua:322
+     4. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 03:18:00: "COMPLΞX<3><STEAM_0:0:105635721><Team>" say "/kall"
+L 07/16/2020 - 11:20:42: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/16/2020 - 11:22:07: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/16/2020 - 11:22:08: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/16/2020 - 11:22:17: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 07/16/2020 - 11:23:56: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_basicslots/init.lua:18: attempt to perform arithmetic on a string value
+  1. CanUse - gamemodes/darkrp/entities/entities/gambling_machine_basicslots/init.lua:18
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:7
+
+
+L 07/16/2020 - 11:39:14: "COMPLΞX<4><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/16/2020 - 11:41:53: "COMPLΞX<5><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/16/2020 - 11:41:54: "COMPLΞX<5><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/16/2020 - 11:42:08: "COMPLΞX<5><STEAM_0:0:105635721><>" entered the game
+L 07/16/2020 - 11:43:26: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:46
+      5. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:30
+
+
+L 07/16/2020 - 11:43:26: Lua Error: 
+[ERROR] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (rp.NotifyTerm)
+
+  1. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:21
+   2. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:46
+    3. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:30
+
+
+L 07/16/2020 - 11:43:26: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:46
+      5. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:30
+
+
+L 07/16/2020 - 11:43:28: Lua Error: 
+[badmin_2] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/16/2020 - 11:45:17: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:46
+      5. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:30
+
+
+L 07/16/2020 - 11:45:17: Lua Error: 
+[ERROR] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (rp.NotifyTerm)
+
+  1. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:21
+   2. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:46
+    3. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:30
+
+
+L 07/16/2020 - 11:45:17: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/lab_base/init.lua:46
+      5. unknown - gamemodes/darkrp/entities/entities/lab_base/init.lua:30
+
+
+L 07/16/2020 - 11:45:18: Lua Error: 
+[badmin_2] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/16/2020 - 11:52:59: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/lab_base/init.lua:89: ')' expected (to close '(' at line 88) near 'rp'
+
+
+L 07/16/2020 - 11:52:59: Lua Error: Refusing to load lab_base because it is missing Type and Base keys!
+
+L 07/16/2020 - 11:55:48: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43: attempt to call field 'RunCommand' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/16/2020 - 11:55:49: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43: attempt to call field 'RunCommand' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/16/2020 - 11:56:33: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43: attempt to call field 'RunCommand' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/16/2020 - 11:56:41: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:1: '<eof>' expected near 'end'
+
+
+L 07/16/2020 - 11:56:41: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:1: '<eof>' expected near 'end'
+
+
+L 07/16/2020 - 11:56:52: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43: attempt to call field 'RunCommand' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/16/2020 - 11:56:55: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43: attempt to call field 'RunCommand' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:43
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/16/2020 - 11:57:29: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 11:57:29: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 11:57:29: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/16/2020 - 11:57:29: "COMPLΞX<5><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/16/2020 - 11:57:29: server_message: "quit"
+L 07/16/2020 - 11:57:29: Log file closed.
