@@ -129,7 +129,7 @@ if (CLIENT) then
 	language.Add("Tool.fading_door.name", "Fading Door")
 	language.Add("Tool.fading_door.desc", "Makes things into fadable doors.")
 	language.Add("Tool.fading_door.left", "Create fading door")
-	language.Add("Tool.fading_door.right", "Create fading door then press again to place keypad")
+	--language.Add("Tool.fading_door.right", "Create fading door then press again to place keypad")
 
 	language.Add("Undone_fading_door", "Undone Fading Door")
 
@@ -200,7 +200,8 @@ function TOOL:LinkKeypad(Ent, Key, Password, HoldLength)
 end
 
 function TOOL:RightClick(tr)
-	if not SERVER then return end
+	return false
+	--[[if not SERVER then return end
 
 	local pl = self:GetOwner()
 
@@ -247,5 +248,5 @@ function TOOL:RightClick(tr)
 		self.Stage = 1
 	end
 
-	return true
+	return true]]
 end
