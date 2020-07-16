@@ -153,7 +153,7 @@ rp.cfg.JailHoleModels =  {
 rp.cfg.MayorMachines = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(1714.841553, 2432.283936, 276.031250),
+			Pos = Vector(1714.841553, 2432.283936, 250),
 			Ang = Angle(0, 0, 0)
 		}
 	}
