@@ -85,6 +85,8 @@ function TOOL:LeftClick(trace)
 
 	if (not IsValid(toll)) then return end
 
+	constraint.Weld(toll, trace.Entity, 0, 0, 0, true, false)
+
 	undo.Create('Tolls')
 		undo.AddEntity(toll)
 		undo.SetPlayer(pl)

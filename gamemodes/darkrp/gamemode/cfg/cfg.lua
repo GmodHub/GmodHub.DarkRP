@@ -356,18 +356,17 @@ rp.cfg.PrinterPlates = {
 
 	}
 }
-
 -- Theater
 rp.cfg.Theaters = {
 	rp_bangclaw = {
 		Screen = {
-			Pos = Vector(-1777.357422, 2120.142334, -132.731308),
-			Ang = Angle(0, -90, 0),
-			Scale = 0.5
+			Pos = Vector(2140, -1910, 288.5),
+			Ang = Angle(0, 90, 90),
+			Scale = 0.13
 		},
 		Projector = {
-			Pos = Vector(-1832.160889, 1624.782959, 35.414860),
-			Ang = Angle(0, 90, 0),
+			Pos = Vector(2625, -1831.354858, 207),
+			Ang = Angle(0, -90, 0)
 		},
 	}
 }

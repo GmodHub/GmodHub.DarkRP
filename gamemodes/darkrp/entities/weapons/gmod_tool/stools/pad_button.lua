@@ -121,6 +121,8 @@ function TOOL:LeftClick(trace)
 
 	if (not IsValid(button)) then return end
 
+	constraint.Weld(button, trace.Entity, 0, 0, 0, true, false)
+
 	undo.Create('Button')
 		undo.AddEntity(button)
 		undo.SetPlayer(pl)

@@ -107,6 +107,8 @@ function TOOL:LeftClick(trace)
 
 	if (not IsValid(biometric)) then return end
 
+	constraint.Weld(biometric, trace.Entity, 0, 0, 0, true, false)
+
 	undo.Create('Biometrics')
 		undo.AddEntity(biometric)
 		undo.SetPlayer(pl)

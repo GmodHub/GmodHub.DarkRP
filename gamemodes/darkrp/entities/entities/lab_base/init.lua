@@ -46,19 +46,20 @@ function ENT:Explode()
 end
 
 
-function ENT:Crafting(class, name)
+function ENT:Crafting(class, namem, model)
 	local time = math.random(15, 60)
 	self:SetCraftTime(CurTime() + time)
 	--self:SetCraftName(name)
 
-	timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
-		if IsValid(self) then
+			timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
+				if IsValid(self) then
 
-			local e = ents.Create(class)
-			e:SetPos(self:GetPos() + ((self:GetAngles():Up() * 40) + (self:GetAngles():Forward() * 0)))
-			e:Spawn()
-			e:Activate()
-			self:SetCraftTime(0)
+			local item = ents.Create('spawned_weapon')
+			item.weaponclass = class
+			item:SetModel(model)
+			item:SetPos(self:GetPos() + ((self:GetAngles():Up() * 40) + (self:GetAngles():Forward() * 0)))
+			item:Spawn()
+			item:Activate()
 		end
 	end)
 end
@@ -69,12 +70,11 @@ net.Receive('rp.ItemLabCraft', function(len, pl)
 	local ent = net.ReadEntity()
 	local class = net.ReadUInt(8)
 	print(class)
-	PrintTable(ent:GetCraftables())
 
 	if ent:GetMetal() <= 0 then return end
 	ent:SetMetal(ent:GetMetal()-1)
 	rp.Notify(pl, NOTIFY_SUCCESS, term.Get('ItemLabCrafting'), 1,ent:GetCraftables()[class].Class)
-	ent:Crafting(ent:GetCraftables()[class].Class, ent:GetCraftables()[class].Class)
+	ent:Crafting(ent:GetCraftables()[class].Class, ent:GetCraftables()[class].Class, ent:GetCraftables()[class].Model)
 end)
 
 net.Receive("rp.ItemLabRefill", function(len, ply)

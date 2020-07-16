@@ -16,7 +16,7 @@ end
 rp.AddCommand('playsong', function(pl, url)
 	local ent = pl:GetEyeTrace().Entity
 
-	if (not IsValid(ent)) or (not ent:CanUse(pl)) or (not url) or (pl:GetPos():Distance(ent:GetPos()) > 100) then return end
+	if (not IsValid(ent)) or (not ent:CanUse(pl)) or (not url) or (pl:GetPos():Distance(ent:GetPos()) > 300) then return end
 
 	if (url == '') then
 		ent:SetURL('')
@@ -45,7 +45,7 @@ end)
 rp.AddCommand('loopsong', function(pl, url)
 	local ent = pl:GetEyeTrace().Entity
 
-	if (not IsValid(ent)) or (not ent:CanUse(pl)) or (not url) or (pl:GetPos():Distance(ent:GetPos()) > 100) then return end
+	if (not IsValid(ent)) or (not ent:CanUse(pl)) or (not url) or (pl:GetPos():Distance(ent:GetPos()) > 300) then return end
 
 	if (url == '') then
 		ent:SetURL('')
@@ -74,7 +74,7 @@ end)
 rp.AddCommand('pausesong', function(pl)
 	local ent = pl:GetEyeTrace().Entity
 
-	if (not IsValid(ent)) or (not ent:CanUse(pl)) or (pl:GetPos():Distance(ent:GetPos()) > 200) then return end
+	if (not IsValid(ent)) or (not ent:CanUse(pl)) or (pl:GetPos():Distance(ent:GetPos()) > 300) then return end
 
 	ent:SetPaused(ent:IsPaused() and 0 or 1)
 end)
