@@ -53,10 +53,10 @@ function ENTITY:MakeFadingDoor(pl, key, inversed, toggleactive)
 end
 
 function ENTITY:Fade()
-	--if(not self.FadingDoor) then return end
-
-	self.FadeMaterial = self:GetMaterial()
-	self:SetMaterial('sprites/heatwave')
+	if(self:GetMaterial() ~= "sprites/heatwave") then
+		self.FadeMaterial = self:GetMaterial()
+		self:SetMaterial("sprites/heatwave")
+	end
 	self:DrawShadow(false)
 	self:SetNotSolid(true)
 	self.Faded = true

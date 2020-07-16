@@ -41,7 +41,7 @@ function ENT:Use(pl)
 	end
 
 	if (self:Getcount() < 1) then 
-		pl:Notify(NOTIFY_ERROR, rp.Term('EmptyShipment')) 
+		pl:Notify(NOTIFY_ERROR, term.Get('EmptyShipment')) 
 		return 
 	end
 

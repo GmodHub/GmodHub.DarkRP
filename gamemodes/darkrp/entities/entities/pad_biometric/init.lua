@@ -41,3 +41,17 @@ function ENT:PlayerUse(pl)
         self:UnFadeProps()
     end)
 end
+
+function ENT:CanHack()
+	return true
+end
+
+function ENT:Hack(ply)
+    if(not self:IsPropsFaded()) then
+        self:FadeProps()
+    end
+    timer.Simple(self:GetHoldLength(), function()
+        if(not IsValid(self)) then return end
+        self:UnFadeProps()
+    end)
+end

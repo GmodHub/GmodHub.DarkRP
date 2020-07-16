@@ -28,7 +28,9 @@ function ENT:PlayerUse(pl)
     if(self:GetOneTimeUse()) then
         if(not self:IsPropsFaded()) then
             self:FadeProps()
-            pl:AddMoney(-self:Getprice())
+            if(self.ItemOwner ~= pl) then
+                pl:AddMoney(-self:Getprice())
+            end
         end
     else
         self:FadeProps()
@@ -36,6 +38,26 @@ function ENT:PlayerUse(pl)
             if(not IsValid(self)) then return end
             self:UnFadeProps()
         end)
-        pl:AddMoney(-self:Getprice())
+        if(self.ItemOwner ~= pl) then
+            pl:AddMoney(-self:Getprice())
+        end
+    end
+end
+
+function ENT:CanHack()
+	return true
+end
+
+function ENT:Hack(ply)
+    if(self:GetOneTimeUse()) then
+        if(not self:IsPropsFaded()) then
+            self:FadeProps()
+        end
+    else
+        self:FadeProps()
+        timer.Simple(self:GetHoldLength(), function()
+            if(not IsValid(self)) then return end
+            self:UnFadeProps()
+        end)
     end
 end

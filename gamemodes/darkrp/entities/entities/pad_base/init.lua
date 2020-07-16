@@ -22,10 +22,12 @@ local function Fade(ent)
 		return
 	end]]
 	ent._fade.active = true;
-	ent._fade.material = ent:GetMaterial();
+	if(ent:GetMaterial() ~= "sprites/heatwave") then
+		ent._fade.material = ent:GetMaterial();
+		ent:SetMaterial(config.material);
+	end
 	ent._fade.fadeTime = CurTime();
 
-	ent:SetMaterial(config.material);
 	ent:DrawShadow(false);
 	ent:SetNotSolid(true);
 

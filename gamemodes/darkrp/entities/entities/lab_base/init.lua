@@ -55,11 +55,12 @@ function ENT:Crafting(class, crafter)
 	timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
 		if IsValid(self) then
 
-			local e = ents.Create(class)
-			e:SetPos(self:GetPos() + ((self:GetAngles():Up() * 40) + (self:GetAngles():Forward() * 0)))
-			e:Spawn()
-			e:Activate()
-			self:SetCraftTime(0)
+			local item = ents.Create('spawned_weapon')
+			item.weaponclass = class.Class
+			item:SetModel(class.Model)
+			item:SetPos(self:GetPos() + ((self:GetAngles():Up() * 40) + (self:GetAngles():Forward() * 0)))
+			item:Spawn()
+			item:Activate()
 		end
 	end)
 end
@@ -73,7 +74,7 @@ net.Receive('rp.ItemLabCraft', function(len, pl)
 	if ent:GetClass() == "lab_base" and ent:GetMetal() <= 0 or ent:IsCrafting() then return end
 	ent:SetMetal(ent:GetMetal()-1)
 	rp.Notify(pl, NOTIFY_SUCCESS, term.Get('ItemLabCrafting'), 1,ent:GetCraftables()[class].Class)
-	ent:Crafting(ent:GetCraftables()[class].Class, pl)
+	ent:Crafting(ent:GetCraftables()[class], pl)
 end)
 
 net.Receive("rp.ItemLabRefill", function(len, ply)

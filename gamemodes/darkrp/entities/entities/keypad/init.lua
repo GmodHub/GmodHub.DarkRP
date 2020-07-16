@@ -160,6 +160,27 @@ function ENT:Reset()
 	self:SetSecure(self:GetData().Secure)
 end
 
+function ENT:CanHack()
+	return true
+end
+
+function ENT:Hack()
+	if(IsValid(self)) then
+		for i = 0, repeats do
+			timer.Simple(length * i + delay * i, function()
+				if(IsValid(self) and IsValid(owner)) then
+					numpad.Activate(owner, key, true)
+				end
+			end)
+
+			timer.Simple(length * (i + 1) + delay * i, function()
+				if(IsValid(self) and IsValid(owner)) then
+					numpad.Deactivate(owner, key, true)
+				end
+			end)
+		end
+	end
+end
 
 duplicator.RegisterEntityModifier( "keypad_password_passthrough", function(ply, entity, data)
 	entity:SetKeypadOwner(ply)
