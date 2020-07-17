@@ -39,7 +39,7 @@ function PLAYER:ChangeTeam(t, force)
 		self:TeamBan()
 		self.IsBeingDemoted = false
 		self:ChangeTeam(1, true)
-		GAMEMODE.vote.DestroyVotesWithEnt(self)
+		--GAMEMODE.vote.DestroyVotesWithEnt(self)
 		rp.Notify(self, NOTIFY_ERROR, term.Get('EscapeDemotion'))
 
 		return false

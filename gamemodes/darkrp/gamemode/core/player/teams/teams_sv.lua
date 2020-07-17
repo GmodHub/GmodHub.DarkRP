@@ -218,21 +218,21 @@ rp.AddCommand('quitjob', function(pl)
 	pl:SetNetVar('Employer', nil)
 end)
 
-local function FinishDemote(vote, choice)
-	local target = vote.target
-
-	target.IsBeingDemoted = nil
-	if choice == 1 then
-		target:TeamBan()
-		if target:Alive() then
-			target:ChangeTeam(rp.DefaultTeam, true)
+local function FinishDemote(ply, choice)
+	ply.IsBeingDemoted = nil
+	if(choice > 0) then
+		ply:TeamBan()
+		if ply:Alive() then
+			ply:ChangeTeam(1, true)
 		else
-			target.demotedWhileDead = true
+			ply.demotedWhileDead = true
 		end
+	end
 
-		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerDemoted'), target)
+	if(choice > 0) then
+		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerDemoted'), ply)
 	else
-		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerNotDemoted'), target)
+		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerNotDemoted'), ply)
 	end
 end
 
@@ -248,7 +248,8 @@ rp.AddCommand("demote", function(ply, p, reason)
 	end
 
 	local canDemote, message = hook.Call("CanDemote", GAMEMODE, ply, p, reason)
-	if canDemote == false then
+	if (false) or canDemote == false then -- DEBUG: EVERYBODY CAN DEMOTE
+		print("1")
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
 		return
 	end
@@ -258,23 +259,33 @@ rp.AddCommand("demote", function(ply, p, reason)
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('NeedToWait'),  math.ceil(80 - (CurTime() - ply:GetTable().LastVoteCop)))
 			return
 		end
-		if not rp.teams[p:Team()] or rp.teams[p:Team()].candemote == false then
+		if (false) --[[not rp.teams[p:Team()] or rp.teams[p:Team()].candemote == false]] then -- DEBUG: EVERYBODY CAN DEMOTE
+			print(2)
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
 		else
-
 			rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)
 			p.IsBeingDemoted = true
 
 			hook.Call('playerDemotePlayer', GAMEMODE, ply, p, reason)
 
-			GAMEMODE.vote:create(p:Nick() .. ":\nDemotion nominee:\n"..reason, "demote", p, 20, FinishDemote,
-			{
-				[p] = true,
-				[ply] = true
-			}, function(vote)
-				if not IsValid(vote.target) then return end
-				vote.target.IsBeingDemoted = nil
-			end)
+			--GAMEMODE.vote:create(p:Nick() .. ":\nDemotion nominee:\n"..reason, "demote", p, 20, FinishDemote,
+			-- (question, time, uid, callback, isvote, recipients)
+
+			rp.question.Create("Понизить: " .. p:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. p:SteamID(), function(voter, answer, uid)
+				if(not rp.question.Votes[uid] or not istable(rp.question.Votes[uid])) then
+					rp.question.Votes[uid] = {
+						VoteRes = 0,
+						Func = FinishDemote,
+						Ply = p
+					}
+				end
+
+				if(answer) then
+					rp.question.Votes[uid].VoteRes = rp.question.Votes[uid].VoteRes + 1
+				else
+					rp.question.Votes[uid].VoteRes = rp.question.Votes[uid].VoteRes - 1
+				end
+			end, true, player.GetAll())
 			ply:GetTable().LastVoteCop = CurTime()
 		end
 		return
