@@ -2,7 +2,7 @@ util.AddNetworkString 'rp.question.Ask'
 util.AddNetworkString 'rp.question.Destroy'
 util.AddNetworkString 'rp.question.Answer'
 
-function rp.question.Create(question, time, uid, callback, hz, recipients)
+function rp.question.Create(question, time, uid, callback, isvote, recipients)
 
   if rp.question.Queue[uid] then return end
 
@@ -20,6 +20,7 @@ function rp.question.Create(question, time, uid, callback, hz, recipients)
     Question = question,
     Expire = time + CurTime(),
     Callback = callback,
+    IsVote = isvote,
     Recipients = recipients
   }
 

@@ -31,11 +31,11 @@ hook("PlayerEntityCreated", function(pl)
 end)
 
 function PLAYER:SetHunger(amount, noclamp)
-	//local max = self:CallSkillHook(SKILL_HUNGER)
+	local max = self:CallSkillHook(SKILL_HUNGER)
 	if noclamp then
 		amount = math_max(0, (amount/100 * rp.cfg.HungerRate))
 	else
-		amount = math_clamp((amount/100 * rp.cfg.HungerRate ), 0, rp.cfg.HungerRate)
+		amount = math_clamp((amount/100 * rp.cfg.HungerRate ), 0, (max/100 * rp.cfg.HungerRate ))
 	end
 	self:SetNetVar('Energy', CurTime() + amount)
 end

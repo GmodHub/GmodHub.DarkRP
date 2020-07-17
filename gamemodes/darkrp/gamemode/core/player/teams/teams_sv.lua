@@ -283,7 +283,7 @@ rp.AddCommand("demote", function(ply, p, reason)
 		return
 	end
 end)
-:AddParam(cmd.PLAYER)
+:AddParam(cmd.PLAYER_ENTITY)
 :AddParam(cmd.STRING)
 
 timer.Create('PlayerThink', 5, 0, function()

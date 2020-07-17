@@ -109,7 +109,7 @@ function rp.data.AddUpgrade(pl, id)
 		local cost = upg_obj:GetPrice(pl)
 		pl:TakeCredits(cost, 'Purchase: ' .. upg_obj:GetUID(), function()
 			db:Query("INSERT INTO `kshop_purchases` VALUES('" .. os.time() .. "', '" .. pl:SteamID() .. "', '" .. upg_obj:GetUID() .. "');", function(dat)
-				for k, v in ipairs(player.GetAll()) do v:ChatPrint(pl:Name() .. " has bought " .. upg_obj:GetName() .. " with their credits!"); end
+				for k, v in ipairs(player.GetAll()) do v:ChatPrint(pl:Name() .. " приобрёл " .. upg_obj:GetName() .. " за свои кредиты!"); end
 
 				local upgrades = pl:GetVar('Upgrades')
 				upgrades[upg_obj:GetUID()] = upgrades[upg_obj:GetUID()] and (upgrades[upg_obj:GetUID()] + 1) or 1

@@ -3,8 +3,6 @@ AddCSLuaFile("shared.lua")
 
 include("shared.lua")
 
-resource.AddFile('sound/vo/sandwicheat09.wav')
-
 function ENT:Initialize()
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(MOVETYPE_VPHYSICS)
@@ -22,7 +20,7 @@ end
 
 function ENT:Use(activator,caller)
 	if activator:IsBanned() then return end
-	activator:SetHunger(100)
+	activator:SetHunger(activator:CallSkillHook(SKILL_HUNGER))
 	self:Remove()
 	activator:EmitSound("vo/sandwicheat09.wav")
 end

@@ -158,11 +158,11 @@ SKILL_SCAVENGE = rp.karma.AddSkill {
 		5000
 	}
 }
-/*
+
 SKILL_HUNGER = rp.karma.AddSkill {
-	Name = 'Big Belly',
+	Name = 'Большой Желудок',
 	Icon = 'gmh/gui/skills/hunger.png',
-	Description = 'Higher hunger capacity',
+	Description = 'Поедайте больше еды',
 	Hooks = {
 		[0] = function() return 100 end,
 		[1] = function() return 125 end,
@@ -171,10 +171,10 @@ SKILL_HUNGER = rp.karma.AddSkill {
 		[4] = function() return 200 end,
 	},
 	Descriptions = {
-		'125 hunger',
-		'150 hunger',
-		'175 hunger',
-		'200 hunger',
+		'125 еды',
+		'150 еды',
+		'175 еды',
+		'200 еды',
 	},
 	Prices = {
 		1000,
@@ -183,7 +183,7 @@ SKILL_HUNGER = rp.karma.AddSkill {
 		15000
 	}
 }
-*/
+
 SKILL_FALL = rp.karma.AddSkill {
 	Name = 'Лёгкая Нога',
 	Icon = 'gmh/gui/skills/fall.png',
