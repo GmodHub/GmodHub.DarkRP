@@ -1,15 +1,15 @@
 ba.data = ba.data or {
 	IP 		= 'mazvov7p.beget.tech',
-	User 	= 'mazvov7p_sup',
+	User 	= 'mazvov7p_badmin',
 	Pass 	= '%cSuuP38',
-	Table = 'mazvov7p_sup',
+	Table = 'mazvov7p_badmin',
 	Port 	= 3306,
 	_uid 	= util.CRC(GetConVarString('ip') .. ':' .. GetConVarString('hostport'))
 }
 
 
 ba.data._db = ba.data._db or mysql.Connect(ba.data.IP, ba.data.User, ba.data.Pass, ba.data.Table, ba.data.Port)
-
+ba.data._db:SetCharacterSet("utf8")
 
 --
 -- Misc
@@ -26,27 +26,11 @@ function ba.data.GetUID()
 	return ba.data._uid
 end
 
-
---
--- 	Auth keys
---
-local db = ba.data.GetDB()
-
-function ba.data.CreateKey(pl, cback)
-	local time = os.time()
-	local key = pl:HashID()
-	pl:SetBVar('LastKey', key)
-	db:query('INSERT INTO ba_keys(`Date`, `Key`) VALUES(' .. time .. ', "' .. key .. '");', cback)
-	return key
-end
-
-function ba.data.DestroyKey(key, cback)
-	db:query('DELETE * FROM ba_keys WHERE `Key`="' .. key .. '";', cback)
-end
-
 --
 -- Player data
 --
+local db = ba.data.GetDB()
+
 function ba.data.LoadPlayer(pl, cback)
 	local steamid 	= (pl:SteamID64() or '0')
 	local name 		= pl:Name()

@@ -8,6 +8,11 @@ function PLAYER:GetOrgData()
 	return self:GetNetVar('OrgData')
 end
 
+function PLAYER:GetOrgUID()
+	local d = self:GetNetVar('OrgData')
+	return d and d.UID
+end
+
 function PLAYER:GetOrgColor()
 	local c = self:GetNetVar('OrgColor')
 	return (c and Color(c.r, c.g, c.b) or Color(255,255,255))
@@ -23,6 +28,11 @@ function PLAYER:IsOrgOwner()
 	return d and d.Perms and d.Perms.Owner
 end
 
+function PLAYER:IsOrgUpg()
+	local d = self:GetNetVar('OrgData')
+	return d and tobool(d.HasUpgrade)
+end
+
 function PLAYER:HasOrgPerm(perm)
 	local d = self:GetNetVar('OrgData')
 	return d and d.Perms and d.Perms[perm]
@@ -32,6 +42,10 @@ if (SERVER) then
 	function PLAYER:SetOrg(name, color)
 		self:SetNetVar('Org', name)
 		self:SetNetVar('OrgColor', color)
+	end
+
+	function PLAYER:SetOrgName(name)
+		self:SetNetVar('Org', name)
 	end
 
 	function PLAYER:SetOrgColor(color)
@@ -47,31 +61,11 @@ if (SERVER) then
 		self:SetOrgColor(nil)
 		self:SetOrgData(nil)
 	end
-
-	function PLAYER:GetOrgInstance()
-		return self:GetOrg() and rp.orgs.lookup[self:GetOrg()]
-	end
 end
 
-rp.orgs.BaseData = {
-	['Owner'] = {
-		Rank 	= 'Owner',
-		Perms 	= {
-			Weight 	= 100,
-			Owner 	= true,
-			Invite 	= true,
-			Kick 	= true,
-			Rank 	= true,
-			MoTD 	= true,
-			Banner = true,
-			Withdraw = true
-		}
-	}
-}
-
-function rp.orgs.GetOnlineMembers(org)
+function rp.orgs.GetOnlineMembers(uid)
 	return table.Filter(player.GetAll(), function(pl)
-		return (pl:GetOrg() == org)
+		return (pl:GetOrgUID() == uid)
 	end)
 end
 
@@ -94,6 +88,8 @@ nw.Register 'OrgColor'
 
 nw.Register 'OrgData'
 	:Write(function(v)
+		net.WriteUInt(v.UID, 7)
+		net.WriteBool(v.HasUpgrade)
 		net.WriteString(v.Rank)
 		net.WriteString(v.MoTD.Text)
 		net.WriteBool(v.MoTD.Dark)
@@ -108,6 +104,8 @@ nw.Register 'OrgData'
 	end)
 	:Read(function()
 		return {
+			UID  = net.ReadUInt(7),
+			HasUpgrade = net.ReadBool(),
 			Rank = net.ReadString(),
 			MoTD = {
 				Text = net.ReadString(),

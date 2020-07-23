@@ -1,0 +1,50 @@
+L 07/19/2020 - 17:10:56: Log file started (file "logs\L0719001.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/19/2020 - 17:10:56: server_cvar: "sv_password" "***PROTECTED***"
+L 07/19/2020 - 17:10:56: server_cvar: "sv_airaccelerate" "100"
+L 07/19/2020 - 17:10:57: Connection to Steam servers successful.
+L 07/19/2020 - 17:10:57:    Public IP is 31.130.42.26.
+L 07/19/2020 - 17:10:57: Assigned anonymous gameserver Steam ID [A-1:1957573636(15191)].
+L 07/19/2020 - 17:10:57: VAC secure mode is activated.
+L 07/19/2020 - 17:11:28: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 17:11:29: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 17:11:37: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 17:16:20: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 17:16:21: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 17:16:21: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 17:16:30: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 17:23:31: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 17:23:31: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 17:23:32: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 17:23:41: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 17:32:22: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 17:38:12: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 17:38:12: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 17:38:29: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 17:47:36: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 17:47:36: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 17:47:37: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 17:47:46: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 19:10:45: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 19:10:46: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 19:10:46: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 19:10:55: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 19:14:11: "Bot01<8><BOT><>" connected, address "none"
+L 07/19/2020 - 19:14:11: "Bot01<8><BOT><>" entered the game
+L 07/19/2020 - 19:19:55: "Bot02<9><BOT><>" connected, address "none"
+L 07/19/2020 - 19:19:55: "Bot02<9><BOT><>" entered the game
+L 07/19/2020 - 19:20:22: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_ziptie.lua:109: attempt to call method 'Ziptie' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptie.lua:109
+
+
+L 07/19/2020 - 19:22:02: Lua Error: Couldn't include file 'darkrp\gamemode\core\player\ziptie\ziptie_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 47))
+
+L 07/19/2020 - 19:22:02: Lua Error: Couldn't include file 'darkrp\gamemode\core\player\ziptie\ziptie_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 47))
+
+L 07/19/2020 - 19:27:22: Lua Error: Couldn't include file 'darkrp\gamemode\core\player\ziptie\ziptie_sv.lua' (File not found) (@gamemodes/darkrp/gamemode/sh_init.lua (line 47))
+
+L 07/19/2020 - 20:03:16: "Bot02<9><BOT><>" disconnected (reason "Server shutting down")
+L 07/19/2020 - 20:03:16: "Bot01<8><BOT><>" disconnected (reason "Server shutting down")
+L 07/19/2020 - 20:03:16: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/19/2020 - 20:03:16: server_message: "quit"
+L 07/19/2020 - 20:03:16: Log file closed.

@@ -204,10 +204,12 @@ function GM:AddTeamCommands(CTeam, max)
 			ply:GetTable().LastVoteTime = CurTime()
 			return
 		end)
+		:SetCooldown(8)
 	else
 		rp.AddCommand(CTeam.command, function(ply)
 			ply:ChangeTeam(k)
 		end)
+		:SetCooldown(8)
 	end
 end
 
@@ -249,9 +251,9 @@ function GM:AddEntityCommands(tblEnt)
 		item:SetPos(tr.HitPos)
 		item.ItemOwner = ply
 
-    if item.Setowning_ent then
-      item:Setowning_ent(ply)
-    end
+	    if item.Setowning_ent then
+	      item:Setowning_ent(ply)
+	    end
 
 		item:Spawn()
 		item:PhysWake()

@@ -142,7 +142,7 @@ if (CLIENT) then
 		--{ui.col.Gold, 'Покупка кредитов сейчас со скидкой 25% в честь первой недели июля! Кликните по вкладке Донат в F4 меню.'},
 		{ui.col.Purple, 'Мы рады каждому новому игроку в нашей группе Вконтакте! https://vk.com/gmdhub'},
 		{ui.col.Purple, 'Вступайте в наш дискорд @ https://discord.gg/FdzJqUK'},
-		{ui.col.Gold, 'Communities our size are not cheap to run, support us by purchasing some upgrades. Click Credit Shop in the F4 menu.'},
+		--{ui.col.Gold, 'Communities our size are not cheap to run, support us by purchasing some upgrades. Click Credit Shop in the F4 menu.'},
 	}
 end
 

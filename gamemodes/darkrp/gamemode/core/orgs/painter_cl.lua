@@ -17,7 +17,7 @@ local padding = 0
 local dim = 64
 local outline = 512 / dim
 local cursorSize = 1
-local cursorShape = "Square"
+local cursorShape = "Квадрат"
 
 local delMat = Material("gmh/gui/orgs/trash.png", "smooth")
 local renMat = Material("gmh/gui/orgs/rename.png", "smooth")
@@ -130,7 +130,7 @@ end
 function rp.orgs.OpenBannerImporter()
 	local importFr = ui.Create('ui_frame', function(self)
 		self:SetSize(520, 120)
-		self:SetTitle('Import Image')
+		self:SetTitle('Импорт Картинки')
 		self:MakePopup()
 		self:Center()
 		self:RequestFocus()
@@ -147,7 +147,7 @@ function rp.orgs.OpenBannerImporter()
 	end, importFr)
 
 	ui.Create('DLabel', function(self, p)
-		self:SetText('.jpg and .png images only! No porn, gore, ect or ban.')
+		self:SetText('Только .jpg и .png! Без порно, насилия, и т.д или бан.')
 		self:SetFont('ui.24')
 		self:SetTextColor(ui.col.White)
 		self:SizeToContents()
@@ -155,7 +155,7 @@ function rp.orgs.OpenBannerImporter()
 	end, importFr)
 
 	set = ui.Create('DButton', function(self, p)
-		self:SetText('Import')
+		self:SetText('Импорт')
 		self:SetPos(5, 90)
 		self:SetSize(p:GetWide() - 10, 25)
 		function self:Think()
@@ -170,7 +170,7 @@ function rp.orgs.OpenBannerImporter()
 			end
 		end
 		function self:DoClick()
-			self:SetText('Importing...')
+			self:SetText('Импорт...')
 			self.Think = function() end
 			self:SetDisabled(true)
 			p:ShowCloseButton(false)
@@ -179,7 +179,7 @@ function rp.orgs.OpenBannerImporter()
 			timer.Simple(5, function()
 				if IsValid(p) then
 					p:ShowCloseButton(true)
-					self:SetText('Import timed out...')
+					self:SetText('Импорт провален...')
 				end
 			end)
 
@@ -221,7 +221,7 @@ function rp.orgs.OpenBannerImporter()
 						p:ShowCloseButton(true)
 					end
 					if IsValid(self) then
-						self:SetText('Import failed...')
+						self:SetText('Импорт провален...')
 					end
 				end)
 		end
@@ -234,7 +234,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	end
 
 	cursorSize = 1
-	cursorShape = "Square"
+	cursorShape = "Квадрат"
 
 	local parent = ui.Create('ui_frame')
 	parent:Focus()
@@ -288,7 +288,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	parent.pnlPaintArea:SetSize(512 + padding * 2, 512 + padding * 2)
 
 	parent:SetSize(768, y + parent.pnlPaintArea:GetTall() + 5)
-	parent:SetTitle("Organization Flag")
+	parent:SetTitle("Логотип Банды")
 
 	parent.clrCombo:SetPalette(false)
 	parent.clrCombo:SetAlphaBar(false)
@@ -299,7 +299,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 
 	local halfrem = (parent:GetWide() - parent.pnlPaintArea:GetWide() - 20) / 2
 
-	parent.lblCursorSize:SetText("Cursor Size")
+	parent.lblCursorSize:SetText("Размер")
 	parent.lblCursorSize:SetPos(parent.clrCombo.x, parent.clrCombo:GetTall() + 35)
 	parent.lblCursorSize:SizeToContents()
 
@@ -313,26 +313,26 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		cursorSize = idx
 	end
 
-	parent.lblCursorShape:SetText("Cursor Shape")
+	parent.lblCursorShape:SetText("Форма")
 	parent.lblCursorShape:SetPos(parent.numCursorSize.x + parent.numCursorSize:GetWide() + 6, parent.lblCursorSize.y)
 	parent.lblCursorShape:SizeToContents()
 
 	parent.comboCursorShape:SetPos(parent.numCursorSize.x + parent.numCursorSize:GetWide() + 6, parent.lblCursorSize.y + parent.lblCursorSize:GetTall() + 3)
 	parent.comboCursorShape:SetWide(halfrem)
-	parent.comboCursorShape:SetValue("Square")
-	parent.comboCursorShape:AddChoice("Square")
-	parent.comboCursorShape:AddChoice("Circle")
-	parent.comboCursorShape:AddChoice("Horizontal")
-	parent.comboCursorShape:AddChoice("Vertical")
-	parent.comboCursorShape:AddChoice("Diagonal Up")
-	parent.comboCursorShape:AddChoice("Diagonal Down")
-	parent.comboCursorShape:AddChoice("Outlined Square")
-	parent.comboCursorShape:AddChoice("Eyedropper")
+	parent.comboCursorShape:SetValue("Квадрат")
+	parent.comboCursorShape:AddChoice("Квадрат")
+	parent.comboCursorShape:AddChoice("Круг")
+	parent.comboCursorShape:AddChoice("Горизонталь")
+	parent.comboCursorShape:AddChoice("Вертикаль")
+	parent.comboCursorShape:AddChoice("Диагональ Верх")
+	parent.comboCursorShape:AddChoice("Диагональ Низ")
+	parent.comboCursorShape:AddChoice("Контур. Квадрат")
+	parent.comboCursorShape:AddChoice("Пипетка")
 	parent.comboCursorShape.OnSelect = function(self, idx, val)
 		cursorShape = val
 	end
 
-	parent.lblSubdivision:SetText("Guidelines")
+	parent.lblSubdivision:SetText("Действия")
 	parent.lblSubdivision:SetPos(parent.clrCombo.x, parent.comboCursorShape.y + parent.comboCursorShape:GetTall() + 2)
 	parent.lblSubdivision:SizeToContents()
 
@@ -354,7 +354,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	parent.pnlPreview:SetSize(94, 94)
 
 	parent.btnSubmit:SetFont("ui.22")
-	parent.btnSubmit:SetText("Submit")
+	parent.btnSubmit:SetText("Готово")
 	parent.btnSubmit:SetPos(parent.clrCombo.x, parent:GetTall() - 50)
 	parent.btnSubmit:SetSize(halfrem * 2 + 5, 45)
 	if (!perms.Owner and (!upgraded or !perms.Banner)) then
@@ -364,11 +364,11 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	local str
 
 	if (!upgraded) then
-		str = "This Organization is not upgraded, and cannot have a flag!"
+		str = "Банда не улучшена, вы не сможете изменить логотип!"
 	elseif (!perms.Banner) then
-		str = "Your rank cannot edit this Organization's flag!"
+		str = "Ваш ранг не позволяет вам изменить логотип!"
 	else
-		str = "Your Organization's flag can be used in picture frames as well as our website!"
+		str = "Ваш логотип станет символом банды!"
 	end
 
 	local lines = string.Wrap('ui.22', str, parent.btnSubmit:GetWide())
@@ -383,7 +383,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		msgy = msgy + 22
 	end
 
-	parent.btnLoad:SetText("Load..")
+	parent.btnLoad:SetText("Загрузить..")
 	parent.btnLoad:SetFont("ui.22")
 	parent.btnLoad:SetPos(parent.pnlPreview.x + parent.pnlPreview:GetWide() + 5, parent.pnlPreview.y)
 	parent.btnLoad:SetSize((halfrem * 2) - parent.pnlPreview:GetWide(), math.floor((parent.pnlPreview:GetTall() - 10) / 3))
@@ -391,7 +391,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		local designs, _ = file.Find("gmh/banners/*.txt", "DATA")
 		if (#designs == 0) then
 			local menu = ui.DermaMenu()
-			menu:AddOption("No designs saved yet", function() end)
+			menu:AddOption("Сохранённые Дизайны Отсутствуют", function() end)
 			menu:Open()
 			menu:SetPos(parent.x + parent:GetWide(), parent.y + parent.btnLoad.y)
 			return
@@ -494,12 +494,12 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 					sdtr(8, 8, 24, 24)
 				end
 				btnRen.DoClick = function(s, str)
-					local str = str or "What would you like to name this design?"
-					ui.StringRequest("Rename Design", str, name, function(val)
+					local str = str or "Как вы хотите назвать этот дизайн?"
+					ui.StringRequest("Переименовать Дизайн", str, name, function(val)
 						if (name:lower() == val:lower()) then return end
 						for k, v in ipairs(designs) do
 							if (v:lower() == val:lower() .. ".txt") then
-								s:DoClick("You already have a design with that name. Please enter another.")
+								s:DoClick("У вас уже есть дизайн с этим именем. Пожалуйста, введите другое.")
 								return
 							end
 						end
@@ -539,7 +539,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		parent.over_btnCancel = ui.Create("DButton", parent)
 		parent.over_btnCancel:SetPos(parent.btnSubmit.x, parent.btnSubmit.y)
 		parent.over_btnCancel:SetSize(parent.btnSubmit:GetSize())
-		parent.over_btnCancel:SetText("Cancel")
+		parent.over_btnCancel:SetText("Отмена")
 		parent.over_btnCancel.DoClick = function()
 			parent.over_loadList:Remove()
 			parent.over_loadPreview:Remove()
@@ -550,7 +550,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		parent.btnSubmit:SetVisible(false)
 	end
 
-	parent.btnSave:SetText("Save..")
+	parent.btnSave:SetText("Сохранить..")
 	parent.btnSave:SetFont("ui.22")
 	parent.btnSave:SetPos(parent.pnlPreview.x + parent.pnlPreview:GetWide() + 5, parent.btnLoad.y + parent.btnLoad:GetTall() + 5)
 	parent.btnSave:SetSize(parent.btnLoad:GetWide(), parent.btnLoad:GetTall())
@@ -559,9 +559,9 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 
 		local menu = ui.DermaMenu()
 
-		menu:AddOption("New..", function()
+		menu:AddOption("Новый..", function()
 			local function askForName(taken)
-				ui.StringRequest("New Design", ((taken and "That save already exists.\n\n") or "") .. "Please enter a name for your design.", "Untitled 1", function(resp)
+				ui.StringRequest("Новый Дизайн", ((taken and "Это сохранение уже существует.\n\n") or "") .. "Пожалуйста, введите название вашего дизайна.", "Untitled 1", function(resp)
 					if (file.Exists("gmh/banners/" .. resp .. ".txt", "DATA")) then
 						askForName(true)
 						return
@@ -584,7 +584,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		menu:SetPos(parent.x + parent:GetWide(), parent.y + parent.btnSave.y)
 	end
 
-	parent.btnReset:SetText("Reset Canvas")
+	parent.btnReset:SetText("Сбросить Холст")
 	parent.btnReset:SetFont("ui.22")
 	parent.btnReset:SetPos(parent.pnlPreview.x + parent.pnlPreview:GetWide() + 5, parent.btnSave.y + parent.btnSave:GetTall() + 5)
 	parent.btnReset:SetSize(parent.btnLoad:GetWide(), parent.btnLoad:GetTall())
@@ -592,7 +592,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		self:GetParent().pnlPaintArea:Reset(true)
 	end
 
-	parent.btnImport:SetText("Import From URL")
+	parent.btnImport:SetText("Импорт URL")
 	parent.btnImport:SetFont("ui.22")
 	parent.btnImport:SetPos(parent.pnlPreview.x + parent.pnlPreview:GetWide() + 5, parent.pnlPreview.y + parent.pnlPreview:GetTall() + 5)
 	parent.btnImport:SetSize((halfrem * 2) - parent.pnlPreview:GetWide(), math.floor((parent.pnlPreview:GetTall() - 10) / 3))
@@ -637,12 +637,12 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 
 	parent.SendImage = function(self)
 		self.btnSubmit:SetMouseInputEnabled(false)
-		self.btnSubmit:SetText("Sending..")
+		self.btnSubmit:SetText("Отправка..")
 
 		net("rp.OrgBannerReceived", function(len)
 			if (self:IsValid() and self.btnSubmit:IsValid()) then
 				self.btnSubmit:SetMouseInputEnabled(true)
-				self.btnSubmit:SetText("Submit")
+				self.btnSubmit:SetText("Готово")
 			end
 		end)
 
@@ -665,7 +665,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 	parent.btnSubmit.DoClick = function(self)
 		if (!upgraded) then
 			if (perms.Owner) then
-				ui.BoolRequest('Premium Org', 'You need the Premium Org upgrade to make org banners. Would you like to buy it?', function(ans)
+				ui.BoolRequest('Premium Банда', 'Вам необходимо улучшение Премиум Банда для создания логотипа. Хотите приобрести?', function(ans)
 					if (ans == true) then
 						cmd.Run('upgrades')
 					end
@@ -740,7 +740,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		render.SetRenderTarget(oldRT)
 	end
 
-	parent.pnlPaintArea.cursors["Square"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Квадрат"] = function(self, x, y)
 		local activePx = {}
 
 		local toMinus = mf(cursorSize / 2)
@@ -773,7 +773,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Circle"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Круг"] = function(self, x, y)
 		local activePx = {}
 
 		local boxX = mf((x - padding) / outline)
@@ -795,7 +795,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Horizontal"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Горизонталь"] = function(self, x, y)
 		local activePx = {}
 
 		local toMinus = mf(cursorSize / 2)
@@ -822,7 +822,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Vertical"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Вертикаль"] = function(self, x, y)
 		local activePx = {}
 
 		local toMinus = mf(cursorSize / 2)
@@ -849,7 +849,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Diagonal Down"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Диагональ Низ"] = function(self, x, y)
 		local activePx = {}
 
 		local toMinus = mf(cursorSize / 2)
@@ -876,7 +876,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Diagonal Up"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Диагональ Верх"] = function(self, x, y)
 		local activePx = {}
 
 		local toMinus = mf(cursorSize / 2)
@@ -903,7 +903,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Outlined Square"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Контур. Квадрат"] = function(self, x, y)
 		local activePx = {}
 
 		local toMinus = mf(cursorSize / 2)
@@ -944,7 +944,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		return activePx
 	end
 
-	parent.pnlPaintArea.cursors["Eyedropper"] = function(self, x, y)
+	parent.pnlPaintArea.cursors["Пипетка"] = function(self, x, y)
 		local activePx = {}
 		local cursorSize = 1
 
@@ -1069,7 +1069,7 @@ function rp.orgs.OpenOrgBannerEditorStage2(perms, upgraded, startData)
 		local newCol = self:GetParent().clrCombo:GetColor()
 
 		-- Modify active pixels
-		if (cursorShape == "Eyedropper") then
+		if (cursorShape == "Пипетка") then
 			local selPx = self:GetActivePixels()[1]
 			local px = self.pixels[selPx[1]][selPx[2]]
 

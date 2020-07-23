@@ -26,11 +26,17 @@ function rp.karma.BuySkill(pl, id)
 
 		pl:SetNetVar('Skills', skills)
 		pl:Notify(NOTIFY_SUCCESS, term.Get('UpgradedSkill'), skill.Name, level)
-		PrintTable(pl:GetNetVar('Skills'))
 
 	end)
 
 end
+
+hook('PlayerDeath', 'Karma.PlayerDeath', function(victim, inflictor, attacker)
+	if attacker:IsPlayer() and (attacker ~= victim) and (not victim:IsBanned()) then
+		attacker:TakeKarma(5)
+		rp.Notify(attacker, NOTIFY_ERROR, term.Get('LostKarma'), '5', 'убийство')
+	end
+end)
 
 rp.AddCommand('buyskill', function(pl, skill)
 	if (not rp.karma.Skills[skill]) then return end

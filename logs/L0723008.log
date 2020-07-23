@@ -1,0 +1,718 @@
+L 07/23/2020 - 22:47:43: Log file started (file "logs\L0723008.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/23/2020 - 22:47:43: server_cvar: "sv_password" "***PROTECTED***"
+L 07/23/2020 - 22:47:43: server_cvar: "sv_airaccelerate" "100"
+L 07/23/2020 - 22:47:44: Connection to Steam servers successful.
+L 07/23/2020 - 22:47:44:    Public IP is 31.130.42.26.
+L 07/23/2020 - 22:47:44: Assigned anonymous gameserver Steam ID [A-1:642242560(15217)].
+L 07/23/2020 - 22:47:44: VAC secure mode is activated.
+L 07/23/2020 - 22:51:28: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/23/2020 - 22:51:29: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/23/2020 - 22:51:40: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/23/2020 - 22:52:24: "Bot01<3><BOT><>" connected, address "none"
+L 07/23/2020 - 22:52:24: "Bot01<3><BOT><>" entered the game
+L 07/23/2020 - 23:57:03: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/23/2020 - 23:57:03: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/23/2020 - 23:57:11: "Bot02<5><BOT><>" connected, address "none"
+L 07/23/2020 - 23:57:11: "Bot02<5><BOT><>" entered the game
+L 07/23/2020 - 23:58:18: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" entered the game
+L 07/24/2020 - 00:00:16: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:644: '<eof>' expected near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 00:00:20: "eLeCtrOssSnake<4><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:00:39: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:644: '<eof>' expected near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 00:00:47: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:644: '<eof>' expected near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 00:01:07: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:644: '<eof>' expected near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 00:01:47: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/24/2020 - 00:01:47: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/24/2020 - 00:02:01: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" entered the game
+L 07/24/2020 - 00:02:46: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:644: '<eof>' expected near 'end'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 00:04:18: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:04:19: "COMPLΞX<7><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/24/2020 - 00:04:19: "COMPLΞX<7><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:04:26: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:108: attempt to index upvalue 'orgdata' (a nil value)
+
+L 07/24/2020 - 00:04:30: Lua Error: 
+[dash_3] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (ba.logs.Live)
+
+  1. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:26
+   2. callback - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:190
+    3. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/24/2020 - 00:04:30: "COMPLΞX<7><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:05:40: "COMPLΞX<7><STEAM_0:0:105635721><>" disconnected (reason "Хуйс Daun")
+L 07/24/2020 - 00:07:02: "eLeCtrOssSnake<6><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:07:02: "Bot01<3><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 07/24/2020 - 00:07:02: "Bot02<5><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 07/24/2020 - 00:07:04: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/24/2020 - 00:07:04: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/24/2020 - 00:07:08: "eLeCtrOssSnake<8><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:07:44: "COMPLΞX<9><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/24/2020 - 00:07:44: "COMPLΞX<9><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:07:48: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/24/2020 - 00:07:49: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/24/2020 - 00:07:55: "COMPLΞX<9><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:08:04: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" entered the game
+L 07/24/2020 - 00:12:20: "eLeCtrOssSnake<10><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:12:20: "COMPLΞX<9><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:12:21: "COMPLΞX<11><STEAM_0:0:105635721><>" connected, address "192.168.31.1:27006"
+L 07/24/2020 - 00:12:21: "COMPLΞX<11><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:12:22: "eLeCtrOssSnake<12><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/24/2020 - 00:12:22: "eLeCtrOssSnake<12><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/24/2020 - 00:12:23: "eLeCtrOssSnake<12><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:12:28: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/24/2020 - 00:12:28: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/24/2020 - 00:12:32: "COMPLΞX<11><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:12:43: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" entered the game
+L 07/24/2020 - 00:13:21: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:96: bad argument #1 to 'WriteUInt' (number expected, got boolean)
+
+L 07/24/2020 - 00:13:22: Lua Error: 
+[dash_3] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (ba.logs.Live)
+
+  1. Log - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:26
+   2. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:687
+    3. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+     4. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+      5. func - gamemodes/darkrp/gamemode/core/core_sv.lua:12
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/24/2020 - 00:14:12: "COMPLΞX<11><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:14:13: "COMPLΞX<14><STEAM_0:0:105635721><>" connected, address "192.168.31.1:27006"
+L 07/24/2020 - 00:14:13: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:39: Tried to use a NULL entity!
+  1. __newindex - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:39
+
+
+L 07/24/2020 - 00:14:13: "COMPLΞX<14><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:14:24: "COMPLΞX<14><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:16:05: "eLeCtrOssSnake<13><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:16:05: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/24/2020 - 00:16:05: "COMPLΞX<14><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:16:06: "COMPLΞX<15><STEAM_0:0:105635721><>" connected, address "192.168.31.1:27006"
+L 07/24/2020 - 00:16:06: "COMPLΞX<15><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:16:07: "eLeCtrOssSnake<16><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/24/2020 - 00:16:07: "eLeCtrOssSnake<16><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/24/2020 - 00:16:17: "COMPLΞX<15><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:16:20: "eLeCtrOssSnake<16><STEAM_0:1:164666257><>" entered the game
+L 07/24/2020 - 00:22:00: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:91: bad argument #1 to 'WriteUInt' (number expected, got nil)
+
+L 07/24/2020 - 00:22:01: Lua Error: 
+[dash_3] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. cback - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:106
+   2. handlequery - addons/dash_3/lua/dash/libraries/server/mysql.lua:136
+    3. unknown - addons/dash_3/lua/dash/libraries/server/mysql.lua:149
+     4. Poll - [C]:-1
+      5. v - addons/dash_3/lua/dash/libraries/server/mysql.lua:83
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/24/2020 - 00:22:01: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:108: attempt to index upvalue 'orgdata' (a nil value)
+
+L 07/24/2020 - 00:22:03: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/24/2020 - 00:23:03: "COMPLΞX<15><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:23:04: "COMPLΞX<17><STEAM_0:0:105635721><>" connected, address "192.168.31.1:27006"
+L 07/24/2020 - 00:23:04: "COMPLΞX<17><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:23:07: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:39: Tried to use a NULL entity!
+  1. __newindex - [C]:-1
+   2. unknown - gamemodes/darkrp/gamemode/core/smallscripts/spawns_sv.lua:39
+
+
+L 07/24/2020 - 00:23:15: "COMPLΞX<17><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:35:11: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:35:11: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:41: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:42: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:43: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:43: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:43: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:43: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:90
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:104
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:104
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:47: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:48: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:104
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:48: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:48: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:104
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:48: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:48: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:48: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:104
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:49: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:37:49: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:17: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:18: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:18: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:19: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:42:56: Lua Error: 
+[swb_m9k_css] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61: attempt to perform arithmetic on field 'HP' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:61
+   2. FireBullets - [C]:-1
+    3. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:43
+     4. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/24/2020 - 00:54:28: "COMPLΞX<17><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 00:54:29: "COMPLΞX<18><STEAM_0:0:105635721><>" connected, address "192.168.31.1:27006"
+L 07/24/2020 - 00:54:29: "COMPLΞX<18><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 00:54:40: "COMPLΞX<18><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 00:56:28: "eLeCtrOssSnake<16><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 07/24/2020 - 00:56:28: "COMPLΞX<18><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/24/2020 - 00:56:28: server_message: "quit"
+L 07/24/2020 - 00:56:28: Log file closed.

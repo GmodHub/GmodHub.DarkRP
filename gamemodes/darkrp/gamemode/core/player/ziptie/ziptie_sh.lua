@@ -21,7 +21,7 @@ end
 function PLAYER:CanUseZipties()
 	return (self:GetTeamTable().CanHostage or self:IsCP())
 end
-/*
+
 hook('Move', 'rp.Zipties.Move', function(pl, mv)
 	if (pl:IsZiptied() or pl:IsCarrying()) then
 		if (pl:GetMoveType() != MOVETYPE_LADDER) then

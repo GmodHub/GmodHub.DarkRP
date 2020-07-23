@@ -1,33 +1,59 @@
+function PLAYER:AddOwnedApparel(uid)
+    local OwnedApparel = self:GetNetVar('OwnedApparel') or {}
+    OwnedApparel[uid] = true
+	self:SetNetVar('OwnedApparel', OwnedApparel)
+end
 
-/*rp.AddCommand('buyapparel', function(pl, args)
-	if not args[1] or not rp.hats.list[args[1]] or table.HasValue(pl:GetNetVar('HatData') or {}, args[1]) then return end
+function PLAYER:AddApparel(uid)
+    local hat = rp.hats.List[uid]
+    local activeApparel = self:GetApparel()
 
-	local hat = rp.hats.list[args[1]]
+    for k,v in pairs(hat.slots) do
+        activeApparel[k] = uid
+    end
+
+    self:SetNetVar('ActiveApparel', activeApparel)
+    rp.data.SaveActiveApparel(self)
+end
+
+function PLAYER:RemoveApparel(slot)
+    local activeApparel = self:GetNetVar('ActiveApparel') or {}
+    activeApparel[slot] = nil
+
+    self:SetNetVar('ActiveApparel', activeApparel)
+end
+
+rp.AddCommand('buyapparel', function(pl, hat)
+    if not rp.hats.List[hat] or not pl:GetNetVar('OwnedApparel') or pl:HasApparel(hat) then return end
+
+	local hat = rp.hats.List[hat]
 
 	if not pl:CanAfford(hat.price) then
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('CannotAfford'))
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('CannotAfford'))
 		return
 	end
+    pl:TakeMoney(hat.price)
 
-	local HatData = pl:GetNetVar('HatData') or {}
-	table.insert(HatData, args[1])
-	pl:SetNetVar('HatData', HatData)
-
-	ba.data.SetHat(pl, hat.model, function()
-		pl:TakeMoney(hat.price)
-		rp.Notify(pl, NOTIFY_GREEN, rp.Term('HatPurchased'), hat.name, rp.FormatMoney(hat.price))
+	rp.data.AddApparel(pl, hat.UID, function()
+        pl:AddOwnedApparel(hat.UID)
+        pl:AddApparel(hat.UID)
+		rp.Notify(pl, NOTIFY_GREEN, term.Get('ApparelPurchased'), hat.name, rp.FormatMoney(hat.price))
 	end)
 end)
+:AddParam(cmd.STRING)
 
-rp.AddCommand('setapparel', function(pl, text, args)
-	if not args[1] or not rp.hats.list[args[1]] or not pl:GetNetVar('HatData') or not table.HasValue(pl:GetNetVar('HatData') or {}, args[1]) then return end
+rp.AddCommand('setapparel', function(pl, hat)
+	if not rp.hats.List[hat] or not pl:GetNetVar('OwnedApparel') or not pl:HasApparel(hat) then return end
 
-	rp.Notify(pl, NOTIFY_GREEN, rp.Term('HatEquipped'))
-	ba.data.SetHat(pl, args[1])
+	rp.Notify(pl, NOTIFY_GREEN, term.Get('ApparelEquiped'), rp.hats.List[hat].name)
+    pl:AddApparel(hat)
 end)
+:AddParam(cmd.STRING)
 
+rp.AddCommand('removeapparel', function(pl, slot)
+    if not pl:GetApparel()[slot] or not rp.hats.List[pl:GetApparel()[slot]] then return end
 
-rp.AddCommand('removeapparel', function(pl, text, args)
-	rp.Notify(pl, NOTIFY_GREEN, rp.Term('HatRemoved'))
-	ba.data.SetHat(pl, nil)
+	rp.Notify(pl, NOTIFY_GREEN, term.Get('ApparelRemoved'), rp.hats.List[pl:GetApparel()[slot]].name)
+    pl:RemoveApparel(slot)
 end)
+:AddParam(cmd.NUMBER)

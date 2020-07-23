@@ -151,7 +151,7 @@ rp.AddBMI('Полицейский Щит','models/drover/w_shield.mdl', 'weapon_
 rp.AddBMI('Фальшивая Лицензия','models/props_lab/clipboard.mdl', 'ent_licence', 9500, 10, false, 1250, false, {TEAM_BMIDEALER})
 rp.AddBMI('Маскировка','models/props_c17/SuitCase_Passenger_Physics.mdl', 'ent_disguise', 10000, 10, false, 1250, false, {TEAM_BMIDEALER})
 rp.AddBMI('Тазер','models/weapons/w_pistol.mdl', 'weapon_taser', 7500, 10, false, 1000, false, {TEAM_BMIDEALER})
-//rp.AddBMI('Стяжки', 'models/props/cs_office/Snowman_arm.mdl', 'weapon_ziptie', 25000, 10, false, 950, false, {TEAM_BMIDEALER}, nil, nil, 60)
+rp.AddBMI('Стяжки', 'models/props/cs_office/Snowman_arm.mdl', 'weapon_ziptie', 25000, 10, false, 950, false, {TEAM_BMIDEALER}, nil, nil, 60)
 rp.AddEntity('Раздатчик Брони', 'lab_armor', 'models/props_combine/suit_charger001.mdl', 3500, 4, '/buyarmorlab', TEAM_BMIDEALER, false)
 rp.AddEntity('BMI lab', 'item_lab_bmi', 'models/props/cs_italy/it_mkt_table3.mdl', 2500, 1, '/buybmicrafter', TEAM_BMIDEALER, false)
 rp.AddShipment('Граната', {

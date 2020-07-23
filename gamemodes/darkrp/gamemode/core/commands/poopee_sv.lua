@@ -26,11 +26,9 @@ rp.AddCommand("poop", function(pl)
 	end
 	pl.NextPoo = CurTime() + 10
 	MakePoo(pl)
-	return ""
 end)
 
 rp.AddCommand("piss", function(pl)
-	print("logging")
 
 	if !pl:Alive() then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('YouAreDead'))
@@ -43,10 +41,9 @@ rp.AddCommand("piss", function(pl)
 	end
 
 	pl.NextPee = CurTime() + 30
-	print("logging")
+
 	net.Start("rp.PooPeePiss")
 		net.WritePlayer(pl)
 	net.Broadcast()
 
-	return ""
 end)

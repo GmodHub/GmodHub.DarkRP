@@ -31,7 +31,7 @@ function PLAYER:AddCount(str, ent)
 	self._Counts[str] = (self._Counts[str] or 0) + 1
 
 	ent.OnRemoveCount = function() --CallOnRemove is broke
-		if IsValid(self) then
+		if IsValid(self) and self._Counts then
 			self._Counts[str] = self._Counts[str] - 1
 		end
 	end

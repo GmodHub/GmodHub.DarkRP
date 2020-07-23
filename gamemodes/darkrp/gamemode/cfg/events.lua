@@ -67,8 +67,8 @@ rp.RegisterEvent('BURGATRON', {
 
 					pl:EmitSound("vo/sandwicheat09.wav", 100, 100)
 
-					pl:Notify(NOTIFY_GREEN, rp.Term('BURGHungerImmune'))
-					tr.Entity:Notify(NOTIFY_GREEN, rp.Term('BURGNotPeople'))
+					pl:Notify(NOTIFY_GREEN, term.Get('BURGHungerImmune'))
+					tr.Entity:Notify(NOTIFY_GREEN, term.Get('BURGNotPeople'))
 				end
 			end
 		end

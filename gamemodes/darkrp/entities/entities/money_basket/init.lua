@@ -12,7 +12,7 @@ function ENT:Initialize()
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
-	
+
 	self:PhysWake()
 end
 
@@ -20,7 +20,7 @@ function ENT:Use(pl)
 	if pl:IsBanned() then return end
 
 	if (self:Getmoney() > 0) then
-		rp.Notify(pl, NOTIFY_GREEN, rp.Term('PlayerTookMoneyBasket'), rp.FormatMoney(self:Getmoney()))
+		rp.Notify(pl, NOTIFY_GREEN, term.Get('PlayerTookMoneyBasket'), rp.FormatMoney(self:Getmoney()))
 		pl:AddMoney(self:Getmoney())
 		self:Setmoney(0)
 		self.SeizeReward = 100

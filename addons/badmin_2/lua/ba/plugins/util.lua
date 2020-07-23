@@ -128,12 +128,7 @@ local moveCmdCategories = {
 
 local servers = { // make a cfg or something one day
 	['rp'] = 'rp.superiorservers.co',
-	['rp2'] = 'rp2.superiorservers.co',
-	['rp3'] = 'rp3.superiorservers.co',
-	['zrp'] = 'zrp.superiorservers.co',
-	['milrp'] = 'milrp.superiorservers.co',
-	['cwrp'] = 'cwrp.superiorservers.co',
-	['cwrp2'] = 'cwrp2.superiorservers.co',
+	['rp2'] = '31.130.42.26:27015',
 }
 
 ba.AddCommand('Move', function(pl, category, server)

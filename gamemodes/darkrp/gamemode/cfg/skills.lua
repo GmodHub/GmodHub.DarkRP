@@ -255,11 +255,11 @@ SKILL_MEDIC = rp.karma.AddSkill {
 		4000
 	}
 }
-/*
+
 SKILL_ZIPTIE_BREAK_FREE = rp.karma.AddSkill {
-	Name = 'Tiny Hands',
+	Name = 'Ловкие Ручки',
 	Icon = 'gmh/gui/skills/ziptie.png',
-	Description = 'Break free from zipties sooner',
+	Description = 'Выбирайтесь из стяжек быстрее',
 	Hooks = {
 		[0] = function(time) return time end,
 		[1] = function(time) return time * 0.8 end,
@@ -268,10 +268,10 @@ SKILL_ZIPTIE_BREAK_FREE = rp.karma.AddSkill {
 		[4] = function(time) return time * 0.5 end,
 	},
 	Descriptions = {
-		'20% faster',
-		'30% faster',
-		'40% faster',
-		'50% faster'
+		'На 20% быстрее',
+		'На 30% быстрее',
+		'На 40% быстрее',
+		'На 50% быстрее'
 	},
 	Prices = {
 		1000,

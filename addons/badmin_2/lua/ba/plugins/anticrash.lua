@@ -7,7 +7,7 @@ if (SERVER) then
 	end)
 elseif (CLIENT) then
 	surface.CreateFont ('AntiCrash.Font', {
-		font = 'coolvetica',
+		font = 'Prototype [RUS by Daymarius]',
 		size = 50,
 		weight = 300,
 		extended = true
@@ -35,7 +35,7 @@ elseif (CLIENT) then
 		function Crash_Frame:Paint(w, h)
 			local delta = math.Clamp(ReconnectTime - CurTime(), 1, 40)
 			draw.OutlinedBox(0, 0,w, h , ui.col.Black, (delta % 1 < 0.2 and ui.col.Red or ui.col.Outline))
-			draw.SimpleText('Переподключение через:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Переподключение:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
 			draw.SimpleText(math.ceil(delta), 'AntiCrash.Font', w*0.5, 75, delta % 1 < 0.2 and ui.col.Red or ui.col.White, TEXT_ALIGN_CENTER)
 		end
 	end
@@ -66,7 +66,7 @@ elseif (CLIENT) then
 				function Crash_Frame:Paint(w, h)
 					local delta = math.Clamp(ReconnectTime - CurTime(), 1, 45)
 					draw.OutlinedBox(0, 0,w, h , ui.col.Black, (delta % 1 < 0.2 and ui.col.Red or ui.col.Outline))
-					draw.SimpleText('Попытка подключения:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
+					draw.SimpleText('Попытка Переподключения:', 'AntiCrash.Font', w/2, 10, ui.col.White, TEXT_ALIGN_CENTER)
 					draw.SimpleText('#' .. ReconnectTrys, 'AntiCrash.Font', w*0.5, 75, delta % 1 < 0.2 and ui.col.Red or ui.col.White, TEXT_ALIGN_CENTER)
 				end
 			else

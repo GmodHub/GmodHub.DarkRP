@@ -1,7 +1,7 @@
---[[AddCSLuaFile('cl_init.lua')
+AddCSLuaFile('cl_init.lua')
 AddCSLuaFile('shared.lua')
 include('shared.lua')
-
+/*
 util.AddNetworkString("Keypad")
 
 
@@ -25,7 +25,7 @@ net.Receive("Keypad", function(_, ply)
 	end
 
 	ent.Next_Command_Time = CurTime() + 0.05
-	
+
 	local command = net.ReadUInt(4)
     print(command)
     print(ent.Command_Enter)
@@ -64,7 +64,7 @@ end
 
 function ENT:Process(granted)
 	self:GetData()
-	
+
 	local length, repeats, delay, initdelay, key
 
 	if(granted) then

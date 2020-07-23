@@ -1,0 +1,484 @@
+L 07/21/2020 - 21:52:42: Log file started (file "logs\L0721002.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/21/2020 - 21:52:42: server_cvar: "sv_password" "***PROTECTED***"
+L 07/21/2020 - 21:52:42: server_cvar: "sv_airaccelerate" "100"
+L 07/21/2020 - 21:52:43: Connection to Steam servers successful.
+L 07/21/2020 - 21:52:43:    Public IP is 31.130.42.26.
+L 07/21/2020 - 21:52:43: Assigned anonymous gameserver Steam ID [A-1:982858756(15204)].
+L 07/21/2020 - 21:52:43: VAC secure mode is activated.
+L 07/21/2020 - 21:52:44: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 21:52:45: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 21:52:52: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 21:58:35: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 21:58:35: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 21:58:36: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 21:58:43: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 22:04:17: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:115: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:115
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:133
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:04:20: Lua Error: 
+[ERROR] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:75
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:133
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:04:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:115: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:115
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:133
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:04:20: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:04:35: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:116: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:116
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:134
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:04:35: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:05:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:116: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:116
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:134
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:05:20: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:05:28: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:117: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:117
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:135
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:05:31: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:08:30: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:145: '}' expected (to close '{' at line 142) near 'Org'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:08:41: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 22:08:41: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 22:08:42: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 22:08:50: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 22:08:50: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:213: attempt to index local 'orgsdata' (a nil value)
+
+L 07/21/2020 - 22:09:12: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:115: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:115
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:133
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:09:16: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:09:30: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:145: '}' expected (to close '{' at line 142) near 'Org'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:09:31: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:116: bad argument #1 to 'WriteString' (string expected, got nil)
+  1. WriteString - [C]:-1
+   2. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:116
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:134
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:09:31: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:09:48: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 22:09:48: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 22:09:49: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 22:09:57: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 22:09:57: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:230: table index is nil
+
+L 07/21/2020 - 22:41:25: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:56: '}' expected (to close '{' at line 54) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:41:55: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:56: '}' expected (to close '{' at line 54) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:42:21: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:56: '}' expected (to close '{' at line 54) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:42:32: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:56: '}' expected (to close '{' at line 54) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:42:53: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:56: '}' expected (to close '{' at line 54) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:43:12: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:56: '}' expected (to close '{' at line 54) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:43:14: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 22:43:15: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 22:43:15: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 22:43:23: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:15: '}' expected (to close '{' at line 13) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:43:24: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:15: '}' expected (to close '{' at line 13) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:43:25: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 22:43:25: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:109: bad argument #1 to 'func' (string expected, got table)
+
+L 07/21/2020 - 22:43:25: Lua Error: 
+[dash_3] Warning! A net message (nw_Org) is already started! Discarding in favor of the new message! (nw_Upgrade_pocket_space_2)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. cback - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:118
+     4. handlequery - addons/dash_3/lua/dash/libraries/server/mysql.lua:136
+      5. unknown - addons/dash_3/lua/dash/libraries/server/mysql.lua:149
+       6. Poll - [C]:-1
+        7. v - addons/dash_3/lua/dash/libraries/server/mysql.lua:83
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/21/2020 - 22:43:29: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/nw.lua:109: bad argument #1 to 'func' (string expected, got table)
+  1. func - [C]:-1
+   2. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+    3. _Write - addons/dash_3/lua/dash/libraries/nw.lua:176
+     4. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+      5. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:43:29: Lua Error: 
+[dash_3] Warning! A net message (nw_Org) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:43:31: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 22:43:32: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 22:43:32: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 22:43:41: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 22:43:41: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:109: bad argument #1 to 'func' (string expected, got table)
+
+L 07/21/2020 - 22:43:41: Lua Error: 
+[dash_3] Warning! A net message (nw_Org) is already started! Discarding in favor of the new message! (nw_Upgrade_pocket_space_2)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. cback - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:118
+     4. handlequery - addons/dash_3/lua/dash/libraries/server/mysql.lua:136
+      5. unknown - addons/dash_3/lua/dash/libraries/server/mysql.lua:149
+       6. Poll - [C]:-1
+        7. v - addons/dash_3/lua/dash/libraries/server/mysql.lua:83
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/21/2020 - 22:43:45: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/nw.lua:109: bad argument #1 to 'func' (string expected, got table)
+  1. func - [C]:-1
+   2. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+    3. _Write - addons/dash_3/lua/dash/libraries/nw.lua:176
+     4. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+      5. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:43:45: Lua Error: 
+[dash_3] Warning! A net message (nw_Org) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:44:30: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:70: attempt to index local 'org' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:70
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:108
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 22:44:32: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 22:45:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:45:59: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:45:59: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:222: '}' expected (to close '{' at line 220) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:46:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:46:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:222: '}' expected (to close '{' at line 220) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:47:18: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:47:19: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:47:23: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:47:29: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:39: '}' expected (to close '{' at line 37) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:48:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:48:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:48:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:48:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:48:49: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:48:50: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:49:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:42: '}' expected (to close '{' at line 40) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 22:50:18: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 22:50:19: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 22:50:19: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 22:50:27: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 22:50:27: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:234: table index is nil
+
+L 07/22/2020 - 02:16:21: "Bot01<9><BOT><>" connected, address "none"
+L 07/22/2020 - 02:16:21: "Bot01<9><BOT><>" entered the game
+L 07/22/2020 - 02:16:21: "Bot02<10><BOT><>" connected, address "none"
+L 07/22/2020 - 02:16:21: "Bot02<10><BOT><>" entered the game
+L 07/22/2020 - 02:17:15: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sh.lua:238: attempt to call method 'PlayerLog' (a nil value)
+  1. callback - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:238
+   2. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 02:17:15: "DidVaitel<8><STEAM_0:1:74202541><Team>" say "Logs"
+L 07/22/2020 - 02:17:16: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sh.lua:226: attempt to call method 'PlayerLog' (a nil value)
+  1. callback - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:226
+   2. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+    3. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+     4. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+      5. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 02:17:16: "DidVaitel<8><STEAM_0:1:74202541><Team>" say "/Logs"
+L 07/22/2020 - 02:22:47: Connection to Steam servers lost. (No internet connection)
+L 07/22/2020 - 02:25:16: Connection to Steam servers successful.
+L 07/22/2020 - 02:25:16:    Public IP is 31.130.42.26.
+L 07/22/2020 - 02:25:16: Assigned anonymous gameserver Steam ID [A-1:982858756(15204)].
+L 07/22/2020 - 02:25:16: VAC secure mode is activated.
+L 07/22/2020 - 02:31:32: "Bot02<10><BOT><>" disconnected (reason "Server shutting down")
+L 07/22/2020 - 02:31:32: "Bot01<9><BOT><>" disconnected (reason "Server shutting down")
+L 07/22/2020 - 02:31:32: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/22/2020 - 02:31:32: server_message: "quit"
+L 07/22/2020 - 02:31:32: Log file closed.

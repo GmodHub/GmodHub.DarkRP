@@ -1,0 +1,302 @@
+L 07/22/2020 - 02:31:46: Log file started (file "logs\L0722000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/22/2020 - 02:31:46: server_cvar: "sv_password" "***PROTECTED***"
+L 07/22/2020 - 02:31:46: server_cvar: "sv_airaccelerate" "100"
+L 07/22/2020 - 02:31:47: Connection to Steam servers successful.
+L 07/22/2020 - 02:31:47:    Public IP is 31.130.42.26.
+L 07/22/2020 - 02:31:47: Assigned anonymous gameserver Steam ID [A-1:2739241984(15205)].
+L 07/22/2020 - 02:31:47: VAC secure mode is activated.
+L 07/22/2020 - 02:32:39: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 02:32:40: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/22/2020 - 02:32:49: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/22/2020 - 03:03:46: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:04:36: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:04:51: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:05:11: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:05:36: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:05:51: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:06:26: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:06:36: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:06:58: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (ba.logs.RequestCategory)
+
+  1. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:66
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:07:01: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:10:15: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:10:16: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:10:17: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:10:21: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:10:45: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:10:46: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:10:50: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:10:51: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:11:06: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got string)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:11:11: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:26:27: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:80
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:26:31: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:28:13: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:28:16: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:28:54: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:28:56: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:29:15: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sv.lua:82: ')' expected near '='
+
+
+L 07/22/2020 - 03:29:29: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:81
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:29:31: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:29:41: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:82
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:29:45: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (nw_IsTyping)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. func - addons/badmin_2/lua/ba/modules/chatbox/detour_sv.lua:4
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:29:50: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:82
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:29:51: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:30:03: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sv.lua:27: bad argument #1 to 'table_insert' (table expected, got nil)
+  1. table_insert - [C]:-1
+   2. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:27
+    3. callback - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:226
+     4. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+        7. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 03:30:04: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "/logs"
+L 07/22/2020 - 03:30:05: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sv.lua:67: attempt to get length of local 'logs' (a nil value)
+  1. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:67
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:30:06: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:30:22: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sv.lua:27: bad argument #1 to 'table_insert' (table expected, got nil)
+  1. table_insert - [C]:-1
+   2. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:27
+    3. callback - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:226
+     4. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+        7. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 03:30:22: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "/logs"
+L 07/22/2020 - 03:30:23: Lua Error: 
+[badmin_2] lua/includes/extensions/table.lua:158: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. Count - lua/includes/extensions/table.lua:158
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:67
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 03:30:26: Lua Error: 
+[badmin_2] Warning! A net message (ba.logs.RequestCategory) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 03:30:37: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_sv.lua:27: bad argument #1 to 'table_insert' (table expected, got nil)
+  1. table_insert - [C]:-1
+   2. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:27
+    3. callback - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:226
+     4. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+        7. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 03:30:37: "DidVaitel<2><STEAM_0:1:74202541><Team>" say "/logs"
+L 07/22/2020 - 03:30:43: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/22/2020 - 03:30:43: server_message: "quit"
+L 07/22/2020 - 03:30:43: Log file closed.

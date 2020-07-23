@@ -71,8 +71,7 @@ nw.Register 'Skills'
 		return tbl
 	end)
 	:SetLocalPlayer()
-// We don't use them
-/*
+
 nw.Register 'ActiveApparel'
 	:Write(function(v)
 		for i = 1, 4 do
@@ -109,7 +108,7 @@ nw.Register 'OwnedApparel'
 		return tbl
 	end)
 	:SetLocalPlayer()
-*/
+
 
 nw.Register 'EmployeePrice'
 	:Write(net.WriteUInt, 32)
@@ -215,7 +214,7 @@ nw.Register 'Credits'
 	:SetLocalPlayer()
 
 // We don't use them
-/*
+
 nw.Register 'Outfits'
 	:Write(function(v)
 		net.WriteUInt(#v, 8)
@@ -236,7 +235,7 @@ nw.Register 'Outfit'
 	:Write(net.WriteUInt, 6)
 	:Read(net.ReadUInt, 6)
 	:SetPlayer()
-*/
+
 
 nw.Register 'HasInitSpawn'
 	:Write(net.WriteBool)
@@ -267,7 +266,7 @@ nw.Register 'BodyGroups'
 	:Read(net.ReadUInt, 1)
 	:SetPlayer()
 	:SetHook('BodyGroupsChanged')
-/*
+
 nw.Register 'Ziptied'
 	:Write(net.WriteBool)
 	:Read(net.ReadBool)

@@ -1,4 +1,4 @@
-/*--cvar.Create('enable_hats', true)
+--cvar.Create('enable_hats', true)
 rp.hats = rp.hats or {}
 rp.hats.List = {}
 rp.hats.stored = rp.hats.stored or {}
@@ -104,10 +104,10 @@ function PANEL:Init()
 	self.List.Paint = function() end
 
 	self.Types = {
-		[1] = 'Hats',
-		[2] = 'Masks',
-		[3] = 'Glasses',
-		[4] = 'Scarves'
+		[1] = 'Шапки',
+		[2] = 'Маски',
+		[3] = 'Очки',
+		[4] = 'Шарфы'
 	}
 	self.Previews = {}
 
@@ -121,7 +121,7 @@ function PANEL:Init()
 		self.List:AddItem(self.Types[i])
 
 		self.Previews[i] = ui.Create('rp_modelicon', self)
-		self.Previews[i]:SetToolTip('Slot #' .. i)
+		self.Previews[i]:SetToolTip('Слот #' .. i)
 		self.Previews[i].DoClick = function(s)
 			--self:SelectHat(s.Hat)
 		end
@@ -131,14 +131,14 @@ function PANEL:Init()
 		self.Previews[i].PaintOver = function(s, w, h)
 			if (not s.ShouldDraw) then
 				draw.OutlinedBox(0, 0, w, h, ui.col.Black, ui.col.Outline)
-				draw.SimpleText('Slot ' .. i, 'ui.18', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+				draw.SimpleText('Слот ' .. i, 'ui.18', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 			end
 		end
 	end
 
 	self.Name = ui.Create('DButton', self)
 	self.Name:SetDisabled(true)
-	self.Name:SetText('Select an item')
+	self.Name:SetText('Выберите Предмет')
 
 	self.Preview = ui.Create('rp_playerpreview', self)
 	self.Preview:Hide()
@@ -148,7 +148,7 @@ function PANEL:Init()
 	self.BuyCash.Confirm = false
 	self.BuyCash.DoClick = function(s)
 		if (not s.Confirm) then
-			s:SetText('Click again to confirm')
+			s:SetText('Нажмите ещё раз для подтверждения')
 			s.Confirm = true
 		else
 			cmd.Run('buyapparel', self.Hat.UID)
@@ -157,12 +157,12 @@ function PANEL:Init()
 			self.Spacer:Hide()
 			self.BuyCredits:Hide()
 			self.Equip:Show()
-			self.Equip:SetText('Unequip')
+			self.Equip:SetText('Снять')
 		end
 	end
 
 	self.Spacer = ui.Create('DLabel', self)
-	self.Spacer:SetText('-OR-')
+	self.Spacer:SetText('-ИЛИ-')
 	self.Spacer:Hide()
 
 	self.BuyCredits = ui.Create('DButton', self)
@@ -174,12 +174,12 @@ function PANEL:Init()
 		local price = self.Hat.upgradeobj:GetPrice()
 
 		if (not s.Confirm) and LocalPlayer():CanAffordCredits(price) then
-			s:SetText('Click again to confirm')
+			s:SetText('Нажмите ещё раз для подтверждения')
 			s.Confirm = true
 		else
 
 			if (not LocalPlayer():CanAffordCredits(price)) then
-				ui.BoolRequest('Cannot afford', 'You need more credits to buy this. Would you like to buy credits?', function(ans)
+				ui.BoolRequest('Недостаточно Средств', 'Вам нужно больше кредитов для покупки шапки. Хотите пополнить баланс?', function(ans)
 					if (ans == true) then
 						gui.OpenURL(rp.cfg.CreditsURL .. LocalPlayer():SteamID() .. '/' .. price)
 					end
@@ -191,7 +191,7 @@ function PANEL:Init()
 				self.Spacer:Hide()
 				self.BuyCredits:Hide()
 				self.Equip:Show()
-				self.Equip:SetText('Unequip')
+				self.Equip:SetText('Снять')
 			end
 		end
 	end
@@ -200,10 +200,10 @@ function PANEL:Init()
 	self.Equip:Hide()
 	self.Equip.DoClick = function()
 		if LocalPlayer():GetApparel() and (LocalPlayer():GetApparel()[self.Hat.type] == self.Hat.UID) then
-			self.Equip:SetText('Equip')
+			self.Equip:SetText('Надеть')
 			cmd.Run('removeapparel', self.Hat.type)
 		else
-			self.Equip:SetText('Unequip')
+			self.Equip:SetText('Снять')
 			cmd.Run('setapparel', self.Hat.UID)
 		end
 	end
@@ -253,7 +253,7 @@ function PANEL:SelectHat(hat)
 
 	if hasHat then
 		self.Equip:Show()
-		self.Equip:SetText((LocalPlayer():GetApparel() and (LocalPlayer():GetApparel()[hat.type] == hat.UID)) and 'Unequip' or 'Equip')
+		self.Equip:SetText((LocalPlayer():GetApparel() and (LocalPlayer():GetApparel()[hat.type] == hat.UID)) and 'Снять' or 'Надеть')
 
 		self.BuyCash:Hide()
 		self.Spacer:Hide()
@@ -269,7 +269,7 @@ function PANEL:SelectHat(hat)
 
 		self.Spacer:Show()
 
-		self.BuyCredits:SetText(string.Comma(hat.credits) .. ' Credits')
+		self.BuyCredits:SetText(string.Comma(hat.credits) .. ' Кредитов')
 		self.BuyCredits:Show()
 
 		self.Equip:Hide()
@@ -281,7 +281,7 @@ function PANEL:AddControls(f4)
 		self.BuyMoreCredits:Show()
 	elseif IsValid(f4) then
 		self.BuyMoreCredits = ui.Create('DButton', f4)
-		self.BuyMoreCredits:SetText('Purchase Credits' .. rp.cfg.CreditSale)
+		self.BuyMoreCredits:SetText('Приобрести Кредиты' .. rp.cfg.CreditSale)
 		self.BuyMoreCredits.BackgroundColor = ui.col.DarkGreen
 		self.BuyMoreCredits:SizeToContents()
 		self.BuyMoreCredits:SetSize(self.BuyMoreCredits:GetWide() + 10, f4.btnClose:GetTall())
@@ -297,7 +297,7 @@ function PANEL:AddControls(f4)
 		self.CreditsBalance = ui.Create('DButton', f4)
 		self.CreditsBalance:SetDisabled(true)
 		self.CreditsBalance.TextColor = rp.col.Yellow
-		self.CreditsBalance:SetText(string.Comma(LocalPlayer():GetCredits()) .. ' Credits')
+		self.CreditsBalance:SetText(string.Comma(LocalPlayer():GetCredits()) .. ' Кредитов')
 		self.CreditsBalance:SizeToContents()
 		self.CreditsBalance:SetSize(self.CreditsBalance:GetWide() + 10, f4.btnClose:GetTall())
 		self.CreditsBalance:SetPos(self.BuyMoreCredits.x - self.CreditsBalance:GetWide() + 1, 0)
@@ -333,7 +333,6 @@ function PANEL:AddHats()
 
 	for k, v in pairs(rp.hats.List) do
 		local key = LocalPlayer():HasApparel(v.UID) and 1 or rp.hats.Categories[v.category]
-
 		sortedTypes[v.type][key][v.UID] = v
 	end
 

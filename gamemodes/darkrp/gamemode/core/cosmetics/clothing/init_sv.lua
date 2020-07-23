@@ -6,7 +6,7 @@ end
 
 rp.AddCommand('setoutfit', function(pl, text, args)
 	if (!pl:IsRoot()) then return end
-	
+
 	pl:SetOutfit(text)
 end)
 

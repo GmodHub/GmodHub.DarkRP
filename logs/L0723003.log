@@ -1,0 +1,31 @@
+L 07/23/2020 - 07:36:31: Log file started (file "logs\L0723003.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/23/2020 - 07:36:31: server_cvar: "sv_password" "***PROTECTED***"
+L 07/23/2020 - 07:36:31: server_cvar: "sv_airaccelerate" "100"
+L 07/23/2020 - 07:36:32: Connection to Steam servers successful.
+L 07/23/2020 - 07:36:32:    Public IP is 31.130.42.26.
+L 07/23/2020 - 07:36:32: Assigned anonymous gameserver Steam ID [A-1:1954053124(15212)].
+L 07/23/2020 - 07:36:33: VAC secure mode is activated.
+L 07/23/2020 - 07:36:34: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/23/2020 - 07:36:35: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/23/2020 - 07:36:46: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/23/2020 - 07:37:51: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/misc_sv.lua:28: attempt to index global 'pl' (a nil value)
+  1. Welfare - gamemodes/darkrp/gamemode/core/player/misc_sv.lua:28
+   2. unknown - gamemodes/darkrp/gamemode/core/player/misc_sv.lua:84
+
+
+L 07/23/2020 - 07:40:09: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/misc_sv.lua:28: attempt to index global 'pl' (a nil value)
+  1. Welfare - gamemodes/darkrp/gamemode/core/player/misc_sv.lua:28
+   2. unknown - gamemodes/darkrp/gamemode/core/player/misc_sv.lua:74
+    3. include - [C]:-1
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:89
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/23/2020 - 07:59:53: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/23/2020 - 07:59:53: server_message: "quit"
+L 07/23/2020 - 07:59:53: Log file closed.

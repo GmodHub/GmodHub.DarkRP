@@ -17,24 +17,24 @@ rp.hats.Add {
 */
 
 rp.hats.Categories = {
-	['Purchased'] = 1,
-	['Head Warmers'] = 2,
-	['Trucker Hats'] = 3,
-	['Oddities'] = 4,
-	['Ball Caps'] = 5,
-	['Scarves'] = 6,
-	['Slight Flex'] = 7,
-	['I See Your Point!'] = 8,
-	['Dose Cancer Cancellation'] = 9,
-	['Hipster Phase'] = 10,
-	['Smitty Werbenjagermanjensen\'s Collection'] = 11,
-	['Ugly Solutions'] = 12,
-	['Wraps'] = 13,
-	['Skull And Bones'] = 14,
-	['Masks'] = 15,
-	['$ Rich People Attire $'] = 16,
-	['Hotline Danktown'] = 17,
-	['Hats You Can\'t Afford'] = 18
+	['Приобретено'] = 1,
+	['Тёплые'] = 2,
+	['Кепки'] = 3,
+	['Странные'] = 4,
+	['Бейсболки'] = 5,
+	['Шарфы'] = 6,
+	['Лёгких Flex'] = 7,
+	['Я прозрел!'] = 8,
+	['Облучающие Наушники'] = 9,
+	['Хипстер'] = 10,
+	['Коллекция Смитти Вербенджигерджонсона'] = 11,
+	['Пакеты'] = 12,
+	['Балаклавы'] = 13,
+	['Череп и Кости'] = 14,
+	['Маски'] = 15,
+	['$ Для Богатых $'] = 16,
+	['Животные'] = 17,
+	['Самые Уникальные Шапки'] = 18
 }
 
 local APPAREL_HATS, APPAREL_MASKS, APPAREL_GLASSES, APPAREL_SCARVES = 1, 2, 3, 4
@@ -42,7 +42,7 @@ local APPAREL_HATS, APPAREL_MASKS, APPAREL_GLASSES, APPAREL_SCARVES = 1, 2, 3, 4
 -- TF2
 rp.hats.Add {
 	name = 'Mann Co. Cap',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/demo/demo_cap_online.mdl',
 	game = 'tf'
@@ -50,7 +50,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Stunt Helmet',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/demo/stunt_helmet.mdl',
 	offpos = Vector(0, 0, 1),
@@ -59,7 +59,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Summer Hat',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/demo/summer_hat_demo.mdl',
 	scale = 1.05,
@@ -69,7 +69,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Painter Beret',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/spy/spy_beret.mdl',
 	scale = 1.1,
@@ -79,7 +79,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Bucket',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/soldier/bucket.mdl',
 	offpos = Vector(-2, 0, 1),
@@ -89,7 +89,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Leather Hat',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/all_class/pcg_hat_medic.mdl',
 	scale = 1.05,
@@ -99,7 +99,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Cowboy Hat',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/sniper/sniper_crocleather_slouch.mdl',
 	scale = 1.05,
@@ -109,7 +109,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Hard Hat',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/demo/hardhat.mdl',
 	scale = 1.1,
@@ -118,7 +118,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Hard Hat 2',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/props_2fort/hardhat001.mdl',
 	scale = 0.65,
@@ -129,7 +129,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Traffic Cone',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/pyro/traffic_cone.mdl',
 	scale = 1.1,
@@ -139,7 +139,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Medic Helmet',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/medic/fwk_medic_stahlhelm.mdl',
 	scale = 1.1,
@@ -149,7 +149,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Chef',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/chefhat.mdl',
 	scale = 1.1,
@@ -160,7 +160,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Armed Authority',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/soldier/armored_authority.mdl',
 	scale = 0.93,
@@ -171,7 +171,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Army Hat',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/demo/veteran_hat.mdl',
 	offpos = Vector(0, 0, 1),
@@ -180,7 +180,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Paper Hat',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/spy/paper_hat.mdl',
 	game = 'tf'
@@ -188,7 +188,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Birthday',
-	category = 'Head Warmers',
+	category = 'Тёплые',
 	price = 250000,
 	model = 'models/player/items/all_class/bdayhat_engineer.mdl',
 	offpos = Vector(0, 0, 1),
@@ -197,7 +197,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Plunger',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/pyro/pyro_plunger.mdl',
 	scale = 1.43,
@@ -208,7 +208,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Ski Beanie',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/soldier/soldier_skihat_s1.mdl',
 	offpos = Vector(1, 0, 3.7),
@@ -217,7 +217,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Robin',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/sniper/larrikin_robin.mdl',
 	offpos = Vector(0, 0, -0.5),
@@ -226,7 +226,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Bunny',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/soldier/soldier_ttg_max.mdl',
 	offpos = Vector(0, 0, 1),
@@ -235,7 +235,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Fez',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/spy/fez.mdl',
 	scale = 1.2,
@@ -245,7 +245,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Santa',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/xms_santa_hat_demo.mdl',
 	scale = 1.1,
@@ -255,7 +255,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Samurai',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	price = 37500000,
 	model = 'models/player/items/soldier/soldier_samurai.mdl',
 	scale = 0.85,
@@ -266,7 +266,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Shady',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/pyro/fwk_pyro_flamenco.mdl',
 	scale = 1.15,
@@ -278,7 +278,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Pirate',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/world_traveller_spy.mdl',
 	scale = 1.1,
@@ -288,7 +288,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Shades',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type = APPAREL_GLASSES,
 	price = 4000000,
 	model = 'models/workshop/player/items/all_class/jul13_sweet_shades/jul13_sweet_shades_demo.mdl',
@@ -300,7 +300,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Disguise',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	price = 15000000,
 	model = 'models/workshop_partner/player/items/all_class/hm_disguisehat/hm_disguisehat_demo.mdl',
 	scale = 1.15,
@@ -310,7 +310,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Bandit',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	type = APPAREL_MASKS,
 	price = 12500000,
 	model = 'models/workshop/player/items/sniper/thief_sniper_hood/thief_sniper_hood.mdl',
@@ -321,7 +321,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Masquerade',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type = APPAREL_GLASSES,
 	price = 15000000,
 	model = 'models/player/items/spy/spy_party_phantom.mdl',
@@ -332,7 +332,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Headdress',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	price = 37500000,
 	model = 'models/player/items/heavy/heavy_big_chief.mdl',
 	infooffset = 15,
@@ -341,7 +341,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Wizard Hat',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/all_class/trn_wiz_hat_soldier.mdl',
 	scale = 1.05,
@@ -351,7 +351,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Sombrero',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	price = 37500000,
 	model = 'models/player/items/demo/demo_fiesta_sombrero.mdl',
 	scale = 1.3,
@@ -362,7 +362,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Fedora',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price = 20000000,
 	model = 'models/player/items/heavy/capones_capper.mdl',
 	offpos = Vector(-1, 0, -0.5),
@@ -371,7 +371,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Crown',
-	category = 'Hats You Can\'t Afford',
+	category = 'Самые Уникальные Шапки',
 	price = 45000000,
 	model = 'models/player/items/demo/crown.mdl',
 	scale = 1.05,
@@ -381,7 +381,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'A Well Wrapped Hat',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/workshop/player/items/all_class/dec15_a_well_wrapped_hat/dec15_a_well_wrapped_hat_scout.mdl',
 	scale = 1.05,
@@ -392,7 +392,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Tipped Lid',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/workshop/player/items/all_class/short2014_tip_of_the_hats/short2014_tip_of_the_hats_scout.mdl',
 	scale = 1.05,
@@ -403,7 +403,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Counterfeit Billycock',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/spy/fwk_spy_disguisedhat.mdl',
 	scale = 1.05,
@@ -413,7 +413,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Cosa Nostra Cap',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/player/items/spy/spy_gang_cap.mdl',
 	scale = 1.05,
@@ -423,7 +423,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Aviator Assassin',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/workshop/player/items/spy/short2014_deadhead/short2014_deadhead.mdl',
 	scale = 1.05,
@@ -434,7 +434,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Chicken Kiev',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/workshop/player/items/heavy/hw2013_heavy_robin/hw2013_heavy_robin.mdl',
@@ -446,7 +446,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Engineer\'s Cap',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/engineer/engineer_train_hat.mdl',
 	scale = 1.05,
@@ -456,7 +456,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Texas Tin-Gallon',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/workshop/player/items/engineer/robo_engineer_texastingallon/robo_engineer_texastingallon.mdl',
 	scale = 1.05,
@@ -468,7 +468,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Wilson Weave',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/starve_scout.mdl',
 	scale = 1.05,
@@ -478,7 +478,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Top Notch',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/player/items/all_class/notch_head_heavy.mdl',
@@ -490,7 +490,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'MONOCULUS!',
-	category = 'Hats You Can\'t Afford',
+	category = 'Самые Уникальные Шапки',
 	type = APPAREL_MASKS,
 	price = 45000001,
 	model = 'models/player/items/all_class/haunted_eyeball_hat_scout.mdl',
@@ -502,7 +502,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Dadliest Catch',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/workshop/player/items/all_class/nobody_suspects_a_thing/nobody_suspects_a_thing_scout.mdl',
@@ -514,7 +514,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Medimedes',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/workshop/player/items/medic/hw2013_medicmedes/hw2013_medicmedes.mdl',
@@ -526,7 +526,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Towering Pillar of Hats',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/scout/hat_first_nr.mdl',
 	scale = 1.05,
@@ -536,7 +536,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Carouser\'s Capotain',
-	category = 'Oddities',
+	category = 'Странные',
 	price = 5000000,
 	model = 'models/workshop/player/items/demo/inquisitor/inquisitor.mdl',
 	scale = 1.05,
@@ -547,7 +547,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Gentle Munitionne of Leisure',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/sd_rocket_scout.mdl',
 	scale = 1.35,
@@ -557,7 +557,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Crone\'s Dome',
-	category = 'Hats You Can\'t Afford',
+	category = 'Самые Уникальные Шапки',
 	price = 45000000,
 	model = 'models/workshop/player/items/all_class/witchhat/witchhat_medic.mdl',
 	scale = 1.35,
@@ -567,7 +567,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Penguin',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/all_penguin.mdl',
 	offpos = Vector(0, 6.5, 15),
@@ -578,7 +578,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'The Rift',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/player/items/all_class/all_class_oculus_scout.mdl',
@@ -588,7 +588,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'The Law',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/workshop/player/items/all_class/sbox2014_law/sbox2014_law_scout.mdl',
 	offpos = Vector(1.5, 0, -75),
@@ -598,7 +598,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'The MK 50',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/workshop/player/items/all_class/ai_spacehelmet/ai_spacehelmet_scout.mdl',
@@ -610,7 +610,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Brown Bomber',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/xms_furcap_scout.mdl',
 	offpos = Vector(1.5, 0, -75),
@@ -621,7 +621,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Détective Noir',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price = 20000000,
 	model = 'models/player/items/spy/spy_detective_noir.mdl',
 	offpos = Vector(-1.5, 0, -0.5),
@@ -631,7 +631,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Brigade Helm',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/pyro/fireman_helmet.mdl',
 	offpos = Vector(-4.5, 0, -75.5),
@@ -642,7 +642,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'The Face of Mercy',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price = 32500000,
 	model = 'models/workshop/player/items/pyro/hwn2015_face_of_mercy/hwn2015_face_of_mercy.mdl',
@@ -654,7 +654,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Pop-eyes',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type = APPAREL_GLASSES,
 	price = 15000000,
 	model = 'models/workshop/player/items/pyro/fall2013_popeyes/fall2013_popeyes.mdl',
@@ -666,7 +666,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Noogler ™',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/pyro/pyro_hat.mdl',
 	offpos = Vector(-4.5, 0, -95.5),
@@ -676,7 +676,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Barbarian Hair',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	price = 12500000,
 	model = 'models/player/items/all_class/xcom_flattop_scout.mdl',
 	offpos = Vector(1.5, 0, -88.5),
@@ -686,7 +686,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Bear Necessities',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price = 37500000,
 	model = 'models/workshop/player/items/heavy/jul13_bear_necessitys/jul13_bear_necessitys.mdl',
@@ -698,7 +698,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name = 'Hero\'s Tail',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	price = 37500000,
 	model = 'models/player/items/scout/scout_hair.mdl',
 	offpos = Vector(0, 0, 0),
@@ -710,7 +710,7 @@ rp.hats.Add {
 -- GTA
 rp.hats.Add {
 	name 	 = 'The Fierce Kodiak',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/bear.mdl',
@@ -734,7 +734,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Kitty Cat',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/cat.mdl',
@@ -747,7 +747,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Sneaky Fox',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/fox.mdl',
@@ -760,7 +760,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Gingerbread Man',
-	category = '$ Rich People Attire $',
+	category = '$ Для Богатых $',
 	type = APPAREL_MASKS,
 	price 	 = 37500000,
 	model	 = 'models/sal/gingerbread.mdl',
@@ -773,7 +773,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'America, Fuck Yeah',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/hawk_1.mdl',
@@ -786,7 +786,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'America, Shit Yeah',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/hawk_2.mdl',
@@ -799,7 +799,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Mr Owl',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/owl.mdl',
@@ -812,7 +812,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Steamboat\'s Favorite Hat',
-	category = 'Hats You Can\'t Afford',
+	category = 'Самые Уникальные Шапки',
 	type = APPAREL_MASKS,
 	price 	 = 45000001,
 	model	 = 'models/sal/penguin.mdl',
@@ -825,7 +825,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Piggy Piggy Piggy',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/pig.mdl',
@@ -838,7 +838,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bloody Piggy',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/pig.mdl',
@@ -851,7 +851,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Angry Wolf',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/wolf.mdl',
@@ -864,7 +864,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'He was #1!',
-	category = 'Smitty Werbenjagermanjensen\'s Collection',
+	category = 'Коллекция Смитти Вербенджигерджонсона',
 	price 	 = 22500000,
 	model	 = 'models/sal/acc/fix/beerhat.mdl',
 	skin 	 = 0,
@@ -876,7 +876,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'He was #2!',
-	category = 'Smitty Werbenjagermanjensen\'s Collection',
+	category = 'Коллекция Смитти Вербенджигерджонсона',
 	price 	 = 22500000,
 	model	 = 'models/sal/acc/fix/beerhat.mdl',
 	skin 	 = 1,
@@ -888,7 +888,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'He was #3!',
-	category = 'Smitty Werbenjagermanjensen\'s Collection',
+	category = 'Коллекция Смитти Вербенджигерджонсона',
 	price 	 = 22500000,
 	model	 = 'models/sal/acc/fix/beerhat.mdl',
 	skin 	 = 2,
@@ -900,7 +900,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'He was #4!',
-	category = 'Smitty Werbenjagermanjensen\'s Collection',
+	category = 'Коллекция Смитти Вербенджигерджонсона',
 	price 	 = 22500000,
 	model	 = 'models/sal/acc/fix/beerhat.mdl',
 	skin 	 = 3,
@@ -912,7 +912,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'He was #5!',
-	category = 'Smitty Werbenjagermanjensen\'s Collection',
+	category = 'Коллекция Смитти Вербенджигерджонсона',
 	price 	 = 22500000,
 	model	 = 'models/sal/acc/fix/beerhat.mdl',
 	skin 	 = 4,
@@ -924,7 +924,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'He was #6!',
-	category = 'Smitty Werbenjagermanjensen\'s Collection',
+	category = 'Коллекция Смитти Вербенджигерджонсона',
 	price 	 = 22500000,
 	model	 = 'models/sal/acc/fix/beerhat.mdl',
 	skin 	 = 5,
@@ -936,7 +936,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Blue',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -949,7 +949,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Savage',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -962,7 +962,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Savage 2',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -975,7 +975,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Savage 3',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -988,7 +988,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Savage 4',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1001,7 +1001,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Royalty',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1014,7 +1014,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Dead',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1027,7 +1027,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Dead 2',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1040,7 +1040,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Skullfire',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1053,7 +1053,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Skullfire 2',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1066,7 +1066,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Skullfire 3',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1079,7 +1079,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Shadow',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1092,7 +1092,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Leather',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1105,7 +1105,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Leather 2',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1118,7 +1118,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of Mercy Hockey',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/sal/acc/fix/mask_2.mdl',
@@ -1131,7 +1131,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Face of DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1144,7 +1144,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'The Motherboard of DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1157,7 +1157,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Lava DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1170,7 +1170,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Royal Lava DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1183,7 +1183,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Shadow DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1196,7 +1196,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Sniper DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1209,7 +1209,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Rusted DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1222,7 +1222,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Electric DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1235,7 +1235,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wooden DOOM',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 35000000,
 	model	 = 'models/sal/acc/fix/mask_4.mdl',
@@ -1248,7 +1248,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf White',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1261,7 +1261,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf Gray',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1274,7 +1274,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf Black',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1287,7 +1287,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf Navy Blue',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1300,7 +1300,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf Red',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1313,7 +1313,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf Green',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1326,7 +1326,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Scarf Pink',
-	category = 'Scarves',
+	category = 'Шарфы',
 	type 	 = APPAREL_SCARVES,
 	price 	 = 10000000,
 	model	 = 'models/sal/acc/fix/scarf01.mdl',
@@ -1339,7 +1339,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Up-n-Atom',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1352,7 +1352,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Smiles',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1365,7 +1365,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Tears',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1378,7 +1378,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Dumb',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1391,7 +1391,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Slick',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1404,7 +1404,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Teeth',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1417,7 +1417,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Innocent',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1430,7 +1430,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Burger Shot',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1443,7 +1443,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Target',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1456,7 +1456,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Devil',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1469,7 +1469,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Cop',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1482,7 +1482,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Yelling',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1495,7 +1495,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Angry',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1508,7 +1508,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Zigzag',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1521,7 +1521,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Skull',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1534,7 +1534,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Dog',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1547,7 +1547,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Ghost',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1560,7 +1560,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Alien',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1573,7 +1573,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Help Me',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1586,7 +1586,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Maze',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1599,7 +1599,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Fuck You',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1612,7 +1612,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of High Class',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1625,7 +1625,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Stickers',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1638,7 +1638,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Beauty',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1651,7 +1651,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Love',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1664,7 +1664,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bag of Black',
-	category = 'Ugly Solutions',
+	category = 'Пакеты',
 	type = APPAREL_MASKS,
 	price 	 = 25000000,
 	model	 = 'models/sal/halloween/bag.mdl',
@@ -1677,7 +1677,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Plague Doctor',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/sal/halloween/doctor.mdl',
@@ -1690,7 +1690,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Plague Doctor 2',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/sal/halloween/doctor.mdl',
@@ -1703,7 +1703,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Plague Doctor 3',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/sal/halloween/doctor.mdl',
@@ -1716,7 +1716,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Crime Scene',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap1.mdl',
@@ -1729,7 +1729,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Caution',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap1.mdl',
@@ -1742,7 +1742,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Caution 2',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap1.mdl',
@@ -1755,7 +1755,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Red Arrows',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap1.mdl',
@@ -1768,7 +1768,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Gray',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap2.mdl',
@@ -1781,7 +1781,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Black',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap2.mdl',
@@ -1794,7 +1794,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Light Gray',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap2.mdl',
@@ -1807,7 +1807,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Wrap of Rainbow',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/headwrap2.mdl',
@@ -1820,7 +1820,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Monkey Mask Brown',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/halloween/monkey.mdl',
@@ -1833,7 +1833,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Monkey Mask Black',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/halloween/monkey.mdl',
@@ -1846,7 +1846,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Monkey Mask Gray',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/halloween/monkey.mdl',
@@ -1859,7 +1859,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Monkey Mask White',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/halloween/monkey.mdl',
@@ -1872,7 +1872,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Black',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1885,7 +1885,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap White',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1898,7 +1898,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Beige',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1911,7 +1911,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Maroon',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1924,7 +1924,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Gray',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1937,7 +1937,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Camo',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1950,7 +1950,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Orange and White',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1963,7 +1963,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Black and White',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1976,7 +1976,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap White and Black',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -1989,7 +1989,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Pink Camo',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -2002,7 +2002,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ninja Wrap Black and Gold',
-	category = 'Wraps',
+	category = 'Балаклавы',
 	type = APPAREL_MASKS,
 	price 	 = 27500000,
 	model	 = 'models/sal/halloween/ninja.mdl',
@@ -2015,7 +2015,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Skull Gray',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/sal/halloween/skull.mdl',
@@ -2028,7 +2028,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Skull Brown',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/sal/halloween/skull.mdl',
@@ -2041,7 +2041,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Skull Light Brown',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/sal/halloween/skull.mdl',
@@ -2054,7 +2054,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Skull Black',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/sal/halloween/skull.mdl',
@@ -2067,7 +2067,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Monster Mask',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/halloween/zombie.mdl',
@@ -2080,7 +2080,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Monster Mask Gray',
-	category = 'Hotline Danktown',
+	category = 'Животные',
 	type = APPAREL_MASKS,
 	price 	 = 40000000,
 	model	 = 'models/sal/halloween/zombie.mdl',
@@ -2093,7 +2093,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Bandana',
-	category = 'Slight Flex',
+	category = 'Лёгких Flex',
 	type = APPAREL_MASKS,
 	price 	 = 12500000,
 	model	 = 'models/modified/bandana.mdl',
@@ -2106,7 +2106,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses01.mdl',
@@ -2119,7 +2119,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 2',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses01.mdl',
@@ -2132,7 +2132,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 3',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses01.mdl',
@@ -2145,7 +2145,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 4',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses01.mdl',
@@ -2158,7 +2158,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 5',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses01.mdl',
@@ -2171,7 +2171,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 6',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses01.mdl',
@@ -2184,7 +2184,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 7',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses02.mdl',
@@ -2197,7 +2197,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 8',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses02.mdl',
@@ -2210,7 +2210,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 9',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses02.mdl',
@@ -2223,7 +2223,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 10',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses02.mdl',
@@ -2236,7 +2236,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Hipster Glasses 11',
-	category = 'I See Your Point!',
+	category = 'Я прозрел!',
 	type 	 = APPAREL_GLASSES,
 	price 	 = 15000000,
 	model	 = 'models/modified/glasses02.mdl',
@@ -2249,7 +2249,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Gray',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 0,
@@ -2261,7 +2261,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Black',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 1,
@@ -2273,7 +2273,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat White',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 2,
@@ -2285,7 +2285,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Beige',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 3,
@@ -2297,7 +2297,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Red',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 4,
@@ -2309,7 +2309,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Black and Red',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 5,
@@ -2321,7 +2321,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Brown',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 6,
@@ -2333,7 +2333,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Proper Hat Blue',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat01_fix.mdl',
 	skin 	 = 7,
@@ -2345,7 +2345,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Saggy Beanie Red Striped',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat03.mdl',
 	skin 	 = 0,
@@ -2357,7 +2357,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Saggy Beanie Purple',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat03.mdl',
 	skin 	 = 1,
@@ -2369,7 +2369,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Saggy Beanie Red',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat03.mdl',
 	skin 	 = 2,
@@ -2381,7 +2381,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Saggy Beanie White',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat03.mdl',
 	skin 	 = 3,
@@ -2393,7 +2393,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Saggy Beanie Gray Striped',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat03.mdl',
 	skin 	 = 4,
@@ -2405,7 +2405,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Beanie Black',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat04.mdl',
 	skin 	 = 0,
@@ -2417,7 +2417,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Beanie Gray',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat04.mdl',
 	skin 	 = 1,
@@ -2429,7 +2429,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Beanie White Striped',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat04.mdl',
 	skin 	 = 2,
@@ -2441,7 +2441,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Beanie Rasta',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat04.mdl',
 	skin 	 = 3,
@@ -2453,7 +2453,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Beanie Blue',
-	category = 'Hipster Phase',
+	category = 'Хипстер',
 	price 	 = 20000000,
 	model	 = 'models/modified/hat04.mdl',
 	skin 	 = 4,
@@ -2465,7 +2465,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Pink',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat05.mdl',
 	skin 	 = 1,
@@ -2477,7 +2477,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Cabby Cap',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat06.mdl',
 	skin 	 = 0,
@@ -2489,7 +2489,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Black and Green',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 0,
@@ -2501,7 +2501,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Black and Green 2',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 1,
@@ -2513,7 +2513,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Gray and Black',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 2,
@@ -2525,7 +2525,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap White and Black',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 3,
@@ -2537,7 +2537,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Green and White',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 4,
@@ -2549,7 +2549,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Dark Green and White',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 5,
@@ -2561,7 +2561,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Maroon and White',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 6,
@@ -2573,7 +2573,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Blue and Green',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 7,
@@ -2585,7 +2585,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Brown and White',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 8,
@@ -2597,7 +2597,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Dark Green and White 2',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 9,
@@ -2609,7 +2609,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Ball Cap Brown and Red',
-	category = 'Ball Caps',
+	category = 'Бейсболки',
 	price 	 = 7500000,
 	model	 = 'models/modified/hat07.mdl',
 	skin 	 = 1000000,
@@ -2621,7 +2621,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Orange',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 0,
@@ -2633,7 +2633,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Blue and White',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 1,
@@ -2645,7 +2645,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Brown and White',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 2,
@@ -2657,7 +2657,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Brown and White 2',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 3,
@@ -2669,7 +2669,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Red and White',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 4,
@@ -2681,7 +2681,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Green and White',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 5,
@@ -2693,7 +2693,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Black and Multi',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 6,
@@ -2705,7 +2705,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Black and White',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 7,
@@ -2717,7 +2717,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Black and White 2',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 8,
@@ -2729,7 +2729,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Brown and White',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 9,
@@ -2741,7 +2741,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Purple and Multi',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 10,
@@ -2753,7 +2753,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Trucker Cap Brown and White 2',
-	category = 'Trucker Hats',
+	category = 'Кепки',
 	price 	 = 2500000,
 	model	 = 'models/modified/hat08.mdl',
 	skin 	 = 11,
@@ -2765,7 +2765,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Headphones Orange',
-	category = 'Dose Cancer Cancellation',
+	category = 'Облучающие Наушники',
 	price 	 = 17500000,
 	model	 = 'models/modified/headphones.mdl',
 	skin 	 = 0,
@@ -2777,7 +2777,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Headphones Purple',
-	category = 'Dose Cancer Cancellation',
+	category = 'Облучающие Наушники',
 	price 	 = 17500000,
 	model	 = 'models/modified/headphones.mdl',
 	skin 	 = 1,
@@ -2789,7 +2789,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Headphones Green',
-	category = 'Dose Cancer Cancellation',
+	category = 'Облучающие Наушники',
 	price 	 = 17500000,
 	model	 = 'models/modified/headphones.mdl',
 	skin 	 = 2,
@@ -2801,7 +2801,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Headphones Yellow',
-	category = 'Dose Cancer Cancellation',
+	category = 'Облучающие Наушники',
 	price 	 = 17500000,
 	model	 = 'models/modified/headphones.mdl',
 	skin 	 = 3,
@@ -2813,7 +2813,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Mask of Killers',
-	category = 'Masks',
+	category = 'Маски',
 	type = APPAREL_MASKS,
 	price 	 = 32500000,
 	model	 = 'models/modified/mask5.mdl',
@@ -2826,7 +2826,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Mask of Shadows',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/modified/mask6.mdl',
@@ -2839,7 +2839,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Mask of Light',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/modified/mask6.mdl',
@@ -2852,7 +2852,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Mask of Bones',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/modified/mask6.mdl',
@@ -2865,7 +2865,7 @@ rp.hats.Add {
 
 rp.hats.Add {
 	name 	 = 'Mask of Nature',
-	category = 'Skull And Bones',
+	category = 'Череп и Кости',
 	type = APPAREL_MASKS,
 	price 	 = 30000000,
 	model	 = 'models/modified/mask6.mdl',

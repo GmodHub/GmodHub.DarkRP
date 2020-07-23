@@ -249,7 +249,6 @@ rp.AddCommand("demote", function(ply, p, reason)
 
 	local canDemote, message = hook.Call("CanDemote", GAMEMODE, ply, p, reason)
 	if (false) or canDemote == false then -- DEBUG: EVERYBODY CAN DEMOTE
-		print("1")
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
 		return
 	end
@@ -260,7 +259,6 @@ rp.AddCommand("demote", function(ply, p, reason)
 			return
 		end
 		if (false) --[[not rp.teams[p:Team()] or rp.teams[p:Team()].candemote == false]] then -- DEBUG: EVERYBODY CAN DEMOTE
-			print(2)
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
 		else
 			rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)

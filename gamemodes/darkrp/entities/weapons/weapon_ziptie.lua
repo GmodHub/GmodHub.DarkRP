@@ -6,7 +6,7 @@ SWEP.DrawAmmo = true
 SWEP.DrawCrosshair = false
 SWEP.Slot = 3
 
-SWEP.PrintName = "Ziptie"
+SWEP.PrintName = "Стяжки"
 SWEP.WorldModel = "models/props/cs_office/Snowman_arm.mdl"
 
 SWEP.Primary.ClipSize = -1
@@ -54,7 +54,7 @@ function SWEP:PrimaryAttack()
 	if (IsValid(tr.Entity) and tr.Entity:IsPlayer() and !tr.Entity:IsZiptied() and !tr.Entity:IsCarrying() and !tr.Entity:IsArrested() and !tr.Entity:IsSOD()) then
 		if (tr.Entity:GetPos():DistToSqr(self.Owner:GetPos()) > 3500) then return end
 		if (self.Owner:InSpawn() or tr.Entity:InSpawn()) then return end
-		
+
 		self.Ziptying = {
 			Targ = tr.Entity,
 			LastPerc = 0,
@@ -102,18 +102,18 @@ function SWEP:Think()
 
 			if (SERVER) then
 				self.Owner:TakeKarma(2)
-				self.Owner:Notify(NOTIFY_ERROR, term.Get('LostKarma'), 2, 'kidnapping')
+				self.Owner:Notify(NOTIFY_ERROR, term.Get('LostKarma'), 2, 'похищение ребёнка')
 
 				hook.Call('playerZiptiedPlayer', nil, self.Owner, z.Targ)
 
 				z.Targ:Ziptie()
 
 				if not self.Owner:IsCP() and (z.Targ:IsCP() or z.Targ:IsMayor()) then
-					self.Owner:Wanted(z.Targ, "Ziptying")
+					self.Owner:Wanted(z.Targ, "Похищение")
 				end
 
 				if not self.Owner:IsCP() and (self.Owner:CloseToCPs()) then
-					self.Owner:Wanted(nil, "Ziptying")
+					self.Owner:Wanted(nil, "Похищение")
 				end
 
 				self.Owner:StopSound("sup_rp_ziptie")
@@ -129,7 +129,7 @@ function SWEP:DrawHUD()
 
 	local perc = math.min((CurTime() - z.Time) / rp.cfg.ZiptieTime, 1)
 
-	local str = "Restraining.."
+	local str = "Связываем.."
 	local w, h = surface.GetTextSize(str)
 	w = w + 16
 	local x = (ScrW() - w) * 0.5

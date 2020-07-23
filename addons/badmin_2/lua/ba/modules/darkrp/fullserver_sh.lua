@@ -1,6 +1,6 @@
-if (SERVER) then
+/*if (SERVER) then
 	util.AddNetworkString('ba.FullServerRedirect')
-	
+
 	hook.Add('playerRankLoaded', 'PerformFullServerRedirect', function(pl)
 		if (#player.GetAll() >= 108) then
 			local target
@@ -20,7 +20,7 @@ if (SERVER) then
 
 		end
 	end)
-	
+
 	return
 end
 
@@ -39,7 +39,7 @@ hook.Add('InitPostEntity', 'fullserver.InitPostEntity', function()
 		else
 			reason = 'You were redirected to our ' .. info.ChatPrefix .. ' server since our ' .. info.AltChatPrefix .. ' server was too full. You can purchase VIP if you\'d like access to 20 reserved slots, type /upgrades.'
 		end
-		
+
 		local label = ba.ui.Label(reason, fr, {
 			 font = 'ba.ui.18'
 		})
@@ -63,7 +63,7 @@ hook.Add('InitPostEntity', 'fullserver.InitPostEntity', function()
 end)
 
 
-net.Receive('ba.FullServerRedirect', function()	
+net.Receive('ba.FullServerRedirect', function()
 	if net.ReadBool() then
 		cvar.SetValue('AFKRedirect', true)
 	else

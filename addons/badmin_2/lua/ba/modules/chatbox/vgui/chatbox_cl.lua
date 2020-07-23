@@ -69,8 +69,8 @@ local function ParseForEmotes(...)
 						end
 
 						if (emote) then
-							local repwith = n:sub(1, earliest-1)
-							local add = n:sub(earliest+#emote)
+							local repwith = utf8_sub(n, 1, earliest-1)
+							local add = utf8_sub(n, earliest+utf8.len(emote))
 							local em = ba.chatEmotes[emote]
 
 							if (!em.mat and !em.matloading) then
@@ -523,10 +523,10 @@ function PANEL:Init()
 	end
 
 	self.txtEntry.OnKeyCodeTyped = function(s, c)
-		if (c == KEY_TAB) or ((c == KEY_RIGHT) and (s:GetCaretPos() == #s:GetValue())) then
+		if (c == KEY_TAB) or ((c == KEY_RIGHT) and (s:GetCaretPos() == utf8.len(s:GetValue()))) then
 			self:DoAutoFill()
 			s:OnTextChanged()
-			s:SetCaretPos(#s:GetValue())
+			s:SetCaretPos(utf8.len(s:GetValue()))
 		elseif (c == KEY_UP) then
 			if (#self.AutoNames > 0) then
 				local auto = self:GetAutoFill(1)
@@ -536,7 +536,7 @@ function PANEL:Init()
 					s.historyPos = s.historyPos + 1
 					self._Team = self.History[s.historyPos].Team
 					s:SetText(self.History[s.historyPos].Text)
-					s:SetCaretPos(#s:GetValue())
+					s:SetCaretPos(utf8.len(s:GetValue()))
 				end
 			end
 		elseif (c == KEY_DOWN) then
@@ -553,7 +553,7 @@ function PANEL:Init()
 						s:SetText('')
 						self._Team = self._OpenedWithTeam
 					end
-					s:SetCaretPos(#s:GetValue())
+					s:SetCaretPos(utf8.len(s:GetValue()))
 				end
 			end
 		elseif (c == KEY_ENTER) then
@@ -572,7 +572,7 @@ function PANEL:Init()
 	self.txtEntry.OnLoseFocus = function(s)
 		if (input.IsKeyDown(KEY_TAB)) then
 			s:RequestFocus()
-			s:SetCaretPos(#s:GetText())
+			s:SetCaretPos(utf8.len(s:GetText()))
 		end
 	end
 
@@ -786,7 +786,7 @@ function PANEL:AddMessage(...)
 		if istable(v) and v.mat != nil then
 			strings = strings .. '*'
 
-			emotesww[emotes[table.insert(emotes, {Emote = v, Pos=#strings})].Pos] = true
+			emotesww[emotes[table.insert(emotes, {Emote = v, Pos=utf8.len(strings)})].Pos] = true
 		elseif (isstring(v) or isnumber(v)) then
 			if (v[1] == '>') then
 				table.insert(colors, {Col=Color(140, 200, 100), Pos=utf8.len(strings)})
@@ -876,7 +876,7 @@ function PANEL:CalculateAutoFill()
 
 	if (not isEmote) then
 		for k, v in ipairs(player.GetAll()) do
-			if ((string.find(v:Name():lower(), match:lower(), 1, true) or -1) == 1) then
+			if ((string.find(utf8.lower(v:Name()), utf8.lower(match), 1, true) or -1) == 1) then
 				if (curSel and curSel.SteamID == v:SteamID()) then
 					self.CurrentAutoName = #self.AutoNames + 1
 				end
@@ -891,7 +891,7 @@ function PANEL:CalculateAutoFill()
 
 	if isEmote then
 		for k, v in pairs(ba.chatEmotes) do // do the hack
-			if ((string.find(k:lower(), match:lower(), 1, true) or -1) == 1)  then
+			if ((string.find(utf8.lower(k), utf8.lower(match), 1, true) or -1) == 1)  then
 				self.AutoNames[#self.AutoNames + 1] = {
 					Name = k,
 					SteamID = k
@@ -916,7 +916,7 @@ function PANEL:GetAutoFill(step)
 	local fillData = self.AutoNames[self.CurrentAutoName]
 
 	if (fillData) then
-		fillData.CompleteString = utf8_sub(fillData.Name, #match + 1)
+		fillData.CompleteString = utf8_sub(fillData.Name, utf8.len(match) + 1)
 	end
 
 	return fillData
@@ -933,7 +933,7 @@ function PANEL:DoAutoFill()
 	local pref = utf8_sub(self.txtEntry:GetValue(), 1, 1)
 	local fillVal
 
-	local firstarg = utf8_sub(self.txtEntry:GetValue(), 1, (string.find(self.txtEntry:GetValue(), ' ')  or (#self.txtEntry:GetValue() + 1)) - 1)
+	local firstarg = utf8_sub(self.txtEntry:GetValue(), 1, (string.find(self.txtEntry:GetValue(), ' ')  or (utf8.len(self.txtEntry:GetValue()) + 1)) - 1)
 
 	if (pref == '/' or pref == '!') and (firstarg != '//' and firstarg != '/ooc' and firstarg != '/ad' and firstarg != '/advert') and (!ret) then
 		fillVal = pl.SteamID
@@ -941,7 +941,7 @@ function PANEL:DoAutoFill()
 		fillVal = pl.Name
 	end
 
-	self.txtEntry:SetText(utf8_sub(self.txtEntry:GetValue(), 1, -(#match + 1)) .. fillVal .. ' ')
+	self.txtEntry:SetText(utf8_sub(self.txtEntry:GetValue(), 1, -(utf8.len(match) + 1)) .. fillVal .. ' ')
 end
 
 /*function PANEL:DoAutoFill(ret, cont) -- TODO, replace with command autocomplete

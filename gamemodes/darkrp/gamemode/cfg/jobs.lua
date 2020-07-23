@@ -759,6 +759,7 @@ TEAM_WATCHER = rp.addTeam('Наблюдатель', {
 		if (!pl.CalledFromSitwatcherCommand) then
 			return false, 'JobNeedsManualSet'
 		end
+		return true
 	end,
 	CustomCheckFailMsg = 'JobNeedsManualSet',
 })

@@ -4,6 +4,17 @@ local string 	= string
 local table 	= table
 
 util.AddNetworkString('rp.DeathInfo')
+util.AddNetworkString("rp.StartVoice")
+util.AddNetworkString("rp.EndVoice")
+
+
+net('rp.StartVoice', function(len, pl)
+	hook.Call("PlayerStartVoice", nil, pl)
+end)
+
+net('rp.EndVoice', function(len, pl)
+	hook.Call("PlayerEndVoice", nil, pl)
+end)
 
 function GM:CanChangeRPName(ply, RPname)
 	if string.find(RPname, "\160") or string.find(RPname, " ") == 1 then -- disallow system spaces
@@ -54,8 +65,7 @@ end
 function GM:UpdatePlayerSpeed(pl)
 	self:SetPlayerSpeed(pl, rp.cfg.WalkSpeed, rp.cfg.RunSpeed)
 end
-util.AddNetworkString("rp.StartVoice")
-util.AddNetworkString("rp.EndVoice")
+
 /*---------------------------------------------------------
  Stuff we don't use
  ---------------------------------------------------------*/
@@ -167,7 +177,7 @@ function GM:CanPlayerSuicide(pl)
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideWanted"))
 	elseif pl:IsFrozen() then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideFrozen"))
-	elseif (pl:GetKarma() > 5000) then
+	elseif (pl:GetKarma() > 5000 or pl:IsZiptied()) then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideLiveFor"))
 	elseif (not pl:IsBanned()) and (not pl:IsJailed()) then
 

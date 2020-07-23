@@ -31,7 +31,7 @@ function SWEP:DrawHUD()
 	if (self.Owner:GetNetVar('ZiptieCutting') != nil) then return end
 
 	self.struggleTime = self.struggleTime or self.Owner:CallSkillHook(SKILL_ZIPTIE_BREAK_FREE, rp.cfg.ZiptieStruggleTime)
-	
+
 	if (CurTime() < self.CreatedTime + self.struggleTime) then
 		local tleft = math.max(self.CreatedTime +  self.struggleTime - CurTime(), 0)
 		local min = math.floor(tleft / 60)
@@ -40,7 +40,7 @@ function SWEP:DrawHUD()
 		if (sec < 10) then sec = "0" .. sec end
 		tleft = min .. ":" .. sec
 
-		rp.ui.DrawCenteredProgress("Ziptied! Struggle in " ..  tleft)
+		rp.ui.DrawCenteredProgress("Вы связаны! Можно выбраться через " ..  tleft)
 	end
 	/*else
 		local w, h = surface.GetTextSize("Move around to break free!")
@@ -50,7 +50,7 @@ function SWEP:DrawHUD()
 
 		surface.SetDrawColor(rp.col.Outline)
 		surface.DrawOutlinedRect(x, y, w, h)
-		
+
 		surface.SetDrawColor(rp.col.Background)
 		surface.DrawRect(x, y, w, h)
 

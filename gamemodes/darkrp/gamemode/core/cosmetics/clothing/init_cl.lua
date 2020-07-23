@@ -6,7 +6,7 @@
 		cback()
 	elseif (not rp.Clothes[name].Material) then
 		wmat.Create(name, {
-			URL 	= 'http://cdn.superiorservers.co/rp/sub_materials/' .. inf.File .. '.png',
+			URL 	= 'http://gmodhub.com/rp/sub_materials/' .. inf.File .. '.png',
 			W 		= inf.W or 1024,
 			H 		= inf.H or 1024,
 			Cache 	= true,
@@ -103,12 +103,12 @@ concommand.Add('clothes_test', function(p,c,a)
 
 	PrintTable(p:GetMaterials())
 end)
-*/
 
 
 
 
-/*
+
+
 -- Menu
 hook('PopulateF4Tabs', 'clothes.PopulateF4Tabs', function(tabs)
     local cont = ui.Create('ui_panel')

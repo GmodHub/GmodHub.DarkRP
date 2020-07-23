@@ -11,8 +11,8 @@ end)
 -------------------------------------------------
 -- SetMoTD
 -------------------------------------------------
-term.Add('MOTDSet', 'The MoTD has been set to "#".')
-term.Add('FAQSet', 'The FAW has been set to "#".')
+term.Add('MOTDSet', 'MoTD изменено на "#".')
+term.Add('FAQSet', 'FAW изменён на "#".')
 
 ba.AddCommand('SetMoTD', function(pl, url)
 	ba.svar.Set('motd', url)

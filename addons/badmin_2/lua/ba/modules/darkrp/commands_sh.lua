@@ -28,8 +28,8 @@ term.Add('AdminDeniedVote', '# has denied #\'s vote.')
 term.Add('AdminDeniedTeamVote', '# has denied the # vote.')
 term.Add('AdminAddedYourMoney', '# has added $# to your wallet.')
 term.Add('AdminAddedMoney', 'You have added $# to #\'s wallet.')
-term.Add('AdminAddedYourCredits', '# has added # credits to your account.')
-term.Add('AdminAddedCredits', 'You have added # credits to #\'s account.')
+term.Add('AdminAddedYourCredits', '# выдал вам # кредитов на ваш аккаунт.')
+term.Add('AdminAddedCredits', 'Вы выдали # кредитов на аккаунт #.')
 term.Add('AdminMovedPlayers', 'Moved # players to the other server.')
 term.Add('PlayerNotFound', 'Couldn\'t find player #.')
 term.Add('AdminSetHealth', '# has set #\'s health to #.')
@@ -132,11 +132,11 @@ end)
 ba.AddCommand('SitWatcher', function(pl, target)
 	local sid64 = target:SteamID64()
 
-	rp._Cache:Get('WatcherBans:' .. sid64, function(redis, val)
-		if (tobool(val)) then
-			ba.notify(pl, term.Get('PlayerIsWatcherBanned'), target)
-			return
-		end
+	//rp._Cache:Get('WatcherBans:' .. sid64, function(redis, val)
+		//if (tobool(val)) then
+		//	ba.notify(pl, term.Get('PlayerIsWatcherBanned'), target)
+		//	return
+		//end
 
 		ba.notify(target, term.Get('AdminChangedYourJob'), pl, 'Sit Watcher')
 		ba.notify_staff(term.Get('AdminChangedPlayerJob'), pl, target, 'Sit Watcher')
@@ -151,12 +151,12 @@ ba.AddCommand('SitWatcher', function(pl, target)
 		target:Spawn()
 		target.CalledFromSitwatcherCommand = nil
 		target.JobBeingForced = nil
-	end)
+	//end)
 end)
 :AddParam(cmd.PLAYER_ENTITY)
 :SetFlag 'A'
 :SetHelp 'Sets a player to the Sit Watcher role'
-
+/*
 ba.AddCommand('WatcherBan', function(pl, sid32)
 	local target
 	local sid64
@@ -228,7 +228,7 @@ end)
 :AddParam(cmd.PLAYER_STEAMID32)
 :SetFlag 'S'
 :SetHelp 'Removes a player from the Sit Watcher blacklist'
-
+*/
 ba.AddCommand('Force Unwant', function(pl, target)
 	if target:IsWanted() then
 		ba.notify(target, term.Get('AdminUnwantedYou'), pl)

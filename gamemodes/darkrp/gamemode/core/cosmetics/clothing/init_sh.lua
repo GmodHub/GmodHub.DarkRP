@@ -36,7 +36,7 @@ function PLAYER:CanUseOutfit(outfit)
 	return self:GetTeamTable().Outfits[outfit] or false
 end
 
-/*
+
 hook('rp.AddUpgrades', 'rp.Cosmetics.Outfits', function()
 	for k, v in pairs(rp.Clothes) do
 		local obj = rp.shop.Add(v.Name, 'hat_' .. v.Name)

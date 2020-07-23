@@ -35,7 +35,7 @@ local actionsMenus = {
 
 local unilitiesMenus = {
 	{
-		Name = 'Доступ Пропов',
+		Name = 'Доступ',
 		DoClick = function(p)
 			rp.pp.SharePropMenu()
 		end

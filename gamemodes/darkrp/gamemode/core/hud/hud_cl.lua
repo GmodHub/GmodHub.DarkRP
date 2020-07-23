@@ -920,7 +920,6 @@ local function DeathScreen()
 end
 net.Receive('rp.DeathInfo', function(len)
 	deathType = net.ReadUInt(5)
-	print(deathType)
 
 	local hasKiller = net.ReadBool()
 	if (hasKiller) then

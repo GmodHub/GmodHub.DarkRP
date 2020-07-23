@@ -19,17 +19,6 @@ rp.bodygroups.Presets = {
 				}
 			}
 		},
-
-		HasPermission = function(pl, targ)
-			local org = pl:GetOrgInstance()
-			if (org and org.ID == 2588) then
-				if (pl:IsOrgOwner()) then return true end
-
-				if (pl:GetOrgRank() == "mom" or pl:GetOrgRank() == "/sluts/") then
-					return targ == pl
-				end
-			end
-		end
 	}
 }
 
@@ -53,7 +42,7 @@ rp.AddCommand('bg', function(pl, grp)
 		return NOTIFY_ERROR, term.Get('ModelNoBodyGroups')
 	end
 
-	if (!pl:IsRoot() and !inf.HasPermission(pl, targ)) then
+	if (!pl:IsRoot()) then
 		return NOTIFY_ERROR, term.Get('BodyGroupPermission')
 	end
 

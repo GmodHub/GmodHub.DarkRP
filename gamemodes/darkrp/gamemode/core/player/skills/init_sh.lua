@@ -38,10 +38,3 @@ end
 function PLAYER:CanAffordKarma(price)
 	return (price <= self:GetKarma())
 end
-
-hook('PlayerDeath', 'Karma.PlayerDeath', function(victim, inflictor, attacker)
-	if attacker:IsPlayer() and (attacker ~= victim) and (not victim:IsBanned()) then
-		attacker:AddKarma(-2)
-		rp.Notify(attacker, NOTIFY_ERROR, term.Get('LostKarma'), '2', 'убийство')
-	end
-end)

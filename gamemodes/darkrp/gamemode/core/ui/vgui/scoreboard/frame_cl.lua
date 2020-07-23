@@ -101,7 +101,7 @@ function PANEL:PerformLayout()
 	self.PlayerList:SetSize(w, h)
 
 	local x, y = math.ceil(self:GetWide() - w)/2, math.ceil((self:GetTall() - h) - (self:GetTall() * 0.025))
-	self.PlayerList:SetPos(x, 20)
+	self.PlayerList:SetPos(x, y)
 	self.PlayerList:SetPadding(-1)
 
 	self.LogoButton:SetPos(self:GetWide()/2 - 75, 40)

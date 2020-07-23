@@ -115,18 +115,7 @@ local msg = [[
 Аппеляция @ vk.com/gmdhub
 ]]
 
-local allowed = {
-	['76561198108670811'] = true, -- Me
-	['76561198171537170'] = true,
-	['76561198289598243'] = true,
- }
-
 function ba.bans.CheckPassword(steamid, ip, pass, cl_pass, name)
-	print(steamid .. " Password Check")
-	if not allowed[steamid] then
-		return false, 'Access Denied'
-	end
-
 	local banned, data = 	ba.bans.IsBanned(steamid)
 	if banned then
 		local banDate = os.date('%d/%m/%y - %H:%M', data.ban_time)

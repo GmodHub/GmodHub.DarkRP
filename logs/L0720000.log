@@ -1,0 +1,300 @@
+L 07/20/2020 - 16:59:34: Log file started (file "logs\L0720000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/20/2020 - 16:59:34: server_cvar: "sv_password" "***PROTECTED***"
+L 07/20/2020 - 16:59:34: server_cvar: "sv_airaccelerate" "100"
+L 07/20/2020 - 16:59:35: Connection to Steam servers successful.
+L 07/20/2020 - 16:59:35:    Public IP is 31.130.42.26.
+L 07/20/2020 - 16:59:35: Assigned anonymous gameserver Steam ID [A-1:4069294084(15196)].
+L 07/20/2020 - 16:59:35: VAC secure mode is activated.
+L 07/20/2020 - 17:01:52: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/20/2020 - 17:01:53: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/20/2020 - 17:02:16: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/20/2020 - 17:26:26: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/20/2020 - 17:31:47: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/20/2020 - 17:31:48: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/20/2020 - 17:32:09: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/20/2020 - 17:32:25: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/20/2020 - 17:58:54: Lua Error: lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+
+L 07/20/2020 - 17:59:00: Lua Error: lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+
+L 07/20/2020 - 18:00:05: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:50: ')' expected (to close '(' at line 12) near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:01:12: Lua Error: lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got number)
+
+L 07/20/2020 - 18:01:16: Lua Error: lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got number)
+
+L 07/20/2020 - 18:04:10: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:14: unexpected symbol near ','
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:05:51: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:22: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:06:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:06:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:07:21: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:07:22: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:07:57: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:03: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:28: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:40: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:43: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:43: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Members'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:08:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:09:39: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:09:43: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:09:44: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:09:58: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:10:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:10:15: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:23: '}' expected (to close '{' at line 15) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:10:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:25: '}' expected (to close '{' at line 17) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:10:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:25: '}' expected (to close '{' at line 17) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:11:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:25: '}' expected (to close '{' at line 17) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 18:11:01: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:25: '}' expected (to close '{' at line 17) near 'Bank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/20/2020 - 20:24:46: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/20/2020 - 20:24:47: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/20/2020 - 20:25:05: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/20/2020 - 20:41:47: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:185: attempt to index a nil value
+
+L 07/20/2020 - 20:41:47: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:185: attempt to index a nil value
+
+L 07/20/2020 - 20:47:07: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:189: attempt to index global 'V' (a nil value)
+
+L 07/20/2020 - 20:47:07: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:189: attempt to index global 'V' (a nil value)
+
+L 07/20/2020 - 20:47:07: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:189: attempt to index global 'V' (a nil value)
+
+L 07/20/2020 - 20:48:41: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/20/2020 - 20:48:41: server_message: "quit"
+L 07/20/2020 - 20:48:41: Log file closed.

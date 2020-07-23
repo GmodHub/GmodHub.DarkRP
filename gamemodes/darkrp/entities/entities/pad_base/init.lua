@@ -124,7 +124,6 @@ function CreateDoorFunctions(ent)
 end
 
 function RemoveDoor(ent)
-	print("RemoveDoor", ent, IsValid(ent), IsFading(ent));
 	if (not IsFading(ent)) then return; end
 	onRemove(ent);
 	Unfade(ent);
@@ -173,7 +172,6 @@ function rp.fadingdoor.AddProp(ply, prop)
 		toggle = false,
 		reversed = false
 	})
-	print(prop)
 	table.insert(fadingDoors[steamID64], prop)
 end
 

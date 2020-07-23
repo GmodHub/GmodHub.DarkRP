@@ -1,0 +1,884 @@
+L 07/23/2020 - 21:01:17: Log file started (file "logs\L0723005.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/23/2020 - 21:01:17: server_cvar: "sv_password" "***PROTECTED***"
+L 07/23/2020 - 21:01:17: server_cvar: "sv_airaccelerate" "100"
+L 07/23/2020 - 21:01:18: Connection to Steam servers successful.
+L 07/23/2020 - 21:01:18:    Public IP is 31.130.42.26.
+L 07/23/2020 - 21:01:18: Assigned anonymous gameserver Steam ID [A-1:1453192192(15216)].
+L 07/23/2020 - 21:01:18: VAC secure mode is activated.
+L 07/23/2020 - 21:01:48: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/23/2020 - 21:01:49: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/23/2020 - 21:02:02: Lua Error: 
+[dash_3] stack overflow
+  1. Give - [C]:-1
+   2. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:2
+    3. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+      5. SelectWeapon - [C]:-1
+       6. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+        7. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+                 16. unknown - addons/dash_3/lua/dash/librariesL 07/23/2020 - 21:02:02: Lua Error: 
+[dash_3] stack overflow
+  1. IsValid - [C]:-1
+   2. v - addons/dash_3/lua/dash/libraries/hook.lua:121
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+     4. SelectWeapon - [C]:-1
+      5. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+       6. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+        7. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+         8. SelectWeapon - [C]:-1
+          9. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+           10. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+            11. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+             12. SelectWeapon - [C]:-1
+              13. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+               14. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+                15. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+                 16. SelectWeapon - [C]:-1
+
+
+L 07/23/2020 - 21:02:02: Lua Error: 
+[dash_3] stack overflow
+  1. EntIndex - [C]:-1
+   2. _Write - addons/dash_3/lua/dash/libraries/nw.lua:175
+    3. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+     4. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+      5. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+       6. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+        7. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+         8. SelectWeapon - [C]:-1
+          9. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+           10. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+            11. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+             12. SelectWeapon - [C]:-1
+              13. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+               14. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+                15. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+                 16. SelectWeapon - [C]:-1
+
+
+L 07/23/2020 - 21:02:02: Lua Error: 
+[dash_3] Warning! A net message (nw_Ziptied) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:21
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie - gL 07/23/2020 - 21:02:02: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/23/2020 - 21:03:06: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:03:08: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:03:22: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:03:47: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:03:53: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:04:04: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:04:04: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:04:04: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:34
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:06:04: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:39: attempt to index global 'V' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:39
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:06:09: Lua Error: 
+[badmin_2] Warning! A net message (rp.struggle.Progress) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/23/2020 - 21:08:57: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:08:58: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:08:58: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:08:58: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:08:59: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:08:59: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:08:59: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:09:08: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:10:14: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:10:14: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:10:14: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:10:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:10:37: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:10:38: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:42
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:11:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20: attempt to index global 'stuggle' (a nil value)
+  1. StartStruggle - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20
+   2. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:35
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:11:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20: attempt to index global 'stuggle' (a nil value)
+  1. StartStruggle - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20
+   2. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:35
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:11:16: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20: attempt to index global 'stuggle' (a nil value)
+  1. StartStruggle - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20
+   2. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:35
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:11:16: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20: attempt to index global 'stuggle' (a nil value)
+  1. StartStruggle - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:20
+   2. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:35
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:13:44: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:36: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:36
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:13:44: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:36: attempt to index global 'struggle' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:36
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:17:34: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:17:34: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:18:50: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:18:50: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:18:52: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:18:52: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:18:52: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:18:52: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:18:53: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:18:53: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:18:54: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:18:54: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:18:56: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:18:56: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:19:14: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:19:14: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:19:14: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:19:14: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:19:15: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:19:15: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:19:16: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:19:16: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:19:16: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:19:16: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:19:21: Lua Error: 
+[dash_3] stack overflow
+  1. GetTable - [C]:-1
+   2. __index - addons/dash_3/lua/dash/extensions/player.lua:20
+    3. callback - addons/badmin_2/lua/ba/core/util/player/player_sh.lua:25
+     4. Filter - addons/dash_3/lua/dash/extensions/table.lua:10
+      5. PlayerLog - addons/badmin_2/lua/ba/core/logging/logs_sv.lua:38
+       6. callback - addons/badmin_2/lua/ba/modules/darkrp/loghooks_sh.lua:818
+        7. v - addons/badmin_2/lua/ba/core/logging/logs_sh.lua:127
+         8. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+          9. SelectWeapon - [C]:-1
+           10. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+            11. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+             12. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+              13. SelectWeapon - [C]:-1
+               14. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+                15. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+                 16. unknown - addons/L 07/23/2020 - 21:19:22: Lua Error: 
+[dash_3] Warning! A net message (ba.logs.Live) is already started! Discarding in favor of the new message! (nw_Ziptied)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:5
+     4. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+      5. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. SelectWeapon - [C]:-1
+        7. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+         8. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+           10. SelectWeapon - [C]:-1
+            11. Ziptie - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:3
+             12. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:22
+              13. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+               14. SelectWeapon - [C]:-1
+                15. Ziptie -L 07/23/2020 - 21:20:06: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" connected, address "212.66.63.1:27005"
+L 07/23/2020 - 21:20:06: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/23/2020 - 21:20:56: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" entered the game
+L 07/23/2020 - 21:22:45: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:45: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:46: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:46: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:46: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:47: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:47: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:47: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:47: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:48: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:48: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:22:48: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:31
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 21:24:17: Lua Error: 
+[dash_3] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (rp.struggle.Progress)
+
+  1. v - gamemodes/darkrp/gamemode/core/player/struggle/struggle_sv.lua:46
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 22:05:58: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:570: attempt to index global 'args' (a nil value)
+
+L 07/23/2020 - 22:11:28: Lua Error: 
+[dash_3] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. cback - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:106
+   2. handlequery - addons/dash_3/lua/dash/libraries/server/mysql.lua:136
+    3. unknown - addons/dash_3/lua/dash/libraries/server/mysql.lua:149
+     4. Poll - [C]:-1
+      5. v - addons/dash_3/lua/dash/libraries/server/mysql.lua:83
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 22:24:36: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:91: bad argument #1 to 'WriteUInt' (number expected, got nil)
+
+L 07/23/2020 - 22:24:37: Lua Error: 
+[dash_3] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (rp.OrgsMenu)
+
+  1. cback - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:106
+   2. handlequery - addons/dash_3/lua/dash/libraries/server/mysql.lua:136
+    3. unknown - addons/dash_3/lua/dash/libraries/server/mysql.lua:149
+     4. Poll - [C]:-1
+      5. v - addons/dash_3/lua/dash/libraries/server/mysql.lua:83
+       6. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 22:24:37: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:108: attempt to index upvalue 'orgdata' (a nil value)
+
+L 07/23/2020 - 22:24:38: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/23/2020 - 22:24:39: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:108: attempt to index upvalue 'orgdata' (a nil value)
+
+L 07/23/2020 - 22:24:43: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/23/2020 - 22:30:21: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:108: attempt to index upvalue 'orgdata' (a nil value)
+
+L 07/23/2020 - 22:30:24: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/23/2020 - 22:30:28: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 22:30:28: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/23/2020 - 22:30:28: "eLeCtrOssSnake<3><STEAM_0:1:164666257><>" disconnected (reason "Server shutting down")
+L 07/23/2020 - 22:30:28: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/23/2020 - 22:30:28: server_message: "quit"
+L 07/23/2020 - 22:30:28: Log file closed.

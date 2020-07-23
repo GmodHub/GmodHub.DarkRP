@@ -1,0 +1,396 @@
+L 07/19/2020 - 14:43:26: Log file started (file "logs\L0719000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/19/2020 - 14:43:26: server_cvar: "sv_password" "***PROTECTED***"
+L 07/19/2020 - 14:43:26: server_cvar: "sv_airaccelerate" "100"
+L 07/19/2020 - 14:43:27: Connection to Steam servers successful.
+L 07/19/2020 - 14:43:27:    Public IP is 31.130.42.26.
+L 07/19/2020 - 14:43:27: Assigned anonymous gameserver Steam ID [A-1:3458076676(15190)].
+L 07/19/2020 - 14:43:27: VAC secure mode is activated.
+L 07/19/2020 - 14:43:30: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 14:43:31: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 14:43:53: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 14:56:35: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 14:56:35: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 14:56:35: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 14:56:43: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 14:57:41: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 14:57:41: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/19/2020 - 14:57:42: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/19/2020 - 14:57:50: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/19/2020 - 15:03:12: Lua Error: gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sh.lua:93: attempt to call field 'AddApparel' (a nil value)
+
+L 07/19/2020 - 15:11:37: Lua Error: gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sh.lua:95: attempt to call method 'AddOwnedApparel' (a nil value)
+
+L 07/19/2020 - 15:17:57: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" connected, address "212.66.63.78:27005"
+L 07/19/2020 - 15:17:57: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" STEAM USERID validated
+L 07/19/2020 - 15:19:09: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" entered the game
+L 07/19/2020 - 15:25:25: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:14: attempt to index field 'list' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:14
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:28:52: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:14
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:31:42: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:14
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:34:40: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:27: attempt to call field 'SetHat' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:27
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:35:03: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:27: attempt to call field 'AddApparel' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:27
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:46:40: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/money_printer/init.lua:76
+      5. unknown - gamemodes/darkrp/entities/entities/money_printer/init.lua:60
+       6. FireBullets - [C]:-1
+        7. FireBullet - addons/swb_m9k_css/lua/weapons/swb_base/sh_bullets.lua:80
+         8. unknown - addons/swb_m9k_css/lua/weapons/swb_base/shared.lua:679
+
+
+L 07/19/2020 - 15:46:44: Lua Error: 
+[badmin_2] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/19/2020 - 15:46:59: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:27: attempt to call field 'AddApparel' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:27
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:47:12: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:322: attempt to index a nil value
+
+L 07/19/2020 - 15:47:14: Lua Error: 
+[badmin_2] Warning! A net message (nw.NilPlayerVar) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/19/2020 - 15:48:17: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:322: attempt to index a nil value
+
+L 07/19/2020 - 15:48:19: Lua Error: 
+[badmin_2] Warning! A net message (nw.NilPlayerVar) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/19/2020 - 15:49:11: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:322: attempt to index a nil value
+
+L 07/19/2020 - 15:49:12: Lua Error: 
+[dash_3] Warning! A net message (nw.NilPlayerVar) is already started! Discarding in favor of the new message! (nw_ToolStage)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. SetStage - gamemodes/darkrp/entities/weapons/gmod_tool/object.lua:32
+     4. UpdateData - gamemodes/darkrp/entities/weapons/gmod_tool/object.lua:22
+      5. Deploy - gamemodes/darkrp/entities/weapons/gmod_tool/shared.lua:331
+       6. unknown - gamemodes/darkrp/entities/weapons/gmod_tool/init.lua:69
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/19/2020 - 15:49:38: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:322: attempt to index a nil value
+
+L 07/19/2020 - 15:49:39: Lua Error: 
+[dash_3] Warning! A net message (nw.NilPlayerVar) is already started! Discarding in favor of the new message! (nw_DoorID)
+
+  1. _Send - addons/dash_3/lua/dash/libraries/nw.lua:154
+   2. SetNetVar - addons/dash_3/lua/dash/libraries/nw.lua:313
+    3. setupDoors - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:82
+     4. unknown - gamemodes/darkrp/gamemode/core/doors/init_sh.lua:94
+      5. include - [C]:-1
+       6. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+        7. Init - gamemodes/darkrp/gamemode/sh_init.lua:107
+         8. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+          9. include - [C]:-1
+           10. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/19/2020 - 15:50:18: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:22
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 15:50:27: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:322: attempt to index a nil value
+
+L 07/19/2020 - 15:50:30: Lua Error: 
+[badmin_2] Warning! A net message (nw.NilPlayerVar) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/19/2020 - 16:08:46: "eLeCtrOssSnake<5><STEAM_0:1:164666257><>" disconnected (reason "Disconnect by user.")
+L 07/19/2020 - 16:24:39: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+
+L 07/19/2020 - 16:32:57: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37: attempt to index global 'args' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 16:33:02: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37: attempt to index global 'args' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 16:33:05: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37: attempt to index global 'args' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 16:33:41: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37: attempt to call field 'SetHat' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 16:33:42: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37: attempt to call field 'SetHat' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 16:34:06: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37: attempt to call field 'SetHat' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:37
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 16:35:49: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+
+L 07/19/2020 - 16:36:43: Lua Error: addons/dash_3/lua/dash/libraries/nw.lua:313: attempt to index a nil value
+
+L 07/19/2020 - 16:43:01: Lua Error: gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:8: attempt to index global 'pl' (a nil value)
+
+L 07/19/2020 - 16:50:15: Lua Error: gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:13: attempt to index global 'apparel' (a nil value)
+
+L 07/19/2020 - 16:50:16: Lua Error: gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:13: attempt to index global 'apparel' (a nil value)
+
+L 07/19/2020 - 17:00:18: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:60: attempt to call global 'LocalPlayer' (a nil value)
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:60
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 17:00:51: Lua Error: 
+[dash_3] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:60
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 17:01:12: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:65: attempt to index a nil value
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:65
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 17:01:29: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:64: attempt to index a nil value
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:64
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 17:01:50: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:65: attempt to index a nil value
+  1. Run - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_sv.lua:65
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35: attempt to index field '_Counts' (a nil value)
+  1. OnRemoveCount - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:35
+   2. v - gamemodes/darkrp/gamemode/core/sandbox/player_extension_sv.lua:62
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/19/2020 - 17:10:39: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/19/2020 - 17:10:39: server_message: "quit"
+L 07/19/2020 - 17:10:39: Log file closed.

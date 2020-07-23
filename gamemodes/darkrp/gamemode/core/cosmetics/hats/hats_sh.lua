@@ -93,7 +93,7 @@ hook('rp.AddUpgrades', 'rp.Cosmetics.Hats', function()
 				rp.data.AddApparel(pl, v.UID, function()
 					if IsValid(pl) then
 						pl:AddOwnedApparel(v.UID)
-						pl:AddApparel(v)
+						pl:AddApparel(v.UID)
 					end
 				end)
 			end)

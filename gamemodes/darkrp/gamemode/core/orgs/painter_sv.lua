@@ -1,4 +1,4 @@
-/*util.AddNetworkString('rp.SetOrgBanner')
+util.AddNetworkString('rp.SetOrgBanner')
 util.AddNetworkString('rp.OrgBannerRaw')
 util.AddNetworkString('rp.OrgBannerReceived')
 util.AddNetworkString('rp.OrgBannerInvalidate')
@@ -6,46 +6,44 @@ util.AddNetworkString('rp.OrgBannerInvalidate')
 local db = rp._Stats
 
 net('rp.OrgBannerRaw', function(len, pl)
-  if (!pl:GetOrg() or !pl:GetOrgData().Perms.Banner) then return end
-  if (!pl:HasUpgrade('org_prem')) then
-    net.Start('rp.OrgBannerRaw')
-      net.WriteBool(false)
-    net.Send(pl)
-    return
-  end
-
-  db:Query('SELECT * FROM org_banner WHERE Org = ?;', pl:GetOrg(), function(data)
-    if data[1] and data[1].Data != '' then
-      local banner = util.JSONToTable(data[1].Data)
-
-      net.Start('rp.OrgBannerRaw')
-        net.WriteBool(true)
-        net.WriteUInt(#banner, 7)
-    		for i=0,#banner do
-    			for k=0,#banner do
-    				net.WriteBool(banner[i][k].trans)
-    				if (!banner[i][k].trans) then
-              local col = Color(banner[i][k].col.r, banner[i][k].col.g, banner[i][k].col.b, banner[i][k].col.a)
-    					net.WriteUInt(col:ToEncodedRGB(), 24)
-    				end
-    			end
-    		end
-      net.Send(pl)
-    else
-      net.Start('rp.OrgBannerRaw')
-        net.WriteBool(false)
-      net.Send(pl)
+    if not pl:GetOrg() or not pl:HasOrgPerm('Banner') then return end
+    if (not pl:IsOrgUpg()) then
+        net.Start('rp.OrgBannerRaw')
+          net.WriteBool(false)
+        net.Send(pl)
+        return
     end
-  end)
 
+    db:Query('SELECT * FROM orgs WHERE UID = ?;', pl:GetOrgUID(), function(data)
+        if data[1] and data[1].BannerData != '' then
+          local banner = util.JSONToTable(data[1].BannerData)
+
+          net.Start('rp.OrgBannerRaw')
+            net.WriteBool(true)
+            net.WriteUInt(#banner, 7)
+        		for i=0,#banner do
+        			for k=0,#banner do
+        				net.WriteBool(banner[i][k].trans)
+        				if (!banner[i][k].trans) then
+                  local col = Color(banner[i][k].col.r, banner[i][k].col.g, banner[i][k].col.b, banner[i][k].col.a)
+        					net.WriteUInt(col:ToEncodedRGB(), 24)
+        				end
+        			end
+        		end
+          net.Send(pl)
+        else
+          net.Start('rp.OrgBannerRaw')
+            net.WriteBool(false)
+          net.Send(pl)
+        end
+    end)
 end)
 
 net('rp.SetOrgBanner', function(len, pl)
-	if (!pl:GetOrg() or !pl:GetOrgData().Perms.Banner) then return end
-	if (!pl:HasUpgrade('org_prem')) then return end
+    if not pl:GetOrg() or not pl:HasOrgPerm('Banner') then return end
+	if (!pl:IsOrgUpg()) then return end
 
 	local data = {}
-
 	local dim = net.ReadUInt(7)
 
 	for i=0, dim do
@@ -94,11 +92,12 @@ net('rp.SetOrgBanner', function(len, pl)
 		end
 	net.Send(pl)
 
-	db:Query('REPLACE INTO org_banner (Org, Time, Data) VALUES(?, ?, ?);', pl:GetOrg(), os.time(), dataJson, function()
+	db:Query('UPDATE orgs SET BannerData=? WHERE UID=?;', dataJson, pl:GetOrgUID(), function()
 
 		net.Start('rp.OrgBannerInvalidate')
 			net.WriteString(pl:GetOrg())
 		net.Broadcast()
+        rp.orgs.Log(pl:GetOrgUID(), "изменил логотип банды", pl)
 
 	end)
 end)

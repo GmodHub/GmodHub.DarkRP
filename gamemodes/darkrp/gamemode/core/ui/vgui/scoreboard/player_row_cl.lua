@@ -18,10 +18,10 @@ function PANEL:Init()
 		self.Player:Block(!self.Player:IsBlocked())
 		if !self.Player:IsBlocked() then
 			self.Mute:SetMaterial(micon)
-			LocalPlayer():ChatPrint(self.Player:Name() .. ' has been unblocked for you.')
+			LocalPlayer():ChatPrint(self.Player:Name() .. ' был разблокирован для вас.')
 		else
 			self.Mute:SetMaterial(micoff)
-			LocalPlayer():ChatPrint(self.Player:Name() .. ' has been blocked for you.')
+			LocalPlayer():ChatPrint(self.Player:Name() .. ' был заблокирован для вас.')
 		end
 	end
 

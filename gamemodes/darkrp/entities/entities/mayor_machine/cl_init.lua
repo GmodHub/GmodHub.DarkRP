@@ -141,7 +141,6 @@ function ENT:Draw()
 end
 
 function ENT:PlayerUse()
-	print("ENT:PlayerUse()")
 	if (LocalPlayer():IsMayor()) then
 		local mx, my = getCursorPos()
 

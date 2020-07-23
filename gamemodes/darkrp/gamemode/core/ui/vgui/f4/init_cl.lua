@@ -42,11 +42,11 @@ function rp.ToggleF4Menu(openCs)
 		return ui.Create 'rp_skillslist'
 	end):SetIcon 'gmh/hud/karma.png'
 
-//	local hatTab
-	//fr.tabs:AddTab('Apparel', function(self)
-	//	hatTab = ui.Create 'rp_hatspanel'
-	//	return hatTab
-	//end):SetIcon 'gmh/gui/f4/f4_hats.png'
+	local hatTab
+	fr.tabs:AddTab('Одежда', function(self)
+		hatTab = ui.Create 'rp_hatspanel'
+		return hatTab
+	end):SetIcon 'gmh/gui/f4/f4_hats.png'
 
 	hook.Call('PopulateF4Tabs', GAMEMODE, fr.tabs, fr) -- todo, remove
 
@@ -65,16 +65,16 @@ function rp.ToggleF4Menu(openCs)
 	if (not openCs) then -- hack
 		fr.tabs:SetActiveTab(id)
 	else
-		fr.tabs:SetActiveTab(8)
+		fr.tabs:SetActiveTab(9)
 	end
 
 	if IsValid(csTab) then
 		csTab:AddControls(fr)
 	end
 
-	//if IsValid(hatTab) then
-	//	hatTab:AddControls(fr)
-	//end
+	if IsValid(hatTab) then
+		hatTab:AddControls(fr)
+	end
 
 	function fr.tabs:TabChanged(tab)
 		if IsValid(fr) then
@@ -86,13 +86,13 @@ function rp.ToggleF4Menu(openCs)
 				end
 			end
 
-		//	if IsValid(hatTab) then
-			//	if (tab ~= hatTab) then
-			//		hatTab:HideControls()
-			//	else
-			//		hatTab:AddControls(fr)
-			//	end
-			//end
+			if IsValid(hatTab) then
+				if (tab ~= hatTab) then
+					hatTab:HideControls()
+				else
+					hatTab:AddControls(fr)
+				end
+			end
 
 			hook.Call('F4TabChanged', nil, tab)
 		end

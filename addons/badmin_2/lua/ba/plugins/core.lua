@@ -1,7 +1,7 @@
 -------------------------------------------------
 -- Setid
 -------------------------------------------------
-term.Add('SerevrIDSet', 'Server ID set to #')
+term.Add('SerevrIDSet', 'Server ID изменён на #')
 
 ba.AddCommand('SetID', function(pl, id)
 	ba.svar.Set('sv_id', id)
@@ -14,7 +14,7 @@ end)
 -------------------------------------------------
 -- Set Group
 -------------------------------------------------
-term.Add('SetRank', '# has set #\'s rank to # #')
+term.Add('SetRank', '# изменил ранг # на # #')
 
 ba.AddCommand('SetGroup', function(pl, targ, rank, time, expirerank)
 	if time and (not expirerank) then
@@ -50,8 +50,8 @@ end)
 -------------------------------------------------
 -- Adminmode
 -------------------------------------------------
-term.Add('EnterAdminmode', '# is now administrating.')
-term.Add('ExitAdminmode', '# is no longer administrating.')
+term.Add('EnterAdminmode', '# теперь в режиме администрирования.')
+term.Add('ExitAdminmode', '# больше не в режиме администрирования.')
 
 ba.AddCommand('AdminMode', function(pl)
 	if pl:HasFlag('M') then

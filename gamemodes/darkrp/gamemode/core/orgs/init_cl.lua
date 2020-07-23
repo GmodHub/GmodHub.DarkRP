@@ -557,9 +557,9 @@ net('rp.OrgsMenu', function()
 		elseif (time < 3600) then
 			return 'меньше часа назад'
 		elseif (time < 172800) then
-			return math.floor(time / 3600) .. ' часов назад'
+			return math.floor(time / 3600) .. ' ч. назад'
 		else
-			return math.floor(time / 86400) .. ' дней назад'
+			return math.floor(time / 86400) .. ' д. назад'
 		end
 	end
 
@@ -813,7 +813,7 @@ net('rp.OrgsMenu', function()
 						txt.DoClick = function(s, err)
 							ui.StringRequest('Rank Name', (err or '') .. ' What would you like to name this rank?', '', function(resp)
 								resp = string.Trim(resp or '')
-								if (#resp == 0) then
+								if (utf8.len(resp) == 0) then
 									s:DoClick(term.GetString(term.Get('OrgRankNameLength')))
 								elseif (orgrankref[resp] != nil) then
 									s:DoClick(term.GetString(term.Get('OrgRankNameTaken')))
@@ -858,16 +858,15 @@ net('rp.OrgsMenu', function()
 						fr.overRankNew:AddItem(chk)
 					end)
 
-					local chkBanner
-					if (upgraded) then
-						local chkBanner = ui.Create('DCheckBoxLabel', function(chk)
-							chk:SetText("Может Менять Лого")
-							chk:SetTextColor(rp.col.Black)
-							chk:Dock(TOP)
+					local chkBanner = ui.Create('DCheckBoxLabel', function(chk)
+						chk:SetText("Может Менять Лого")
+						chk:SetTextColor(rp.col.Black)
+						chk:Dock(TOP)
 
+						if (upgraded) then
 							fr.overRankNew:AddItem(chk)
-						end)
-					end
+						end
+					end)
 
 					local chkWithdraw = ui.Create('DCheckBoxLabel', function(chk)
 						chk:SetText("Может Снимать Деньги")
@@ -1641,7 +1640,7 @@ net("rp.OrgLog", function()
 
 		for k, v in ipairs(data) do
 
-			local b = self:AddRow(os.date("[%H:%M:%S - %m/%d/%Y] ", v.Time) .. v.Log)
+			local b = self:AddRow(os.date("[%H:%M:%S - %d/%m/%Y] ", v.Time) .. v.Log)
 			b:SetContentAlignment(4)
 			b:SetTextInset(5, 0)
 			b.DoClick = function(s)
@@ -1667,7 +1666,7 @@ hook('F4TabChanged', function(tab)
 end)
 
 hook('PopulateF4Tabs', function(frs, f4fr)
-	/*frs:AddTab('Банды', function(self)
+	frs:AddTab('Банды', function(self)
 		head = f4fr
 
 		cont = ui.Create 'DPanel'
@@ -1681,10 +1680,10 @@ hook('PopulateF4Tabs', function(frs, f4fr)
 			end
 		end
 
-		//net.Ping("rp.OrgsMenu")
+		net.Ping("rp.OrgsMenu")
 
 		return cont
-	end):SetIcon 'gmh/gui/f4/f4_orgs.png'*/
+	end):SetIcon 'gmh/gui/f4/f4_orgs.png'
 end)
 
 function rp.orgs.GetBanner(orgName)

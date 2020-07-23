@@ -110580,3 +110580,1018 @@ eLeCtrOssSnake|50|STEAM_0:1:164666257
 
 
 
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:582
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. DoAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:926
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:527
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917: attempt to index local 'fillData' (a nil value)
+  1. GetAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:917
+   2. DoAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:926
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:527
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] lua/includes/modules/utf8.lua:28: attempt to get length of local 'str' (a userdata value)
+  1. strRelToAbs - lua/includes/modules/utf8.lua:28
+   2. len - lua/includes/modules/utf8.lua:208
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:529
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879: attempt to call field 'lower' (a nil value)
+  1. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879: attempt to call field 'lower' (a nil value)
+  1. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879: attempt to call field 'lower' (a nil value)
+  1. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879: attempt to call field 'lower' (a nil value)
+  1. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|53|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879: attempt to call field 'lower' (a nil value)
+  1. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+   2. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:29: attempt to index global 'VK_Reward' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:29
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:29: attempt to index global 'VK_Reward' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:29
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15: attempt to index global 'VK_Reward' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15: attempt to index global 'VK_Reward' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15: attempt to index local 'VK_Reward' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15: attempt to index local 'VK_Reward' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/modules/rewards/vk_cl.lua:15
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] addons/badmin_2/lua/ba/modules/rewards/init_cl.lua:197: '<eof>' expected near 'end'
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:229: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. SelectHat - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:229
+    3. DoClick - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:368
+     4. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|3|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:229: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. SelectHat - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:229
+    3. DoClick - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:368
+     4. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|3|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|3|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|4|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|4|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|6|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|7|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337: attempt to index a nil value
+  1. AddHats - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:337
+   2. unknown - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:437
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:76: attempt to call method 'GetOutfit' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:76
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89: attempt to index a nil value
+  1. unknown - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/cosmetics.lua:2972: ')' expected (to close '(' at line 2966) near 'rp'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:110
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89: attempt to index a nil value
+  1. unknown - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/cosmetics.lua:2972: ')' expected (to close '(' at line 2966) near 'rp'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:110
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89: attempt to index a nil value
+  1. unknown - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/cosmetics.lua:2972: ')' expected (to close '(' at line 2966) near 'rp'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:110
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:8: attempt to index global 'wmat' (a nil value)
+  1. loadmat - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:8
+   2. SetOutfit - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:60
+    3. SetOutfit - gamemodes/darkrp/gamemode/core/ui/controls/playerpreview_cl.lua:91
+     4. DoClick - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:180
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89: attempt to index a nil value
+  1. unknown - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:89
+   2. unknown - lua/includes/modules/concommand.lua:54
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:8: attempt to index global 'wmat' (a nil value)
+  1. loadmat - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:8
+   2. SetOutfit - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:60
+    3. SetOutfit - gamemodes/darkrp/gamemode/core/ui/controls/playerpreview_cl.lua:91
+     4. DoClick - gamemodes/darkrp/gamemode/core/cosmetics/clothing/init_cl.lua:180
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1687: unexpected symbol near '*'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[dash_3] addons/dash_3/lua/dash/extensions/net.lua:132: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. Ping - addons/dash_3/lua/dash/extensions/net.lua:132
+    3. callback - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1684
+     4. LayoutTab - addons/badmin_2/lua/ui/controls/tablist.lua:97
+      5. func - addons/badmin_2/lua/ui/controls/tablist.lua:90
+       6. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+        7. unknown - lua/vgui/dlabel.lua:237
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/upgrades.lua:25: ')' expected (to close '(' at line 24) near 'return'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/upgrades.lua:25: ')' expected (to close '(' at line 24) near 'return'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/upgrades.lua:25: ')' expected (to close '(' at line 24) near 'return'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|5|STEAM_0:1:74202541
+
+[DarkRP] gamemodes/darkrp/gamemode/cfg/upgrades.lua:25: ')' expected (to close '(' at line 24) near 'return'
+  1. Init - gamemodes/darkrp/gamemode/sh_init.lua:113
+   2. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+    3. include - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+DidVaitel|9|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424: attempt to index field 'Upgrade' (a nil value)
+  1. AddUpgrades - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424
+   2. func - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:624
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|10|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424: attempt to index field 'Upgrade' (a nil value)
+  1. AddUpgrades - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424
+   2. func - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:624
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|11|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424: attempt to index field 'Upgrade' (a nil value)
+  1. AddUpgrades - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424
+   2. func - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:624
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|12|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424: attempt to index field 'Upgrade' (a nil value)
+  1. AddUpgrades - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424
+   2. func - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:624
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|13|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424: attempt to index field 'Upgrade' (a nil value)
+  1. AddUpgrades - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424
+   2. func - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:624
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|15|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424: attempt to index field 'Upgrade' (a nil value)
+  1. AddUpgrades - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:424
+   2. func - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:624
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|3|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:198: attempt to index a nil value
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:198
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|3|STEAM_0:1:74202541
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:198: attempt to index a nil value
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:198
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|8|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/anticrash.lua:21: attempt to call global 'StartAutoconect' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:21
+
+
+
+DidVaitel|8|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/anticrash.lua:21: attempt to call global 'StartAutoconect' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:21
+
+
+
+DidVaitel|8|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/plugins/anticrash.lua:21: attempt to call global 'StartAutoconect' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:21
+
+
+
+DidVaitel|8|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_cl.lua:273: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. unknown - addons/badmin_2/lua/ba/core/logging/logs_cl.lua:273
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_cl.lua:32: attempt to index local 'term' (a nil value)
+  1. func - addons/badmin_2/lua/ba/core/logging/logs_cl.lua:32
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+DidVaitel|2|STEAM_0:1:74202541
+
+[badmin_2] addons/badmin_2/lua/ba/core/logging/logs_cl.lua:70: attempt to call method 'Name' (a nil value)
+  1. unknown - addons/badmin_2/lua/ba/core/logging/logs_cl.lua:70
+   2. gsub - [C]:-1
+    3. func - addons/badmin_2/lua/ba/core/logging/logs_cl.lua:61
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|18|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/net.lua:132: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. Ping - addons/dash_3/lua/dash/extensions/net.lua:132
+    3. OpenOrgBannerEditor - gamemodes/darkrp/gamemode/core/orgs/painter_cl.lua:85
+     4. DoClick - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:502
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|19|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1706: attempt to index local 'UID' (a nil value)
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1706
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. InfoBar - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:326
+     4. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1153
+
+
+
+COMPLΞX|20|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1706: attempt to index local 'UID' (a nil value)
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1706
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. InfoBar - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:326
+     4. unknown - gamemodes/darkrp/gamemode/core/hud/hud_cl.lua:1153
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701: table index is nil
+  1. LoadBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1701
+   2. GetBanner - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:1696
+    3. unknown - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:49
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[DarkRP] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:129: '}' expected (to close '{' at line 126) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[DarkRP] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:129: '}' expected (to close '{' at line 126) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:129: '}' expected (to close '{' at line 126) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+eLeCtrOssSnake|7|STEAM_0:1:164666257
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:129: '}' expected (to close '{' at line 126) near 'Rank'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|4|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:198: attempt to index a nil value
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_cl.lua:198
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30: attempt to index local 'skill' (a nil value)
+  1. CallSkillHook - gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptied.lua:33
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30: attempt to index local 'skill' (a nil value)
+  1. CallSkillHook - gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptied.lua:33
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30: attempt to index local 'skill' (a nil value)
+  1. CallSkillHook - gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptied.lua:33
+
+
+
+COMPLΞX|5|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30: attempt to index local 'skill' (a nil value)
+  1. CallSkillHook - gamemodes/darkrp/gamemode/core/player/skills/init_sh.lua:30
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptied.lua:33
+
+
+

@@ -7,7 +7,7 @@ function rp.data.LoadPlayer(pl, cback)
 
 		if IsValid(pl) then
 			if (#_data <= 0) then
-				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills) VALUES(?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '{}')
+				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills, ActiveApparel) VALUES(?, ?, ?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '{}', '{}')
 				pl:SetRPName(rp.names.Random(), true)
 			end
 
@@ -20,22 +20,55 @@ function rp.data.LoadPlayer(pl, cback)
 				pl:SetNetVar('Skills', skills)
 			end
 
-			/*db:Query('SELECT * FROM player_hats WHERE SteamID=' .. pl:SteamID64() .. ';', function(data)
+			db:Query('SELECT * FROM player_apparel WHERE SteamID=' .. pl:SteamID64() .. ';', function(data)
 				nw.WaitForPlayer(pl, function()
 					local HatData = {}
 					for k, v in ipairs(data) do
-						HatData[k] = v.Model
-						if (tonumber(v.Active) == 1) then
-							pl:SetHat(v.Model)
-						end
+						HatData[k] = v.UID
 					end
-				//	pl:SetNetVar('HatData', HatData)
+					pl:SetNetVar('OwnedApparel', HatData)
+					pl:SetNetVar('ActiveApparel', util.JSONToTable(_data[1].ActiveApparel))
 				end)
-			end)*/
+			end)
+
+			db:Query('SELECT * FROM org_player LEFT JOIN orgs ON org_player.Org = orgs.UID WHERE org_player.SteamID=' .. pl:SteamID64() .. ';', function(data)
+				local d = data[1]
+				if d then
+					d.OrgData = {}
+					db:Query('SELECT * FROM org_rank WHERE Org = "' .. d.Org .. '" AND RankName = "' .. d.Rank .. '";', function(data)
+						local _d = data[1]
+						if _d then
+							d.OrgData.Perms = _d
+							pl:SetOrg(d.Name, Color(255, 255, 255):SetHex(d.Color))
+							pl:SetOrgData({
+								UID = d.UID,
+								HasUpgrade = d.HasUpgrade,
+								Rank = d.Rank,
+								MoTD = {
+									Text = d.MoTD,
+									Dark = d.Dark
+								},
+								Perms = {
+									Weight = _d.Weight,
+									Owner = (_d.Weight == 100),
+									Invite = _d.Invite,
+									Kick = _d.Kick,
+									Rank = _d.Rank,
+									MoTD = _d.MoTD,
+									Banner = _d.Banner,
+									Withdraw = _d.Withdraw,
+								}
+							})
+						end
+					end)
+				end
+			end)
 
 			nw.WaitForPlayer(pl, function()
 				pl:SetNetVar('Money', data.Money or rp.cfg.StartMoney)
 				pl:SetNetVar('Karma', data.Karma or rp.cfg.StartKarma)
+				pl:SetNetVar('Credits', data.Credits or 0)
+				pl:ChatPrint('Вам доступно ' .. pl:GetCredits() .. ' кредитов.')
 
 				local succ, tbl = pcall(pon.decode, data.Pocket)
 				if (not istable(tbl)) then
@@ -88,28 +121,31 @@ function rp.data.SetKarma(pl, amount, cback)
 	end
 end
 
+function rp.data.SetCredits(steamid, amount, cback)
+	db:Query('UPDATE player_data SET Credits=? WHERE SteamID=' .. steamid .. ';', amount, cback)
+end
+
 function rp.data.SetPocket(steamid64, data, cback)
 	db:Query('UPDATE player_data SET Pocket=? WHERE SteamID=' .. steamid64 .. ';', data, cback)
 end
-/*
-function ba.data.SetHat(pl, mdl, cback)
-	local steamid = pl:SteamID64()
-	db:Query('UPDATE player_hats Set Active=0 WHERE SteamID=' .. steamid .. ';', function()
-		if (mdl ~= nil) then
-			db:Query('REPLACE INTO player_hats(SteamID, Model, Active) VALUES(?, ?, 1);', steamid, mdl, function() -- We assume you own it
-				if IsValid(pl) then
-					pl:SetHat(mdl)
-				end
-				if cback then cback() end
-			end)
-		else
+
+function rp.data.SaveActiveApparel(pl)
+	local steamid64 = pl:SteamID64()
+	local activeApparel = util.TableToJSON(pl:GetApparel())
+	db:Query('UPDATE player_data SET ActiveApparel=? WHERE SteamID=' .. steamid64 .. ';', activeApparel)
+end
+
+function rp.data.AddApparel(pl, uid, cback)
+	local steamid64 = pl:SteamID64()
+	if (uid ~= nil) then
+		db:Query('REPLACE INTO player_apparel(SteamID, UID) VALUES(?, ?);', steamid64, uid, function() -- We assume you own it
 			if IsValid(pl) then
-				pl:SetHat(nil)
+				pl:AddApparel(uid)
 			end
 			if cback then cback() end
-		end
-	end)
-end*/
+		end)
+	end
+end
 
 function rp.data.IsLoaded(pl)
 	if IsValid(pl) and (pl:GetVar('DataLoaded') ~= true) then
@@ -182,5 +218,20 @@ function PLAYER:AddKarma(amount, cback)
 end
 
 function PLAYER:TakeKarma(amount)
+	if (self:GetKarma() - amount) <= 0 then amount = self:GetKarma() end
 	self:AddKarma(-math.abs(amount))
+end
+
+function PLAYER:AddCredits(amount, note, cback)
+	self:SetNetVar('Credits', self:GetCredits() + amount)
+	rp.data.SetCredits(self:SteamID64(), self:GetCredits(), function()
+		if (cback) then cback() end
+	end)
+end
+
+function PLAYER:TakeCredits(amount, note, cback)
+	self:SetNetVar('Credits', self:GetCredits() - amount)
+	rp.data.SetCredits(self:SteamID64(), self:GetCredits(), function()
+		if (cback) then cback() end
+	end)
 end

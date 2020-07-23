@@ -1,0 +1,355 @@
+L 07/22/2020 - 06:29:17: Log file started (file "logs\L0722007.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/22/2020 - 06:29:17: server_cvar: "sv_password" "***PROTECTED***"
+L 07/22/2020 - 06:29:17: server_cvar: "sv_airaccelerate" "100"
+L 07/22/2020 - 06:29:18: Connection to Steam servers successful.
+L 07/22/2020 - 06:29:18:    Public IP is 31.130.42.26.
+L 07/22/2020 - 06:29:18: Assigned anonymous gameserver Steam ID [A-1:800581636(15206)].
+L 07/22/2020 - 06:29:19: VAC secure mode is activated.
+L 07/22/2020 - 06:29:26: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 06:29:27: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/22/2020 - 06:29:35: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/22/2020 - 07:34:29: Connection to Steam servers lost. (No internet connection)
+L 07/22/2020 - 07:34:30: Connection to Steam servers successful.
+L 07/22/2020 - 07:34:30:    Public IP is 31.130.42.26.
+L 07/22/2020 - 07:34:30: Assigned anonymous gameserver Steam ID [A-1:800581636(15206)].
+L 07/22/2020 - 07:34:31: VAC secure mode is activated.
+L 07/22/2020 - 17:15:14: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 17:23:16: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:39: attempt to index global 'vehicle' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:39
+   2. include - [C]:-1
+    3. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:89
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 17:23:28: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:40: attempt to index global 'vehicle' (a nil value)
+  1. unknown - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:40
+   2. include - [C]:-1
+    3. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+     4. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+      5. Init - gamemodes/darkrp/gamemode/sh_init.lua:89
+       6. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+        7. include - [C]:-1
+         8. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 17:24:33: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 17:24:34: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/22/2020 - 17:24:59: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/22/2020 - 17:27:29: "Bot01<4><BOT><>" connected, address "none"
+L 07/22/2020 - 17:27:29: "Bot01<4><BOT><>" entered the game
+L 07/22/2020 - 17:28:05: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:7: Tried to use a NULL entity!
+  1. SetAngles - [C]:-1
+   2. StartCarrying - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:7
+    3. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:53
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 17:28:38: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:8: Tried to use a NULL entity!
+  1. SetAngles - [C]:-1
+   2. StartCarrying - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:8
+    3. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:54
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 17:30:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:32: attempt to index global 'ent' (a nil value)
+  1. StartCarrying - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:32
+   2. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:56
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 17:30:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:32: attempt to index global 'ent' (a nil value)
+  1. StartCarrying - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:32
+   2. v - gamemodes/darkrp/gamemode/core/player/ziptie/ziptie_sv.lua:56
+    3. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/22/2020 - 17:31:12: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67: attempt to index field 'ZiptieTarget' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67
+
+
+L 07/22/2020 - 17:31:12: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67: attempt to index field 'ZiptieTarget' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67
+
+
+L 07/22/2020 - 17:31:14: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67: attempt to index field 'ZiptieTarget' (a nil value)
+  1. PrimaryAttack - gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:83
+
+
+L 07/22/2020 - 17:31:53: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67: attempt to index field 'ZiptieTarget' (a nil value)
+  1. PrimaryAttack - gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:67
+   2. unknown - gamemodes/darkrp/entities/weapons/weapon_ziptie_carrying.lua:83
+
+
+L 07/22/2020 - 17:31:58: "Bot02<5><BOT><>" connected, address "none"
+L 07/22/2020 - 17:31:58: "Bot02<5><BOT><>" entered the game
+L 07/22/2020 - 17:34:05: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 17:34:05: "Bot01<4><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 07/22/2020 - 17:34:05: "Bot02<5><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 07/22/2020 - 17:50:53: "COMPLΞX<6><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 17:50:54: "COMPLΞX<6><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 17:51:11: "COMPLΞX<6><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 17:52:55: "COMPLΞX<6><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 17:52:56: "COMPLΞX<7><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 17:52:56: "COMPLΞX<7><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 17:53:04: "COMPLΞX<7><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 17:55:07: "COMPLΞX<7><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 17:55:07: "COMPLΞX<8><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 17:55:08: "COMPLΞX<8><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 17:55:16: "COMPLΞX<8><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 17:58:42: "COMPLΞX<8><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 17:58:42: "COMPLΞX<9><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 17:58:43: "COMPLΞX<9><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 17:58:51: "COMPLΞX<9><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 18:02:05: "COMPLΞX<9><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 18:29:19: "Bot03<10><BOT><>" connected, address "none"
+L 07/22/2020 - 18:29:19: "Bot03<10><BOT><>" entered the game
+L 07/22/2020 - 18:29:37: "COMPLΞX<11><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 18:29:37: "COMPLΞX<11><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 18:29:50: "COMPLΞX<11><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 18:29:50: Lua Error: gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:34: attempt to concatenate global 'steamid' (a nil value)
+
+L 07/22/2020 - 18:31:09: "COMPLΞX<11><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 18:31:09: "Bot03<10><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 07/22/2020 - 18:31:10: "COMPLΞX<12><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 18:31:10: "COMPLΞX<12><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 18:31:21: "COMPLΞX<12><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 18:33:28: "COMPLΞX<12><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 18:33:28: "COMPLΞX<13><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 18:33:29: "COMPLΞX<13><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 18:33:40: "COMPLΞX<13><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 18:34:48: "COMPLΞX<13><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 18:34:49: "COMPLΞX<14><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 18:34:50: "COMPLΞX<14><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 18:35:01: "COMPLΞX<14><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 18:35:01: Lua Error: gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:38: attempt to concatenate field 'uid' (a nil value)
+
+L 07/22/2020 - 18:52:09: "COMPLΞX<14><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 18:52:10: "COMPLΞX<15><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 18:52:10: "COMPLΞX<15><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 18:52:21: "COMPLΞX<15><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 18:59:38: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/player/data/data_sv.lua:53: '}' expected (to close '{' at line 50) near 'Invite'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:51
+    3. Init - gamemodes/darkrp/gamemode/sh_init.lua:89
+     4. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+      5. include - [C]:-1
+       6. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 19:00:58: "COMPLΞX<15><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 19:00:59: "COMPLΞX<16><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 19:01:00: "COMPLΞX<16><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 19:01:10: "COMPLΞX<16><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 19:11:35: "COMPLΞX<16><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 19:11:35: "COMPLΞX<17><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 19:11:36: "COMPLΞX<17><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 19:11:46: "COMPLΞX<17><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 19:15:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:53: attempt to index local 'org' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:53
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:99
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 19:15:42: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 19:27:43: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:79: bad argument #1 to 'WriteUInt' (number expected, got nil)
+
+L 07/22/2020 - 19:27:44: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 19:28:13: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:79: bad argument #1 to 'WriteUInt' (number expected, got nil)
+
+L 07/22/2020 - 19:28:14: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 19:28:25: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:50: unexpected symbol near ']'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 21:27:02: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:114: unexpected symbol near 'then'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 21:27:03: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:114: unexpected symbol near 'then'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 21:28:56: "COMPLΞX<17><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 21:28:57: "COMPLΞX<18><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 21:28:57: "COMPLΞX<18><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 21:29:08: "COMPLΞX<18><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 21:51:30: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:184: unexpected symbol near ')'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 21:51:31: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:184: unexpected symbol near ')'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 21:52:29: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:184: attempt to concatenate global 'oldname' (a nil value)
+
+L 07/22/2020 - 21:55:23: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:142: attempt to concatenate upvalue 'color' (a table value)
+
+L 07/22/2020 - 22:04:21: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:205: attempt to index a nil value
+  1. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:205
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 22:06:05: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:213: attempt to index a nil value
+
+L 07/22/2020 - 22:23:44: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:288: unexpected symbol near ','
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 22:23:44: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:288: unexpected symbol near ','
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 22:23:50: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:287: unexpected symbol near ','
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 22:23:50: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:287: unexpected symbol near ','
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/22/2020 - 22:32:47: Lua Error: 
+[ERROR] lua/includes/modules/utf8.lua:28: attempt to get length of local 'str' (a nil value)
+  1. strRelToAbs - lua/includes/modules/utf8.lua:28
+   2. len - lua/includes/modules/utf8.lua:208
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:335
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 22:33:04: Lua Error: 
+[ERROR] lua/includes/modules/utf8.lua:28: attempt to get length of local 'str' (a nil value)
+  1. strRelToAbs - lua/includes/modules/utf8.lua:28
+   2. len - lua/includes/modules/utf8.lua:208
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:335
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 22:33:11: Lua Error: 
+[ERROR] lua/includes/modules/utf8.lua:28: attempt to get length of local 'str' (a nil value)
+  1. strRelToAbs - lua/includes/modules/utf8.lua:28
+   2. len - lua/includes/modules/utf8.lua:208
+    3. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:335
+     4. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 23:04:38: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 23:11:07: "COMPLΞX<18><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 23:11:08: "COMPLΞX<19><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 23:11:08: "COMPLΞX<19><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 23:11:22: "COMPLΞX<19><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 23:11:22: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:115: bad argument #1 to 'WriteUInt' (number expected, got boolean)
+
+L 07/22/2020 - 23:11:23: Lua Error: 
+[badmin_2] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/22/2020 - 23:11:28: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:115: bad argument #1 to 'WriteUInt' (number expected, got boolean)
+  1. WriteUInt - [C]:-1
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sh.lua:115
+    3. WriteFunc - addons/dash_3/lua/dash/libraries/nw.lua:109
+     4. _Write - addons/dash_3/lua/dash/libraries/nw.lua:183
+      5. _Send - addons/dash_3/lua/dash/libraries/nw.lua:155
+       6. func - addons/dash_3/lua/dash/libraries/nw.lua:248
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 23:11:28: Lua Error: 
+[dash_3] Warning! A net message (nw_OrgData) is already started! Discarding in favor of the new message! (cvar.RequestEncryptionKey)
+
+  1. func - addons/dash_3/lua/dash/libraries/cvar.lua:21
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/22/2020 - 23:12:33: "COMPLΞX<19><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/22/2020 - 23:12:33: "COMPLΞX<20><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/22/2020 - 23:12:34: "COMPLΞX<20><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/22/2020 - 23:12:46: "COMPLΞX<20><STEAM_0:0:105635721><>" entered the game
+L 07/22/2020 - 23:18:10: "COMPLΞX<20><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/22/2020 - 23:18:10: server_message: "quit"
+L 07/22/2020 - 23:18:10: Log file closed.

@@ -167,7 +167,7 @@ vgui.Register('ui_reward_panel', PANEL, 'Panel')
 
 
 hook.Add('ba.GetLoadInElements', 'ba.rewards.LoadIn', function(self)
-	http.Fetch('https://gmod-api.superiorservers.co/api/rewards/' .. LocalPlayer():SteamID64(), function(body)
+	/*http.Fetch('https://gmod-api.superiorservers.co/api/rewards/' .. LocalPlayer():SteamID64(), function(body)
 		local data = util.JSONToTable(body)
 		if data then
 			paneldata = data
@@ -193,5 +193,5 @@ hook.Add('ba.GetLoadInElements', 'ba.rewards.LoadIn', function(self)
 		end
 	end, function(error)
 		print(error)
-	end)
+	end)*/
 end)

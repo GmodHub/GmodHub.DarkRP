@@ -1,4 +1,4 @@
-/*ba.logs = ba.logs or {
+ba.logs = ba.logs or {
 	Stored 			= {},
 	Maping 			= {},
 	Data 			= {},
@@ -94,7 +94,7 @@ function ba.logs.GetSaves()
 	for k, v in ipairs(files) do
 		files[k] = {
 			Name = string.StripExtension(v),
-			Date = os.date('[ %m/%d/%Y - %I:%M:%S] ', file.Time('badmin/logs/' .. v, 'DATA'))
+			Date = os.date('[ %d/%m/%Y - %I:%M:%S] ', file.Time('badmin/logs/' .. v, 'DATA'))
 		}
 	end
 	return files
@@ -185,7 +185,7 @@ ba.logs.AddTerm('Disconnect', '#(#) disconnected', {
 	'SteamID'
 })
 
-ba.logs.Create 'Connections'
+ba.logs.Create 'Подключения'
 	:Hook('PlayerInitialSpawn', function(self, pl)
 		self:PlayerLog(pl, term('Connect'), pl:Name(), pl:SteamID())
 	end)
@@ -219,7 +219,7 @@ ba.logs.AddTerm('RunCommand', '#(#) ran # #"', {
 	'Command'
 })
 
-ba.logs.Create 'Commands'
+ba.logs.Create 'Команды'
 	:Hook('cmd.OnCommandRun', function(self, pl, cmdobj, args)
 		if isplayer(pl) and (cmdobj:GetConCommand() == 'ba') then
 			args = cmdobj:GetPreventSendArgs() and "" or concatargs(args)
@@ -227,12 +227,12 @@ ba.logs.Create 'Commands'
 		end
 	end)
 
-ba.logs.AddTerm('Chat', '#(#) said "#"', {
+ba.logs.AddTerm('Chat', '#(#) say "#"', {
 	'Name',
 	'SteamID'
 })
 
-ba.logs.Create 'Chat'
+ba.logs.Create 'Чат'
 	:Hook('PlayerSay', function(self, pl, text)
 		if (text ~= '') and (text[1] ~= '!') and (text[1] ~= '/') then
 			self:PlayerLog(pl, term('Chat'), pl:Name(), pl:SteamID(), text)

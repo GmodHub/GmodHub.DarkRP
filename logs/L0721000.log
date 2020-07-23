@@ -1,0 +1,189 @@
+L 07/21/2020 - 18:12:15: Log file started (file "logs\L0721000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/21/2020 - 18:12:15: server_cvar: "sv_password" "***PROTECTED***"
+L 07/21/2020 - 18:12:15: server_cvar: "sv_airaccelerate" "100"
+L 07/21/2020 - 18:12:16: Connection to Steam servers successful.
+L 07/21/2020 - 18:12:16:    Public IP is 31.130.42.26.
+L 07/21/2020 - 18:12:16: Assigned anonymous gameserver Steam ID [A-1:3984177160(15202)].
+L 07/21/2020 - 18:12:16: VAC secure mode is activated.
+L 07/21/2020 - 18:12:22: "DidVaitel<2><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 18:12:22: "DidVaitel<2><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 18:12:44: "DidVaitel<2><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 18:12:44: Lua Error: addons/dash_3/lua/dash/extensions/color.lua:28: bad argument #1 to 'string_match' (string expected, got nil)
+
+L 07/21/2020 - 18:13:23: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:141: attempt to call local 'callback' (a table value)
+
+L 07/21/2020 - 18:15:35: Lua Error: gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:142: attempt to call local 'callback' (a table value)
+
+L 07/21/2020 - 18:16:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:142: unexpected symbol near 'then'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 18:16:00: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:142: unexpected symbol near 'then'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:91
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/21/2020 - 18:19:29: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:51: attempt to call method 'IsUpgraded' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:51
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:88
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 18:19:31: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 18:45:13: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:52: attempt to call method 'IsUpgraded' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:52
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:89
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 18:45:17: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 18:46:31: "DidVaitel<2><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 18:46:32: "DidVaitel<3><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 18:46:33: "DidVaitel<3><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 18:46:40: "DidVaitel<3><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 19:12:53: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:316: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. Run - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:316
+    3. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+     4. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:33:04: Lua Error: gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32: attempt to index a nil value
+
+L 07/21/2020 - 19:33:07: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32: attempt to index a nil value
+  1. GetOrgUID - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32
+   2. Run - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:319
+    3. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+     4. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:33:08: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32: attempt to index a nil value
+  1. GetOrgUID - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32
+   2. Run - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:319
+    3. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+     4. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+      5. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:35:18: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32: attempt to index a nil value
+  1. GetOrgUID - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:32
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:167
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:35:23: "DidVaitel<3><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 19:35:24: "DidVaitel<4><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 19:35:24: "DidVaitel<4><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 19:35:32: "DidVaitel<4><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 19:36:44: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:95: attempt to index local 'org' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:95
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:132
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:36:47: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 19:56:56: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:95: attempt to index local 'org' (a nil value)
+  1. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:95
+   2. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:132
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:56:57: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 19:57:13: Lua Error: 
+[ERROR] lua/includes/extensions/table.lua:693: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. GetKeys - lua/includes/extensions/table.lua:693
+    3. PrintTable - lua/includes/util.lua:63
+     4. OpenOrgMenu - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:91
+      5. func - gamemodes/darkrp/gamemode/core/orgs/init_sv.lua:132
+       6. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/21/2020 - 19:57:18: Lua Error: 
+[badmin_2] Warning! A net message (rp.OrgsMenu) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/21/2020 - 21:18:44: "DidVaitel<4><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 21:18:45: "DidVaitel<5><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 21:18:45: "DidVaitel<5><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 21:18:53: "DidVaitel<5><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 21:18:53: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196: attempt to concatenate global 'steamid' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/21/2020 - 21:19:06: "DidVaitel<5><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 21:19:07: "DidVaitel<6><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 21:19:07: "DidVaitel<6><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 21:19:15: "DidVaitel<6><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 21:19:15: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196: attempt to concatenate global 'steamid' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/21/2020 - 21:20:13: "DidVaitel<6><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 21:20:14: "DidVaitel<7><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 21:20:14: "DidVaitel<7><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 21:20:22: "DidVaitel<7><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 21:20:22: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196: attempt to concatenate global 'steamid' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/21/2020 - 21:20:42: "DidVaitel<7><STEAM_0:1:74202541><>" disconnected (reason "Disconnect by user.")
+L 07/21/2020 - 21:20:43: "DidVaitel<8><STEAM_0:1:74202541><>" connected, address "26.162.207.202:27006"
+L 07/21/2020 - 21:20:43: "DidVaitel<8><STEAM_0:1:74202541><>" STEAM USERID validated
+L 07/21/2020 - 21:20:51: "DidVaitel<8><STEAM_0:1:74202541><>" entered the game
+L 07/21/2020 - 21:20:51: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196: attempt to concatenate global 'steamid' (a nil value)
+  1. v - gamemodes/darkrp/gamemode/core/orgs/orgsql_sv.lua:196
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/21/2020 - 21:26:32: "DidVaitel<8><STEAM_0:1:74202541><>" disconnected (reason "Server shutting down")
+L 07/21/2020 - 21:26:32: server_message: "quit"
+L 07/21/2020 - 21:26:32: Log file closed.

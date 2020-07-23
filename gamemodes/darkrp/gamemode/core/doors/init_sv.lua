@@ -10,15 +10,13 @@ function ENTITY:DoorLock(locked)
 end
 
 function ENTITY:OwnProperty(pl)
-
 	nw.SetGlobal(self:GetPropertyNetworkID(), {Owner = pl, Title = self:GetPropertyName(), OrgOwn = false, CoOwners = {}})
-	pl:SetVar('PropertyOwned', true)
-
+	pl:SetVar('PropertyOwned', self:EntIndex())
 end
 
 function ENTITY:UnOwnProperty(pl)
 	if pl:GetVar('PropertyOwned') then
-		pl:SetVar('PropertyOwned', false)
+		pl:SetVar('PropertyOwned', nil)
 	end
 
 	self:DoorLock(false)
@@ -88,7 +86,7 @@ rp.AddCommand('buyproperty', function(pl, text, args)
 
 	if IsValid(ent) and ent:IsDoor() and ent:IsPropertyOwnable() and (ent:GetPos():DistToSqr(pl:GetPos()) < 13225) then
 		pl:TakeMoney(cost)
-		rp.Notify(pl, NOTIFY_SUCCESS, term.Get('PropertyBought'), ent:GetPropertyName(), rp.FormatMoney(cost), 30)
+		rp.Notify(pl, NOTIFY_SUCCESS, term.Get('PropertyBought'), ent:GetPropertyName(), rp.FormatMoney(cost), 0)
 		ent:OwnProperty(pl)
 	end
 

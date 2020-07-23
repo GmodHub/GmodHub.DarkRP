@@ -1,14 +1,14 @@
 util.AddNetworkString('ba.rewards.Claim')
 
 local db = ba.data.GetDB()
-
+/*
 net("ba.rewards.Claim", function(len, ply)
 	local claimtype = net.ReadString()
 
 	if claimtype == 'award_steam' then
-		db:query("SELECT * FROM steamgroupawards WHERE SteamID64='" .. pl:SteamID64() .. "';", function(data)
-			if data[1] and (tonumber(data[1].InSteamGroup) == 1 and tonumber(data[1].AwardGiven) == 0) then
-				db:query("UPDATE steamgroupawards SET AwardGiven=1 WHERE SteamID64='" .. pl:SteamID64() .. "';", function()
+		db:Query("SELECT * FROM steamgroupawards WHERE SteamID64='" .. pl:SteamID64() .. "';", function(data)
+			if not data[1] then
+				db:Query("UPDATE steamgroupawards SET Reward='award_steam' WHERE SteamID64='" .. pl:SteamID64() .. "';", function()
 					hook.Call('PlayerJoinSteamGroup', GAMEMODE, pl)
 				end);
 			end
@@ -17,6 +17,11 @@ net("ba.rewards.Claim", function(len, ply)
 end)
 
 hook.Add('PlayerJoinSteamGroup', function(pl)
-	pl:AddCredits(300, 'Steam group join')
-	ba.notify_all(ba.Term('PlayerJoinedSteamGroup'), pl)
+	pl:AddCredits(150, 'Steam group join')
+	ba.notify_all(term.Get('RewardSteam'), pl)
+end)
+
+hook.Add('PlayerJoinVK', function(pl)
+	pl:AddCredits(150, 'VK join')
+	ba.notify_all(term.Get('RewardVK'), pl)
 end)

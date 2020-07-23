@@ -8,7 +8,7 @@ net('rp.ScoreboardStats', function(len, pl)
 			pl:SetNetVar('OS', o)
 		end
 		if (cc ~= 'US') then
-			pl:SetNetVar('Country', cc)
+			pl:SetNetVar('Country', string.lower(cc))
 		end
 	end
 end)

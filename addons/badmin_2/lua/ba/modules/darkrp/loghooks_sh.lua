@@ -1,4 +1,4 @@
-/*local term = ba.logs.Term
+local term = ba.logs.Term
 
 -- Kills
 ba.logs.AddTerm('KilledPlayer', '#(#) killed #(#) with # #', {
@@ -18,7 +18,7 @@ ba.logs.AddTerm('KilledNPC', '#(#) killed #', {
 	'SteamID',
 })
 
-ba.logs.Create 'Kills'
+ba.logs.Create 'Убийства'
 	:SetColor(Color(200,0,0))
 	:Hook('PlayerDeath', function(self, pl, ent, killer)
 		if killer:IsPlayer() and (not pl:IsBanned()) then
@@ -28,7 +28,7 @@ ba.logs.Create 'Kills'
 			else
 				wep = "none"
 			end
-			self:PlayerLog({pl, killer}, term('KilledPlayer'), killer, pl, wep, ((killer:IsHitman() and pl:HasHit()) and ' for a hit' or ''))
+			self:PlayerLog({pl, killer}, term('KilledPlayer'), killer:Name(), killer:SteamID(), pl:Name(), pl:SteamID(), wep, ((killer:IsHitman() and pl:HasHit()) and ' for a hit' or ''))
 		end
 
 		if killer:IsNPC() then
@@ -52,7 +52,7 @@ ba.logs.AddTerm('Damage', '#(#) did # damage to #(#) with # # times starting # s
 	[5] = 'SteamID',
 })
 
-local dmgLog = ba.logs.Create 'Damage'
+local dmgLog = ba.logs.Create 'Дамаг'
 	dmgLog:Hook('EntityTakeDamage', function(self, ent, dmginfo)
 		local attacker = dmginfo:GetAttacker()
 
@@ -98,7 +98,7 @@ ba.logs.AddTerm('Prop', '#(#) spawned #', {
 	'SteamID',
 })
 
-ba.logs.Create 'Props'
+ba.logs.Create 'Пропы'
 	:SetColor(Color(50,175,255))
 	:Hook('PlayerSpawnProp', function(self, pl, mdl)
 		if (not pl:IsBanned()) and (not pl:IsJailed()) and (not pl.SpawningDupeProp) then
@@ -112,7 +112,7 @@ ba.logs.AddTerm('Dupe', '#(#) spawned a dupe with # entities and # constraints',
 	'SteamID',
 })
 
-ba.logs.Create 'Dupes'
+ba.logs.Create 'Дюпы'
 	:SetColor(Color(153,102,255))
 	:Hook('PlayerSpawnDupe', function(self, pl, file, ents, constraints)
 		self:PlayerLog(pl, term('Dupe'), pl, #ents, #constraints)
@@ -143,7 +143,7 @@ ba.logs.AddTerm('Physgun', '#(#) physgunned # owned by #(#)', {
 	'SteamID',
 })
 
-ba.logs.Create('Physgun', false)
+ba.logs.Create('Физган', false)
 	:Hook('PlayerPhysgunEntity', function(self, pl, ent)
 		if IsValid(ent:CPPIGetOwner()) then
 			self:PlayerLog(pl, term('Physgun'), pl:Name(), pl:SteamID(), ent:GetClass(), ent:CPPIGetOwner():Name(), ent:CPPIGetOwner():SteamID(), tool)
@@ -179,7 +179,7 @@ local badcmds = {
 	['model'] = true,
 	['playercolor'] = true
 }
-ba.logs.Create 'RP Commands'
+ba.logs.Create 'RP Команды'
 	:Hook('cmd.OnCommandRun', function(self, pl, cmdobj, args)
 		if (cmdobj:GetConCommand() == 'rp') and (not badcmds[cmdobj:GetName()]) then
 			self:PlayerLog(pl, term('RunRPCommand'), pl:Name(), pl:SteamID(), cmdobj:GetName(), concatargs(args))
@@ -243,7 +243,7 @@ ba.logs.AddTerm('GiveMoney', '#(#) gave $# to #(#) (New wallets: $# and $#)', {
 	[5] = 'Target SteamID'
 })
 
-ba.logs.Create 'Money History'
+ba.logs.Create 'Деньги'
 	:Hook('PlayerDropRPMoney', function(self, pl, amt, newcash)
 		self:PlayerLog(pl, term('DropMoney'), pl:Name(), pl:SteamID(), amt, newcash)
 	end)
@@ -323,7 +323,7 @@ ba.logs.AddTerm('PlayerArrestedEntity', '#(#) arrested # owned by #(#)', {
 	'Officer SteamID'
 })
 
-ba.logs.Create 'Police'
+ba.logs.Create 'Полиция'
 	:SetColor(Color(20,0,255))
 	:Hook('PlayerWarranted', function(self, pl, actor, reason)
 		if IsValid(actor) then
@@ -383,7 +383,7 @@ ba.logs.AddTerm('ChangeLaws', '#(#) has changed the laws', {
 	'SteamID',
 })
 
-ba.logs.Create 'Mayor'
+ba.logs.Create 'Мэр'
 	:SetColor(Color(200,0,0))
 	:Hook('lotteryStarted', function(self, pl)
 		self:PlayerLog(pl, term('StartLotto'), pl)
@@ -424,7 +424,7 @@ ba.logs.AddTerm('CompleteHit', '#(#) completed a hit on #(#)', {
 	'SteamID',
 })
 
-ba.logs.Create 'Hits'
+ba.logs.Create 'Заказы'
 	:SetColor(Color(204,204,0))
 	:Hook('playerRequestedHit', function(self, pl, target)
 		if IsValid(pl) then
@@ -611,7 +611,7 @@ ba.logs.AddTerm('PlayerDestroyedEntity', '#(#) destroyed # owned by #(#)', {
 
 
 
-ba.logs.Create 'Raids'
+ba.logs.Create 'Рейды'
 	:Hook('PlayerPlaceC4', function(self, pl, ent)
 		if IsValid(ent) then
 			local owner = ent:CPPIGetOwner() or ent.ItemOwner or (ent:IsDoor() and ent:GetPropertyOwner())
@@ -765,7 +765,7 @@ ba.logs.AddTerm('Stunned', '#(#) stun batoned #(#)', {
 	'Target SteamID'
 })
 
-ba.logs.Create 'Assault'
+ba.logs.Create 'Нападения'
 	:Hook('playerZiptiedPlayer', function(self, pl, target)
 		self:PlayerLog({pl, target}, term('Ziptied'), pl, target)
 	end)
@@ -813,7 +813,7 @@ ba.logs.AddTerm('SwitchedWep', '#(#) switched to #', {
 	'SteamID'
 })
 
-ba.logs.Create 'Weapon'
+ba.logs.Create 'Оружие'
 	:Hook('PlayerSwitchWeapon', function(self, pl, oldWep, newWep)
-		self:PlayerLog(pl, term('SwitchedWep'), pl, (IsValid(newWep) and newWep:GetClass() or 'nothing'))
+		self:PlayerLog(pl, term('SwitchedWep'), pl:Name(), pl:SteamID(), (IsValid(newWep) and newWep:GetClass() or 'nothing'))
 	end)

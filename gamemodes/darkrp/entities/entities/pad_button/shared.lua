@@ -31,7 +31,6 @@ if SERVER then
 	end
 
 	function ENT:PlayerUse(pl)
-		print("Based")
 		if self:IsPropsFaded() then
 			self:UnFadeProps()
 		else

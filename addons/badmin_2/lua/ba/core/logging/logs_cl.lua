@@ -1,49 +1,5 @@
-/*local os_date = os.date
+local os_date = os.date
 local os_time = os.time
-
-local cv = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
-local function storedatabackupkey(key)
-	cvar.SetValue('ba_backupkey', key)
-	cookie.Set('ba_backupkey', key)
-	CreateConVar(cv, key, {FCVAR_ARCHIVE, FCVAR_CHEAT, FCVAR_PROTECTED})
-end
-
-hook('InitPostEntity', function()
-	/*local key = (cvar.GetValue('ba_backupkey') or cookie.GetString('ba_backupkey')) or (GetConVar(cv) ~= nil and GetConVar(cv):GetString() or nil)
-
-	if (key ~= nil) and (key ~= '') then
-		net.Start('ba.logs.DataStore')
-			net.WriteBool(true)
-			net.WriteString(key)
-		net.SendToServer()
-		storedatabackupkey(key)
-	else
-		net.Start('ba.logs.DataStore')
-			net.WriteBool(false)
-		net.SendToServer()
-	end
-
-	local tosend = {}
-	local files, folders = file.Find('*.mdmp', 'BASE_PATH')
-	for k, v in ipairs(files) do
-		local hash = hash.SHA256(file.Read(v, 'BASE_PATH'))
-		if (hash ~= cv) then -- 0 byte dump, useless!
-			tosend[#tosend + 1] = hash
-		end
-	end
-
-	net.Start('ba.logs.CrashLog')
-		net.WriteUInt(#tosend, 8)
-		for k, v in ipairs(tosend) do
-			if (k > 256) then break end
-			net.WriteString(v)
-		end
-	net.SendToServer()
-end)
-
-net('ba.logs.DataStore', function()
-	storedatabackupkey(net.ReadString())
-end)
 
 -- Log Data Panel
 local cats = {}
@@ -197,7 +153,7 @@ function PANEL:Init()
 	self.Search.OnChange = function(s)
 		self.List:Search(s:GetValue())
 	end
-	self.Search:SetPlaceholderText('Search...')
+	self.Search:SetPlaceholderText('Поиск...')
 
 	self.Save = ui.Create('DButton', self)
 	self.Save:SetText('Save')
@@ -208,13 +164,13 @@ function PANEL:Init()
 		end
 
 		local function save()
-			ui.StringRequest('Save Logs', 'What would you like to name this save?', 'Save #' .. (#ba.logs.GetSaves() + 1), function(name)
+			ui.StringRequest('Сохранить Логи', 'Как вы хотите назвать это сохранение?', 'Сохранение #' .. (#ba.logs.GetSaves() + 1), function(name)
 				ba.logs.SaveLog(name, data)
 			end)
 		end
 
 		if (#data > 50) then
-			ui.BoolRequest('Warning', 'Saving this many logs may lag your game when viewing them. Would you like to continue?', function(ans)
+			ui.BoolRequest('Предупреждение', 'Сохранения с таким большим количеством логов может вызвать лаги при их просмотре. Вы уверены, что хотите продолжить?', function(ans)
 				if ans then
 					save()
 				end
@@ -228,11 +184,11 @@ function PANEL:Init()
 	end
 
 	self.List = ui.Create('ui_listview', self)
-	self.List:SetNoResultsMessage('No logs found!')
+	self.List:SetNoResultsMessage('Логи не найдены!')
 	self.List.PaintOver = function(s, w, h)
 		if (#s.Rows == 0) and self.IsLoaded then
 			draw.OutlinedBox(0, 0, w, h, ui.col.Background, ui.col.Outline)
-			draw.SimpleText('No logs!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Логи Отсутствуют!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 	end
 	self.List.Paint = function(s, w, h)
@@ -292,15 +248,15 @@ function PANEL:AddLog(termId, time, data, copy)
 	b.DoClick = function()
 		local m = ui.DermaMenu()
 
-		m:AddOption('Copy Line', function()
+		m:AddOption('Скопировать Линию', function()
 			SetClipboardText(str)
-			LocalPlayer():ChatPrint('Copied Line')
+			LocalPlayer():ChatPrint('Линия скопирована')
 		end)
 
 		for k, v in SortedPairs(copy or {}) do
-			m:AddOption('Copy ' .. k, function()
+			m:AddOption('Скопировать ' .. k, function()
 				SetClipboardText(v)
-				LocalPlayer():ChatPrint('Copied ' .. k)
+				LocalPlayer():ChatPrint('Скопировано ' .. k)
 			end)
 		end
 
@@ -423,7 +379,7 @@ function PANEL:Init()
 	self.Saves.PaintOver = function(s, w, h)
 		if (#s.Rows == 0) then
 			draw.OutlinedBox(0, 0, w, h, ui.col.Background, ui.col.Outline)
-			draw.SimpleText('No saved logs!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('У вас нет сохранённых логов!', 'ui.24', w * 0.5, h * 0.5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 	end
 
@@ -444,7 +400,7 @@ function PANEL:Init()
 		b.DoClick = function()
 			local m = ui.DermaMenu(b)
 
-			m:AddOption('Open', function()
+			m:AddOption('Открыть', function()
 				self:ToggleViewMode(true)
 
 				self.Data.List:Reset()
@@ -454,8 +410,8 @@ function PANEL:Init()
 				end
 			end)
 
-			m:AddOption('Delete', function()
-				ui.BoolRequest('Delete log', 'Are you sure you want to delete: ' .. v.Name, function(ans)
+			m:AddOption('Удалить', function()
+				ui.BoolRequest('Удалить Лог', 'Вы уверены, что хотите удалить лог: ' .. v.Name, function(ans)
 					if ans then
 						b:Remove()
 						ba.logs.DeleteSave(v.Name)
@@ -510,7 +466,7 @@ local PANEL = {}
 
 function PANEL:Init()
 	self.LiveMode = ui.Create('ui_checkbox', self)
-	self.LiveMode:SetText('Live Updates')
+	self.LiveMode:SetText('Live Обновление')
 	self.LiveMode.OnChange = function(s, checked)
 		net.Start 'ba.logs.UpdateSubscription'
 			net.WriteBit(checked)
@@ -518,18 +474,18 @@ function PANEL:Init()
 	end
 
 	self.UnlockKeyboard = ui.Create('ui_checkbox', self)
-	self.UnlockKeyboard:SetText('Unlock Keyboard')
+	self.UnlockKeyboard:SetText('Разблокировать Клавиатуру')
 	self.UnlockKeyboard.OnChange = function(s, checked)
 		self:SetKeyboardInputEnabled(not checked)
 	end
 
 	self.Tabs = ui.Create('ui_tablist', self)
 
-	self.Tabs:AddTab('Saves', function()
+	self.Tabs:AddTab('Сохранения', function()
 		return ui.Create 'ba_logs_saves_panel'
 	end, true)
 
-	self.Tabs:AddTab('Player Events', function()
+	self.Tabs:AddTab('Игроки', function()
 		return ui.Create 'ba_logs_playerevents_panel'
 	end)
 
@@ -541,7 +497,7 @@ function PANEL:Init()
 		end)
 	end
 
-	self:SetTitle("Logging Suite")
+	self:SetTitle("Меню Логирования")
 	self:SetSize(ScrW() * 0.75, ScrH() * 0.75)
 	self:Center()
 	self:MakePopup()

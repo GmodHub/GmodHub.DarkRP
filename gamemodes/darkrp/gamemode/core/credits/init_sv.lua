@@ -1,21 +1,8 @@
 util.AddNetworkString 'rp.shop.Menu'
+util.AddNetworkString 'rp.PermaWeaponSettings'
 
 function PLAYER:HasUpgrade(uid)
 	return (self:GetVar('Upgrades', {})[uid] ~= nil)
-end
-
-function PLAYER:AddCredits(amount, note, cback)
-	rp.data.AddCredits(self:SteamID(), amount, note, function()
-		self:SetNetVar('Credits', self:GetCredits() + amount)
-		if (cback) then cback() end
-	end)
-end
-
-function PLAYER:TakeCredits(amount, note, cback)
-	rp.data.AddCredits(self:SteamID(), -amount, note, function()
-		self:SetNetVar('Credits', self:GetCredits() - amount)
-		if (cback) then cback() end
-	end)
 end
 
 function PLAYER:GetUpgradeCount(uid)
@@ -34,70 +21,52 @@ function rp.shop.OpenMenu(pl)
 	if pl.OpeningCreditMenu then return end
 	pl.OpeningCreditMenu = true
 
-	rp.data.LoadCredits(pl, function()
-		pl.OpeningCreditMenu = false
-		local ret = {}
+	pl.OpeningCreditMenu = false
+	local ret = {}
 
-		for k, v in ipairs(rp.shop.GetTable()) do
-			if (!v:CanSee(pl)) then continue end
+	for k, v in ipairs(rp.shop.GetTable()) do
+		if (!v:CanSee(pl)) then continue end
 
-			ret[v:GetID()] = {}
+		ret[v:GetID()] = {}
 
-			local canbuy, reason = v:CanBuy(pl)
-			if (!canbuy) then
-				ret[v:GetID()].CanBuy = reason
-			end
-
-			ret[v:GetID()].Price = v:GetPrice(pl)
-
-			ret[v:GetID()].UID = v:GetUID()
-			ret[v:GetID()].Stackable = v:IsStackable()
+		local canbuy, reason = v:CanBuy(pl)
+		if (!canbuy) then
+			ret[v:GetID()].CanBuy = reason
 		end
 
-		net.Start('rp.shop.Menu')
-			net.WriteUInt(table.Count(ret), 9)
-			for k, v in pairs(ret) do
-				net.WriteUInt(k, 9)
+		ret[v:GetID()].Price = v:GetPrice(pl)
 
-				if isstring(v.CanBuy) then
-					net.WriteBool(false)
-					net.WriteString(v.CanBuy)
-					net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
+		ret[v:GetID()].UID = v:GetUID()
+		ret[v:GetID()].Stackable = v:IsStackable()
+	end
 
-					net.WriteUInt(v.Price, 32)
-				else
-					net.WriteBool(true)
-					net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
+	net.Start('rp.shop.Menu')
+		net.WriteUInt(table.Count(ret), 9)
+		for k, v in pairs(ret) do
+			net.WriteUInt(k, 9)
 
-					net.WriteUInt(v.Price, 32)
-				end
+			if isstring(v.CanBuy) then
+				net.WriteBool(false)
+				net.WriteString(v.CanBuy)
+				net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
+
+				net.WriteUInt(v.Price, 32)
+			else
+				net.WriteBool(true)
+				net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
+
+				net.WriteUInt(v.Price, 32)
 			end
-		net.Send(pl)
-	end)
+		end
+	net.Send(pl)
 end
 rp.AddCommand("upgrades", rp.shop.OpenMenu)
-
 net("rp.shop.Menu", function( len, pl )
 	rp.shop.OpenMenu(pl)
 end)
 
-
 -- Data
 local db = rp._Credits
-
-
-function rp.data.AddCredits(steamid, amount, note, cback)
-	db:Query('INSERT INTO `kshop_credits_transactions` (`Time`, `SteamID`, `Change`, `Note`) VALUES(?, ?, ?, ?);', os.time(), steamid, amount, (note or ''), cback)
-end
-
-function rp.data.LoadCredits(pl, cback)
-	db:Query('SELECT COALESCE(SUM(`Change`), 0) AS `Credits` FROM `kshop_credits_transactions` WHERE `SteamID`="' .. pl:SteamID() .. '";', function(data)
-		if IsValid(pl) then
-			pl:SetNetVar('Credits', tonumber(data[1]['Credits']))
-			if cback then cback(data) end
-		end
-	end)
-end
 
 function rp.data.AddUpgrade(pl, id)
 	local upg_obj = rp.shop.Get(id)
@@ -108,7 +77,7 @@ function rp.data.AddUpgrade(pl, id)
 	else
 		local cost = upg_obj:GetPrice(pl)
 		pl:TakeCredits(cost, 'Purchase: ' .. upg_obj:GetUID(), function()
-			db:Query("INSERT INTO `kshop_purchases` VALUES('" .. os.time() .. "', '" .. pl:SteamID() .. "', '" .. upg_obj:GetUID() .. "');", function(dat)
+			db:Query("INSERT INTO `player_upgrades` VALUES('" .. os.time() .. "', '" .. pl:SteamID() .. "', ?);", upg_obj:GetUID(), function(dat)
 				for k, v in ipairs(player.GetAll()) do v:ChatPrint(pl:Name() .. " приобрёл " .. upg_obj:GetName() .. " за свои кредиты!"); end
 
 				local upgrades = pl:GetVar('Upgrades')
@@ -129,14 +98,7 @@ function rp.data.AddUpgrade(pl, id)
 end
 
 hook('PlayerAuthed', 'rp.shop.LoadCredits', function(pl)
-
-	rp.data.LoadCredits(pl, function()
-		if IsValid(pl) then
-			pl:ChatPrint('You have ' .. pl:GetCredits() .. ' credits to spend.')
-		end
-	end)
-
-	db:Query('SELECT `Upgrade` FROM `kshop_purchases` WHERE `SteamID`="' .. pl:SteamID() .. '";', function(data)
+	db:Query('SELECT `Upgrade` FROM `player_upgrades` WHERE `SteamID`="' .. pl:SteamID() .. '";', function(data)
 		if IsValid(pl) then
 
 			local upgrades 	= {}
@@ -145,10 +107,15 @@ hook('PlayerAuthed', 'rp.shop.LoadCredits', function(pl)
 			for k, v in ipairs(data) do
 				local uid = v.Upgrade
 				local wep = rp.shop.Weapons[uid]
+				local upg = rp.shop.GetByUID(uid)
 				upgrades[uid] = upgrades[uid] and (upgrades[uid] + 1) or 1
 
 				if (wep ~= nil) then
 					weps[#weps + 1] = wep
+				end
+
+				if (upg:IsNetworked()) then
+					pl:SetNetVar('Upgrade_' .. uid, upgrades[uid])
 				end
 			end
 
@@ -157,13 +124,29 @@ hook('PlayerAuthed', 'rp.shop.LoadCredits', function(pl)
 			hook.Call('PlayerUpgradesLoaded', nil, pl)
 		end
 	end)
-
 end)
 
-util.AddNetworkString("rp.PermaWeaponSettings")
+
+hook('PlayerLoadout', 'rp.shop.PlayerLoadout', function(pl)
+	local selected = pl:GetSelectedPermaWeapons()
+
+	for k, v in ipairs(pl:GetPermaWeapons()) do
+		if (selected[v]) then
+			pl:Give(v)
+			if (v == "weapon_vape") then
+				pl:GetWeapon(v).Color = selected[v]
+			end
+		end
+	end
+end)
+
+rp.AddCommand('buyupgrade', function(pl, args)
+	if (not args) or (not rp.shop.Get(tonumber(args))) then return end
+	rp.data.AddUpgrade(pl, tonumber(args))
+end)
+:AddParam(cmd.STRING)
 
 net("rp.PermaWeaponSettings", function(len,pl)
-
 	if (#pl:GetPermaWeapons() == 0) then return end
 
 	local weapons = {}
@@ -207,25 +190,4 @@ net("rp.PermaWeaponSettings", function(len,pl)
 		pl:SetVar('SelectedPermaWeapons', weapons)
 	end
 
-
-
 end)
-
-hook('PlayerLoadout', 'rp.shop.PlayerLoadout', function(pl)
-	local selected = pl:GetSelectedPermaWeapons()
-
-	for k, v in ipairs(pl:GetPermaWeapons()) do
-		if (selected[v]) then
-			pl:Give(v)
-			if (v == "weapon_vape") then
-				pl:GetWeapon(v).Color = selected[v]
-			end
-		end
-	end
-end)
-
-rp.AddCommand('buyupgrade', function(pl, args)
-	if (not args) or (not rp.shop.Get(tonumber(args))) then return end
-	rp.data.AddUpgrade(pl, tonumber(args))
-end)
-:AddParam(cmd.STRING)

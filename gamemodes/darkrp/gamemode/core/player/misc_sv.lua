@@ -9,24 +9,32 @@ end
 function PLAYER:Welfare()
 	if not IsValid(self) then return end
 
-	if self:IsArrested() then
-    rp.Notify(self, NOTIFY_ERROR, term.Get('WelfareMissed'))
-    return
-  end
+		if self:IsArrested() then
+	    rp.Notify(self, NOTIFY_ERROR, term.Get('WelfareMissed'))
+	    return
+  	end
 
-  if self:GetMoney() > rp.cfg.WelfareCutoff and self:GetVar('PropertyOwned') then
-		rp.Notify(self, NOTIFY_ERROR, term.Get('PropertyTax'), 1, 1 )
-    return
+  	if self:GetMoney() > rp.cfg.WelfareCutoff then
+		if self:GetVar('PropertyOwned') then
+			local tax = (ents.GetByIndex(self:GetVar('PropertyOwned')):GetPropertyInfo().DoorCount or 0) * self:Wealth(rp.cfg.DoorTaxMin, rp.cfg.DoorTaxMax)
+			self:TakeMoney(tax)
+			self:AddKarma(1)
+			rp.Notify(self, NOTIFY_SUCCESS, term.Get('PropertyTax'), rp.FormatMoney(tax), 1 )
+		end
+    	return
 	end
 
-  if self:GetVar('PropertyOwned') then
-    local tax = (self:GetVar('doorCount') or 0) * rp.cfg.PropertyTax
-    self:AddMoney(amount - tax)
-  else
-    rp.Notify(self, NOTIFY_ERROR, term.Get('Welfare'), rp.cfg.WelfareAmount, 1 )
-    self:AddMoney(rp.cfg.WelfareAmount)
-    self:TakeKarma(1)
-  end
+	if self:GetVar('PropertyOwned') then
+		local tax = (self:GetVar('PropertyOwned') and ents.GetByIndex(self:GetVar('PropertyOwned')):GetPropertyInfo().DoorCount or 0) * self:Wealth(rp.cfg.DoorTaxMin, rp.cfg.DoorTaxMax)
+		self:TakeMoney(tax)
+		self:TakeKarma(1)
+		self:AddMoney(rp.cfg.WelfareAmount)
+		rp.Notify(self, NOTIFY_SUCCESS, term.Get('WelfareTaxed'), rp.cfg.WelfareAmount, tax, 1 )
+	else
+		self:TakeKarma(1)
+		self:AddMoney(rp.cfg.WelfareAmount)
+		rp.Notify(self, NOTIFY_SUCCESS, term.Get('Welfare'), rp.cfg.WelfareAmount, 1 )
+	end
 end
 
 function PLAYER:KarmaForPlaying()
@@ -64,7 +72,7 @@ hook("PlayerDataLoaded", "RP:RestorePlayerData", function(pl, data)
 	pl:NewData()
 end)
 
-/*
+
 hook('InitPostEntity', function()
 	timer.Create("KarmaForPlaying", 1500, 0, function()
 		for k,v in pairs(player.GetAll()) do
@@ -72,7 +80,7 @@ hook('InitPostEntity', function()
 		end
 	end)
 
-	timer.Create("WelfareTime", 5, 0, function()
+	timer.Create("WelfareTime", 300, 0, function()
 		for k,v in pairs(player.GetAll()) do
 			v:Welfare()
 		end

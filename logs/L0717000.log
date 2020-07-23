@@ -1,0 +1,12 @@
+L 07/17/2020 - 20:49:42: Log file started (file "logs\L0717000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/17/2020 - 20:49:42: server_cvar: "sv_airaccelerate" "100"
+L 07/17/2020 - 20:49:43: Connection to Steam servers successful.
+L 07/17/2020 - 20:49:43:    Public IP is 31.130.42.26.
+L 07/17/2020 - 20:49:43: Assigned anonymous gameserver Steam ID [A-1:2260045828(15180)].
+L 07/17/2020 - 20:49:43: VAC secure mode is activated.
+L 07/17/2020 - 20:53:45: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/17/2020 - 20:53:46: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/17/2020 - 20:53:59: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/17/2020 - 20:54:25: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/17/2020 - 20:54:25: server_message: "quit"
+L 07/17/2020 - 20:54:25: Log file closed.

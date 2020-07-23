@@ -1,12 +1,9 @@
-/*util.AddNetworkString 'ba.LogPrint'
-util.AddNetworkString 'ba.LogData'
-util.AddNetworkString 'ba.PlayerData'
-util.AddNetworkString 'ba.PlayerHashID'
-util.AddNetworkString 'ba.DataStore'
-util.AddNetworkString 'ba.CrashLog'
-util.AddNetworkString 'ba.LogUnsubscribe'
+util.AddNetworkString 'ba.logs.RequestPlayerEvents'
+util.AddNetworkString 'ba.logs.UpdateSubscription'
+util.AddNetworkString 'ba.logs.RequestCategory'
+util.AddNetworkString 'ba.logs.Live'
 
-local max_entries 	= 400
+local max_entries 	= ba.logs.MaxEntries
 local log_data 		= ba.logs.Data
 local player_logs 	= ba.logs.PlayerEvents
 local log_mt 		= ba.log_mt
@@ -24,18 +21,21 @@ local os_time 		= os.time
 
 function log_mt:Log(term, ...)
 	local tab = log_data[self:GetName()]
+	table_insert(tab, 1, {Time = os.time(), Term = term, Data = {...}})
 
-	table_insert(tab, 1, {Time = os.time(), Term = term, ...})
-
-	if self:GetColor() then
-		net.Start('ba.LogPrint')
-			net.WriteUInt(term, 6)
-			net.WriteUInt(self:GetID(), 5)
-			for k, v in ipairs({...}) do
-				net.WriteString(tostring(v))
-			end
-		net.Send(ba.GetStaff())
-	end
+	net.Start('ba.logs.Live')
+		net.WriteUInt(term, 8)
+		net.WriteUInt(self:GetID(), 5)
+		for k, v in ipairs({...}) do
+            if isplayer(v) and !v:IsBot()  then
+                net.WriteBit(0)
+                net.WritePlayer(v)
+            else
+                net.WriteBit(1)
+                net.WriteString(tostring(v))
+            end
+		end
+	net.Send(table.Filter(player.GetAll(), function(v) return v:GetBVar('LiveLogs') end))
 
 	if (#tab > max_entries) then
 		tab[#tab] = nil
@@ -50,7 +50,7 @@ function log_mt:PlayerLog(players, term, ...)
 			tab = player_logs[pl:SteamID()]
 		end
 		local len = #tab
-		table_insert(tab, 1, {Time = os.time(), Term = term, ...})
+		table_insert(tab, 1, {Time = os.time(), Term = term, Data = {...}})
 
 		if (#tab > max_entries) then
 			tab[#tab] = nil
@@ -59,54 +59,66 @@ function log_mt:PlayerLog(players, term, ...)
 	return self:Log(term, ...)
 end
 
-function ba.logs.OpenMenu(pl)
-	local toWrite = {}
-	for k, v in pairs(log_data) do if (not ba.logs.Get(k):GetColor()) or (not pl:GetBVar('LogsSynced')) then toWrite[#toWrite+1] = k end end
+net('ba.logs.RequestCategory', function(len, pl)
+    if not pl:HasFlag('M') then return end
+    local cat = ba.logs.GetByID(net.ReadUInt(5))
+    local logs = log_data[cat:GetName()] or {}
 
-	if (#toWrite == 0) then return end -- something's bad wrong
+    net.Start 'ba.logs.RequestCategory'
+        if (table.Count(logs) <= 0) then
+                net.WriteBool(false)
+                net.WriteUInt(cat:GetID(), 5)
+            net.Send(pl)
+            return
+        end
+        net.WriteBool(true)
+        net.WriteUInt(cat:GetID(), 5)
+        net.WriteUInt(table.Count(logs), 7)
 
-	timer.Create('WriteLogData.' .. pl:SteamID64(), 0.06, #toWrite, function()
-		if (IsValid(pl)) then
-			local key = table.remove(toWrite, 1)
-			local data = ba.logs.Encode(log_data[key] or {})
-			local size = data:len()
+        for k,v in pairs(logs) do
+            net.WriteUInt(v.Term, 8)
+            net.WriteUInt(v.Time, 32)
 
-			net.Start('ba.LogData')
-				net.WriteString(key)
-				net.WriteUInt(size, 16)
-				net.WriteData(data, size)
-			net.Send(pl)
-		end
-	end)
-	pl:SetBVar('LogsSynced', true)
-end
-
-
-function ba.logs.OpenPlayerEvents(pl, steamid)
-	local data = ba.logs.Encode(player_logs[steamid])
-	local size = data:len()
-	net.Start('ba.PlayerData')
-		net.WriteUInt(size, 16)
-		net.WriteData(data, size)
-	net.Send(pl)
-end
-
-
-hook.Add('playerRankLoaded', 'ba.logs.playerRankLoaded', function(pl)
-	db:Query('REPLACE INTO ba_iplog VALUES(?,?,?);', pl:SteamID64(), os.time(), pl:NiceIP())
+            net.WriteUInt(table.Count(v.Data), 4)
+            for k, v in pairs(v.Data) do
+                net.WriteString(tostring(v))
+			end
+        end
+    net.Send(pl)
 end)
 
-net.Receive('ba.PlayerHashID', function(len, pl)
-	if (not pl:GetBVar('HashIDLoaded')) then
-		if net.ReadBool() then
-			db:Query('REPLACE INTO ba_hashlog VALUES(?,?,"?");', pl:SteamID64(), os.time(), net.ReadString())
-		else
-			db:Query('REPLACE INTO ba_hashlog VALUES(?,?,?);', pl:SteamID64(), os.time(), pl:HashID())
-			net.Start('ba.PlayerHashID')
-				net.WriteString(pl:HashID())
-			net.Send(pl)
-		end
+net("ba.logs.RequestPlayerEvents", function(len, pl)
+    if not pl:HasFlag('M') then return end
+    local steamid = net.ReadString()
+	local logs = player_logs[steamid] or {}
 
-		pl:SetBVar('HashIDLoaded', true)
-	end
+	net.Start 'ba.logs.RequestPlayerEvents'
+        if (table.Count(logs) <= 0) then
+                net.WriteBool(false)
+            net.Send(pl)
+            return
+        end
+        net.WriteBool(true)
+        net.WriteUInt(table.Count(logs), 7)
+
+        for k,v in pairs(logs) do
+            net.WriteUInt(v.Term, 8)
+            net.WriteUInt(v.Time, 32)
+
+            net.WriteUInt(table.Count(v.Data), 4)
+            for k, v in pairs(v.Data) do
+                net.WriteString(tostring(v))
+            end
+        end
+    net.Send(pl)
+end)
+
+net("ba.logs.UpdateSubscription", function(len, pl)
+    if not pl:HasFlag('M') then return end
+    pl:SetBVar('LiveLogs', tobool(net.ReadBit()))
+end)
+
+/*
+hook.Add('playerRankLoaded', 'ba.logs.playerRankLoaded', function(pl)
+	db:Query('REPLACE INTO ba_iplog VALUES(?,?,?);', pl:SteamID64(), os.time(), pl:NiceIP())
 end)

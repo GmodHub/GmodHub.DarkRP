@@ -20,6 +20,8 @@
 
 		rp.data.PayPlayer(pl, trace.Entity, amount)
 
+        hook.Call('PlayerGaveMoney', GAMEMODE, pl, trace.Entity, amount, pl:GetMoney(), trace.Entity:GetMoney())
+
 		rp.Notify(trace.Entity, NOTIFY_GREEN, term.Get('PlayerGaveCash'), pl, rp.FormatMoney(amount))
 		rp.Notify(pl, NOTIFY_GREEN, term.Get('YouGaveCash'), trace.Entity, rp.FormatMoney(amount))
 	else
@@ -93,7 +95,7 @@ rp.AddCommand('cheque', function(pl, pl2, amount)
 		Cheque:Setamount(math.Min(amount, 2147483647))
 		Cheque:Spawn()
 
-    pl:AddCount("cheque", Cheque)
+        pl:AddCount("cheque", Cheque)
 
 		hook.Call('PlayerDropRPCheck', GAMEMODE, pl, pl2, Cheque:Getamount(), pl:GetMoney())
 	end
@@ -116,12 +118,13 @@ rp.AddCommand('wiremoney', function(pl, pl2, amount)
 	end
 
 	if IsValid(pl) and IsValid(pl2) then
-    amount = math.floor(amount * 0.8)
-		pl:TakeMoney(amount)
-    pl2:AddMoney(amount)
+        amount = math.floor(amount * 0.8)
+    	pl:TakeMoney(amount)
+        pl2:AddMoney(amount)
 
-    rp.Notify(pl2, NOTIFY_GREEN, term.Get('PlayerGotWire'), pl, rp.FormatMoney(amount))
-		rp.Notify(pl, NOTIFY_GREEN, term.Get('PlayerSentWire'), pl2, rp.FormatMoney(amount))
+        hook.Call('PlayerGaveMoney', GAMEMODE, pl, pl2, amount, pl:GetMoney(), pl2:GetMoney())
+        rp.Notify(pl2, NOTIFY_GREEN, term.Get('PlayerGotWire'), pl, rp.FormatMoney(amount))
+    	rp.Notify(pl, NOTIFY_GREEN, term.Get('PlayerSentWire'), pl2, rp.FormatMoney(amount))
 	end
 
 end)

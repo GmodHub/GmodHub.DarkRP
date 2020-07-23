@@ -15,7 +15,7 @@ end
 
 -- UI
 if (SERVER) then
-	resource.AddDir 'sound/ui/'
+	resource.AddDir 'sound/gmh/ui/'
 end
 
 ui = ui or {}

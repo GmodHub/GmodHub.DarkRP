@@ -1,4 +1,4 @@
-term.Add('AdminSentStaffMessage', '# has sent a staff message to the server: #')
+term.Add('AdminSentStaffMessage', '# отправил сообщение администрации серверу: #')
 
 -------------------------------------------------
 -- Tell All
@@ -20,7 +20,7 @@ if (SERVER) then
 	return
 end
 
-surface.CreateFont('ba.ui.tellall', {font = 'coolvetica', size = 40, weight = 750, extended = true})
+surface.CreateFont('ba.ui.tellall', {font = 'Prototype [RUS by Daymarius]', size = 40, weight = 750, extended = true})
 
 local tellallQueue = {}
 
@@ -33,7 +33,7 @@ function PANEL:Init()
 	self.EndTime 	= CurTime() + self.Time
 
 	self.Title = ui.Create('DLabel', self)
-	self.Title:SetText('Staff Message!')
+	self.Title:SetText('Сообщение Администрации!')
 end
 
 function PANEL:PerformLayout(w, h)

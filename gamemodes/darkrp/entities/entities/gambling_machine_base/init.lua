@@ -41,6 +41,7 @@ function ENT:PayOut(ply, amount)
 			ply:AddMoney(amount)
 			self:SetIsPayingOut(false)
 		end)
+		hook.Call('PlayerGamble', GAMEMODE, ply, self.ItemOwner, self, amount, true)
 	else
 		net.Start('rp.gambling.Profit')
 			net.WriteUInt(-amount, 32)
@@ -51,7 +52,9 @@ function ENT:PayOut(ply, amount)
 			self.ItemOwner:AddMoney(-amount)
 			self:SetIsPayingOut(false)
 		end)
+		hook.Call('PlayerGamble', GAMEMODE, ply, self.ItemOwner, self, amount, false)
 	end
+
 end
 
 function ENT:OnTakeDamage(dmg)

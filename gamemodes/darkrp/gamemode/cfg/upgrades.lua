@@ -55,23 +55,19 @@ rp.shop.Add('Премиум Банда', 'org_prem')
 	:SetPrice(750)
 	:SetNetworked(true)
 	:SetCanBuy(function(self, pl)
-		local org = pl:GetOrgInstance()
-		if (!org or org:IsUpgraded()) then
-			return false, (org and (org.Name .. " уже улучшена.") or "Вы не состоите в банде!")
+		local org = pl:GetOrg()
+		if (!org or pl:IsOrgUpg()) then
+			return false, (org and (org .. " уже улучшена.") or "Вы не состоите в банде!")
 		end
 		return true
 	end)
 	:SetOnBuy(function(self, pl)
-		local org = pl:GetOrgInstance()
+		local org = pl:GetOrgUID()
 		if (org) then
-			org:Upgrade()
+			rp.orgs.Upgrade(pl)
 		end
 	end)
 	:SetGetCustomPurchaseNote(function(self, pl)
-		local org = pl:GetOrgInstance()
-		if (org) then
-			return org.ID .. '-' .. org.Name
-		end
 		return 'ERR'
 	end)
 

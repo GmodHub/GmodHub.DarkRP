@@ -1,8 +1,8 @@
-term.Add('AdminGoneTo', '# has gone to #.')
-term.Add('AdminRoomUnset', 'The adminroom is not set!')
-term.Add('AdminGoneToAdminRoom', '# has gone to the admin room.')
-term.Add('AdminRoomSet', 'The adminroom has been set to your current position.')
-term.Add('AdminReturnedSelf', '# has returned themself to spawn.')
+term.Add('AdminGoneTo', '# телепортировался к #.')
+term.Add('AdminRoomUnset', 'Комната администрации не установлена!')
+term.Add('AdminGoneToAdminRoom', '# телепортировался в комнату администрации.')
+term.Add('AdminRoomSet', 'Комната администрации назначена на вашу позицию.')
+term.Add('AdminReturnedSelf', '# вернул себя на спавн.')
 
 -------------------------------------------------
 -- Tele
@@ -23,7 +23,7 @@ ba.AddCommand('Tele', function(pl, targets)
 
 	end
 
-	ba.notify_staff('# has teleported ' .. ('# '):rep(#targets) .. '.', pl, unpack(targets))
+	ba.notify_staff('# телепортировал ' .. ('# '):rep(#targets) .. '.', pl, unpack(targets))
 end)
 :AddParam(cmd.PLAYER_ENTITY_MULTI)
 :SetFlag 'M'
@@ -131,7 +131,7 @@ ba.AddCommand('return', function(pl, targets)
 		v:SetPos(pos)
 	end
 
-	ba.notify_staff('# has returned ' .. ('# '):rep(#targets) .. 'to spawn.', pl, unpack(targets))
+	ba.notify_staff('# вернул ' .. ('# '):rep(#targets) .. 'на спавн.', pl, unpack(targets))
 end)
 :AddParam(cmd.PLAYER_ENTITY_MULTI, cmd.OPT_OPTIONAL)
 :SetFlag 'M'
@@ -140,10 +140,10 @@ end)
 -------------------------------------------------
 -- Freeze
 -------------------------------------------------
-term.Add('AdminFrozePlayer', '# has froze #.')
-term.Add('AdminUnfrozePlayer', '# has unfroze #.')
-term.Add('PlayerIsFrozen', '# is already frozen!')
-term.Add('PlayerIsNotFrozen', '# is not frozen!')
+term.Add('AdminFrozePlayer', '# заморозил #.')
+term.Add('AdminUnfrozePlayer', '# разморозил #.')
+term.Add('PlayerIsFrozen', '# уже заморожен!')
+term.Add('PlayerIsNotFrozen', '# не заморожен!')
 
 if (SERVER) then
 	function PLAYER:IsAdminFrozen() -- only use where it matters if an admin did it

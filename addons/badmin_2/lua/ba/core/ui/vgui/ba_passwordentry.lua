@@ -12,7 +12,7 @@ function PANEL:Init()
 	self.Under:SetTextColor(Color(0, 0, 0, 0))
 
 	self.Under.OnTextChanged = function(s)
-		self.HiddenText = string.rep('*', #s:GetText())
+		self.HiddenText = string.rep('*', utf8.len(s:GetText()))
 		self.LastRand = nil
 	end
 
@@ -197,13 +197,13 @@ net.Receive("ba.PasswordRequest", function(len)
 
 			local pass = new1:GetRealText()
 			if (#pass < 4) then
-				self:SetText("Need at least 4 characters")
+				self:SetText("Минимальная длинна 4 символа!")
 				self:SetDisabled(true)
 			elseif (new2:GetRealText() != pass) then
-				self:SetText("Passwords don't match")
+				self:SetText("Пароли не совпадают")
 				self:SetDisabled(true)
 			else
-				self:SetText("Submit")
+				self:SetText("Готово")
 				self:SetDisabled(false)
 			end
 		else
