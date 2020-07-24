@@ -64,6 +64,17 @@ rp.AddCommand('setimage', function(pl, url)
 end)
 :AddParam(cmd.STRING)
 
+rp.AddCommand('setimagescale', function(pl, scale)
+	local ent = pl:GetEyeTrace().Entity
+
+	if scale != 3 and scale != 2 and scale != 1 then return end
+	if IsValid(ent) and (ent:GetClass() == "ent_picture") and (not IsValid(ent.ItemOwner) or ent.ItemOwner == pl) then
+		ent:SetModelScale(scale)
+	end
+end)
+:AddParam(cmd.NUMBER)
+
+
 rp.AddCommand('setimageavatar', function(pl)
 	local ent = pl:GetEyeTrace().Entity
 

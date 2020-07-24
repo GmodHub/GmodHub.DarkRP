@@ -81,7 +81,7 @@ rp.cfg.LockdownTime 	= 300
 rp.cfg.CampaignFee		= 2500
 
 rp.cfg.CreditSale 		= '' --' (25% OFF!)'
-rp.cfg.CreditsURL 		= 'https://gmodhub.com/credits/'
+rp.cfg.CreditsURL 		= 'https://gmodhub.com/donate/'
 
 rp.cfg.DefaultLaws 		= [[
 Убийства и грабёж запрещены.

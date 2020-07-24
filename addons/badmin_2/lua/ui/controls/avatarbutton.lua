@@ -1,5 +1,5 @@
 function _R.Player:ShowProfile()
-	//gui.OpenURL('https://superiorservers.co/profile/' .. self:SteamID64())
+	gui.OpenURL('https://steamcommunity.com/profiles/' .. self:SteamID64())
 end
 
 local PANEL = {}
@@ -39,7 +39,7 @@ function PANEL:DoClick()
 	if IsValid(pl) then
 		pl:ShowProfile()
 	else
-	//	gui.OpenURL('https://superiorservers.co/profile/' .. self.SteamID64)
+		gui.OpenURL('https://steamcommunity.com/profiles/' .. self:SteamID64())
 	end
 end
 

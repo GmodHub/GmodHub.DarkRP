@@ -8,7 +8,7 @@ local function createShipment(ply, args)
 	ent = IsValid(ent) and ent or ply:GetEyeTrace().Entity
 
 	if not IsValid(ent) or ent:GetClass() ~= "spawned_weapon" then
-		rp.Notify(ply, NOTIFY_ERROR, rp.Term('InvalidArg'))
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('InvalidArg'))
 		return
 	end
 
@@ -50,7 +50,7 @@ local function splitShipment(ply, args)
 	ent = IsValid(ent) and ent or ply:GetEyeTrace().Entity
 
 	if not IsValid(ent) or ent:GetClass() ~= "spawned_shipment" or ent:Getcount() < 2 then
-		rp.Notify(ply, NOTIFY_ERROR, rp.Term('InvalidArg'))
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('InvalidArg'))
 		return
 	end
 

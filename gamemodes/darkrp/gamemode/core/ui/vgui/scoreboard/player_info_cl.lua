@@ -33,9 +33,9 @@ function PANEL:Init()
 	end
 
 	self.Steam = ui.Create('DButton', self)
-	self.Steam:SetText('GMDHUB Профиль')
+	self.Steam:SetText('Steam Профиль')
 	self.Steam.DoClick = function()
-		//self.Player:ShowProfile()
+		self.Player:ShowProfile()
 	end
 
 	self.SteamID = ui.Create('DButton', self)
