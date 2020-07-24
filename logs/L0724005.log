@@ -1,0 +1,34 @@
+L 07/24/2020 - 10:26:07: Log file started (file "logs\L0724005.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/24/2020 - 10:26:07: server_cvar: "sv_password" "***PROTECTED***"
+L 07/24/2020 - 10:26:07: server_cvar: "sv_airaccelerate" "100"
+L 07/24/2020 - 10:26:08: Connection to Steam servers successful.
+L 07/24/2020 - 10:26:08:    Public IP is 31.130.42.26.
+L 07/24/2020 - 10:26:08: Assigned anonymous gameserver Steam ID [A-1:2362219528(15219)].
+L 07/24/2020 - 10:26:08: VAC secure mode is activated.
+L 07/24/2020 - 10:26:15: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/24/2020 - 10:26:15: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 10:26:27: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 10:42:12: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 10:46:35: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/24/2020 - 10:46:35: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 10:46:47: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 10:49:10: Lua Error: 
+[dash_3] gamemodes/darkrp/gamemode/core/cop_stats/data_sv.lua:72: attempt to perform arithmetic on a boolean value
+  1. v - gamemodes/darkrp/gamemode/core/cop_stats/data_sv.lua:72
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. ChangeTeam - gamemodes/darkrp/gamemode/core/makethings/makethings_sv.lua:123
+     4. Run - gamemodes/darkrp/gamemode/core/makethings/makethings_sv.lua:214
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+        7. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/24/2020 - 10:49:13: Lua Error: 
+[badmin_2] Warning! A net message (rp.ApplyGenome) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/24/2020 - 11:13:02: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/24/2020 - 11:13:02: server_message: "quit"
+L 07/24/2020 - 11:13:02: Log file closed.

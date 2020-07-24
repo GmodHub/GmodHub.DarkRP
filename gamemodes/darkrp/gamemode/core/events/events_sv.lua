@@ -11,7 +11,7 @@ function rp.RegisterEvent(name, tab)
 		end
 
 		local events = nw.GetGlobal('EventsRunning') or {}
-		events[name] = true
+		events[tab.NiceName] = true
 		nw.SetGlobal('EventsRunning', events)
 
 		OnStart(...)

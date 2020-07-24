@@ -36,7 +36,7 @@ local function loadSvars()
 	encodeSvars()
 	nw.SetGlobal('ba.ServerVars', ba.svar.encoded)
 end
-loadSvars()
+hook.Add('InitPostEntity', 'bAdmin.load.svard', loadSvars)
 
 function ba.svar.Create(name, default, network, callback)
 	ba.svar.stored[name]			= ba.svar.stored[name]		 	or {}

@@ -18,16 +18,6 @@ rp.RegisterEvent('VIP', {
 	}
 })
 
--- Salary
-rp.RegisterEvent('Salary', {
-	NiceName = 'Salary',
-	Hooks = {
-		['PlayerPayDay'] = function(pl, salary)
-			return (salary * 2)
-		end,
-	}
-})
-
 -- Free Runner
 rp.RegisterEvent('Parkour', {
 	NiceName = 'Parkour',
@@ -43,9 +33,23 @@ rp.RegisterEvent('Parkour', {
 	end,
 })
 
+rp.RegisterEvent('Vape', {
+	NiceName = 'Vape',
+	Hooks = {
+		['PlayerLoadout'] = function(pl)
+			pl:Give('weapon_vape')
+		end,
+	},
+	OnStart = function()
+		for k, v in ipairs(player.GetAll()) do
+			v:Give('weapon_vape')
+		end
+	end,
+})
+
 -- BURGATRON
 rp.RegisterEvent('BURGATRON', {
-	NiceName = 'Бургератрон',
+	NiceName = 'BURGATRON',
 	Hooks = {
 		['PlayerHasHunger'] = function(pl)
 			if (pl.HungerImmune) then return false end

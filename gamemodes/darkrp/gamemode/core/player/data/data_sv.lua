@@ -7,7 +7,7 @@ function rp.data.LoadPlayer(pl, cback)
 
 		if IsValid(pl) then
 			if (#_data <= 0) then
-				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills, ActiveApparel) VALUES(?, ?, ?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '{}', '{}')
+				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills, ActiveApparel) VALUES(?, ?, ?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '[]', '[]')
 				pl:SetRPName(rp.names.Random(), true)
 			end
 
@@ -20,14 +20,19 @@ function rp.data.LoadPlayer(pl, cback)
 				pl:SetNetVar('Skills', skills)
 			end
 
-			db:Query('SELECT * FROM player_apparel WHERE SteamID=' .. pl:SteamID64() .. ';', function(data)
+			db:Query('SELECT * FROM player_apparel WHERE SteamID=' .. pl:SteamID64() .. ';', function(hats)
 				nw.WaitForPlayer(pl, function()
-					local HatData = {}
-					for k, v in ipairs(data) do
-						HatData[k] = v.UID
+					if hats[1] then
+						local HatData = {}
+						for k, v in ipairs(hats) do
+							HatData[k] = v.UID
+						end
+						pl:SetNetVar('OwnedApparel', HatData)
 					end
-					pl:SetNetVar('OwnedApparel', HatData)
-					pl:SetNetVar('ActiveApparel', util.JSONToTable(_data[1].ActiveApparel))
+
+					if data.ActiveApparel then
+						pl:SetNetVar('ActiveApparel', util.JSONToTable(data.ActiveApparel))
+					end
 				end)
 			end)
 

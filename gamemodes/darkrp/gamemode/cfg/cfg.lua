@@ -173,7 +173,7 @@ rp.cfg.BailMachines = {
 rp.cfg.GenomeMachines = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(-2734.943115, -644.524536, -116.911385),
+			Pos = Vector(4251.200195, -1119.959351, 111.031250),
 			Ang = Angle(0, 90, 0)
 		}
 	}
@@ -768,7 +768,7 @@ rp.cfg.Props = {
 local hour = (60 * 60)
 
 rp.cfg.PlayTimeRanks = {
-	{'Новичок', 0},
+	{'Newbie', 0},
 	{'New Kid', (hour * 5)},
 	{'Getting There', (hour * 10)},
 	{'Learner', (hour * 15)},

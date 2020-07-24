@@ -20,8 +20,8 @@ function ENT:Initialize()
 	self.sound = CreateSound(self, Sound("ambient/levels/labs/equipment_printer_loop1.wav"))
 	self.sound:SetSoundLevel(30)
 
-	self:SetMaxInk(5)
-	self:SetInk(5)
+	self:SetMaxInk(10)
+	self:SetInk(10)
 	self:SetHP(100)
 	self:SetLastPrint(CurTime())
 
@@ -69,7 +69,7 @@ function ENT:Explode()
 	effectdata:SetOrigin(vPoint)
 	effectdata:SetScale(1)
 	util.Effect('Explosion', effectdata)
-	
+
 	self:Remove()
 
 	if IsValid(self:Getowning_ent()) then
@@ -95,7 +95,7 @@ function ENT:PrintMoney()
 		effectdata:SetScale(1)
 		effectdata:SetRadius(2)
 		util.Effect('Sparks', effectdata)
-		
+
 		local amount = (hook.Call('calcPrintAmount', GAMEMODE, rp.cfg.PrintAmount) or rp.cfg.PrintAmount)
 		local money = rp.SpawnMoney(self:GetPos() + ((self:GetAngles():Up() * 15) + (self:GetAngles():Forward() * 20)), amount)
 		if IsValid(money) then

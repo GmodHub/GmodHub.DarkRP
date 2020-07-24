@@ -58,6 +58,11 @@ function PLAYER:ChangeTeam(t, force)
 		return
 	end
 
+	if TEAM.playtime and self:GetPlayTime() < TEAM.playtime then
+		rp.Notify(self, NOTIFY_ERROR, term.Get('NeedVIP'))
+		return
+	end
+
 	if TEAM.customCheck and not TEAM.customCheck(self) then
 		rp.Notify(self, NOTIFY_ERROR, term.Get(TEAM.CustomCheckFailMsg))
 		return false
@@ -89,7 +94,7 @@ function PLAYER:ChangeTeam(t, force)
 		rp.resetLaws()
 	end
 
-	rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), self, (string.match(TEAM.name, '^h?[AaEeIiOoUu]') and 'an' or 'a'), TEAM.name)
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), self, TEAM.name)
 
 	if self:GetNetVar("HasGunlicense") then
 		self:SetNetVar("HasGunlicense", nil)
@@ -99,7 +104,7 @@ function PLAYER:ChangeTeam(t, force)
 
 	self.PlayerModel = nil
 
-	self.LastJob = CurTime()
+	self.LastJob = CurTime() + 5
 
 	for k, v in ipairs(ents.GetAll()) do
 		if (v.ItemOwner == self) and v.RemoveOnJobChange then
@@ -204,12 +209,10 @@ function GM:AddTeamCommands(CTeam, max)
 			ply:GetTable().LastVoteTime = CurTime()
 			return
 		end)
-		:SetCooldown(8)
 	else
 		rp.AddCommand(CTeam.command, function(ply)
 			ply:ChangeTeam(k)
 		end)
-		:SetCooldown(8)
 	end
 end
 

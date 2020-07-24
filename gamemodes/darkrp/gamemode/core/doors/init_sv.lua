@@ -84,6 +84,11 @@ rp.AddCommand('buyproperty', function(pl, text, args)
 		return
 	end
 
+	if rp.teams[pl:Team()].CannotOwnDoors then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('TeamCannotOwnProperty'))
+		return
+	end
+
 	if IsValid(ent) and ent:IsDoor() and ent:IsPropertyOwnable() and (ent:GetPos():DistToSqr(pl:GetPos()) < 13225) then
 		pl:TakeMoney(cost)
 		rp.Notify(pl, NOTIFY_SUCCESS, term.Get('PropertyBought'), ent:GetPropertyName(), rp.FormatMoney(cost), 0)
@@ -116,6 +121,16 @@ rp.AddCommand('addcoowner', function(pl, co)
 
 		if rp.question.Exists(ent:GetPropertyNetworkID() .. '' .. co:SteamID64()) then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('PropertyCoOwnerVotePending'), co, ent:GetPropertyName())
+			return
+		end
+
+		if rp.teams[co:Team()].CannotOwnDoors then
+			rp.Notify(co, NOTIFY_ERROR, term.Get('PlayerTeamCannotOwnProperty'))
+			return
+		end
+
+		if co:GetVar('PropertyOwned') then
+			rp.Notify(co, NOTIFY_ERROR, term.Get('PlayerPropertyAlreadyOwned'))
 			return
 		end
 

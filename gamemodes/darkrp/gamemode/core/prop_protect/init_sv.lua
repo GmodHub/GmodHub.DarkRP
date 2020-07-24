@@ -37,7 +37,7 @@ function rp.pp.PlayerCanManipulate(pl, ent)
 		return true
 	end
 
-	return (ent:CPPIGetOwner() == pl) or (pl:HasAccess('a') and ba.canAdmin(pl) and IsValid(ent:CPPIGetOwner()))
+	return (ent:CPPIGetOwner() == pl) or (pl:HasAccess('a') and ba.canAdmin(pl) and IsValid(ent:CPPIGetOwner())) or pl:IsRoot()
 end
 
 
@@ -55,7 +55,7 @@ function rp.pp.PlayerCanTool(pl, ent, tool)
 	local tool = tool:lower()
 
 	if rp.pp.BlockedTools[tool] then
-		local canTool = toolFuncs[rp.pp.BlockedTools[tool]](pl)
+		local canTool = rp.teams[pl:Team()].CanTool and rp.teams[pl:Team()].CanTool(pl, ent, tool) or toolFuncs[rp.pp.BlockedTools[tool]](pl)
 		if not canTool then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('CannotTool'), tool)
 			return canTool
@@ -83,7 +83,6 @@ function rp.pp.PlayerCanTool(pl, ent, tool)
 	end
 
 	local cantool = rp.pp.PlayerCanManipulate(pl, ent)
-
 	if (cantool == true) then
 		hook.Call('PlayerToolEntity', GAMEMODE, pl, ent, tool)
 	end

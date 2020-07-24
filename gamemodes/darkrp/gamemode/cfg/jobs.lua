@@ -165,7 +165,7 @@ TEAM_POLICE = rp.addTeam('Полицейский', {
 	},
 	CanRaid = 'При наличии ордера',
 	GetRelationships = function() return {TEAM_MAYOR, TEAM_POLICE, TEAM_CHIEF} end,
-	weapons = {"arrest_baton", "stun_baton", "door_ram", "weapon_taser", "swb_glock18", "swb_mp5"},
+	weapons = {},
 	NoKombat = true,
 	spawns = police_spawns_proc,
 	command = 'police',
@@ -392,6 +392,22 @@ TEAM_FREERUNNER = rp.addTeam("Паркурист", {
 	end
 })
 
+TEAM_BOMB = rp.addTeam('Подрывник', {
+	catagory = 'Рейдеры',
+    color = Color(89, 31, 52),
+    model = "models/player/arctic.mdl",
+	CanRaid = true,
+	CanMug = true,
+	CanHostage = true,
+    weapons = {"weapon_c4", "lockpick"},
+    command = "alahbabah",
+    max = 1,
+	candemote = false,
+	mayorCanSetSalry = false,
+	vip = true,
+	spawns = raider_spawns,
+})
+
 player_manager.AddValidModel('gs_cage', 'models/code_gs/player/cage.mdl')
 player_manager.AddValidHands('gs_cage', 'models/weapons/c_arms_citizen.mdl', 1, '00000000')
 TEAM_THUG = rp.addTeam('Негр', {
@@ -469,7 +485,6 @@ TEAM_ANARCHIST = rp.addTeam('Анархист', {
 	vip = true,
 	spawns = raider_spawns,
 })
-
 --
 -- Наёмники classes
 --
@@ -577,7 +592,7 @@ TEAM_HOBO = rp.addTeam('Бомж', {
 	CannotOwnDoors = true,
 	PlayerSpawn = spawnHobo
 })
-
+/*
 local meathHeadSpawns = {
 	rp_bangclaw = {
 		Vector(2395, 1297, -392),
@@ -670,7 +685,7 @@ TEAM_METHHEAD = rp.addTeam('Бомж Наркоман', {
 	DamageCooldown = 0,
 	RunSpeed = 420
 })
-
+*/
 --
 -- Other
 --
@@ -764,7 +779,7 @@ TEAM_WATCHER = rp.addTeam('Наблюдатель', {
 	CustomCheckFailMsg = 'JobNeedsManualSet',
 })
 
-
+/*
 TEAM_HOTEL = rp.addTeam('Менеджер Отеля', {
 	color = Color(205, 205, 205),
 	model = 'models/player/magnusson.mdl',
@@ -792,30 +807,29 @@ TEAM_HOTEL = rp.addTeam('Менеджер Отеля', {
 	HotelManager = true,
 	CannotOwnDoors = true
 })
-
+*/
 local function orgCheck(pl, orgName)
-	return false//pl:IsSA() or (pl:GetOrg() == orgName), ('You must be in ' .. orgName .. ' to use this class.')
+	return pl:IsSA() or (pl:GetOrg() == orgName), ('Вы должны быть в банде ' .. orgName .. ' чтобы стать этой профессией.')
 end
 
-local gayid = 'STEAM_0:0:55992389'
-TEAM_GAY = rp.addTeam('Birthday Squad', {
+TEAM_GAY = rp.addTeam('Стив Хуйс', {
 	catagory = ' Донат',
 	color = Color(72, 135, 7),
 	model = 'models/gmh/player/custom/happybirthday/merc1.mdl',
 	CanRaid = true,
 	CanMug = true,
 	weapons = {'swb_m4a1', 'lockpick', 'keypad_cracker'},
-	command = 'bdaysquad',
+	command = 'bdhuis',
 	max = 5,
 	hasLicense = false,
 	candemote = false,
 	CanTool = function(pl, ent, tool)
-		if (tool == 'playercolorizer') and (pl:SteamID() == gayid) and (ent:EntIndex() == 0) then
+		if (tool == 'playercolorizer') and (ent:EntIndex() == 0) then
 			return true
 		end
 	end,
 	customCheck = function(pl)
-		return orgCheck(pl, 'Happy Birthday')
+		return orgCheck(pl, 'Хуйсы')
 	end,
 })
 

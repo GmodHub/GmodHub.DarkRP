@@ -1,0 +1,281 @@
+L 07/24/2020 - 05:50:18: Log file started (file "logs\L0724002.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/24/2020 - 05:50:18: server_cvar: "sv_password" "***PROTECTED***"
+L 07/24/2020 - 05:50:18: server_cvar: "sv_airaccelerate" "100"
+L 07/24/2020 - 05:50:19: Connection to Steam servers successful.
+L 07/24/2020 - 05:50:19:    Public IP is 31.130.42.26.
+L 07/24/2020 - 05:50:19: Assigned anonymous gameserver Steam ID [A-1:2492924932(15218)].
+L 07/24/2020 - 05:50:19: VAC secure mode is activated.
+L 07/24/2020 - 05:51:13: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/24/2020 - 05:51:13: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 05:51:22: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 05:58:59: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/24/2020 - 05:59:00: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/24/2020 - 05:59:01: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 05:59:09: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 06:15:20: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:207: 'end' expected (to close 'function' at line 149) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:15:32: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:207: 'end' expected (to close 'function' at line 149) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:15:33: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:207: 'end' expected (to close 'function' at line 149) near '<eof>'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:16:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:156: ')' expected near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:17:08: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:156: ')' expected near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:18:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:156: ')' expected near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:19:12: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:156: ')' expected near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:19:13: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:156: ')' expected near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:20:51: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:157: ')' expected near 'function'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:29:41: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:169: ')' expected (to close '(' at line 166) near 'rp'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:29:42: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:169: ')' expected (to close '(' at line 166) near 'rp'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:29:52: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:169: ')' expected (to close '(' at line 166) near 'rp'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:30:01: Lua Error: 
+[ERROR] gamemodes/darkrp/gamemode/core/credits/init_sv.lua:169: ')' expected (to close '(' at line 166) near 'rp'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/init.lua:3
+
+
+L 07/24/2020 - 06:41:09: Lua Error: gamemodes/darkrp/gamemode/core/credits/init_sv.lua:172: attempt to index global 'data' (a nil value)
+
+L 07/24/2020 - 06:49:04: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. notify_all - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:41
+     4. Run - addons/badmin_2/lua/ba/plugins/tellall.lua:11
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 06:49:05: Lua Error: 
+[ERROR] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (rp.shop.Menu)
+
+  1. OpenMenu - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:43
+   2. func - gamemodes/darkrp/gamemode/core/credits/init_sv.lua:65
+    3. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/24/2020 - 06:52:37: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. notify_all - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:41
+     4. Run - addons/badmin_2/lua/ba/modules/darkrp/commands_sh.lua:299
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 06:52:39: Lua Error: 
+[badmin_2] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/24/2020 - 06:55:10: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. notify_all - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:41
+     4. Run - addons/badmin_2/lua/ba/modules/darkrp/commands_sh.lua:299
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 06:55:14: Lua Error: 
+[badmin_2] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/24/2020 - 06:59:24: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. notify_all - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:41
+     4. Run - addons/badmin_2/lua/ba/plugins/tellall.lua:11
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 06:59:24: Lua Error: 
+[badmin_2] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/24/2020 - 07:18:28: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:15: unexpected symbol near ')'
+
+
+L 07/24/2020 - 07:19:56: Lua Error: 
+[badmin_2] addons/badmin_2/lua/ba/core/commands/commands_sv.lua:37: attempt to call method 'IsBanned' (a nil value)
+  1. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:37
+   2. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+    3. Run - addons/dash_3/lua/dash/libraries/cmd.lua:303
+     4. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+      5. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 07:26:35: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. notify_all - addons/badmin_2/lua/ba/core/util/notifications/notify_sv.lua:42
+     4. Run - addons/badmin_2/lua/ba/modules/darkrp/commands_sh.lua:299
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 07:26:39: Lua Error: 
+[badmin_2] Warning! A net message (ba.NotifyTerm) is already started! Discarding in favor of the new message! (_AntiCrash)
+
+  1. unknown - addons/badmin_2/lua/ba/plugins/anticrash.lua:5
+
+
+L 07/24/2020 - 08:18:27: "Bot01<4><BOT><>" connected, address "none"
+L 07/24/2020 - 08:18:27: "Bot01<4><BOT><>" entered the game
+L 07/24/2020 - 08:23:06: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. v - addons/badmin_2/lua/ba/core/commands/commands_sv.lua:6
+      5. Call - addons/dash_3/lua/dash/libraries/hook.lua:36
+       6. Parse - addons/dash_3/lua/dash/libraries/cmd.lua:79
+        7. Run - addons/dash_3/lua/dash/libraries/cmd.lua:313
+         8. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+          9. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 08:23:08: Lua Error: 
+[dash_3] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (rp.NotifyTerm)
+
+  1. NotifyAll - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:35
+   2. ChangeTeam - gamemodes/darkrp/gamemode/core/makethings/makethings_sv.lua:92
+    3. FinishDemote - gamemodes/darkrp/gamemode/core/player/teams/teams_sv.lua:226
+     4. Run - gamemodes/darkrp/gamemode/core/player/teams/teams_sv.lua:251
+      5. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+       6. unknown - addons/dash_3/lua/dash/libraries/cmd.lua:362
+        7. unknown - lua/includes/modules/concommand.lua:54
+
+
+L 07/24/2020 - 08:36:14: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/libraries/term.lua:59: bad argument #1 to 'WriteUInt' (number expected, got nil)
+  1. WriteUInt - [C]:-1
+   2. WriteTerm - addons/dash_3/lua/dash/libraries/term.lua:59
+    3. Notify - gamemodes/darkrp/gamemode/util/notifications/notify/init_sv.lua:22
+     4. Explode - gamemodes/darkrp/entities/entities/money_printer/init.lua:76
+      5. PrintMoney - gamemodes/darkrp/entities/entities/money_printer/init.lua:85
+       6. unknown - gamemodes/darkrp/entities/entities/money_printer/init.lua:30
+
+
+L 07/24/2020 - 08:36:17: Lua Error: 
+[dash_3] Warning! A net message (rp.NotifyTerm) is already started! Discarding in favor of the new message! (nw.EntityRemoved)
+
+  1. v - addons/dash_3/lua/dash/libraries/nw.lua:271
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/24/2020 - 08:36:17: "Bot01<4><BOT><>" disconnected (reason "Server shutting down")
+L 07/24/2020 - 08:36:17: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/24/2020 - 08:36:17: server_message: "quit"
+L 07/24/2020 - 08:36:17: Log file closed.

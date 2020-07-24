@@ -146,6 +146,39 @@ rp.AddCommand('buyupgrade', function(pl, args)
 end)
 :AddParam(cmd.STRING)
 
+rp.AddCommand('promocode', function(pl, promo)
+	promo = string.Trim(utf8.lower(promo))
+	db:Query('SELECT * FROM `rp_promocodes` WHERE `code`=?;', promo, function(data)
+		data = data[1]
+		if not data or data.Amount <= 0 or data.Expire <= os.time() then pl:Notify(NOTIFY_ERROR, term.Get("PromocodeNotFound")) return end
+		db:Query('SELECT * FROM `rp_promocodes_history` WHERE `SteamID`=? AND `code`=?;', pl:SteamID64(), promo, function(hist)
+			if hist[1] then pl:Notify(NOTIFY_ERROR, term.Get("YouAlreadyUsedPromocode")) return end
+			db:Query('UPDATE `rp_promocodes` SET `Amount`=`Amount`- 1 WHERE `code`=?;', promo, function()
+				db:Query('INSERT INTO `rp_promocodes_history` (`SteamID`, `Code`, `Time`) VALUES (?, ?, ?)', pl:SteamID64(), promo, os.time(), function()
+					pl:AddCredits(data.Reward)
+					pl:Notify(NOTIFY_SUCCESS, term.Get("PromocodeActivated"), promo, rp.FormatCredits(data.Reward))
+				end)
+			end)
+		end)
+	end)
+end)
+:AddParam(cmd.STRING)
+:SetCooldown(3)
+
+
+ba.AddCommand('createpromocode', function(pl, promo, amount, reward, expire)
+	promo = string.Trim(utf8.lower(promo))
+	db:Query('REPLACE INTO `rp_promocodes`(`Code`, `Amount`, `Reward`, `Expire`) VALUES (?, ?, ?, ?)', promo, amount, reward, os.time() + expire, function()
+		ba.notify(pl, term.Get("PromocodeCreated"), promo, rp.FormatCredits(reward), string.FormatTime(expire), amount)
+	end)
+end)
+:AddParam(cmd.STRING)
+:AddParam(cmd.NUMBER)
+:AddParam(cmd.NUMBER)
+:AddParam(cmd.TIME)
+:SetFlag '*'
+
+
 net("rp.PermaWeaponSettings", function(len,pl)
 	if (#pl:GetPermaWeapons() == 0) then return end
 

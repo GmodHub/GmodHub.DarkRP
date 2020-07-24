@@ -100,18 +100,18 @@ if (SERVER) then
 end
 
 local sayings = {
-	'# is a sexy beast!',
-	'# has paid $2.50 to look cool in front of everyone',
+	'# сексуальный тигр!',
+	'# заплатил 250 кредитов чтобы показать насколько он крут',
 	'# is love # is life',
 	'° ͜ʖ ͡° # ͡° ͜ʖ ͡°',
-	'Everyone tell # how cool they are',
-	'Winner winner chicken dinner! # bought an announcement!',
-	'# is as cool as a cucumber',
-	'# has spent $2.50 so I, the server, must inform you all that they are cool',
+	'Все говорят насколько # крут',
+	'Победа, победа, вместо обеда! # приобрёл оповещение!',
+	'# крут как огурец',
+	'# потратил 250 кредитов поэтом я, сервер, должен сказать вам насколько он крут',
 }
 rp.shop.Add('Оповещение', 'announcement')
 	:SetCat('General')
-	:SetDesc('If you\'re bored and have $2.50 to blow, you may as well buy this and let the whole server know how cool you are.')
+	:SetDesc('Если вы устали и у вас есть лишние 250 кредитов, тогда вы сможете проинформировать весь сервер о вашей крутости.')
 	:SetImage('005-megaphone.png')
 	:SetPrice(250)
 	:SetOnBuy(function(self, pl)
@@ -330,7 +330,7 @@ rp.shop.Add('Модератор (60 дней)', 'trial_mod_60d')
 
 
 -- Events
-rp.shop.Add('Паркур Эвент', 'event_parkour')
+rp.shop.Add('Parkout Эвент', 'event_parkour')
 	:SetCat('Events')
 	:SetDesc('Все смогут использовать паркур свеп.\nДействует 30 минут.')
 	:SetImage('parkour.png')
@@ -345,14 +345,14 @@ rp.shop.Add('Паркур Эвент', 'event_parkour')
 		RunConsoleCommand('ba', 'startevent', 'Parkour', '30mi')
 	end)
 
-rp.shop.Add('Vape Event', 'event_vape')
+rp.shop.Add('Vape Эвент', 'event_vape')
 	:SetCat('Events')
-	:SetDesc('Everyone will spawn with a vape.\nLasts 30 minutes.')
+	:SetDesc('Все получают электронную сигарету при спавне.\nДействует 30 минут.')
 	:SetIcon('models/swamponions/vape.mdl')
 	:SetPrice(300)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Vape') then
-			return false, 'This event is already running!'
+			return false, 'Этот эвент уже начался!'
 		end
 		return true
 	end)
@@ -361,14 +361,14 @@ rp.shop.Add('Vape Event', 'event_vape')
 	end)
 
 
-rp.shop.Add('VIP Event', 'event_vip')
+rp.shop.Add('VIP Эвент', 'event_vip')
 	:SetCat('Events')
-	:SetDesc('Everyone will be able to use VIP perks.\nLasts 30 minutes.')
+	:SetDesc('Каждый получит возможности VIP привилегии.\nДействует 30 минут.')
 	:SetImage('ticket.png')
 	:SetPrice(350)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('VIP') then
-			return false, 'This event is already running!'
+			return false, 'Этот эвент уже начался!'
 		end
 		return true
 	end)
@@ -376,14 +376,14 @@ rp.shop.Add('VIP Event', 'event_vip')
 		RunConsoleCommand('ba', 'startevent', 'VIP', '30mi')
 	end)
 
-rp.shop.Add('Printer Event', 'event_printer')
+rp.shop.Add('Printer Эвент', 'event_printer')
 	:SetCat('Events')
-	:SetDesc('Everyone\'s printers will print 50% more.\nLasts 30 minutes.')
+	:SetDesc('Все принтеры будут печатать на 50% больше.\nДействует 30 минут.')
 	:SetIcon('models/gmh/printer/printer.mdl')
 	:SetPrice(450)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Printer') then
-			return false, 'This event is already running!'
+			return false, 'Этот эвент уже начался!'
 		end
 		return true
 	end)
@@ -391,20 +391,20 @@ rp.shop.Add('Printer Event', 'event_printer')
 		RunConsoleCommand('ba', 'startevent', 'printer', '30mi')
 	end)
 
-rp.shop.Add('Crafting Event', 'event_crafting')
+/*rp.shop.Add('Crafting Event', 'event_crafting')
 	:SetCat('Events')
 	:SetDesc('Everyone\'s labs will craft 25% faster.\nLasts 30 minutes.')
 	:SetIcon('models/props/cs_italy/it_mkt_table3.mdl')
 	:SetPrice(450)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Crafting') then
-			return false, 'This event is already running!'
+			return false, 'Этот эвент уже начался!'
 		end
 		return true
 	end)
 	:SetOnBuy(function(self, pl)
 		RunConsoleCommand('ba', 'startevent', 'crafting', '30mi')
-	end)
+	end)*/
 
 rp.shop.Add('BURGATRON', 'event_burger')
 	:SetCat('Events')
@@ -413,7 +413,7 @@ rp.shop.Add('BURGATRON', 'event_burger')
 	:SetPrice(300)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('BURGATRON') then
-			return false, 'This event is already running!'
+			return false, 'Этот эвент уже начался!'
 		end
 		return true
 	end)
@@ -539,7 +539,7 @@ rp.shop.Add('Slam', 'perma_slam')
 		weps[#weps + 1] = wep
 		pl:SetVar('PermaWeapons', weps)
 
-		RunConsoleCommand('ba', 'tellall', 'Everyone thank ' .. pl:Name() .. ' for wasting $250 on a perma slam.')
+		RunConsoleCommand('ba', 'tellall', 'Скажите спасибо ' .. pl:Name() .. ' за потраченные 25000 Cr. на slam.')
 	end)
 
 rp.shop.Add('Crossbow', 'perma_crossbow')
@@ -553,7 +553,7 @@ rp.shop.Add('Crossbow', 'perma_crossbow')
 		weps[#weps + 1] = wep
 		pl:SetVar('PermaWeapons', weps)
 
-		RunConsoleCommand('ba', 'tellall', 'Everyone thank ' .. pl:Name() .. ' for wasting $500 on a perma crossbow.')
+		RunConsoleCommand('ba', 'tellall', 'Скажите спасибо ' .. pl:Name() .. ' за потраченные 50000 Cr. на арбалет.')
 	end)
 
 rp.shop.Add('RPG', 'perma_rpg')
@@ -567,7 +567,7 @@ rp.shop.Add('RPG', 'perma_rpg')
 		weps[#weps + 1] = wep
 		pl:SetVar('PermaWeapons', weps)
 
-		RunConsoleCommand('ba', 'tellall', 'Everyone thank ' .. pl:Name() .. ' for wasting $1000 on a perma RPG.')
+		RunConsoleCommand('ba', 'tellall', 'Скажите спасибо ' .. pl:Name() .. ' за потраченные 100000 Cr. на RPG.')
 	end)
 
 rp.shop.Add('C4', 'perma_c4')
@@ -581,7 +581,7 @@ rp.shop.Add('C4', 'perma_c4')
 		weps[#weps + 1] = wep
 		pl:SetVar('PermaWeapons', weps)
 
-		RunConsoleCommand('ba', 'tellall', 'Everyone thank ' .. pl:Name() .. ' for wasting $2000 on a perma C4.')
+		RunConsoleCommand('ba', 'tellall', 'Скажите спасибо ' .. pl:Name() .. ' за потраченные 200000 Cr. на C4.')
 	end)
 
 -- Add ALL the knife skins!

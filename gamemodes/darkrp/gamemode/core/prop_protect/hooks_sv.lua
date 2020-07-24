@@ -62,7 +62,7 @@ end
 hook('PhysgunPickup', 'pp.PhysgunPickup', function(pl, ent)
 	if IsValid(ent) then
 		local canphys = rp.pp.PlayerCanManipulate(pl, ent)
-			
+
 		if (not canphys) and ent.PhysgunPickup then
 			canphys = ent:PhysgunPickup(pl)
 		elseif ent.LazyFreeze then

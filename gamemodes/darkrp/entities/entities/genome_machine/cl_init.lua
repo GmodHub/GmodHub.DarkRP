@@ -20,6 +20,6 @@ function ENT:Draw()
 	ang:RotateAroundAxis(ang:Right(), -90)
 
 	cam.Start3D2D((self:GetPos() + self:GetUp() * self:OBBMaxs().z) + Vector(0, 0, 5), ang, 0.15)
-		draw.SimpleTextOutlined('Genome Machine', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined('Полицейский Геном', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
 	cam.End3D2D()
 end

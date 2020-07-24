@@ -1,0 +1,59 @@
+L 07/24/2020 - 09:52:22: Log file started (file "logs\L0724004.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/24/2020 - 09:52:22: server_cvar: "sv_password" "***PROTECTED***"
+L 07/24/2020 - 09:52:22: server_cvar: "sv_airaccelerate" "100"
+L 07/24/2020 - 09:52:24: Connection to Steam servers successful.
+L 07/24/2020 - 09:52:24:    Public IP is 31.130.42.26.
+L 07/24/2020 - 09:52:24: Assigned anonymous gameserver Steam ID [A-1:1967760388(15219)].
+L 07/24/2020 - 09:52:24: VAC secure mode is activated.
+L 07/24/2020 - 09:52:24: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/24/2020 - 09:52:25: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/24/2020 - 09:52:36: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/24/2020 - 10:23:58: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/extensions/util.lua:118: attempt to index local 'pos' (a nil value)
+  1. FindEmptyPos - addons/dash_3/lua/dash/extensions/util.lua:118
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:355
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:264
+
+
+L 07/24/2020 - 10:23:58: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/extensions/util.lua:118: attempt to index local 'pos' (a nil value)
+  1. FindEmptyPos - addons/dash_3/lua/dash/extensions/util.lua:118
+   2. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:355
+    3. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:382
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:264
+
+
+L 07/24/2020 - 10:24:21: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/extensions/util.lua:118: attempt to index local 'pos' (a nil value)
+  1. FindEmptyPos - addons/dash_3/lua/dash/extensions/util.lua:118
+   2. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:355
+    3. Spawn - [C]:-1
+     4. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:264
+
+
+L 07/24/2020 - 10:24:21: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/extensions/util.lua:118: attempt to index local 'pos' (a nil value)
+  1. FindEmptyPos - addons/dash_3/lua/dash/extensions/util.lua:118
+   2. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:355
+    3. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:382
+     4. Spawn - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/core/core_sv.lua:264
+
+
+L 07/24/2020 - 10:25:13: Lua Error: 
+[dash_3] addons/dash_3/lua/dash/extensions/util.lua:118: attempt to index local 'pos' (a nil value)
+  1. FindEmptyPos - addons/dash_3/lua/dash/extensions/util.lua:118
+   2. PlayerSelectSpawn - gamemodes/darkrp/gamemode/core/core_sv.lua:355
+    3. Call - gamemodes/darkrp/gamemode/core/core_sv.lua:32
+     4. ChangeTeam - gamemodes/darkrp/gamemode/core/makethings/makethings_sv.lua:123
+      5. Run - gamemodes/darkrp/gamemode/core/makethings/makethings_sv.lua:214
+       6. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+        7. func - addons/dash_3/lua/dash/libraries/cmd.lua:501
+         8. unknown - lua/includes/extensions/net.lua:32
+
+
+L 07/24/2020 - 10:25:52: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/24/2020 - 10:25:52: server_message: "quit"
+L 07/24/2020 - 10:25:52: Log file closed.

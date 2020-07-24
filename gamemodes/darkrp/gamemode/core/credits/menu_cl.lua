@@ -386,6 +386,18 @@ function PANEL:AddControls(f4)
 		self.BuyCredits.DoClick = function(s)
 			gui.OpenURL(rp.cfg.CreditsURL .. LocalPlayer():SteamID())
 		end
+
+		self.UsePromo = ui.Create('DButton', f4)
+		self.UsePromo:SetText('Промокод')
+		self.UsePromo.BackgroundColor = ui.col.DarkGreen
+		self.UsePromo:SizeToContents()
+		self.UsePromo:SetSize(self.UsePromo:GetWide() + 10, f4.btnClose:GetTall())
+		self.UsePromo:SetPos(self.BuyCredits.x - self.UsePromo:GetWide() + 1, 0)
+		self.UsePromo.DoClick = function(s)
+			ui.StringRequest('Использовать Промокод', 'Введите промокод', '', function(resp)
+				cmd.Run('promocode', resp)
+			end)
+		end
 	end
 
 	if IsValid(self.CreditsBalance) then
@@ -397,7 +409,7 @@ function PANEL:AddControls(f4)
 		self.CreditsBalance:SetText(string.Comma(LocalPlayer():GetCredits()) .. ' Cr')
 		self.CreditsBalance:SizeToContents()
 		self.CreditsBalance:SetSize(self.CreditsBalance:GetWide() + 10, f4.btnClose:GetTall())
-		self.CreditsBalance:SetPos(self.BuyCredits.x - self.CreditsBalance:GetWide() + 1, 0)
+		self.CreditsBalance:SetPos(self.UsePromo.x - self.CreditsBalance:GetWide() + 1, 0)
 	end
 end
 

@@ -5,7 +5,7 @@ function rp.FormatMoney(n)
 end
 
 function rp.FormatCredits(n)
-	return string_comma(n) .. ' Credits'
+	return string_comma(n) .. ' Cr'
 end
 
 function rp.formatNumber(n)

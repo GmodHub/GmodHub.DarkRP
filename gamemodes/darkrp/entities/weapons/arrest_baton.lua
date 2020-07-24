@@ -3,7 +3,7 @@ AddCSLuaFile()
 DEFINE_BASECLASS('baton_base')
 
 if CLIENT then
-	SWEP.PrintName = 'Арестовывающая Дубинка'
+	SWEP.PrintName = 'Дубинка Ареста'
 	SWEP.Instructions = 'Left click to arrest\nRight click to switch to unarrest'
 end
 
@@ -27,7 +27,7 @@ function SWEP:PrimaryAttack()
 			end
 
 			if (owner:IsGov() and !owner.IsBeingDemoted) then
-				owner:StartDemotionVote("Illegal items as government worker")
+				//owner:StartDemotionVote("Illegal items as government worker")
 			end
 		end
 
@@ -124,7 +124,7 @@ function SWEP:SecondaryAttack()
 
 	local targ = self.Owner.QuickwantTarget
 	if IsValid(targ) and (self.Owner.QuickwantTargetTime > CurTime()) and (not targ:IsArrested()) then
-		targ:Wanted(nil, 'Assaulting an officer')
+		targ:Wanted(nil, 'Нападение на Офицера')
 		self.Owner:Notify(NOTIFY_SUCCESS, term.Get('YouWanted'), targ)
 		self.Owner.QuickwantTarget = nil
 		self.Owner.QuickwantTargetTime = nil
@@ -153,7 +153,7 @@ function SWEP:SecondaryAttack()
 				return
 			end
 
-			ent:Wanted(self.Owner, 'Illegal Activity')
+			ent:Wanted(self.Owner, 'Нелегальные Предметы')
 			self.Owner:Notify(NOTIFY_SUCCESS, term.Get('YouWanted'), ent)
 		end
 	end

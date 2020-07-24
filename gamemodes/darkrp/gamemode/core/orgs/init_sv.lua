@@ -320,6 +320,7 @@ net('rp.AddEditOrgRank', function(len, pl)
 
 	local create = net.ReadBool()
 	local rankName = net.ReadString() or ""
+	if pl:GetOrgRank() == rankName then return end
 	local weight = net.ReadUInt(7) or -1
 
 	local invite = net.ReadBit()

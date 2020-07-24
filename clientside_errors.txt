@@ -111595,3 +111595,178 @@ COMPLΞX|5|STEAM_0:0:105635721
 
 
 
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:395: attempt to index field 'CreditsBalance' (a nil value)
+  1. AddControls - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:395
+   2. TabChanged - gamemodes/darkrp/gamemode/core/ui/vgui/f4/init_cl.lua:85
+    3. SetActiveTab - addons/badmin_2/lua/ui/controls/tablist.lua:37
+     4. func - addons/badmin_2/lua/ui/controls/tablist.lua:93
+      5. DoClick - addons/badmin_2/lua/ui/controls/tablist.lua:66
+       6. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:397: attempt to call field 'StirngRequest' (a nil value)
+  1. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:397
+   2. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[badmin_2] lua/vgui/dtextentry.lua:277: bad argument #1 to 'SetText' (string expected, got function)
+  1. SetText - [C]:-1
+   2. SetValue - lua/vgui/dtextentry.lua:277
+    3. f - addons/badmin_2/lua/ui/util.lua:165
+     4. Create - addons/badmin_2/lua/ui/util.lua:64
+      5. StringRequest - addons/badmin_2/lua/ui/util.lua:162
+       6. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:397
+        7. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[DarkRP] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:397: '=' expected near '`'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[DarkRP] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:397: '=' expected near '`'
+  1. include_dir - gamemodes/darkrp/gamemode/sh_init.lua:47
+   2. Init - gamemodes/darkrp/gamemode/sh_init.lua:90
+    3. unknown - gamemodes/darkrp/gamemode/sh_init.lua:123
+     4. include - [C]:-1
+      5. unknown - gamemodes/darkrp/gamemode/cl_init.lua:1
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:72: attempt to index upvalue 'choices' (a boolean value)
+  1. OnChange - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:72
+   2. OnChange - lua/vgui/dcheckbox.lua:84
+    3. SetValue - lua/vgui/dcheckbox.lua:31
+     4. Toggle - lua/vgui/dcheckbox.lua:47
+      5. DoClick - lua/vgui/dcheckbox.lua:40
+       6. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:144: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:144
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:79
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:144: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:144
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:144: attempt to index local 'choices' (a boolean value)
+  1. unknown - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:144
+   2. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:524
+    3. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:536
+     4. DoClick - gamemodes/darkrp/gamemode/core/credits/menu_cl.lua:603
+      5. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|7|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:229: bad argument #1 to 'pairs' (table expected, got nil)
+  1. pairs - [C]:-1
+   2. SelectHat - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:229
+    3. DoClick - gamemodes/darkrp/gamemode/core/cosmetics/hats/hats_cl.lua:367
+     4. unknown - lua/vgui/dlabel.lua:237
+
+
+

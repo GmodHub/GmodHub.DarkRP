@@ -1,5 +1,5 @@
 ENT.Type 		= 'anim'
-ENT.Base 		= 'base_anim'
+ENT.Base 		= 'base_rp'
 ENT.PrintName 	= 'Genome Machine'
 ENT.Author 		= 'KingofBeast'
 ENT.Spawnable 	= true

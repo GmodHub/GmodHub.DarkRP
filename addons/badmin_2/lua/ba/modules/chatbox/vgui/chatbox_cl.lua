@@ -648,7 +648,7 @@ function PANEL:PerformLayout(w, h)
 	if (!self.activeMessageFrame) then
 		self.activeMessageFrame = self:GetSheet("All")
 		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Добро пожаловать на ', Color(51, 128, 255), 'GmodHub!'})
-		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Лучшие сервера во всём', Color(51, 128, 255), 'Garry\'s mod!'})
+		self:AddMessage({Color(255, 100, 0), '| ', Color(255, 255, 255), 'Лучшие сервера во всём ', Color(51, 128, 255), 'Garry\'s mod!'})
 	end
 
 	for k, v in pairs(self.Sheets) do

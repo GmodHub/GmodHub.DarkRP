@@ -14,7 +14,8 @@ hook.Add('playerRankLoaded', 'datamerger.playerRankLoaded', function(pl)
 	end)
 end)
 
-hook.Add('ShowHelp', 'motd.ShowHelp', function(pl)
-	pl:ConCommand('ba motd')
-	return true
+hook.Add( "PlayerButtonDown", "rp.Motd.Show", function( pl, button )
+	if (button == KEY_F10) then
+		pl:ConCommand('ba motd')
+	end
 end)
