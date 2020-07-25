@@ -3,7 +3,7 @@ AddCSLuaFile('shared.lua')
 include('shared.lua')
 
 ENT.SeizeReward = 250
-ENT.WantReason = 'Money Printing Devices'
+ENT.WantReason = 'Устройства для Печати Денег'
 
 function ENT:Initialize()
 	self:SetModel('models/props_c17/tools_wrench01a.mdl')

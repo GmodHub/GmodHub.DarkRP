@@ -30,7 +30,7 @@ function ENT:Draw()
 
 	cam.Start3D2D((pos + self:GetForward() * (self:OBBMaxs().y - 4.25)), ang, 0.020)
 		draw.Box(-550,-325,1100,650, color_bg)
-		draw.SimpleTextOutlined(IsValid(self:Getowning_ent()) and self:Getowning_ent():Name() or 'Unknown', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Money: $' .. self:Getmoney(), '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined(IsValid(self:Getowning_ent()) and self:Getowning_ent():Name() or 'Неизвестно', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined('Деньги: $' .. self:Getmoney(), '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 end

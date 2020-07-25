@@ -3,7 +3,7 @@ AddCSLuaFile('shared.lua')
 include('shared.lua')
 
 ENT.SeizeReward = 500
-ENT.WantReason = 'Money Printers'
+ENT.WantReason = 'Денежный Принтер'
 ENT.LazyFreeze = true
 
 function ENT:Initialize()
@@ -15,10 +15,8 @@ function ENT:Initialize()
 	self:PhysWake()
 	self:SetSequence("Print_One_Bill")
 
-	self.RemoveDelay = math.random(900, 1800)
-
-	self.sound = CreateSound(self, Sound("ambient/levels/labs/equipment_printer_loop1.wav"))
-	self.sound:SetSoundLevel(30)
+	self.RemoveDelay = math.random(900, 3600)
+	self:EmitSound("ambient/levels/labs/equipment_printer_loop1.wav", 60, 100)
 
 	self:SetMaxInk(10)
 	self:SetInk(10)
@@ -50,7 +48,7 @@ function ENT:Use(pl)
 end
 
 function ENT:OnRemove()
-	self.sound:Stop()
+	self:StopSound("ambient/levels/labs/equipment_printer_loop1.wav")
 end
 
 function ENT:OnTakeDamage(damageData)
@@ -73,7 +71,7 @@ function ENT:Explode()
 	self:Remove()
 
 	if IsValid(self:Getowning_ent()) then
-		rp.Notify(self:Getowning_ent(), NOTIFY_ERROR, term.Get('PrinterExploded'))
+		self:OnExplode()
 	end
 end
 

@@ -5,8 +5,6 @@ ENT.Author 		= 'aStonedPenguin'
 ENT.Spawnable 	= false
 ENT.PressE 		= true
 
-ENT.NetworkPlayerUse = true
-
 ENT.MinPrice = 10
 ENT.MaxPrice = 150
 

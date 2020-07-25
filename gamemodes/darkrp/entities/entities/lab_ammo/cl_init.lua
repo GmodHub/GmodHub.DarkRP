@@ -22,15 +22,15 @@ function ENT:Draw()
 	ang:RotateAroundAxis(ang:Right(), math.sin(CurTime() * math.pi) * -45)
 
 	cam.Start3D2D(pos, ang, 0.050)
-		draw.SimpleTextOutlined('Ammo Lab', '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Price: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('Раздатчик Боеприпасов', '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined('Цена: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 
 	ang:RotateAroundAxis(ang:Right(), 180)
 
 	cam.Start3D2D(pos, ang, 0.070)
-		draw.SimpleTextOutlined('Ammo Lab', '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Price: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('Раздатчик Боеприпасов', '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined('Цена: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 end
 

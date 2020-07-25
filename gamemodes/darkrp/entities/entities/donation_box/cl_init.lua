@@ -30,6 +30,6 @@ function ENT:Draw()
 
 	cam.Start3D2D(pos + (ang:Right() * -20) + (ang:Up() * -14.51) , ang, 0.0225)
 		draw.SimpleTextOutlined(owner, '3d2d', 0, -80, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Donations: $' .. self:Getmoney(), '3d2d', 0, -80, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('Пожертвования: $' .. self:Getmoney(), '3d2d', 0, -80, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 end

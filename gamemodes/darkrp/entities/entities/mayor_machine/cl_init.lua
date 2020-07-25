@@ -28,7 +28,7 @@ local buttons = {
 		y = h * 0.25,
 		w = w * 0.5,
 		h = h * 0.25,
-		text = "Laws",
+		text = "Законы",
 		func = 'laws'
 	},
 	{
@@ -36,12 +36,12 @@ local buttons = {
 		y = h * 0.25,
 		w = w * 0.5,
 		h = h * 0.25,
-		text = "Lotto",
+		text = "Лотерея",
 		func = function()
 			local recurse
 
 			recurse = function(tried)
-				ui.StringRequest("Lottery", "How much is the entry fee?" .. (tried and " Please enter a NUMBER." or ""), 1000, function(val)
+				ui.StringRequest("Лотерея", "На какую сумму будет лотерея?" .. (tried and " Пожалуйста, введите ЧИСЛО." or ""), 1000, function(val)
 					if (val and tonumber(val) and tostring(tonumber(val)) == val) then
 						cmd.Run('lotto', tonumber(val))
 					else
@@ -58,13 +58,13 @@ local buttons = {
 		y = h * 0.5,
 		w = w,
 		h = h * 0.25,
-		text = "Toggle Lockdown",
+		text = "Начать Комендантский Час",
 		func = function()
 			if nw.GetGlobal('lockdown') then
 				cmd.Run('unlockdown')
 				return
 			end
-			ui.BoolRequest('Lockdown', 'Are you sure you\'d like to start a lockdown?', function(yes)
+			ui.BoolRequest('Комендантский Час', 'Вы уверены, что хотите начать комендантский час?', function(yes)
 				if yes then
 					cmd.Run('lockdown')
 				end
@@ -76,7 +76,7 @@ local buttons = {
 		y = h * 0.75,
 		w = w,
 		h = h * 0.25,
-		text = "Release Prisoner",
+		text = "Освободить Заключённого",
 		func = 'bail'
 	},
 }
@@ -127,7 +127,7 @@ function ENT:Draw()
 		if (!LocalPlayer():IsMayor()) then
 			surface.SetDrawColor(0, 0, 0, 252)
 			surface.DrawRect(0, 0, w, h)
-			draw.SimpleText('Access Denied!', '3d2d', 800, 604, ui.col.Red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Доступ Запрещён!', '3d2d', 800, 604, ui.col.Red, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 			surface.SetDrawColor(rp.col.White)
 		else
 			surface.SetDrawColor(rp.col.Red)

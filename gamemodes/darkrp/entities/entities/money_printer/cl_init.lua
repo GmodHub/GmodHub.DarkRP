@@ -99,7 +99,7 @@ function ENT:Draw()
 			end
 
 		else
-			draw_SimpleText('Unknown', font, tx, ty, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+			draw_SimpleText('Неизвестно', font, tx, ty, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 		end
 	cam_End3D2D()
 end

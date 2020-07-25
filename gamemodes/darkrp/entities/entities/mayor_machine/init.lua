@@ -14,7 +14,7 @@ function ENT:Initialize()
 end
 
 hook.Add("InitPostEntity", "rp.MayorMachine", function()
-	for k, v in ipairs(rp.cfg.MayorMachines[game.GetMap()]) do
+	for k, v in pairs(rp.cfg.MayorMachines[game.GetMap()]) do
 		local machine = ents.Create('mayor_machine')
 		machine:SetPos(v.Pos)
 		machine:SetAngles(v.Ang)

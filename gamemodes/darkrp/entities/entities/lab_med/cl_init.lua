@@ -22,9 +22,9 @@ function ENT:Draw()
 	ang:RotateAroundAxis(ang:Right(), -90)
 
 	cam.Start3D2D(pos + ang:Right() * -26 + ang:Up() * 10, ang, 0.05)
-		draw.SimpleTextOutlined('Medic lab', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Price: $' .. self.dt.price .. '/hp', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
-		draw.SimpleTextOutlined('$' .. self.dt.price * (100 - math.Clamp(pl:Health(), 0, 100)) .. ' total', '3d2d', 0, 130, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('Раздатчик здоровья', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined('Цена: $' .. self.dt.price .. '/hp', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('$' .. self.dt.price * (100 - math.Clamp(pl:Health(), 0, 100)) .. ' итого', '3d2d', 0, 130, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 end
 

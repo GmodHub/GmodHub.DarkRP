@@ -15,7 +15,7 @@ function ENT:Initialize()
 	self:PhysWake()
 end
 
-function ENT:CustomUse(pl)
+function ENT:PlayerUse(pl)
 	local tbl = {}
 
 	for k, v in ipairs(rp.ArrestedPlayers) do

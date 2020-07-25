@@ -3,7 +3,7 @@ ENT.Base 			= 'base_rp'
 ENT.PrintName 		= 'Money Printer'
 ENT.Author 			= 'aStonedPenguin'
 ENT.Spawnable 		= false
-ENT.PressKeyText	= 'To refill'
+ENT.PressKeyText	= 'Чтобы заправить'
 
 function ENT:SetupDataTables()
 	self:NetworkVar('Entity', 1, 'owning_ent')

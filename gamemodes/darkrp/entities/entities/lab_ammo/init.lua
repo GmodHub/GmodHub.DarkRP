@@ -1,15 +1,11 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 ENT.RemoveOnJobChange = true
 
-ENT.SeizeReward = 350
-ENT.WantReason = 'Black Market Item (Ammo lab)'
-
-ENT.MinPrice = 50
-ENT.MaxPrice = 500
+ENT.MaxHealth = 150
+ENT.DamageScale = 0.5
+ENT.ExplodeOnRemove = true
 
 function ENT:Initialize()
 	self.LastFired = 0
@@ -25,36 +21,17 @@ function ENT:Initialize()
 	self:PhysWake()
 
 	self:Setprice(self.MinPrice)
-
-	self.damage = 150
 end
 
-function ENT:OnTakeDamage(dmg)
-	local phys = self:GetPhysicsObject()
-	if not phys:IsMoveable() then return end
-
-	self.damage = self.damage - dmg:GetDamage()
-	if (self.damage <= 0) then
-		self:Remove()
-	end
+function ENT:CanNetworkUse(pl)
+	return self.ItemOwner == pl
 end
 
-function ENT:Destruct()
-	local vPoint = self:GetPos()
-	local effectdata = EffectData()
-	effectdata:SetStart(vPoint)
-	effectdata:SetOrigin(vPoint)
-	effectdata:SetScale(1)
-	util.Effect('Explosion', effectdata)
-end
-
-function ENT:Use(activator, caller)
+function ENT:PlayerUse(caller)
 	local owner = self.ItemOwner
 
 	if self.LastFired <= CurTime() then
 		self.LastFired = CurTime() + self.Delay
-
-
 		self:ResetSequence(self:LookupSequence("close"))
 		self:SetPlaybackRate(0.1)
 		self:EmitSound("items/ammocrate_open.wav")
@@ -71,7 +48,7 @@ function ENT:Use(activator, caller)
 						amc = caller:GetAmmoCount(am)
 
 						if wep.Primary and wep.Primary.ClipSize then
-							if not caller:CanAfford(50) then 
+							if not caller:CanAfford(50) then
 								rp.Notify(caller, NOTIFY_ERROR, term.Get('CannotAfford'))
 								return
 							end
@@ -105,7 +82,7 @@ function ENT:Use(activator, caller)
 						if amc == 0 and v2:Clip1() == 0 and cl ~= v2:GetClass() then
 							if v2.Primary and v2.Primary.ClipSize then
 								if not caller == owner then
-									if not caller:CanAfford(50) then 
+									if not caller:CanAfford(50) then
 										rp.Notify(caller, NOTIFY_ERROR, term.Get('CannotAfford'))
 										return
 									end
@@ -120,7 +97,7 @@ function ENT:Use(activator, caller)
 								end
 							else
 								if not caller == owner then
-									if not caller:CanAfford(50) then 
+									if not caller:CanAfford(50) then
 										rp.Notify(caller, NOTIFY_ERROR, term.Get('CannotAfford'))
 										return
 									end
@@ -139,7 +116,7 @@ function ENT:Use(activator, caller)
 
 					if wep.Secondary and wep.Secondary.Ammo ~= "none" and caller:GetAmmoCount(wep.Secondary.Ammo) < 12 then
 					if not caller == owner then
-								if not caller:CanAfford(50) then 
+								if not caller:CanAfford(50) then
 									rp.Notify(caller, NOTIFY_ERROR, term.Get('CannotAfford'))
 									return
 								end
@@ -166,7 +143,6 @@ function ENT:Use(activator, caller)
 	end
 end
 
-function ENT:OnRemove()
-	self:Destruct()
+function ENT:OnExplode()
 	rp.Notify(self.ItemOwner, NOTIFY_ERROR, term.Get('AmmoLabExploded'))
 end

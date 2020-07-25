@@ -6,42 +6,12 @@ AddCSLuaFile("shared.lua")
 include("shared.lua")
 
 util.AddNetworkString("Pocket.Load")
-util.AddNetworkString("rp.inv.Drop")
 util.AddNetworkString("Pocket.RemoveItem")
 util.AddNetworkString("Pocket.AddItem")
 util.AddNetworkString("Pocket.AdminDelete")
+util.AddNetworkString("rp.inv.Drop")
 
 local wl = rp.inv.Wl
-
-local Ents = {} // If the server doesn't have the entity you pocketed we'll create an alternative instead
-Ents["ngii_a_cooler"] = "armor_piece_full"
-Ents["ngii_a_overclocker"] = "armor_piece_full"
-Ents["ngii_a_storagebox"] = "armor_piece_full"
-
-Ents["sp_cooler_low"] = "armor_piece_full"
-Ents["sp_cooler_medium"] = "armor_piece_full"
-Ents["sp_cooler_high"] = "armor_piece_full"
-Ents["sp_cooler_premium"] = "armor_piece_full"
-
-Ents["sp_overclocker_low"] = "armor_piece_full"
-Ents["sp_overclocker_medium"] = "armor_piece_full"
-Ents["sp_overclocker_high"] = "armor_piece_full"
-Ents["sp_overclocker_premium"] = "armor_piece_full"
-
-Ents["sp_storage_low"] = "armor_piece_full"
-Ents["sp_storage_medium"] = "armor_piece_full"
-Ents["sp_storage_high"] = "armor_piece_full"
-Ents["sp_storage_premium"] = "armor_piece_full"
-
-Ents["sp_supply_low"] = "armor_piece_full"
-Ents["sp_supply_medium"] = "armor_piece_full"
-Ents["sp_supply_high"] = "armor_piece_full"
-Ents["sp_supply_premium"] = "armor_piece_full"
-
-Ents['sp_cooler'] = "armor_piece_full"
-Ents['sp_overclocker'] = "armor_piece_full"
-Ents['sp_storage'] = "armor_piece_full"
-Ents['sp_supply'] = "armor_piece_full"
 
 local model_translations = {
 	['models/weapons/w_snip_awp.mdl']			= 'models/weapons/3_snip_awp.mdl',
@@ -116,6 +86,9 @@ local function GetEntityInfo(ent)
 	elseif (c == "spawned_weapon") then
 		tab.weaponclass = ent.weaponclass
 		if ent.number then tab.number = ent.number end
+		if ent.clip1 then tab.clip1 = ent.clip1 end
+		if ent.clip2 then tab.clip2 = ent.clip2 end
+		if ent.ammoadd then tab.ammoadd = ent.ammoadd end
 
 		for k, v in pairs(rp.shipments) do
 			if (v.entity == ent.weaponclass) then
@@ -146,6 +119,10 @@ local function Finalize(ent, tab, owner)
 		ent:SetModel(tab.Model)
 		ent.weaponclass = tab.weaponclass
 
+		if tab.clip1 then ent.clip1 = tab.clip1 end
+		if tab.clip2 then ent.clip2 = tab.clip2 end
+		if tab.ammoadd then ent.ammoadd = tab.ammoadd end
+
 		if tab.number then
 			ent.number = tab.number
 		end
@@ -166,7 +143,7 @@ net.Receive("rp.inv.Drop", function(len, pl)
 	if (pock[a]) then
 		local item = pock[a]
 
-		local ent_class = Ents[item.Class] and Ents[item.Class] or item.Class
+		local ent_class = item.Class
 
 		local ent = ents.Create(ent_class)
 		local trace = {}
@@ -206,7 +183,7 @@ function SWEP:PrimaryAttack()
 	if (!ph:IsValid()) then return end
 
 	if (!wl[ent:GetClass()]) then
-		self.Owner:ChatPrint("Ты не можешь " .. ent:GetClass() .. " положить в карман.")
+		self.Owner:Notify(NOTIFY_ERROR, term.Get('CannotPocket'), ent.PrintName)
 		return
 	end
 

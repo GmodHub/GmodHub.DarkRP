@@ -20,14 +20,6 @@ function ENT:Initialize()
 end
 
 function ENT:Use(pl)
-	self:SendWindow(pl)
-end
-
-function ENT:OnTakeDamage(damageData)
-	self:Remove()
-end
-
-function ENT:SendWindow(pl)
 	net.Start('rp.Note.Text')
 		net.WriteEntity(self)
 		net.WriteString(self.Text)

@@ -21,7 +21,7 @@ function ENT:Draw(callback) -- We're using the same model for all machines right
 			surface.SetDrawColor(0, 0, 0, 255)
 			surface.DrawRect(-840, -1900, 1600, 1225)
 
-			draw.SimpleText('Out of service...', '3d2d', 0, -1400, color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+			draw.SimpleText('Не Обслуживается...', '3d2d', 0, -1400, color_red, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 		else
 			if self.BackgroundMaterial then
 				surface.SetDrawColor(255, 255, 255, 255)
@@ -40,7 +40,7 @@ function ENT:Draw(callback) -- We're using the same model for all machines right
 			draw.NoTexture()
 			surface.SetDrawColor(255, 255, 255, 255)
 			surface.DrawArc(-20, -1800, 41, 46, t * 180, t * 180 + 180, 5)
-			draw.SimpleText('Transferring funds...', '3d2d', 0, -1750, color_green, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
+			draw.SimpleText('Перевод Средств...', '3d2d', 0, -1750, color_green, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
 		end
 
 	cam.End3D2D()
@@ -58,7 +58,7 @@ function ENT:PlayerUse()
 
 	if (ent:GetPos():Distance(LocalPlayer():GetPos()) >= 80) then return end
 
-	local w, h = 160, 160
+	local w, h = 180, 160
 	fr = ui.Create('ui_frame', function(self)
 		self:SetTitle(ent.PrintName)
 		self:SetSize(w, h)
@@ -86,9 +86,9 @@ function ENT:PlayerUse()
 			if (not IsValid(ent)) then return end
 
 			if (ent:GetInService()) then
-				self:SetText('Disable Service')
+				self:SetText('Выключить')
 			else
-				self:SetText('Enable Service')
+				self:SetText('Включить')
 			end
 		end
 		self.DoClick = function()

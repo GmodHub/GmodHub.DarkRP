@@ -1,12 +1,11 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 ENT.RemoveOnJobChange = true
 
-ENT.MinPrice = 1
-ENT.MaxPrice = 5
+ENT.MaxHealth = 150
+ENT.DamageScale = 0.5
+ENT.ExplodeOnRemove = true
 
 function ENT:Initialize()
 	self:SetModel('models/props_combine/health_charger001.mdl')
@@ -21,7 +20,11 @@ function ENT:Initialize()
 	self:Setprice(self.MinPrice)
 end
 
-function ENT:Use(pl)
+function ENT:CanNetworkUse(pl)
+	return self.ItemOwner == pl
+end
+
+function ENT:PlayerUse(pl)
 	if pl:IsBanned() then return end
 
 	local owner = self.ItemOwner
@@ -29,11 +32,11 @@ function ENT:Use(pl)
 
 		local Cost = ((100 - pl:Health()) * self:Getprice())
 
-		if not pl:CanAfford(Cost) then 
+		if not pl:CanAfford(Cost) then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('CannotAfford'))
-			return 
+			return
 		end
-		
+
 		if pl ~= owner then
 			owner:AddMoney(Cost)
 			rp.Notify(owner, NOTIFY_GREEN, term.Get('MedLabProfit'), Cost)
@@ -45,4 +48,8 @@ function ENT:Use(pl)
 		pl:SetHealth(100)
 		self:EmitSound(Sound('HealthVial.Touch'))
 	end
+end
+
+function ENT:OnExplode()
+	rp.Notify(self.ItemOwner, NOTIFY_ERROR, term.Get('MedLabExploded'))
 end

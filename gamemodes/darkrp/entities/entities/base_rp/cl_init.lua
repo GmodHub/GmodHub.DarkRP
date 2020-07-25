@@ -22,7 +22,7 @@ function ENT:BasicPriceMenu()
 
 	if (ent:GetPos():Distance(LocalPlayer():GetPos()) >= 80) then return end
 
-	local w, h = 160, 160
+	local w, h = 200, 160
 	self.Menu = ui.Create('ui_frame', function(self)
 		self:SetTitle(ent.PrintName)
 		self:SetSize(w, h)
@@ -45,7 +45,7 @@ function ENT:BasicPriceMenu()
 	ui.Create('DButton', function(self, p)
 		self:SetPos(5, h - 35)
 		self:SetSize(w - 10, 30)
-		self:SetText('Buy')
+		self:SetText('Купить')
 		self.DoClick = function()
 			ent:SendPlayerUse()
 		end
@@ -67,32 +67,32 @@ function PANEL:Init()
 	self.Label = ui.Create('DLabel', function(self, p)
 		self:SetFont('ui.18')
 		self:SetColor(ui.col.ButtonText)
-		self:SetText('Price: ')
+		self:SetText('Цена: ')
 	end, self)
 
 	self.PriceInput = ui.Create('DTextEntry', self)
 
 	self.SetPrice = ui.Create('DButton', self)
-	self.SetPrice:SetText('Set Price')
+	self.SetPrice:SetText('Изменить Цену')
 	self.SetPrice.Think = function(s)
 		if (not IsValid(self.Entity)) then return end
 
 		local value = tonumber(self.PriceInput:GetValue())
 		if (value == nil) then
 			s:SetDisabled(true)
-			s:SetText('Invalid Price!')
+			s:SetText('Цена не валидна!')
 		elseif (value < self.Entity.MinPrice) then
 			s:SetDisabled(true)
-			s:SetText('Price too low')
+			s:SetText('Цена слишком низкая')
 		elseif (value > self.Entity.MaxPrice) then
 			s:SetDisabled(true)
-			s:SetText('Price too high')
+			s:SetText('Цена слишком высокая')
 		elseif (self.Entity:Getprice() == value) then
 			s:SetDisabled(true)
-			s:SetText('Choose a new price')
+			s:SetText('Укажите новую цену')
 		else
 			s:SetDisabled(false)
-			s:SetText('Set Price')
+			s:SetText('Изменить Цену')
 		end
 	end
 	self.SetPrice.DoClick = function()

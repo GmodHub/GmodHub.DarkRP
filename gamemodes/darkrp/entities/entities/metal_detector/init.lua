@@ -2,51 +2,20 @@ AddCSLuaFile 'cl_init.lua'
 AddCSLuaFile 'shared.lua'
 include 'shared.lua'
 
+util.AddNetworkString('rp_metaldetector_fail')
+util.AddNetworkString('rp_metaldetector_pass')
+
 function ENT:Initialize()
 	self:SetModel('models/props_wasteland/interior_fence002e.mdl')
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetMoveType(MOVETYPE_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
-	
-	self:PhysWake()
-	self:SetMode(1)
 
+	self:PhysWake()
 	self:SetMaterial('phoenix_storms/gear')
 
 	self:CPPISetOwner(self.ItemOwner)
-end
-/*
-function ENT:PhysgunPickup(pl)
-	return (pl == self.ItemOwner)
-end
-
-function ENT:PhysgunFreeze(pl)
-	return (pl == self.ItemOwner)
-end
-*/
-function ENT:Pass()
-	self:SetMode(2)
-	self:EmitSound('HL1/fvox/bell.wav')
-	timer.Simple(0.75, function()
-		if IsValid(self) then
-			self:SetMode(1)
-		end
-	end)
-end
-
-function ENT:Alarm()
-	self:SetMode(3)
-	for i = 1, 3 do
-		timer.Simple(i - 1, function()
-			if IsValid(self) then
-				self:EmitSound('ambient/alarms/klaxon1.wav')
-				if (i == 3) then
-					self:SetMode(1)
-				end
-			end
-		end)
-	end
 end
 
 local vec = Vector(0,0,30)
@@ -59,12 +28,19 @@ function ENT:Think()
 			v.LastChecked = CurTime() + 2
 			for k, v in ipairs(v:GetWeapons()) do
 				if v:IsIllegalWeapon() then
-					self:Alarm()
+					net.Start('rp_metaldetector_fail')
+						net.WriteEntity(self)
+					net.Broadcast()
+					if not v:IsGov() and not pl:IsSOD() and not pl:HasGunLicense() then
+						v:Wanted(nil, "Нелегальное Оружие", 180)
+					end
 					self:NextThink(CurTime() + 2)
 					return
 				end
 			end
-			self:Pass()
+			net.Start('rp_metaldetector_pass')
+				net.WriteEntity(self)
+			net.Broadcast()
 			self:NextThink(CurTime() + 1)
 		end
 	end

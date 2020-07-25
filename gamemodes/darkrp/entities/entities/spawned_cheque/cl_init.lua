@@ -30,11 +30,11 @@ function ENT:Draw()
 	local recipient = (self:Getrecipient().Name and self:Getrecipient():Name()) or 'N/A'
 
 	surface.SetFont('ChatFont')
-	local TextWidth = surface.GetTextSize('Pay: ' .. recipient .. '\n$' .. amount .. '\nSigned: ' .. owner)
+	local TextWidth = surface.GetTextSize('Заплатить: ' .. recipient .. '\n$' .. amount .. '\nПодписано: ' .. owner)
 
 	cam.Start3D2D(pos + ang:Up() * 0.9, ang, 0.012)
-		draw.SimpleTextOutlined('Pay: \n' .. recipient, '3d2d', -TextWidth*0.5, -150, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
+		draw.SimpleTextOutlined('Заплатить: \n' .. recipient, '3d2d', -TextWidth*0.5, -150, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
 		draw.SimpleTextOutlined('$\n' .. amount, '3d2d', -TextWidth*0.5, 25, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
-		draw.SimpleTextOutlined('Signed: ' .. owner, '3d2d', -TextWidth*0.5, 130, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
+		draw.SimpleTextOutlined('Подписано: ' .. owner, '3d2d', -TextWidth*0.5, 130, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 1, color_black)
 	cam.End3D2D()
 end

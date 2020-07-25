@@ -26,7 +26,7 @@ function ENT:Draw()
 		cam.End3D2D()
 	else
 		cam.Start3D2D(pos + vec_off, ang + ang_off, .1)
-			draw.SimpleTextOutlined('Dumpster', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+			draw.SimpleTextOutlined('Мусорка', '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
 		cam.End3D2D()
 	end
 end

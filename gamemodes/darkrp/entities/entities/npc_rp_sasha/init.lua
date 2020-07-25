@@ -5,7 +5,7 @@ ENT.NPCModel = 'models/Humans/Group03/male_02.mdl'
 
 function ENT:StartTouch(ent)
 	local owner = ent.WeaponOwner
-	if IsValid(ent) and IsValid(owner) then
+	if IsValid(ent) and IsValid(owner) and owner:HasLicense() then
 		local info = ent.WeaponInfo
 		local price = math.Round(info.BuyPrice * (nw.GetGlobal('SashaPrice') or 1))
 

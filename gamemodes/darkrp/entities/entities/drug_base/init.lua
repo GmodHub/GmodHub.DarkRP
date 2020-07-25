@@ -49,7 +49,8 @@ function ENT:Use(activator, caller)
 		end
 
 		if math.Rand(0, 1) <= std then
-			caller:GiveSTD("Гепатит")
+			caller:Notify(NOTIFY_ERROR, term.Get('DrugAids'))
+			caller:GiveSTD("СПИД")
 		end
 	end
 
@@ -70,11 +71,15 @@ function ENT:Use(activator, caller)
 		end
 
 		if math.Rand(0, 1) <= overdose then
+			caller:Notify(NOTIFY_ERROR, term.Get('DrugOverdose'))
 			caller:Kill()
 		end
 	end
 
-	rp.Drugs[ind].StartHigh(caller)
+	if drug.StartHigh then
+		drug.StartHigh(caller)
+	end
+
 	net.Start("rp.StartHigh")
 		net.WriteUInt(ind, 6)
 	net.Send(caller)

@@ -23,9 +23,9 @@ function ENT:Use(activator,caller)
 	local amount = self:Getamount() or 0
 
 	activator:AddMoney(amount)
-	
+
 	hook.Call('PlayerPickupRPMoney', GAMEMODE, activator, amount, activator:GetMoney())
-	
+
 	rp.Notify(activator, NOTIFY_GREEN, term.Get('MoneyFound'), amount)
 	self:Remove()
 end
@@ -47,26 +47,3 @@ function ENT:Touch(ent)
 	ent:Remove()
 	self:Setamount(self:Getamount() + ent:Getamount())
 end
-
-local ents = ents
-timer.Create('rp_moneymerge', 5, 0, function()
-	for _, money in ipairs(ents.FindByClass('spawned_money')) do
-		for k, v in ipairs(ents.FindInSphere(money:GetPos(), 40)) do
-			if IsValid(money) and IsValid(v) and (v ~= money) then
-				local class = v:GetClass()
-				if (class == 'spawned_money') and not money.Combining and not v.Combining then
-					v.Combining, money.Combining = true, true
-					money:Setamount(v:Getamount() + money:Getamount())
-					v:Remove()
-					money.Combining = false
-					break
-				elseif (class == 'money_basket') and not money.Combining then
-					money.Combining = true
-					v:Setmoney(v:Getmoney() + money:Getamount())
-					money:Remove()
-					break
-				end
-			end
-		end
-	end
-end)

@@ -1,0 +1,637 @@
+L 07/25/2020 - 06:56:30: Log file started (file "logs\L0725002.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/25/2020 - 06:56:30: server_cvar: "sv_password" "***PROTECTED***"
+L 07/25/2020 - 06:56:30: server_cvar: "sv_airaccelerate" "100"
+L 07/25/2020 - 06:56:31: Connection to Steam servers successful.
+L 07/25/2020 - 06:56:31:    Public IP is 31.130.42.26.
+L 07/25/2020 - 06:56:31: Assigned anonymous gameserver Steam ID [A-1:4066311172(15225)].
+L 07/25/2020 - 06:56:32: VAC secure mode is activated.
+L 07/25/2020 - 06:56:57: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/25/2020 - 06:56:58: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/25/2020 - 06:57:09: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/25/2020 - 06:58:45: "Bot01<3><BOT><>" connected, address "none"
+L 07/25/2020 - 06:58:45: "Bot01<3><BOT><>" entered the game
+L 07/25/2020 - 08:35:41: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/weed_plant/init.lua:44: Tried to use a NULL entity!
+  1. SetPos - [C]:-1
+   2. unknown - gamemodes/darkrp/entities/entities/weed_plant/init.lua:44
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:38: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:39: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:39: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:39: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:51: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:51: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:51: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:51: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:51: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:42:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:77: attempt to call field 'StartHigh' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:77
+
+
+L 07/25/2020 - 08:48:36: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:36: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:36: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:36: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:36: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 08:48:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/drug_base/init.lua:80: attempt to index global 'rdrug' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/drug_base/init.lua:80
+
+
+L 07/25/2020 - 09:03:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:27: bad argument #1 to 'SetModel' (string expected, got boolean)
+  1. SetModel - [C]:-1
+   2. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:27
+    3. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:53
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22: attempt to index local 'weapon' (a nil value)
+  1. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22
+   2. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:59
+    3. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:04: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22: attempt to index local 'weapon' (a nil value)
+  1. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22
+   2. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:59
+    3. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:07: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22: attempt to index local 'weapon' (a nil value)
+  1. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22
+   2. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:59
+    3. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:07: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22: attempt to index local 'weapon' (a nil value)
+  1. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:22
+   2. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:59
+    3. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:29: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:23: attempt to index local 'weapon' (a nil value)
+  1. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:23
+   2. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:60
+    3. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:42: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:23: attempt to index local 'weapon' (a nil value)
+  1. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:23
+   2. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:60
+    3. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:47:56: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:21: bad argument #1 to 'SetModel' (string expected, got nil)
+  1. SetModel - [C]:-1
+   2. EmitItems - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:21
+    3. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:58
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:50:27: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:28: attempt to index global 'searcher' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/ent_dumpster/init.lua:28
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 09:52:19: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/25/2020 - 09:52:19: "Bot01<3><BOT><>" disconnected (reason "Punting bot, server is hibernating")
+L 07/25/2020 - 09:55:54: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/spawned_weapon/init.lua:52: unfinished string near ''items/ammo_pickup.wav'
+
+
+L 07/25/2020 - 09:55:54: Lua Error: Refusing to load spawned_weapon because it is missing Type and Base keys!
+
+L 07/25/2020 - 09:55:56: "COMPLΞX<4><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27005"
+L 07/25/2020 - 09:55:57: "COMPLΞX<4><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/25/2020 - 09:56:07: "COMPLΞX<4><STEAM_0:0:105635721><>" entered the game
+L 07/25/2020 - 10:05:50: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:23: ')' expected (to close '(' at line 16) near 'function'
+
+
+L 07/25/2020 - 10:05:50: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:05:51: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:23: ')' expected (to close '(' at line 16) near 'function'
+
+
+L 07/25/2020 - 10:05:51: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:05:58: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: ')' expected (to close '(' at line 82) near '<eof>'
+
+
+L 07/25/2020 - 10:05:58: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:05:58: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: ')' expected (to close '(' at line 82) near '<eof>'
+
+
+L 07/25/2020 - 10:05:58: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:06:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:87: ')' expected (to close '(' at line 81) near '<eof>'
+
+
+L 07/25/2020 - 10:06:03: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:06:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:87: ')' expected (to close '(' at line 81) near '<eof>'
+
+
+L 07/25/2020 - 10:06:03: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:07:08: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:91: ')' expected (to close '(' at line 85) near '<eof>'
+
+
+L 07/25/2020 - 10:07:08: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:08:27: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:35: 'end' expected (to close 'function' at line 30) near 'else'
+
+
+L 07/25/2020 - 10:08:27: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:09:17: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: ')' expected (to close '(' at line 82) near '<eof>'
+
+
+L 07/25/2020 - 10:09:17: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:09:17: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: ')' expected (to close '(' at line 82) near '<eof>'
+
+
+L 07/25/2020 - 10:09:17: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:11:49: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:84: ')' expected (to close '(' at line 78) near '<eof>'
+
+
+L 07/25/2020 - 10:11:49: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:16:16: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:84: ')' expected (to close '(' at line 78) near '<eof>'
+
+
+L 07/25/2020 - 10:16:16: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:16:16: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:84: ')' expected (to close '(' at line 78) near '<eof>'
+
+
+L 07/25/2020 - 10:16:16: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:20:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:91: ')' expected (to close '(' at line 85) near '<eof>'
+
+
+L 07/25/2020 - 10:20:52: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:21:56: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:92: ')' expected (to close '(' at line 86) near '<eof>'
+
+
+L 07/25/2020 - 10:21:56: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:22:15: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:93: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:22:15: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:22:23: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:93: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:22:23: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:22:23: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:93: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:22:23: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:22:32: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:93: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:22:32: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:24:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:98: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:24:03: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:24:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:98: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:24:03: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:25:18: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:98: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:25:18: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:25:18: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:98: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:25:18: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:25:21: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:98: ')' expected (to close '(' at line 87) near '<eof>'
+
+
+L 07/25/2020 - 10:25:21: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:26:23: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:104: ')' expected (to close '(' at line 93) near '<eof>'
+
+
+L 07/25/2020 - 10:26:23: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:27:17: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:104: ')' expected (to close '(' at line 93) near '<eof>'
+
+
+L 07/25/2020 - 10:27:17: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:27:38: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:104: ')' expected (to close '(' at line 93) near '<eof>'
+
+
+L 07/25/2020 - 10:27:38: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:28:57: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:104: ')' expected (to close '(' at line 93) near '<eof>'
+
+
+L 07/25/2020 - 10:28:57: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:28:57: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:104: ')' expected (to close '(' at line 93) near '<eof>'
+
+
+L 07/25/2020 - 10:28:57: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:29:24: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:104: ')' expected (to close '(' at line 93) near '<eof>'
+
+
+L 07/25/2020 - 10:29:24: Lua Error: Refusing to load gambling_machine_base because it is missing Type and Base keys!
+
+L 07/25/2020 - 10:29:49: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48: attempt to index global 'ENT' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:29:50: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48: attempt to index global 'ENT' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:29:50: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48: attempt to index global 'ENT' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:30:02: Lua Error: 
+[dash_3] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:99: attempt to index global 'ENT' (a nil value)
+  1. Run - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:99
+   2. Run - addons/dash_3/lua/dash/libraries/cmd.lua:319
+    3. v - addons/dash_3/lua/dash/libraries/cmd.lua:510
+     4. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+L 07/25/2020 - 10:30:02: "COMPLΞX<4><STEAM_0:0:105635721><Team>" say "/setmachineservice"
+L 07/25/2020 - 10:30:34: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48: attempt to index global 'ENT' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:30:35: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48: attempt to index global 'ENT' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:30:35: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48: attempt to index global 'ENT' (a nil value)
+  1. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:48
+   2. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:48: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:52: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:53: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:55: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:56: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:15
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:57: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:33:58: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:15
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:34:00: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:15
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:34:03: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:34:04: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88: attempt to index global 'ENT' (a nil value)
+  1. PayOut - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:88
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_fiftyfifty/init.lua:18
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:34:31: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:28
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:35:08: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:34
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:35:12: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:31
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:37:21: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:31
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:37:25: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:25
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:56
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:38:42: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:37
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:57
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:40:35: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:31
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:57
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:40:52: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:40
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:57
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:42:54: Lua Error: 
+[ERROR] lua/includes/extensions/entity.lua:289: attempt to index local 'self' (a nil value)
+  1. Getprice - lua/includes/extensions/entity.lua:289
+   2. Play - gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:31
+    3. PlayerUse - gamemodes/darkrp/entities/entities/gambling_machine_base/init.lua:53
+     4. unknown - gamemodes/darkrp/entities/entities/base_rp/init.lua:21
+
+
+L 07/25/2020 - 10:52:02: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/gambling_machine_spinwheel/init.lua:13: bad argument #2 to '

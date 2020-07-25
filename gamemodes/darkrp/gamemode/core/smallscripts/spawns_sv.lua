@@ -31,12 +31,14 @@ hook("InitPostEntity", "rp.SpawnProtection", function()
 
 end)
 
-hook("PlayerSpawn", "rp.BabyGod", function(pl)
-  pl.Babygod = true
-  pl:GodEnable()
+hook("PlayerSpawn", "rp.SpawnProtection", function(pl)
+    pl.Babygod = true
+    pl:GodEnable()
 
-  timer.Create(pl:EntIndex() .. "babygod", 5, 1, function()
-    pl.Babygod = nil
-    pl:GodDisable()
-  end)
+    timer.Simple(5, function()
+        if IsValid(pl) then
+            pl.Babygod = nil
+            pl:GodDisable()
+        end
+    end)
 end)

@@ -16,7 +16,7 @@ function ENT:CanUse(pl)
 	return pl:IsCP()
 end
 
-function ENT:CustomUse(pl)
+function ENT:PlayerUse(pl)
 	pl.GenomeTeam = true
 	net.Start('rp.ApplyGenome')
 		net.WriteUInt(pl:IsVIP() and 33 or 30, 6)

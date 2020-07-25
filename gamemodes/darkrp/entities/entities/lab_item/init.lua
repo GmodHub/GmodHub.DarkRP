@@ -1,12 +1,15 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 ENT.SeizeReward = 500
 ENT.WantReason = 'Black Market Item (Item lab)'
 ENT.LazyFreeze = true
 
 ENT.RemoveOnJobChange = true
+
+ENT.MaxHealth = 100
+ENT.DamageScale = 0.5
+ENT.ExplodeOnRemove = true
 
 function ENT:Initialize()
 	self:SetModel("models/props_c17/trappropeller_engine.mdl")
@@ -15,35 +18,10 @@ function ENT:Initialize()
 	self:SetSolid(SOLID_VPHYSICS)
 	self:PhysWake()
 	self:SetUseType(SIMPLE_USE)
+	self:Setprice(self.MinPrice)
 
-  self:SetAngles(Angle(-90, 0, 0)) -- Small model angle tweak
-
-	self.HP = 100
+  	self:SetAngles(Angle(-90, 0, 0)) -- Small model angle tweak
 end
-
---[[function ENT:OnTakeDamage(dmg) -- let's be indestructable for now
-	self.HP = self.HP - dmg:GetDamage()
-
-	if (self.HP <= 0) then
-		self:Explode()
-	end
-end
-
-function ENT:Explode()
-	timer.Destroy(self:EntIndex() .. 'Drug')
-	local vPoint = self:GetPos()
-	local effectdata = EffectData()
-	effectdata:SetStart(vPoint)
-	effectdata:SetOrigin(vPoint)
-	effectdata:SetScale(1)
-	util.Effect('Explosion', effectdata)
-
-	self:Remove()
-
-	if IsValid(self.ItemOwner) then
-		rp.Notify(self.ItemOwner, NOTIFY_ERROR, term.Get('DrugLabExploded'))
-	end
-end]]
 
 function ENT:Touch(ent) -- Apparently ENT:StartTouch nor ENT:EndTouch() worked.
     if(self:Getcount() ~= 0 or ent:GetClass() ~= "spawned_shipment" or ent:Getcount() == 0) then return end
@@ -53,47 +31,47 @@ function ENT:Touch(ent) -- Apparently ENT:StartTouch nor ENT:EndTouch() worked.
 	ent:Remove()
 end
 
-function ENT:CanUse(pl)
-	if(self.ItemOwner == pl) then
-		return true
-	else
-		if(pl:CanAfford(self:Getprice())) then
-			pl:AddMoney(-self:Getprice())
-			self:SpawnItem()
-			-- Maybe rp notify or something if you can't buy
-		end
-		return false
-	end
+function ENT:CanNetworkUse(pl)
+	return self.ItemOwner == pl
 end
 
-function ENT:SpawnItem()
-	local count = self:Getcount()
+function ENT:PlayerUse(pl)
+	if pl:CanAfford(self:Getprice()) and self:Getcount() > 0 then
+		pl:TakeMoney(self:Getprice())
+		self.ItemOwner:AddMoney(self:Getprice())
 
-	if(count == 0) then
-		self:SetID(0)
-		return
+		local count = self:Getcount()
+
+		if(count == 0) then
+			self:SetID(0)
+			return
+		end
+
+		local contents = self:GetID()
+
+		local weapon = ents.Create('spawned_weapon')
+
+		local weaponAng = self:GetAngles()
+		local weaponPos = self:GetAngles():Up() * 40 + weaponAng:Up() * (math.sin(CurTime() * 3) * 8)
+		weaponAng:RotateAroundAxis(weaponAng:Up(), (CurTime() * 180) % 360)
+
+		local class = rp.shipments[contents].entity
+		local model = rp.shipments[contents].model
+		pl:Notify(NOTIFY_SUCCESS, term.Get('RPItemBought'), class, rp.FormatMoney(self:Getprice()))
+
+		weapon.weaponclass = class
+		weapon:SetModel(model)
+		weapon.ammoadd = self.ammoadd or (weapons.Get(class) and weapons.Get(class).Primary.DefaultClip)
+		weapon.clip1 = self.clip1
+		weapon.clip2 = self.clip2
+		weapon:SetPos(self:GetPos() + weaponPos)
+		weapon:SetAngles(weaponAng)
+		weapon:Spawn()
+
+		self:Setcount(count - 1)
+		if self:Getcount() == 0 then
+			self.ItemOwner:Notify(NOTIFY_GENERIC, term.Get('YourItemLabRanOut'))
+		end
+		self.locked = false
 	end
-
-	local contents = self:GetID()
-
-	local weapon = ents.Create('spawned_weapon')
-
-	local weaponAng = self:GetAngles()
-	local weaponPos = self:GetAngles():Up() * 40 + weaponAng:Up() * (math.sin(CurTime() * 3) * 8)
-	weaponAng:RotateAroundAxis(weaponAng:Up(), (CurTime() * 180) % 360)
-
-	local class = rp.shipments[contents].entity
-	local model = rp.shipments[contents].model
-
-	weapon.weaponclass = class
-	weapon:SetModel(model)
-	weapon.ammoadd = self.ammoadd or (weapons.Get(class) and weapons.Get(class).Primary.DefaultClip)
-	weapon.clip1 = self.clip1
-	weapon.clip2 = self.clip2
-	weapon:SetPos(self:GetPos() + weaponPos)
-	weapon:SetAngles(weaponAng)
-	weapon:Spawn()
-
-	self:Setcount(count - 1)
-	self.locked = false
 end

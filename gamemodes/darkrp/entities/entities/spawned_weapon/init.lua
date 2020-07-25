@@ -49,6 +49,6 @@ function ENT:Use(activator, caller)
 	end
 
 	activator:GiveAmmo(self.ammoadd or 0, weapon:GetPrimaryAmmoType())
-
+	self:EmitSound('items/ammo_pickup.wav')
 	self:Remove()
 end

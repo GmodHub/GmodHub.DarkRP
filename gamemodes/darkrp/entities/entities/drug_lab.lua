@@ -6,7 +6,7 @@ ENT.Author 		= 'aStonedPenguin'
 ENT.Spawnable 	= true
 ENT.Category 	= 'RP'
 
-ENT.LabType = 'Druglab'
+ENT.LabType = 'Наркотическая лабаратория'
 ENT.Model = 'models/props_lab/crematorcase.mdl'
 
 if (CLIENT) then

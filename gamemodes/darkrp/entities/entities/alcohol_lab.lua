@@ -6,7 +6,7 @@ ENT.Author 		= 'aStonedPenguin'
 ENT.Spawnable 	= true
 ENT.Category 	= 'RP'
 
-ENT.LabType = 'Alcohol Lab'
+ENT.LabType = 'Самогонный Аппарат'
 ENT.Model = 'models/props_junk/plasticbucket001a.mdl'
 
 if (CLIENT) then

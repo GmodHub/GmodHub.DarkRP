@@ -1,6 +1,5 @@
-AddCSLuaFile 'shared.lua'
-AddCSLuaFile 'cl_init.lua'
-include 'shared.lua'
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 function ENT:Initialize()
 	self:SetModel(self.Model)

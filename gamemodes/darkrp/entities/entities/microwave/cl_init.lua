@@ -26,14 +26,14 @@ function ENT:Draw()
 
 	cam.Start3D2D(pos, ang, 0.070)
 		draw.SimpleTextOutlined(self:GetFoodName(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Price: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('Цена: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 
 	ang:RotateAroundAxis(ang:Right(), 180)
 
 	cam.Start3D2D(pos, ang, 0.070)
 		draw.SimpleTextOutlined(self:GetFoodName(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
-		draw.SimpleTextOutlined('Price: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
+		draw.SimpleTextOutlined('Цена: $' .. self:Getprice(), '3d2d', 0, -450, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP, 1, color_black)
 	cam.End3D2D()
 end
 
@@ -47,7 +47,7 @@ function ENT:PlayerUse()
 
 	local w, h = 160, 315
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Microwave')
+		self:SetTitle('Микроволновка')
 		self:SetSize(w, h)
 		self:Center()
 		self:MakePopup()
@@ -96,7 +96,7 @@ function ENT:PlayerUse()
 	ui.Create('DButton', function(self, p)
 		self:SetPos(5, p:GetTall() - 35)
 		self:SetSize(p:GetWide() - 10, 30)
-		self:SetText('Buy')
+		self:SetText('Купить')
 		self.DoClick = function()
 			ent:SendPlayerUse()
 		end

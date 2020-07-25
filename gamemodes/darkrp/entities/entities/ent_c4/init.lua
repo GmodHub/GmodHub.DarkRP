@@ -8,7 +8,7 @@ function ENT:Initialize()
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetCollisionGroup(COLLISION_GROUP_WEAPON)
-	
+
 	self:PhysWake()
 
 	local i = 0
@@ -40,12 +40,12 @@ function ENT:Explosion()
 		effectdata:SetRadius(1000)
 		effectdata:SetMagnitude(1000)
 	util.Effect("HelicopterMegaBomb", effectdata)
-	
+
 	local exploeffect = EffectData()
 		exploeffect:SetOrigin(self:GetPos())
 		exploeffect:SetStart(self:GetPos())
 	util.Effect("Explosion", exploeffect, true, true)
-	
+
 	local shake = ents.Create("env_shake")
 		shake:SetOwner(self.ItemOwner)
 		shake:SetPos(self:GetPos())
@@ -57,7 +57,7 @@ function ENT:Explosion()
 		shake:Spawn()
 		shake:Activate()
 		shake:Fire("StartShake", "", 0)
-		
+
 	local push = ents.Create("env_physexplosion")
 		push:SetOwner(self.ItemOwner)
 		push:SetPos(self:GetPos())
@@ -76,7 +76,7 @@ function ENT:Explosion()
 
 	local max_rand = 6
 	local props, doors = findents(self:GetPos(), 75)
-	
+
 	--print(#props, #doors)
 
 	local prop_count, door_count = #props, #doors
@@ -118,6 +118,7 @@ function ENT:Explosion()
 				end
 			elseif v:IsDoor() then
 				v:DoorLock(false)
+				v.KeysCooldown = CurTime() + 60
 			end
 		end
 	end

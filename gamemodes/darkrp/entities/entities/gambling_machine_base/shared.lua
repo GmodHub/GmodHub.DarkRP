@@ -2,7 +2,6 @@ ENT.Type 		= 'anim'
 ENT.Base 		= 'base_rp'
 ENT.PrintName 	= 'Gambling Machine Base'
 ENT.PressE 		= true
-ENT.NetworkPlayerUse = true
 
 ENT.MinPrice = 500
 ENT.MaxPrice = 100000000

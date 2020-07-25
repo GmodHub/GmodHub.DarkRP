@@ -6,7 +6,7 @@ ENT.Category	= 'RP'
 ENT.Spawnable 	= true
 
 ENT.PressE 			= true
-ENT.PressKeyText	= 'To Enable'
+ENT.PressKeyText	= 'Чтобы включить'
 
 function ENT:SetupDataTables()
 	self:NetworkVar('Entity', 0, 'Camera')

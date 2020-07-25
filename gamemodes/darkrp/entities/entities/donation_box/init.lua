@@ -15,7 +15,7 @@ function ENT:Initialize()
 	self:CPPISetOwner(self.ItemOwner)
 end
 
-function ENT:Use(pl)
+function ENT:PlayerUse(pl)
 	if (pl == self:Getowning_ent()) and (self:Getmoney() > 0) then
 		rp.Notify(pl, NOTIFY_GREEN, term.Get('PlayerTookDonationBox'), rp.FormatMoney(self:Getmoney()))
 		pl:AddMoney(self:Getmoney())

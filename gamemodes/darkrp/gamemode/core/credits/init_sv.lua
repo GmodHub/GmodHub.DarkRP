@@ -1,6 +1,9 @@
 util.AddNetworkString 'rp.shop.Menu'
 util.AddNetworkString 'rp.PermaWeaponSettings'
 
+-- Data
+local db = rp._Credits
+
 function PLAYER:HasUpgrade(uid)
 	return (self:GetVar('Upgrades', {})[uid] ~= nil)
 end
@@ -40,33 +43,37 @@ function rp.shop.OpenMenu(pl)
 		ret[v:GetID()].Stackable = v:IsStackable()
 	end
 
-	net.Start('rp.shop.Menu')
-		net.WriteUInt(table.Count(ret), 9)
-		for k, v in pairs(ret) do
-			net.WriteUInt(k, 9)
-
-			if isstring(v.CanBuy) then
-				net.WriteBool(false)
-				net.WriteString(v.CanBuy)
-				net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
-
-				net.WriteUInt(v.Price, 32)
-			else
-				net.WriteBool(true)
-				net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
-
-				net.WriteUInt(v.Price, 32)
-			end
+	db:Query('SELECT Credits FROM player_data WHERE SteamID=' .. pl:SteamID64() .. ';', function(data)
+		if data[1] and data[1].Credits != pl:GetCredits() then
+			ba.notify_all(pl:Name() .. " пополнил баланс на " .. math.Round(data[1].Credits - pl:GetCredits()) .. " кредитов!")
+			pl:SetNetVar('Credits', data[1].Credits or 0)
 		end
-	net.Send(pl)
+
+		net.Start('rp.shop.Menu')
+			net.WriteUInt(table.Count(ret), 9)
+			for k, v in pairs(ret) do
+				net.WriteUInt(k, 9)
+
+				if isstring(v.CanBuy) then
+					net.WriteBool(false)
+					net.WriteString(v.CanBuy)
+					net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
+
+					net.WriteUInt(v.Price, 32)
+				else
+					net.WriteBool(true)
+					net.WriteBool(!v.Stackable and pl:HasUpgrade(v.UID))
+
+					net.WriteUInt(v.Price, 32)
+				end
+			end
+		net.Send(pl)
+	end)
 end
 rp.AddCommand("upgrades", rp.shop.OpenMenu)
 net("rp.shop.Menu", function( len, pl )
 	rp.shop.OpenMenu(pl)
 end)
-
--- Data
-local db = rp._Credits
 
 function rp.data.AddUpgrade(pl, id)
 	local upg_obj = rp.shop.Get(id)
@@ -78,7 +85,7 @@ function rp.data.AddUpgrade(pl, id)
 		local cost = upg_obj:GetPrice(pl)
 		pl:TakeCredits(cost, 'Purchase: ' .. upg_obj:GetUID(), function()
 			db:Query("INSERT INTO `player_upgrades` VALUES('" .. os.time() .. "', '" .. pl:SteamID() .. "', ?);", upg_obj:GetUID(), function(dat)
-				for k, v in ipairs(player.GetAll()) do v:ChatPrint(pl:Name() .. " приобрёл " .. upg_obj:GetName() .. " за свои кредиты!"); end
+				ba.notify_all(pl:Name() .. " приобрёл " .. upg_obj:GetName() .. " за свои кредиты!")
 
 				local upgrades = pl:GetVar('Upgrades')
 				upgrades[upg_obj:GetUID()] = upgrades[upg_obj:GetUID()] and (upgrades[upg_obj:GetUID()] + 1) or 1

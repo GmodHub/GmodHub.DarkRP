@@ -11,7 +11,7 @@ function ENT:Initialize()
 
 	self:PhysWake()
 
-	self.FoodEnergy = 100
+	self.FoodEnergy = math.random(15, 25)
 end
 
 function ENT:OnTakeDamage(dmg)
@@ -20,7 +20,7 @@ end
 
 function ENT:Use(activator,caller)
 	if activator:IsBanned() then return end
-	activator:SetHunger(activator:CallSkillHook(SKILL_HUNGER))
+	activator:AddHunger(self.FoodEnergy)
 	self:Remove()
 	activator:EmitSound("vo/sandwicheat09.wav")
 end

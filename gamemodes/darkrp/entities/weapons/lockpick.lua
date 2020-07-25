@@ -162,7 +162,7 @@ function SWEP:DrawHUD()
 		local status = (CurTime() - self.StartPick)/time
 
 		rp.ui.DrawProgress(x, y, w, h, status)
-		draw.SimpleTextOutlined("Picking lock"..self.Dots, "HudFont2", ScrW()/2, ScrH()/2, ui.col.White, 1, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, ui.col.Black)
+		draw.SimpleTextOutlined("Взлом Замка"..self.Dots, "HudFont2", ScrW()/2, ScrH()/2, ui.col.White, 1, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, ui.col.Black)
 	end
 end
 

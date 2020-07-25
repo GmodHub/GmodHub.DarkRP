@@ -80,7 +80,7 @@ function ENT:Draw()
 			surface.DrawTexturedRect(-32, -115, 64, 64)
 
 			draw.Box(-430, -32, 860, 64, ui.col.Black)
-			draw.SimpleText('Press E to activate your supServ subscription!', 'ui.38', 0, 0, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText('Нажмите E для активации вашей подписки GHubEye!', 'ui.38', 0, 0, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		elseif self.InRange and self.TVMaterial and self.TVRT then
 			self.TVMaterial:SetTexture('$basetexture', self.TVRT)
 
@@ -93,7 +93,7 @@ function ENT:Draw()
 			surface.DrawTexturedRect(-430, -256, 860, 512)
 
 			draw.Box(-430, -32, 860, 64, ui.col.Black)
-			draw.SimpleText(self.CameraEnt and 'No Signal!' or 'No Camera!', 'ui.38', 0, 0, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+			draw.SimpleText(self.CameraEnt and 'Нет Сигнала!' or 'Нет Камеры!', 'ui.38', 0, 0, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 		end
 	cam.End3D2D()
 end

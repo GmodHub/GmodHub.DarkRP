@@ -26,7 +26,7 @@ rp.shop.Add('Большая Сумка', 'pocket_space_2')
 
 rp.shop.Add('Сумка с патронами', 'perma_ammo')
 	:SetCat('General')
-	:SetDesc('При каждом возрождении вам выдаётся дополнительные 2 пачки патронов каждого вида.\nМожно докупать.')
+	:SetDesc('При каждом возрождении вам выдаётся дополнительные 2 пачки патронов каждого вида.')
 	:SetImage('bullets.png')
 	:SetPrice(500)
 	:SetStackable(false)
