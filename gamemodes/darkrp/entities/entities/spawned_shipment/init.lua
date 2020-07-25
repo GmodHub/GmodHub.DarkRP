@@ -32,7 +32,6 @@ end
 function ENT:SetContents(s, c)
 	self:Setcontents(s)
 	self:Setcount(c)
-		
 end
 
 function ENT:Use(pl)
@@ -74,6 +73,7 @@ function ENT:SpawnItem()
 	local model = rp.shipments[contents].model
 
 	weapon.weaponclass = class
+	weapon.lastbox = self:EntIndex()
 	weapon:SetModel(model)
 	weapon.ammoadd = self.ammoadd or (weapons.Get(class) and weapons.Get(class).Primary.DefaultClip)
 	weapon.clip1 = self.clip1
@@ -85,7 +85,6 @@ function ENT:SpawnItem()
 	self:Setcount(count - 1)
 	self.locked = false
 end
-
 
 function ENT:Destruct()
 	if self.Destructed then return end
@@ -104,7 +103,6 @@ function ENT:Destruct()
 	for i = 1, self:Getcount() do
 		local weapon = ents.Create('spawned_weapon')
 		weapon:SetModel(model)
-		weapon.number = contents
 		weapon.weaponclass = class
 		weapon:SetPos(Vector(vPoint.x, vPoint.y, vPoint.z + (i*5)))
 		weapon:Spawn()
@@ -112,43 +110,27 @@ function ENT:Destruct()
 	self:Remove()
 end
 
-function ENT:StartTouch(e)
+function ENT:StartTouch(ent)
 	if self.LastTouch and self.LastTouch >= CurTime() then return end
 	self.LastTouch = CurTime() + 1 
 	
-	if (e:GetClass() ~= 'spawned_weapon') then return end
+	if(ent:GetClass() ~= "spawned_weapon" or (ent.lastbox or 0) == self:EntIndex()) then return end
 
 	local count = self:Getcount()
 
-	if count >= 25 then return end
+	if count >= 10 then return end
 	
 	local contents = self:Getcontents()
-	
-	if not e.number then return end
-	if e.spawnTime and e.spawnTime >= CurTime() then return end
-	if e.Shipment then return end
-	e.Shipment = true
-	
+
 	if count < 1 then
-		self:Setcontents(e.number)
+		self:Setcontents(rp.ShipmentMap[ent.weaponclass])
 		self:Setcount(1)
-		
-		local Content = rp.shipments[e.number]
-		self:GetgunModel():Remove()
-		
-		self:SetgunModel(ents.Create('prop_physics'))
-		self:GetgunModel():SetModel(Content.model)
-		self:GetgunModel():SetPos(self:GetPos())
-		self:GetgunModel():Spawn()
-		self:GetgunModel():Activate()
-		self:GetgunModel():SetSolid(SOLID_NONE)
-		self:GetgunModel():SetParent(self)
 	else
-		if rp.shipments[contents].entity ~= e.weaponclass then return end
+		if rp.shipments[contents].entity ~= ent.weaponclass then return end
 		self:Setcount(count + 1)
 	end
 	
-	e:Remove()
+	ent:Remove()
 end
 	
 function ENT:Touch(ent)
@@ -158,7 +140,7 @@ function ENT:Touch(ent)
 	local selfCount, entCount = self:Getcount(), ent:Getcount()
 	local count = selfCount + entCount
 
-	if (count >= 25) then return end
+	if (count >= 10) then return end
 
 	self:Setcount(count)
 	-- Merge ammo information (avoid ammo exploits)
