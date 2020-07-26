@@ -3,7 +3,6 @@ dash.IncludeSH 'shared.lua'
 
 ENT.SeizeReward = 500
 ENT.WantReason = 'Black Market Item (Item lab)'
-ENT.LazyFreeze = true
 
 ENT.RemoveOnJobChange = true
 

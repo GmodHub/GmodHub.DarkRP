@@ -2,13 +2,13 @@ ba.data = ba.data or {
 	IP 		= 'mazvov7p.beget.tech',
 	User 	= 'mazvov7p_badmin',
 	Pass 	= '%cSuuP38',
-	Table = 'mazvov7p_badmin',
+	Table 	= 'mazvov7p_badmin',
 	Port 	= 3306,
 	_uid 	= util.CRC(GetConVarString('ip') .. ':' .. GetConVarString('hostport'))
 }
 
 
-ba.data._db = ba.data._db or mysql.Connect(ba.data.IP, ba.data.User, ba.data.Pass, ba.data.Table, ba.data.Port)
+ba.data._db = ba.data._db or mysql.Connect(ba.data.IP, ba.data.User, ba.data.Pass, ba.data.Table, ba.data.Port, nil, tmysql.flags.CLIENT_COMPRESS)
 ba.data._db:SetCharacterSet("utf8")
 
 --

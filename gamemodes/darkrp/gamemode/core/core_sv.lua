@@ -7,7 +7,6 @@ util.AddNetworkString('rp.DeathInfo')
 util.AddNetworkString("rp.StartVoice")
 util.AddNetworkString("rp.EndVoice")
 
-
 net('rp.StartVoice', function(len, pl)
 	hook.Call("PlayerStartVoice", nil, pl)
 end)
@@ -17,7 +16,7 @@ net('rp.EndVoice', function(len, pl)
 end)
 
 function GM:CanChangeRPName(ply, RPname)
-	if string.find(RPname, "\160") or string.find(RPname, " ") == 1 then -- disallow system spaces
+	if utf8.find(RPname, "\160") or utf8.find(RPname, " ") == 1 then -- disallow system spaces
 		return false
 	end
 
@@ -26,8 +25,6 @@ function GM:CanChangeRPName(ply, RPname)
 	end
 end
 
-function GM:CanDemote(pl, target, reason) end
-function GM:CanVote(pl, vote) end
 function GM:OnPlayerChangedTeam(pl, oldTeam, newTeam)
 	local _, pos = GAMEMODE:PlayerSelectSpawn(pl)
 	pl:SetPos(pos)
@@ -105,7 +102,7 @@ function GM:PlayerSpawnVehicle(pl, model) return pl:IsSuperAdmin() end
 function GM:PlayerSpawnNPC(pl, model) return pl:HasAccess('*') end
 function GM:PlayerSpawnRagdoll(pl, model) return pl:HasAccess('*') end
 function GM:PlayerSpawnEffect(pl, model) return pl:HasAccess('*') end
-function GM:PlayerSpray(pl) return true end
+function GM:PlayerSpray(pl) return false end
 function GM:CanDrive(pl, ent) return false end
 function GM:CanProperty(pl, property, ent) return false end
 
@@ -177,9 +174,15 @@ function GM:CanPlayerSuicide(pl)
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideWanted"))
 	elseif pl:IsFrozen() then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideFrozen"))
-	elseif (pl:GetKarma() > 5000 or pl:IsZiptied()) then
+	elseif (pl:IsZiptied()) then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideLiveFor"))
 	elseif (not pl:IsBanned()) and (not pl:IsJailed()) then
+
+		if not pl:IsCP() then
+			pl.CurrentDeathReason = 'Suicide'
+		else
+			pl.CurrentDeathReason = 'CopSuicide'
+		end
 
 		pl:TakeKarma(5)
 		pl:Notify(NOTIFY_ERROR, term.Get("YouSuicided"))
@@ -201,21 +204,6 @@ function GM:PlayerSpawnProp(ply, model)
 	return ply:CheckLimit('props')
 end
 
-
-function GM:ShowSpare1(ply)
-	if rp.teams[ply:Team()] and rp.teams[ply:Team()].ShowSpare1 then
-		return rp.teams[ply:Team()].ShowSpare1(ply)
-	end
-end
-
-function GM:ShowSpare2(ply)
-	if rp.teams[ply:Team()] and rp.teams[ply:Team()].ShowSpare2 then
-		return rp.teams[ply:Team()].ShowSpare2(ply)
-	end
-end
-
-function GM:OnNPCKilled(victim, ent, weapon)end
-
 function GM:PlayerCanHearPlayersVoice(listener, talker)
 	if not talker:Alive() then return false end
 	if talker:IsBanned() then return false end
@@ -231,32 +219,6 @@ function GM:DoPlayerDeath(pl, killer, dmg)
 
 	pl:SetNetVar("HasInitSpawn", true)
 	pl:SetNetVar("RespawnTime", CurTime() + ( pl:IsRoot() and 0 or rp.cfg.RespawnTime ) )
-
-	local deathType = rp.cfg.DeathTypes["Default"]
-	if pl == killer and (dmg:GetDamageType() ~= 32) and not pl:IsCP() then
-		deathType = rp.cfg.DeathTypes["Suicide"]
-	elseif dmg:GetDamageType() == 32 then
-		deathType = rp.cfg.DeathTypes["Falling"]
-	elseif pl:IsCP() and pl == killer and not pl:GetNetVar("STD") and (dmg:GetDamageType() ~= 32) and pl:GetHunger() > 0 then
-		deathType = rp.cfg.DeathTypes["CopSuicide"]
-	elseif pl ~= killer then
-		deathType = rp.cfg.DeathTypes["Murder"]
-	elseif pl:GetHunger() <= 0 then
-		deathType = rp.cfg.DeathTypes["Hunger"]
-	elseif pl:GetNetVar("STD") then
-		deathType = rp.cfg.DeathTypes["STD"]
-	end
-
-	net.Start("rp.DeathInfo")
-		net.WriteUInt(deathType, 5)
-		if (isplayer(killer) and (killer ~= pl)) then
-			net.WriteBool(true)
-			net.WritePlayer(killer)
-		else
-			net.WriteBool(false)
-		end
-	net.Send(pl)
-
 end
 
 function GM:PlayerDeathThink(pl)
@@ -273,10 +235,31 @@ function GM:PlayerDeath(ply, weapon, killer)
 
 	ply:Extinguish()
 
-	if ply:GetNetVar('HasGunlicense') then ply:SetNetVar('HasGunlicense', nil) end
-	if ply:GetNetVar("STD") then ply:SetNetVar("STD", nil) end
+	if ply:HasLicense() then ply:SetNetVar('HasGunlicense', nil) end
+	if ply:HasSTD() then ply:CureSTD() end
 
 	if ply:InVehicle() then ply:ExitVehicle() end
+
+	local deathType = rp.cfg.DeathTypes[ply.CurrentDeathReason] or 1
+
+	if (killer and killer:IsWorld()) then
+		deathType = rp.cfg.DeathTypes["Falling"]
+	elseif (killer and ply ~= killer and not ply:HasHit()) then
+		deathType = rp.cfg.DeathTypes["Murder"]
+	elseif (killer and ply ~= killer and ply:HasHit()) then
+		deathType = rp.cfg.DeathTypes["Bounty"]
+	end
+
+	net.Start("rp.DeathInfo")
+		net.WriteUInt(deathType, 5)
+		if (isplayer(killer) and (killer ~= ply)) then
+			net.WriteBool(true)
+			net.WritePlayer(killer)
+		else
+			net.WriteBool(false)
+		end
+	net.Send(ply)
+	ply.CurrentDeathReason = nil
 end
 
 function GM:PlayerCanPickupWeapon(ply, weapon)
@@ -289,21 +272,13 @@ function GM:PlayerCanPickupWeapon(ply, weapon)
 	return true
 end
 
-local function HasValue(t, val)
-	for k, v in ipairs(t) do
-		if (string.lower(v) == string.lower(val)) then
-			return true
-		end
-	end
-end
-
 function GM:PlayerSetModel(pl)
 	if rp.teams[pl:Team()] and rp.teams[pl:Team()].PlayerSetModel then
 		return rp.teams[pl:Team()].PlayerSetModel(pl)
 	end
 
-	if (pl:GetVar('Model') ~= nil) and istable(rp.teams[pl:Team()].model) and HasValue(rp.teams[pl:Team()].model, pl:GetVar('Model')) then
-		pl:SetModel(pl:GetVar('Model'))
+	if (pl:GetVar('Model') ~= nil) and (pl:GetVar('Model')[pl:Team()] ~= nil) and istable(rp.teams[pl:Team()].model) then
+		pl:SetModel(pl:GetVar('Model')[pl:Team()])
 	else
 		pl:SetModel(team.GetModel(pl:GetJob() or 1))
 	end
@@ -355,6 +330,20 @@ function GM:PlayerSelectSpawn(pl)
 	return self.SpawnPoint, util.FindEmptyPos(pos)
 end
 
+function GM:PlayerThink(pl)
+	if pl:Alive() and (pl:GetHunger() <= 0) then
+		local shouldHunger = hook.Call("PlayerHasHunger", nil, pl) or true
+		if (shouldHunger) then
+			pl:SetHealth(pl:Health() - 15)
+			pl:EmitSound(Sound("vo/npc/male01/moan0" .. math.random(1, 5) .. ".wav"), SNDLVL_45dB)
+			if (pl:Health() <= 0) then
+				pl:Kill()
+				pl.CurrentDeathReason = 'Hunger'
+			end
+		end
+	end
+end
+
 function GM:PlayerSpawn(ply)
 	player_manager.SetPlayerClass(ply, 'rp_player')
 
@@ -373,6 +362,10 @@ function GM:PlayerSpawn(ply)
 	if ply.demotedWhileDead then
 		ply.demotedWhileDead = nil
 		ply:ChangeTeam(rp.DefaultTeam)
+	end
+
+	if ply:GetHunger() then
+		ply:SetNetVar("Energy", CurTime() + rp.cfg.HungerRate)
 	end
 
 	ply:GetTable().StartHealth = ply:Health()
@@ -495,6 +488,7 @@ function GM:GetFallDamage(pl, speed)
 	if ground:IsPlayer() and (not pl:IsBanned()) then
 		ground:TakeDamage(dmg * 1.3, pl, pl)
 	end
+
 	return dmg
 end
 

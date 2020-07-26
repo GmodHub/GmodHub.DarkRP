@@ -112040,3 +112040,354 @@ DidVaitel|4|STEAM_0:1:74202541
 
 
 
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:136: attempt to get length of global 'String' (a nil value)
+  1. lower - addons/dash_3/lua/dash/extensions/utf8.lua:136
+   2. CalculateAutoFill - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:879
+    3. unknown - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:580
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. AddText - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:18
+          9. func - addons/badmin_2/lua/ba/core/util/notifications/notify_cl.lua:8
+           10. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. AddText - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:18
+          9. unknown - gamemodes/darkrp/gamemode/core/smallscripts/adverts_cl.lua:15
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[dash_3] addons/dash_3/lua/dash/extensions/utf8.lua:36: attempt to index global 'str' (a nil value)
+  1. utf8_sub - addons/dash_3/lua/dash/extensions/utf8.lua:36
+   2. WordWrap - addons/badmin_2/lua/ba/core/ui/main_cl.lua:30
+    3. AddMessage - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:807
+     4. PerformLayout - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:650
+      5. Init - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:616
+       6. Create - lua/includes/extensions/client/panel/scriptedpanels.lua:37
+        7. CreateChatBox - addons/badmin_2/lua/ba/modules/chatbox/vgui/chatbox_cl.lua:97
+         8. v - addons/badmin_2/lua/ba/modules/chatbox/init_cl.lua:73
+          9. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] lua/postprocess/color_modify.lua:37: attempt to call method 'PostProcessPermitted' (a nil value)
+  1. v - lua/postprocess/color_modify.lua:37
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] lua/postprocess/color_modify.lua:37: attempt to call method 'PostProcessPermitted' (a nil value)
+  1. v - lua/postprocess/color_modify.lua:37
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] lua/postprocess/color_modify.lua:37: attempt to call method 'PostProcessPermitted' (a nil value)
+  1. v - lua/postprocess/color_modify.lua:37
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] lua/postprocess/color_modify.lua:37: attempt to call method 'PostProcessPermitted' (a nil value)
+  1. v - lua/postprocess/color_modify.lua:37
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[dash_3] lua/postprocess/color_modify.lua:37: attempt to call method 'PostProcessPermitted' (a nil value)
+  1. v - lua/postprocess/color_modify.lua:37
+   2. unknown - addons/dash_3/lua/dash/libraries/hook.lua:36
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104: attempt to index a nil value
+  1. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/jobslist_cl.lua:201: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. DoClick - gamemodes/darkrp/gamemode/core/ui/vgui/f4/jobslist_cl.lua:201
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/jobslist_cl.lua:201: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. DoClick - gamemodes/darkrp/gamemode/core/ui/vgui/f4/jobslist_cl.lua:201
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/gamemode/core/ui/vgui/f4/jobslist_cl.lua:201: Calling net.Start with unpooled message name! [ http://goo.gl/qcx0y ]
+  1. Start - [C]:-1
+   2. DoClick - gamemodes/darkrp/gamemode/core/ui/vgui/f4/jobslist_cl.lua:201
+    3. unknown - lua/vgui/dlabel.lua:237
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104: attempt to index a nil value
+  1. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104: attempt to index a nil value
+  1. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|3|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104: attempt to index a nil value
+  1. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+
+COMPLΞX|2|STEAM_0:0:105635721
+
+[ERROR] gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104: attempt to index a nil value
+  1. func - gamemodes/darkrp/entities/weapons/pocket/pocket_controls.lua:104
+   2. unknown - lua/includes/extensions/net.lua:32
+
+
+

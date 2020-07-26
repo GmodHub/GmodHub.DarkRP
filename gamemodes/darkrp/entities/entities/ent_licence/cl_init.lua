@@ -23,6 +23,6 @@ function ENT:Draw()
 		surface.SetMaterial(mat_license)
 		surface.DrawTexturedRect(-256, -512, 512, 512)
 
-		draw.SimpleText('Gun License', '3d2d', 0, 150, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
+		draw.SimpleText('Лицензия на Оружие', '3d2d', 0, 150, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER)
 	cam.End3D2D()
 end

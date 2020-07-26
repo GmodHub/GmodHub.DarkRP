@@ -1,3 +1,17 @@
+util.AddNetworkString('rp.SelectModel')
+
+net("rp.SelectModel", function(len, pl)
+	local team = net.ReadUInt(8)
+	local mdl = net.ReadString()
+
+	if not rp.teams[team] then return end
+	if not table.HasValue(rp.teams[team].model, mdl) then return end
+
+	local plModels = pl:GetVar('Model') or {}
+	plModels[team] = string.lower(mdl)
+	pl:SetVar('Model', plModels)
+end)
+
 function PLAYER:ChangeTeam(t, force)
 	local prevTeam = self:Team()
 
@@ -96,7 +110,7 @@ function PLAYER:ChangeTeam(t, force)
 
 	rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), self, TEAM.name)
 
-	if self:GetNetVar("HasGunlicense") then
+	if self:HasLicense() then
 		self:SetNetVar("HasGunlicense", nil)
 	end
 

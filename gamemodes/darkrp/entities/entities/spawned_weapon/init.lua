@@ -10,35 +10,17 @@ function ENT:Initialize()
 	self:PhysWake()
 end
 
-function ENT:Use(activator, caller)
-	if type(self.PlayerUse) == "function" then
-		local val = self:PlayerUse(activator, caller)
-		if val ~= nil then return val end
-	elseif self.PlayerUse ~= nil then
-		return self.PlayerUse
-	end
+function ENT:PlayerUse(activator, caller)
 
 	local class = self.weaponclass
-	local weapon = ents.Create(class)
 
-	if not weapon:IsValid() then return false end
+	local CanPickup = hook.Call("PlayerCanPickupWeapon", GAMEMODE, activator, self)
 
-	if not weapon:IsWeapon() then
-		weapon:SetPos(self:GetPos())
-		weapon:SetAngles(self:GetAngles())
-		weapon:Spawn()
-		weapon:Activate()
-		self:Remove()
-		return
-	end
-
-	local CanPickup = hook.Call("PlayerCanPickupWeapon", GAMEMODE, activator, weapon)
 	if not CanPickup then return end
-	if weapon and activator:HasWeapon(weapon:GetClass()) then
+	if activator:HasWeapon(class) then
 		rp.Notify(activator, NOTIFY_ERROR, term.Get('AlreadyHaveWeapon'))
 		return false
 	end
-	weapon:Remove()
 
 	activator:Give(class)
 	weapon = activator:GetWeapon(class)

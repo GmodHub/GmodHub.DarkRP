@@ -11,18 +11,19 @@ end
 rp.AddCommand("poop", function(pl)
 	if !pl:Alive() then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('YouAreDead'))
-		return ""
+		return
 	end
 
 	if pl.NextPoo != nil && pl.NextPoo >= CurTime() then
 			if math.random(1, 5) == 5 then
 				MakePoo(pl)
 				pl:Kill()
+				pl.CurrentDeathReason = 'Prolapse'
 				rp.Notify(pl, NOTIFY_ERROR, term.Get('AnalProlapse'))
-				return ""
+				return
 			end
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('NoMorePoo'))
-		return ""
+		return
 	end
 	pl.NextPoo = CurTime() + 10
 	MakePoo(pl)
@@ -32,12 +33,12 @@ rp.AddCommand("piss", function(pl)
 
 	if !pl:Alive() then
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('YouAreDead'))
-		return ""
+		return
 	end
 
 	if pl.NextPee != nil && pl.NextPee >= CurTime() then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('NoMorePoo'))
-		return ""
+		return
 	end
 
 	pl.NextPee = CurTime() + 30

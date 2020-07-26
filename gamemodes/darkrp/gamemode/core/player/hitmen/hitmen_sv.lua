@@ -75,7 +75,7 @@ end)
 :SetCooldown(3)
 
 timer.Create('RandomHits', 600, 0, function()
-	if (#player.GetAll() >= 10) then
+	if (player.GetCount() >= 10) then
 		local lowest
 		local karma = 100
 		for k, v in ipairs(player.GetAll()) do

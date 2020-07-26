@@ -24,9 +24,6 @@ function CCSpawn( player, command, arguments )
 
 	end
 
-	-- Not a ragdoll or prop.. must be an 'effect' - spawn it as one
-	GMODSpawnEffect( player, arguments[ 1 ], iSkin, strBody )
-
 end
 
 local function MakeRagdoll( Player, Pos, Ang, Model, PhysicsObjects, Data )
@@ -164,28 +161,6 @@ function GMODSpawnProp( player, model, iSkin, strBody )
 	if (IsValid(phys)) then
 		phys:EnableMotion(false)
 	end
-end
-
---[[---------------------------------------------------------
-   Name: GMODSpawnEffect
------------------------------------------------------------]]
-function GMODSpawnEffect( player, model, iSkin, strBody )
-
-	if ( !gamemode.Call( "PlayerSpawnEffect", player, model ) ) then return end
-	local e = DoPlayerEntitySpawn( player, "prop_effect", model, iSkin, strBody )
-	if ( !IsValid( e ) ) then return end
-
-	if ( IsValid( player ) ) then
-		gamemode.Call( "PlayerSpawnedEffect", player, model, e )
-	end
-
-	undo.Create( "Effect" )
-		undo.SetPlayer( player )
-		undo.AddEntity( e )
-	undo.Finish( "Effect (" .. tostring( model ) .. ")" )
-
-	player:AddCleanup( "effects", e )
-
 end
 
 --[[---------------------------------------------------------

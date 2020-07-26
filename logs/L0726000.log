@@ -1,0 +1,64 @@
+L 07/26/2020 - 07:11:02: Log file started (file "logs\L0726000.log") (game "D:\sup\steamapps\common\GarrysModDS\garrysmod") (version "7891")
+L 07/26/2020 - 07:11:02: server_cvar: "sv_password" "***PROTECTED***"
+L 07/26/2020 - 07:11:02: server_cvar: "sv_airaccelerate" "100"
+L 07/26/2020 - 07:11:03: Connection to Steam servers successful.
+L 07/26/2020 - 07:11:03:    Public IP is 31.130.42.26.
+L 07/26/2020 - 07:11:03: Assigned anonymous gameserver Steam ID [A-1:646578184(15232)].
+L 07/26/2020 - 07:11:04: VAC secure mode is activated.
+L 07/26/2020 - 07:23:15: "COMPLΞX<2><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/26/2020 - 07:23:15: "COMPLΞX<2><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/26/2020 - 07:23:29: "COMPLΞX<2><STEAM_0:0:105635721><>" entered the game
+L 07/26/2020 - 07:30:14: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:30:19: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:30:28: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:30:30: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:30:37: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:30:41: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:30:44: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/metal_detector/init.lua:30: attempt to call method 'HasGunLicense' (a nil value)
+  1. unknown - gamemodes/darkrp/entities/entities/metal_detector/init.lua:30
+
+
+L 07/26/2020 - 07:32:00: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_licence/init.lua:18: 'then' expected near 'rp'
+
+
+L 07/26/2020 - 07:32:00: Lua Error: Refusing to load ent_licence because it is missing Type and Base keys!
+
+L 07/26/2020 - 07:32:00: Lua Error: 
+[ERROR] gamemodes/darkrp/entities/entities/ent_licence/init.lua:18: 'then' expected near 'rp'
+
+
+L 07/26/2020 - 07:32:00: Lua Error: Refusing to load ent_licence because it is missing Type and Base keys!
+
+L 07/26/2020 - 07:36:35: "COMPLΞX<2><STEAM_0:0:105635721><>" disconnected (reason "Disconnect by user.")
+L 07/26/2020 - 07:36:35: "COMPLΞX<3><STEAM_0:0:105635721><>" connected, address "26.162.207.202:27006"
+L 07/26/2020 - 07:36:36: "COMPLΞX<3><STEAM_0:0:105635721><>" STEAM USERID validated
+L 07/26/2020 - 07:36:46: "COMPLΞX<3><STEAM_0:0:105635721><>" entered the game
+L 07/26/2020 - 07:54:07: "COMPLΞX<3><STEAM_0:0:105635721><>" disconnected (reason "Server shutting down")
+L 07/26/2020 - 07:54:07: server_message: "quit"
+L 07/26/2020 - 07:54:07: Log file closed.

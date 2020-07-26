@@ -15,7 +15,7 @@ function ENT:Initialize()
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
 	self:PhysWake()
-	
+
 	self:Setprice(self.MinPrice)
 end
 
@@ -43,14 +43,8 @@ function ENT:PlayerUse(pl)
 
 	if (owner ~= pl) then
 		pl:TakeMoney(price)
-		if (price == self.MinPrice) then
-			owner:Notify(NOTIFY_ERROR, term.Get('SoldFoodNoProf'))
-			owner:AddKarma(3)
-		else
-			owner:Notify(NOTIFY_GENERIC, term.Get('SoldFood'), rp.FormatMoney(price))
-			owner:AddMoney(price)
-			owner:AddKarma(1)
-		end
+		owner:Notify(NOTIFY_GENERIC, term.Get('SoldFood'), rp.FormatMoney(price))
+		owner:AddMoney(price)
 	end
 
 	self.InUse = true

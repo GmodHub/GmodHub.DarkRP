@@ -83,7 +83,7 @@ net.Receive("Pocket.Load", function(len)
 
 		local isShip = net.ReadBit() == 1
 		if (isShip) then
-			dat[id].contents = net.ReadUInt(6)
+			dat[id].contents = net.ReadUInt(7)
 			dat[id].count = net.ReadUInt(5)
 		end
 	end

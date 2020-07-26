@@ -24,7 +24,7 @@ function ENT:Use(activator, caller, usetype, value)
  end
 
 function ENT:PlayerUse(pl)
-
+	return true
 end
 
 function ENT:CanNetworkUse(pl)

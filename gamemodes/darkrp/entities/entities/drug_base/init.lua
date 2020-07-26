@@ -73,6 +73,7 @@ function ENT:Use(activator, caller)
 		if math.Rand(0, 1) <= overdose then
 			caller:Notify(NOTIFY_ERROR, term.Get('DrugOverdose'))
 			caller:Kill()
+			caller.CurrentDeathReason = 'Overdose'
 		end
 	end
 

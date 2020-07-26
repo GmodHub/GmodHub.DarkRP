@@ -1,12 +1,12 @@
 -- We don't use these so lets reduce the overhead of calling them instead of making them empty!
 timer.Simple(0.5, function()
 	local GM = GAMEMODE
-	GM.HUDDrawTargetID 					= nil
-	GM.DrawDeathNotice 					= nil
+	GM.HUDDrawTargetID 				= nil
+	GM.DrawDeathNotice 				= nil
 	GM.HUDDrawPickupHistory 		= nil
 	GM.GUIMouseDoublePressed 		= nil
-	GM.PostProcessPermitted			= nil
-	GM.ForceDermaSkin						= nil
+	//GM.PostProcessPermitted			= nil
+	GM.ForceDermaSkin				= nil
 	GM.OnAchievementAchieved		= nil
 	GM.PreventScreenClicks			= nil
 	GM.GetMotionBlurValues 			= nil
@@ -24,7 +24,7 @@ timer.Simple(0.5, function()
 	//GM.PreDrawOpaqueRenderables 		= nil
 	//GM.PostDrawOpaqueRenderables 		= nil
 	//GM.PreDrawTranslucentRenderables 	= nil
-	//GM.PostDrawTranslucentRenderables 	= nil
+	//GM.PostDrawTranslucentRenderables = nil
 	GM.HUDPaintBackground 				= nil
 	GM.HUDDrawScoreBoard 				= nil
 	GM.PostRenderVGUI 					= nil
@@ -45,16 +45,16 @@ timer.Simple(1, function()
 end)
 
 timer.Create('Tweaks_Calc', 2.5, 0, function()
-		range = player.GetCount() > 80 and 4000000 or 9000000
-		local ratio = 2
-		local lerp = 60
-		local online = #player.GetAll()
+	range = player.GetCount() > 80 and 4000000 or 9000000
+	local ratio = 2
+	local lerp = 60
+	local online = player.GetCount()
 
-		if online > 90 then
-				lerp = math.Clamp(online * ratio, 60, 250)
-		end
+	if online > 90 then
+		lerp = math.Clamp(online * ratio, 60, 250)
+	end
 
-		RunConsoleCommand("cl_interp", lerp / 1000)
+	RunConsoleCommand("cl_interp", lerp / 1000)
 end)
 
 -- Voice

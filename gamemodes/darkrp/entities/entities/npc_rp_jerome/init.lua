@@ -40,6 +40,6 @@ hook.Add("InitPostEntity", "rp.DrugBuyers", function()
 	end
 
 	timer.Create("JeromePrice", 600, 0, function()
-		nw.SetGlobal("JeromePrice", math.Rand(0.40, 2))
+		nw.SetGlobal("JeromePrice", math.Rand(0.50, 1.50))
 	end)
 end)

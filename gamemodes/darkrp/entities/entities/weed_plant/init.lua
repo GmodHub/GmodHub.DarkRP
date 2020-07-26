@@ -46,12 +46,11 @@ end
 local function Stages(self)
 	if !IsValid(self) then return end
 
-	timer.Create('WeedPlant' .. self:EntIndex(), 25, 5, function()
+	timer.Create('WeedPlant' .. self:EntIndex(), 15, 5, function()
 		if !IsValid(self) then return end
 		self:SetStage(self:GetStage() + 1)
 		self:SetModel('models/alakran/marijuana/marijuana_stage' .. self:GetStage() .. '.mdl')
 		if self:GetStage() == 5 then
-			self:GetStage(0)
 			self.isUsable = true
 		end
 	end)

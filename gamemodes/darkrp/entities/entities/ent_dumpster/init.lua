@@ -46,7 +46,7 @@ function ENT:PlayerUse(pl)
 		prop:SetPos(pos)
 		prop:Spawn()
 
-		timer.Simple(10, function()
+		timer.Simple(15, function()
 			if prop:IsValid() then
 				prop:Remove()
 			end

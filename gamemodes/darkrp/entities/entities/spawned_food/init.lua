@@ -11,7 +11,7 @@ function ENT:Initialize()
 
 	self:PhysWake()
 
-	self.FoodEnergy = math.random(15, 25)
+	self.FoodEnergy = self.FoodEnergy or math.random(15, 25)
 end
 
 function ENT:OnTakeDamage(dmg)

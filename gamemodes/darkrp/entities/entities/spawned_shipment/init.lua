@@ -1,6 +1,5 @@
 dash.IncludeCL('cl_init.lua')
 dash.IncludeSH('shared.lua')
-dash.IncludeSV('commands.lua')
 
 ENT.LazyFreeze 		= true
 ENT.AllLazyFreeze 	= true
@@ -16,7 +15,7 @@ function ENT:Initialize()
 
 	self.locked = false
 	self.MaxHealth = 100
-	
+
 	self:PhysWake()
 
 	self:SetTrigger(true)
@@ -39,9 +38,9 @@ function ENT:Use(pl)
 		return
 	end
 
-	if (self:Getcount() < 1) then 
-		pl:Notify(NOTIFY_ERROR, term.Get('EmptyShipment')) 
-		return 
+	if (self:Getcount() < 1) then
+		pl:Notify(NOTIFY_ERROR, term.Get('EmptyShipment'))
+		return
 	end
 
 	self:SpawnItem()
@@ -52,8 +51,8 @@ function ENT:SpawnItem()
 
 	local count = self:Getcount()
 
-	if (count <= 1) then 
-		self:Remove() 
+	if (count <= 1) then
+		self:Remove()
 	end
 
 	local contents = self:Getcontents()
@@ -91,15 +90,15 @@ function ENT:Destruct()
 	self.Destructed = true
 	local vPoint = self:GetPos()
 	local contents = self:Getcontents()
-	
+
 	if (not rp.shipments[contents]) then
 		self:Remove()
 		return
 	end
-	
+
 	local class = rp.shipments[contents].entity
 	local model = rp.shipments[contents].model
-	
+
 	for i = 1, self:Getcount() do
 		local weapon = ents.Create('spawned_weapon')
 		weapon:SetModel(model)
@@ -112,14 +111,14 @@ end
 
 function ENT:StartTouch(ent)
 	if self.LastTouch and self.LastTouch >= CurTime() then return end
-	self.LastTouch = CurTime() + 1 
-	
+	self.LastTouch = CurTime() + 1
+
 	if(ent:GetClass() ~= "spawned_weapon" or (ent.lastbox or 0) == self:EntIndex()) then return end
 
 	local count = self:Getcount()
 
 	if count >= 10 then return end
-	
+
 	local contents = self:Getcontents()
 
 	if count < 1 then
@@ -129,13 +128,13 @@ function ENT:StartTouch(ent)
 		if rp.shipments[contents].entity ~= ent.weaponclass then return end
 		self:Setcount(count + 1)
 	end
-	
+
 	ent:Remove()
 end
-	
+
 function ENT:Touch(ent)
 	if (ent:GetClass() ~= 'spawned_shipment') or (self:Getcontents() ~= ent:Getcontents()) or self.locked or ent.locked or self.hasMerged or ent.hasMerged then return end
-	
+
 	ent.hasMerged = true
 	local selfCount, entCount = self:Getcount(), ent:Getcount()
 	local count = selfCount + entCount

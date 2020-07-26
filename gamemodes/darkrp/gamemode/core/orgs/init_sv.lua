@@ -63,7 +63,6 @@ end
 
 function rp.orgs.RecalculateWeights(uid, ranks)
 	table.SortByMember(ranks, 'Weight', true)
-	PrintTable(ranks)
 
 	local mems = rp.orgs.GetOnlineMembers(uid)
 
@@ -551,7 +550,9 @@ net("rp.OrgInviteResponse", function(len, pl)
 					orgdata = orgdata[1]
 					db:Query("SELECT * FROM org_rank WHERE Org=? AND Weight=1;", UID, function(data)
 						db:Query('INSERT INTO org_player(SteamID, Org, Rank) VALUES(?, ?, ?);', pl:SteamID64(), UID, data[1].RankName, function()
-							pl:SetOrg(orgdata.Name, Color(255, 255, 255):SetHex(orgdata.Color))
+							local orgColor = Color()
+							orgColor:SetHex(orgdata.Color)
+							pl:SetOrg(orgdata.Name, orgColor)
 							local orgdata = {
 								UID = orgdata.UID,
 								HasUpgrade = orgdata.HasUpgrade,

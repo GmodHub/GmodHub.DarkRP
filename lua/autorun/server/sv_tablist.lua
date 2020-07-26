@@ -24,7 +24,7 @@ for k,v in pairs(t) do
 	local f = string.Left(v, 43)
 	local b = string.Right(f, 18)
 	local steamid = string.Left(b, 17)
-	
+
 	if !table.HasValue(ids, steamid) and steamid != "" then
 		table.insert(ids, steamid)
 		print(steamid)

@@ -1,3 +1,8 @@
+local CurTime 		= CurTime
+local math_abs		= math.abs
+local math_clamp	= math.Clamp
+local math_max 		= math.max
+
 function PLAYER:NewData()
 	if not IsValid(self) then return end
 
@@ -37,13 +42,6 @@ function PLAYER:Welfare()
 	end
 end
 
-function PLAYER:KarmaForPlaying()
-  if not IsValid(self) then return end
-
-	self:AddKarma(25)
-	rp.Notify(self, NOTIFY_SUCCESS, term.Get('GainedKarmaDrop'), 25, 25)
-end
-
 function PLAYER:AddHealth(amt)
 	self:SetHealth(self:Health() + amt)
 end
@@ -52,6 +50,25 @@ function PLAYER:TakeHealth(amt)
 	if (self:Health() - amt < 0) then self:SetHealth(0) return end
 	self:SetHealth(self:Health() - amt)
 end
+
+function PLAYER:SetHunger(amount, noclamp)
+	local max = self:CallSkillHook(SKILL_HUNGER)
+	if noclamp then
+		amount = math_max(0, (amount/100 * rp.cfg.HungerRate))
+	else
+		amount = math_clamp((amount/100 * rp.cfg.HungerRate ), 0, (max/100 * rp.cfg.HungerRate ))
+	end
+	self:SetNetVar('Energy', CurTime() + amount)
+end
+
+function PLAYER:AddHunger(amount)
+	self:SetHunger(self:GetHunger() + amount)
+end
+
+function PLAYER:TakeHunger(amount)
+	self:AddHunger(-math_abs(amount))
+end
+
 
 function PLAYER:AddArmor(amt)
 	self:SetArmor(self:Armor() + amt)
@@ -76,7 +93,8 @@ end)
 hook('InitPostEntity', function()
 	timer.Create("KarmaForPlaying", 1500, 0, function()
 		for k,v in pairs(player.GetAll()) do
-			v:KarmaForPlaying()
+			v:AddKarma(25)
+			rp.Notify(v, NOTIFY_SUCCESS, term.Get('GainedKarmaDrop'), 25, 25)
 		end
 	end)
 

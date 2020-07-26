@@ -44,7 +44,10 @@ function rp.data.LoadPlayer(pl, cback)
 						local _d = data[1]
 						if _d then
 							d.OrgData.Perms = _d
-							pl:SetOrg(d.Name, Color(255, 255, 255):SetHex(d.Color))
+							local orgColor = Color()
+							orgColor:SetHex(d.Color)
+
+							pl:SetOrg(d.Name, orgColor)
 							pl:SetOrgData({
 								UID = d.UID,
 								HasUpgrade = d.HasUpgrade,
@@ -73,6 +76,8 @@ function rp.data.LoadPlayer(pl, cback)
 				pl:SetNetVar('Money', data.Money or rp.cfg.StartMoney)
 				pl:SetNetVar('Karma', data.Karma or rp.cfg.StartKarma)
 				pl:SetNetVar('Credits', data.Credits or 0)
+				pl:SetNetVar("Energy", CurTime() + rp.cfg.HungerRate)
+
 				pl:ChatPrint('Вам доступно ' .. pl:GetCredits() .. ' кредитов.')
 
 				local succ, tbl = pcall(pon.decode, data.Pocket)

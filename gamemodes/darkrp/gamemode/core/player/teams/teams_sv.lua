@@ -126,11 +126,6 @@ rp.AddCommand('agenda', function(pl, text)
 end)
 :AddParam(cmd.STRING)
 
-rp.AddCommand('model', function(pl, args)
-	pl:SetVar('Model', string.lower(args[1]))
-end)
-:AddParam(cmd.NUMBER)
-
 rp.AddCommand("playercolor", function(pl, vec1, vec2, vec3)
 	if (pl:CallTeamHook('CanChangePlayerColor') ~= false) then
 		pl:SetPlayerColor(Vector(vec1, vec2, vec3))

@@ -10,10 +10,16 @@ function ENT:Initialize()
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetCollisionGroup(COLLISION_GROUP_INTERACTIVE_DEBRIS)
 	self:PhysWake()
+	self:SetUseType(SIMPLE_USE)
 end
 
-function ENT:Use(pl)
+function ENT:PlayerUse(pl)
 	if pl:IsBanned() then return end
+
+	if pl:HasLicense() then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('AlreadyHasGunLicense'))
+		return
+	end
 
 	rp.Notify(pl, NOTIFY_GREEN, term.Get('GunLicenseActive'))
 	pl:SetNetVar('HasGunlicense', true)

@@ -147,6 +147,48 @@ rp.AddCommand("buyhealth", function(ply)
 
 end)
 
+rp.AddCommand("buyfood", function(pl, food)
+	if not rp.Foods[food] then return end
+
+	if pl:GetCount('Food') >= 15 then
+		pl:Notify(NOTIFY_ERROR, term.Get('FoodLimitReached'))
+		return
+	end
+
+	local trace = {}
+	trace.start = pl:EyePos()
+	trace.endpos = trace.start + pl:GetAimVector() * 85
+	trace.filter = pl
+
+	local tr = util.TraceLine(trace)
+
+	if pl:Team() != TEAM_COOK and team.NumPlayers(TEAM_COOK) > 0 then
+		pl:Notify(NOTIFY_ERROR, term.Get('ThereIsACook'))
+		return
+	end
+
+	local cost = 50
+	if pl:CanAfford(cost) then
+		pl:AddMoney(-cost)
+	else
+		pl:Notify(NOTIFY_ERROR,  term.Get('CannotAfford'))
+		return
+	end
+
+	rp.Notify(pl, NOTIFY_GREEN,  term.Get('RPItemBought'), food, rp.FormatMoney(cost))
+
+	local SpawnedFood = ents.Create("spawned_food")
+	SpawnedFood:SetPos(tr.HitPos)
+	SpawnedFood:SetModel(rp.Foods[food].model)
+	SpawnedFood.FoodEnergy = rp.Foods[food].amount
+	SpawnedFood.ItemOwner = pl
+	SpawnedFood:Spawn()
+
+	pl:_AddCount('Food', SpawnedFood)
+	return
+end)
+:AddParam(cmd.STRING)
+
 rp.AddCommand("destroy", function(pl)
 	local active = pl:GetActiveWeapon()
 	local canDrop = hook.Call("CanDropWeapon", GAMEMODE, pl, active)

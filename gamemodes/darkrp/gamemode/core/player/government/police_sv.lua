@@ -119,25 +119,6 @@ end)
 :AddParam(cmd.STRING)
 :SetCooldown(1.5)
 
-rp.AddCommand('quickwant', function(pl)
-	if not pl:IsGov() then return end
-	local target = pl:GetEyeTrace(pl).Entity
-	if not IsValid(target) or not isplayer(target) then return end
-
-	if target:IsGov() then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerIsPoliceWant'), target)
-		return
-	end
-
-	if target:IsWanted() then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerAlreadyWanted'), target)
-		return
-	end
-
-	target:Wanted(pl, 'Quickwanted')
-end)
-:SetCooldown(1.5)
-
 rp.AddCommand('unwant', function(pl, target)
 	if not pl:IsGov() or (pl == target) then return end
 

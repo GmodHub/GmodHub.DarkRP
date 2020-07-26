@@ -66,6 +66,7 @@ rp.RegisterEvent('BURGATRON', {
 
 				if (tr.Entity and tr.Entity:IsPlayer() and tr.Entity.IsBurger) then
 					tr.Entity:Kill();
+					tr.Entity.CurrentDeathReason = 'Burgatron'
 
 					pl.HungerImmune = true;
 
