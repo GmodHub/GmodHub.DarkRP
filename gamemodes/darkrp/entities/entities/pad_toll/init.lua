@@ -10,18 +10,6 @@ function ENT:Initialize()
     self:SetUseType( SIMPLE_USE )
 end
 
-function ENT:Use(activator, caller, type, value)
-    if IsValid(activator) and activator:IsPlayer() then
-        self.User = activator
-    end
-
-    self.BaseClass.Use(self, activator, caller, type, value)
-end
-
-function ENT:Think()
-    self.BaseClass.Think(self)
-end
-
 function ENT:PlayerUse(pl)
     if(not pl:CanAfford(self:Getprice())) then return end
 
