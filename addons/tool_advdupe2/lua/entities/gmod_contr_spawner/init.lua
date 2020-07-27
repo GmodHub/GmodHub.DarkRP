@@ -41,7 +41,7 @@ function ENT:Initialize()
 
 	if WireLib then
 		self.Inputs = Wire_CreateInputs(self.Entity, {"Spawn", "Undo"})
-		self.Outputs = WireLib.CreateSpecialOutputs(self.Entity, {"Out", "LastSpawned"}, { "NORMAL", "ENTITY" })
+		self.Outputs = WireLib.CreateSpecialOutputs(self.Entity, {"Out"}, { "NORMAL" })
 	end
 end
 
@@ -50,7 +50,7 @@ end
 /*-----------------------------------------------------------------------*
  * Sets options for this spawner
  *-----------------------------------------------------------------------*/
-function ENT:SetOptions(ply, delay, undo_delay, key, undo_key, disgrav, disdrag, addvel )
+function ENT:SetOptions(ply, delay, undo_delay, key, undo_key, disgrav, disdrag, addvel, hideprops )
 
 	self.delay = delay
 	self.undo_delay = undo_delay
@@ -66,6 +66,7 @@ function ENT:SetOptions(ply, delay, undo_delay, key, undo_key, disgrav, disdrag,
 	self.DisableGravity = disgrav
 	self.DisableDrag = disdrag
 	self.AddVelocity = addvel
+	self.HideProps = hideprops
 
 	self:ShowOutput()
 end
@@ -76,9 +77,9 @@ end
 
 
 function ENT:AddGhosts()
+	if self.HideProps then return end
 	local moveable = self:GetPhysicsObject():IsMoveable()
 	self:GetPhysicsObject():EnableMotion(false)
-
 	local EntTable
 	local GhostEntity
 	local Offset = self.DupeAngle - self.EntAngle
@@ -143,18 +144,23 @@ function ENT:SetDupeInfo( HeadEnt, EntityTable, ConstraintTable )
 	if(!self.DupeAngle)then self.DupeAngle = self:GetAngles() end
 	if(!self.EntAngle)then self.EntAngle = EntityTable[HeadEnt].PhysicsObjects[0].Angle end
 	if(!self.Offset)then self.Offset = self.EntityTable[HeadEnt].PhysicsObjects[0].Pos end
-	self.EntityTable[HeadEnt].PhysicsObjects[0].Pos = Vector(0,0,0)
+
+	local headpos, headang = EntityTable[HeadEnt].PhysicsObjects[0].Pos, EntityTable[HeadEnt].PhysicsObjects[0].Angle
+	for k, v in pairs(EntityTable) do
+		for o, p in pairs(v.PhysicsObjects) do
+			p.LPos, p.LAngle = WorldToLocal(p.Pos, p.Angle, headpos, headang)
+		end
+	end
 end
 
 
 
  
 function ENT:DoSpawn( ply )
-	self.EntityTable[self.HeadEnt].PhysicsObjects[0].Pos = self:GetPos()
-	self.EntityTable[self.HeadEnt].PhysicsObjects[0].Angle = self:GetAngles()
-	for k,v in pairs(self.Ghosts)do
-		self.EntityTable[k].PhysicsObjects[0].Pos = v:GetPos()
-		self.EntityTable[k].PhysicsObjects[0].Angle = v:GetAngles()
+	for k, v in pairs(self.EntityTable) do
+		for o, p in pairs(v.PhysicsObjects) do
+			p.Pos, p.Angle = self:LocalToWorld(p.LPos), self:LocalToWorldAngles(p.LAngle)
+		end
 	end
 
 	/*local AngleOffset = self.EntAngle
@@ -165,7 +171,7 @@ function ENT:DoSpawn( ply )
 	AngleOffset2:RotateAroundAxis(self:GetRight(),AngleOffset.p)
 	AngleOffset2:RotateAroundAxis(self:GetForward(),AngleOffset.r)*/
 
-	local Ents, Constrs = AdvDupe2.duplicator.Paste(ply, table.Copy(self.EntityTable), table.Copy(self.ConstraintTable), nil, nil, Vector(0,0,0), true) 
+	local Ents, Constrs = AdvDupe2.duplicator.Paste(ply, self.EntityTable, self.ConstraintTable, nil, nil, Vector(0,0,0), true) 
 	local i = #self.UndoList+1
 	self.UndoList[i] = Ents
 	

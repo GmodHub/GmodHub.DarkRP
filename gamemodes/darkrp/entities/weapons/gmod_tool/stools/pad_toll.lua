@@ -85,8 +85,6 @@ function TOOL:LeftClick(trace)
 
 	if (not IsValid(toll)) then return end
 
-	constraint.Weld(toll, trace.Entity, 0, 0, 0, true, false)
-
 	undo.Create('Tolls')
 		undo.AddEntity(toll)
 		undo.SetPlayer(pl)
@@ -119,8 +117,8 @@ function TOOL:RightClick(trace)
 
 		linkedProps = linkedProps - 1
 	else
-		if (linkedProps >= 2) then
-			pl:Notify(NOTIFY_ERROR, term.Get('FadingDoorMaxProps'), 2)
+		if (linkedProps >= 10) then
+			pl:Notify(NOTIFY_ERROR, term.Get('FadingDoorMaxProps'), 10)
 			return false
 		end
 

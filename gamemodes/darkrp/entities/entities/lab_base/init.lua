@@ -14,22 +14,6 @@ ENT.MaxHealth = 250
 ENT.DamageScale = 0.5
 ENT.ExplodeOnRemove = true
 
-local CraftTimeTable = {
-	["weapon_c4"] = 320,
-	["keypad_cracker"] = 100,
-	["lockpick"] = 100,
-	["armor_piece_full"] = 60,
-	["weapon_crowbar"] = 50,
-	["weapon_stunstick"] = 120,
-	["unarrest_baton"] = 150,
-	["swb_knife"] = 80,
-	["weapon_shield"] = 200,
-	["ent_licence"] = 70,
-	["ent_disguise"] = 120,
-	["weapon_taser"] = 120,
-	["weapon_ziptie"] = 120,
-}
-
 function ENT:Initialize()
 	self:SetModel(self.MainModel)
 	self:PhysicsInit(SOLID_VPHYSICS)
@@ -42,18 +26,20 @@ function ENT:Initialize()
 end
 
 function ENT:Crafting(class, crafter)
-	local time = crafter:CallSkillHook(SKILL_CRAFTING, CraftTimeTable[class.Class] or math.random(15, 60))
+	local id = rp.ShipmentMap[class.Class]
+	local time = math.ceil(rp.shipments[id].pricesep/14)
+	time = crafter:CallSkillHook(SKILL_CRAFTING, (hook.Call('calcCraftingTime', GAMEMODE, time) or time))
 
-	self:SetMetal(self:GetMetal()-1)
+	self:SetMetal(self:GetMetal() - 1)
 	self:SetCraftTime(CurTime() + time)
-	self:SetCraftID(rp.ShipmentMap[class.Class])
+	self:SetCraftID(id)
 
 	timer.Create(self:EntIndex() .. 'Lab', time, 1, function()
 		if IsValid(self) then
 			local item = ents.Create('spawned_weapon')
 			item.weaponclass = class.Class
 			item:SetModel(class.Model)
-			item:SetPos(self:GetPos() + ((self:GetAngles():Up() * 40) + (self:GetAngles():Forward() * 0)))
+			item:SetPos(util.FindEmptyPos(self:GetPos() + (self:GetAngles():Up() * 40)))
 			item:Spawn()
 			item:Activate()
 			self:SetCraftTime(0)

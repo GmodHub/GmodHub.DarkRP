@@ -35,9 +35,6 @@ function PLAYER:AddCount(str, ent)
 			self._Counts[str] = self._Counts[str] - 1
 		end
 	end
-
-	rp.Notify(self, NOTIFY_GENERIC, term.Get("SboxSpawned"), self:GetCount(str), rp.GetLimit(str), str)
-
 end
 
 function PLAYER:LimitHit(str)

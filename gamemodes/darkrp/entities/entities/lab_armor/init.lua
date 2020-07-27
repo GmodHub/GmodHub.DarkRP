@@ -10,6 +10,13 @@ ENT.MaxHealth = 100
 ENT.DamageScale = 0.8
 ENT.ExplodeOnRemove = true
 
+ENT.CanTool = {
+	remover = true,
+	material = true,
+	colour = true,
+	submaterial = true,
+}
+
 function ENT:Initialize()
 	self:SetModel('models/props_combine/suit_charger001.mdl')
 	self:PhysicsInit(SOLID_VPHYSICS)

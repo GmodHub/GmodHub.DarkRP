@@ -52,7 +52,7 @@ if (SERVER) then
 end
 
 surface.CreateFont('ba.LoadIn', {
-	font = 'Michroma',
+	font = 'Prototype [RUS by Daymarius]',
 	size = 30,
 	weight = 600,
 	antialias = true,
@@ -75,7 +75,7 @@ local PANEL = {}
 function PANEL:Init()
 	texture.Create('SUP_Background')
 		:EnableProxy(false)
-		:Download('https://gmodhub.com/static/images/bggmod.png', function(s, material)
+		:Download('https://gmodhub.com/static/images/bg_gmod.png', function(s, material)
 			if IsValid(self) then
 				self.BackgroundMaterial = material
 			end
@@ -235,9 +235,9 @@ function PANEL:Paint(w, h)
 	local s = ((ScrH() < 850) and self.IsLoaded) and 128 or 256
 	local spiny = self.IsLoaded and h * 0.25 or h * 0.26
 
-	//surface.SetDrawColor(255, 255, 255)
-	//surface.SetMaterial((self.IsLoaded and self.LogoMaterial) and self.LogoMaterial or mat_loading)
-	//surface.DrawTexturedRect(w * 0.5 - (s * 0.5), spiny, s, s)
+	surface.SetDrawColor(255, 255, 255)
+	surface.SetMaterial(self.LogoMaterial)
+	surface.DrawTexturedRect(w * 0.5 - (s * 0.5), spiny, s, s)
 
 	local x, y = w * 0.5, s + spiny
 	for k, v in ipairs(self.Text) do

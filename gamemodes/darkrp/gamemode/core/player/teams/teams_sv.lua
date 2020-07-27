@@ -114,7 +114,7 @@ rp.AddCommand('agenda', function(pl, text)
 		return
 	end
 
-	if utf8.len(text) >= 60 then
+	if utf8.len(text) >= 260 then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('AgendaTooLong'))
 		return
 	end
@@ -125,22 +125,6 @@ rp.AddCommand('agenda', function(pl, text)
 
 end)
 :AddParam(cmd.STRING)
-
-rp.AddCommand("playercolor", function(pl, vec1, vec2, vec3)
-	if (pl:CallTeamHook('CanChangePlayerColor') ~= false) then
-		pl:SetPlayerColor(Vector(vec1, vec2, vec3))
-	end
-end)
-:AddParam(cmd.NUMBER)
-:AddParam(cmd.NUMBER)
-:AddParam(cmd.NUMBER)
-
-rp.AddCommand("physcolor", function(pl, vec1, vec2, vec3)
-	pl:SetWeaponColor(Vector(vec1, vec2, vec3))
-end)
-:AddParam(cmd.NUMBER)
-:AddParam(cmd.NUMBER)
-:AddParam(cmd.NUMBER)
 
 rp.AddCommand('undisguise', function(pl)
 	if pl:IsDisguised() then
@@ -232,7 +216,7 @@ local function FinishDemote(ply, choice)
 end
 
 rp.AddCommand("demote", function(ply, p, reason)
-	if string.len(reason) > 99 then
+	if utf8.len(reason) > 40 then
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('DemoteReasonLong'), 100)
 		return
 	end
@@ -259,9 +243,6 @@ rp.AddCommand("demote", function(ply, p, reason)
 			p.IsBeingDemoted = true
 
 			hook.Call('playerDemotePlayer', GAMEMODE, ply, p, reason)
-
-			--GAMEMODE.vote:create(p:Nick() .. ":\nDemotion nominee:\n"..reason, "demote", p, 20, FinishDemote,
-			-- (question, time, uid, callback, isvote, recipients)
 
 			rp.question.Create("Понизить: " .. p:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. p:SteamID(), function(voter, answer, uid)
 				if(not rp.question.Votes[uid] or not istable(rp.question.Votes[uid])) then

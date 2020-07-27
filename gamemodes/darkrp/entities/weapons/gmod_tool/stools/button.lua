@@ -11,9 +11,14 @@ TOOL.Information = {
 	{ name = "right" }
 }
 
+if (CLIENT) then
+	language.Add("Tool.easyprecision.0", "Spawn/Update a light")
+	//language.Add("Tool.easyprecision.nudge.Description",		"Distance to push/pull objects with altfire/reload")
+end
+
 cleanup.Register("buttons")
 
-function TOOL:RightClick(trace)
+function TOOL:LeftClick(trace)
 
 	if (IsValid(trace.Entity) && trace.Entity:IsPlayer()) then return false end
 	if (CLIENT) then return true end
@@ -73,23 +78,7 @@ function TOOL:RightClick(trace)
 end
 
 function TOOL:LeftClick(trace)
-
-	local bool, button, set_key = self:RightClick(trace, true)
-	if (CLIENT) then return bool end
-
-	if (set_key) then return true end
-	if (!IsValid(button)) then return false end
-	if (!IsValid(trace.Entity) && !trace.Entity:IsWorld()) then return false end
-
-	local weld = constraint.Weld(button, trace.Entity, 0, trace.PhysicsBone, 0, 0, true)
-	trace.Entity:DeleteOnRemove(weld)
-	button:DeleteOnRemove(weld)
-
-	button:GetPhysicsObject():EnableCollisions(false)
-	button.nocollide = true
-
-	return true
-
+	self:LeftClick(trace)
 end
 
 if (SERVER) then

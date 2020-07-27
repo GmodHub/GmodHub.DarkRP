@@ -121,8 +121,6 @@ function TOOL:LeftClick(trace)
 
 	if (not IsValid(button)) then return end
 
-	constraint.Weld(button, trace.Entity, 0, 0, 0, true, false)
-
 	undo.Create('Button')
 		undo.AddEntity(button)
 		undo.SetPlayer(pl)
@@ -155,8 +153,8 @@ function TOOL:RightClick(trace)
 
 		linkedProps = linkedProps - 1
 	else
-		if (linkedProps >= 2) then
-			pl:Notify(NOTIFY_ERROR, term.Get('FadingDoorMaxProps'), 2)
+		if (linkedProps >= 10) then
+			pl:Notify(NOTIFY_ERROR, term.Get('FadingDoorMaxProps'), 10)
 			return false
 		end
 
@@ -193,7 +191,7 @@ function TOOL:UpdateGhostButton(ent, player)
 end
 
 function TOOL:Think()
-	if (not IsValid(self.GhostEntity ) || self.GhostEntity:GetModel() ~= self:GetClientInfo('model')) then
+	if (!IsValid(self.GhostEntity ) || self.GhostEntity:GetModel() != self:GetClientInfo('model')) then
 		self:MakeGhostEntity(self:GetClientInfo('model'), Vector(0, 0, 0), Angle(0, 0, 0))
 	end
 

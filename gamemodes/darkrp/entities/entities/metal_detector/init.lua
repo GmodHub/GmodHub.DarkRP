@@ -20,7 +20,8 @@ function ENT:Initialize()
 end
 
 function ENT:StartTouch(pl)
-    if not IsValid(pl) or not isplayer(pl) then return end -- dumbes line of code
+    if not IsValid(pl) or not isplayer(pl) then return end -- dumbest line of the code
+	if not self:GetPhysicsObject():IsAsleep() then return end
 	if (not pl.LastChecked) or (pl.LastChecked <= CurTime()) then
 		pl.LastChecked = CurTime() + 2
 		for k, v in ipairs(pl:GetWeapons()) do
@@ -28,7 +29,7 @@ function ENT:StartTouch(pl)
 				net.Start('rp_metaldetector_fail')
 					net.WriteEntity(self)
 				net.Broadcast()
-				if not pl:IsGov() and not pl:IsSOD() and not pl:HasLicense() then
+				if not pl:IsGov() and not pl:IsWanted() and not pl:IsSOD() and not pl:HasLicense() then
 					pl:Wanted(nil, "Нелегальное Оружие", 180)
 				end
 				return

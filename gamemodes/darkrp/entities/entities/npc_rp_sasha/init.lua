@@ -43,5 +43,6 @@ hook.Add("InitPostEntity", "rp.GunBuyers", function()
 
 	timer.Create("SashaPrice", 900, 0, function()
 		nw.SetGlobal("SashaPrice", math.Rand(0.50, 1.50))
+		rp.FlashNotify(table.Filter(player.GetAll(), function(v) return rp.teams[v:Team()].GunDealer end), "Уведомления Саши", "Цены Саши изменились на " .. math.Round(100 * (nw.GetGlobal('SashaPrice') or 1)) .. " от цены оружия.")
 	end)
 end)

@@ -47,6 +47,16 @@ rp.RegisterEvent('Vape', {
 	end,
 })
 
+-- Printer
+rp.RegisterEvent('Crafting', {
+	NiceName = 'Crafting',
+	Hooks = {
+		['calcCraftingTime'] = function(amt)
+			return (amt * 1.25)
+		end,
+	}
+})
+
 -- BURGATRON
 rp.RegisterEvent('BURGATRON', {
 	NiceName = 'BURGATRON',

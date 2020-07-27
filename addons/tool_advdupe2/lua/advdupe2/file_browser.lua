@@ -92,7 +92,7 @@ function BROWSERPNL:Init()
 	self:SetPaintBackground(true)
 	self:SetPaintBackgroundEnabled(false)
 	self:SetPaintBorderEnabled(false)
-	self:SetBackgroundColor(Color(255,255,255))
+	self:SetBackgroundColor(self:GetSkin().text_bright)
 end
 
 function BROWSERPNL:OnVScroll( iOffset )
@@ -335,14 +335,16 @@ end
 
 local function DeleteFilesInFolders(path)
 	local files, folders = file.Find(path.."*", "DATA")
-	
+
 	for k,v in pairs(files)do
 		file.Delete(path..v)
 	end
-	
+
 	for k,v in pairs(folders)do
 		DeleteFilesInFolders(path..v.."/")
 	end
+
+	file.Delete(path)
 end
 
 local function SearchNodes(node, name)
@@ -373,10 +375,6 @@ local function Search(node, name)
 	for k,v in pairs(Files)do
 		AdvDupe2.FileBrowser.Search.pnlCanvas:AddFile(v.Label:GetText()).Ref = v
 	end
-end
-
-local function Incomplete()
-	AdvDupe2.Notify("This feature is not yet complete!",NOTIFY_GENERIC,10)
 end
 
 function BROWSER:DoNodeRightClick(node)
@@ -411,7 +409,8 @@ function BROWSER:DoNodeRightClick(node)
 											local name = string.Explode("/", ReadPath)
 											name = name[#name]
 											name = string.sub(name, 1, #name-4)
-											AdvDupe2.Decode(read, function(success,dupe,info,moreinfo) if(success)then AdvDupe2.LoadGhosts(dupe, info, moreinfo, name, true) end end)
+											local success,dupe,info,moreinfo = AdvDupe2.Decode(read)
+											if(success)then AdvDupe2.LoadGhosts(dupe, info, moreinfo, name, true) end
 										end)
 		else
 			Menu:AddOption("Open", 	function() 
@@ -436,7 +435,8 @@ function BROWSER:DoNodeRightClick(node)
 											local name = string.Explode("/", ReadPath)
 											name = name[#name]
 											name = string.sub(name, 1, #name-4)
-											AdvDupe2.Decode(read, function(success,dupe,info,moreinfo) if(success)then AdvDupe2.LoadGhosts(dupe, info, moreinfo, name, true) end end)
+											local success,dupe,info,moreinfo = AdvDupe2.Decode(read)
+											if(success)then AdvDupe2.LoadGhosts(dupe, info, moreinfo, name, true) end
 										end)
 			Menu:AddSpacer()
 			Menu:AddOption("Rename", 	function()
@@ -841,7 +841,7 @@ function FOLDER:Init()
 	self.Icon:SizeToContents()
 	
 	self.Label = vgui.Create("DLabel", self)
-	self.Label:SetTextColor(Color(0,0,0))
+	self.Label:SetDark(true)
 	
 
 	self.m_bExpanded = false
@@ -927,14 +927,11 @@ function FOLDER:SetExpanded(bool)
 	end
 end
 
-local clrsel = Color(0,225,250)
-local clrunsel = Color(0,0,0,0)
-
 function FOLDER:SetSelected(bool)
 	if(bool)then
-		self:SetBackgroundColor(clrsel)
+		self:SetBackgroundColor(self:GetSkin().bg_color_bright)
 	else
-		self:SetBackgroundColor(clrunsel)
+		self:SetBackgroundColor(Color(0,0,0,0))
 	end
 end
 
@@ -974,17 +971,16 @@ function FILE:Init()
 	self.Icon:SizeToContents()
 	
 	self.Label = vgui.Create("DLabel", self)
-	
-	self.Label:SetTextColor(Color(0,0,0))
+	self.Label:SetDark(true)
 
 	self:Dock(TOP)
 end
 
 function FILE:SetSelected(bool)
 	if(bool)then
-		self:SetBackgroundColor(clrsel)
+		self:SetBackgroundColor(self:GetSkin().bg_color_bright)
 	else
-		self:SetBackgroundColor(clrunsel)
+		self:SetBackgroundColor(Color(0,0,0,0))
 	end
 end
 
@@ -1106,7 +1102,7 @@ function PANEL:Init()
 	
 	self:SetPaintBackground(true)
 	self:SetPaintBackgroundEnabled(false)
-	self:SetBackgroundColor(Color(125,125,125))
+	self:SetBackgroundColor(self:GetSkin().bg_color_bright)
 	
 	self.Browser = vgui.Create("advdupe2_browser_panel", self)
 	UpdateClientFiles()
@@ -1123,15 +1119,12 @@ function PANEL:Init()
 	self.Help:SizeToContents()
 	self.Help:SetTooltip("Help Section")
 	self.Help.DoClick = function(btn)
-							local Menu = DermaMenu()
-							Menu:AddOption("Forum", function() gui.OpenURL("http://www.facepunch.com/threads/1136597") end)
-							Menu:AddOption("Bug Reporting", function() gui.OpenURL("http://code.google.com/p/advdupe2/issues/list") end)
-							Menu:AddOption("Controls", function() gui.OpenURL("http://code.google.com/p/advdupe2/wiki/Controls") end)
-							Menu:AddOption("Commands", function() gui.OpenURL("http://code.google.com/p/advdupe2/wiki/ServerSettings") end)
-							//Menu:AddOption("About", AdvDupe2.ShowSplash)
-							Menu:AddOption("About", Incomplete)
-							Menu:Open()
-						end
+		local Menu = DermaMenu()
+		Menu:AddOption("Bug Reporting", function() gui.OpenURL("https://github.com/wiremod/advdupe2/issues") end)
+		Menu:AddOption("Controls", function() gui.OpenURL("https://github.com/wiremod/advdupe2/wiki/Controls") end)
+		Menu:AddOption("Commands", function() gui.OpenURL("https://github.com/wiremod/advdupe2/wiki/Server-settings") end)
+		Menu:Open()
+	end
 						
 	self.Submit = vgui.Create("DImageButton", self)
 	self.Submit:SetMaterial( "icon16/page_save.png" )

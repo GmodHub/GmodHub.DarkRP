@@ -2,23 +2,19 @@
  RP names
  ---------------------------------------------------------*/
 rp.AddCommand("randomname", function(ply)
-	if ply.NextNameChange and ply.NextNameChange > CurTime() then
-		rp.Notify(ply, NOTIFY_ERROR, term.Get('PleaseWaitX'), math.ceil(ply.NextNameChange - CurTime()))
-		return ""
-	end
-
-	local name = rp.names.Random()
-	hook.Call("playerChangedRPName", GAMEMODE, ply, name)
-	ply:SetRPName(name)
-	ply.NextNameChange = CurTime() + 20
+	randName.Get(function(name)
+		hook.Call("playerChangedRPName", GAMEMODE, ply, name)
+		ply:SetRPName(name)
+	end)
 end)
+:SetCooldown(30)
 
 rp.AddCommand("rpname", function(ply, name)
 
 	local len = string.len(name)
 	local low = string.lower(name)
 
-	if len > 20 then
+	if len > 21 then
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('RPNameLong'), "21")
 		return
 	elseif len < 3 then
@@ -49,6 +45,21 @@ end)
 :AddAlias("name")
 :AddAlias("nick")
 
+rp.AddCommand("playercolor", function(pl, vec1, vec2, vec3)
+	if (pl:CallTeamHook('CanChangePlayerColor') ~= false) then
+		pl:SetPlayerColor(Vector(vec1, vec2, vec3))
+	end
+end)
+:AddParam(cmd.NUMBER)
+:AddParam(cmd.NUMBER)
+:AddParam(cmd.NUMBER)
+
+rp.AddCommand("physcolor", function(pl, vec1, vec2, vec3)
+	pl:SetWeaponColor(Vector(vec1, vec2, vec3))
+end)
+:AddParam(cmd.NUMBER)
+:AddParam(cmd.NUMBER)
+:AddParam(cmd.NUMBER)
 
 local function ChangeJob(ply, args)
 	if ply:IsArrested() then

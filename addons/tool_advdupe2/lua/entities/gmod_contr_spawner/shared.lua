@@ -1,5 +1,5 @@
 ENT.Type 			= "anim"
-ENT.Base			= WireLib and "base_wire_entity" or "base_gmodentity"
+ENT.Base			= "base_anim"
 ENT.PrintName		= "Contraption Spawner"
 ENT.Author			= "TB"
 ENT.Contact			= ""

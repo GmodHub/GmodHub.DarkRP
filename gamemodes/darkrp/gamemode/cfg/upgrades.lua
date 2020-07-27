@@ -330,14 +330,14 @@ rp.shop.Add('Модератор (60 дней)', 'trial_mod_60d')
 
 
 -- Events
-rp.shop.Add('Parkout Эвент', 'event_parkour')
+rp.shop.Add('Parkout Ивент', 'event_parkour')
 	:SetCat('Events')
 	:SetDesc('Все смогут использовать паркур свеп.\nДействует 30 минут.')
 	:SetImage('parkour.png')
 	:SetPrice(300)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Parkour') then
-			return false, 'Этот эвент уже начался!'
+			return false, 'Этот ивент уже начался!'
 		end
 		return true
 	end)
@@ -345,14 +345,14 @@ rp.shop.Add('Parkout Эвент', 'event_parkour')
 		RunConsoleCommand('ba', 'startevent', 'Parkour', '30mi')
 	end)
 
-rp.shop.Add('Vape Эвент', 'event_vape')
+rp.shop.Add('Vape Ивент', 'event_vape')
 	:SetCat('Events')
 	:SetDesc('Все получают электронную сигарету при спавне.\nДействует 30 минут.')
 	:SetIcon('models/swamponions/vape.mdl')
 	:SetPrice(300)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Vape') then
-			return false, 'Этот эвент уже начался!'
+			return false, 'Этот ивент уже начался!'
 		end
 		return true
 	end)
@@ -361,14 +361,14 @@ rp.shop.Add('Vape Эвент', 'event_vape')
 	end)
 
 
-rp.shop.Add('VIP Эвент', 'event_vip')
+rp.shop.Add('VIP Ивент', 'event_vip')
 	:SetCat('Events')
 	:SetDesc('Каждый получит возможности VIP привилегии.\nДействует 30 минут.')
 	:SetImage('ticket.png')
 	:SetPrice(350)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('VIP') then
-			return false, 'Этот эвент уже начался!'
+			return false, 'Этот ивент уже начался!'
 		end
 		return true
 	end)
@@ -376,14 +376,14 @@ rp.shop.Add('VIP Эвент', 'event_vip')
 		RunConsoleCommand('ba', 'startevent', 'VIP', '30mi')
 	end)
 
-rp.shop.Add('Printer Эвент', 'event_printer')
+rp.shop.Add('Printer Ивент', 'event_printer')
 	:SetCat('Events')
 	:SetDesc('Все принтеры будут печатать на 50% больше.\nДействует 30 минут.')
 	:SetIcon('models/gmh/printer/printer.mdl')
 	:SetPrice(450)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Printer') then
-			return false, 'Этот эвент уже начался!'
+			return false, 'Этот ивент уже начался!'
 		end
 		return true
 	end)
@@ -391,20 +391,20 @@ rp.shop.Add('Printer Эвент', 'event_printer')
 		RunConsoleCommand('ba', 'startevent', 'printer', '30mi')
 	end)
 
-/*rp.shop.Add('Crafting Event', 'event_crafting')
+rp.shop.Add('Crafting Ивент', 'event_crafting')
 	:SetCat('Events')
 	:SetDesc('Everyone\'s labs will craft 25% faster.\nLasts 30 minutes.')
 	:SetIcon('models/props/cs_italy/it_mkt_table3.mdl')
 	:SetPrice(450)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('Crafting') then
-			return false, 'Этот эвент уже начался!'
+			return false, 'Этот ивент уже начался!'
 		end
 		return true
 	end)
 	:SetOnBuy(function(self, pl)
 		RunConsoleCommand('ba', 'startevent', 'crafting', '30mi')
-	end)*/
+	end)
 
 rp.shop.Add('BURGATRON', 'event_burger')
 	:SetCat('Events')
@@ -413,7 +413,7 @@ rp.shop.Add('BURGATRON', 'event_burger')
 	:SetPrice(300)
 	:SetCanBuy(function(self, pl)
 		if rp.EventIsRunning('BURGATRON') then
-			return false, 'Этот эвент уже начался!'
+			return false, 'Этот ивент уже начался!'
 		end
 		return true
 	end)

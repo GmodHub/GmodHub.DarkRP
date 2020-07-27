@@ -51,24 +51,33 @@ function PLAYER:SaveInv()
 	rp.data.SetPocket(self:SteamID64(), pon.encode(self:GetInv()))
 end
 
-function PLAYER:SendInv(pl)
-	if not pl then pl = self end
+function PLAYER:SendInv(inspector)
+    local nKeys = {}
 	net.Start("Pocket.Load")
 		net.WriteUInt(table.Count(self:GetInv()), pocketBits)
 		for k,v in pairs(self:GetInv()) do
 			net.WriteUInt(k, pocketBits)
 
-			net.WriteUInt(1, pocketBits+1)
-			net.WriteUInt(2, pocketBits+1)
+            table.insert(nKeys, v.Class)
+			net.WriteUInt(#nKeys, pocketBits+1)
+            table.insert(nKeys, v.Model)
+			net.WriteUInt(#nKeys, pocketBits+1)
 
 			net.WriteBit(0)
-
-			net.WriteUInt(table.Count(v), pocketBits+1)
-			for a,b in pairs(v) do
-				net.WriteString(b)
-			end
 		end
-	net.Send(pl)
+
+        net.WriteUInt(table.Count(nKeys), pocketBits+1)
+        for k,v in pairs(nKeys) do
+            net.WriteString(v)
+        end
+
+        if inspector then
+            net.WriteBit(1)
+            net.WritePlayer(self)
+        else
+            net.WriteBit(0)
+        end
+	net.Send(inspector or self)
 end
 
 if !ID then ID = 1 end
@@ -99,7 +108,7 @@ local function GetEntityInfo(ent)
 	elseif (c == "spawned_weapon") then
 		tab.weaponclass = ent.weaponclass
 		if ent.number then tab.number = ent.number end
-		if ent.clip1 then tab.clip1 = ent.clip1 subtitle = ent.clip1 .. " Патрон" end
+		if ent.clip1 then tab.clip1 = ent.clip1 end
 		if ent.clip2 then tab.clip2 = ent.clip2 end
 		if ent.ammoadd then tab.ammoadd = ent.ammoadd end
 
@@ -136,35 +145,6 @@ local function Finalize(ent, tab, owner)
 	ent:Spawn()
 end
 
-net.Receive("rp.inv.Drop", function(len, pl)
-	if (not rp.data.IsLoaded(p)) then return end
-	local pock = pl:GetInv()
-
-	a = net.ReadUInt(32)
-
-	if (pock[a]) then
-		local item = pock[a]
-
-		local ent_class = item.Class
-
-		local ent = ents.Create(ent_class)
-		local trace = {}
-			trace.start = pl:EyePos()
-			trace.endpos = trace.start + pl:GetAimVector() * 85
-			trace.filter = pl
-		local tr = util.TraceLine(trace)
-		ent:SetPos(tr.HitPos + Vector(0, 0, 10))
-
-		Finalize(ent, item, pl)
-	end
-
-	pl:GetInv()[a] = nil
-	pl:SaveInv()
-	net.Start("Pocket.RemoveItem")
-		net.WriteUInt(a, pocketBits)
-	net.Send(pl)
-end)
-
 function SWEP:Reload()
 	if self.Owner:HasWeapon("keys") then
 		self.Owner:SelectWeapon("keys")
@@ -188,7 +168,7 @@ function SWEP:PrimaryAttack()
 
 	local p = self.Owner:GetInv()
 	if (table.Count(p) >= Limit) then
-		self.Owner:ChatPrint("Ваш карман полн!")
+        ba.notify(self.Owner, "Ваш карман полн!")
 		return
 	end
 
@@ -210,17 +190,49 @@ function SWEP:PrimaryAttack()
 	ID = ID + 1
 end
 
+net.Receive("rp.inv.Drop", function(len, pl)
+	if (not rp.data.IsLoaded(pl)) then return end
+    if (pl:GetActiveWeapon():GetClass() ~= "pocket") then return end
+
+	local inv = pl:GetInv()
+
+	a = net.ReadUInt(32)
+
+	if (!inv[a]) then return end
+	local item = inv[a]
+
+	local ent_class = item.Class
+
+	local ent = ents.Create(ent_class)
+	local trace = {}
+		trace.start = pl:EyePos()
+		trace.endpos = trace.start + pl:GetAimVector() * 85
+		trace.filter = pl
+	local tr = util.TraceLine(trace)
+	ent:SetPos(tr.HitPos + Vector(0, 0, 10))
+
+	Finalize(ent, item, pl)
+
+    pl:GetInv()[a] = nil
+    pl:SaveInv()
+    net.Start("Pocket.RemoveItem")
+        net.WriteUInt(a, pocketBits)
+    net.Send(pl)
+end)
+
 net.Receive("Pocket.AdminDelete", function(len, pl)
 	if (!pl:IsSuperAdmin()) then return end
 
-	local targ = net.ReadEntity()
-	local id = net.ReadUInt(32)
-	local inv = targ:GetInv()
+	local targ = net.ReadPlayer()
+	local id = net.ReadUInt(6)
+    if (!isplayer(targ)) then return end
+
+    local inv = targ:GetInv()
 
 	if (!inv[id]) then return end
 
 	local item = inv[id]
-	local itemName = (item.contents and rp.shipments[item.contents].name .. ' (число: ' .. item.count .. ')') or rp.inv.Wl[item.Class]
+	local itemName = (item.contents and rp.shipments[item.contents].name .. ' (Количество: ' .. item.count .. ')') or rp.inv.Wl[item.Class]
 
 	targ:GetInv()[id] = nil
 	targ:SaveInv()
@@ -228,6 +240,6 @@ net.Receive("Pocket.AdminDelete", function(len, pl)
 		net.WriteUInt(id, pocketBits)
 	net.Send(targ)
 
-	ba.notify(targ, '# было убрано # из кармана.', pl, itemName)
-	ba.notify(pl, 'Убрано # из #\'s кармана.', itemName, targ)
+	ba.notify(targ, '# убрал из вашего кармана #', pl, itemName)
+	ba.notify(pl, 'Убрано # из кармана игрока #.', itemName, targ)
 end)

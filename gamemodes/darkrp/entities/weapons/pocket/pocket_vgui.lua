@@ -42,7 +42,7 @@ function PANEL:Finalize()
 	if (self.Inspecting) then
 		local y = self.Icons[1] and self.Icons[1].y or ScrW() * 0.25
 		self.InspLbl = ui.Create("DLabel", function(lbl)
-			lbl:SetText("Inspecting " .. self.Inspecting .. "'s Pocket")
+			lbl:SetText("Карманы Игрока " .. self.Inspecting)
 			lbl:SizeToContents()
 
 			lbl:CenterHorizontal()
@@ -50,7 +50,7 @@ function PANEL:Finalize()
 		end, self)
 		y = y - self.InspLbl:GetTall() - 3
 		self.btnClose = ui.Create("DButton", function(btn)
-			btn:SetText("Close")
+			btn:SetText("Закрыть")
 			btn:SizeToContents()
 			btn:SetWide(self.InspLbl:GetWide())
 			btn:CenterHorizontal()
@@ -122,7 +122,7 @@ function PANEL:Paint(w, h)
 	surface.SetDrawColor(0, 0, 0, 70)
 	surface.DrawRect(0, 0, w, h)
 	if (not self.Inspecting) then
-		draw.SimpleText(table.Count(self.Contents) .. '/' .. (LocalPlayer():GetUpgradeCount('pocket_space_2') * 2) + 8 .. ' Items', 'ui.22', ScrW()/2, (self.YPos or (ScrH() * 0.5 -37)) - 5, rp.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
+		draw.SimpleText(table.Count(self.Contents) .. '/' .. (LocalPlayer():GetUpgradeCount('pocket_space_2') * 2) + 8 .. ' Предметов', 'ui.22', ScrW()/2, (self.YPos or (ScrH() * 0.5 -37)) - 5, rp.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
 	end
 end
 
@@ -161,7 +161,7 @@ function ITEM:OnMousePressed(mb)
 		net.SendToServer()
 	elseif (mb == MOUSE_RIGHT and self:GetParent().Inspecting and LocalPlayer():IsSuperAdmin()) then
 		local m = ui.DermaMenu()
-		m:AddOption("Delete Item", function()
+		m:AddOption("Удалить Предмет", function()
 			net.Start("Pocket.AdminDelete")
 				net.WritePlayer(self:GetParent().InspectingPlayer)
 				net.WriteUInt(self.ID, pocketBits)
@@ -180,7 +180,7 @@ function ITEM:Paint(w, h)
 	surface.SetFont("ui.20")
 	surface.SetTextColor(255, 255, 255)
 
-	local title = self.Title or "ITEM"
+	local title = self.Title or "ПРЕДМЕТ"
 
 	local tw, th = surface.GetTextSize(title)
 	if (!self.SubTitle or self.SubTitle == "") then

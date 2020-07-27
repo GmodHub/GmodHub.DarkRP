@@ -41,5 +41,6 @@ hook.Add("InitPostEntity", "rp.DrugBuyers", function()
 
 	timer.Create("JeromePrice", 600, 0, function()
 		nw.SetGlobal("JeromePrice", math.Rand(0.50, 1.50))
+		rp.FlashNotify(table.Filter(player.GetAll(), function(v) return rp.teams[v:Team()].drugDealer end), "Уведомления Шушеры", "Цены Шушеры изменились на " .. math.Round(100 * (nw.GetGlobal('JeromePrice') or 1)) .. " от цены наркотиков.")
 	end)
 end)

@@ -1,15 +1,8 @@
 -- We don't use these so lets reduce the overhead of calling them instead of making them empty!
 timer.Simple(0.5, function()
 	local GM = GAMEMODE
-	GM.HUDDrawTargetID 				= nil
-	GM.DrawDeathNotice 				= nil
-	GM.HUDDrawPickupHistory 		= nil
-	GM.GUIMouseDoublePressed 		= nil
-	//GM.PostProcessPermitted			= nil
-	GM.ForceDermaSkin				= nil
-	GM.OnAchievementAchieved		= nil
-	GM.PreventScreenClicks			= nil
-	GM.GetMotionBlurValues 			= nil
+	/*GM.HUDDrawTargetID 					= nil
+	GM.DrawDeathNotice 					= nil
 	GM.PreRender 						= nil
 	GM.RenderScene 						= nil
 	GM.PostDrawHUD 						= nil
@@ -21,14 +14,16 @@ timer.Simple(0.5, function()
 	GM.PreDrawHalos 					= nil
 	GM.CloseDermaMenus 					= nil
 	GM.PostDraw2DSkyBox 				= nil
-	//GM.PreDrawOpaqueRenderables 		= nil
-	//GM.PostDrawOpaqueRenderables 		= nil
-	//GM.PreDrawTranslucentRenderables 	= nil
-	//GM.PostDrawTranslucentRenderables = nil
+	GM.PreDrawOpaqueRenderables 		= nil
+	GM.PostDrawOpaqueRenderables 		= nil
+	GM.PreDrawTranslucentRenderables 	= nil
+	GM.PostDrawTranslucentRenderables 	= nil
+	GM.PreDrawViewModel 				= nil
+	GM.PostDrawViewModel 				= nil
 	GM.HUDPaintBackground 				= nil
 	GM.HUDDrawScoreBoard 				= nil
 	GM.PostRenderVGUI 					= nil
-	GM.PostRender 						= nil
+	GM.PostRender 						= nil*/
 end)
 
 timer.Simple(1, function()
@@ -86,7 +81,8 @@ function GM:ShowSpare1()
 end
 
 local FKeyBinds = {
-	["gm_showteam"] = "ShowHelp",
+	["gm_showhelp"] = "ShowHelp",
+	["gm_showteam"] = "ShowTeam",
 	["gm_showspare1"] = "ShowSpare1",
 	["gm_showspare2"] = "ShowSpare2"
 }

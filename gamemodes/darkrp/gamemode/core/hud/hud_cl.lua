@@ -384,7 +384,7 @@ local function InfoBar()
 		end
 
 		if (c > 0) then
-			drawRightText(str .. ((c > 1) and ' Эвенты' or ' Эвент'), color_event)
+			drawRightText(str .. ((c > 1) and ' Ивенты' or ' Ивент'), color_event)
 			drawRightIcon(material_events)
 		end
 	end
@@ -422,6 +422,7 @@ function GM:DrawAgenda()
 	local w 	= (ScrW() * .175)
 	local agendaText = nw_GetGlobal('Agenda;' .. agenda.manager) or 'Повестка дня отсутствует!'
 	local text 	= string.Wrap('HudFontLaws', agendaText, w - 6)
+
 	local h 	= (#text * 15) + 33
 
 	local x, y	= 5, height + 5
