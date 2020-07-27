@@ -215,16 +215,13 @@ end)
 
 local function FinishDemote(ply, choice)
 	ply.IsBeingDemoted = nil
-	if(choice > 0) then
+	if(choice >= math.ceil(player.GetCount() * 0.1)) then
 		ply:TeamBan()
 		if ply:Alive() then
 			ply:ChangeTeam(1, true)
 		else
 			ply.demotedWhileDead = true
 		end
-	end
-
-	if(choice > 0) then
 		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerDemoted'), ply)
 	else
 		rp.NotifyAll(NOTIFY_GENERIC, term.Get('PlayerNotDemoted'), ply)
