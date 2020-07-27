@@ -107,8 +107,6 @@ function TOOL:LeftClick(trace)
 
 	if (not IsValid(biometric)) then return end
 
-	constraint.Weld(biometric, trace.Entity, 0, 0, 0, true, false)
-
 	undo.Create('Biometrics')
 		undo.AddEntity(biometric)
 		undo.SetPlayer(pl)
@@ -141,8 +139,8 @@ function TOOL:RightClick(trace)
 
 		linkedProps = linkedProps - 1
 	else
-		if (linkedProps >= 2) then
-			pl:Notify(NOTIFY_ERROR, term.Get('FadingDoorMaxProps'), 2)
+		if (linkedProps >= 10) then
+			pl:Notify(NOTIFY_ERROR, term.Get('FadingDoorMaxProps'), 10)
 			return false
 		end
 

@@ -32,14 +32,16 @@ function PLAYER:Wanted(actor, reason, time)
 			self:UnWanted()
 		end
 	end)
-	rp.FlashNotifyAll('Розыск', term.Get('Wanted'), self, reason, (IsValid(actor) and actor or 'Auto Want'))
+	rp.FlashNotifyAll('Розыск', term.Get('Wanted'), self, reason, (IsValid(actor) and actor or 'Авто Розыск'))
 	hook.Call('PlayerWanted', GAMEMODE, self, actor, reason)
 end
 
 function PLAYER:UnWanted(actor)
+	if self.WantedActor then self.WantedActor = nil end
 	self:SetNetVar('IsWanted', nil)
 	self:SetNetVar('WantedInfo', nil)
 	timer.Destroy('Wanted' .. self:SteamID64())
+	rp.FlashNotifyAll('Розыск', term.Get('UnWanted'), self, reason, (IsValid(actor) and actor or 'Авто Розыск'))
 	hook.Call('PlayerUnWanted', GAMEMODE, self, actor)
 end
 
@@ -63,7 +65,9 @@ function PLAYER:Arrest(actor, reason)
 	self:SetHealth(100)
 	self:SetArmor(0)
 
-	rp.FlashNotifyAll('Arrested', term.Get('Arrested'), self)
+	self:Give("weapon_combo_fists")
+
+	rp.FlashNotifyAll('Арест', term.Get('Arrested'), self)
 	hook.Call('PlayerArrested', GAMEMODE, self, actor)
 
 	self:SetPos(util.FindEmptyPos(jails[math.random(#jails)]))
@@ -80,7 +84,7 @@ function PLAYER:UnArrest(actor)
 		self:SetPos(pos)
 		self:SetHealth(100)
 		hook.Call('PlayerLoadout', GAMEMODE, self)
-		rp.FlashNotifyAll('UnArrested', term.Get('UnArrested'), self)
+		rp.FlashNotifyAll('Окончание Ареста', term.Get('UnArrested'), self)
 		hook.Call('PlayerUnArrested', GAMEMODE, self, actor)
 	end)
 end
@@ -88,10 +92,26 @@ end
 
 -- Commands
 rp.AddCommand('911', function(pl, text)
-  chat.Send('911', pl, text)
+	if (not text or text == "") then
+		if not pl:GetNetVar('911CallReason') then
+			pl:Notify(NOTIFY_ERROR, term.Get('Need911Reason'))
+		else
+			pl:SetNetVar('911CallReason', nil)
+			pl:DestroyTimer('911Call')
+			pl:Notify(NOTIFY_GENERIC, term.Get('Canceled911'))
+		end
+		return
+	end
+
+	if utf8.len(text) > 40 then
+		return
+	end
+
+  	chat.Send('911', pl, text)
 	pl:SetNetVar('911CallReason', text)
+	pl:Timer('911Call', 60, 1, function() pl:SetNetVar('911CallReason', nil) end)
 end)
-:AddParam(cmd.STRING)
+:AddParam(cmd.STRING, cmd.OPT_OPTIONAL)
 :SetCooldown(1.5)
 :SetChatCommand()
 
@@ -108,11 +128,17 @@ rp.AddCommand('want', function(pl, target, reason)
 		return
 	end
 
-	if (string.len(reason) > 40) then
+	if target:IsArrested() then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerCannotBeWanted'), target)
+		return
+	end
+
+	if (utf8.len(reason) > 40) then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('WantReasonTooLong'))
 		return
 	end
 
+	target.WantedActor = pl
 	target:Wanted(pl, reason)
 end)
 :AddParam(cmd.PLAYER_ENTITY)
@@ -124,9 +150,13 @@ rp.AddCommand('unwant', function(pl, target)
 
 	if not target:IsWanted() then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerNotWanted'), target)
-	else
-		target:UnWanted(pl)
+		return
 	end
+
+	if target.WantedActor ~= pl and not pl:IsChief() and not pl:IsMayor() then return end
+
+	rp.Notify(pl, NOTIFY_SUCCESS, term.Get('YouUnwanted'), target)
+	target:UnWanted(pl)
 end)
 :AddParam(cmd.PLAYER_ENTITY)
 :SetCooldown(1.5)
@@ -144,6 +174,11 @@ rp.AddCommand('warrant', function(pl, target, reason)
 		return
 	end
 
+	if (utf8.len(reason) > 40) then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('WantReasonTooLong'))
+		return
+	end
+
 	for k, v in pairs(rp.teams) do
 		if v.mayor then
 			mayors = team.GetPlayers(k)
@@ -151,7 +186,7 @@ rp.AddCommand('warrant', function(pl, target, reason)
 	end
 
 	if (#mayors > 1) and not pl:IsMayor() then
-		rp.question.Create(pl:Name() .. ' has requested a search warrant on ' .. target:Name() .. ' for ' ..  reason, 40, target:EntIndex() .. 'warrant', function(mayor, answer)
+		rp.question.Create(pl:Name() .. ' запросил ордер на обыск ' .. target:Name() .. ' за ' ..  reason, 40, target:EntIndex() .. 'warrant', function(mayor, answer)
 			if IsValid(target) and tobool(answer) then
 				rp.Notify(pl, NOTIFY_GREEN, term.Get('WarrantRequestAcc'))
 				target:Warrant(pl, reason)
@@ -192,6 +227,7 @@ hook('PlayerThink', function(pl)
 
 			pl:Wanted(nil, 'Побег из Тюрьмы')
 
+			pl:StripWeapons()
 			hook.Call('PlayerLoadout', GAMEMODE, pl)
 		end
 	end)

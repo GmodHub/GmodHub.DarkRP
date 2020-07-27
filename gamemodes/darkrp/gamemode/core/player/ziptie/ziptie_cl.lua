@@ -105,5 +105,5 @@ hook('PrePlayerDraw', 'rp.Zipties.PrePlayerDraw', function(pl)
 end)
 
 hook('ZiptieStatusChanged', 'rp.Zipties.ZiptieStatusChanges', function(pl, ziptied)
-	pl.Interactions = ziptied and {{Key="G",Text="Обрезать Стяжки"}} or nil
+	pl.Interactions = ziptied and {{Key="E",Text="Обрезать Стяжки"}} or nil
 end)

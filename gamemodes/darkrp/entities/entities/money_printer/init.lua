@@ -85,8 +85,6 @@ function ENT:PrintMoney()
 		self:SetLastPrint(CurTime())
 		self:SetInk(self:GetInk() - 1)
 
-		self.sound:PlayEx(1, 100)
-
 		local effectdata = EffectData()
 		effectdata:SetOrigin(self:GetPos())
 		effectdata:SetMagnitude(1)

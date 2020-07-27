@@ -52,37 +52,6 @@ function ENTITY:MakeFadingDoor(pl, key, inversed, toggleactive)
 	return makeundo
 end
 
-function ENTITY:Fade()
-	if(self:GetMaterial() ~= "sprites/heatwave") then
-		self.FadeMaterial = self:GetMaterial()
-		self:SetMaterial("sprites/heatwave")
-	end
-	self:DrawShadow(false)
-	self:SetNotSolid(true)
-	self.Faded = true
-
-	local phys = self:GetPhysicsObject()
-	if (not IsValid(phys)) then
-		return
-	end
-	phys:EnableMotion(false)
-end
-
-function ENTITY:UnFade()
-	--if(not self.FadingDoor) then return end
-
-	self:SetMaterial(self.FadeMaterial)
-	self:DrawShadow(true)
-	self:SetNotSolid(false)
-	self.Faded = false
-
-	local phys = self:GetPhysicsObject()
-	if (not IsValid(phys)) then
-		return
-	end
-	phys:EnableMotion(true);
-end
-
 -- Utility Functions
 local function ValidTrace(tr)
 	return ((tr.Entity) and (tr.Entity:IsValid())) and !((tr.Entity:IsPlayer()) or (tr.Entity:IsNPC()) or (tr.Entity:IsVehicle()) or (tr.HitWorld))
@@ -91,10 +60,10 @@ end
 local function ChangeState(pl, ent, state)
 	if !(ent:IsValid()) then return end
 
-	--if ((pl:GetCount('keypads') > 0) or (pl:GetCount('buttons') > 0)) and (not pl.UsingKeypad) then
-	--	pl:Notify(NOTIFY_ERROR, term.Get('CantMetagameKeypad'))
-	--	return
-	--end
+	if ((pl:GetCount('keypads') > 0) or (pl:GetCount('buttons') > 0)) and (not pl.UsingKeypad) then
+		pl:Notify(NOTIFY_ERROR, term.Get('CantMetagameKeypad'))
+		return
+	end
 
 	if (ent.FadeToggle) then
 		if (state == false) then return end
@@ -129,7 +98,7 @@ if (CLIENT) then
 	language.Add("Tool.fading_door.name", "Fading Door")
 	language.Add("Tool.fading_door.desc", "Makes things into fadable doors.")
 	language.Add("Tool.fading_door.left", "Create fading door")
-	--language.Add("Tool.fading_door.right", "Create fading door then press again to place keypad")
+	language.Add("Tool.fading_door.right", "Create fading door then press again to place keypad")
 
 	language.Add("Undone_fading_door", "Undone Fading Door")
 
@@ -200,8 +169,7 @@ function TOOL:LinkKeypad(Ent, Key, Password, HoldLength)
 end
 
 function TOOL:RightClick(tr)
-	return false
-	--[[if not SERVER then return end
+	if not SERVER then return end
 
 	local pl = self:GetOwner()
 
@@ -248,5 +216,5 @@ function TOOL:RightClick(tr)
 		self.Stage = 1
 	end
 
-	return true]]
+	return true
 end

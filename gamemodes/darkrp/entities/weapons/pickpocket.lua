@@ -15,7 +15,7 @@ SWEP.ViewModelFOV = 60
 SWEP.ViewModelFlip = false
 SWEP.UseHands = true
 SWEP.ViewModel = Model("models/weapons/c_lockpick.mdl")
-SWEP.WorldModel = Model('models/gmh/weapons/lockpick/lockpick.mdl')
+SWEP.WorldModel = Model('models/sup/weapons/lockpick/lockpick.mdl')
 
 SWEP.Spawnable = true
 SWEP.Category = "RP"
@@ -60,12 +60,14 @@ function SWEP:PrimaryAttack()
 	end
 
 	if pl:InSpawn() or target:InSpawn() then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('NotAllowedInSpawn'), 'Pick Pocketing')
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('NotAllowedInSpawn'), 'Кража')
 		return
 	end
 
+	target:TakeDamage(0, pl, self)
+
 	pl:TakeKarma(2)
-	pl:Notify(NOTIFY_ERROR, term.Get('LostKarma'), 2, 'pick pocketing')
+	pl:Notify(NOTIFY_ERROR, term.Get('LostKarma'), 2, 'кражу')
 
 	hook.Call('PlayerPickPocket', nil, pl, target)
 

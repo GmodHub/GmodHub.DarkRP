@@ -12,6 +12,7 @@ net('rp.ApplyGenome', function(len, pl)
 
     if pl.Genome.d == defense and pl.Genome.s == speed and pl.Genome.a == attack then return end
     local max = (pl:IsChief() and 33 or 30) + (pl:IsVIP() and 3 or 0)
+
     if (defense + speed + attack) > max or (defense + speed + attack) < 0 then
         pl:Notify(NOTIFY_ERROR, term.Get("GenomeOverflowed"))
         defense = 10
@@ -28,7 +29,9 @@ net('rp.ApplyGenome', function(len, pl)
 
     pl:Notify(NOTIFY_SUCCESS, term.Get("GenomeAltered"), (defenseVal < 0 and "-" or "+"), math.abs(defenseVal), 100 + math.floor(speedVal), 100 + attackVal)
     rp.NotifyAll(NOTIFY_GENERIC, term.Get('ChangeJob'), pl, name)
+
 	pl:SetNetVar('job', name)
+    pl:SetNetVar('CanGenomeDisguise', nil)
 
     pl:StripWeapons()
     hook.Call("PlayerLoadout", GAMEMODE, pl)
@@ -37,12 +40,13 @@ end)
 
 hook('PlayerLoadout', 'rp.Genome.PlayerLoadout', function(pl)
     if not pl:IsCP() then return end
-    pl:SetNetVar('CanGenomeDisguise', nil)
+
     local name, model = rp.GetGenomeSpecialName(pl.Genome.d, pl.Genome.s, pl.Genome.a)
     local loadout = rp.GetGenomeLoadout(pl.Genome.d, pl.Genome.s, pl.Genome.a)
     local speedVal = (pl.Genome.s - 10) * 2.5
 
     pl:SetModel(model)
+
     for k,v in pairs(loadout) do
         if (v == "\0") then
             pl:SetNetVar('CanGenomeDisguise', true)
@@ -50,6 +54,11 @@ hook('PlayerLoadout', 'rp.Genome.PlayerLoadout', function(pl)
         end
         pl:Give(v)
     end
+
+    if pl:IsDisguised() and not pl:GetNetVar('CanGenomeDisguise') then
+        pl:UnDisguise()
+    end
+
     pl:SetRunSpeed(pl:GetRunSpeed() + speedVal)
     pl:SetWalkSpeed(pl:GetWalkSpeed() + speedVal)
 end)

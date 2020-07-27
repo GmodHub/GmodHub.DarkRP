@@ -1,13 +1,15 @@
-TOOL.Category = "Staff"
+TOOL.Category = "VIP+"
 TOOL.Name = "#tool.light.name"
 
-TOOL.ClientConVar[ "ropelength" ] = "64"
-TOOL.ClientConVar[ "ropematerial" ] = "cable/rope"
+TOOL.Information = {
+	{ name = "left" },
+	{ name = "right" }
+}
+
+TOOL.ClientConVar[ "model" ] = "models/MaxOfS2D/light_tubular.mdl"
 TOOL.ClientConVar[ "r" ] = "255"
 TOOL.ClientConVar[ "g" ] = "255"
 TOOL.ClientConVar[ "b" ] = "255"
-TOOL.ClientConVar[ "brightness" ] = "2"
-TOOL.ClientConVar[ "size" ] = "256"
 TOOL.ClientConVar[ "key" ] = "-1"
 TOOL.ClientConVar[ "toggle" ] = "1"
 
@@ -29,8 +31,6 @@ function TOOL:LeftClick(trace, attach)
 	local r = math.Clamp(self:GetClientNumber("r"), 0, 255)
 	local g = math.Clamp(self:GetClientNumber("g"), 0, 255)
 	local b = math.Clamp(self:GetClientNumber("b"), 0, 255)
-	local brght = math.Clamp(self:GetClientNumber("brightness"), 0, 1)
-	local size = math.Clamp(self:GetClientNumber("size"), 0, 512)
 	local toggle = self:GetClientNumber("toggle") != 1
 
 	local key = self:GetClientNumber("key")
@@ -41,11 +41,7 @@ function TOOL:LeftClick(trace, attach)
 		trace.Entity.r = r
 		trace.Entity.g = g
 		trace.Entity.b = b
-		trace.Entity.Brightness = brght
-		trace.Entity.Size = size
 
-		trace.Entity:SetBrightness(brght)
-		trace.Entity:SetLightSize(size)
 		trace.Entity:SetToggle(!toggle)
 
 		trace.Entity.KeyDown = key
@@ -62,7 +58,19 @@ function TOOL:LeftClick(trace, attach)
 
 	if (!self:GetSWEP():CheckLimit("lights")) then return false end
 
-	local lamp = MakeLight(ply, r, g, b, brght, size, toggle, !toggle, key, { Pos = pos, Angle = ang })
+	local model = self:GetClientInfo("model")
+
+	local hasModel = false
+	for k, v in pairs(list.Get('LightModels')) do
+		if (k == model) then
+			hasModel = true
+			break
+		end
+	end
+
+	if (not hasModel) then return end
+
+	local lamp = MakeLight(ply, r, g, b, model, toggle, !toggle, key, { Pos = pos, Angle = ang })
 
 	if (!attach) then
 
@@ -90,12 +98,8 @@ function TOOL:LeftClick(trace, attach)
 
 	end
 
-	local constraint, rope = constraint.Rope(lamp, trace.Entity, 0, trace.PhysicsBone, LPos1, LPos2, 0, length, 0, 1, material)
-
 	undo.Create("Light")
 		undo.AddEntity(lamp)
-		undo.AddEntity(rope)
-		undo.AddEntity(constraint)
 		undo.SetPlayer(ply)
 	undo.Finish()
 
@@ -113,7 +117,7 @@ end
 
 if (SERVER) then
 
-	function MakeLight(pl, r, g, b, brght, size, toggle, on, KeyDown, Data)
+	function MakeLight(pl, r, g, b, Model, toggle, on, KeyDown, Data)
 
 		if (IsValid(pl ) && !pl:CheckLimit("lights")) then return false end
 
@@ -123,9 +127,8 @@ if (SERVER) then
 
 		duplicator.DoGeneric(lamp, Data)
 
+		lamp:SetModel(Model)
 		lamp:SetColor(Color(r, g, b, 255))
-		lamp:SetBrightness(brght)
-		lamp:SetLightSize(size)
 		lamp:SetToggle(!toggle)
 		lamp:SetOn(on)
 
@@ -143,8 +146,6 @@ if (SERVER) then
 		lamp.lightr = r
 		lamp.lightg = g
 		lamp.lightb = b
-		lamp.Brightness = brght
-		lamp.Size = size
 		lamp.KeyDown = KeyDown
 		lamp.on = on
 
@@ -154,7 +155,7 @@ if (SERVER) then
 		return lamp
 
 	end
-	duplicator.RegisterEntityClass("gmod_light", MakeLight, "lightr", "lightg", "lightb", "Brightness", "Size", "Toggle", "on", "KeyDown", "Data")
+	duplicator.RegisterEntityClass("gmod_light", MakeLight, "lightr", "lightg", "lightb", "Model", "Toggle", "on", "KeyDown", "Data")
 
 	local function Toggle(pl, ent, onoff)
 
@@ -201,8 +202,8 @@ end
 
 function TOOL:Think()
 
-	if (!IsValid(self.GhostEntity) || self.GhostEntity:GetModel() != "models/MaxOfS2D/light_tubular.mdl") then
-		self:MakeGhostEntity("models/MaxOfS2D/light_tubular.mdl", Vector(0, 0, 0), Angle(0, 0, 0))
+	if (!IsValid(self.GhostEntity ) || self.GhostEntity:GetModel() != self:GetClientInfo("model")) then
+		self:MakeGhostEntity(self:GetClientInfo("model" ), Vector(0, 0, 0), Angle(0, 0, 0))
 	end
 
 	self:UpdateGhostLight(self.GhostEntity, self:GetOwner())
@@ -219,12 +220,16 @@ function TOOL.BuildCPanel(CPanel)
 
 	CPanel:AddControl("Numpad", { Label = "#tool.light.key", Command = "light_key", ButtonSize = 22 })
 
-	CPanel:AddControl("Slider", { Label = "#tool.light.ropelength", Command = "light_ropelength", Type = "Float", Min = 0, Max = 256 })
-	CPanel:AddControl("Slider", { Label = "#tool.light.brightness", Command = "light_brightness", Type = "Float", Min = 0, Max = 10 })
-	CPanel:AddControl("Slider", { Label = "#tool.light.size", Command = "light_size", Type = "Float", Min = 0, Max = 1024 })
-
 	CPanel:AddControl("Checkbox", { Label = "#tool.light.toggle", Command = "light_toggle" })
 
 	CPanel:AddControl("Color", { Label = "#tool.light.color", Red = "light_r", Green = "light_g", Blue = "light_b" })
 
+	CPanel:AddControl("PropSelect", { Label = "#tool.button.model", ConVar = "light_model", Height = 4, Models = list.Get("LightModels") })
+
 end
+
+list.Set("LightModels", "models/maxofs2d/light_tubular.mdl", {})
+list.Set("LightModels", "models/props_c17/light_cagelight02_on.mdl", {})
+list.Set("LightModels", "models/props/cs_office/light_security.mdl", {})
+list.Set("LightModels", "models/props/de_inferno/ceiling_light.mdl", {})
+//list.Set("LightModels", "models/props/de_nuke/floodlight.mdl", {})

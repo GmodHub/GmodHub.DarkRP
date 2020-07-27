@@ -1,5 +1,5 @@
 local PANEL = {}
-local MatCircle = Material('materials/sup/gui/circle.png', 'smooth')
+local MatCircle = Material('materials/gmh/gui/circle.png', 'smooth')
 
 function PANEL:Init()
 	self.Points = {}

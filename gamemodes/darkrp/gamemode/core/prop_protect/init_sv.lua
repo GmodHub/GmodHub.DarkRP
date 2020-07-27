@@ -33,19 +33,17 @@ function rp.pp.PlayerCanManipulate(pl, ent)
 		return false
 	end
 
-	if IsValid(ent:CPPIGetOwner()) and ent:CPPIGetOwner().propBuddies and ent:CPPIGetOwner().propBuddies[pl] then
+	if ((IsValid(ent.ItemOwner) and ent.ItemOwner == pl) and ent.CanTool) then
 		return true
 	end
 
 	return (ent:CPPIGetOwner() == pl) or (pl:HasAccess('a') and ba.canAdmin(pl) and IsValid(ent:CPPIGetOwner())) or pl:IsRoot()
 end
 
-
 local can_dupe = {
 	['prop_physics'] = true,
 	['keypad']		= true
 }
-
 
 function rp.pp.PlayerCanTool(pl, ent, tool)
 	if pl:IsBanned() then
@@ -60,6 +58,10 @@ function rp.pp.PlayerCanTool(pl, ent, tool)
 			rp.Notify(pl, NOTIFY_ERROR, term.Get('CannotTool'), tool)
 			return canTool
 		end
+	end
+
+	if ent.CanTool and not ent.CanTool[tool] then
+		return false
 	end
 
 	local EntTable =
@@ -83,7 +85,7 @@ function rp.pp.PlayerCanTool(pl, ent, tool)
 	end
 
 	local cantool = rp.pp.PlayerCanManipulate(pl, ent)
-	if (cantool == true) then
+	if (cantool) then
 		hook.Call('PlayerToolEntity', GAMEMODE, pl, ent, tool)
 	end
 

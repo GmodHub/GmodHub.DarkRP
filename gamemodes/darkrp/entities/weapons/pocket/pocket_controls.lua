@@ -57,10 +57,10 @@ function rp.inv.Inspect(pl, contents, nKeys)
 
 		if (v.contents and v.contents != 0) then
 			v.Title = rp.shipments[v.contents].name
-			v.SubTitle = 'Count: ' .. v.count
+			v.SubTitle = 'Количество: ' .. v.count
 		elseif (v.contents and v.contents == 0) then
 			v.Title = 'Empty Shipment'
-			v.SubTitle = 'Count: 0'
+			v.SubTitle = 'Количество: 0'
 		else
 			v.Title = rp.inv.Wl[v.Class]
 			v.SubTitle = ''
@@ -101,9 +101,9 @@ net.Receive("Pocket.Load", function(len)
 			v.Class = nKeys[v.Class]
 			v.Model = nKeys[v.Model]
 			if v.contents and (v.contents ~= 0) then
-				rp.inv.Add(k, rp.shipments[v.contents].name, 'Count: ' .. v.count, v.Model)
+				rp.inv.Add(k, rp.shipments[v.contents].name, 'Количество: ' .. v.count, v.Model)
 			elseif v.contents and (v.contents == 0) then
-				rp.inv.Add(k, 'Empty Shipment', 'Count: 0', v.Model)
+				rp.inv.Add(k, 'Empty Shipment', 'Количество: 0', v.Model)
 			else
 				rp.inv.Add(k, rp.inv.Wl[v.Class], "", v.Model)
 			end
@@ -112,11 +112,13 @@ net.Receive("Pocket.Load", function(len)
 end)
 
 net.Receive("Pocket.AddItem", function()
+	LocalPlayer():AnimRestartGesture(GESTURE_SLOT_ATTACK_AND_RELOAD, ACT_GMOD_GESTURE_ITEM_PLACE, true)
 	rp.inv.Add(net.ReadUInt(pocketBits), net.ReadString(), net.ReadString(), net.ReadString())
 	rp.inv.DisableMenu()
 end)
 
 net.Receive("Pocket.RemoveItem", function()
+	LocalPlayer():AnimRestartGesture(GESTURE_SLOT_ATTACK_AND_RELOAD, ACT_GMOD_GESTURE_ITEM_PLACE, true)
 	rp.inv.Remove(net.ReadUInt(pocketBits))
 	rp.inv.DisableMenu()
 end)

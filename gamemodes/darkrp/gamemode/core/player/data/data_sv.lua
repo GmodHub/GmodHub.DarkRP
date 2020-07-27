@@ -8,7 +8,9 @@ function rp.data.LoadPlayer(pl, cback)
 		if IsValid(pl) then
 			if (#_data <= 0) then
 				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills, ActiveApparel) VALUES(?, ?, ?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '[]', '[]')
-				pl:SetRPName(rp.names.Random(), true)
+				randName.Get(function(res)
+					pl:SetRPName(res, true)
+				end)
 			end
 
 			if data.Name and (data.Name ~= pl:SteamName()) then

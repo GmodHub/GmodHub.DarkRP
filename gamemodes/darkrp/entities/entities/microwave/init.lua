@@ -7,6 +7,13 @@ ENT.MaxHealth = 150
 ENT.DamageScale = 0.4
 ENT.ExplodeOnRemove = true
 
+ENT.CanTool = {
+	remover = true,
+	material = true,
+	colour = true,
+	submaterial = true,
+}
+
 function ENT:Initialize()
 	self:SetID(1)
 	self:SetModel("models/props/cs_office/microwave.mdl")

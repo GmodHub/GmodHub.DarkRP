@@ -10,7 +10,7 @@ end, "gmod_toolmode_panel" )
 include("shared.lua")
 include("cl_viewscreen.lua")
 
-SWEP.PrintName		= "Тулган"
+SWEP.PrintName		= "Tool Gun"
 SWEP.Slot			= 1
 SWEP.SlotPos		= 6
 SWEP.DrawAmmo		= false

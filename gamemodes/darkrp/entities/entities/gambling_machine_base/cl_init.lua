@@ -1,4 +1,4 @@
-include("shared.lua")
+dash.IncludeSH 'shared.lua'
 
 local color_red = ui.col.Red
 local color_green = ui.col.Green

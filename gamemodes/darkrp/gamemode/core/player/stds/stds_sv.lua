@@ -8,8 +8,8 @@ function PLAYER:GiveSTD(std)
   	self:SetNetVar("STD", std)
 
 	self:Timer("PlayerHasSTD", 1.5, 0, function()
-		self:SetHealth(self:Health() - 5)
-		self:EmitSound(table.Random(TargetVoices), 500, 100)
+		self:SetHealth(self:Health() - 2)
+		self:EmitSound(table.Random(TargetVoices), 300, 80)
 		if self:Health() <= 0 then
 			self:Kill()
 			self.CurrentDeathReason = 'STD'

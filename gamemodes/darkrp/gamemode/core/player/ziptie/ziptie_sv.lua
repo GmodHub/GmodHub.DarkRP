@@ -30,13 +30,16 @@ hook( "PlayerDeath", "rp.Zipties.PlayerDeath", function( pl )
     end
 end)
 
-hook( "PlayerButtonDown", "rp.Zipties.Keys", function( pl, button )
-    if (button != KEY_G) then return true end
-    local ent = pl:GetEyeTrace().Entity
 
-    if IsValid(ent) and isplayer(ent) and ent:IsZiptied() then
-        if (not pl:GetStruggle("UnZiptie")) then
-            pl:StartStruggle("UnZiptie")
+hook.Add( "KeyPress", "rp.Zipties.Free", function( pl, key )
+	if ( key == IN_USE ) then
+        local ent = pl:GetEyeTrace().Entity
+
+        if IsValid(ent) and isplayer(ent) and ent:IsZiptied() then
+            ent:UnZiptie()
+            //if (not pl:GetStruggle("UnZiptie")) then
+            //    pl:StartStruggle("UnZiptie")
+            //end
         end
-    end
-end)
+	end
+end )

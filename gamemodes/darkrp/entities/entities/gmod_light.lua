@@ -6,13 +6,10 @@ ENT.Spawnable			= false
 ENT.RenderGroup 		= RENDERGROUP_BOTH
 
 local matLight 		= Material("sprites/light_ignorez")
-local MODEL			= Model("models/MaxOfS2D/light_tubular.mdl")
 
 function ENT:SetupDataTables()
 	self:NetworkVar("Bool", 0, "On")
 	self:NetworkVar("Bool", 1, "Toggle")
-	self:NetworkVar("Float", 1, "LightSize")
-	self:NetworkVar("Float", 2, "Brightness")
 end
 
 function ENT:Initialize()
@@ -21,14 +18,17 @@ function ENT:Initialize()
 	end
 
 	if (SERVER) then
-		self:SetModel(MODEL)
 		self:PhysicsInit(SOLID_VPHYSICS)
 		self:SetMoveType(MOVETYPE_VPHYSICS)
 		self:SetSolid(SOLID_VPHYSICS)
 		self:SetCollisionGroup(COLLISION_GROUP_WORLD)
 		self:DrawShadow(false)
 
-		self:PhysWake()
+		local phys = self:GetPhysicsObject()
+		if IsValid(phys) then
+			phys:Wake()
+			phys:EnableMotion(false)
+		end
 	end
 end
 
@@ -45,10 +45,10 @@ function ENT:Think()
 			dlight.r = c.r
 			dlight.g = c.g
 			dlight.b = c.b
-			dlight.Brightness = self:GetBrightness()
-			dlight.Decay = self:GetLightSize() * 5
-			dlight.Size = self:GetLightSize()
-			dlight.DieTime = CurTime() + 2
+			dlight.Brightness = 1
+			dlight.Decay = 5
+			dlight.Size = 325
+			dlight.DieTime = CurTime() + 0.1
 		end
 	end
 end

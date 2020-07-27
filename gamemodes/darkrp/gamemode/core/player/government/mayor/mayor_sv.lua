@@ -4,6 +4,7 @@ util.AddNetworkString('rp.SendLaws')
 function rp.resetLaws()
 	nw.SetGlobal('TheLaws', nil)
 	rp.NotifyAll(NOTIFY_GENERIC, term.Get('LawsChanged'))
+	rp.FlashNotifyAll('Государство', term.Get('LawsChanged'))
 
 	hook.Call('mayorResetLaws', GAMEMODE, pl)
 end
@@ -13,12 +14,15 @@ rp.AddCommand('resetlaws', function(pl)
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeMayorResetLaws'))
 		return
 	end
-	if (rp.cfg.MayorMachine and rp.cfg.MayorMachine:GetPos():DistToSqr(pl:GetPos()) > 40000) then
-		return NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine')
+
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+		return
 	end
+
 	rp.resetLaws()
 end)
-
+:SetCooldown(5)
 
 local LotteryPeople = {}
 local LotteryON = false
@@ -55,9 +59,13 @@ local function EndLottery()
 end
 
 rp.AddCommand("lottery", function(ply, amount)
-
 	if not ply:IsMayor() then
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('IncorrectJob'))
+		return
+	end
+
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
 		return
 	end
 
@@ -107,34 +115,48 @@ function GM:LockdownStarted(pl)
 end
 
 rp.AddCommand("lockdown", function(ply)
+	if not ply:IsMayor() then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('IncorrectJob'))
+		return
+	end
+
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+		return
+	end
 
 	if nw.GetGlobal("lockdown") then
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('CannotLockdown'))
 		return
 	end
 
-	if ply:IsMayor() then
-		nw.SetGlobal('lockdown', CurTime() + rp.cfg.LockdownTime)
-		nw.SetGlobal('mayorGrace', nil)
-		rp.NotifyAll(NOTIFY_ERROR, term.Get('LockdownStarted'))
-		hook.Call('LockdownStarted', GAMEMODE, ply)
+	nw.SetGlobal('lockdown', CurTime() + rp.cfg.LockdownTime)
+	nw.SetGlobal('mayorGrace', nil)
+	rp.NotifyAll(NOTIFY_ERROR, term.Get('LockdownStarted'))
+	hook.Call('LockdownStarted', GAMEMODE, ply)
 
-		timer.Create('StopLock', rp.cfg.LockdownTime, 1, function()
-			GAMEMODE:UnLockdown(team.GetPlayers(TEAM_MAYOR)[1])
-		end)
-	else
-		rp.Notify(ply, NOTIFY_ERROR, term.Get('IncorrectJob'))
-	end
-
+	timer.Create('StopLock', rp.cfg.LockdownTime, 1, function()
+		GAMEMODE:UnLockdown(team.GetPlayers(TEAM_MAYOR)[1])
+	end)
 end)
 :SetCooldown(300)
 
 function GM:UnLockdown(ply)
-
-	if not ply then
-		rp.NotifyAll(NOTIFY_GREEN, term.Get('LockdownEnded'))
-		nw.SetGlobal('lockdown', nil)
+	rp.NotifyAll(NOTIFY_GREEN, term.Get('LockdownEnded'))
+	nw.SetGlobal('lockdown', nil)
+	if (ply) then
 		hook.Call('LockdownEnded', GAMEMODE, ply)
+	end
+end
+rp.AddCommand("unlockdown", function(ply)
+	if not ply:IsMayor() then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('IncorrectJob'))
+		return
+	end
+
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+		return
 	end
 
 	if not nw.GetGlobal("lockdown") then
@@ -142,17 +164,8 @@ function GM:UnLockdown(ply)
 		return
 	end
 
-	if ply:IsMayor() then
-		rp.NotifyAll(NOTIFY_GREEN, term.Get('LockdownEnded'))
-		nw.SetGlobal('lockdown', nil)
-		hook.Call('LockdownEnded', GAMEMODE, ply)
-	else
-		rp.Notify(ply, NOTIFY_ERROR, term.Get('IncorrectJob'))
-		return
-	end
-
-end
-rp.AddCommand("unlockdown", function(ply) GAMEMODE:UnLockdown(ply) end)
+	GAMEMODE:UnLockdown(ply)
+end)
 :SetCooldown(300)
 
 net('rp.SendLaws', function(len, pl)
@@ -161,14 +174,18 @@ net('rp.SendLaws', function(len, pl)
 		return
 	end
 
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+		return
+	end
+
 	local str = net.ReadString()
-	if string.len(str) >= 26 * 10 then
+	if utf8.len(str) >= 260 then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('LawsTooLong'))
 		return
 	end
 
 	hook.Call('mayorSetLaws', GAMEMODE, pl)
-
 	nw.SetGlobal('TheLaws', str)
 end)
 
@@ -180,16 +197,9 @@ hook("OnPlayerChangedTeam", "mayorgrace.OnPlayerChangedTeam", function(pl, befor
 	end
 end)
 
-hook('PlayerShouldTakeDamage', function(pl, attacker)
-	if pl:IsMayor() and isplayer(attacker) and nw.GetGlobal("mayorGrace") and (nw.GetGlobal("mayorGrace") >= CurTime()) then
-		return false
-	end
-	return true
-end)
-
 -- Demote classes upon death
-hook("PlayerDeath","DemoteOnDeath",function(v, k)
-	if (v:IsMayor()) then
+hook("PlayerDeath", "DemoteOnDeath",function(v, k)
+	if (v:IsMayor() and not nw.GetGlobal('mayorGrace') or nw.GetGlobal('mayorGrace') >= CurTime()) then
 		GAMEMODE:UnLockdown()
 		nw.SetGlobal('mayorGrace', nil)
 		rp.resetLaws()
