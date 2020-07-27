@@ -215,6 +215,33 @@ local function FinishDemote(ply, choice)
 	end
 end
 
+--
+-- (Player ply) Who's demoting
+-- (Player p) Who to demote
+-- (String reason) Reason for demotion
+--
+function GM:Demote(ply, p, reason)
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)
+	p.IsBeingDemoted = true
+
+	rp.question.Create("Понизить: " .. p:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. p:SteamID(), function(voter, answer, uid)
+
+		if(not rp.question.Votes[uid] or not istable(rp.question.Votes[uid])) then
+			rp.question.Votes[uid] = {
+				VoteRes = 0,
+				Func = FinishDemote,
+				Ply = p
+			}
+		end
+
+		if(answer) then
+			rp.question.Votes[uid].VoteRes = rp.question.Votes[uid].VoteRes + 1
+		else
+			rp.question.Votes[uid].VoteRes = rp.question.Votes[uid].VoteRes - 1
+		end
+	end, true, player.GetAll())
+end
+
 rp.AddCommand("demote", function(ply, p, reason)
 	if utf8.len(reason) > 40 then
 		rp.Notify(ply, NOTIFY_ERROR, term.Get('DemoteReasonLong'), 100)
@@ -239,10 +266,8 @@ rp.AddCommand("demote", function(ply, p, reason)
 		if (not rp.teams[p:Team()] or rp.teams[p:Team()].candemote == false) then
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('UnableToDemote'))
 		else
-			rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)
-			p.IsBeingDemoted = true
-
 			hook.Call('playerDemotePlayer', GAMEMODE, ply, p, reason)
+<<<<<<< HEAD
 
 			rp.question.Create("Понизить: " .. p:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. p:SteamID(), function(voter, answer, uid)
 				if(not rp.question.Votes[uid] or not istable(rp.question.Votes[uid])) then
@@ -259,7 +284,11 @@ rp.AddCommand("demote", function(ply, p, reason)
 					rp.question.Votes[uid].VoteRes = rp.question.Votes[uid].VoteRes - 1
 				end
 			end, true, player.GetAll())
+=======
+>>>>>>> 2e0d692a52d45bfb9941cdd3f4ebd6f99307c9bb
 			ply:GetTable().LastVoteCop = CurTime()
+
+			GAMEMODE:Demote(ply, p, reason)
 		end
 		return
 	else

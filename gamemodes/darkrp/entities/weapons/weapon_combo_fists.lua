@@ -86,7 +86,7 @@ function SWEP:ThugKnock(door)
 		local model = door:GetModel()
 		local skin = door:GetSkin()
 
-		rp.Notify(self.Owner, NOTIFY_ERROR, term.Get('LostKarmaNR'), 1)
+		rp.Notify(self.Owner, NOTIFY_ERROR, term.Get('LostKarmaNR'), 2)
 		self.Owner:TakeKarma(2)
 
 		door:SetNotSolid(true)

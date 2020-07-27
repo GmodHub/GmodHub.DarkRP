@@ -26,10 +26,6 @@ function ENT:Use(activator, caller, type, value)
     self.BaseClass.Use(self, activator, caller, type, value)
 end
 
---[[function ENT:Think() -- Why override to use inherited class if it's done by default
-    self.BaseClass.Think(self)
-end]]
-
 function ENT:PlayerUse(pl)
     if(not self.ItemOwner == pl) then return end
 
