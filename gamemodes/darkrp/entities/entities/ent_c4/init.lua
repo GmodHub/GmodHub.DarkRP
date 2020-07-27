@@ -7,12 +7,13 @@ function ENT:Initialize()
 	self:SetModel("models/weapons/2_c4_planted.mdl")
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
-	self:SetCollisionGroup(COLLISION_GROUP_WEAPON)
+	self:SetCollisionGroup(COLLISION_GROUP_PASSABLE_DOOR)
 
 	self:PhysWake()
 
 	local i = 0
 	timer.Create(self:EntIndex() .. 'explode', 1, 5, function()
+		if not IsValid(self) then return end
 		i = i + 1
 		self:EmitSound("C4.PlantSound")
 		if (i == 5) then
@@ -26,15 +27,10 @@ local badprops = {
 	['models/props_interiors/vendingmachinesoda01a_door.mdl'] = true,
 }
 
-local function findents(pos, radius)
-	return table.Filter(ents.FindInSphere(pos, radius), function(v)
-		return (v:IsProp() or v:IsDoor())
-	end), table.Filter(ents.FindInSphere(pos, radius), function(v)
-		return v:IsProp() and ((v.FadingDoor == true) or (v:GetCollisionGroup() == COLLISION_GROUP_WORLD))
-	end)
-end
-
 function ENT:Explosion()
+	rp.Notify(self.ItemOwner, NOTIFY_ERROR, term.Get('LostKarmaNR'), 2)
+	self.ItemOwner:TakeKarma(2)
+
 	local effectdata = EffectData()
 		effectdata:SetOrigin(self:GetPos())
 		effectdata:SetRadius(1000)
@@ -52,7 +48,7 @@ function ENT:Explosion()
 		shake:SetKeyValue("amplitude", "500")	// Power of the shake
 		shake:SetKeyValue("radius", "500")		// Radius of the shake
 		shake:SetKeyValue("duration", "2.5")	// Time of shake
-		shake:SetKeyValue("frequency", "255")	// How har should the screenshake be
+		shake:SetKeyValue("frequency", "255")	// How far should the screenshake be
 		shake:SetKeyValue("spawnflags", "4")	// Spawnflags(In Air)
 		shake:Spawn()
 		shake:Activate()
@@ -73,52 +69,73 @@ function ENT:Explosion()
 
 	util.BlastDamage(self, self.ItemOwner, self:GetPos(), 250, 200)
 
-
-	local max_rand = 6
-	local props, doors = findents(self:GetPos(), 75)
-
-	--print(#props, #doors)
-
-	local prop_count, door_count = #props, #doors
-
-	if (prop_count >= 8) or (door_count > 5) then
-		props, door = findents(self:GetPos(), 100)
-		prop_count, door_count = #props, #doors
-		max_rand = 4
-		--print(prop_count, #doors)
-		if (prop_count >= 15) or (door_count > 7) then
-			props, door = findents(self:GetPos(), 150)
-			prop_count, door_count = #props, #doors
-			max_rand = 2
-			--print(prop_count, #doors)
-			if (prop_count >= 25) or (door_count > 9) then
-				props, door = findents(self:GetPos(), 250)
-				prop_count, door_count = #props, #doors
-			end
-		end
-	end
+	local props = ents.FindInSphere(self:GetPos(), 125)
 
 	for k, v in ipairs(props) do
 		if IsValid(v) then
 			local class = v:GetClass()
 			if (class == 'prop_physics') then
-				local rand = math.random(1, max_rand)
-				if (rand == 1) or (badprops[v:GetModel()]) then
+				if(badprops[v:GetModel()] or not util.IsInWorld(v:GetPos())) then
 					v:Remove()
-				elseif (rand == 2) then
-					if (not util.IsInWorld(v:GetPos())) then
-						v:Remove()
-					else
-						constraint.RemoveAll(v)
-						local phys = v:GetPhysicsObject()
-						if IsValid(phys) then
-							phys:EnableMotion(true)
-						end
+				else
+					constraint.RemoveAll(v)
+					local phys = v:GetPhysicsObject()
+					if IsValid(phys) then
+						phys:EnableMotion(true)
 					end
 				end
-			elseif v:IsDoor() then
+			elseif v:IsDoor() and v:GetPropertyNetworkID() ~= nil then
 				v:DoorLock(false)
 				v.KeysCooldown = CurTime() + 60
+
+				-- Break the door
+				hook.Call('PlayerBreakDownDoor', nil, self.ItemOwner, v)
+
+				v:Fire("unlock", "", .5)
+				v:Fire("open", "", .6)
+				v:Fire("setanimation", "open", .6)
+				v:EmitSound("physics/wood/wood_crate_break" .. math.random(5) .. ".wav")
+
+				local pos = v:GetPos()
+				local ang = v:GetAngles()
+				local model = v:GetModel()
+				local skin = v:GetSkin()
+
+				v:SetNotSolid(true)
+				v:SetNoDraw(true)
+
+				local norm = -(pos - self:GetPos()):GetNormal()
+				local push = 10000 * norm
+				local ent = ents.Create("prop_physics")
+
+				ent:SetPos(pos)
+				ent:SetAngles(ang)
+				ent:SetModel(model)
+
+				if (skin) then
+					ent:SetSkin(skin)
+				end
+
+				ent:Spawn()
+				ent.ShareGravgun = true
+
+				timer.Simple(0.01, function()
+					if IsValid(ent) then
+						ent:SetVelocity(push)
+						ent:GetPhysicsObject():ApplyForceCenter(push)
+					end
+				end)
+				timer.Simple(25, function()
+					v:SetNotSolid(false)
+					v:SetNoDraw(false)
+					v.FistHits = nil
+
+					if (IsValid(ent)) then
+						ent:Remove()
+					end
+				end)
+			elseif(IsEntity(v) and v.ItemOwner and not v.ItemOwner:IsWorld() and IsValid(v:GetPhysicsObject()) and not v:GetPhysicsObject():IsMotionEnabled() and class ~= "ent_c4") then
+				v:Remove()
 			end
 		end
 	end
