@@ -16,6 +16,7 @@ perenos/
 resource/
 scenes/
 settings/
+data/
 *.vpk
 *.rar
 *.zip
