@@ -1,7 +1,5 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 util.AddNetworkString('rp.OpenBail')
 
@@ -18,7 +16,7 @@ end
 function ENT:PlayerUse(pl)
 	local tbl = {}
 
-	for k, v in ipairs(rp.ArrestedPlayers) do
+	for k, v in pairs(rp.ArrestedPlayers) do
 		if v then
 			tbl[#tbl + 1] = player.GetBySteamID64(k)
 		end
@@ -27,22 +25,14 @@ function ENT:PlayerUse(pl)
 	net.Start('rp.OpenBail')
 		net.WriteUInt(#tbl, 8)
 		for k, v in ipairs(tbl) do
-			net.WriteEntity(v)
-			net.WriteUInt(rp.Karma(v, 5000, 500), 16)
+			net.WritePlayer(v)
+			net.WriteUInt(v:GetArrestInfo().ReleaseTime, 32)
 		end
 	net.Send(pl)
 end
 
 rp.AddCommand('bail', function(pl, t)
-	local exploiter = true
-	for k, v in ipairs(ents.FindInSphere(pl:GetPos(), 200)) do
-		if IsValid(v) and (v:GetClass() == 'bail_machine') then
-			exploiter = false
-			break
-		end
-	end
-
-	if exploiter then return end
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "bail_machine") and (pl:IsMayor() and pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then return end
 
 	if (not IsValid(t)) or (not t:IsArrested()) then
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerNotInJail'), t)
@@ -50,23 +40,28 @@ rp.AddCommand('bail', function(pl, t)
 	end
 
 	if (t == pl) then
-		pl:ConCommand('rp 911 Hello I\'m trying to escape from jail please come arrest me!')
+		pl:ConCommand('rp 911 Эй, я пытаюсь сбежать из тюрьмы, арестуйте меня!')
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('PlayerFuckedBailing'))
 		return
 	end
 
 	if IsValid(t) then
-		local cost = pl:IsMayor() and 0 or rp.Karma(t, 5000, 500)
-		pl:TakeMoney(cost)
-		pl:AddKarma(1)
-		rp.Notify(pl, NOTIFY_GREEN, term.Get('PlayerBailedPlayer'), t, rp.FormatMoney(cost))
-		t:UnArrest(t)
-		t:FlashNotify('Bail', term.Get('YouWereBailed'), pl)
+		local price = pl:IsMayor() and 0 or math.ceil((t:GetArrestInfo().ReleaseTime - CurTime())/60) * rp.cfg.BailCostPerMin
+		local karma = math.ceil((t:GetArrestInfo().ReleaseTime - CurTime())/60) * 10
 
-		hook.Call('PlayerBailPlayer', nil, pl, t, cost)
+		pl:TakeMoney(price)
+		pl:AddKarma(karma)
+
+		rp.Notify(pl, NOTIFY_GREEN, term.Get('PlayerBailedPlayer'), t, rp.FormatMoney(price), karma)
+		rp.Notify(t, NOTIFY_GREEN, term.Get('YouWereBailed'), pl)
+		t:UnArrest(t)
+		t:FlashNotify('Залог', term.Get('YouWereBailed'), pl)
+
+		hook.Call('PlayerBailPlayer', nil, pl, t, price)
 	end
 end)
 :AddParam(cmd.PLAYER_ENTITY)
+:SetAllowInJail()
 
 hook.Add("InitPostEntity", "Bail", function()
 	for k, v in pairs(rp.cfg.BailMachines[game.GetMap()]) do

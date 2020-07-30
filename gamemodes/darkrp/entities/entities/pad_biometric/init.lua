@@ -1,14 +1,12 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
---[[
-    Concept:
-      Select props with secondary mouse button and mark them with a specific material and then using primary mouse button place a biometric scanner.
-    Properties:
-      FadeTime float (min 4 sec)
-      OrgAccess bool -- To be done
-]]
+util.AddNetworkString('rp.biometric.Unlock')
+util.AddNetworkString('rp.biometric.Team')
+util.AddNetworkString('rp.biometric.Player')
+util.AddNetworkString('rp.biometric.ToggleOrg')
+util.AddNetworkString('rp.biometric.Org')
+util.AddNetworkString('rp.biometric.ApplyAll')
 
 function ENT:Initialize()
     self:SetModel("models/maxofs2d/button_04.mdl")

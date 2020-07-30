@@ -9,6 +9,11 @@ local function writeDoorData(data)
 	net.WriteString(data.Title)
 	net.WriteBool(data.OrgOwn)
 
+	net.WriteUInt(#data.CoOrgs, 3)
+	for k, v in ipairs(data.CoOrgs) do
+		net.WriteString(v)
+	end
+
 	net.WriteUInt(#data.CoOwners, 8)
 	for k, v in ipairs(data.CoOwners) do
 		net.WriteUInt(v:EntIndex(), 8)
@@ -20,9 +25,14 @@ local function readDoorData()
 		OwnerID		= net.ReadUInt(8),
 		Title		= net.ReadString(),
 		OrgOwn		= net.ReadBool(),
+		CoOrgs 		= {},
 		CoOwners	= {},
 		CoOwnersIDs	= {},
 	}
+
+	for i = 1, net.ReadUInt(3) do
+		data.CoOrgs[i] = net.ReadString()
+	end
 
 	for i = 1, net.ReadUInt(8) do
 		data.CoOwnersIDs[i] = net.ReadUInt(8)
@@ -51,7 +61,6 @@ local function setupDoors()
 			:Read(readDoorData)
 			:SetGlobal()
 
-
 		if data.Teams and (#data.Teams > 0) then
 			data.Color = team.GetColor(data.Teams[1])
 		end
@@ -75,8 +84,8 @@ local function setupDoors()
 
 			if (SERVER) then
 				local ent = ents.GetMapCreatedEntity(v)
-
 				rp.doors.EntMap[data.NetworkID][#rp.doors.EntMap[data.NetworkID] + 1] = ent
+
 				ent:DoorLock(data.Locked == true)
 
 				ent:SetNetVar('DoorID', v)
@@ -162,8 +171,12 @@ end
 
 function ENTITY:GetPropertyData()
 	local networkId = self:GetPropertyNetworkID()
-
 	return networkId and nw.GetGlobal(networkId)
+end
+
+function ENTITY:GetPropertyOrgs()
+	local data = self:GetPropertyData()
+	return data and data.CoOrgs
 end
 
 if (SERVER) then
@@ -176,6 +189,7 @@ if (SERVER) then
 		local data = self:GetPropertyData()
 		return data and data.CoOwners
 	end
+
 else
 	function ENTITY:GetPropertyOwner()
 		local data = self:GetPropertyData()
@@ -218,6 +232,20 @@ else
 
 		return data.CoOwners
 	end
+end
+
+function ENTITY:IsPropertyOrg(orgName)
+	local orgs = self:GetPropertyOrgs()
+
+	if (not orgs) then return false end
+
+	for k, v in ipairs(orgs) do
+		if (v == orgName) then
+			return true
+		end
+	end
+
+	return false
 end
 
 function ENTITY:IsPropertyCoOwner(pl)

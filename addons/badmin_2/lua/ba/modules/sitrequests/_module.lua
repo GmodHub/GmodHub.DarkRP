@@ -1,5 +1,5 @@
 ba.Module 'Sit Requests'
-	:Author 'KingofBeast & aStonedPenguin'
+	:Author 'GmodHub'
 	:Include {
 		"init_sh.lua",
 		"init_sv.lua",

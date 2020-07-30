@@ -1,7 +1,7 @@
 ENT.Type 			= 'anim'
 ENT.Base 			= 'base_rp'
 ENT.PrintName 		= 'Growing Weed Plant'
-ENT.Author 			= 'aStonedPenguin'
+ENT.Author 			= 'GmodHub'
 ENT.Spawnable 		= false
 ENT.PressKeyText	= 'To take'
 

@@ -27,7 +27,7 @@ function SWEP:PrimaryAttack()
 			end
 
 			if (owner:IsGov() and !owner.IsBeingDemoted) then
-				//owner:StartDemotionVote("Illegal items as government worker")
+				owner:StartDemotionVote("Нелегальные предметы за полицейского")
 			end
 		end
 

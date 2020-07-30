@@ -2,14 +2,13 @@ AddCSLuaFile("cl_init.lua")
 AddCSLuaFile("shared.lua")
 include("shared.lua")
 
+PrecacheParticleSystem( "dusty_explosion_rockets" )
 
 function ENT:Initialize()
 	self:SetModel("models/weapons/2_c4_planted.mdl")
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetCollisionGroup(COLLISION_GROUP_PASSABLE_DOOR)
-
-	self:PhysWake()
 
 	local i = 0
 	timer.Create(self:EntIndex() .. 'explode', 1, 5, function()
@@ -28,9 +27,6 @@ local badprops = {
 }
 
 function ENT:Explosion()
-	rp.Notify(self.ItemOwner, NOTIFY_ERROR, term.Get('LostKarmaNR'), 2)
-	self.ItemOwner:TakeKarma(2)
-
 	local effectdata = EffectData()
 		effectdata:SetOrigin(self:GetPos())
 		effectdata:SetRadius(1000)
@@ -65,6 +61,7 @@ function ENT:Explosion()
 		push:Fire("Explode", "", 0)
 		push:Fire("Kill", "", .25)
 
+	ParticleEffect("dusty_explosion_rockets", self:GetPos(), Angle(0, 0, 0)) // cool boom effect
 	self:EmitSound(Sound("C4.Explode"))
 
 	util.BlastDamage(self, self.ItemOwner, self:GetPos(), 250, 200)

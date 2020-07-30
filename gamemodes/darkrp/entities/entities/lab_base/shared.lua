@@ -1,7 +1,7 @@
 ENT.Type 		= 'anim'
 ENT.Base 		= 'base_rp'
 ENT.PrintName 	= 'Item Lab Base'
-ENT.Author 		= 'KingofBeast'
+ENT.Author 		= 'GmodHub'
 ENT.Spawnable 	= false
 ENT.Category 	= 'RP'
 ENT.PressE 		= true

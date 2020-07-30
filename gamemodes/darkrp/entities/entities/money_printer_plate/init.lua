@@ -21,6 +21,7 @@ function ENT:StartTouch(ent)
 		self.Used = true
 		self:Remove()
 		if ent.ItemOwner and ent.ItemOwner:IsGov() then
+			ent.ItemOwner:StartDemotionVote("Фальшивомонетничество")
 			ent.ItemOwner:Wanted(nil, "Фальшивомонетничество", 180)
 		end
 		ent:PrintMoney()

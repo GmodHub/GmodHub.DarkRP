@@ -1,9 +1,9 @@
 dash.IncludeSH 'shared.lua'
 
-local mat_faceID = Material('gmh/entities/keypad/faceid.png', 'smooth')
-local mat_lense = Material('gmh/entities/biometric/lens.png', 'smooth')
-local mat_locked = Material('gmh/entities/biometric/locked.png', 'smooth')
-local mat_unlocked = Material('gmh/entities/biometric/unlocked.png', 'smooth')
+local mat_faceID = Material('sup/entities/keypad/faceid.png', 'smooth')
+local mat_lense = Material('sup/entities/biometric/lens.png', 'smooth')
+local mat_locked = Material('sup/entities/biometric/locked.png', 'smooth')
+local mat_unlocked = Material('sup/entities/biometric/unlocked.png', 'smooth')
 
 local lookEnt, fr, ent
 function ENT:Draw()
@@ -23,12 +23,29 @@ function ENT:Draw()
 		draw.Box(x, y, w, h, ui.col.Black)
 
 		local org = self:GetOrg()
+		local oX = 10
 		if (org ~= nil) and (org ~= '') then
 			local banner = rp.orgs.GetBanner(org)
 			if banner then
 				surface.SetDrawColor(255, 255, 255, 255)
 				surface.SetMaterial(banner)
-				surface.DrawTexturedRect(x + 10, y + h - 42, 32, 32)
+				surface.DrawTexturedRect(x + oX, y + h - 42, 32, 32)
+				oX = oX + 37
+			end
+		end
+
+		for i = 1, 3 do
+			local org = self['GetOrg' .. i](self)
+
+			if (org ~= '') then
+				local banner = rp.orgs.GetBanner(org)
+
+				if banner then
+					surface.SetDrawColor(255, 255, 255, 255)
+					surface.SetMaterial(banner)
+					surface.DrawTexturedRect(x + oX, y + h - 42, 32, 32)
+					oX = oX + 37
+				end
 			end
 		end
 
@@ -207,10 +224,65 @@ local padOptions = {
 		end,
 		DoClick = function()
 			fr:Close()
-			net.Start 'rp.biometric.Org'
+			net.Start 'rp.biometric.ToggleOrg'
 				net.WriteEntity(ent)
-				net.WriteBit(ent:GetOrg() ~= LocalPlayer():GetOrg())
+				net.WriteBool(ent:GetOrg() ~= LocalPlayer():GetOrg())
 			net.SendToServer()
+		end,
+	},
+		{
+		Name 	= 'Add Org',
+		Check 	= function()
+			return (ent:GetOrg1() == '') or (ent:GetOrg2() == '') or (ent:GetOrg3() == '')
+		end,
+		DoClick = function()
+			local orgs = rp.orgs.GetOnline()
+
+			local org = LocalPlayer():GetOrg()
+			table.Filter(orgs, function(v)
+				return ((not org) or (v.Name ~= org)) and ((ent:GetOrg1() ~= v.Name) and (ent:GetOrg2() ~= v.Name) and (ent:GetOrg3() ~= v.Name))
+			end)
+
+			rp.orgs.OrgRequest(orgs, function(org)
+				fr:Close()
+				net.Start 'rp.biometric.Org'
+					net.WriteEntity(ent)
+					net.WriteString(org)
+					net.WriteBool(false)
+				net.SendToServer()
+			end)
+		end,
+	},
+	{
+		Name 	= 'Remove Org',
+		Check 	= function()
+			return (ent:GetOrg1() ~= '') or (ent:GetOrg2() ~= '') or (ent:GetOrg3() ~= '')
+		end,
+		DoClick = function()
+			local orgs = {ent:GetOrg1(), ent:GetOrg2(), ent:GetOrg3()}
+
+			for _, v in ipairs(rp.orgs.GetOnline()) do
+				for	k, org in ipairs(orgs) do
+					if (org == v.Name) then
+						orgs[k] = v
+						break
+					end
+				end
+			end
+
+			for k, v in ipairs(orgs) do
+				if isstring(v) then
+					orgs[k] = { Name = v, Color = ui.col.FlatBlack:Copy()}
+				end
+			end
+
+			rp.orgs.OrgRequest(table.Filter(orgs, function(v) return (v.Name ~= '') end), function(org)
+				net.Start 'rp.biometric.Org'
+					net.WriteEntity(ent)
+					net.WriteString(org)
+					net.WriteBool(true)
+				net.SendToServer()
+			end)
 		end,
 	},
 	{

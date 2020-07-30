@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 ENT.Type 		= 'anim'
 ENT.Base 		= 'lab_base'
-ENT.PrintName 	= 'BMI Lab'
+ENT.PrintName 	= 'Нелегальная Мастерская'
 
 ENT.WantReason = 'Black Market Item (BMI Lab)'
 

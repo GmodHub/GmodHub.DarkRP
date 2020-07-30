@@ -7,7 +7,7 @@ SWEP.DrawAmmo 					= false
 SWEP.DrawCrosshair 				= false
 
 SWEP.Instructions 				= 'Click to set shit on fire'
-SWEP.Author 					= 'aStonedPenguin'
+SWEP.Author 					= 'GmodHub'
 
 SWEP.WorldModel = Model( "models/weapons/w_tnt.mdl" )
 SWEP.ViewModel = Model( "models/weapons/v_tnt.mdl" )

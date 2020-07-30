@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 ENT.Type 		= 'anim'
 ENT.Base 		= 'lab_base'
-ENT.PrintName 	= 'Gunlab'
+ENT.PrintName 	= 'Мастерская'
 
 ENT.MainModel = "models/props/cs_italy/it_mkt_table3.mdl"
 

@@ -117,7 +117,6 @@ function PLAYER:ChangeTeam(t, force)
 	self:RemoveAllHighs()
 
 	self.PlayerModel = nil
-
 	self.LastJob = CurTime() + 5
 
 	for k, v in ipairs(ents.GetAll()) do
@@ -131,7 +130,8 @@ function PLAYER:ChangeTeam(t, force)
 	end
 
 	self:StripWeapons()
-
+	self:StripAmmo()
+	
 	self:SetTeam(t)
 
 	hook.Call("OnPlayerChangedTeam", GAMEMODE, self, prevTeam, t)

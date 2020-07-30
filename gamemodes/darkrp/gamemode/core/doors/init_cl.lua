@@ -97,18 +97,35 @@ hook('PostDrawTranslucentRenderables', 'rp.doors.PostDrawTranslucentRenderables'
 
 						drawtext('F2 - Приобрести', color_white)
 					elseif ent:IsPropertyOwned() then
+
+						-- Org Co-Owners
+						local coOrgs = ent:GetPropertyOrgs()
+						local coOrgsCount = #coOrgs
+						if (coOrgsCount > 0) then
+							local startX = (coOrgsCount * -100) + ((coOrgsCount - 1) * -5)
+							for k, v in ipairs(coOrgs) do
+								local banner = rp.orgs.GetBanner(v)
+								if banner then
+									surface_SetDrawColor(255,255,255)
+									surface_SetMaterial(banner)
+									surface_DrawTexturedRect(startX + ((k - 1) * 205), -280, 200, 200)
+								end
+							end
+						end
+
 						-- Org own
 						local owner = ent:GetPropertyOwner()
 						if ent:IsPropertyOrgOwned() and IsValid(owner) and (owner:GetOrg() ~= nil) then
 							local org = owner:GetOrg()
 							local banner = rp.orgs.GetBanner(org)
 							if banner then
-								surface_SetDrawColor(255,255,255)
+								surface_SetDrawColor(255, 255, 255)
 								surface_SetMaterial(banner)
-								surface_DrawTexturedRect(-320,-720,640,640)
+								surface_DrawTexturedRect(-320, (coOrgsCount > 0) and -960 or -720, 640, 640)
 							end
 							drawtext(org, owner:GetOrgColor())
 						end
+
 
 						-- Owner
 						if IsValid(owner) then

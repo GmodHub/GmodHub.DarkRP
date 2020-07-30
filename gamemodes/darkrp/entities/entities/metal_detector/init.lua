@@ -15,13 +15,15 @@ function ENT:Initialize()
 	self:PhysWake()
 	self:SetMaterial('phoenix_storms/gear')
 	self:SetTrigger(true)
+	self:UseTriggerBounds(true, 25) // say thanks to this function
 
 	self:CPPISetOwner(self.ItemOwner)
 end
 
+// BYE FUCKING THINK, HA HA
 function ENT:StartTouch(pl)
     if not IsValid(pl) or not isplayer(pl) then return end -- dumbest line of the code
-	if not self:GetPhysicsObject():IsAsleep() then return end
+	if self:GetPhysicsObject():IsMotionEnabled() then return end
 	if (not pl.LastChecked) or (pl.LastChecked <= CurTime()) then
 		pl.LastChecked = CurTime() + 2
 		for k, v in ipairs(pl:GetWeapons()) do

@@ -1,6 +1,5 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
 
 util.AddNetworkString('rp.disguise.Use')
 util.AddNetworkString('rp.disguise.Enable')

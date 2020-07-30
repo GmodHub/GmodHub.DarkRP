@@ -1,5 +1,5 @@
 ba.Module 'Chatbox'
-	:Author 'KingOfBeast, Updated by aStonedPenguin'
+	:Author 'GmodHub'
 	:Include {
 		'emotes_cl.lua',
 		'tags/tags_sh.lua',

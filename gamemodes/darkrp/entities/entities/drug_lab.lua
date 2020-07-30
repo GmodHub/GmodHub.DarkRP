@@ -2,11 +2,11 @@ AddCSLuaFile()
 
 ENT.Base 		= 'drug_lab_base'
 ENT.PrintName 	= 'Drug Lab'
-ENT.Author 		= 'aStonedPenguin'
+ENT.Author 		= 'GmodHub'
 ENT.Spawnable 	= true
 ENT.Category 	= 'RP'
 
-ENT.LabType = 'Наркотическая лабаратория'
+ENT.LabType = 'Наркотическая Лаборатория'
 ENT.Model = 'models/props_lab/crematorcase.mdl'
 
 if (CLIENT) then

@@ -1,5 +1,9 @@
 dash.IncludeSH 'shared.lua'
 
+--[[
+	We are going to borrow offsets etc from Robbis_1's keypad here
+]]
+
 local X = -50
 local Y = -100
 local W = 100
@@ -156,26 +160,14 @@ function ENT:Draw()
 	end
 end
 
-function ENT:SendCommand(command, data)
-	net.Start("Keypad")
-		net.WriteEntity(self)
-		net.WriteUInt(command, 4)
-
-		if data then
-			net.WriteUInt(data, 8)
-		end
-	net.SendToServer()
-end
-
 function ENT:EnterKey(LP, k)
 	k = keypad_buttons[k] or keypad_reference[k] or k
 	LP.KeypadCooldown = SysTime() + 1
 
 	if (k <= 9) then
-		net.Start("Keypad")
+		net.Start("rp.keypad.key")
 			net.WriteEntity(self)
-			net.WriteUInt(self.Command_Enter, 4)
-			net.WriteUInt(k, 8)
+			net.WriteUInt(k, 4)
 		net.SendToServer()
 	else
 		local isSubmit = k == KEY_ENTER or k == KEY_PAD_ENTER

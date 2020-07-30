@@ -1,5 +1,5 @@
 ba.Module 'Notifications'
-	:Author 'aStonedPenguin'
+	:Author 'GmodHub'
 	:Include {
 		'notifications_sh.lua',
 		'notifications_cl.lua'

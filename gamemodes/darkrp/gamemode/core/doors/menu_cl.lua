@@ -41,6 +41,52 @@ local doorOptions = {
 		end,
 	},
 	{
+		Name 	= 'Добавить Банду',
+		Check 	= function()
+			return (#ent:GetPropertyOrgs() < 3) and (#table.Filter(player.GetAll(), function(v) return (v ~= LocalPlayer()) and (v:GetOrg() ~= nil) and (not table.HasValue(ent:GetPropertyOrgs(), v:GetOrg())) end) > 0)
+		end,
+		DoClick = function()
+			local orgs = rp.orgs.GetOnline()
+
+			local org = LocalPlayer():GetOrg()
+			table.Filter(orgs, function(v)
+				return ((not org) or (v.Name ~= org)) and (not table.HasValue(ent:GetPropertyOrgs(), v.Name))
+			end)
+
+			rp.orgs.OrgRequest(orgs, function(org)
+				cmd.Run('addcoorg', org)
+			end)
+		end,
+	},
+	{
+		Name 	= 'Удалить Банду',
+		Check 	= function()
+			return (#ent:GetPropertyOrgs() > 0)
+		end,
+		DoClick = function()
+			local orgs = table.Copy(ent:GetPropertyOrgs())
+
+			for _, v in ipairs(rp.orgs.GetOnline()) do
+				for	k, org in ipairs(orgs) do
+					if (org == v.Name) then
+						orgs[k] = v
+						break
+					end
+				end
+			end
+
+			for k, v in ipairs(orgs) do
+				if isstring(v) then
+					orgs[k] = { Name = v, Color = ui.col.FlatBlack:Copy()}
+				end
+			end
+
+			rp.orgs.OrgRequest(orgs, function(org)
+				cmd.Run('removecoorg', org)
+			end)
+		end,
+	},
+	{
 		Name 	= 'Изменить Название',
 		DoClick = function()
 			ui.StringRequest('Название', 'Как бы вы хотели назвать это имущество?', '', function(a)
@@ -87,7 +133,7 @@ local hotelOwnerOptions = {
 
 local function makeFrame(ent, opts)
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Управление')
+		self:SetTitle('Property Options')
 		self:Center()
 		self:MakePopup()
 		self.Think = function(self)
@@ -141,9 +187,9 @@ local function showDeed(ent)
 
 	ui.Create('ui_listview', function(self)
 		self:DockToFrame()
-		self:AddSpacer('Owner')
+		self:AddSpacer('Владелец')
 		self:AddPlayer(ent:GetPropertyOwner())
-		self:AddSpacer('Co-Owners')
+		self:AddSpacer('Совладельцы')
 		for k, v in ipairs(ent:GetPropertyCoOwners()) do
 			if IsValid(v) then
 				self:AddPlayer(v)
@@ -171,5 +217,4 @@ local function keysMenu()
 end
 
 net('rp.keysMenu', keysMenu)
-
 GM.ShowTeam = keysMenu

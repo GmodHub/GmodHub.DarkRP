@@ -1,3 +1,3 @@
 ba.Module('Voice Visualizers')
-	:Author('aStonedPenguin')
+	:Author('GmodHub')
 	:Include('init_cl.lua')

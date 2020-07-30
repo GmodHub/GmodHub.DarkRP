@@ -135,11 +135,12 @@ rp.AddWeapon('XM1014', 'models/weapons/3_shot_xm1014.mdl', 'swb_xm1014', 13000, 
 rp.AddWeapon('M4A1', 'models/weapons/3_rif_m4a1.mdl', 'swb_m4a1', 13500, {TEAM_GUN})
 rp.AddWeapon('USP', 'models/weapons/3_pist_usp.mdl', 'swb_usp', 8000, {TEAM_GUN})
 rp.AddWeapon('357', 'models/weapons/w_357.mdl', 'swb_357', 9000, {TEAM_GUN})
-rp.AddEntity('Лаборатория боеприпасов', 'lab_ammo', 'models/items/ammocrate_ar2.mdl', 4500, 4, '/buyammolab', TEAM_GUN, false)
-rp.AddEntity('Оружейная Лаборатория', 'item_lab_gun', 'models/props/cs_italy/it_mkt_table3.mdl', 2500, 1, '/buyguncrafter', TEAM_GUN, false)
+rp.AddEntity('Раздатчик Боеприпасов', 'lab_ammo', 'models/items/ammocrate_ar2.mdl', 4500, 4, '/buyammolab', TEAM_GUN, false)
+rp.AddEntity('Оружейная Мастерская', 'item_lab_gun', 'models/props/cs_italy/it_mkt_table3.mdl', 2500, 1, '/buyguncrafter', TEAM_GUN, false)
 
 -- Black Market Dealer
 rp.AddBMI('C4','models/weapons/2_c4_planted.mdl', 'weapon_c4', 200000, 10, false, 35000, false, {TEAM_BMIDEALER})
+rp.AddBMI('Зажигательная бомба','models/weapons/w_tnt.mdl', 'weapon_incendiary', 200000, 10, false, 30000, false, {TEAM_BMIDEALER}, nil, nil, 64)
 rp.AddBMI('Взломщики Кейпадов','models/weapons/w_c4.mdl', 'keypad_cracker', 16000, 10, false, 1050, false, {TEAM_BMIDEALER})
 rp.AddBMI('Отмычки','models/gmh/weapons/lockpick/lockpick.mdl', 'lockpick', 14000, 10, false, 950, false, {TEAM_BMIDEALER})
 rp.AddBMI('Броня','models/props_junk/cardboard_box004a.mdl', 'armor_piece_full', 7500, 10, false, 900, false, {TEAM_BMIDEALER})
@@ -153,7 +154,7 @@ rp.AddBMI('Маскировка','models/props_c17/SuitCase_Passenger_Physics.md
 rp.AddBMI('Тазер','models/weapons/w_pistol.mdl', 'weapon_taser', 7500, 10, false, 1000, false, {TEAM_BMIDEALER})
 rp.AddBMI('Стяжки', 'models/props/cs_office/Snowman_arm.mdl', 'weapon_ziptie', 25000, 10, false, 950, false, {TEAM_BMIDEALER}, nil, nil, 60)
 rp.AddEntity('Раздатчик Брони', 'lab_armor', 'models/props_combine/suit_charger001.mdl', 3500, 4, '/buyarmorlab', TEAM_BMIDEALER, false)
-rp.AddEntity('BMI lab', 'item_lab_bmi', 'models/props/cs_italy/it_mkt_table3.mdl', 2500, 1, '/buybmicrafter', TEAM_BMIDEALER, false)
+rp.AddEntity('Нелегальная Мастерская', 'item_lab_bmi', 'models/props/cs_italy/it_mkt_table3.mdl', 2500, 1, '/buybmicrafter', TEAM_BMIDEALER, false)
 rp.AddShipment('Граната', {
 	index = 61,// use custom index so pockets dont fuck up
 	model = 'models/weapons/w_npcnade.mdl',
@@ -184,7 +185,7 @@ rp.AddShipment('Slam', {
 
 
 -- all sellers
-rp.AddEntity('Вещевая Лаборатория', 'lab_item', 'models/props_c17/TrapPropeller_Engine.mdl', 4500, 4, '/buyitemlab', {TEAM_GUN, TEAM_BMIDEALER, TEAM_DRUGDEALER, TEAM_BARTENDER, TEAM_DOCTOR}, false)
+rp.AddEntity('Витрина', 'lab_item', 'models/props_c17/TrapPropeller_Engine.mdl', 4500, 4, '/buyitemlab', {TEAM_GUN, TEAM_BMIDEALER, TEAM_DRUGDEALER, TEAM_BARTENDER, TEAM_DOCTOR}, false)
 
 -- Anarchist
 rp.AddShipment('Стяжка', {
@@ -199,8 +200,8 @@ rp.AddShipment('Стяжка', {
 
 
 -- Medic
-rp.AddEntity('Медецинская Лаборатория', 'lab_med', 'models/props_combine/suit_charger001.mdl', 3500, 4, '/buymedlab', TEAM_DOCTOR, false)
-rp.AddShipment('Лекарство от СПИДА', {
+rp.AddEntity('Раздатчик Здоровья', 'lab_med', 'models/props_combine/suit_charger001.mdl', 3500, 4, '/buymedlab', TEAM_DOCTOR, false)
+rp.AddShipment('Аспирин', {
 		index = 52,
 		model = 'models/jaanus/aspbtl.mdl',
 		entity = 'ent_stdmeds',
@@ -230,7 +231,7 @@ rp.AddEntity('Семена', {
 	allowed = {TEAM_DRUGDEALER}
 })
 
-rp.AddEntity('Лаборатория', {
+rp.AddEntity('Наркотическая Лаборатория', {
 	ent = 'drug_lab',
 	model = 'models/props_lab/crematorcase.mdl',
 	price = 2500,
@@ -243,7 +244,7 @@ rp.AddEntity('Лаборатория', {
 rp.AddWeapon('Вейп', 'models/swamponions/vape.mdl', 'weapon_vape', 5000, {TEAM_DRUGDEALER})
 
 -- Bartender
-rp.AddEntity('Спиртовая Лаборатория', 'alcohol_lab', 'models/props_junk/plasticbucket001a.mdl', 2500, 2, '/buyalclab', {TEAM_BARTENDER}, false)
+rp.AddEntity('Самогонный Аппарат', 'alcohol_lab', 'models/props_junk/plasticbucket001a.mdl', 2500, 2, '/buyalclab', {TEAM_BARTENDER}, false)
 
 
 rp.AddEntity('Микроволновка', {
@@ -346,6 +347,14 @@ rp.AddCopItem('C4', {
 	Model = 'models/weapons/2_c4_planted.mdl',
 	Callback = function(pl)
 		pl:Give('weapon_c4')
+	end
+})
+
+rp.AddCopItem('Зажигательная Бомба', {
+	Price = 30000,
+	Model = 'models/weapons/w_tnt.mdl',
+	Callback = function(pl)
+		pl:Give('weapon_incendiary')
 	end
 })
 

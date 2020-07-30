@@ -9,7 +9,7 @@ SWEP.DrawAmmo 					= false
 SWEP.DrawCrosshair 				= false
 
 SWEP.Instructions 				= 'Click to blow shit up'
-SWEP.Author 					= 'aStonedPenguin'
+SWEP.Author 					= 'GmodHub'
 
 SWEP.ViewModel				= "models/weapons/2_c4.mdl"	-- Weapon view model
 SWEP.WorldModel				= "models/weapons/3_c4.mdl"	-- Weapon world model

@@ -1,6 +1,6 @@
 ENT.Type 		= 'anim'
 ENT.PrintName	= 'C4'
-ENT.Author		= 'aStonedPenguin'
+ENT.Author		= 'GmodHub'
 ENT.Spawnable 	= false
 
 game.AddParticles 'particles/vman_explosion.pcf'

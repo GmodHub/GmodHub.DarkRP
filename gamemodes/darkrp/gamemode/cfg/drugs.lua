@@ -29,7 +29,7 @@ rp.AddDrug {
 	StartHigh = function(pl, stacks)
 		if (math.random(0, 10) == 0) then
 			pl:Ignite(5, 0)
-			pl:Say('FFFFFFUUUUUUUUUUUUUUUUUU')
+			pl:Say('БЛЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ')
 			return
 		end
 		pl:SetDSP(6)
@@ -42,10 +42,10 @@ rp.AddDrug {
 		pl:SetGravity(1)
 	end,
 	Sayings = {
-		'does any1 hav goldfish!?1 i want goldfish plz thx',
-		'My eyes aren\'t red. What are you talking about?',
-		'duuuuuuuuuuudeeeeeeee',
-		'hi how do i type in chat i cant figure it out',
+		'у кго нибд есть злтая рыбка!?1 я хчу злтую рыбку, пж, спс',
+		'Мои глаза не красные. О чём ты говоришь?',
+		'чуууууууваааааааааак',
+		'привет, как писать в чат, я не могу разобраться',
 	},
 	ColorModify = {
 		['$pp_colour_addr'] 		= 0,
@@ -75,7 +75,7 @@ rp.AddDrug {
 	StartHigh = function(pl, stacks)
 		if (math.random(0, 10) == 0) then
 			pl:Ignite(5, 0)
-			pl:Say('i think i have cancer')
+			pl:Say('я думаю у меня рак')
 			return
 		end
 		local smoke = EffectData()
@@ -83,11 +83,11 @@ rp.AddDrug {
 		util.Effect('drug_weed_smoke', smoke)
 	end,
 	Sayings = {
-		'I am COOL.',
+		'Я КРУТ.',
 	},
 	ClientHooks = {
 		HUDPaint = function(inf)
-			draw.SimpleTextOutlined('You smoke. Therefore you are cool.','Trebuchet24', ScrW()/2, ScrH() * 0.6, Color(255,255,255,math.sin(SysTime() / math.pi) * 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 2, ui.col.Red)
+			draw.SimpleTextOutlined('Ты куришь. Теперь ты крутой.','Trebuchet24', ScrW()/2, ScrH() * 0.6, Color(255,255,255,math.sin(SysTime() / math.pi) * 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 2, ui.col.Red)
 		end,
 		RenderScreenspaceEffects = function(inf)
 			DrawSharpen(1, 1)
@@ -122,7 +122,7 @@ rp.AddDrug {
 		end
 	end,
 	Sayings = {
-		'I AM INVINCIBLE!',
+		'Я НЕПОБЕДИМ!',
 	},
 	ColorModify = {
 		['$pp_colour_addr'] 		= 0,
@@ -137,7 +137,7 @@ rp.AddDrug {
 	},
 	ClientHooks = {
 		HUDPaint = function(inf)
-			draw.SimpleTextOutlined('You\'re flatlining!','Trebuchet24', ScrW()/2, ScrH() * 0.6, Color(255,255,255,math.sin(SysTime() / math.pi) * 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 2, ui.col.Red)
+			draw.SimpleTextOutlined('Снова приход!','Trebuchet24', ScrW()/2, ScrH() * 0.6, Color(255,255,255,math.sin(SysTime() / math.pi) * 255), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, 2, ui.col.Red)
 		end,
 		RenderScreenspaceEffects = function(inf)
 			DrawMaterialOverlay('highs/shader3', math.sin(SysTime()/math.pi) * 0.05)
@@ -152,8 +152,8 @@ rp.AddDrug {
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/smile/smile.mdl',
 	Sayings = {
-		'OH MY GOD I JUST DEFLATED',
-		'I WONDER WHAT HAPPENS WHEN I POUR GASOLINE ALL OVER MYSELF? THAT MUST BE THE CURE FOR CANCER, DUDE',
+		'О БОЖЕ, Я ПЕРЕРОДИЛСЯ',
+		'ИНТЕРЕСНО, ЧТО ПРОИСХОДИТ, КОГДА Я ОБЛИВАЮСЬ БЕНЗИНОМ? ЭТО ДОЛЖНО БЫТЬ ЛЕКАРСТВО ОТ РАКА, ЧУВАК',
 	},
 	ColorModify = {
 		['$pp_colour_addr'] 		= 0,
@@ -182,7 +182,7 @@ rp.AddDrug {
 	StartHigh = function(pl, stacks)
 		if (math.random(0, 22) == 0) then
 			pl:Ignite(5, 0)
-			pl:Say('FFFFFFUUUUUUUUUUUUUUUUUU')
+			pl:Say('БЛЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ')
 			return
 		end
 		pl:SetGravity(0.135)
@@ -216,7 +216,7 @@ rp.AddDrug {
 	Model = 'models/cocn.mdl',
 	StartHigh = function(pl, stacks)
 		if (pl:Health() > 1) then
-			pl:Say('MY NOSE IS DRIBBLING IS ANYONE ELSES NOSE DRIBBLING THATS REALLY WEIRD I HOPE I DONT HAVE A COLD')
+			pl:Say('У МЕНЯ ИЗ НОСА КАПАЕТ КТО НИБУДЬ ЕЩЕ КАПАЕТ ИЗ НОСА ЭТО ДЕЙСТВИТЕЛЬНО СТРАННО НАДЕЮСЬ Я НЕ ПРОСТУДИЛСЯ')
 			pl:SetHealth(pl:Health() / 2)
 
 			pl.DrugOldWalkSpeed = pl.DrugOldWalkSpeed or pl:GetWalkSpeed()
@@ -229,7 +229,7 @@ rp.AddDrug {
 			pl:SetRunSpeed(100)
 			timer.Simple(1, function()
 				if (IsValid(pl)) then
-					pl:Say('My heart isn\'t beating..')
+					pl:Say('Моё сердце не бьётся..')
 					timer.Simple(2, function()
 						if (IsValid(pl)) then
 							pl:Kill()
@@ -280,7 +280,7 @@ rp.AddDrug {
 	STDChance = 0.1,
 	StartHigh = function(pl, stacks)
 		if (pl:Health() > 1) then
-			pl:Say('ARE THOSE BUGS ON MY ARM I THINK THERES BUGS ON MY ARM')
+			pl:Say('ЭТО ЖУКИ НА МОЕЙ РУКЕ Я ДУМАЮ ЧТО ЖУКИ НА МОЕЙ РУКЕ')
 
 			pl.DrugOldWalkSpeed = pl.DrugOldWalkSpeed or pl:GetWalkSpeed()
 			pl.DrugOldRunSpeed = pl.DrugOldRunSpeed or pl:GetRunSpeed()
@@ -295,7 +295,7 @@ rp.AddDrug {
 			pl:SetRunSpeed(100)
 			timer.Simple(1, function()
 				if (IsValid(pl)) then
-					pl:Say('My heart isn\'t beating..')
+					pl:Say('Моё сердце не бьётся..')
 					timer.Simple(2, function()
 						if (IsValid(pl)) then
 							pl:Kill()
@@ -346,7 +346,7 @@ rp.AddDrug {
 	Team  = {TEAM_DRUGDEALER},
 	Model = 'models/props_lab/jar01a.mdl',
 	Sayings = {
-		'YOUR FACE JUST LOOKS DELICIOUS',
+		'ТВОЕ ЛИЦО ВЫГЛЯДИТ ПРОСТО ВОСХИТИТЕЛЬНО',
 	},
 	StartHigh = function(pl, stacks)
 		pl:SetGravity(0.25)
@@ -374,9 +374,9 @@ rp.AddDrug {
 	Model = 'models/props_junk/garbage_plasticbottle001a.mdl',
 	Time = 3,
 	Sayings = {
-		'DRINK BLEACH ITS GOOD FOR THE SOUL',
-		'THIS DOESNT TASTE LIKE TIDE PODS',
-		'JUST CLEANING THE OLE DIGESTIVE SYSTEM'
+		'ПЕЙТЕ ОТБЕЛИВАТЕЛЬ ЭТО ПОЛЕЗНО ДЛЯ ДУШИ',
+		'ЭТО НЕ ПОХОЖЕ НА КАПСУЛЫ TIDE',
+		'ПРОСТО ОЧИЩАЮ СТАРУЮ ПИЩЕВАРИТЕЛЬНУЮ СИСТЕМУ'
 	},
 	StartHigh = function(pl, stacks)
 		pl:SetHealth(1)
@@ -409,8 +409,8 @@ local function addalcohol(name, model, price, armor, health, blur, lag, index)
 		Movement = true,
 		KarmaLoss = false,
 		Sayings = {
-			'wait. guysss. i need to tells u abuot micrsfoft excel!11!',
-			'i think i love her',
+			'погодите. паааарни. я должн расскаазать вам о micrsfoft excel!11!',
+			'я думаю я люблю её',
 		},
 		StartHigh = function(pl)
 			for i = 1, pl:GetBoneCount() do

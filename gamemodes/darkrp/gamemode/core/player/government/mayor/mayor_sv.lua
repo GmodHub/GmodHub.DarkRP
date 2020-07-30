@@ -110,7 +110,7 @@ end)
 
 function GM:LockdownStarted(pl)
 	table.foreach(player.GetAll(), function(k, v)
-		v:ConCommand("play ".. rp.cfg.LockdownSounds .."\n")
+		v:ConCommand("play ".. table.Random(rp.cfg.LockdownSounds) .."\n")
 	end)
 end
 
@@ -199,7 +199,7 @@ end)
 
 -- Demote classes upon death
 hook("PlayerDeath", "DemoteOnDeath",function(v, k)
-	if (v:IsMayor() and not nw.GetGlobal('mayorGrace') or nw.GetGlobal('mayorGrace') >= CurTime()) then
+	if (v:IsMayor() and not nw.GetGlobal('mayorGrace') or (nw.GetGlobal('mayorGrace') and nw.GetGlobal('mayorGrace') >= CurTime())) then
 		GAMEMODE:UnLockdown()
 		nw.SetGlobal('mayorGrace', nil)
 		rp.resetLaws()

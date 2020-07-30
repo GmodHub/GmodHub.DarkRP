@@ -24,7 +24,7 @@ function rp.RegisterEvent(name, tab)
 		end
 
 		local events = nw.GetGlobal('EventsRunning') or {}
-		events[name] = nil
+		events[tab.NiceName] = nil
 		nw.SetGlobal('EventsRunning', events)
 
 		rp.EventsRunning[tab.NiceName] = nil

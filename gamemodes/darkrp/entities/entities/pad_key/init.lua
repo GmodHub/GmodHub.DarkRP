@@ -1,6 +1,8 @@
-AddCSLuaFile('cl_init.lua')
-AddCSLuaFile('shared.lua')
-include('shared.lua')
+dash.IncludeCL 'cl_init.lua'
+dash.IncludeSH 'shared.lua'
+
+util.AddNetworkString('rp.keypad.key')
+util.AddNetworkString('rp.keypad.Open')
 /*
 util.AddNetworkString("Keypad")
 

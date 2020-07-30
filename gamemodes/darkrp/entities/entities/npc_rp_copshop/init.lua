@@ -5,16 +5,7 @@ ENT.NPCModel = 'models/Barney.mdl'
 
 rp.AddCommand('copbuy', function(pl, itemid)
 	if (not pl:IsGov()) then return end
-
-	local exploiter = true
-	for k, v in ipairs(ents.FindInSphere(pl:GetPos(), 200)) do
-		if IsValid(v) and (v:GetClass() == 'npc_rp_copshop') then
-			exploiter = false
-			break
-		end
-	end
-
-	if exploiter then return end
+	if (pl:GetEyeTrace().Entity:GetClass() ~= "npc_rp_copshop") then return end
 
 	local item = rp.CopItems[itemid]
 

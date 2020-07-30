@@ -1,7 +1,7 @@
 ENT.Type 		= 'anim'
 ENT.Base 		= 'base_rp'
 ENT.PrintName 	= 'drug_lab_base'
-ENT.Author 		= 'aStonedPenguin'
+ENT.Author 		= 'GmodHub'
 ENT.Spawnable 	= false
 ENT.Category 	= 'RP'
 ENT.PressE 		= true

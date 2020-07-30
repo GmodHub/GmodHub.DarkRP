@@ -4,7 +4,7 @@ SWEP.SlotPos 					= 1
 SWEP.DrawAmmo 					= false
 SWEP.DrawCrosshair 				= false
 
-SWEP.Author 					= 'KingofBeast\n Updated by aStonedPenguin'
+SWEP.Author 					= 'GmodHub'
 SWEP.Instructions				= 'Left click with your crosshair on an item to pocket it.'
 SWEP.Contact 					= ''
 SWEP.Purpose 					= ''

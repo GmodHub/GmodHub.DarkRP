@@ -11,7 +11,7 @@ ENT.LazyFreeze = true
 ENT.RemoveOnJobChange = true
 
 ENT.MaxHealth = 250
-ENT.DamageScale = 0.5
+ENT.DamageScale = 1
 ENT.ExplodeOnRemove = true
 
 function ENT:Initialize()
@@ -52,7 +52,7 @@ net.Receive('rp.ItemLabCraft', function(len, pl)
 	local ent = net.ReadEntity()
 	local class = net.ReadUInt(8) or 0
 
-	if not IsValid(ent) or not scripted_ents.IsBasedOn(ent:GetClass(), "lab_base") or (ply ~= ent.ItemOwner) then return end
+	if not IsValid(ent) or not scripted_ents.IsBasedOn(ent:GetClass(), "lab_base") or (pl ~= ent.ItemOwner) then return end
 	if not ent:GetCraftables()[class] or ent:GetMetal() <= 0 or ent:IsCrafting() then return end
 	if ent:GetPos():Distance(pl:GetPos()) >= 80 then return end
 
@@ -63,7 +63,7 @@ end)
 net.Receive("rp.ItemLabRefill", function(len, ply)
 	local ent = net.ReadEntity()
 
-	if not IsValid(ent) or not scripted_ents.IsBasedOn(ent:GetClass(), "lab_base") or (ply ~= ent.ItemOwner) then return end
+	if not IsValid(ent) or not scripted_ents.IsBasedOn(ent:GetClass(), "lab_base") or (pl ~= ent.ItemOwner) then return end
 	if ent:GetMetal() >= rp.cfg.ItemLabMaxMetal then return end
 	if ent:GetPos():Distance(pl:GetPos()) >= 80 then return end
 

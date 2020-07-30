@@ -25,18 +25,6 @@ function GM:CanChangeRPName(ply, RPname)
 	end
 end
 
-function GM:OnPlayerChangedTeam(pl, oldTeam, newTeam)
-	local _, pos = GAMEMODE:PlayerSelectSpawn(pl)
-	pl:SetPos(pos)
-
-	if rp.teams[newTeam] and rp.teams[newTeam].PlayerSpawn then
-		rp.teams[newTeam].PlayerSpawn(pl)
-	end
-
-	gamemode.Call("PlayerSetModel", pl)
-	gamemode.Call("PlayerLoadout", pl)
-end
-
 function GM:CanDropWeapon(pl, weapon)
 	if not IsValid(weapon) then return false end
 	local class = string.lower(weapon:GetClass())
@@ -342,6 +330,27 @@ function GM:PlayerThink(pl)
 			end
 		end
 	end
+end
+
+function GM:OnPlayerChangedTeam(pl, oldTeam, newTeam)
+	local _, pos = GAMEMODE:PlayerSelectSpawn(pl)
+	pl:SetPos(pos)
+
+	GAMEMODE:SetPlayerSpeed(pl, rp.cfg.WalkSpeed, rp.cfg.RunSpeed)
+
+	if rp.teams[newTeam] and rp.teams[newTeam].PlayerSpawn then
+		rp.teams[newTeam].PlayerSpawn(pl)
+	end
+
+	if rp.teams[newTeam] and rp.teams[newTeam].RunSpeed then
+		pl:SetRunSpeed(rp.teams[newTeam].RunSpeed)
+	end
+
+	pl:SetRunSpeed(pl:CallSkillHook(SKILL_RUN, pl:GetRunSpeed(), pl:GetRunSpeed() * 1.15))
+	pl:SetJumpPower(pl:CallSkillHook(SKILL_JUMP, pl:GetJumpPower()))
+
+	gamemode.Call("PlayerSetModel", pl)
+	gamemode.Call("PlayerLoadout", pl)
 end
 
 function GM:PlayerSpawn(ply)

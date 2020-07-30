@@ -1,7 +1,7 @@
 ENT.Type 		= 'anim'
 ENT.Base		= 'base_rp'
 ENT.PrintName 	= 'Securiy: TV'
-ENT.Author		= 'Velkon + aStonedPenguin'
+ENT.Author		= 'GmodHub'
 ENT.Category	= 'RP'
 ENT.Spawnable 	= true
 

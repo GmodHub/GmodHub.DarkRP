@@ -34,6 +34,7 @@ net('rp.ApplyGenome', function(len, pl)
     pl:SetNetVar('CanGenomeDisguise', nil)
 
     pl:StripWeapons()
+    pl:StripAmmo()
     hook.Call("PlayerLoadout", GAMEMODE, pl)
     pl.GenomeTeam = false
 end)
@@ -59,8 +60,10 @@ hook('PlayerLoadout', 'rp.Genome.PlayerLoadout', function(pl)
         pl:UnDisguise()
     end
 
-    pl:SetRunSpeed(pl:GetRunSpeed() + speedVal)
-    pl:SetWalkSpeed(pl:GetWalkSpeed() + speedVal)
+    // You can't run with 500 speed anymore
+    pl:SetRunSpeed(rp.cfg.RunSpeed + speedVal)
+    pl:SetRunSpeed(pl:CallSkillHook(SKILL_RUN, pl:GetRunSpeed(), pl:GetRunSpeed() * 1.15))
+    pl:SetWalkSpeed(rp.cfg.WalkSpeed + speedVal)
 end)
 
 hook('ScalePlayerDamage', 'rp.Genome.ScalePlayerDamage', function(pl, hit, dmginfo)

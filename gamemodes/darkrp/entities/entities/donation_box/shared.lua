@@ -1,7 +1,7 @@
 ENT.Type 		= 'anim'
 ENT.Base 		= 'base_anim'
 ENT.PrintName 	= 'Donation Box'
-ENT.Author 		= ''
+ENT.Author 		= 'GmodHub'
 ENT.Spawnable 	= false
 ENT.PressE 		= true
 

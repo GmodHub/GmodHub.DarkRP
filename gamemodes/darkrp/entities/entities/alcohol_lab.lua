@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 ENT.Base 		= 'drug_lab_base'
 ENT.PrintName 	= 'Alcohol Lab'
-ENT.Author 		= 'aStonedPenguin'
+ENT.Author 		= 'GmodHub'
 ENT.Spawnable 	= true
 ENT.Category 	= 'RP'
 

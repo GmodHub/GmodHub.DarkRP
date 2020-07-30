@@ -44,4 +44,5 @@ hook("cmd.CanRunCommand", function(pl, cmdobj, args)
 		ba.notify_err(pl, term.Get('NeedFlagToUseCommand'), cmdobj:GetFlag(), cmdobj:GetName())
 		return false
 	end
+	return true
 end)

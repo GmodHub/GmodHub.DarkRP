@@ -1,5 +1,5 @@
 ba.Module 'DarkRP'
-	:Author 'aStonedPenguin'
+	:Author 'GmodHub'
 	:CustomCheck(function()
 		return (rp ~= nil)
 	end)

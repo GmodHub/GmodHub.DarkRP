@@ -66,6 +66,7 @@ function PLAYER:Arrest(actor, reason)
 	self:SetArmor(0)
 
 	self:Give("weapon_combo_fists")
+	self:SelectWeapon("weapon_combo_fists")
 
 	rp.FlashNotifyAll('Арест', term.Get('Arrested'), self)
 	hook.Call('PlayerArrested', GAMEMODE, self, actor)
@@ -83,6 +84,7 @@ function PLAYER:UnArrest(actor)
 		local _, pos = GAMEMODE:PlayerSelectSpawn(self)
 		self:SetPos(pos)
 		self:SetHealth(100)
+		self:StripWeapons()
 		hook.Call('PlayerLoadout', GAMEMODE, self)
 		rp.FlashNotifyAll('Окончание Ареста', term.Get('UnArrested'), self)
 		hook.Call('PlayerUnArrested', GAMEMODE, self, actor)
@@ -103,7 +105,7 @@ rp.AddCommand('911', function(pl, text)
 		return
 	end
 
-	if utf8.len(text) > 40 then
+	if utf8.len(text) > 60 then
 		return
 	end
 

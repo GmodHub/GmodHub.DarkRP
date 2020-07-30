@@ -22,6 +22,7 @@ local function MakeCamera(ply, key, locked, toggle, Data)
 	if (!IsValid(ent)) then return end
 
 	ply:AddCount("cameras", ent)
+	ent:CPPISetOwner(ply)
 
 	duplicator.DoGeneric(ent, Data)
 
@@ -39,12 +40,11 @@ local function MakeCamera(ply, key, locked, toggle, Data)
 	ent:SetPlayer(ply)
 
 	ent.toggle = toggle
-	ent.locked = locked
+	ent.locked = false
 
 	ent:Spawn()
 
 	ent:SetTracking(NULL, Vector(0))
-	ent:SetLocked(locked)
 
 	if (toggle == 1) then
 		numpad.OnDown(ply, key, "Camera_Toggle", ent)
@@ -109,7 +109,6 @@ end
 function TOOL.BuildCPanel(CPanel)
 
 	CPanel:AddControl("Numpad", { Label = "#tool.camera.key", Command = "camera_key" })
-	CPanel:AddControl("CheckBox", { Label = "#tool.camera.static", Command = "camera_locked", Help = true })
 	CPanel:AddControl("CheckBox", { Label = "#tool.toggle", Command = "camera_toggle" })
 
 end

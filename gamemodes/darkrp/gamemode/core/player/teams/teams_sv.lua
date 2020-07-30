@@ -217,11 +217,11 @@ end
 -- (Player p) Who to demote
 -- (String reason) Reason for demotion
 --
-function GM:Demote(ply, p, reason)
-	rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, p)
+function PLAYER:StartDemotionVote(ply, reason)
+	rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, self)
 	p.IsBeingDemoted = true
 
-	rp.question.Create("Понизить: " .. p:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. p:SteamID(), function(voter, answer, uid)
+	rp.question.Create("Понизить: " .. self:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. self:SteamID(), function(voter, answer, uid)
 
 		if(not rp.question.Votes[uid] or not istable(rp.question.Votes[uid])) then
 			rp.question.Votes[uid] = {
@@ -266,7 +266,7 @@ rp.AddCommand("demote", function(ply, p, reason)
 			hook.Call('playerDemotePlayer', GAMEMODE, ply, p, reason)
 			ply:GetTable().LastVoteCop = CurTime()
 
-			GAMEMODE:Demote(ply, p, reason)
+			p:StartDemotionVote(ply, reason)
 		end
 		return
 	else

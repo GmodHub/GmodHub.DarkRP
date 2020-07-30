@@ -1,6 +1,6 @@
 ENT.Type 		= 'anim'
 ENT.PrintName	= 'Picture'
-ENT.Author		= 'aStonedPenguin'
+ENT.Author		= 'GmodHub'
 ENT.Base 		= 'base_anim'
 ENT.Category 	= 'RP'
 ENT.PressE 		= true

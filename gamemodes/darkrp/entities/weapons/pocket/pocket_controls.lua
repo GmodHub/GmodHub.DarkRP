@@ -112,13 +112,11 @@ net.Receive("Pocket.Load", function(len)
 end)
 
 net.Receive("Pocket.AddItem", function()
-	LocalPlayer():AnimRestartGesture(GESTURE_SLOT_ATTACK_AND_RELOAD, ACT_GMOD_GESTURE_ITEM_PLACE, true)
 	rp.inv.Add(net.ReadUInt(pocketBits), net.ReadString(), net.ReadString(), net.ReadString())
 	rp.inv.DisableMenu()
 end)
 
 net.Receive("Pocket.RemoveItem", function()
-	LocalPlayer():AnimRestartGesture(GESTURE_SLOT_ATTACK_AND_RELOAD, ACT_GMOD_GESTURE_ITEM_PLACE, true)
 	rp.inv.Remove(net.ReadUInt(pocketBits))
 	rp.inv.DisableMenu()
 end)
