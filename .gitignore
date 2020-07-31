@@ -3,6 +3,7 @@
 *.rsuser
 addons/css/
 addons/content/
+addons/epoe/
 backgrounds/
 bin/
 cache/
@@ -16,6 +17,7 @@ perenos/
 resource/
 scenes/
 settings/
+logs/
 data/
 *.vpk
 *.rar

@@ -10,7 +10,7 @@ function ENTITY:DoorLock(locked)
 end
 
 function ENTITY:OwnProperty(pl)
-	nw.SetGlobal(self:GetPropertyNetworkID(), {Owner = pl, Title = self:GetPropertyName(), OrgOwn = false, CoOwners = {}})
+	nw.SetGlobal(self:GetPropertyNetworkID(), {Owner = pl, Title = self:GetPropertyName(), OrgOwn = false, CoOrgs = {}, CoOwners = {}})
 	pl:SetVar('PropertyOwned', self:EntIndex())
 end
 

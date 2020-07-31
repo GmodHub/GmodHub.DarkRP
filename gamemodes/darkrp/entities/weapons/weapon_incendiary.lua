@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-SWEP.PrintName 					= 'Incendiary'
+SWEP.PrintName 					= 'Зажигательная Бомба'
 SWEP.Slot 						= 3
 SWEP.SlotPos 					= 1
 SWEP.DrawAmmo 					= false

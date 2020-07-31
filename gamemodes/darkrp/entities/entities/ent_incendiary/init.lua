@@ -5,7 +5,7 @@ include("shared.lua")
 PrecacheParticleSystem( "dusty_explosion_rockets" )
 
 function ENT:Initialize()
-	self:SetModel("models/weapons/2_c4_planted.mdl")
+	self:SetModel("models/weapons/w_tnt.mdl")
 	self:PhysicsInit(SOLID_VPHYSICS)
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetCollisionGroup(COLLISION_GROUP_PASSABLE_DOOR)
@@ -30,8 +30,6 @@ local badprops = {
 }
 
 function ENT:Explosion()
-    self:Ignite(5, 15)
-
 	local effectdata = EffectData()
 		effectdata:SetOrigin(self:GetPos())
 		effectdata:SetRadius(1000)
@@ -75,6 +73,7 @@ function ENT:Explosion()
 
 	for k, v in ipairs(props) do
 		if IsValid(v) then
+			v:Ignite(math.random(8, 15))
 			local class = v:GetClass()
 			if (class == 'prop_physics') then
 				if(badprops[v:GetModel()] or not util.IsInWorld(v:GetPos())) then

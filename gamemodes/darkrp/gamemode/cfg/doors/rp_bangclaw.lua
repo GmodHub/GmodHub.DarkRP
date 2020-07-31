@@ -160,7 +160,7 @@ rp.cfg.Doors = {
 	},
 	{
 		Name = 'Военная База',
-		Teams = { TEAM_ANARCHIST },
+		Teams = { TEAM_ANARCHIST, TEAM_BOMB, TEAM_MERC },
 		Locked = true,
 		MapIDs = { 1423, 1424, 1425, 1567, 1426, 1445 }
 	},

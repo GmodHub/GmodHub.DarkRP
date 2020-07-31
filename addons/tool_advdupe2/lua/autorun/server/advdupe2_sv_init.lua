@@ -9,11 +9,13 @@ include "advdupe2/sv_clipboard.lua"
 include "advdupe2/sh_codec.lua"
 include "advdupe2/sv_misc.lua"
 include "advdupe2/sv_file.lua"
+include "advdupe2/sv_ghost.lua"
 
 AddCSLuaFile "autorun/client/advdupe2_cl_init.lua"
 AddCSLuaFile "advdupe2/file_browser.lua"
 AddCSLuaFile "advdupe2/sh_codec.lua"
 AddCSLuaFile "advdupe2/cl_file.lua"
+AddCSLuaFile "advdupe2/cl_networking.lua"
 
 function AdvDupe2.Notify(ply,msg,typ, showsvr, dur)
 	umsg.Start("AdvDupe2Notify",ply)
@@ -132,4 +134,3 @@ end)
 hook.Add("PlayerInitialSpawn","AdvDupe2_AddPlayerTable",function(ply)
 	ply.AdvDupe2 = {}
 end)
-

@@ -6,6 +6,6 @@ hook.Add("InitPostEntity", "rp.MapProps", function()
 		prop:Spawn()
 		prop:Activate()
 		prop:SetModel(v.Model)
-        prop:GetPhysicsObject():EnableMotion(false)
+        //prop:GetPhysicsObject():EnableMotion(false)
 	end
 end)

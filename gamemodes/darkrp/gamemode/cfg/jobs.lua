@@ -536,6 +536,7 @@ TEAM_MERC = rp.addTeam('Наемник', {
 	hirePrice = 1500,
 	candemote = true,
 	vip = true,
+	spawns = raider_spawns,
 })
 
 --

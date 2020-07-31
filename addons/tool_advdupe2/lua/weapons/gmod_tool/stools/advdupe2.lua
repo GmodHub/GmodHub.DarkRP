@@ -719,6 +719,7 @@ if(SERVER)then
 		umsg.Start("AdvDupe2_RemoveSelectBox", ply)
 		umsg.End()
 	end
+	
 
 	//Reset the offsets of height, pitch, yaw, and roll back to default
 	function AdvDupe2.ResetOffsets(ply, keep)
@@ -736,6 +737,11 @@ if(SERVER)then
 		umsg.End()
 	end
 
+	function AdvDupe2.RemoveProgressBar(ply)
+		umsg.Start("AdvDupe2_RemoveProgressBar",ply)
+		umsg.End()
+	end
+	
 	net.Receive("AdvDupe2_CanAutoSave", function(len, ply, len2)
 
 		local desc = net.ReadString()

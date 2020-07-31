@@ -1,7 +1,7 @@
 dash.IncludeSH 'shared.lua'
 
-local mat_locked = Material("sup/entities/biometric/locked.png", "smooth")
-local mat_unlocked = Material("sup/entities/biometric/unlocked.png", "smooth")
+local mat_locked = Material("gmh/entities/biometric/locked.png", "smooth")
+local mat_unlocked = Material("gmh/entities/biometric/unlocked.png", "smooth")
 
 function ENT:Draw()
 	self.BaseClass.Draw(self)
@@ -21,7 +21,7 @@ function ENT:Draw()
 
 	local tX = (w * 0.5)
 		draw.SimpleText(rp.FormatMoney(self:Getprice()), 'ui.24', tX, y + 5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_TOP)
-		draw.SimpleText(self:GetOneTimeUse() and 'One Time Use' or 'Permanent Entry', 'ui.22', tX, (y + h) - 5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
+		draw.SimpleText(self:GetOneTimeUse() and 'Единоразовый Доступ' or 'Постоянный Доступ', 'ui.22', tX, (y + h) - 5, ui.col.White, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM)
 
 		local status = self:GetStatus()
 

@@ -8,8 +8,9 @@ ENT.Spawnable		= false
 ENT.AdminSpawnable	= false -- Spawned via STool
 
 ENT.Status_None = 0
-ENT.Status_Granted = 1
-ENT.Status_Denied = 2
+ENT.Status_Denied = 1
+ENT.Status_Granted = 2
+
 
 ENT.Command_Enter = 0
 ENT.Command_Reset = 1

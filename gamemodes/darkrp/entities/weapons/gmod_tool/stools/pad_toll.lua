@@ -3,10 +3,10 @@ TOOL.Name = '#tool.pad_toll.name'
 
 if CLIENT then
 	language.Add('tool.pad_toll.name', 'Toll')
-	language.Add('tool.pad_toll.desc', 'Create a toll that fades prop/s')
-	language.Add('tool.pad_toll.right', 'Select prop/s to link')
-	language.Add('tool.pad_toll.left_1', 'Place toll')
-	language.Add('tool.pad_toll.reload', 'Clear selected props')
+	language.Add('tool.pad_toll.desc', 'Создать toll с fading door')
+	language.Add('tool.pad_toll.right', 'Присоеденить проп')
+	language.Add('tool.pad_toll.left_1', 'Поставить toll')
+	language.Add('tool.pad_toll.reload', 'Очистить выбранные пропы')
 end
 
 TOOL.Information = {

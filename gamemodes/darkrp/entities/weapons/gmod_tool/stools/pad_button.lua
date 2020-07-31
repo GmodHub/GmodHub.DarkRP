@@ -2,11 +2,11 @@ TOOL.Category = 'Easy Fading Doors'
 TOOL.Name = '#tool.pad_button.name'
 
 if CLIENT then
-	language.Add('tool.pad_button.name', 'Button')
-	language.Add('tool.pad_button.desc', 'Create a button that fades prop/s')
-	language.Add('tool.pad_button.right', 'Select prop/s to link')
-	language.Add('tool.pad_button.left_1', 'Place button')
-	language.Add('tool.pad_button.reload', 'Clear selected props')
+	language.Add('tool.pad_button.name', 'Кнопка')
+	language.Add('tool.pad_button.desc', 'Создать кнопку с fading door')
+	language.Add('tool.pad_button.right', 'Присоеденить проп')
+	language.Add('tool.pad_button.left_1', 'Поставить кнопку')
+	language.Add('tool.pad_button.reload', 'Очистить выбранные пропы')
 end
 
 TOOL.Information = {

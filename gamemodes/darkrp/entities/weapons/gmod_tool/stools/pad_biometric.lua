@@ -3,10 +3,10 @@ TOOL.Name = '#tool.pad_biometric.name'
 
 if CLIENT then
 	language.Add('tool.pad_biometric.name', 'Biometric Scanner')
-	language.Add('tool.pad_biometric.desc', 'Create a biometric scanner that fades prop/s')
-	language.Add('tool.pad_biometric.right', 'Select prop/s to link')
-	language.Add('tool.pad_biometric.left_1', 'Place biometric scanner')
-	language.Add('tool.pad_biometric.reload', 'Clear selected props')
+	language.Add('tool.pad_biometric.desc', 'Создать биометрический сканер с fading door')
+	language.Add('tool.pad_biometric.right', 'Присоеденить проп')
+	language.Add('tool.pad_biometric.left_1', 'Поставить Сканер')
+	language.Add('tool.pad_biometric.reload', 'Очистить выбранные пропы')
 end
 
 TOOL.Information = {

@@ -1,34 +1,37 @@
 dash.IncludeCL 'cl_init.lua'
 dash.IncludeSH 'shared.lua'
 
+ENT.PayedPlayer = {}
+
 function ENT:Initialize()
     self:SetModel("models/maxofs2d/button_04.mdl")
-    self:PhysicsInit( SOLID_VPHYSICS )
-    self:SetMoveType( MOVETYPE_VPHYSICS )
-    self:SetSolid( SOLID_VPHYSICS )
     self:SetUseType( SIMPLE_USE )
+
+    self.BaseClass.Initialize(self)
 end
 
 function ENT:PlayerUse(pl)
-    if(not pl:CanAfford(self:Getprice())) then return end
+    if self:CPPIGetOwner() == pl and not pl:CanAfford(self:Getprice()) then
+        pl:Notify(NOTIFY_ERROR, term.Get('CannotAfford'))
+        self:InValidUse()
+        return true
+    end
 
-    if(self:GetOneTimeUse()) then
-        if(not self:IsPropsFaded()) then
-            self:FadeProps()
-            if(self.ItemOwner ~= pl) then
-                pl:AddMoney(-self:Getprice())
-            end
-        end
-    else
-        self:FadeProps()
-        timer.Simple(self:GetHoldLength(), function()
-            if(not IsValid(self)) then return end
-            self:UnFadeProps()
-        end)
-        if(self.ItemOwner ~= pl) then
-            pl:AddMoney(-self:Getprice())
+    if (self.ItemOwner ~= pl) then
+        if not self:GetOneTimeUse() and not table.HasValue(self.PayedPlayer, pl)then
+            pl:TakeMoney(self:Getprice())
+            self.ItemOwner:AddMoney(self:Getprice() * 0.9)
+            self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+
+            table.insert(self.PayedPlayer, pl)
+        elseif self:GetOneTimeUse() then
+            pl:TakeMoney(self:Getprice())
+            self.ItemOwner:AddMoney(self:Getprice() * 0.9)
+            self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
         end
     end
+
+    self:ValidUse()
 end
 
 function ENT:CanHack()
@@ -36,15 +39,5 @@ function ENT:CanHack()
 end
 
 function ENT:Hack(ply)
-    if(self:GetOneTimeUse()) then
-        if(not self:IsPropsFaded()) then
-            self:FadeProps()
-        end
-    else
-        self:FadeProps()
-        timer.Simple(self:GetHoldLength(), function()
-            if(not IsValid(self)) then return end
-            self:UnFadeProps()
-        end)
-    end
+    self:ValidUse()
 end

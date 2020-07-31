@@ -1,9 +1,9 @@
 dash.IncludeSH 'shared.lua'
 
-local mat_faceID = Material('sup/entities/keypad/faceid.png', 'smooth')
-local mat_lense = Material('sup/entities/biometric/lens.png', 'smooth')
-local mat_locked = Material('sup/entities/biometric/locked.png', 'smooth')
-local mat_unlocked = Material('sup/entities/biometric/unlocked.png', 'smooth')
+local mat_faceID = Material('gmh/entities/keypad/faceid.png', 'smooth')
+local mat_lense = Material('gmh/entities/biometric/lens.png', 'smooth')
+local mat_locked = Material('gmh/entities/biometric/locked.png', 'smooth')
+local mat_unlocked = Material('gmh/entities/biometric/unlocked.png', 'smooth')
 
 local lookEnt, fr, ent
 function ENT:Draw()
@@ -128,7 +128,7 @@ end
 local function jobSelect(teams, add)
 	local jFr = ui.Create('ui_frame', function(self, p)
 		self:SetSize(ScrW() * 0.65, ScrH() * 0.6)
-		self:SetTitle('Add Team')
+		self:SetTitle('Добавить Профессию')
 		self:Center()
 		self:MakePopup()
 		self.Think = function()
@@ -171,7 +171,7 @@ end
 
 local padOptions = {
 	{
-		Name 	= 'Add Player',
+		Name 	= 'Добавить Игрока',
 		Check 	= function()
 			return (player.GetCount() > 1)
 		end,
@@ -187,7 +187,7 @@ local padOptions = {
 		end
 	},
 		{
-		Name 	= 'Remove Player',
+		Name 	= 'Удалить Игрока',
 		Check 	= function()
 			return (#ent.AllowedPlayers > 0)
 		end,
@@ -203,13 +203,13 @@ local padOptions = {
 		end,
 	},
 	{
-		Name 	= 'Add Team',
+		Name 	= 'Добавить Профессию',
 		DoClick = function()
 			jobSelect(nil, true)
 		end
 	},
 		{
-		Name 	= 'Remove Team',
+		Name 	= 'Удалить Профессию',
 		Check 	= function()
 			return (#ent.AllowedTeams > 0)
 		end,
@@ -218,7 +218,7 @@ local padOptions = {
 		end,
 	},
 	{
-		Name 	= 'Toggle org ownership',
+		Name 	= 'Доступ Банды',
 		Check 	= function()
 			return (LocalPlayer():GetOrg() ~= nil)
 		end,
@@ -231,7 +231,7 @@ local padOptions = {
 		end,
 	},
 		{
-		Name 	= 'Add Org',
+		Name 	= 'Добавить Банду',
 		Check 	= function()
 			return (ent:GetOrg1() == '') or (ent:GetOrg2() == '') or (ent:GetOrg3() == '')
 		end,
@@ -254,7 +254,7 @@ local padOptions = {
 		end,
 	},
 	{
-		Name 	= 'Remove Org',
+		Name 	= 'Удалить Банду',
 		Check 	= function()
 			return (ent:GetOrg1() ~= '') or (ent:GetOrg2() ~= '') or (ent:GetOrg3() ~= '')
 		end,
@@ -286,7 +286,7 @@ local padOptions = {
 		end,
 	},
 	{
-		Name 	= 'Copy settings to all biometrics',
+		Name 	= 'Скопировать для всех сканеров',
 		DoClick = function()
 			fr:Close()
 
@@ -301,7 +301,7 @@ function ENT:PlayerUse()
 	if IsValid(fr) then fr:Close() end
 
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Scanner Options')
+		self:SetTitle('Настройки Сканера')
 		self:Center()
 		self:MakePopup()
 		self.Think = function(self)

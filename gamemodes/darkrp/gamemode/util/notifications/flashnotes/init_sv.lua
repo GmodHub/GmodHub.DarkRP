@@ -5,7 +5,7 @@ function rp.FlashNotify(recipients, title, msg, ...)
 	if isstring(msg) then
 		net.Start('rp.FlashString')
 			net.WriteString(title)
-			net.WriteTerm(msg, ...)
+			rp.WriteMsg(msg, ...)
 		net.Send(recipients)
 	else
 		net.Start('rp.FlashTerm')
@@ -19,7 +19,7 @@ function rp.FlashNotifyAll(title, msg, ...)
 	if isstring(msg) then
 		net.Start('rp.FlashString')
 			net.WriteString(title)
-			net.WriteTerm(msg, ...)
+			rp.WriteMsg(msg, ...)
 		net.Broadcast()
 	else
 		net.Start('rp.FlashTerm')

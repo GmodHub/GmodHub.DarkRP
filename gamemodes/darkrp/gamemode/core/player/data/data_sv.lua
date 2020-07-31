@@ -1,5 +1,6 @@
 rp.data = rp.data or {}
 local db = rp._Stats
+require 'randname'
 
 function rp.data.LoadPlayer(pl, cback)
 	db:Query('SELECT * FROM player_data WHERE SteamID=' .. pl:SteamID64() .. ';', function(_data)
@@ -8,9 +9,7 @@ function rp.data.LoadPlayer(pl, cback)
 		if IsValid(pl) then
 			if (#_data <= 0) then
 				db:Query('INSERT INTO player_data(SteamID, Name, Money, Karma, Pocket, Skills, ActiveApparel) VALUES(?, ?, ?, ?, ?, ?, ?);', pl:SteamID64(), pl:SteamName(), rp.cfg.StartMoney, rp.cfg.StartKarma, '{}', '[]', '[]')
-				randName.Get(function(res)
-					pl:SetRPName(res, true)
-				end)
+				rp.data.SetRandName(pl)
 			end
 
 			if data.Name and (data.Name ~= pl:SteamName()) then
@@ -108,6 +107,12 @@ function rp.data.SetName(pl, name, cback)
 	db:Query('UPDATE player_data SET Name=? WHERE SteamID=' .. pl:SteamID64() .. ';', name, function(data)
 		pl:SetNetVar('Name', name)
 		if cback then cback(data) end
+	end)
+end
+
+function rp.data.SetRandName(pl)
+	randName.Get(function(res)
+		pl:SetRPName(res, true)
 	end)
 end
 

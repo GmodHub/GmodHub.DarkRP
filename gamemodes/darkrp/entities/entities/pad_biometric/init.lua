@@ -8,32 +8,39 @@ util.AddNetworkString('rp.biometric.ToggleOrg')
 util.AddNetworkString('rp.biometric.Org')
 util.AddNetworkString('rp.biometric.ApplyAll')
 
+net('rp.biometric.Unlock', function(len, pl)
+    local pad = pl:GetEyeTrace().Entity
+    if not IsValid(pad) or pad:GetClass() ~= "pad_biometric" then return end
+    pad:PlayerUse(pl)
+end)
+
+net('rp.biometric.Player', function(len, pl)
+    local pad = pl:GetEyeTrace().Entity
+    if not IsValid(pad) or pad:GetClass() ~= "pad_biometric" then return end
+    local add = net.ReadBit()
+    local targ = net.ReadPlayer()
+end)
+
 function ENT:Initialize()
     self:SetModel("models/maxofs2d/button_04.mdl")
-    self:PhysicsInit( SOLID_VPHYSICS )
-    self:SetMoveType( MOVETYPE_VPHYSICS )
-    self:SetSolid( SOLID_VPHYSICS )
     self:SetUseType( SIMPLE_USE )
+
+    self.BaseClass.Initialize(self)
 end
 
-function ENT:Use(activator, caller, type, value)
-    if IsValid(activator) and activator:IsPlayer() then
-        self.User = activator
-    end
+function ENT:CanNetworkUse(pl)
+	return self:CPPIGetOwner() == pl
+end
 
-    self.BaseClass.Use(self, activator, caller, type, value)
+function ENT:CanUse(pl)
+	return self:CPPIGetOwner() == pl
 end
 
 function ENT:PlayerUse(pl)
-    if(not self.ItemOwner == pl) then return end
-
-    if(not self:IsPropsFaded()) then
-        self:FadeProps()
+    if self:CPPIGetOwner() == pl then
+        self:ValidUse()
+        return
     end
-    timer.Simple(self:GetHoldLength(), function()
-        if(not IsValid(self)) then return end
-        self:UnFadeProps()
-    end)
 end
 
 function ENT:CanHack()
@@ -41,11 +48,5 @@ function ENT:CanHack()
 end
 
 function ENT:Hack(ply)
-    if(not self:IsPropsFaded()) then
-        self:FadeProps()
-    end
-    timer.Simple(self:GetHoldLength(), function()
-        if(not IsValid(self)) then return end
-        self:UnFadeProps()
-    end)
+    self:ValidUse()
 end

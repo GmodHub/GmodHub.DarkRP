@@ -14,7 +14,7 @@ function rp.Notify(recipients, notify_type, msg, ...)
 
 	if isstring(msg) then
 		net.Start('rp.NotifyString')
-			net.WriteMsg(msg, ...)
+			rp.WriteMsg(msg, ...)
 			net.WriteUInt(notify_type, 2)
 		net.Send(recipients)
 	else
@@ -28,7 +28,7 @@ end
 function rp.NotifyAll(notify_type, msg, ...)
 	if isstring(msg) then
 		net.Start('rp.NotifyString')
-			net.WriteMsg(msg, ...)
+			rp.WriteMsg(msg, ...)
 			net.WriteUInt(notify_type, 2)
 		net.Broadcast()
 	else

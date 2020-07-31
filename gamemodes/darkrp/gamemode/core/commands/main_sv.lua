@@ -4,7 +4,7 @@
 rp.AddCommand("randomname", function(ply)
 	randName.Get(function(name)
 		hook.Call("playerChangedRPName", GAMEMODE, ply, name)
-		ply:SetRPName(name)
+		rp.data.SetRandName(ply)
 	end)
 end)
 :SetCooldown(30)
