@@ -26,4 +26,5 @@ data/
 *.rad
 *.inf
 *.vbsp
-stats.txt
+*.ver
+*.txt
