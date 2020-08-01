@@ -62,24 +62,31 @@ function ENT:SpawnItem()
 		return
 	end
 
-	local weapon = ents.Create('spawned_weapon')
-
-	local weaponAng = self:GetAngles()
-	local weaponPos = self:GetAngles():Up() * 40 + weaponAng:Up() * (math.sin(CurTime() * 3) * 8)
-	weaponAng:RotateAroundAxis(weaponAng:Up(), (CurTime() * 180) % 360)
-
 	local class = rp.shipments[contents].entity
 	local model = rp.shipments[contents].model
 
-	weapon.weaponclass = class
-	weapon.lastbox = self:EntIndex()
-	weapon:SetModel(model)
-	weapon.ammoadd = self.ammoadd or (weapons.Get(class) and weapons.Get(class).Primary.DefaultClip)
-	weapon.clip1 = self.clip1
-	weapon.clip2 = self.clip2
-	weapon:SetPos(self:GetPos() + weaponPos)
-	weapon:SetAngles(weaponAng)
-	weapon:Spawn()
+	local entClass
+	if(scripted_ents.IsBasedOn(class, "drug_base") or scripted_ents.IsBasedOn(class, "base_rp")) then
+		entClass = class
+	else
+		entClass = "spawned_weapon"
+	end
+
+	local item = ents.Create(entClass)
+
+	local itemAng = self:GetAngles()
+	local itemPos = self:GetAngles():Up() * 40 + itemAng:Up() * (math.sin(CurTime() * 3) * 8)
+	itemAng:RotateAroundAxis(itemAng:Up(), (CurTime() * 180) % 360)
+
+	item.weaponclass = class
+	item.lastbox = self:EntIndex()
+	item:SetModel(model)
+	--weapon.ammoadd = self.ammoadd or (weapons.Get(class) and weapons.Get(class).Primary.DefaultClip)
+	item.clip1 = self.clip1
+	item.clip2 = self.clip2
+	item:SetPos(self:GetPos() + itemPos)
+	item:SetAngles(itemAng)
+	item:Spawn()
 
 	self:Setcount(count - 1)
 	self.locked = false
@@ -100,11 +107,31 @@ function ENT:Destruct()
 	local model = rp.shipments[contents].model
 
 	for i = 1, self:Getcount() do
-		local weapon = ents.Create('spawned_weapon')
-		weapon:SetModel(model)
-		weapon.weaponclass = class
-		weapon:SetPos(Vector(vPoint.x, vPoint.y, vPoint.z + (i*5)))
-		weapon:Spawn()
+		local class = rp.shipments[contents].entity
+		local model = rp.shipments[contents].model
+
+		local entClass
+		if(scripted_ents.IsBasedOn(class, "drug_base") or string.StartWith(class, "ent")) then
+			entClass = class
+		else
+			entClass = "spawned_weapon"
+		end
+
+		local item = ents.Create(entClass)
+
+		local itemAng = self:GetAngles()
+		local itemPos = self:GetAngles():Up() * 40 + itemAng:Up() * (math.sin(CurTime() * 3) * 8)
+		itemAng:RotateAroundAxis(itemAng:Up(), (CurTime() * 180) % 360)
+
+		item.weaponclass = class
+		item.lastbox = self:EntIndex()
+		item:SetModel(model)
+		--weapon.ammoadd = self.ammoadd or (weapons.Get(class) and weapons.Get(class).Primary.DefaultClip)
+		item.clip1 = self.clip1
+		item.clip2 = self.clip2
+		item:SetPos(self:GetPos() + itemPos)
+		item:SetAngles(itemAng)
+		item:Spawn()
 	end
 	self:Remove()
 end
@@ -112,20 +139,27 @@ end
 function ENT:StartTouch(ent)
 	if self.LastTouch and self.LastTouch >= CurTime() then return end
 	self.LastTouch = CurTime() + 1
-
-	if(ent:GetClass() ~= "spawned_weapon" or (ent.lastbox or 0) == self:EntIndex()) then return end
+	if(ent:GetClass() ~= "spawned_weapon" and not scripted_ents.IsBasedOn(ent:GetClass(), "drug_base") and not scripted_ents.IsBasedOn(ent:GetClass(), "base_rp") or (ent.lastbox or 0) == self:EntIndex()) then return end
 
 	local count = self:Getcount()
 
 	if count >= 10 then return end
 
-	local contents = self:Getcontents()
+	local class
+	if(scripted_ents.IsBasedOn(ent:GetClass(), "drug_base") or string.StartWith(ent:GetClass(), "ent")) then
+		class = ent:GetClass()
+	else
+		class = ent.weaponclass
+	end
 
+	local contents = self:Getcontents()
 	if count < 1 then
-		self:Setcontents(rp.ShipmentMap[ent.weaponclass])
+		--print(Benchmark(self.FindFood, ent:GetModel()))
+		self:Setcontents(rp.ShipmentMap[class])
 		self:Setcount(1)
 	else
-		if rp.shipments[contents].entity ~= ent.weaponclass then return end
+		print("CHECK FAILED?" .. tostring(rp.shipments[contents].entity ~= class))
+		if rp.shipments[contents].entity ~= class then return end
 		self:Setcount(count + 1)
 	end
 
