@@ -7,7 +7,7 @@ local Settings
 PANEL = {}
 
 function PANEL:Init()
-	self.Avatar = ui.Create('ui_avatarbutton', self)
+	self.Avatar = ui.Create('ui_imagebutton', self)
 
 	self.Name = ui.Create('DLabel', self)
 	self.Name:SetTextColor(ui.col.ButtonText)
@@ -104,7 +104,7 @@ PANEL = {}
 function PANEL:Init()
 	self.Selected = false
 
-	self.Avatar = ui.Create('ui_avatarbutton', self)
+	self.Avatar = ui.Create('ui_imagebutton', self)
 
 	self.Name = ui.Create('DLabel', self)
 	self.Name:SetFont('ui.22')

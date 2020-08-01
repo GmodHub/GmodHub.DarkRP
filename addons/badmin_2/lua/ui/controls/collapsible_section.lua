@@ -55,7 +55,7 @@ function PANEL:Collapse(collapsed, noAnim)
 	end
 
 	self.CollapseBtn:SetTextColor(collapsed and ui.col.White or ui.col.Green)
-	self.CollapseBtn:SetToolTip(collapsed and 'Expand' or 'Collapse')
+	self.CollapseBtn:SetToolTip(collapsed and 'Больше' or 'Меньше')
 	self.CollapseBtn:SetText(collapsed and '◀' or '▼')
 end
 

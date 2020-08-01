@@ -41,7 +41,7 @@ function PANEL:AddRow(value, disabled)
 		if IsValid(self.Selected) then
 			self.Selected.Active = false
 		end
-		
+
 		row.Active = true
 		self.Selected = row
 	end
@@ -49,14 +49,8 @@ function PANEL:AddRow(value, disabled)
 	return row
 end
 
-function PANEL:AddPlayer(pl, steamid64)
-	local btn = ui.Create('ui_playerbutton', function(self, p)
-		if isplayer(pl) then
-			self:SetPlayer(pl)
-		else
-			self:SetInfo(pl, steamid64)
-		end
-	end)
+function PANEL:AddImageRow()
+	local btn = ui.Create('ui_imagerow')
 
 	self.Rows[#self.Rows + 1] = btn
 
@@ -64,12 +58,19 @@ function PANEL:AddPlayer(pl, steamid64)
 		if IsValid(self.Selected) then
 			self.Selected.Active = false
 		end
-		
+
 		btn.Active = true
 		self.Selected = btn
 	end
 
 	self:AddItem(btn)
+	return btn
+end
+
+function PANEL:AddPlayer(pl, steamid64)
+	local btn = self:AddImageRow()
+	btn:SetPlayer(pl, steamid64)
+
 	return btn
 end
 
@@ -117,7 +118,7 @@ function PANEL:Search(value)
 			if IsValid(self.NoResultsSpacer) then
 				self.NoResultsSpacer:SetVisible(true)
 			else
-				self.NoResultsSpacer = self:AddSpacer(self.NoResultsMessage or 'No results found!')
+				self.NoResultsSpacer = self:AddSpacer(self.NoResultsMessage or 'Результатов не найдено!')
 			end
 
 		elseif IsValid(self.NoResultsSpacer) then

@@ -10,20 +10,8 @@ function ENT:Initialize()
 	if IsValid(self.ItemOwner) then
 		self:CPPISetOwner(self.ItemOwner)
 	end
-	self:SetFrozen(1)
+	self:SetFrozen(0)
 end
-
-hook.Add('PlayerFrozeObject', 'rp.Media.FrozePlayers', function(pl, ent, physobj )
-	if IsValid(ent) and scripted_ents.IsBasedOn(ent:GetClass(), "media_base") then
-		ent:SetFrozen(0)
-	end
-end)
-
-hook.Add('PlayerUnfrozeObject', 'rp.Media.FrozePlayer', function(pl, ent, physobj )
-	if IsValid(ent) and scripted_ents.IsBasedOn(ent:GetClass(), "media_base") then
-		ent:SetFrozen(1)
-	end
-end)
 
 rp.AddCommand('playsong', function(pl, url)
 	local ent = pl:GetEyeTrace().Entity

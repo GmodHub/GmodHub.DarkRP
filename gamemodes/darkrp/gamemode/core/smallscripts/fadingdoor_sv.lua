@@ -27,7 +27,7 @@ function rp.fadingdoor.RemoveProp(pl, prop)
     prop:SetMaterial('')
     prop:SetColor(color_white)
 
-    pl:Notify(NOTIFY_GENERIC, "Проп был отключён от fading door.")
+    pl:Notify(NOTIFY_GENERIC, term.Get('FadingDoorRemoved'))
 end
 
 function rp.fadingdoor.AddProp(pl, prop)
@@ -36,7 +36,7 @@ function rp.fadingdoor.AddProp(pl, prop)
     prop:SetMaterial('models/debug/debugwhite')
     prop:SetColor(rp.col.Violet)
 
-    pl:Notify(NOTIFY_SUCCESS, "Проп был подключён к fading door.")
+    pl:Notify(NOTIFY_SUCCESS, term.Get('FadingDoorAdded'))
 end
 
 function ent:Fade()

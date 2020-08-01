@@ -69,6 +69,26 @@ function rp.orgs.GetOnlineMembers(uid)
 	end)
 end
 
+function rp.orgs.GetOnline()
+	local orgs = {}
+	local orgMap = {}
+	for k, v in ipairs(player.GetAll()) do
+		local org = v:GetOrg()
+		if org and (not orgMap[org]) then
+			orgs[#orgs + 1] = {
+				Name = org,
+				Color = v:GetOrgColor()
+			}
+			orgMap[org] = true
+		end
+	end
+
+	orgMap = nil
+
+	return orgs
+end
+
+
 -- Networking
 nw.Register 'Org'
 	:Write(net.WriteString)

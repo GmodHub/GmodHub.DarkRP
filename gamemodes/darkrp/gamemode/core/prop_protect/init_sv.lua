@@ -275,6 +275,22 @@ rp.AddCommand('shareprops', function(pl, targ)
 end)
 :AddParam(cmd.PLAYER_ENTITY)
 
+rp.AddCommand('orgshareprops', function(pl, targ)
+	if not pl:GetOrg() then return end
+
+	if (pl:GetNetVar('OrgShareProps') == true) then
+		pl:SetNetVar('OrgShareProps', false)
+		for k,v in pairs(rp.orgs.GetOnlineMembers(pl:GetOrgUID())) do
+			rp.Notify(v, NOTIFY_GREEN, term.Get('OrgUnSharedProps'), pl)
+		end
+	else
+		pl:SetNetVar('OrgShareProps', true)
+		for k,v in pairs(rp.orgs.GetOnlineMembers(pl:GetOrgUID())) do
+			rp.Notify(v, NOTIFY_GREEN, term.Get('OrgSharedProps'), pl)
+		end
+	end
+end)
+
 rp.AddCommand('tooleditor', function(pl, text, args)
 	net.Start('rp.toolEditor')
 		net.WriteTable(rp.pp.BlockedTools)

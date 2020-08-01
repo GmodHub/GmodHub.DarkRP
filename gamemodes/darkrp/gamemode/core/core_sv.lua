@@ -163,7 +163,7 @@ function GM:CanPlayerSuicide(pl)
 	elseif pl:IsFrozen() then
 		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideFrozen"))
 	elseif (pl:IsZiptied()) then
-		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideLiveFor"))
+		pl:Notify(NOTIFY_ERROR, term.Get("CantSuicideRestrained"))
 	elseif (not pl:IsBanned()) and (not pl:IsJailed()) then
 
 		if not pl:IsCP() then
@@ -251,7 +251,7 @@ function GM:PlayerDeath(ply, weapon, killer)
 end
 
 function GM:PlayerCanPickupWeapon(ply, weapon)
-	if ply:IsArrested() or ply:IsBanned() or ply:IsJailed() then return false end
+	if ply:IsBanned() or ply:IsJailed() then return false end
 	if weapon and weapon.PlayerUse == false then return false end
 
 	if rp.teams[ply:Team()] and rp.teams[ply:Team()].PlayerCanPickupWeapon then
@@ -407,7 +407,13 @@ function GM:PlayerSpawn(ply)
 end
 
 function GM:PlayerLoadout(ply)
-	if ply:IsArrested() or ply:IsBanned() then return end
+	if ply:IsBanned() then return end
+
+	if ply:IsArrested() then
+		ply:Give("weapon_combo_fists")
+		ply:SelectWeapon("weapon_combo_fists")
+		return
+	end
 
 	player_manager.RunClass(ply, "Spawn")
 
@@ -549,13 +555,24 @@ function GM:InitPostEntity()
 		if remove[ent:GetClass()] then
 			ent:Remove()
 		end
-  end
+  	end
 
-  for k, v in ipairs(ents.FindByClass('info_player_start')) do
+	for k, v in ipairs(ents.FindByClass('info_player_start')) do
 		if util.IsInWorld(v:GetPos()) and (not self.SpawnPoint) then
 			self.SpawnPoint = v
 		else
 			v:Remove()
 		end
+	end
+
+	// Prop Spawn
+	for k, v in pairs(rp.cfg.Props[game.GetMap()]) do
+		local prop = ents.Create('prop_physics')
+		prop:SetModel(v.Model)
+		prop:SetPos(v.Pos)
+		prop:SetAngles(v.Ang)
+		prop:Spawn()
+		prop:Activate()
+        prop:GetPhysicsObject():EnableMotion(false)
 	end
 end

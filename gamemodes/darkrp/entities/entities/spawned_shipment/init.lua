@@ -154,11 +154,9 @@ function ENT:StartTouch(ent)
 
 	local contents = self:Getcontents()
 	if count < 1 then
-		--print(Benchmark(self.FindFood, ent:GetModel()))
 		self:Setcontents(rp.ShipmentMap[class])
 		self:Setcount(1)
 	else
-		print("CHECK FAILED?" .. tostring(rp.shipments[contents].entity ~= class))
 		if rp.shipments[contents].entity ~= class then return end
 		self:Setcount(count + 1)
 	end

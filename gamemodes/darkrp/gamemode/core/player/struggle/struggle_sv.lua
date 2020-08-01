@@ -25,7 +25,7 @@ function PLAYER:StartStruggle(name)
 end
 
 hook.Add( "PlayerButtonDown", "rp.Struggle.Keys", function( pl, button )
-    if (button == MOUSE_FIRST or button == KEY_G) and pl.Struggle and table.Count(pl.Struggle) > 0 then
+    if (button == MOUSE_FIRST) and pl.Struggle and table.Count(pl.Struggle) > 0 then
         for k,v in pairs(pl.Struggle) do
             if button != v.key then continue end
             if not v.check(pl) then

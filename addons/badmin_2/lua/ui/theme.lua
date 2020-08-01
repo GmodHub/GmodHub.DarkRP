@@ -92,10 +92,10 @@ function SKIN:PaintButton(self, w, h)
 	end
 end
 
-function SKIN:PaintAvatarImage(self, w, h)
-	if self.AvatarMaterial then
+function SKIN:PaintImageButton(self, w, h)
+	if self.Material then
 		surface.SetDrawColor(255, 255, 255)
-		surface.SetMaterial(self.AvatarMaterial)
+		surface.SetMaterial(self.Material)
 		surface.DrawTexturedRect(0, 0, w, h)
 	end
 
@@ -104,12 +104,12 @@ function SKIN:PaintAvatarImage(self, w, h)
 	end
 end
 
-function SKIN:PaintPlayerButton(self, w, h)
+function SKIN:PaintImageRow(self, w, h)
 	if self.Active then
 		draw.OutlinedBox(0, 0, w, h, color_flat_black, color_outline)
 		return
 	else
-		draw.OutlinedBox(0, 0, w, h, self.PlayerColor or color_background, color_outline)
+		draw.OutlinedBox(0, 0, w, h, self.BackgroundColor or color_background, color_outline)
 	end
 
 	if self:IsHovered() then
@@ -128,6 +128,27 @@ function SKIN:PaintWindowCloseButton(panel, w, h)
 
 	local xX = math.floor((w / 2) - 5)
 	local xY = math.floor((h / 2) - 5)
+
+	render.PushFilterMin(3)
+		render.PushFilterMag(3)
+			surface.DrawLine(xX, xY, xX + 10, xY + 10)
+			surface.DrawLine(xX, xY + 10, xX + 10, xY)
+		render.PopFilterMag()
+	render.PopFilterMin()
+end
+
+--local cbtnmat = Material("close.png", 'smooth')
+function SKIN:PaintTransparentWindowCloseButton(panel, w, h)
+	if (not panel.m_bBackground) then return end
+
+	surface.SetDrawColor(panel.Hovered and color_close_hover or color_close)
+
+	local xX = math.floor((w / 2) - 5)
+	local xY = math.floor((h / 2) - 5)
+
+	-- ugh i want good X
+	--surface.SetMaterial(cbtnmat)
+	--surface.DrawTexturedRect(xX, xY, 10, 10)
 
 	render.PushFilterMin(3)
 		render.PushFilterMag(3)

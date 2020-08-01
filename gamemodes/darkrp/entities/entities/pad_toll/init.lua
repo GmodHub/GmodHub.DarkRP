@@ -11,23 +11,32 @@ function ENT:Initialize()
 end
 
 function ENT:PlayerUse(pl)
-    if self:CPPIGetOwner() == pl and not pl:CanAfford(self:Getprice()) then
+    if self:CPPIGetOwner() ~= pl and not pl:CanAfford(self:Getprice()) then
         pl:Notify(NOTIFY_ERROR, term.Get('CannotAfford'))
         self:InValidUse()
         return true
     end
 
     if (self.ItemOwner ~= pl) then
-        if not self:GetOneTimeUse() and not table.HasValue(self.PayedPlayer, pl)then
-            pl:TakeMoney(self:Getprice())
-            self.ItemOwner:AddMoney(self:Getprice() * 0.9)
-            self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+        if not self:GetOneTimeUse() and not table.HasValue(self.PayedPlayer, pl) then
+            rp.question.Create('Желаете использовать этот toll за ' .. self:Getprice() .. '?', 15, ent:EntIndex() .. "" .. pl:SteamID64(), function(pl, answer)
+                if (answer) then
+                    pl:TakeMoney(self:Getprice())
+                    self.ItemOwner:AddMoney(self:Getprice() * 0.9)
+                    self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+                end
+	        end, nil, pl)
 
             table.insert(self.PayedPlayer, pl)
         elseif self:GetOneTimeUse() then
-            pl:TakeMoney(self:Getprice())
-            self.ItemOwner:AddMoney(self:Getprice() * 0.9)
-            self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+            rp.question.Create('Желаете использовать этот toll за ' .. self:Getprice() .. '?', 15, ent:EntIndex() .. "" .. pl:SteamID64(), function(pl, answer)
+                if (answer) then
+                    pl:TakeMoney(self:Getprice())
+                    self.ItemOwner:AddMoney(self:Getprice() * 0.9)
+                    self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+                end
+	        end, nil, pl)
+
         end
     end
 

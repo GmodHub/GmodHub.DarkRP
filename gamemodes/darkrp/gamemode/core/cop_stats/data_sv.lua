@@ -40,7 +40,7 @@ net('rp.ApplyGenome', function(len, pl)
 end)
 
 hook('PlayerLoadout', 'rp.Genome.PlayerLoadout', function(pl)
-    if not pl:IsCP() then return end
+    if IsValid(pl) and isplayer(pl) and not pl:IsCP() then return end
 
     local name, model = rp.GetGenomeSpecialName(pl.Genome.d, pl.Genome.s, pl.Genome.a)
     local loadout = rp.GetGenomeLoadout(pl.Genome.d, pl.Genome.s, pl.Genome.a)

@@ -16,6 +16,13 @@ function PLAYER:GetLimit(name)
 	return c
 end
 
+function PLAYER:GetItems(str)
+	if (self._Ents and self._Ents[str]) then
+		return self._Ents[str]
+	end
+	return {}
+end
+
 function PLAYER:GetCount(str, minus)
 	if (self._Counts and self._Counts[str]) then
 		return self._Counts[str] - (minus or 0)
@@ -28,11 +35,26 @@ function PLAYER:AddCount(str, ent)
 		self._Counts = {}
 	end
 
+	if not self._Ents then
+		self._Ents = {}
+	end
+
 	self._Counts[str] = (self._Counts[str] or 0) + 1
 
+	if not self._Ents[str] then
+		self._Ents[str] = {}
+	end
+	
+	table.insert(self._Ents[str], ent)
+
 	ent.OnRemoveCount = function() --CallOnRemove is broke
-		if IsValid(self) and self._Counts then
-			self._Counts[str] = self._Counts[str] - 1
+		if IsValid(self) then
+			if self._Counts then
+				self._Counts[str] = self._Counts[str] - 1
+			end
+			if self._Ents and self._Ents[str][ent] then
+				self._Ents[str][ent] = nil
+			end
 		end
 	end
 end

@@ -38,6 +38,21 @@ function ENTITY:UnCoOwnProperty(pl)
 	nw.SetGlobal(self:GetPropertyNetworkID(), data)
 end
 
+function ENTITY:CoOrgOwnProperty(org)
+	local data = self:GetPropertyData() or {}
+	data.CoOrgs =  data.CoOrgs or {}
+	data.CoOrgs[#data.CoOrgs + 1] = org
+
+	nw.SetGlobal(self:GetPropertyNetworkID(), data)
+end
+
+function ENTITY:UnCoOrgOwnProperty(org)
+	local data = self:GetPropertyData() or {}
+	table.RemoveByValue(data.CoOrgs or {}, org)
+
+	nw.SetGlobal(self:GetPropertyNetworkID(), data)
+end
+
 function ENTITY:SetPropertyOrgOwn(bool)
 	local data = self:GetPropertyData() or {}
 	data.OrgOwn = bool
@@ -158,6 +173,27 @@ rp.AddCommand('removecoowner', function(pl, co)
 end)
 :AddParam(cmd.PLAYER_ENTITY)
 
+rp.AddCommand('addcoorg', function(pl, co)
+	local ent = pl:GetEyeTrace().Entity
+
+	if IsValid(ent) and ent:IsDoor() and (ent:GetPropertyOwner() == pl) and (co ~= nil) and (co ~= pl) and not ent:IsPropertyOrg(co) and (ent:GetPos():DistToSqr(pl:GetPos()) < 13225) then
+
+		rp.Notify(pl, NOTIFY_SUCCESS, term.Get('PropertyCoOwnerAdded'), co, ent:GetPropertyName())
+		ent:CoOrgOwnProperty(co)
+
+	end
+end)
+:AddParam(cmd.STRING)
+
+rp.AddCommand('removecoorg', function(pl, co)
+	local ent = pl:GetEyeTrace().Entity
+
+	if IsValid(ent) and ent:IsDoor() and (ent:GetPropertyOwner() == pl) and (co ~= nil) and ent:IsPropertyOrg(co) and (ent:GetPos():DistToSqr(pl:GetPos()) < 13225) then
+		rp.Notify(pl, NOTIFY_SUCCESS, term.Get('PropertyCoOwnerRemoved'), co, ent:GetPropertyName())
+		ent:UnCoOrgOwnProperty(co)
+	end
+end)
+:AddParam(cmd.STRING)
 
 rp.AddCommand('setpropertytitle', function(pl, text)
 	if (text == '') then return end
@@ -187,6 +223,7 @@ hook.Add( "PlayerCanAccessProperty", "PropertyCanAccess", function(pl, ent)
 	if (ent:IsPropertyTeamOwned() and table.HasValue(ent:GetPropertyInfo().Teams, pl:Team())) then return true end
 	if (ent:GetPropertyOwner() == pl) or ent:IsPropertyCoOwner(pl) then return true end
 	if ent:IsPropertyOrgOwned() and (pl:GetOrg() == ent:GetPropertyOwner():GetOrg()) then return true end
+	if ent:IsPropertyOrg(pl:GetOrg()) then return true end
 
 	return false
 end)

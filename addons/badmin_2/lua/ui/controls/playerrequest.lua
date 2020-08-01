@@ -27,7 +27,7 @@ function PANEL:Init()
 		end
 
 		if (count <= 0) then
-			s:AddSpacer('No players found!')
+			s:AddSpacer('Игроков не найдено!')
 		end
 	end
 

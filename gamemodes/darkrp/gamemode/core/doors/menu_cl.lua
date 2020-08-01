@@ -133,7 +133,7 @@ local hotelOwnerOptions = {
 
 local function makeFrame(ent, opts)
 	fr = ui.Create('ui_frame', function(self)
-		self:SetTitle('Property Options')
+		self:SetTitle('Собственность')
 		self:Center()
 		self:MakePopup()
 		self.Think = function(self)

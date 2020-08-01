@@ -153,8 +153,8 @@ rp.cfg.JailHoleModels =  {
 rp.cfg.MayorMachines = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(1714.841553, 2432.283936, 250),
-			Ang = Angle(0, 0, 0)
+			Pos = Vector(588.511230, 2431.502930, 175.377777),
+			Ang = Angle(0, -180, 0)
 		}
 	}
 }
@@ -318,41 +318,29 @@ rp.cfg.ArmorLabs = {
 rp.cfg.PrinterPlates = {
 	rp_bangclaw = {
 		{
-			Pos = Vector(-3246.630127, -53.906345, -5.523953),
-			Ang = Angle(0.000, 0.008, 0.039),
+			Pos = Vector(555.703735, 2654.441650, 176.035004),
+			Ang = Angle(0.000, -90.008, 0.039),
 		},
 		{
-			Pos = Vector(-3248.117432, 7.490169, -5.541856),
-			Ang = Angle(0.079, -0.398, 0.033),
+			Pos = Vector(524.615234, 2654.449219, 175.975967),
+			Ang = Angle(-0.093, -82.347, 0.021),
 		},
 		{
-			Pos = Vector(-3246.828857, 74.266525, -5.553434),
-			Ang = Angle(-0.178, 0.475, -0.005),
+			Pos = Vector(523.341248, 2653.201416, 201.783020),
+			Ang = Angle(0.262, -75.942, 0.078),
 		},
 		{
-			Pos = Vector(-3247.869385, 73.188446, 20.296272),
-			Ang = Angle(0.002, 0.726, -0.041),
+			Pos = Vector(551.081848, 2659.068848, 201.774979),
+			Ang = Angle(0.020, -90.094, -0.014),
 		},
 		{
-			Pos = Vector(-3247.030762, 8.699111, 20.870522),
-			Ang = Angle(0.000, 0.026, -0.000),
+			Pos = Vector(554.010498, 2654.513672, 150.123016),
+			Ang = Angle(-0.026, -82.093, -0.340),
 		},
 		{
-			Pos = Vector(-3249.998047, -53.946529, 20.302021),
-			Ang = Angle(-0.057, -0.001, -0.124),
-		},
-		{
-			Pos = Vector(-3247.946777, -54.716038, 46.112320),
-			Ang = Angle(0.122, 0.410, 0.000),
-		},
-		{
-			Pos = Vector(-3247.144531, 9.474389, 46.154472),
-			Ang = Angle(-0.494, 1.522, 0.289),
-		},
-		{
-			Pos = Vector(-3248.197998, 73.867134, 46.037186),
-			Ang = Angle(0.007, -0.731, -0.027),
-		},
+			Pos = Vector(522.138062, 2653.791992, 150.203247),
+			Ang = Angle(-0.000, -84.041, 0.000),
+		}
 
 	}
 }
@@ -450,14 +438,14 @@ rp.cfg.Chairs = {
 rp.cfg.Props = {
 	rp_bangclaw = {
 		{
-			Model = 'models/props/cs_assault/camera.mdl',
-			Pos = Vector(2562.733887, 483.196869, 1186.797363),
-			Ang = Angle(0.000, -90.000, -0.000),
+			Model = 'models/props/cs_office/Shelves_metal.mdl',
+			Pos = Vector( 538, 2655, 144),
+			Ang = Angle(0.000, 90.000, -0.000),
 		},
 		{
-			Model = 'models/props/cs_office/shelves_metal.mdl',
-			Pos = Vector(2821.496826, 347.707947, 1056.496338),
-			Ang = Angle(0.034, -0.090, -0.009),
+			Model = 'models/props_combine/breendesk.mdl',
+			Pos = Vector(589, 2433, 144),
+			Ang = Angle(0, 0, 0),
 		},
 	},
 }

@@ -50,7 +50,7 @@ elseif (CLIENT) then
 
 	local function CheckStatus()
 		ReconnectTime = CurTime() + 15
-		http.Fetch('https://gmodhub.com/api/anticrash.php', function(body)
+		http.Fetch('https://gmodhub.com/api/isalive', function(body)
 			body = string.Trim(body):lower()
 
 			print(body)

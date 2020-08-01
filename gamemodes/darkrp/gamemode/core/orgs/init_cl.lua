@@ -1710,6 +1710,59 @@ function rp.orgs.LoadBanner(orgName)
 		end)
 end
 
+
+-- like a ui.PlayerRequest, but orgs!
+function rp.orgs.OrgRequest(orgs, cback)
+	if isfunction(orgs) then
+		cback = orgs
+		orgs = nil
+	end
+
+	local fr = ui.Create('ui_frame', function(self)
+		self:SetTitle('Выберите Банду')
+		self:SetSize(.2, .3)
+		self:Center()
+		self:MakePopup()
+	end)
+
+	ui.Create('ui_playerrequest', function(self, p)
+		self:DockToFrame()
+
+		self.PlayerList.AddPlayers = function(s, inf)
+			inf = inf and inf:Trim()
+
+			s:Reset()
+
+			local count = 0
+			for k, v in ipairs(orgs) do
+				if (not inf) or (inf and string.find(v.Name:lower(), inf:lower(), 1, true)) then
+					local btn = s:AddImageRow(v)
+					btn:SetText(v.Name)
+					btn:SetColor(v.Color)
+					btn:SetMaterial(rp.orgs.GetBanner(v.Name))
+					btn.DoClick = function(row) self:OnSelection(row, v.Name) end
+					count = count + 1
+				end
+			end
+
+			if (count <= 0) then
+				s:AddSpacer('Банд не найдено!')
+			end
+		end
+
+		self.PlayerList:Reset()
+		self.PlayerList:AddPlayers()
+
+		self.OnSelection = function(self, row, pl)
+			fr:Close()
+			cback(pl)
+		end
+	end, fr)
+
+	fr:Focus()
+	return m
+end
+
 net('rp.OrgBannerInvalidate', function(len)
 	rp.orgs.Banners[net.ReadString()] = nil
 end)

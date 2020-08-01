@@ -41,7 +41,6 @@ function PLAYER:UnWanted(actor)
 	self:SetNetVar('IsWanted', nil)
 	self:SetNetVar('WantedInfo', nil)
 	timer.Destroy('Wanted' .. self:SteamID64())
-	rp.FlashNotifyAll('Розыск', term.Get('UnWanted'), self, reason, (IsValid(actor) and actor or 'Авто Розыск'))
 	hook.Call('PlayerUnWanted', GAMEMODE, self, actor)
 end
 
@@ -58,8 +57,6 @@ function PLAYER:Arrest(actor, reason)
 	self:SetNetVar('ArrestedInfo', {Reason = (reason or self:GetWantedInfo().Reason), ReleaseTime = CurTime() + time})
 	if self:IsWanted() then self:UnWanted() end
 
-	rp.ArrestedPlayers[self:SteamID64()] = true
-
 	self:StripWeapons()
 	self:SetHunger(100)
 	self:SetHealth(100)
@@ -67,12 +64,16 @@ function PLAYER:Arrest(actor, reason)
 
 	self:Give("weapon_combo_fists")
 	self:SelectWeapon("weapon_combo_fists")
+	
+	rp.ArrestedPlayers[self:SteamID64()] = true
 
 	rp.FlashNotifyAll('Арест', term.Get('Arrested'), self)
 	hook.Call('PlayerArrested', GAMEMODE, self, actor)
 
 	self:SetPos(util.FindEmptyPos(jails[math.random(#jails)]))
 	self.CanEscape = true
+
+
 end
 
 function PLAYER:UnArrest(actor)
@@ -159,6 +160,7 @@ rp.AddCommand('unwant', function(pl, target)
 
 	rp.Notify(pl, NOTIFY_SUCCESS, term.Get('YouUnwanted'), target)
 	target:UnWanted(pl)
+	rp.FlashNotifyAll('Розыск', term.Get('UnWanted'), self, reason, (IsValid(actor) and actor or 'Авто Розыск'))
 end)
 :AddParam(cmd.PLAYER_ENTITY)
 :SetCooldown(1.5)

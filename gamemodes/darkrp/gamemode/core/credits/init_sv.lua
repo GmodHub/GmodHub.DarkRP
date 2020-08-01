@@ -70,10 +70,6 @@ function rp.shop.OpenMenu(pl)
 		net.Send(pl)
 	end)
 end
-rp.AddCommand("upgrades", rp.shop.OpenMenu)
-net("rp.shop.Menu", function( len, pl )
-	rp.shop.OpenMenu(pl)
-end)
 
 function rp.data.AddUpgrade(pl, id)
 	local upg_obj = rp.shop.Get(id)
@@ -147,6 +143,60 @@ hook('PlayerLoadout', 'rp.shop.PlayerLoadout', function(pl)
 	end
 end)
 
+net("rp.PermaWeaponSettings", function(len,pl)
+	if (#pl:GetPermaWeapons() == 0) then return end
+
+	local weapons = {}
+
+	for i = 1, (net.ReadUInt(8) or 0) do
+		local weapon = rp.shop.Get(net.ReadUInt(8) or 1):GetWeapon() or NULL
+
+		if (isstring(weapon)) then
+			weapons[weapon] = net.ReadBool()
+		end
+	end
+
+	// Knifes
+	for k,v in pairs(weapons) do
+		if string.Left(k, 5) == "knife" then
+			weapons[k] = false
+		end
+	end
+
+	if net.ReadBool() then
+		local upg = rp.shop.Get(net.ReadUInt(8) or 1)
+		if not upg then return end
+		local weapon = upg:GetWeapon() or NULL
+
+		if (isstring(weapon) and string.Left(weapon, 5) == "knife") then
+			weapons[weapon] = true
+		end
+	end
+
+	// Vapes
+	if net.ReadBool() then
+		local weapon = rp.shop.Get(net.ReadUInt(8) or 1) or NULL
+
+		if (isstring(weapon:GetWeapon())) then
+			weapons[weapon:GetWeapon()] = weapon.ID
+		end
+	end
+
+	if !pl:GetVar('SelectedPermaWeapons') then
+		pl:SetVar('SelectedPermaWeapons', weapons)
+		hook.Call('PlayerLoadout', nil, pl)
+	else
+		pl:SetVar('SelectedPermaWeapons', weapons)
+	end
+
+end)
+
+net("rp.shop.Menu", function( len, pl )
+	rp.shop.OpenMenu(pl)
+end)
+
+rp.AddCommand("upgrades", rp.shop.OpenMenu)
+
 rp.AddCommand('buyupgrade', function(pl, args)
 	if (not args) or (not rp.shop.Get(tonumber(args))) then return end
 	rp.data.AddUpgrade(pl, tonumber(args))
@@ -172,7 +222,6 @@ end)
 :AddParam(cmd.STRING)
 :SetCooldown(3)
 
-
 ba.AddCommand('createpromocode', function(pl, promo, amount, reward, expire)
 	promo = string.Trim(utf8.lower(promo))
 	db:Query('REPLACE INTO `rp_promocodes`(`Code`, `Amount`, `Reward`, `Expire`) VALUES (?, ?, ?, ?)', promo, amount, reward, os.time() + expire, function()
@@ -184,50 +233,3 @@ end)
 :AddParam(cmd.NUMBER)
 :AddParam(cmd.TIME)
 :SetFlag '*'
-
-
-net("rp.PermaWeaponSettings", function(len,pl)
-	if (#pl:GetPermaWeapons() == 0) then return end
-
-	local weapons = {}
-
-	for i = 1, net.ReadUInt(8) do
-		local weapon = rp.shop.Get(net.ReadUInt(8)):GetWeapon() or NULL
-
-		if (isstring(weapon)) then
-			weapons[weapon] = net.ReadBool()
-		end
-	end
-
-	// Knifes
-	for k,v in pairs(weapons) do
-		if string.Left(k, 5) == "knife" then
-			weapons[k] = false
-		end
-	end
-
-	if net.ReadBool() then
-		local weapon = rp.shop.Get(net.ReadUInt(8)):GetWeapon() or NULL
-
-		if (isstring(weapon) and string.Left(weapon, 5) == "knife") then
-			weapons[weapon] = true
-		end
-	end
-
-	// Vapes
-	if net.ReadBool() then
-		local weapon = rp.shop.Get(net.ReadUInt(8)) or NULL
-
-		if (isstring(weapon:GetWeapon())) then
-			weapons[weapon:GetWeapon()] = weapon.ID
-		end
-	end
-
-	if !pl:GetVar('SelectedPermaWeapons') then
-		pl:SetVar('SelectedPermaWeapons', weapons)
-		hook.Call('PlayerLoadout', nil, pl)
-	else
-		pl:SetVar('SelectedPermaWeapons', weapons)
-	end
-
-end)

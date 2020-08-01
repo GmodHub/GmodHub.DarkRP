@@ -19,8 +19,8 @@ rp.cfg.Limits = {
 	['security_monitors'] = 1,
 	['security_cameras'] = 1,
 	['cameras'] = 1,
-	["biometrics"] = 100,
-	["tolls"] = 100,
+	["biometrics"] = 5,
+	["tolls"] = 4,
 	['cheque'] = 10
 }
 

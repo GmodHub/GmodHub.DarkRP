@@ -7,7 +7,7 @@ function PANEL:Init()
 	self:SetTall(25)
 	self:SetText ''
 
-	self.Avatar = ui.Create('ui_avatarbutton', self)
+	self.Avatar = ui.Create('ui_imagebutton', self)
 
 	self.Mute = ui.Create('DImageButton', self)
 	self.Mute:SetMaterial(micon)

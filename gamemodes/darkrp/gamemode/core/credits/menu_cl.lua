@@ -374,7 +374,7 @@ function PANEL:PaintOver(w, h)
 end
 
 function PANEL:AddControls(f4)
-	if IsValid(self.BuyCredits) then
+	if IsValid(self.BuyCredits) and IsValid(self.UsePromo) then
 		self.BuyCredits:Show()
 	elseif IsValid(f4) then
 		self.BuyCredits = ui.Create('DButton', f4)
@@ -416,6 +416,10 @@ end
 function PANEL:HideControls()
 	if IsValid(self.BuyCredits) then
 		self.BuyCredits:Hide()
+	end
+
+	if IsValid(self.UsePromo) then
+		self.UsePromo:Hide()
 	end
 
 	if IsValid(self.CreditsBalance) then

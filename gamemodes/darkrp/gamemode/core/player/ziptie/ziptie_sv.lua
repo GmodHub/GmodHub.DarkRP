@@ -30,16 +30,17 @@ hook( "PlayerDeath", "rp.Zipties.PlayerDeath", function( pl )
     end
 end)
 
-
 hook.Add( "KeyPress", "rp.Zipties.Free", function( pl, key )
 	if ( key == IN_USE ) then
         local ent = pl:GetEyeTrace().Entity
 
         if IsValid(ent) and isplayer(ent) and ent:IsZiptied() then
-            ent:UnZiptie()
-            //if (not pl:GetStruggle("UnZiptie")) then
-            //    pl:StartStruggle("UnZiptie")
-            //end
+            local class = pl:GetActiveWeapon():GetClass()
+            if (string.sub(class, 0, 6) == 'knife_') or class == "swb_knife" then
+                ent:UnZiptie()
+            else
+                pl:Notify(NOTIFY_ERROR, term.Get('CutZiptieWithKnife'))
+            end
         end
 	end
 end )

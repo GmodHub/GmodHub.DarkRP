@@ -11,6 +11,10 @@ if SERVER then
 
 		self.BaseClass.Initialize(self)
 	end
+
+	function ENT:CanUse(pl)
+    	return true
+	end
 	
 	function ENT:Use(activator, caller, type, value)
 		if (not self.ToggleMode) and IsValid(activator) and activator:IsPlayer() then

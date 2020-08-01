@@ -140,7 +140,7 @@ rp.AddEntity('Оружейная Мастерская', 'item_lab_gun', 'models/
 
 -- Black Market Dealer
 rp.AddBMI('C4','models/weapons/2_c4_planted.mdl', 'weapon_c4', 200000, 10, false, 35000, false, {TEAM_BMIDEALER})
-rp.AddBMI('Зажигательная бомба','models/weapons/w_tnt.mdl', 'weapon_incendiary', 200000, 10, false, 30000, false, {TEAM_BMIDEALER}, nil, nil, 64)
+rp.AddBMI('Зажигательная бомба','models/weapons/w_tnt.mdl', 'weapon_incendiary', 400000, 10, false, 40000, false, {TEAM_BMIDEALER}, nil, nil, 64)
 rp.AddBMI('Взломщики Кейпадов','models/weapons/w_c4.mdl', 'keypad_cracker', 16000, 10, false, 1050, false, {TEAM_BMIDEALER})
 rp.AddBMI('Отмычки','models/gmh/weapons/lockpick/lockpick.mdl', 'lockpick', 14000, 10, false, 950, false, {TEAM_BMIDEALER})
 rp.AddBMI('Броня','models/props_junk/cardboard_box004a.mdl', 'armor_piece_full', 7500, 10, false, 900, false, {TEAM_BMIDEALER})
@@ -351,7 +351,7 @@ rp.AddCopItem('C4', {
 })
 
 rp.AddCopItem('Зажигательная Бомба', {
-	Price = 30000,
+	Price = 40000,
 	Model = 'models/weapons/w_tnt.mdl',
 	Callback = function(pl)
 		pl:Give('weapon_incendiary')

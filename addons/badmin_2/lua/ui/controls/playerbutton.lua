@@ -1,7 +1,7 @@
 local PANEL = {}
 
 function PANEL:Init()
-	self.AvatarButton = ui.Create('ui_avatarbutton', self)
+	self.ImageButton = ui.Create('ui_imagebutton', self)
 
 	self:SetText('')
 	self:SetFont('ui.22')
@@ -10,31 +10,38 @@ function PANEL:Init()
 end
 
 function PANEL:PerformLayout()
-	self.AvatarButton:SetPos(2,2)
-	self.AvatarButton:SetSize(26, 26)
+	self.ImageButton:SetPos(2,2)
+	self.ImageButton:SetSize(26, 26)
 end
 
-function PANEL:SetPlayer(pl)
-	self.Player = pl
-	self.PlayerColor = (pl.GetJobColor and pl:GetJobColor() or team.GetColor(pl:Team())):Copy()
+function PANEL:SetPlayer(plOrName, steamid64)
+	local pl = isplayer(plOrName) and plOrName or player.Find(steamid64)
 
-	self:SetText(pl:Name())
+	if isplayer(pl) then
+		self.Player = pl
+		self:SetColor((pl.GetJobColor and pl:GetJobColor() or team.GetColor(pl:Team())):Copy())
 
-	self.AvatarButton:SetPlayer(pl)
-end
+		self:SetText(pl:Name())
 
-function PANEL:SetInfo(name, steamid64)
-	local pl = player.Find(steamid64)
-	if IsValid(pl) then
-		self:SetPlayer(pl)
-		return
+		self.ImageButton:SetPlayer(pl)
+	else
+		self:SetText(plOrName)
+		self:SetColor(team.GetColor(1):Copy())
+
+		self.ImageButton:SetSteamID64(steamid64)
 	end
+end
 
-	self.PlayerColor = team.GetColor(1):Copy()
+function PANEL:SetMaterial(mat)
+	self.ImageButton:SetMaterial(mat)
+end
 
-	self:SetText(name)
+function PANEL:SetColor(col)
+	self.BackgroundColor = col
+end
 
-	self.AvatarButton:SetSteamID64(steamid64)
+function PANEL:GetPlayer()
+	return self.Player
 end
 
 function PANEL:DoClick()
@@ -42,7 +49,7 @@ function PANEL:DoClick()
 end
 
 function PANEL:Paint(w, h)
-	derma.SkinHook('Paint', 'PlayerButton', self, w, h)
+	derma.SkinHook('Paint', 'ImageRow', self, w, h)
 end
 
 hook.Add('InitPostEntity', 'ba.avatarbutton.Refresh', function()
@@ -54,4 +61,4 @@ hook.Add('InitPostEntity', 'ba.avatarbutton.Refresh', function()
 	end)
 end)
 
-vgui.Register('ui_playerbutton', PANEL, 'DButton')
+vgui.Register('ui_imagerow', PANEL, 'DButton')

@@ -8,6 +8,9 @@
 	Version: 1.0
 ]]
 
+include "nullesc.lua"
+AddCSLuaFile "nullesc.lua"
+
 AdvDupe2.Network = {}
 
 AdvDupe2.Network.Networks = {}

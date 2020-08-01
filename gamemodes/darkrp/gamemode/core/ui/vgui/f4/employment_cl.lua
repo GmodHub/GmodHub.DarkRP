@@ -4,14 +4,14 @@ function PANEL:Init()
 	local function addEmployee(self, pl, txtFunc, tool, doclick)
 		self.Count = self.Count + 1
 
-		self:AddItem(ui.Create('ui_playerbutton', function(s)
+		self:AddItem(ui.Create('ui_imagerow', function(s)
 			s:SetPlayer(pl)
 			s:SetToolTip(tool)
 			s:SetText('')
 			s.Paint = function(s, w, h)
 				if (not IsValid(s.Player)) then return end
 
-				derma.SkinHook('Paint', 'PlayerButton', s, w, h)
+				derma.SkinHook('Paint', 'ImageRow', s, w, h)
 
 				draw.SimpleText(pl:Name(), 'ui.20', 31, h * 0.5, ui.col.White, TEXT_ALIGN_LEFT, TEXT_ALIGN_CENTER)
 				draw.SimpleText(txtFunc(pl), 'ui.20', w - 5, h * 0.5, ui.col.White, TEXT_ALIGN_RIGHT, TEXT_ALIGN_CENTER)
