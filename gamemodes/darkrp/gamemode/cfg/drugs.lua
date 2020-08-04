@@ -349,11 +349,13 @@ rp.AddDrug {
 		'ТВОЕ ЛИЦО ВЫГЛЯДИТ ПРОСТО ВОСХИТИТЕЛЬНО',
 	},
 	StartHigh = function(pl, stacks)
+		if(not IsValid(pl)) then return end
 		pl:SetGravity(0.25)
 
 		pl:AddHealth(200)
 	end,
 	EndHigh = function(pl, stacks)
+		if(not IsValid(pl)) then return end
 		pl:SetGravity(1)
 
 		pl:TakeHealth(stacks * 200)

@@ -301,7 +301,6 @@ function GM:PlayerSelectSpawn(pl)
 	if pl:IsArrested() then
 		pos = JailSpawns[math.random(1, #JailSpawns)]
 	elseif (TeamSpawns[pl:Team()] ~= nil) then
-
 		if (isfunction(TeamSpawns[pl:Team()][1])) then
 			pos = TeamSpawns[pl:Team()][1](pl)
 		else

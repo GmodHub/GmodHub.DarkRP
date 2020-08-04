@@ -47,7 +47,9 @@ function PLAYER:HirePlayer(pl)
 		pl:SetNetVar('job', nil)
 	end
 	pl:SetNetVar('Employer', self)
-	self:SetNetVar('Employee', pl)
+	local employees = self:GetNetVar('Employees') or {}
+	table.insert(employees, pl)
+	self:SetNetVar('Employees', employees)
 
 	self:TakeMoney(pl:GetHirePrice())
 	pl:AddMoney(pl:GetHirePrice())
@@ -56,6 +58,7 @@ function PLAYER:HirePlayer(pl)
 end
 
 hook('OnPlayerChangedTeam', 'Disguise.OnPlayerChangedTeam', function(pl, prevTeam, t)
+	print(pl, prevTeam, t)
 	if pl:IsDisguised() then
 		pl:UnDisguise()
 	end
@@ -66,8 +69,10 @@ hook('OnPlayerChangedTeam', 'Disguise.OnPlayerChangedTeam', function(pl, prevTea
 		end
 		rp.Notify(pl, NOTIFY_ERROR, term.Get('EmployeeChangedJobYou'))
 
+		
 		if isplayer(pl:GetNetVar('Employer')) then
-			pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
+
+			pl:GetNetVar('Employer'):SetNetVar('Employees', {})
 		end
 		pl:SetNetVar('Employer', nil)
 
@@ -181,13 +186,15 @@ end)
 :AddParam(cmd.NUMBER)
 
 rp.AddCommand('fire', function(pl, targ)
-	if not IsValid(targ) or not (targ:GetNetVar('Employer') == pl) then return end
+	local employees = pl:GetNetVar('Employees') or {}
+	if not IsValid(targ) or not (targ:GetNetVar('Employer') == pl) or not istable(employees) and not table.IsEmpty(employees) or not table.HasValue(employees, targ) then return end
 
 	rp.Notify(pl, NOTIFY_GREEN, term.Get('EmployeeFired'), targ)
 	rp.Notify(targ, NOTIFY_ERROR, term.Get('EmployeeFiredYou'), pl)
 
 	targ:SetNetVar('Employer', nil)
-	pl:SetNetVar('Employee', nil)
+	table.RemoveByValue(employees, targ)
+	pl:SetNetVar('Employees', employees)
 end)
 :AddParam(cmd.PLAYER_ENTITY)
 
@@ -223,7 +230,7 @@ end
 --
 function PLAYER:StartDemotionVote(ply, reason)
 	rp.NotifyAll(NOTIFY_GENERIC, term.Get('DemotionStarted'), ply, self)
-	p.IsBeingDemoted = true
+	self.IsBeingDemoted = true
 
 	rp.question.Create("Понизить: " .. self:Nick() .. "?\nПричина: " .. reason, 30,'demote.' .. self:SteamID(), function(voter, answer, uid)
 
@@ -231,7 +238,7 @@ function PLAYER:StartDemotionVote(ply, reason)
 			rp.question.Votes[uid] = {
 				VoteRes = 0,
 				Func = FinishDemote,
-				Ply = p
+				Ply = self
 			}
 		end
 

@@ -109,6 +109,7 @@ net('rp.question.Answer', function(len, pl)
 	for k, v in ipairs(question.Recipients) do
 		if (IsValid(v) and v == pl) then
 			table.remove(question.Recipients, k)
+			print(pl, answer, uid)
 			question.Callback(pl, answer, uid)
 			if #question.Recipients == 0 then
 				rp.question.Destroy(uid)

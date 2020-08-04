@@ -89,12 +89,6 @@ local police_spawns_proc = {
 			local police_spawns = police_spawns[game.GetMap():lower()]
 			local pos = police_spawns[math.random(1, #police_spawns)]
 
-			if pl.LastDeath and (pl.LastDeath > CurTime()) then
-				if (pl.DeathPos:DistToSqr(pos) < 122500) then
-					return nil
-				end
-			end
-
 			return pos
 		end
 	}
