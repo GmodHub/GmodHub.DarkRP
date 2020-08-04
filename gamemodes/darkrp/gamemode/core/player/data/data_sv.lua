@@ -33,6 +33,8 @@ function rp.data.LoadPlayer(pl, cback)
 
 					if data.ActiveApparel then
 						pl:SetNetVar('ActiveApparel', util.JSONToTable(data.ActiveApparel))
+					else
+						pl:SetNetVar('ActiveApparel', {})
 					end
 				end)
 			end)

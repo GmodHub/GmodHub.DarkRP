@@ -14,7 +14,7 @@ function ENT:Initialize()
 	self:PhysWake()
 
 	self:SetURL('https://gmodhub.com/static/images/favicon.png')
-
+	self:CPPISetOwner(self.ItemOwner)
 end
 
 function ENT:Use(pl)

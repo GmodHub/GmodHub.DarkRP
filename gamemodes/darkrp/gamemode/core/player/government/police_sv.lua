@@ -199,7 +199,7 @@ rp.AddCommand('warrant', function(pl, target, reason)
 			end
 		end, mayors[1])
 	else
-		targ:Warrant(pl, reason)
+		target:Warrant(pl, reason)
 		rp.Notify(pl, NOTIFY_GREEN, term.Get('WarrantRequestAcc'))
 	end
 end)

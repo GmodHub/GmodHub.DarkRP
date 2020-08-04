@@ -13,7 +13,7 @@ hook.Add('PlayerAuthed', 'ba.PlayerAuthed.PlayerData', function(pl)
 end)
 
 hook.Add('PlayerDisconnected', 'ba.PlayerDisconnected.PlayerData', function(pl) -- uh, we'll just plop this here for now
-	ba.notify_staff(term.Get('PlayerDisconnect'), pl:NameID())
+	ba.notify_all(term.Get('PlayerDisconnect'), pl:NameID())
 	ba.data.UpdatePlayTime(pl)
 end)
 

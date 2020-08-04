@@ -70,7 +70,7 @@ hook('ScalePlayerDamage', 'rp.Genome.ScalePlayerDamage', function(pl, hit, dmgin
     if pl:IsCP() then
         local defenseVal = (100 + ((pl.Genome.d - 10) * 2.5))/100
         dmginfo:ScaleDamage( defenseVal )
-    elseif dmginfo:GetAttacker():IsCP() then
+    elseif IsValid(dmginfo:GetAttacker()) and isplayer(dmginfo:GetAttacker()) and dmginfo:GetAttacker():IsCP() then
         local attackVal = (100 + ((dmginfo:GetAttacker().Genome.a - 10) * 2.5))/100
         dmginfo:ScaleDamage( attackVal )
     end

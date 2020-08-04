@@ -64,8 +64,8 @@ rp.AddCommand("lottery", function(ply, amount)
 		return
 	end
 
-	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+	if (ply:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
 		return
 	end
 
@@ -120,8 +120,8 @@ rp.AddCommand("lockdown", function(ply)
 		return
 	end
 
-	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+	if (ply:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
 		return
 	end
 
@@ -154,8 +154,8 @@ rp.AddCommand("unlockdown", function(ply)
 		return
 	end
 
-	if (pl:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
-		rp.Notify(pl, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
+	if (ply:GetEyeTrace().Entity:GetClass() ~= "mayor_machine") then
+		rp.Notify(ply, NOTIFY_ERROR, term.Get('MustBeNearbyMayorMachine'))
 		return
 	end
 
@@ -199,7 +199,7 @@ end)
 
 -- Demote classes upon death
 hook("PlayerDeath", "DemoteOnDeath",function(v, k)
-	if (v:IsMayor() and not nw.GetGlobal('mayorGrace') or (nw.GetGlobal('mayorGrace') and nw.GetGlobal('mayorGrace') >= CurTime())) then
+	if (v:IsMayor() and not nw.GetGlobal('mayorGrace') or v:IsMayor() and (nw.GetGlobal('mayorGrace') and nw.GetGlobal('mayorGrace') >= CurTime())) then
 		GAMEMODE:UnLockdown()
 		nw.SetGlobal('mayorGrace', nil)
 		rp.resetLaws()

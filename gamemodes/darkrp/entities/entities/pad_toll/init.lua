@@ -19,28 +19,34 @@ function ENT:PlayerUse(pl)
 
     if (self.ItemOwner ~= pl) then
         if not self:GetOneTimeUse() and not table.HasValue(self.PayedPlayer, pl) then
-            rp.question.Create('Желаете использовать этот toll за ' .. self:Getprice() .. '?', 15, ent:EntIndex() .. "" .. pl:SteamID64(), function(pl, answer)
+            rp.question.Create('Желаете использовать этот toll за ' .. rp.FormatMoney(self:Getprice()) .. ' навсегда?', 15, self:EntIndex() .. "" .. pl:SteamID64(), function(pl, answer)
                 if (answer) then
                     pl:TakeMoney(self:Getprice())
                     self.ItemOwner:AddMoney(self:Getprice() * 0.9)
-                    self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+                    self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), rp.FormatMoney(self:Getprice() * 0.9), rp.FormatMoney(self:Getprice() * 0.1))
+                    table.insert(self.PayedPlayer, pl)
                 end
 	        end, nil, pl)
 
-            table.insert(self.PayedPlayer, pl)
         elseif self:GetOneTimeUse() then
-            rp.question.Create('Желаете использовать этот toll за ' .. self:Getprice() .. '?', 15, ent:EntIndex() .. "" .. pl:SteamID64(), function(pl, answer)
+            rp.question.Create('Желаете использовать этот toll за ' .. rp.FormatMoney(self:Getprice()) .. '?', 15, self:EntIndex() .. "" .. pl:SteamID64(), function(pl, answer)
                 if (answer) then
                     pl:TakeMoney(self:Getprice())
                     self.ItemOwner:AddMoney(self:Getprice() * 0.9)
-                    self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), self:Getprice() * 0.9, self:Getprice() * 0.1)
+                    self.ItemOwner:Notify(NOTIFY_SUCCESS, term.Get('TollMadeProfit'), rp.FormatMoney(self:Getprice() * 0.9), rp.FormatMoney(self:Getprice() * 0.1))
+                    self:ValidUse()
                 end
 	        end, nil, pl)
 
         end
+
+        if table.HasValue(self.PayedPlayer, pl) then
+            self:ValidUse()
+        end
+    else
+        self:ValidUse()
     end
 
-    self:ValidUse()
 end
 
 function ENT:CanHack()

@@ -16,6 +16,7 @@ function ENT:Initialize()
 	self:SetUseType(SIMPLE_USE)
 	self:PhysWake()
 
+	self:CPPISetOwner(self.ItemOwner)
 	self:Setprice(self.MinPrice)
 end
 
@@ -24,6 +25,8 @@ function ENT:CanNetworkUse(pl)
 end
 
 function ENT:CanUse(pl)
+	if self.ItemOwner == pl then return true end
+
 	return self:GetInService() and not self:GetIsPayingOut()
 end
 

@@ -61,10 +61,14 @@ hook('OnPlayerChangedTeam', 'Disguise.OnPlayerChangedTeam', function(pl, prevTea
 	end
 
 	if (pl:GetNetVar('Employer') ~= nil) then
-		rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, rp.Term('EmployeeChangedJob'))
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('EmployeeChangedJobYou'))
+		if isplayer(pl:GetNetVar('Employer')) then
+			rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, term.Get('EmployeeChangedJob'))
+		end
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('EmployeeChangedJobYou'))
 
-		pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
+		if isplayer(pl:GetNetVar('Employer')) then
+			pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
+		end
 		pl:SetNetVar('Employer', nil)
 
 	end
@@ -76,15 +80,15 @@ hook('PlayerDeath', 'teams.PlayerDeath', function(pl)
 	end
 
 	if (pl:GetNetVar('Employer') ~= nil) then
-		rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, rp.Term('EmployeeDied'))
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('EmployeeDiedYou'))
+		rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, term.Get('EmployeeDied'))
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('EmployeeDiedYou'))
 
 		pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
 		pl:SetNetVar('Employer', nil)
 
 	elseif (pl:GetNetVar('Employee') ~= nil) then
-		rp.Notify(pl:GetNetVar('Employee'), NOTIFY_ERROR, rp.Term('EmployerDied'))
-		rp.Notify(pl, NOTIFY_ERROR, rp.Term('EmployerDiedYou'))
+		rp.Notify(pl:GetNetVar('Employee'), NOTIFY_ERROR, term.Get('EmployerDied'))
+		rp.Notify(pl, NOTIFY_ERROR, term.Get('EmployerDiedYou'))
 
 		pl:GetNetVar('Employee'):SetNetVar('Employer', nil)
 		pl:SetNetVar('Employee', nil)
@@ -93,11 +97,11 @@ end)
 
 hook('PlayerDisconnected', 'employees.PlayerDisconnected', function(pl)
 	if (pl:GetNetVar('Employer') ~= nil) then
-		rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, rp.Term('EmployeeLeft'))
+		rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, term.Get('EmployeeLeft'))
 
 		pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
 	elseif (pl:GetNetVar('Employee') ~= nil) then
-		rp.Notify(pl:GetNetVar('Employee'), NOTIFY_ERROR, rp.Term('EmployerLeft'))
+		rp.Notify(pl:GetNetVar('Employee'), NOTIFY_ERROR, term.Get('EmployerLeft'))
 
 		pl:GetNetVar('Employee'):SetNetVar('Employer', nil)
 	end
@@ -180,7 +184,7 @@ rp.AddCommand('fire', function(pl, targ)
 	if not IsValid(targ) or not (targ:GetNetVar('Employer') == pl) then return end
 
 	rp.Notify(pl, NOTIFY_GREEN, term.Get('EmployeeFired'), targ)
-	rp.Notify(targ, NOTIFY_ERROR, rp.Term('EmployeeFiredYou'), pl)
+	rp.Notify(targ, NOTIFY_ERROR, term.Get('EmployeeFiredYou'), pl)
 
 	targ:SetNetVar('Employer', nil)
 	pl:SetNetVar('Employee', nil)
@@ -190,8 +194,8 @@ end)
 rp.AddCommand('quitjob', function(pl)
 	if not IsValid(pl:GetNetVar('Employer')) then return end
 
-	rp.Notify(pl, NOTIFY_GREEN, rp.Term('EmployeeQuitYou'), pl:GetNetVar('Employer'))
-	rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, rp.Term('EmployeeQuet'), pl)
+	rp.Notify(pl, NOTIFY_GREEN, term.Get('EmployeeQuitYou'), pl:GetNetVar('Employer'))
+	rp.Notify(pl:GetNetVar('Employer'), NOTIFY_ERROR, term.Get('EmployeeQuet'), pl)
 
 	pl:GetNetVar('Employer'):SetNetVar('Employee', nil)
 	pl:SetNetVar('Employer', nil)

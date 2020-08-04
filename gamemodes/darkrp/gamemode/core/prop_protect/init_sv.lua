@@ -261,14 +261,14 @@ rp.AddCommand('shareprops', function(pl, targ)
 
 	pl.propBuddies = pl.propBuddies or {}
 
-	if pl.propBuddies[targ] then
+	if pl.propBuddies[targ:SteamID64()] then
 		rp.Notify(pl, NOTIFY_GREEN, term.Get('UnsharedPropsYou'), targ)
 		rp.Notify(targ, NOTIFY_GREEN, term.Get('UnsharedProps'), pl)
-		pl.propBuddies[targ] = false
+		pl.propBuddies[targ:SteamID64()] = false
 	else
 		rp.Notify(pl, NOTIFY_GREEN, term.Get('SharedPropsYou'), targ)
 		rp.Notify(targ, NOTIFY_GREEN, term.Get('SharedProps'), pl)
-		pl.propBuddies[targ] = true
+		pl.propBuddies[targ:SteamID64()] = true
 	end
 
 	pl:SetNetVar('ShareProps', pl.propBuddies)

@@ -235,9 +235,11 @@ function PANEL:Paint(w, h)
 	local s = ((ScrH() < 850) and self.IsLoaded) and 128 or 256
 	local spiny = self.IsLoaded and h * 0.25 or h * 0.26
 
-	surface.SetDrawColor(255, 255, 255)
-	surface.SetMaterial(self.LogoMaterial)
-	surface.DrawTexturedRect(w * 0.5 - (s * 0.5), spiny, s, s)
+	if self.LogoMaterial then
+		surface.SetDrawColor(255, 255, 255)
+		surface.SetMaterial(self.LogoMaterial)
+		surface.DrawTexturedRect(w * 0.5 - (s * 0.5), spiny, s, s)
+	end
 
 	local x, y = w * 0.5, s + spiny
 	for k, v in ipairs(self.Text) do
