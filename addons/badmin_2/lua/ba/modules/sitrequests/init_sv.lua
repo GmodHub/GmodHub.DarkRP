@@ -13,12 +13,12 @@ hook.Add('PlayerSay', 'ba.AdminChat', function(pl, text)
         if (hook.Call('PlayerCanUseAdminChat', ba, pl) ~= false) then
             text = text:sub(2):Trim()
 
-            for k,v in pairs(ba.sits.BannedReasons) do
-                if string.match(text, k) then
-                    ba.notify_err(pl, term.Get('StaffReqBadReason'))
-                    return ''
-                end
-            end
+           // for k,v in pairs(ba.sits.BannedReasons) do
+           //     if string.match(text, k) then
+           //         ba.notify_err(pl, term.Get('StaffReqBadReason'))
+           //         return ''
+           //     end
+          //  end
 
             if pl:HasStaffRequest() then
                 ba.notify_err(pl, term.Get('StaffReqPend'))

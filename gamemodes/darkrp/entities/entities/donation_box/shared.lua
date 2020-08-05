@@ -1,5 +1,5 @@
 ENT.Type 		= 'anim'
-ENT.Base 		= 'base_anim'
+ENT.Base 		= 'base_rp'
 ENT.PrintName 	= 'Donation Box'
 ENT.Author 		= 'GmodHub'
 ENT.Spawnable 	= false

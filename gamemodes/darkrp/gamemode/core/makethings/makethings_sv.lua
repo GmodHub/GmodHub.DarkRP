@@ -16,22 +16,22 @@ function PLAYER:ChangeTeam(t, force)
 	local prevTeam = self:Team()
 
 	if self:IsArrested() and not force then
-		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'arrested')
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'арестованы')
 		return false
 	end
 
 	if self:IsFrozen() and not force then
-		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'frozen')
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'заморожены')
 		return false
 	end
 
 	if (not self:Alive()) and not force then
-		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'dead')
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'мёртвы')
 		return false
 	end
 
 	if self:IsWanted() and not force then
-		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'wanted')
+		self:Notify(NOTIFY_ERROR, term.Get('CannotChangeJob'), 'в розыске')
 		return false
 	end
 
@@ -82,7 +82,7 @@ function PLAYER:ChangeTeam(t, force)
 		return false
 	end
 
-	if not self:GetVar("Priv"..TEAM.command) and not force then
+	if not force then
 		local max = TEAM.max
 		if (max ~= 0 and ((max % 1 == 0 and team.NumPlayers(k) >= max) or (max % 1 ~= 0 and (team.NumPlayers(k) + 1) / player.GetCount() > max))) then
 			rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLimit'))

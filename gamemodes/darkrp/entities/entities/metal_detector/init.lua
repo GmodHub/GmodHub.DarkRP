@@ -31,7 +31,7 @@ function ENT:StartTouch(pl)
 				net.Start('rp_metaldetector_fail')
 					net.WriteEntity(self)
 				net.Broadcast()
-				if not pl:IsGov() and not pl:IsWanted() and not pl:IsSOD() and not pl:HasLicense() then
+				if pl ~= self.ItemOwner and not pl:IsGov() and not pl:IsWanted() and not pl:IsSOD() and not pl:HasLicense() then
 					pl:Wanted(nil, "Нелегальное Оружие", 180)
 				end
 				return

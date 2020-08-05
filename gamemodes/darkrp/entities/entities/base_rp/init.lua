@@ -41,7 +41,7 @@ end
 
 function ENT:OnTakeDamage(dmg)
 	if self.MaxHealth then
-		self.MaxHealth = self.MaxHealth - (dmg:GetDamage() * self.DamageScale)
+		self.MaxHealth = self.MaxHealth - (dmg:GetDamage() * (self.DamageScale or 1))
 		if (self.MaxHealth <= 0) then
 			if self.ExplodeOnRemove then
 				self:Explode()

@@ -75,7 +75,7 @@ local PANEL = {}
 function PANEL:Init()
 	texture.Create('SUP_Background')
 		:EnableProxy(false)
-		:Download('https://gmodhub.com/static/images/bg_gmod.png', function(s, material)
+		:Download('https://cdn.gmodhub.com/uploads/web/bg_gmod.png', function(s, material)
 			if IsValid(self) then
 				self.BackgroundMaterial = material
 			end
