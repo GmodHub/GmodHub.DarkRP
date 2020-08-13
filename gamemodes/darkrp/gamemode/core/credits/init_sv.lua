@@ -131,9 +131,10 @@ end)
 
 
 hook('PlayerLoadout', 'rp.shop.PlayerLoadout', function(pl)
+	local permaWeapons = pl:GetPermaWeapons()
 	local selected = pl:GetSelectedPermaWeapons()
 
-	for k, v in ipairs(pl:GetPermaWeapons()) do
+	for k, v in ipairs(permaWeapons) do
 		if (selected[v]) then
 			pl:Give(v)
 			if (v == "weapon_vape") then
@@ -143,7 +144,7 @@ hook('PlayerLoadout', 'rp.shop.PlayerLoadout', function(pl)
 	end
 end)
 
-net("rp.PermaWeaponSettings", function(len,pl)
+net("rp.PermaWeaponSettings", function(len, pl)
 	if (#pl:GetPermaWeapons() == 0) then return end
 
 	local weapons = {}
@@ -151,14 +152,15 @@ net("rp.PermaWeaponSettings", function(len,pl)
 	for i = 1, (net.ReadUInt(8) or 0) do
 		local weapon = rp.shop.Get(net.ReadUInt(8) or 1):GetWeapon() or NULL
 
+		local res = net.ReadBool()
 		if (isstring(weapon)) then
-			weapons[weapon] = net.ReadBool()
+			weapons[weapon] = res
 		end
 	end
 
 	// Knifes
 	for k,v in pairs(weapons) do
-		if string.Left(k, 5) == "knife" then
+		if string.Left(k, 5) == "knife" or weapon == "swb_knife" then
 			weapons[k] = false
 		end
 	end
@@ -168,7 +170,7 @@ net("rp.PermaWeaponSettings", function(len,pl)
 		if not upg then return end
 		local weapon = upg:GetWeapon() or NULL
 
-		if (isstring(weapon) and string.Left(weapon, 5) == "knife") then
+		if (isstring(weapon) and (string.Left(weapon, 5) == "knife" or weapon == "swb_knife")) then
 			weapons[weapon] = true
 		end
 	end
@@ -188,7 +190,6 @@ net("rp.PermaWeaponSettings", function(len,pl)
 	else
 		pl:SetVar('SelectedPermaWeapons', weapons)
 	end
-
 end)
 
 net("rp.shop.Menu", function( len, pl )
