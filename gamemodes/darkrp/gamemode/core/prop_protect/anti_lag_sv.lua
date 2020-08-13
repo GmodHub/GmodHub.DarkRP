@@ -23,7 +23,7 @@ end
 
 local function RemoveHighRisk()
 	for k, v in ipairs(ents.GetAll()) do
-		if v.HighLagRisk or v:IsNPC() or v:IsVehicle() then
+		if v.HighLagRisk or (v:IsNPC() and not scripted_ents.IsBasedOn("npc_rp_base", v:GetClass())) or v:IsVehicle() then
 			v:Remove()
 		end
 	end
@@ -33,11 +33,11 @@ hook('Tick', 'rp.antilag.Tick', function()
     if (AdjustedTick <= FPS()) then
         LagTime = LagTime + FullTick
         if (LagTime >= 3) and (not PropsFroze) then
-            ba.notify_staff('The server has been heavily lagging for a few seconds, all props have been frozen and unwelded, please stay vigulant, if this repeats drop what you\'re doing and investigate.')
+            ba.notify_staff('Сервер очень сильно тормозит, все пропы были заморожены и отсоединены, пожалуйста, будьте бдительны, если это повториться, быстро найдите причину.')
             FreezeProps()
             PropsFroze = true
         elseif (LagTime >= 5) then
-            ba.notify_staff('The server has been heavily lagging for over 5 seconds, dangerous entities have been removed, all props have been frozen again, please drop your current task and investigate NOW!!')
+            ba.notify_staff('Сервер очень сильно тормозит уже больше 5 секунд, опасные энтити были удалены, все пропы снова заморожены, быстро найдите причину СЕЙЧАС ЖЕ!!')
             FreezeProps()
             RemoveHighRisk()
             LagTime = 0

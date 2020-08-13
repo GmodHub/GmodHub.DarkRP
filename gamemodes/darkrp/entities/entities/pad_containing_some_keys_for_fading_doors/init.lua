@@ -101,7 +101,7 @@ function ENT:EnterNum(num)
 		local num = tostring(num)
 		local new_input = self:GetInput()..num
 		self:SetInput(new_input:sub(1, 4))
-		self:SetNumStars(new_input:len())
+		self:SetNumStars(self:GetInput():len())
 
 		self:EmitSound("buttons/button15.wav")
 	end

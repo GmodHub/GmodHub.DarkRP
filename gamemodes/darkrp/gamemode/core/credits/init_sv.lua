@@ -2,7 +2,7 @@ util.AddNetworkString 'rp.shop.Menu'
 util.AddNetworkString 'rp.PermaWeaponSettings'
 
 -- Data
-local db = rp._Credits
+local db = rp._Stats
 
 function PLAYER:HasUpgrade(uid)
 	return (self:GetVar('Upgrades', {})[uid] ~= nil)

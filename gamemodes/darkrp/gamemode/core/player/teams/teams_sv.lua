@@ -58,7 +58,6 @@ function PLAYER:HirePlayer(pl)
 end
 
 hook('OnPlayerChangedTeam', 'Disguise.OnPlayerChangedTeam', function(pl, prevTeam, t)
-	print(pl, prevTeam, t)
 	if pl:IsDisguised() then
 		pl:UnDisguise()
 	end

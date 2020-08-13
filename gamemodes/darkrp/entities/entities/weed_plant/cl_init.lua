@@ -25,6 +25,6 @@ function ENT:Draw()
 	color_black.a = color_white.a
 
 	cam.Start3D2D(pos, Angle(0, LocalPlayer():EyeAngles().yaw - 90, 90) , 0.045)
-		draw.SimpleTextOutlined((self:GetStage() > 0 and 'Weed Plant' or 'Weed Pot'), '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
+		draw.SimpleTextOutlined((self:GetStage() > 0 and 'Горшок Травы' or 'Горшок'), '3d2d', 0, 0, color_white, TEXT_ALIGN_CENTER, TEXT_ALIGN_BOTTOM, 1, color_black)
 	cam.End3D2D()
 end

@@ -39,6 +39,10 @@ function rp.fadingdoor.AddProp(pl, prop)
     pl:Notify(NOTIFY_SUCCESS, term.Get('FadingDoorAdded'))
 end
 
+function ent:IsFaded()
+	return self.Faded
+end
+
 function ent:Fade()
 	self.Faded = true
 	self.FadedMaterial = self:GetMaterial()

@@ -1,8 +1,8 @@
 ba.data = ba.data or {
-	IP 		= 'mazvov7p.beget.tech',
-	User 	= 'mazvov7p_badmin',
-	Pass 	= '%cSuuP38',
-	Table 	= 'mazvov7p_badmin',
+	IP 		= '213.139.211.198',
+	User 	= 'badmin',
+	Pass 	= 'fzvTRtg^j2*uLrn_jFNvN@+3B6p!rv47kpy^wsgR9XxG&NZ7q4',
+	Table 	= 'badmin',
 	Port 	= 3306,
 	_uid 	= util.CRC(GetConVarString('ip') .. ':' .. GetConVarString('hostport'))
 }

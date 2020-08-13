@@ -69,12 +69,12 @@ function PLAYER:ChangeTeam(t, force)
 
 	if TEAM.vip and (not self:IsVIP()) then
 		rp.Notify(self, NOTIFY_ERROR, term.Get('NeedVIP'))
-		return
+		return false
 	end
 
-	if TEAM.playtime and self:GetPlayTime() < TEAM.playtime then
+	if TEAM.playtime and self:GetPlayTime() < TEAM.playtime and (not self:IsVIP()) then
 		rp.Notify(self, NOTIFY_ERROR, term.Get('NeedVIP'))
-		return
+		return false
 	end
 
 	if TEAM.customCheck and not TEAM.customCheck(self) then
@@ -84,9 +84,9 @@ function PLAYER:ChangeTeam(t, force)
 
 	if not force then
 		local max = TEAM.max
-		if (max ~= 0 and ((max % 1 == 0 and team.NumPlayers(k) >= max) or (max % 1 ~= 0 and (team.NumPlayers(k) + 1) / player.GetCount() > max))) then
-			rp.Notify(ply, NOTIFY_ERROR, term.Get('JobLimit'))
-			return
+		if (max ~= 0 and ((max % 1 == 0 and team.NumPlayers(TEAM.team) >= max) or (max % 1 ~= 0 and (team.NumPlayers(TEAM.team) + 1) / player.GetCount() > max))) then
+			rp.Notify(self, NOTIFY_ERROR, term.Get('JobLimit'))
+			return false
 		end
 	end
 

@@ -259,7 +259,7 @@ rp.shop.Add('VIP (Навсегда)', 'vip')
 		RunConsoleCommand('ba', 'setgroup', pl:SteamID(), 'vip')
 	end)
 
-
+/*
 rp.shop.Add('Модератор (30 дней)', 'trial_mod')
 	:SetCat('Ranks')
 	:SetDesc([[
@@ -327,7 +327,7 @@ rp.shop.Add('Модератор (60 дней)', 'trial_mod_60d')
 
 		ba.data.SetRank(pl, 'moderator', 'vip', startTime + timeInSeconds)
 	end)
-
+*/
 
 -- Events
 rp.shop.Add('Parkout Ивент', 'event_parkour')
