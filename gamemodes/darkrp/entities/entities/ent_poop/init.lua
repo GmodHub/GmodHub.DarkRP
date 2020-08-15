@@ -23,7 +23,7 @@ function ENT:Use(activator, caller)
 	if activator:IsBanned() then return end
 	if math.random(1, 4) == 2 then
 		rp.Notify(caller, NOTIFY_ERROR, term.Get('YouGotAIDS'))
-		activator:EmitSound("vo/sandwicheat09.wav", 100, 100)
+		activator:EmitSound("vo/sandwicheat09.ogg", 100, 100)
 		self:Remove()
 		caller:GiveSTD("Диарея")
 		return
@@ -35,6 +35,6 @@ function ENT:Use(activator, caller)
 		caller:SetHealth(caller:Health() - 10)
 	end
 	caller:AddHunger(5)
-	activator:EmitSound("vo/sandwicheat09.wav", 100, 100)
+	activator:EmitSound("vo/sandwicheat09.ogg", 100, 100)
 	self:Remove()
 end

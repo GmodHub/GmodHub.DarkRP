@@ -1,6 +1,6 @@
 -- Misc
 /*rp.shop.Add('Random Drop', 'random_drop')
-	:SetCat('General')
+	:SetCat('Основное')
 	:SetDesc('Buying this upgrade has a 50% chance of giving you a random upgrade')
 	:SetPrice(1000)
 	:SetStackable(false)
@@ -11,7 +11,7 @@
 
 
 rp.shop.Add('Большая Сумка', 'pocket_space_2')
-	:SetCat('General')
+	:SetCat('Основное')
 	:SetDesc('Увеличивает ваше итоговое место в инвентаре на 2.\n Можно докупать.')
 	:SetImage('004-clothing.png')
 	:SetPrice(300)
@@ -25,7 +25,7 @@ rp.shop.Add('Большая Сумка', 'pocket_space_2')
 	end)
 
 rp.shop.Add('Сумка с патронами', 'perma_ammo')
-	:SetCat('General')
+	:SetCat('Основное')
 	:SetDesc('При каждом возрождении вам выдаётся дополнительные 2 пачки патронов каждого вида.')
 	:SetImage('bullets.png')
 	:SetPrice(500)
@@ -41,7 +41,7 @@ rp.shop.Add('Сумка с патронами', 'perma_ammo')
 	end)
 
 rp.shop.Add('Премиум Банда', 'org_prem')
-	:SetCat('General')
+	:SetCat('Основное')
 	:SetDesc([[
 		Это улучшит банду в которой вы состоите
 		ДАЖЕ ЕСЛИ ВЫ НЕ ВЛАДЕЛЕЦ!
@@ -72,7 +72,7 @@ rp.shop.Add('Премиум Банда', 'org_prem')
 	end)
 
 rp.shop.Add('Лимит пропов', 'prop_limit_15')
-	:SetCat('General')
+	:SetCat('Основное')
 	:SetDesc('Добавлен к вашему лимиту + 15 пропов.\nМожно докупать.')
 	:SetIcon('models/weapons/w_toolgun.mdl')
 	:SetPrice(2000)
@@ -110,7 +110,7 @@ local sayings = {
 	'# потратил 250 кредитов поэтом я, сервер, должен сказать вам насколько он крут',
 }
 rp.shop.Add('Оповещение', 'announcement')
-	:SetCat('General')
+	:SetCat('Основное')
 	:SetDesc('Если вы устали и у вас есть лишние 250 кредитов, тогда вы сможете проинформировать весь сервер о вашей крутости.')
 	:SetImage('005-megaphone.png')
 	:SetPrice(250)
@@ -119,9 +119,9 @@ rp.shop.Add('Оповещение', 'announcement')
 		RunConsoleCommand('ba', 'tellall', msg)
 	end)
 
--- Cash Packs
+-- Денежные Наборы
 rp.shop.Add('$10,000', '10k_RP_Cash')
-	:SetCat('Cash Packs')
+	:SetCat('Денежные Наборы')
 	:SetDesc('Добавляет $10,000 на твой аккаунт')
 	:SetImage('money-1.png')
 	:SetPrice(150)
@@ -130,7 +130,7 @@ rp.shop.Add('$10,000', '10k_RP_Cash')
 	end)
 
 rp.shop.Add('$50,000', '50k_RP_Cash')
-	:SetCat('Cash Packs')
+	:SetCat('Денежные Наборы')
 	:SetDesc('Добавляет $50,000 на твой аккаунт.\nЭкономия 250 Cr')
 	:SetImage('money-2.png')
 	:SetPrice(500)
@@ -139,7 +139,7 @@ rp.shop.Add('$50,000', '50k_RP_Cash')
 	end)
 
 rp.shop.Add('$100,000', '100k_RP_Cash')
-	:SetCat('Cash Packs')
+	:SetCat('Денежные Наборы')
 	:SetDesc('Добавляет $100,000 на твой аккаунт.\nЭкономия 750 Cr')
 	:SetImage('money-3.png')
 	:SetPrice(750)
@@ -148,7 +148,7 @@ rp.shop.Add('$100,000', '100k_RP_Cash')
 	end)
 
 rp.shop.Add('$250,000', '250k_RP_Cash')
-	:SetCat('Cash Packs')
+	:SetCat('Денежные Наборы')
 	:SetDesc('Добавляет $250,000 на твой аккаунт.\nЭкономия 2750 Cr')
 	:SetImage('money-4.png')
 	:SetPrice(1000)
@@ -157,7 +157,7 @@ rp.shop.Add('$250,000', '250k_RP_Cash')
 	end)
 
 rp.shop.Add('$750,000', '750k_RP_Cash')
-	:SetCat('Cash Packs')
+	:SetCat('Денежные Наборы')
 	:SetDesc('Добавляет $750,000 на твой аккаунт.\nЭкономия 9250 Cr')
 	:SetImage('profits.png')
 	:SetPrice(2000)
@@ -166,9 +166,9 @@ rp.shop.Add('$750,000', '750k_RP_Cash')
 	end)
 
 
--- Karma Packs
+-- Наборы Кармы
 rp.shop.Add('200 Кармы', '200_karma')
-	:SetCat('Karma Packs')
+	:SetCat('Наборы Кармы')
 	:SetDesc('Добавляет 200 на твой аккаунт')
 	:SetImage('karma-1.png')
 	:SetPrice(150)
@@ -177,7 +177,7 @@ rp.shop.Add('200 Кармы', '200_karma')
 	end)
 
 rp.shop.Add('750 Кармы', '750_karma')
-	:SetCat('Karma Packs')
+	:SetCat('Наборы Кармы')
 	:SetDesc('Добавляет 750 кармы на твой аккаунт.\nЭкономия 100 Cr')
 	:SetImage('karma-2.png')
 	:SetPrice(500)
@@ -186,7 +186,7 @@ rp.shop.Add('750 Кармы', '750_karma')
 	end)
 
 rp.shop.Add('1,500 Кармы', '1500_karma')
-	:SetCat('Karma Packs')
+	:SetCat('Наборы Кармы')
 	:SetDesc('Добавляет 1,500 кармы на твой аккаунт.\nЭкономия 450 Cr')
 	:SetImage('karma-3.png')
 	:SetPrice(750)
@@ -195,7 +195,7 @@ rp.shop.Add('1,500 Кармы', '1500_karma')
 	end)
 
 rp.shop.Add('3,000 Кармы', '3000_karma')
-	:SetCat('Karma Packs')
+	:SetCat('Наборы Кармы')
 	:SetDesc('Добавляет 3,000 кармы на твой аккаунт.\nЭкономия 1250 Cr')
 	:SetImage('karma-4.png')
 	:SetPrice(1000)
@@ -204,7 +204,7 @@ rp.shop.Add('3,000 Кармы', '3000_karma')
 	end)
 
 rp.shop.Add('7,500 Кармы', '7500_karma')
-	:SetCat('Karma Packs')
+	:SetCat('Наборы Кармы')
 	:SetDesc('Добавляет 7,500 кармы на твой аккаунт.\nЭкономия 3700 Cr')
 	:SetImage('karma-5.png')
 	:SetPrice(2000)
@@ -214,7 +214,7 @@ rp.shop.Add('7,500 Кармы', '7500_karma')
 
 
 
--- Ranks
+-- Привилегии
 local vipdesc = [[
 		Особые VIP Профессии
 		VIP статус в TAB'e
@@ -229,7 +229,7 @@ local vipdesc = [[
 	]]
 
 rp.shop.Add('VIP (30 дней)', 'trial_vip')
-	:SetCat('Ranks')
+	:SetCat('Привилегии')
 	:SetDesc(vipdesc)
 	:SetImage('vip-30d.png')
 	:SetPrice(1000)
@@ -245,7 +245,7 @@ rp.shop.Add('VIP (30 дней)', 'trial_vip')
 
 
 rp.shop.Add('VIP (Навсегда)', 'vip')
-	:SetCat('Ranks')
+	:SetCat('Привилегии')
 	:SetDesc(vipdesc)
 	:SetImage('vip-perma.png')
 	:SetPrice(1500)
@@ -261,7 +261,7 @@ rp.shop.Add('VIP (Навсегда)', 'vip')
 
 /*
 rp.shop.Add('Модератор (30 дней)', 'trial_mod')
-	:SetCat('Ranks')
+	:SetCat('Привилегии')
 	:SetDesc([[
 		Модератор на 30 дней
 		Все VIP возможности навсегда:
@@ -295,7 +295,7 @@ rp.shop.Add('Модератор (30 дней)', 'trial_mod')
 	end)
 
 rp.shop.Add('Модератор (60 дней)', 'trial_mod_60d')
-	:SetCat('Ranks')
+	:SetCat('Привилегии')
 	:SetDesc([[
 		Модератор на 60 дней
 		Все VIP возможности навсегда:
@@ -329,9 +329,9 @@ rp.shop.Add('Модератор (60 дней)', 'trial_mod_60d')
 	end)
 */
 
--- Events
+-- Ивенты
 rp.shop.Add('Parkout Ивент', 'event_parkour')
-	:SetCat('Events')
+	:SetCat('Ивенты')
 	:SetDesc('Все смогут использовать паркур свеп.\nДействует 30 минут.')
 	:SetImage('parkour.png')
 	:SetPrice(300)
@@ -346,7 +346,7 @@ rp.shop.Add('Parkout Ивент', 'event_parkour')
 	end)
 
 rp.shop.Add('Vape Ивент', 'event_vape')
-	:SetCat('Events')
+	:SetCat('Ивенты')
 	:SetDesc('Все получают электронную сигарету при спавне.\nДействует 30 минут.')
 	:SetIcon('models/swamponions/vape.mdl')
 	:SetPrice(300)
@@ -362,7 +362,7 @@ rp.shop.Add('Vape Ивент', 'event_vape')
 
 
 rp.shop.Add('VIP Ивент', 'event_vip')
-	:SetCat('Events')
+	:SetCat('Ивенты')
 	:SetDesc('Каждый получит возможности VIP привилегии.\nДействует 30 минут.')
 	:SetImage('ticket.png')
 	:SetPrice(350)
@@ -377,7 +377,7 @@ rp.shop.Add('VIP Ивент', 'event_vip')
 	end)
 
 rp.shop.Add('Printer Ивент', 'event_printer')
-	:SetCat('Events')
+	:SetCat('Ивенты')
 	:SetDesc('Все принтеры будут печатать на 50% больше.\nДействует 30 минут.')
 	:SetIcon('models/gmh/printer/printer.mdl')
 	:SetPrice(450)
@@ -392,7 +392,7 @@ rp.shop.Add('Printer Ивент', 'event_printer')
 	end)
 
 rp.shop.Add('Crafting Ивент', 'event_crafting')
-	:SetCat('Events')
+	:SetCat('Ивенты')
 	:SetDesc('Everyone\'s labs will craft 25% faster.\nLasts 30 minutes.')
 	:SetIcon('models/props/cs_italy/it_mkt_table3.mdl')
 	:SetPrice(450)
@@ -407,7 +407,7 @@ rp.shop.Add('Crafting Ивент', 'event_crafting')
 	end)
 
 rp.shop.Add('BURGATRON', 'event_burger')
-	:SetCat('Events')
+	:SetCat('Ивенты')
 	:SetDesc('Players spawn with BURGATRON to turn into burgers, and can eat each other to escape hunger.\nLasts 30 minutes.')
 	:SetIcon('models/food/burger.mdl')
 	:SetPrice(300)
@@ -422,100 +422,100 @@ rp.shop.Add('BURGATRON', 'event_burger')
 	end)
 
 
--- Permanent Weapons
+-- Оружие Навсегда
 rp.shop.Add('Dab', 'perma_dab')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetImage('dab.png')
 	:SetPrice(350)
 	:SetWeapon('weapon_dab')
 
 rp.shop.Add('Camera', 'perma_camera')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetIcon('models/MaxOfS2D/camera.mdl')
 	:SetPrice(350)
 	:SetWeapon('gmod_camera')
 
 rp.shop.Add('Bug Bait', 'bug_bait')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetIcon('models/weapons/w_bugbait.mdl')
 	:SetPrice(350)
 	:SetWeapon('weapon_bugbait')
 
 rp.shop.Add('Crowbar', 'perma_crowbar')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(900)
 	:SetWeapon('weapon_crowbar')
 	:SetIcon('models/weapons/w_crowbar.mdl')
 
 rp.shop.Add('Stunstick', 'perma_stunstick')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(900)
 	:SetWeapon('weapon_stunstick')
 	:SetIcon('models/weapons/w_stunbaton.mdl')
 
 rp.shop.Add('Fists', 'perma_fists')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetImage('boxing-gloves.png')
 	:SetPrice(900)
 	:SetWeapon('weapon_combo_fists')
 
 rp.shop.Add('Climb Swep', 'climb_swep')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetImage('parkour.png')
 	:SetPrice(1000)
 	:SetWeapon('climb_swep')
 
 rp.shop.Add('Pimp Hand', 'perma_pimphand')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetImage('pimp.png')
 	:SetPrice(1000)
 	:SetWeapon('weapon_pimphand')
 
 rp.shop.Add('Fiveseven', 'perma_fiveseven')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(1000)
 	:SetWeapon('swb_fiveseven')
 	:SetIcon('models/weapons/3_pist_fiveseven.mdl')
 
 rp.shop.Add('P228', 'perma_p228')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(1000)
 	:SetWeapon('swb_p228')
 	:SetIcon('models/weapons/3_pist_p228.mdl')
 
 rp.shop.Add('USP .45', 'perma_usp')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(1000)
 	:SetWeapon('swb_usp')
 	:SetIcon('models/weapons/3_pist_usp.mdl')
 
 rp.shop.Add('.357 Magnum', 'perma_357')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(1500)
 	:SetWeapon('swb_357')
 	:SetIcon('models/weapons/w_357.mdl')
 
 rp.shop.Add('Desert Eagle', 'perma_deagle')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(1500)
 	:SetWeapon('swb_deagle')
 	:SetIcon('models/weapons/3_pist_deagle.mdl')
 
 rp.shop.Add('Glock-18', 'perma_glock')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(1500)
 	:SetWeapon('swb_glock18')
 	:SetIcon('models/weapons/3_pist_glock18.mdl')
 
 rp.shop.Add('Taser', 'perma_taser')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetIcon('models/weapons/w_pistol.mdl')
 	:SetPrice(1500)
 	:SetWeapon('weapon_taser')
 
--- Permanent Weapons - high price
+-- Оружие Навсегда - high price
 rp.shop.Add('Grenade', 'perma_grenade')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(12500)
 	:SetWeapon('weapon_frag')
 	:SetDesc('Yes, you really spawn with a perma grenade. If you buy this you have a spending problem, thank you for your money :)')
@@ -529,7 +529,7 @@ rp.shop.Add('Grenade', 'perma_grenade')
 	end)
 
 rp.shop.Add('Slam', 'perma_slam')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(25000)
 	:SetWeapon('weapon_slam')
 	:SetDesc('Yes, you really spawn with a perma slam. If you buy this you have a spending problem, thank you for your money :)')
@@ -543,7 +543,7 @@ rp.shop.Add('Slam', 'perma_slam')
 	end)
 
 rp.shop.Add('Crossbow', 'perma_crossbow')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(50000)
 	:SetWeapon('weapon_crossbow')
 	:SetDesc('Yes, you really spawn with a perma crossbow. If you buy this you have a spending problem, thank you for your money :)')
@@ -557,7 +557,7 @@ rp.shop.Add('Crossbow', 'perma_crossbow')
 	end)
 
 rp.shop.Add('RPG', 'perma_rpg')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(100000)
 	:SetWeapon('weapon_rpg')
 	:SetDesc('Yes, you really spawn with a perma RPG. If you buy this you have a spending problem, thank you for your money :)')
@@ -571,7 +571,7 @@ rp.shop.Add('RPG', 'perma_rpg')
 	end)
 
 rp.shop.Add('C4', 'perma_c4')
-	:SetCat('Permanent Weapons')
+	:SetCat('Оружие Навсегда')
 	:SetPrice(200000)
 	:SetWeapon('weapon_c4')
 	:SetDesc('Yes, you really spawn with a perma C4. If you buy this you have a spending problem, thank you for your money :)')
@@ -739,7 +739,7 @@ local permaKnives = {
 }
 
 local knife = rp.shop.Add('Basic Knife', 'perma_knife')
-	:SetCat('Permanent Knives')
+	:SetCat('Ножи Навсегда')
 	:SetPrice(300)
 	:SetWeapon('swb_knife')
 	:SetIcon('models/weapons/w_knife_t.mdl')
@@ -772,7 +772,7 @@ for k, v in ipairs(permaKnives) do
 	}, v[3])
 
 	local knife = rp.shop.Add(v[2], v[1])
-		:SetCat('Permanent Knives')
+		:SetCat('Ножи Навсегда')
 		:SetPrice(800)
 		:SetIcon(v[4])
 		:SetStackable(false)
@@ -783,7 +783,7 @@ for k, v in ipairs(permaKnives) do
 end
 
 rp.shop.Add('Basic Vape', 'perma_vape')
-	:SetCat('Permanent Vapes')
+	:SetCat('Вейпы Навсегда')
 	:SetIcon('models/swamponions/vape.mdl')
 	:SetPrice(300)
 	:SetWeapon('weapon_vape')
@@ -920,7 +920,7 @@ local vapeFlavors = {
 
 for k, v in ipairs(vapeFlavors) do
 	local vapeFlavor = rp.shop.Add(v[2], v[1])
-		:SetCat('Permanent Vapes')
+		:SetCat('Вейпы Навсегда')
 		:SetIcon('models/swamponions/vape.mdl')
 		:SetPrice(v[3])
 		:SetStackable(false)

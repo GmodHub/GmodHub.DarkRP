@@ -1,17 +1,17 @@
 -- Printers
 
 rp.AddEntity('Денежный Принтер',{
-	catagory = 'Money printing devices',
+	catagory = 'Устройства для печати',
 	ent = 'money_printer',
 	model = 'models/gmh/printer/printer.mdl',
 	price = 3000,
-	max = 2,
+	max = 4,
 	cmd = '/buyprinter',
 	pocket = false
 })
 
 rp.AddEntity('Чернильный Картридж',{
-	catagory = 'Money printing devices',
+	catagory = 'Устройства для печати',
 	ent = 'money_printer_ink',
 	model = 'models/props_lab/reciever01d.mdl',
 	price = 1500,
@@ -20,7 +20,7 @@ rp.AddEntity('Чернильный Картридж',{
 })
 
 rp.AddEntity('РемКомплект Принтера',{
-	catagory = 'Money printing devices',
+	catagory = 'Устройства для печати',
 	ent = 'money_printer_fix',
 	model = 'models/props_c17/tools_wrench01a.mdl',
 	price = 500,
@@ -29,7 +29,7 @@ rp.AddEntity('РемКомплект Принтера',{
 })
 
 rp.AddEntity('Корзина для денег', {
-	catagory = 'Money printing devices',
+	catagory = 'Устройства для печати',
 	ent = 'money_basket',
 	model = 'models/props_junk/PlasticCrate01a.mdl',
 	price = 500,
@@ -48,7 +48,7 @@ rp.AddEntity('Картина', {
 })
 
 rp.AddEntity('Металлоискатель', {
-	catagory = 'Security',
+	catagory = 'Охрана',
 	ent = 'metal_detector',
 	model = 'models/props_wasteland/interior_fence002e.mdl',
 	price = 7500,
@@ -258,7 +258,7 @@ rp.AddEntity('Микроволновка', {
 })
 
 rp.AddEntity('50/50 Игровой Автомат', {
-	catagory = 'Gambling devices',
+	catagory = 'Игровые устройства',
 	ent = 'gambling_machine_fiftyfifty',
 	model = 'models/props/cs_office/computer.mdl',
 	price = 10000,
@@ -269,7 +269,7 @@ rp.AddEntity('50/50 Игровой Автомат', {
 })
 
 rp.AddEntity('Рулетка Игровой Автомат', {
-	catagory = 'Gambling devices',
+	catagory = 'Игровые устройства',
 	ent = 'gambling_machine_spinwheel',
 	model = 'models/props/cs_office/computer.mdl',
 	price = 25000,
@@ -280,7 +280,7 @@ rp.AddEntity('Рулетка Игровой Автомат', {
 })
 
 rp.AddEntity('Базовый Игровой Автомат', {
-	catagory = 'Gambling devices',
+	catagory = 'Игровые устройства',
 	ent = 'gambling_machine_basicslots',
 	model = 'models/props/cs_office/computer.mdl',
 	price = 35000,

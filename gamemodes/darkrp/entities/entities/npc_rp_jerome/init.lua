@@ -7,8 +7,10 @@ function ENT:StartTouch(ent)
 	local owner = ent.DrugOwner
 	if IsValid(ent) and IsValid(owner) then
 		local info = ent.DrugInfo
+		local price = math.Round(info.BuyPrice * (nw.GetGlobal('JeromePrice') or 1))
+
 		ent:Remove()
-		owner:AddMoney(info.BuyPrice)
+		owner:AddMoney(price)
 		rp.Notify(owner, NOTIFY_GREEN, term.Get('PlayerSoldDrugs'), info.Name, rp.FormatMoney(info.BuyPrice))
 	end
 end

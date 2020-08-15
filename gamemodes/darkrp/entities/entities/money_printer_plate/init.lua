@@ -36,6 +36,7 @@ end
 
 hook.Add("InitPostEntity", "rp.MoneyPrinterPlate", function()
 	timer.Create("rp.PrinterPlates", math.random(900, 3600), 0, function()
+		if (#ents.FindByClass("money_printer_plate") > 1) then return end
 		for k, v in pairs(rp.cfg.PrinterPlates[game.GetMap()]) do
 			local machine = ents.Create('money_printer_plate')
 			machine:SetPos(v.Pos)

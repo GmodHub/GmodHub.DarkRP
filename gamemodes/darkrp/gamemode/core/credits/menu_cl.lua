@@ -40,7 +40,7 @@ function rp.shop.AddCategory(name, callback)
 	upgradeCatOrder[#upgradeCatOrder + 1] = name
 end
 
-rp.shop.AddCategory('General', function(upgrade, parent)
+rp.shop.AddCategory('Основное', function(upgrade, parent)
 	local text = string.Wrap('ui.22', upgrade:GetDesc(), parent:GetWide() - 10)
 
 	local y = (parent:GetTall() - (#text * 22)) * 0.5
@@ -56,15 +56,15 @@ rp.shop.AddCategory('General', function(upgrade, parent)
 	end
 end)
 
-rp.shop.AddCategory('Ranks', upgradeCats['General'])
-rp.shop.AddCategory('Cash Packs', upgradeCats['General'])
-rp.shop.AddCategory('Karma Packs', upgradeCats['General'])
-rp.shop.AddCategory('Permanent Weapons', function(upgrade, parent)
+rp.shop.AddCategory('Привилегии', upgradeCats['Основное'])
+rp.shop.AddCategory('Денежные Наборы', upgradeCats['Основное'])
+rp.shop.AddCategory('Наборы Кармы', upgradeCats['Основное'])
+rp.shop.AddCategory('Оружие Навсегда', function(upgrade, parent)
 	local rad
 	if parent.HasPurchased then
 		local choices = cvar.GetValue('perma_weapon_choices')
 		rad = parent:Add("ui_checkbox")
-		rad:SetText('Enable')
+		rad:SetText('Включить')
 		rad:SetPos(5, 5)
 		rad:SizeToContents()
 
@@ -82,7 +82,7 @@ rp.shop.AddCategory('Permanent Weapons', function(upgrade, parent)
 	end
 
 		if (not upgrade:GetIcon()) then
-			upgradeCats["General"](upgrade, parent)
+			upgradeCats["Основное"](upgrade, parent)
 			return
 		end
 
@@ -125,12 +125,12 @@ rp.shop.AddCategory('Permanent Weapons', function(upgrade, parent)
 		rad:MoveToFront()
 	end
 end)
-rp.shop.AddCategory('Permanent Knives', function(upgrade, parent)
+rp.shop.AddCategory('Ножи Навсегда', function(upgrade, parent)
 	local rad
 	if parent.HasPurchased then
 		local choices = cvar.GetValue('perma_weapon_choices')
 		rad = parent:Add("ui_checkbox")
-		rad:SetText('Enable')
+		rad:SetText('Включить')
 		rad:SetPos(5, 5)
 		rad:SizeToContents()
 
@@ -145,7 +145,7 @@ rp.shop.AddCategory('Permanent Knives', function(upgrade, parent)
 	end
 
 	if (not upgrade:GetIcon()) then
-		upgradeCats["General"](upgrade, parent)
+		upgradeCats["Основное"](upgrade, parent)
 
 		return
 	end
@@ -193,12 +193,12 @@ rp.shop.AddCategory('Permanent Knives', function(upgrade, parent)
 		rad:MoveToFront()
 	end
 end)
-rp.shop.AddCategory('Permanent Vapes', function(upgrade, parent)
+rp.shop.AddCategory('Вейпы Навсегда', function(upgrade, parent)
 	local rad
 	if parent.HasPurchased then
 		local choices = cvar.GetValue('perma_weapon_choices')
 		rad = parent:Add("ui_checkbox")
-		rad:SetText('Enable')
+		rad:SetText('Включить')
 		rad:SetPos(5, 5)
 		rad:SizeToContents()
 
@@ -244,8 +244,8 @@ rp.shop.AddCategory('Permanent Vapes', function(upgrade, parent)
 		rad:MoveToFront()
 	end
 end)
-rp.shop.AddCategory('Events', upgradeCats['General'])
-rp.shop.AddCategory('Purchased', function(upgrade, parent)
+rp.shop.AddCategory('Ивенты', upgradeCats['Основное'])
+rp.shop.AddCategory('Приобретено', function(upgrade, parent)
 	upgradeCats[upgrade:GetCat()](upgrade, parent)
 end)
 
@@ -445,7 +445,7 @@ function PANEL:AddUpgrades(upgrades)
 		end
 
 		if v.HasPurchased then
-			table.insert(sortedUpgrades['Purchased'], v)
+			table.insert(sortedUpgrades['Приобретено'], v)
 		else
 			table.insert(sortedUpgrades[category], v)
 		end

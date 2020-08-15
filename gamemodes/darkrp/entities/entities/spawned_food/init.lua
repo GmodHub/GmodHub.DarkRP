@@ -22,5 +22,5 @@ function ENT:Use(activator,caller)
 	if activator:IsBanned() then return end
 	activator:AddHunger(self.FoodEnergy)
 	self:Remove()
-	activator:EmitSound("vo/sandwicheat09.wav")
+	activator:EmitSound("vo/sandwicheat09.ogg")
 end

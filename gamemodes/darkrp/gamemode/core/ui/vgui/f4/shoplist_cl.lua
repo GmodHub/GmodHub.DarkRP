@@ -64,7 +64,7 @@ function PANEL:Init()
 	self.List:SetSpacing(-1)
 	self.List.Paint = function() end
 
-	self.List:AddSpacer('Ammo'):SetTall(30)
+	self.List:AddSpacer('Патроны'):SetTall(30)
 	cat = ui.Create('rp_shopcatagory')
 	for k, v in ipairs(rp.ammoTypes) do
 
@@ -74,7 +74,7 @@ function PANEL:Init()
 	end
 	self.List:AddItem(cat)
 
-	self.List:AddSpacer('Food'):SetTall(30)
+	self.List:AddSpacer('Еда'):SetTall(30)
 	if (#team.GetPlayers(TEAM_COOK) < 1) or LocalPlayer():GetTeamTable().cook then
 		local cat = ui.Create('rp_shopcatagory')
 		for k, v in ipairs(rp.Foods) do

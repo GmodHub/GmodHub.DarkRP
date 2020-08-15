@@ -90,7 +90,7 @@ local TIME_MONTH 	= TIME_DAY * (365.2425/12)
 local TIME_YEAR 	= TIME_DAY * 365.2425
 
 local function plural(a, n)
-	return (n == 1) and a or  a .. 's'
+	return a
 end
 
 function string.FormatTime(num, limit)
@@ -100,31 +100,31 @@ function string.FormatTime(num, limit)
 
 		if (num >= TIME_YEAR) or (templimit <= -7) then
 			local c = math.floor(num / TIME_YEAR)
-			ret[#ret + 1] = c .. ' ' .. plural('year', c)
+			ret[#ret + 1] = c .. ' ' .. plural('г', c)
 			num = num - TIME_YEAR * c
 		elseif (num >= TIME_MONTH) or (templimit <= -6) then
 			local c = math.floor(num / TIME_MONTH)
-			ret[#ret + 1] = c .. ' ' .. plural('month', c)
+			ret[#ret + 1] = c .. ' ' .. plural('мес', c)
 			num = num - TIME_MONTH * c
 		elseif (num >= TIME_WEEK) or (templimit <= -5) then
 			local c = math.floor(num / TIME_WEEK)
-			ret[#ret + 1] = c .. ' ' .. plural('week', c)
+			ret[#ret + 1] = c .. ' ' .. plural('н', c)
 			num = num - TIME_WEEK * c
 		elseif (num >= TIME_DAY) or (templimit <= -4)then
 			local c = math.floor(num / TIME_DAY)
-			ret[#ret + 1] = c .. ' ' .. plural('day', c)
+			ret[#ret + 1] = c .. ' ' .. plural('д', c)
 			num = num - TIME_DAY * c
 		elseif (num >= TIME_HOUR) or (templimit <= -3) then
 			local c = math.floor(num / TIME_HOUR)
-			ret[#ret + 1] = c .. ' ' .. plural('hour', c)
+			ret[#ret + 1] = c .. ' ' .. plural('ч', c)
 			num = num - TIME_HOUR * c
 		elseif (num >= TIME_MINUTE) or (templimit <= -2) then
 			local c = math.floor(num / TIME_MINUTE)
-			ret[#ret + 1] = c .. ' ' .. plural('minute', c)
+			ret[#ret + 1] = c .. ' ' .. plural('мин', c)
 			num = num - TIME_MINUTE * c
 		elseif num >= TIME_SECOND or (templimit <= -1) then
 			local c = math.floor(num / TIME_SECOND)
-			ret[#ret + 1] = c .. ' ' .. plural('second', c)
+			ret[#ret + 1] = c .. ' ' .. plural('сек', c)
 			num = num - TIME_SECOND * c
 		else
 			break
@@ -144,7 +144,7 @@ function string.FormatTime(num, limit)
 		if i == 1 then
 			str = str .. ret[i]
 		elseif i == #ret then
-			str = str .. ' and ' .. ret[i]
+			str = str .. ' и ' .. ret[i]
 		else
 			str = str .. ', ' .. ret[i]
 		end

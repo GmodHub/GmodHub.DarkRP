@@ -203,7 +203,7 @@ chat.Register 'Org'
 		end
 	end)
 	:Filter(function(pl, message)
-		return rp.orgs.GetOnlineMembers(pl:GetOrg())
+		return rp.orgs.GetOnlineMembers(pl:GetOrgUID())
 	end)
 
 chat.Register '911'

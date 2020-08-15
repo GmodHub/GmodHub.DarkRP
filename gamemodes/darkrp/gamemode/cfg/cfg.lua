@@ -2,7 +2,7 @@ rp.cfg.StartMoney 			= 25000
 rp.cfg.WelfareAmount		= 200
 rp.cfg.WelfareCutoff		= 50000
 rp.cfg.StartKarma			= 50
-rp.cfg.RespawnTime 		= 45
+rp.cfg.RespawnTime 		= 35
 
 rp.cfg.MoneyPerKarma 		= 125
 rp.cfg.SecondMoneyPerKarma	= 150
@@ -37,7 +37,7 @@ rp.cfg.RunSpeed 			= 280
 
 -- Printers
 rp.cfg.PrintDelay 			= 300
-rp.cfg.PrintAmount 			= 1000
+rp.cfg.PrintAmount 			= 1500
 rp.cfg.InkCost 				= 250
 
 -- Item Lab

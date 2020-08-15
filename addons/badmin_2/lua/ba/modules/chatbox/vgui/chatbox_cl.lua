@@ -61,7 +61,7 @@ local function ParseForEmotes(...)
 						local earliest = math.huge
 						local emote
 						for i, l in pairs(ba.chatEmotes) do
-							local pos = string.find(n, i, 1, true)
+							local pos = utf8.find(n, i, 1, true)
 							if (pos and pos < earliest) then
 								earliest = pos
 								emote = i
@@ -833,13 +833,13 @@ function PANEL:AddMessage(...)
 		for i, l in ipairs(colors) do
 			if (l.Pos <= cursnip and (!colors[i+1] or colors[i+1].Pos > cursnip)) then
 				lbl:AddColor(1, l.Col)
-			elseif (l.Pos >= cursnip and l.Pos < cursnip + #v) then
+			elseif (l.Pos >= cursnip and l.Pos < cursnip + utf8.len(v)) then
 				lbl:AddColor(l.Pos - cursnip + 1, l.Col)
 			end
 		end
 
 		for i, l in ipairs(emotes) do
-			if (l.Pos >= cursnip and l.Pos < cursnip + #v) then
+			if (l.Pos >= cursnip and l.Pos < cursnip + utf8.len(v)) then
 				lbl:AddEmote(l.Pos - cursnip + 1, l.Emote)
 			end
 		end
@@ -847,7 +847,7 @@ function PANEL:AddMessage(...)
 		lbl:SetText(v)
 		msgFrame:AddItem(lbl)
 
-		cursnip = cursnip + #v
+		cursnip = cursnip + utf8.len(v)
 	end
 
 	chat.PlaySound()

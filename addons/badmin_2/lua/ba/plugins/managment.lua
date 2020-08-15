@@ -1,13 +1,13 @@
 -------------------------------------------------
 -- Mute
 -------------------------------------------------
-term.Add('AdminMutedPlayer', '# has muted # for #.')
-term.Add('AdminMutedYou', '# has muted you for #.')
-term.Add('AdminUnmutedYou', '# has unmuted you.')
-term.Add('AdminUnmutedPlayer', '# has unmuted #.')
-term.Add('YouAreUnmuted', 'You have been unmuted.')
-term.Add('PlayerAlreadyMuted', '# is already muted!')
-term.Add('PlayerNotMuted', '# is not muted!')
+term.Add('AdminMutedPlayer', '# выдал мут игроку # на #.')
+term.Add('AdminMutedYou', '# выдал вам мут на #.')
+term.Add('AdminUnmutedYou', '# снял с вам мут.')
+term.Add('AdminUnmutedPlayer', '# снял мут с #.')
+term.Add('YouAreUnmuted', 'С вас сняли мут.')
+term.Add('PlayerAlreadyMuted', '# уже в муте!')
+term.Add('PlayerNotMuted', '# не в муте!')
 
 ba.AddCommand('Mute', function(pl, targ, time)
 	if (not targ:IsChatMuted()) or (not targ:IsVoiceMuted()) then
@@ -44,11 +44,11 @@ end)
 -------------------------------------------------
 -- Mute Chat
 -------------------------------------------------
-term.Add('AdminUnmutedPlayerChat', '# has unmuted #\'s chat.')
-term.Add('AdminUnmutedYouChat', '# has unmuted your chat.')
-term.Add('YouAreUnmutedChat', 'Your chat has been unmuted.')
-term.Add('AdminMutedPlayerChat', '# has muted #\'s chat for #.')
-term.Add('AdminMutedYouChat', '# has muted your chat for #.')
+term.Add('AdminUnmutedPlayerChat', '# снаял мут чата игроку #.')
+term.Add('AdminUnmutedYouChat', '# снял вам мут чата.')
+term.Add('YouAreUnmutedChat', 'Ваш мут чата был снят.')
+term.Add('AdminMutedPlayerChat', '# выдал мут чата игроку # на #.')
+term.Add('AdminMutedYouChat', '# выдал вам мут чата на #.')
 
 ba.AddCommand('MuteChat', function(pl, targ, time)
 	if (not targ:IsChatMuted()) then
@@ -82,11 +82,11 @@ end)
 -------------------------------------------------
 -- Mute Voice
 -------------------------------------------------
-term.Add('AdminUnmutedPlayerVoice', '# has unmuted #\'s voice.')
-term.Add('AdminUnmutedYouVoice', '# has unmuted your voice.')
-term.Add('YouAreUnmutedVoice', 'Your voice has been unmuted.')
-term.Add('AdminMutedPlayerVoice', '# has muted #\'s voice for #.')
-term.Add('AdminMutedYouVoice', '# has muted your voice for #.')
+term.Add('AdminUnmutedPlayerVoice', '# снял с вам мут голосового чата #.')
+term.Add('AdminUnmutedYouVoice', '# снял с вас мут голосового чата.')
+term.Add('YouAreUnmutedVoice', 'Ваш мут голосового чата был снят.')
+term.Add('AdminMutedPlayerVoice', '# выдал мут голосового чата игроку # на #.')
+term.Add('AdminMutedYouVoice', '# выдал вам мут голосового чата на #.')
 
 ba.AddCommand('MuteVoice', function(pl, targ, time)
 	if (not targ:IsVoiceMuted()) then
@@ -120,8 +120,8 @@ end)
 -------------------------------------------------
 -- Spectate
 -------------------------------------------------
-term.Add('AdminIsSpectating', '# is currently spectating someone!')
-term.Add('SpectateTargInvalid', 'You must choose a valid target!')
+term.Add('AdminIsSpectating', '# в данный момент следит за кем-то!')
+term.Add('SpectateTargInvalid', 'Вы должны выбрать действительную цель!')
 
 local specPlayers = {}
 local handleSpectate

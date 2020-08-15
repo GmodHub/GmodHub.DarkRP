@@ -101,7 +101,7 @@ function PANEL:Init()
 		self.HasDoneOne = true
 		gui.OpenURL('https://vk.com/gmdhub')
 	end
-
+	
 	self.SyncTS = ui.Create('ui_reawrd_check', self)
 	self.SyncTS:SetTitle('Discord - 150 Кредитов')
 	self.SyncTS:SetValue('Вступить в наш дискорд сервер')
@@ -109,7 +109,7 @@ function PANEL:Init()
 	self.SyncTS.IsChecked = paneldata.award_teamspeak
 	self.SyncTS.IsClaimed = paneldata.award_teamspeak_claimed
 	self.SyncTS.DoClick = function()
-		self.HasDoneOne = true
+		/*self.HasDoneOne = true
 		ui.Create('ui_frame', function(self)
 			self:SetTitle('Sync TeamSpeak')
 			self:SetWide(550)
@@ -122,7 +122,7 @@ function PANEL:Init()
 				p:SetTall(y + self:GetTall())
 				p:Focus()
 			end, self)
-		end)
+		end)*/
 	end
 
 	self.SteamName = ui.Create('ui_reawrd_check', self)

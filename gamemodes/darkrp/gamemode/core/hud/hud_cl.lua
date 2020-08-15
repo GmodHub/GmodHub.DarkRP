@@ -1249,7 +1249,7 @@ function GM:DrawPlayerInfo(pl, simpleMath)
 		end
 
 		if pl:IsWanted() then
-			x, y, w, h, y2 = drawinfo('Fugitive', color_red)
+			x, y, w, h, y2 = drawinfo('Подозреваемый', color_red)
 
 			surface_SetMaterial(material_lockdown)
 			surface_SetDrawColor(color_white.r, color_white.g, color_white.b)

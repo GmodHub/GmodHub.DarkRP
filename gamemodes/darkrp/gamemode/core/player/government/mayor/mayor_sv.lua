@@ -105,6 +105,7 @@ rp.AddCommand("lottery", function(ply, amount)
 
 	timer.Create("Lottery", 30, 1, EndLottery)
 end)
+:AddAlias('lotto')
 :AddParam(cmd.NUMBER)
 :SetCooldown(300)
 
@@ -199,7 +200,7 @@ end)
 
 -- Demote classes upon death
 hook("PlayerDeath", "DemoteOnDeath",function(v, k)
-	if (v:IsMayor() and not nw.GetGlobal('mayorGrace') or v:IsMayor() and (nw.GetGlobal('mayorGrace') and nw.GetGlobal('mayorGrace') >= CurTime())) then
+	if (v:IsMayor() and (nw.GetGlobal('mayorGrace') >= CurTime())) then
 		GAMEMODE:UnLockdown()
 		nw.SetGlobal('mayorGrace', nil)
 		rp.resetLaws()

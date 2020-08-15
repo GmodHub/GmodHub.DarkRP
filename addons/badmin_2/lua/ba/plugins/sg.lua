@@ -1,5 +1,5 @@
-term.Add('ScreengrabStarted', 'Screengrab started on #, please allow up to 30 seconds for this to finish.')
-term.Add('ScreengrabCooldown', '# has an active screengrab uploading please wait!')
+term.Add('ScreengrabStarted', 'Взят скриншот игрока #, пожалуйста подождите около 30 секунд для загрузки.')
+term.Add('ScreengrabCooldown', '# уже загружает свой скриншот!')
 
 local screengrabs = {}
 local uniqueid = 0
@@ -71,7 +71,7 @@ else
 				self:SetSize(w, h)
 				self:MakePopup()
 				self:Center()
-				self:SetTitle('Screen Capture: ' .. pl:NameID())
+				self:SetTitle('Скриншот Игрока: ' .. pl:NameID())
 			end)
 
 			ui.Create('DHTML', function(self)

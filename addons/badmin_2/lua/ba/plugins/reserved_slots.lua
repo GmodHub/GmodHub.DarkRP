@@ -1,4 +1,4 @@
-if (SERVER) then
+/*if (SERVER) then
 	util.AddNetworkString 'ba.FullServerRedirect'
 
 	hook.Add('playerRankLoaded', 'PerformFullServerRedirect', function(pl)

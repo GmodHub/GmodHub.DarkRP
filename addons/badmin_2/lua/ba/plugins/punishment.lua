@@ -6,10 +6,10 @@ term.Add('AdminUpdatedBan', '# обновил бан # до #. Reason: #.')
 term.Add('BanReasonReserved', '"malicious activity" is a reserved ban reason.')
 term.Add('PlayerAlreadyBanned', 'This player is already banned. You need flag "D" in order to update bans.')
 term.Add('BanNeedsPermission', 'You need to specify the staff member who gave you permission to make this permaban. Add perm:(their name) to your reason.')
-term.Add('AdminPermadPlayer', '# banned # permanently. Reason: #.')
-term.Add('AdminUpdatedBanPerma', '# updated ban for # to permanent. Reason: #.')
+term.Add('AdminPermadPlayer', '# забанил # навсегда. Причина: #.')
+term.Add('AdminUpdatedBanPerma', '# обновил бан игрока # до перманентного. Причина: #.')
 term.Add('PlayerAlreadyPermad', 'This player is already banned! You need flag "D" in order to edit bans to permanent.')
-term.Add('AdminUnbannedPlayer', '# unbanned #. Reason: #.')
+term.Add('AdminUnbannedPlayer', '# разбанил #. Причина: #.')
 
 -------------------------------------------------
 -- Kick

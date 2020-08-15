@@ -49,7 +49,7 @@ local function loadEmotesPayload(cachefile, url, imgurl, resolvePayload)
 end
 
 loadEmotesPayload('badmin/emotes/forum.dat', 'https://cdn.superiorservers.co/forum_ratings/list.json', 'https://cdn.superiorservers.co/forum_ratings/images/{item_id}.png')
-loadEmotesPayload('badmin/emotes/custom.dat', 'https://gmod-api.superiorservers.co/api/emotes/custom', 'https://superiorservers.co/static/images/emotes/{item_id}.png')
+loadEmotesPayload('badmin/emotes/custom.dat', 'https://gmodhub.com/api/emotes/custom', 'https://superiorservers.co/static/images/emotes/{item_id}.png')
 loadEmotesPayload('badmin/emotes/twemoji_v2.dat', 'https://cdn.superiorservers.co/twemoji/list_v2.json', 'https://cdn.superiorservers.co/twemoji/36x36/{item_id}.png')
 loadEmotesPayload('badmin/emotes/twitch_v41.dat', 'https://api.twitchemotes.com/api/v4/channels/0', 'https://static-cdn.jtvnw.net/emoticons/v1/{item_id}/4.0', function(data) 
 	local emotes = {}
